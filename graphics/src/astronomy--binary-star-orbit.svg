@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="astronomy--binary-star-orbit" data-discipline="astronomy" data-tags="binary-star,orbit,center-of-mass,gravity,stars,barycenter">
+<title>Binary star orbit</title>
+<desc>Two stars of unequal mass circle a point between them; the lighter star travels the wider path, the heavier the smaller one.</desc>
+<style>
+@keyframes a-spin{to{transform:rotate(360deg)}}
+@keyframes a-spinr{to{transform:rotate(-360deg)}}
+@keyframes a-lap{to{offset-distance:100%}}
+.a-bin{transform-box:view-box;transform-origin:200px 118px;animation:a-spin 10s linear infinite;}
+</style>
+<circle class="f" cx="200" cy="118" r="28"/>
+<circle class="f" cx="200" cy="118" r="74"/>
+<path class="q" d="M195,118h10M200,113v10"/>
+<g class="a-bin">
+<path class="k f" d="M172,118H274"/>
+<circle class="w" cx="172" cy="118" r="13"/>
+<circle class="s" cx="172" cy="118" r="13"/>
+<circle class="p" cx="172" cy="118" r="5"/>
+<circle class="w" cx="274" cy="118" r="8"/>
+<circle class="s" cx="274" cy="118" r="8"/>
+</g>
+<text class="t" x="200" y="216" text-anchor="middle">both stars circle their common centre of mass</text>
+</svg>

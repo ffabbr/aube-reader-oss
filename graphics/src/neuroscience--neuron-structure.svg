@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="neuroscience--neuron-structure" data-discipline="neuroscience" data-tags="neuron,dendrites,axon,myelin,soma,nervous-system,anatomy">
+<title>Neuron structure</title>
+<desc>A neuron: dendrites gather signals into the cell body, and an impulse leaps from gap to gap along the myelinated axon to its branching terminals.</desc>
+<style>
+.a-run{offset-path:path("M137.3,120.6H336.3");offset-rotate:0deg;animation:a-run 2.5s ease-in-out infinite;}
+@keyframes a-run{0%{offset-distance:0%;opacity:0}5%{opacity:1}16%,30%{offset-distance:34.6%}44%,58%{offset-distance:61.2%}72%,86%{offset-distance:87.8%}96%{opacity:1}100%{offset-distance:100%;opacity:0}}
+</style>
+<path class="q" d="M100.2,103.5Q95.6,88.1 83,78.2M83,78.2Q71.3,76.2 62.9,67.8M62.9,67.8Q54.5,65.3 46.3,68.1M62.9,67.8Q60.9,59.3 54.3,53.5M83,78.2Q79,67 82,55.6M82,55.6Q80.1,47 73.4,41.2M82,55.6Q88.4,49.6 90.2,40.9M92.7,112.6Q80.5,102.1 64.5,100.6M64.5,100.6Q53.7,105.4 42,102.8M42,102.8Q33.7,105.4 28.2,112.3M42,102.8Q35.7,96.8 27,95.5M64.5,100.6Q55,93.5 51.4,82.2M51.4,82.2Q45.1,76.2 36.3,74.9M51.4,82.2Q53.5,73.6 50.2,65.6M91.6,125.7Q75.6,124.6 61.9,133.1M61.9,133.1Q56.1,143.4 45.4,148.3M45.4,148.3Q40.2,155.4 40,164.2M45.4,148.3Q36.6,147.3 28.9,151.6M61.9,133.1Q50.1,133.1 40.5,126.3M40.5,126.3Q31.7,125.3 24,129.5M40.5,126.3Q37,118.2 29.4,113.6M99,136.9Q85.7,146 80.2,161M80.2,161Q81.8,172.8 76.5,183.3M76.5,183.3Q76.7,192.1 82,199.1M76.5,183.3Q69,187.9 65.6,195.9M80.2,161Q70.8,168.3 59,168.9M59,168.9Q51.5,173.4 48,181.5M59,168.9Q51.3,164.7 42.5,165.8"/>
+<path class="w" d="M136,120.6C126,116 123,105 112,100C106,98 102,100 100,103.5C98,108 95,110 92.7,112.6C89,118 89,122 91.6,125.7C94,130 97,133 99,136.9C102,142 109,142 114,140C124,136 127,125 136,120.6Z"/>
+<path class="s" d="M136,120.6C126,116 123,105 112,100C106,98 102,100 100,103.5C98,108 95,110 92.7,112.6C89,118 89,122 91.6,125.7C94,130 97,133 99,136.9C102,142 109,142 114,140C124,136 127,125 136,120.6Z"/>
+<circle class="pq" cx="111.7" cy="120.6" r="5.9"/>
+<rect class="w" x="157" y="111.8" width="45.3" height="17.7" rx="7.9"/>
+<rect class="w" x="210.2" y="111.8" width="45.3" height="17.7" rx="7.9"/>
+<rect class="w" x="263.4" y="111.8" width="45.3" height="17.7" rx="7.9"/>
+<path class="s" d="M136,120.6H330.4"/>
+<rect class="s" x="157" y="111.8" width="45.3" height="17.7" rx="7.9"/>
+<rect class="s" x="210.2" y="111.8" width="45.3" height="17.7" rx="7.9"/>
+<rect class="s" x="263.4" y="111.8" width="45.3" height="17.7" rx="7.9"/>
+<path class="s" d="M330.4,120.6Q343.2,116.4 351.1,105.6M351.1,105.6Q352.5,95.7 359.3,88.4M351.1,105.6Q360.3,101.8 370,104.1M330.4,120.6Q343.2,124.8 356,120.6M356,120.6Q362.9,113.4 372.7,111.6M356,120.6Q365.7,123 372.2,130.6M330.4,120.6Q338.4,131.5 351.1,135.7M351.1,135.7Q360.9,133.9 369.9,138.1M351.1,135.7Q357.6,143.3 358.4,153.2"/>
+<circle class="p" cx="359.3" cy="88.4" r="3.3"/>
+<circle class="p" cx="370" cy="104.1" r="3.3"/>
+<circle class="p" cx="372.7" cy="111.6" r="3.3"/>
+<circle class="p" cx="372.2" cy="130.6" r="3.3"/>
+<circle class="p" cx="369.9" cy="138.1" r="3.3"/>
+<circle class="p" cx="358.4" cy="153.2" r="3.3"/>
+<g class="a-run"><circle class="q" r="8.9"/><circle class="p" r="3.4"/></g>
+<text class="t" x="60" y="220" text-anchor="middle">dendrites</text>
+<text class="t" x="124" y="163" text-anchor="middle">cell body</text>
+<text class="t" x="232.9" y="96" text-anchor="middle">axon</text>
+</svg>

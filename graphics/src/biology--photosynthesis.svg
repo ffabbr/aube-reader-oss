@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="biology--photosynthesis" data-discipline="biology" data-tags="photosynthesis,leaf,sunlight,carbon-dioxide,oxygen,water,chlorophyll,plants">
+<title>Photosynthesis</title>
+<desc>A leaf turns sunlight, water from the roots and carbon dioxide from the air into sugar, and releases oxygen.</desc>
+<style>
+.a-spin{transform-box:view-box;transform-origin:72px 62px;animation:a-spin 10s linear infinite}@keyframes a-spin{to{transform:rotate(30deg)}}
+.a-m1{transform:translate(205px,100px);opacity:0;animation:a-m1 2.5s linear infinite;animation-delay:0.0s}@keyframes a-m1{0%{transform:translate(92px,70px);opacity:0}100%{transform:translate(205px,100px);opacity:0}15%{opacity:1}85%{opacity:1}}
+.a-m2{transform:translate(192px,122px);opacity:0;animation:a-m2 2.5s linear infinite;animation-delay:-0.8s}@keyframes a-m2{0%{transform:translate(90px,82px);opacity:0}100%{transform:translate(192px,122px);opacity:0}15%{opacity:1}85%{opacity:1}}
+.a-m3{transform:translate(222px,82px);opacity:0;animation:a-m3 2.5s linear infinite;animation-delay:-1.6s}@keyframes a-m3{0%{transform:translate(98px,58px);opacity:0}100%{transform:translate(222px,82px);opacity:0}15%{opacity:1}85%{opacity:1}}
+.a-m4{transform:translate(163px,168px);opacity:0;animation:a-m4 5s linear infinite;animation-delay:0.0s}@keyframes a-m4{0%{transform:translate(160px,214px);opacity:0}15.74%{transform:translate(160px,196px)}40.38%{transform:translate(163px,168px)}60.11%{transform:translate(168px,146px)}100%{transform:translate(204px,118px);opacity:0}15%{opacity:1}85%{opacity:1}}
+.a-m5{transform:translate(163px,168px);opacity:0;animation:a-m5 5s linear infinite;animation-delay:-2.5s}@keyframes a-m5{0%{transform:translate(160px,214px);opacity:0}15.74%{transform:translate(160px,196px)}40.38%{transform:translate(163px,168px)}60.11%{transform:translate(168px,146px)}100%{transform:translate(204px,118px);opacity:0}15%{opacity:1}85%{opacity:1}}
+.a-m6{transform:translate(286px,142px);opacity:0;animation:a-m6 5s linear infinite;animation-delay:-1s}@keyframes a-m6{0%{transform:translate(338px,172px);opacity:0}100%{transform:translate(286px,142px);opacity:0}15%{opacity:1}85%{opacity:1}}
+.a-m7{transform:translate(330px,24px);opacity:0;animation:a-m7 5s linear infinite;animation-delay:-3s}@keyframes a-m7{0%{transform:translate(276px,54px);opacity:0}100%{transform:translate(330px,24px);opacity:0}15%{opacity:1}85%{opacity:1}}
+</style>
+<circle class="w" cx="72" cy="62" r="15"/>
+<circle class="s" cx="72" cy="62" r="15"/>
+<g class="a-spin"><path class="q" d="M95,62 L103,62 M91.9,73.5 L98.8,77.5 M83.5,81.9 L87.5,88.8 M72,85 L72,93 M60.5,81.9 L56.5,88.8 M52.1,73.5 L45.2,77.5 M49,62 L41,62 M52.1,50.5 L45.2,46.5 M60.5,42.1 L56.5,35.2 M72,39 L72,31 M83.5,42.1 L87.5,35.2 M91.9,50.5 L98.8,46.5 "/></g>
+<path class="f" d="M112,200 H250"/>
+<path class="s bold" d="M165,148 C165,168 161,184 160,200"/>
+<path class="k q hair" d="M160,200 C150,208 144,214 140,222 M160,200 V224 M160,200 C168,208 176,214 182,222"/>
+<path class="w" d="M165,148 C168,92 230,58 312,64 C312,118 250,158 165,148 Z"/>
+<path class="s" d="M165,148 C168,92 230,58 312,64 C312,118 250,158 165,148 Z"/>
+<path class="q" d="M165,148 C210,118 260,92 304,70"/>
+<path class="f" d="M196,124 L212,104 M224,108 L236,126 M232,96 L240,82 M252,92 L264,108 M268,80 L282,92 M226,116 L242,114 "/>
+<path class="k q hair" d="M92,70 L205,100"/>
+<path class="k q hair" d="M90,82 L192,122"/>
+<path class="k q hair" d="M98,58 L222,82"/>
+<path class="q" d="M338,172 L286,142 M292,142.4 L286,142 L289.4,147"/>
+<path class="q" d="M276,54 L330,24 M326.5,28.9 L330,24 L324,24.3"/>
+<text class="t" x="338" y="190" text-anchor="start">CO₂</text>
+<text class="t" x="336" y="30" text-anchor="start">O₂</text>
+<text class="t" x="132" y="220" text-anchor="end">H₂O</text>
+<g class="a-m1"><circle class="p" cx="0" cy="0" r="2.4"/></g>
+<g class="a-m2"><circle class="p" cx="0" cy="0" r="2.4"/></g>
+<g class="a-m3"><circle class="p" cx="0" cy="0" r="2.4"/></g>
+<g class="a-m4"><circle class="pq" cx="0" cy="0" r="2.4"/></g>
+<g class="a-m5"><circle class="pq" cx="0" cy="0" r="2.4"/></g>
+<g class="a-m6"><circle class="pq" cx="0" cy="0" r="2.4"/></g>
+<g class="a-m7"><circle class="p" cx="0" cy="0" r="2.4"/></g>
+</svg>

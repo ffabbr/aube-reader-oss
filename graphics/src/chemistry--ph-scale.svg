@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="chemistry--ph-scale" data-discipline="chemistry" data-tags="ph,acid,base,hydrogen-ions,hydroxide,neutral,scale">
+<title>The pH scale from acid to base</title>
+<desc>A scale from 0 to 14: many hydrogen ions (filled dots) at the acid end, many hydroxide ions (open rings) at the basic end, and a balance at neutral 7.</desc>
+<style>
+.a-j1{animation:a-j1 2s ease-in-out infinite alternate}
+.a-j2{animation:a-j2 2.5s ease-in-out infinite alternate}
+@keyframes a-j1{from{transform:translate(-2px,1.5px)}to{transform:translate(2px,-1.5px)}}
+@keyframes a-j2{from{transform:translate(2px,1px)}to{transform:translate(-2px,-1px)}}
+.a-pointer{animation:a-point 5s ease-in-out infinite alternate}
+@keyframes a-point{from{transform:translateX(-54.9px)}to{transform:translateX(54.9px)}}
+</style>
+<path class="w" d="M40,110 H200 V138 H40Z"/>
+<path class="s" d="M40,110 H360 V138 H40Z"/>
+<path class="q" d="M200,110 V138"/>
+<path class="q" d="M40,138 v6 M62.9,138 v6 M85.7,138 v6 M108.6,138 v6 M131.4,138 v6 M154.3,138 v6 M177.1,138 v6 M200,138 v6 M222.9,138 v6 M245.7,138 v6 M268.6,138 v6 M291.4,138 v6 M314.3,138 v6 M337.1,138 v6 M360,138 v6 "/>
+<g class="a-j1"><circle class="p" cx="47" cy="57.4" r="2.6"/><circle class="p" cx="58.5" cy="93.6" r="2.6"/><circle class="p" cx="79.8" cy="93.9" r="2.6"/><circle class="p" cx="71.1" cy="84.6" r="2.6"/><circle class="p" cx="98.8" cy="74.4" r="2.6"/><circle class="p" cx="89.5" cy="84.6" r="2.6"/><circle class="p" cx="128.4" cy="62.2" r="2.6"/><circle class="p" cx="139.8" cy="81" r="2.6"/><circle class="p" cx="181.2" cy="63.9" r="2.6"/></g><g class="a-j2"><circle class="p" cx="44.1" cy="72.9" r="2.6"/><circle class="p" cx="46.6" cy="100.2" r="2.6"/><circle class="p" cx="79.4" cy="62.1" r="2.6"/><circle class="p" cx="74.4" cy="73.5" r="2.6"/><circle class="p" cx="102.4" cy="54.2" r="2.6"/><circle class="p" cx="116.3" cy="79.8" r="2.6"/><circle class="p" cx="117.6" cy="90.8" r="2.6"/><circle class="p" cx="172.5" cy="57.3" r="2.6"/></g>
+<g class="a-j2"><circle class="q" cx="215.9" cy="84" r="3"/><circle class="q" cx="251.7" cy="75.9" r="3"/><circle class="q" cx="286.7" cy="101.6" r="3"/><circle class="q" cx="310.7" cy="92.3" r="3"/><circle class="q" cx="299.4" cy="62" r="3"/><circle class="q" cx="323.7" cy="102" r="3"/><circle class="q" cx="318" cy="77.5" r="3"/><circle class="q" cx="342.2" cy="79.5" r="3"/><circle class="q" cx="340.7" cy="65.2" r="3"/></g><g class="a-j1"><circle class="q" cx="229.9" cy="69.2" r="3"/><circle class="q" cx="272.3" cy="88.3" r="3"/><circle class="q" cx="271.9" cy="67" r="3"/><circle class="q" cx="301.3" cy="101.1" r="3"/><circle class="q" cx="324.8" cy="59.1" r="3"/><circle class="q" cx="330.5" cy="70.9" r="3"/><circle class="q" cx="344.3" cy="103.9" r="3"/><circle class="q" cx="353.2" cy="73.3" r="3"/></g>
+<g class="a-pointer"><path class="p" d="M200,160 l-7,12 h14 z"/></g>
+<text class="t" x="40" y="196" text-anchor="start">0 acidic</text>
+<text class="t" x="200" y="196" text-anchor="middle">7 neutral</text>
+<text class="t" x="360" y="196" text-anchor="end">14 basic</text>
+</svg>

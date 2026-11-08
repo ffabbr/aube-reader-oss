@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="climate--carbon-cycle" data-discipline="climate" data-tags="carbon-cycle,carbon-dioxide,photosynthesis,respiration,fossil-fuels,ocean,atmosphere">
+<title>The carbon cycle</title>
+<desc>Carbon dioxide moves between atmosphere, plants, ocean and buried fossil carbon: plants and seas draw it down, while respiration and burning fuel return it to the air.</desc>
+<style>
+.a-co{offset-rotate:0deg;animation:a-co 5s linear infinite}
+.a-p1{offset-path:path("M148,64 C116,66 94,78 88,98")}.a-p2{offset-path:path("M62,100 C58,76 96,52 130,50")}.a-p3{offset-path:path("M246,70 C282,80 302,102 308,142")}.a-p4{offset-path:path("M344,148 C352,108 312,70 264,58")}.a-p5{offset-path:path("M172,130 C172,110 176,90 184,72")}
+@keyframes a-co{0%{offset-distance:0%;opacity:0}10%{opacity:1}88%{opacity:1}100%{offset-distance:100%;opacity:0}}
+.a-d1{animation-delay:-1.7s}.a-d2{animation-delay:-3.4s}
+</style>
+<path class="w" d="M20,170 H210 V214 H20 Z"/>
+<path class="w" d="M210,170 H380 V214 H210 Z"/>
+<path class="s" d="M20,170 H210"/>
+<path class="s" d="M210,170 q9,-3 18,0 t18,0 t18,0 t18,0 t18,0 t18,0 t18,0 t18,0 t18,0 t18,0 "/>
+<path class="k q" d="M20,190 q20,-6 40,0 t40,0 t40,0 t40,0 t40,0"/>
+<path class="w" d="M150,70 C132,70 130,46 150,44 C150,24 184,22 194,38 C204,22 240,24 244,44 C264,44 268,70 248,70 Z"/>
+<path class="s" d="M150,70 C132,70 130,46 150,44 C150,24 184,22 194,38 C204,22 240,24 244,44 C264,44 268,70 248,70 Z"/>
+<path class="s" d="M80,170 V138"/>
+<path class="w" d="M62,134 C48,134 48,112 64,110 C64,94 92,92 98,108 C112,108 114,134 98,134 Z"/>
+<path class="s" d="M62,134 C48,134 48,112 64,110 C64,94 92,92 98,108 C112,108 114,134 98,134 Z"/>
+<path class="w" d="M146,170 V148 H178 V170 Z M168,148 V130 H176 V148 Z"/>
+<path class="s" d="M146,170 V148 H178 V170 M168,148 V130 H176 V148"/>
+<path class="q" d="M148,64 C116,66 94,78 88,98"/><path class="q" d="M84.6,93.9 L88,100 L91.4,93.9"/>
+<path class="q" d="M62,100 C58,76 96,52 130,50"/><path class="q" d="M126.9,54 L133,50.5 L126.8,47.3"/>
+<path class="q" d="M246,70 C282,80 302,102 308,142"/><path class="q" d="M304.6,139.9 L308,146 L311.4,139.9"/>
+<path class="q" d="M344,148 C352,108 312,70 264,58"/><path class="q" d="M266.7,54.9 L260,57 L265.4,61.5"/>
+<path class="k q" d="M172,130 C172,110 176,90 184,72"/>
+<g class="a-co a-p1"><circle class="p" cx="0" cy="0" r="2.5"/></g>
+<g class="a-co a-p2 a-d1"><circle class="p" cx="0" cy="0" r="2.5"/></g>
+<g class="a-co a-p3 a-d2"><circle class="p" cx="0" cy="0" r="2.5"/></g>
+<g class="a-co a-p4"><circle class="p" cx="0" cy="0" r="2.5"/></g>
+<g class="a-co a-p5 a-d1"><circle class="p" cx="0" cy="0" r="2.5"/></g>
+<text class="t" x="198" y="52" text-anchor="middle">CO₂</text>
+<text class="t" x="70" y="34" text-anchor="middle">photosynthesis</text>
+<text class="t" x="110" y="208" text-anchor="middle">fossil carbon</text>
+</svg>

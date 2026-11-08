@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="earth--fossil-strata" data-discipline="earth" data-tags="fossils,strata,sedimentary-layers,superposition,deposition,paleontology,geologic-time">
+<title>Fossils in rock strata</title>
+<desc>Sediment settles in layers, burying creatures as fossils: the deepest layers and fossils are the oldest, the shallowest the youngest.</desc>
+<style>
+.a-grain{animation:a-grain 2s linear infinite}
+@keyframes a-grain{0%{transform:translateY(0);opacity:0}20%{opacity:1}80%{opacity:1}100%{transform:translateY(22px);opacity:0}}
+.a-d1{animation-delay:-.5s}.a-d2{animation-delay:-1s}.a-d3{animation-delay:-1.5s}
+</style>
+<path class="w" d="M50,44 H290 V70 H50 Z"/>
+<path class="w" d="M50,96 C110,90 190,102 290,96 V122 C190,128 110,116 50,122 Z"/>
+<path class="w" d="M50,148 C110,144 190,152 290,148 V174 C190,178 110,170 50,174 Z"/>
+<path class="f" d="M50,44 q10,-3 20,0 t20,0 t20,0 t20,0 t20,0 t20,0 t20,0 t20,0 t20,0 t20,0 t20,0 t20,0"/>
+<path class="s" d="M50,70 V200 M290,70 V200 M50,200 H290 M50,70 H290"/>
+<path class="q" d="M50,96 C110,90 190,102 290,96 M50,122 C110,128 190,116 290,122 M50,148 C110,144 190,152 290,148 M50,174 C110,178 190,170 290,174"/>
+<path class="s" d="M96,86 C118,78 142,78 164,84 M108,82 l-3,-6 M120,79 l-2,-7 M132,79 l0,-7 M144,80 l2,-6 M156,82 l3,-5"/>
+<path class="s" d="M196,110 C208,100 228,100 240,110 C228,120 208,120 196,110 Z M240,110 l12,-9 v18 Z"/>
+<circle class="p" cx="208" cy="108" r="1.6"/>
+<path class="q" d="M214,102 q-3,8 0,16 M222,102 q-3,8 0,16 M230,103 q-3,7 0,14"/>
+<path class="s" d="M119.2,135 L119.5,135.3 L119.6,135.7 L119.7,136.1 L119.7,136.7 L119.5,137.2 L119.2,137.7 L118.7,138.2 L118.1,138.5 L117.3,138.8 L116.5,138.8 L115.6,138.7 L114.8,138.4 L113.9,137.9 L113.2,137.2 L112.6,136.3 L112.1,135.2 L111.9,134 L112,132.8 L112.3,131.5 L112.8,130.2 L113.7,129.1 L114.8,128.1 L116.1,127.3 L117.6,126.8 L119.2,126.6 L120.9,126.7 L122.6,127.2 L124.2,128 L125.7,129.2 L126.9,130.6 L127.9,132.3 L128.5,134.3 L128.7,136.4 L128.5,138.5 L127.9,140.6 L126.9,142.6 L125.4,144.4 L123.6,145.9 L121.5,147.1 L119.1,147.8 L116.6,148.1 L114,147.8 L111.5,147.1 L109.1,145.8 L106.9,144.1 L105.1,141.9 L103.8,139.4 L102.9,136.6 L102.6,133.6 L102.9,130.6 L103.8,127.6 L105.2,124.8 L107.2,122.3 L109.8,120.2 L112.7,118.6"/>
+<path class="s" d="M232,142 a14,11 0 0 1 28,0 Z"/>
+<path class="q" d="M246,142 V132 M239,142 l-3,-9 M253,142 l3,-9"/>
+<ellipse class="s" cx="166" cy="162" rx="22" ry="8"/>
+<path class="q" d="M152,155 q-3,7 0,14 M160,154 q-3,8 0,16 M168,154 q-3,8 0,16 M176,155 q-3,7 0,14 M184,157 q-2,5 0,10"/>
+<path class="s" d="M80,192 a9,9 0 0 1 18,0 Z M252,194 a8,8 0 0 1 16,0 Z"/>
+<path class="k f" d="M312,76 V196"/><path class="f" d="M308.6,191.9 L312,198 L315.4,191.9"/>
+<g class="a-grain"><circle class="pq" cx="90" cy="46" r="1.7"/><circle class="pq" cx="170" cy="48" r="1.7"/><circle class="pq" cx="250" cy="46" r="1.7"/></g>
+<g class="a-grain a-d2"><circle class="pq" cx="130" cy="46" r="1.7"/><circle class="pq" cx="210" cy="48" r="1.7"/><circle class="pq" cx="270" cy="47" r="1.7"/></g>
+<text class="t" x="324" y="80" text-anchor="start">younger</text>
+<text class="t" x="324" y="200" text-anchor="start">older</text>
+</svg>

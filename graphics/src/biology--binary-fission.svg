@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="biology--binary-fission" data-discipline="biology" data-tags="binary-fission,bacteria,cell-division,septum,asexual-reproduction,prokaryote">
+<title>Binary fission</title>
+<desc>A rod-shaped bacterium that has copied its DNA lays down a septum across its middle, then the two halves round off their new poles and part as identical daughters.</desc>
+<style>
+.a-l{animation:a-l 10s cubic-bezier(.45,.05,.35,1) infinite}
+.a-r{animation:a-r 10s cubic-bezier(.45,.05,.35,1) infinite}
+@keyframes a-l{0%,42%{transform:translateX(0)}84%,100%{transform:translateX(-44px)}}
+@keyframes a-r{0%,42%{transform:translateX(0)}84%,100%{transform:translateX(44px)}}
+.a-cap{transform-box:view-box;transform-origin:200px 120px;animation:a-cap 10s cubic-bezier(.45,.05,.35,1) infinite}
+@keyframes a-cap{0%,42%{transform:scaleX(.02)}84%,100%{transform:scaleX(1)}}
+.a-hide{animation:a-hide 10s ease-in-out infinite}
+@keyframes a-hide{0%,50%{opacity:1}60%,100%{opacity:0}}
+.a-show{animation:a-show 10s ease-in-out infinite}
+@keyframes a-show{0%,66%{opacity:0}78%,100%{opacity:1}}
+</style>
+<g class="a-l">
+<path class="w" d="M200,76H114A44,44 0 0 0 114,164H200Z"/>
+<path class="s" d="M200,76H114A44,44 0 0 0 114,164H200"/>
+<path class="q" d="M122,124c6,-22 22,-22 20,-4c-2,14 -18,12 -12,-2c6,-14 26,-14 28,2c2,14 -14,16 -14,4c0,-14 20,-16 24,-2"/>
+<g class="a-cap a-capl">
+<path class="w" d="M200,76A44,44 0 0 1 200,164Z"/>
+<path class="s" d="M200,76A44,44 0 0 1 200,164"/>
+</g>
+<path class="f" d="M122,62L140,96"/>
+<text class="t" x="108" y="54" text-anchor="middle">copied DNA</text>
+</g>
+<g class="a-r">
+<path class="w" d="M200,76H286A44,44 0 0 1 286,164H200Z"/>
+<path class="s" d="M200,76H286A44,44 0 0 1 286,164H200"/>
+<path class="q" d="M230,124c6,-22 22,-22 20,-4c-2,14 -18,12 -12,-2c6,-14 26,-14 28,2c2,14 -14,16 -14,4c0,-14 20,-16 24,-2"/>
+<g class="a-cap a-capr">
+<path class="w" d="M200,76A44,44 0 0 0 200,164Z"/>
+<path class="s" d="M200,76A44,44 0 0 0 200,164"/>
+</g>
+</g>
+<g class="a-hide">
+<path class="q" d="M200,76V164"/>
+</g>
+<g class="a-hide">
+<path class="f" d="M200,170V196"/>
+<text class="t" x="200" y="212" text-anchor="middle">septum</text>
+</g>
+<g class="a-show">
+<text class="t" x="200" y="212" text-anchor="middle">two daughter cells</text>
+</g>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="chemistry--galvanic-cell" data-discipline="chemistry" data-tags="galvanic-cell,redox,electrochemistry,electrode,salt-bridge,voltaic,battery">
+<title>Galvanic cell</title>
+<desc>Zinc dissolves as ions and sends electrons through the wire to a copper electrode, where copper ions take them up; a salt bridge completes the circuit.</desc>
+<style>
+.a-e{offset-path:path("M104,60 V42 H296 V60");offset-rotate:0deg;animation:a-flow 5s linear infinite}
+.a-e2{animation-delay:-1.67s}
+.a-e3{animation-delay:-3.33s}
+@keyframes a-flow{from{offset-distance:0%}to{offset-distance:100%}}
+.a-needle{transform-box:view-box;transform-origin:200px 48px;animation:a-needle 2.5s ease-in-out infinite alternate}
+@keyframes a-needle{from{transform:rotate(-30deg)}to{transform:rotate(30deg)}}
+.a-ion-l{animation:a-ionl 5s ease-in infinite}
+@keyframes a-ionl{0%{transform:translateX(0);opacity:0}20%{opacity:1}100%{transform:translateX(30px);opacity:0}}
+.a-ion-r{animation:a-ionr 5s ease-in infinite}
+@keyframes a-ionr{0%{transform:translateX(24px);opacity:0}20%{opacity:1}85%{opacity:1}100%{transform:translateX(-2px);opacity:0}}
+</style>
+<path class="w" d="M52,134 H160 V198 Q160,204 154,204 H58 Q52,204 52,198Z"/>
+<path class="w" d="M240,134 H348 V198 Q348,204 342,204 H246 Q240,204 240,198Z"/>
+<path class="s" d="M52,110 V198 Q52,204 58,204 H154 Q160,204 160,198 V110"/>
+<path class="s" d="M240,110 V198 Q240,204 246,204 H342 Q348,204 348,198 V110"/>
+<rect class="w" x="96" y="64" width="16" height="106"/>
+<rect class="w" x="288" y="64" width="16" height="106"/>
+<rect class="s" x="96" y="64" width="16" height="106"/>
+<rect class="s" x="288" y="64" width="16" height="106"/>
+<path class="q" d="M133,134 V96 Q133,88 141,88 H259 Q267,88 267,96 V134 M147,134 V102 H253 V134"/>
+<path class="s" d="M104,64 V42 H190 M210,42 H296 V64"/>
+<circle class="w" cx="200" cy="42" r="12"/>
+<circle class="s" cx="200" cy="42" r="12"/>
+<g class="a-needle"><path class="s hair" d="M200,48 L200,36"/></g>
+<g class="a-e a-e1"><circle class="p" cx="0" cy="0" r="3"/></g>
+<g class="a-e a-e2"><circle class="p" cx="0" cy="0" r="3"/></g>
+<g class="a-e a-e3"><circle class="p" cx="0" cy="0" r="3"/></g>
+<g class="a-ion-l"><circle class="q" cx="118" cy="150" r="4"/><circle class="q" cx="118" cy="182" r="4"/></g>
+<g class="a-ion-r"><circle class="q" cx="262" cy="166" r="4"/></g>
+<text class="t" x="104" y="219" text-anchor="middle">Zn</text>
+<text class="t" x="296" y="219" text-anchor="middle">Cu</text>
+<text class="t" x="144" y="34" text-anchor="middle">e⁻</text>
+</svg>

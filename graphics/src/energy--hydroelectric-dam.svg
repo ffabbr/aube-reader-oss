@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="energy--hydroelectric-dam" data-discipline="energy" data-tags="dam,hydropower,turbine,potential-energy,penstock,reservoir,renewable">
+<title>Hydroelectric Dam</title>
+<desc>Water held high behind a dam falls through a penstock to spin a turbine, turning stored gravitational energy into electricity sent out along the grid.</desc>
+<style>
+.a-wave{animation:a-wave 5s ease-in-out infinite alternate}
+@keyframes a-wave{from{transform:translateX(-4px)}to{transform:translateX(6px)}}
+.a-tail{animation:a-tail 2.5s ease-in-out infinite alternate}
+@keyframes a-tail{from{transform:translateX(0)}to{transform:translateX(10px)}}
+.a-wheel{transform-box:view-box;transform-origin:228px 172px;animation:a-spin 5s linear infinite}
+@keyframes a-spin{to{transform:rotate(-360deg)}}
+.a-w1,.a-w2{offset-path:path("M190,116 H206 Q226,116 226,138 V154");animation:a-flow 5s linear infinite}
+.a-w2{animation-delay:-2.5s}
+.a-p1,.a-p2,.a-p3{offset-path:path("M214,56 Q270,86 312,104");animation:a-flow 5s linear infinite}
+.a-p2{animation-delay:-1.67s}
+.a-p3{animation-delay:-3.33s}
+@keyframes a-flow{from{offset-distance:0%}to{offset-distance:100%}}
+</style>
+<path class="w" d="M24,72 H188 V196 H24 Z"/>
+<path class="q" d="M24,72 Q44,69 64,72 T104,72 T144,72 T188,72"/>
+<g class="a-wave"><path class="f" d="M30,90 Q42,87 54,90 T78,90 M120,104 Q132,101 144,104 T168,104 M60,122 Q72,119 84,122 T108,122"/></g>
+<path class="f" d="M20,196 H380"/>
+<path class="w" d="M188,56 H214 L266,196 H188 Z"/>
+<path class="s" d="M188,196 V56 H214 L266,196"/>
+<path class="q bold" d="M188,116 H206 Q226,116 226,138 V154"/>
+<circle class="w" cx="228" cy="172" r="17"/>
+<circle class="s" cx="228" cy="172" r="17"/>
+<g class="a-wheel">
+<path class="s" d="M228,172 L241,172 M228,172 L234.5,183.3 M228,172 L221.5,183.3 M228,172 L215,172 M228,172 L221.5,160.7 M228,172 L234.5,160.7 "/>
+</g>
+<circle class="p" cx="228" cy="172" r="2.6"/>
+<path class="q" d="M266,196 Q300,192 380,192"/>
+<g class="a-tail"><path class="f" d="M284,184 Q296,181 308,184 T332,184 M322,176 Q334,173 346,176 T370,176"/></g>
+<path class="s" d="M316,190 L330,96 L344,190 M320,150 H340 M324,122 H336 M316,190 L340,150 M344,190 L320,150 M320,150 L336,122 M340,150 L324,122"/>
+<path class="s" d="M312,104 H348"/>
+<path class="q" d="M214,56 Q270,86 312,104"/>
+<g class="a-w1"><circle class="p" r="3"/></g><g class="a-w2"><circle class="p" r="3"/></g>
+<g class="a-p1"><circle class="pq" r="2.6"/></g><g class="a-p2"><circle class="pq" r="2.6"/></g><g class="a-p3"><circle class="pq" r="2.6"/></g>
+<text class="t" x="100" y="152" text-anchor="middle">reservoir</text>
+<text class="t" x="330" y="82" text-anchor="middle">grid</text>
+</svg>

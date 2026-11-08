@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="physics--time-dilation" data-discipline="physics" data-tags="relativity,time-dilation,light-clock,lorentz-factor,special-relativity">
+<title>Time dilation</title>
+<desc>Two light clocks: the photon in the moving clock must travel a longer diagonal path, so its tick takes longer. Moving clocks run slow, here by a factor of 1.25.</desc>
+<style>
+.a-up{animation:a-up 2s linear infinite alternate}
+@keyframes a-up{from{transform:translateY(0)}to{transform:translateY(-100px)}}
+.a-zig{offset-path:path("M190,170 L265,70 L340,170");animation:a-zig 5s linear infinite}
+@keyframes a-zig{0%{offset-distance:0%;opacity:0}6%{opacity:1}94%{opacity:1}100%{offset-distance:100%;opacity:0}}
+</style>
+<path class="s bold" d="M50,70 H100 M50,170 H100"/>
+<path class="s bold" d="M240,70 H290 M165,170 H215 M315,170 H365"/>
+<path class="k f" d="M75,170 V70"/>
+<path class="k q" d="M190,170 L265,70 L340,170"/>
+<path class="q" d="M190,42 H340 M333,37 L341,42 L333,47"/>
+<g class="a-up"><circle class="p" cx="75" cy="170" r="4"/></g>
+<g class="a-zig"><circle class="p" cx="0" cy="0" r="4"/></g>
+<text class="t" x="75" y="206" text-anchor="middle">at rest</text>
+<text class="t" x="265" y="206" text-anchor="middle">moving at 0.6c</text>
+</svg>

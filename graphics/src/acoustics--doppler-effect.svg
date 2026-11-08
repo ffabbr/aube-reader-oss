@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="acoustics--doppler-effect" data-discipline="acoustics" data-tags="doppler,frequency-shift,wavefronts,moving-source,pitch,sound">
+<title>Doppler Effect</title>
+<desc>A moving source drops sound wavefronts at successive positions; they bunch up ahead, raising the pitch, and spread out behind, lowering it.</desc>
+<style>
+.a-ring{animation:a-ring 1s ease-in-out infinite alternate}
+@keyframes a-ring{from{opacity:.2}to{opacity:1}}
+.a-d0{animation-delay:-1.75s}
+.a-d1{animation-delay:-1.5s}
+.a-d2{animation-delay:-1.25s}
+.a-d3{animation-delay:-1s}
+.a-d4{animation-delay:-0.75s}
+.a-d5{animation-delay:-0.5s}
+</style>
+<path class="k f" d="M196,120 H256"/>
+<g class="a-ring a-d0"><circle class="q" cx="253" cy="120" r="16"/></g>
+<g class="a-ring a-d1"><circle class="q" cx="244" cy="120" r="32"/></g>
+<g class="a-ring a-d2"><circle class="q" cx="235" cy="120" r="48"/></g>
+<g class="a-ring a-d3"><circle class="q" cx="226" cy="120" r="64"/></g>
+<g class="a-ring a-d4"><circle class="q" cx="217" cy="120" r="80"/></g>
+<g class="a-ring a-d5"><circle class="q" cx="208" cy="120" r="96"/></g>
+<circle class="p" cx="253" cy="120" r="1.6"/>
+<circle class="p" cx="244" cy="120" r="1.6"/>
+<circle class="p" cx="235" cy="120" r="1.6"/>
+<circle class="p" cx="226" cy="120" r="1.6"/>
+<circle class="p" cx="217" cy="120" r="1.6"/>
+<circle class="p" cx="208" cy="120" r="1.6"/>
+<circle class="w" cx="262" cy="120" r="9"/>
+<circle class="s" cx="262" cy="120" r="9"/>
+<circle class="p" cx="262" cy="120" r="3.5"/>
+<text class="t" x="22" y="124" text-anchor="start">lower pitch</text>
+<text class="t" x="378" y="124" text-anchor="end">higher pitch</text>
+</svg>

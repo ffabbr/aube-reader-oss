@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="chemistry--vsepr-tetrahedral-geometry" data-discipline="chemistry" data-tags="vsepr,molecular-geometry,methane,tetrahedral,bond-angle,electron-repulsion">
+<title>Tetrahedral molecular geometry of methane</title>
+<desc>Four bonding pairs repel one another as far apart as possible, so methane takes a tetrahedral shape with bond angles of 109.5 degrees; wedges point toward you.</desc>
+<style>
+.a-breathe{transform-box:view-box;transform-origin:200px 132px;animation:a-breathe 2s ease-in-out infinite alternate}
+@keyframes a-breathe{from{transform:scale(.95)}to{transform:scale(1.05)}}
+</style>
+<g class="a-breathe">
+<path class="s" d="M200,132 L200,56 M200,132 L140,176 "/>
+<polygon class="p" points="200,132 257.1,168.7 261.8,159.9"/>
+<path class="q" d="M210.3,126.8 L208.4,124.1 M220.1,120.9 L217.4,117 M229.8,114.9 L226.4,110 M239.5,108.9 L235.3,102.9 M249.3,102.9 L244.3,95.8 "/>
+<circle class="w" cx="200" cy="56" r="12"/><circle class="w" cx="140" cy="176" r="12"/><circle class="w" cx="270" cy="170" r="12"/><circle class="w" cx="266" cy="86" r="12"/><circle class="s" cx="200" cy="56" r="12"/><circle class="s" cx="140" cy="176" r="12"/><circle class="s" cx="270" cy="170" r="12"/><circle class="s" cx="266" cy="86" r="12"/>
+</g>
+<circle class="w" cx="200" cy="132" r="15"/>
+<circle class="s" cx="200" cy="132" r="15"/>
+<path class="q" d="M177.4,148.6 A28,28 0 0 0 224.6,145.4"/>
+<text class="t" x="200" y="206" text-anchor="middle">109.5°</text>
+<text class="t" x="112" y="124" text-anchor="end">CH₄</text>
+<text class="t" x="312" y="130" text-anchor="start">tetrahedral</text>
+</svg>

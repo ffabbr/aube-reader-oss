@@ -1,0 +1,188 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="biology--protein-folding" data-discipline="biology" data-tags="protein-folding,hydrophobic-core,amino-acids,native-state,tertiary-structure,polypeptide">
+<title>Protein folding</title>
+<desc>A loose chain of residues collapses on itself: water-shy beads (filled) bury into a hydrophobic core while polar beads (open) stay on the outside.</desc>
+<style>
+.a-j{animation-duration:10s;animation-iteration-count:infinite;animation-timing-function:cubic-bezier(.5,.05,.3,1)}
+@keyframes a-root{0%,42%{transform:translate(176px,98.1px) rotate(-78.8deg)}82%,100%{transform:translate(185.5px,104px) rotate(0.0deg)}}
+.a-root{animation-name:a-root;transform:translate(185.5px,104px) rotate(0.0deg)}
+@keyframes a-j10{0%,42%{transform:rotate(80.1deg)}82%,100%{transform:rotate(0.0deg)}}
+.a-j10{animation-name:a-j10;transform:rotate(0.0deg)}
+@keyframes a-j11{0%,42%{transform:rotate(57.9deg)}82%,100%{transform:rotate(90.0deg)}}
+.a-j11{animation-name:a-j11;transform:rotate(90.0deg)}
+@keyframes a-j12{0%,42%{transform:rotate(4.7deg)}82%,100%{transform:rotate(90.0deg)}}
+.a-j12{animation-name:a-j12;transform:rotate(90.0deg)}
+@keyframes a-j13{0%,42%{transform:rotate(-24.8deg)}82%,100%{transform:rotate(0.0deg)}}
+.a-j13{animation-name:a-j13;transform:rotate(0.0deg)}
+@keyframes a-j14{0%,42%{transform:rotate(-38.0deg)}82%,100%{transform:rotate(0.0deg)}}
+.a-j14{animation-name:a-j14;transform:rotate(0.0deg)}
+@keyframes a-j15{0%,42%{transform:rotate(-51.0deg)}82%,100%{transform:rotate(-90.0deg)}}
+.a-j15{animation-name:a-j15;transform:rotate(-90.0deg)}
+@keyframes a-j16{0%,42%{transform:rotate(-34.4deg)}82%,100%{transform:rotate(-90.0deg)}}
+.a-j16{animation-name:a-j16;transform:rotate(-90.0deg)}
+@keyframes a-j17{0%,42%{transform:rotate(32.6deg)}82%,100%{transform:rotate(0.0deg)}}
+.a-j17{animation-name:a-j17;transform:rotate(0.0deg)}
+@keyframes a-j18{0%,42%{transform:rotate(92.6deg)}82%,100%{transform:rotate(0.0deg)}}
+.a-j18{animation-name:a-j18;transform:rotate(0.0deg)}
+@keyframes a-b8{0%,42%{transform:rotate(-20.2deg)}82%,100%{transform:rotate(-0.0deg)}}
+.a-b8{animation-name:a-b8;transform:rotate(-0.0deg)}
+@keyframes a-b7{0%,42%{transform:rotate(74.8deg)}82%,100%{transform:rotate(90.0deg)}}
+.a-b7{animation-name:a-b7;transform:rotate(90.0deg)}
+@keyframes a-b6{0%,42%{transform:rotate(99.0deg)}82%,100%{transform:rotate(90.0deg)}}
+.a-b6{animation-name:a-b6;transform:rotate(90.0deg)}
+@keyframes a-b5{0%,42%{transform:rotate(24.2deg)}82%,100%{transform:rotate(-0.0deg)}}
+.a-b5{animation-name:a-b5;transform:rotate(-0.0deg)}
+@keyframes a-b4{0%,42%{transform:rotate(-62.4deg)}82%,100%{transform:rotate(-0.0deg)}}
+.a-b4{animation-name:a-b4;transform:rotate(-0.0deg)}
+@keyframes a-b3{0%,42%{transform:rotate(-74.8deg)}82%,100%{transform:rotate(-90.0deg)}}
+.a-b3{animation-name:a-b3;transform:rotate(-90.0deg)}
+@keyframes a-b2{0%,42%{transform:rotate(-27.8deg)}82%,100%{transform:rotate(-90.0deg)}}
+.a-b2{animation-name:a-b2;transform:rotate(-90.0deg)}
+@keyframes a-b1{0%,42%{transform:rotate(13.2deg)}82%,100%{transform:rotate(-0.0deg)}}
+.a-b1{animation-name:a-b1;transform:rotate(-0.0deg)}
+@keyframes a-b0{0%,42%{transform:rotate(30.7deg)}82%,100%{transform:rotate(-0.0deg)}}
+.a-b0{animation-name:a-b0;transform:rotate(-0.0deg)}
+.a-show{animation:a-show 10s ease-in-out infinite}
+@keyframes a-show{0%,64%{opacity:0}82%,100%{opacity:1}}
+.a-hide{animation:a-hide 10s ease-in-out infinite}
+@keyframes a-hide{0%,44%{opacity:1}54%,100%{opacity:0}}
+</style>
+<g class="a-show">
+<rect class="w" x="171.5" y="61" width="57" height="86" rx="16"/>
+<rect class="k f" x="171.5" y="61" width="57" height="86" rx="16"/>
+</g>
+<g class="a-j a-root">
+<line class="s" x1="0" y1="0" x2="29" y2="0"/>
+<g transform="translate(29,0)">
+<g class="a-j a-j10">
+<line class="s" x1="0" y1="0" x2="29" y2="0"/>
+<g transform="translate(29,0)">
+<g class="a-j a-j11">
+<line class="s" x1="0" y1="0" x2="29" y2="0"/>
+<g transform="translate(29,0)">
+<g class="a-j a-j12">
+<line class="s" x1="0" y1="0" x2="29" y2="0"/>
+<g transform="translate(29,0)">
+<g class="a-j a-j13">
+<line class="s" x1="0" y1="0" x2="29" y2="0"/>
+<g transform="translate(29,0)">
+<g class="a-j a-j14">
+<line class="s" x1="0" y1="0" x2="29" y2="0"/>
+<g transform="translate(29,0)">
+<g class="a-j a-j15">
+<line class="s" x1="0" y1="0" x2="29" y2="0"/>
+<g transform="translate(29,0)">
+<g class="a-j a-j16">
+<line class="s" x1="0" y1="0" x2="29" y2="0"/>
+<g transform="translate(29,0)">
+<g class="a-j a-j17">
+<line class="s" x1="0" y1="0" x2="29" y2="0"/>
+<g transform="translate(29,0)">
+<g class="a-j a-j18">
+<line class="s" x1="0" y1="0" x2="29" y2="0"/>
+<g transform="translate(29,0)">
+<circle class="w" cx="0" cy="0" r="7"/>
+<circle class="s" cx="0" cy="0" r="7"/>
+</g>
+<circle class="w" cx="0" cy="0" r="7"/>
+<circle class="s" cx="0" cy="0" r="7"/>
+</g>
+</g>
+<circle class="w" cx="0" cy="0" r="7"/>
+<circle class="s" cx="0" cy="0" r="7"/>
+</g>
+</g>
+<circle class="w" cx="0" cy="0" r="7"/>
+<circle class="s" cx="0" cy="0" r="7"/>
+</g>
+</g>
+<circle class="w" cx="0" cy="0" r="7"/>
+<circle class="s" cx="0" cy="0" r="7"/>
+</g>
+</g>
+<circle class="p" cx="0" cy="0" r="7"/>
+</g>
+</g>
+<circle class="p" cx="0" cy="0" r="7"/>
+</g>
+</g>
+<circle class="w" cx="0" cy="0" r="7"/>
+<circle class="s" cx="0" cy="0" r="7"/>
+</g>
+</g>
+<circle class="w" cx="0" cy="0" r="7"/>
+<circle class="s" cx="0" cy="0" r="7"/>
+</g>
+</g>
+<circle class="p" cx="0" cy="0" r="7"/>
+</g>
+</g>
+<g class="a-j a-b8">
+<line class="s" x1="0" y1="0" x2="-29" y2="0"/>
+<g transform="translate(-29,0)">
+<g class="a-j a-b7">
+<line class="s" x1="0" y1="0" x2="-29" y2="0"/>
+<g transform="translate(-29,0)">
+<g class="a-j a-b6">
+<line class="s" x1="0" y1="0" x2="-29" y2="0"/>
+<g transform="translate(-29,0)">
+<g class="a-j a-b5">
+<line class="s" x1="0" y1="0" x2="-29" y2="0"/>
+<g transform="translate(-29,0)">
+<g class="a-j a-b4">
+<line class="s" x1="0" y1="0" x2="-29" y2="0"/>
+<g transform="translate(-29,0)">
+<g class="a-j a-b3">
+<line class="s" x1="0" y1="0" x2="-29" y2="0"/>
+<g transform="translate(-29,0)">
+<g class="a-j a-b2">
+<line class="s" x1="0" y1="0" x2="-29" y2="0"/>
+<g transform="translate(-29,0)">
+<g class="a-j a-b1">
+<line class="s" x1="0" y1="0" x2="-29" y2="0"/>
+<g transform="translate(-29,0)">
+<g class="a-j a-b0">
+<line class="s" x1="0" y1="0" x2="-29" y2="0"/>
+<g transform="translate(-29,0)">
+<circle class="w" cx="0" cy="0" r="7"/>
+<circle class="s" cx="0" cy="0" r="7"/>
+</g>
+</g>
+<circle class="w" cx="0" cy="0" r="7"/>
+<circle class="s" cx="0" cy="0" r="7"/>
+</g>
+</g>
+<circle class="w" cx="0" cy="0" r="7"/>
+<circle class="s" cx="0" cy="0" r="7"/>
+</g>
+</g>
+<circle class="w" cx="0" cy="0" r="7"/>
+<circle class="s" cx="0" cy="0" r="7"/>
+</g>
+</g>
+<circle class="w" cx="0" cy="0" r="7"/>
+<circle class="s" cx="0" cy="0" r="7"/>
+</g>
+</g>
+<circle class="p" cx="0" cy="0" r="7"/>
+</g>
+</g>
+<circle class="p" cx="0" cy="0" r="7"/>
+</g>
+</g>
+<circle class="w" cx="0" cy="0" r="7"/>
+<circle class="s" cx="0" cy="0" r="7"/>
+</g>
+</g>
+<circle class="w" cx="0" cy="0" r="7"/>
+<circle class="s" cx="0" cy="0" r="7"/>
+</g>
+</g>
+<circle class="p" cx="0" cy="0" r="7"/>
+</g>
+<g class="a-hide">
+<text class="t" x="200" y="222" text-anchor="middle">unfolded chain</text>
+</g>
+<g class="a-show">
+<text class="t" x="200" y="194" text-anchor="middle">hydrophobic core</text>
+</g>
+</svg>

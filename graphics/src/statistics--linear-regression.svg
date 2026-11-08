@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="statistics--linear-regression" data-discipline="statistics" data-tags="regression,least-squares,residuals,trend-line,scatter">
+<title>Linear regression</title>
+<desc>A line swings and settles through a cloud of points, ending where the dashed vertical residuals are smallest overall: the least-squares fit.</desc>
+<style>
+.a-fit{transform-box:view-box;transform-origin:199.5px 115.3px;animation:a-fit 10s ease-in-out infinite}
+@keyframes a-fit{0%{transform:rotate(15deg);}8%{transform:rotate(15deg);}20%{transform:rotate(-9deg);}32%{transform:rotate(5deg);}44%{transform:rotate(-2.5deg);}55%{transform:rotate(1deg);}66%{transform:rotate(0deg);}100%{transform:rotate(0deg);}}
+.a-res{animation:a-res 10s ease-in-out infinite}
+@keyframes a-res{0%{opacity:0;}56%{opacity:0;}70%{opacity:1;}100%{opacity:1;}}
+</style>
+<path class="f" d="M50,40 V200 H350"/>
+<g class="a-res"><path class="k f" d="M78,176 V174.4 M96.7,160.8 V165.3 M115.4,168.4 V156.2 M134.1,139.4 V147.1 M152.8,145.8 V138 M171.5,130.7 V128.9 M190.2,110.9 V119.8 M208.9,116.8 V110.7 M227.6,91.5 V101.6 M246.3,95.6 V92.5 M265,73.9 V83.4 M283.7,65.2 V74.4 M302.4,67.2 V65.3 M321.1,71.6 V56.2 "/></g>
+<circle class="p" cx="78" cy="176" r="3.2"/>
+<circle class="p" cx="96.7" cy="160.8" r="3.2"/>
+<circle class="p" cx="115.4" cy="168.4" r="3.2"/>
+<circle class="p" cx="134.1" cy="139.4" r="3.2"/>
+<circle class="p" cx="152.8" cy="145.8" r="3.2"/>
+<circle class="p" cx="171.5" cy="130.7" r="3.2"/>
+<circle class="p" cx="190.2" cy="110.9" r="3.2"/>
+<circle class="p" cx="208.9" cy="116.8" r="3.2"/>
+<circle class="p" cx="227.6" cy="91.5" r="3.2"/>
+<circle class="p" cx="246.3" cy="95.6" r="3.2"/>
+<circle class="p" cx="265" cy="73.9" r="3.2"/>
+<circle class="p" cx="283.7" cy="65.2" r="3.2"/>
+<circle class="p" cx="302.4" cy="67.2" r="3.2"/>
+<circle class="p" cx="321.1" cy="71.6" r="3.2"/>
+<g class="a-fit"><path class="s bold" d="M66,180.2 L334,49.9"/>
+<circle class="p" cx="199.5" cy="115.3" r="3.4"/></g>
+<text class="t" x="332" y="37.9" text-anchor="end">best fit</text>
+<text class="t" x="318" y="222" text-anchor="end">least squares</text>
+</svg>

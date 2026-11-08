@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="engineering--truss-bridge" data-discipline="engineering" data-tags="truss,bridge,tension,compression,structure,load-path,statics">
+<title>Truss Bridge</title>
+<desc>A road deck rides on a triangulated truss: a vehicle's weight is carried as compression along the top chord and tension along the bottom chord and diagonals.</desc>
+<style>
+.a-car{animation:a-car 5s ease-in-out infinite alternate}
+@keyframes a-car{from{transform:translateX(0)}to{transform:translateX(180px)}}
+</style>
+<path class="f" d="M20,204 H380"/>
+<rect class="w" x="22" y="110" width="28" height="94"/>
+<rect class="w" x="350" y="110" width="28" height="94"/>
+<path class="q" d="M50,110 V204 M350,110 V204"/>
+<path class="q" d="M50,110 L80,166 L110,110 L140,166 L170,110 L200,166 L230,110 L260,166 L290,110 L320,166 L350,110"/>
+<path class="q bold" d="M80,166 H320"/>
+<path class="s bold" d="M50,110 H350"/>
+<path class="p" d="M77.4,166 a2.6,2.6 0 1 0 5.2,0 a2.6,2.6 0 1 0 -5.2,0ZM137.4,166 a2.6,2.6 0 1 0 5.2,0 a2.6,2.6 0 1 0 -5.2,0ZM197.4,166 a2.6,2.6 0 1 0 5.2,0 a2.6,2.6 0 1 0 -5.2,0ZM257.4,166 a2.6,2.6 0 1 0 5.2,0 a2.6,2.6 0 1 0 -5.2,0ZM317.4,166 a2.6,2.6 0 1 0 5.2,0 a2.6,2.6 0 1 0 -5.2,0ZM107.4,110 a2.6,2.6 0 1 0 5.2,0 a2.6,2.6 0 1 0 -5.2,0ZM167.4,110 a2.6,2.6 0 1 0 5.2,0 a2.6,2.6 0 1 0 -5.2,0ZM227.4,110 a2.6,2.6 0 1 0 5.2,0 a2.6,2.6 0 1 0 -5.2,0ZM287.4,110 a2.6,2.6 0 1 0 5.2,0 a2.6,2.6 0 1 0 -5.2,0Z"/>
+<path class="k f" d="M50,116 Q200,140 350,116"/>
+<g class="a-car">
+<path class="w" d="M64,106 L64,98 Q64,96 67,96 L74,96 L79,89 L90,89 L95,96 L100,96 Q103,96 103,99 L103,106 Z"/>
+<path class="s" d="M64,106 L64,98 Q64,96 67,96 L74,96 L79,89 L90,89 L95,96 L100,96 Q103,96 103,99 L103,106 Z"/>
+<circle class="p" cx="73" cy="107" r="4"/>
+<circle class="p" cx="94" cy="107" r="4"/>
+</g>
+<text class="t" x="200" y="82" text-anchor="middle">compression</text>
+<text class="t" x="200" y="192" text-anchor="middle">tension</text>
+</svg>

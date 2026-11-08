@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="astronomy--hr-diagram" data-discipline="astronomy" data-tags="hr-diagram,stars,luminosity,temperature,main-sequence,stellar-evolution">
+<title>Hertzsprung-Russell diagram</title>
+<desc>Stars plotted by temperature and brightness fall into families: a diagonal main sequence, bright giants above, faint white dwarfs below.</desc>
+<style>
+@keyframes a-spin{to{transform:rotate(360deg)}}
+@keyframes a-spinr{to{transform:rotate(-360deg)}}
+@keyframes a-lap{to{offset-distance:100%}}
+.a-star{offset-path:path("M240,138C268,116 288,96 290,72C292,48 205,52 160,100C138,124 122,146 114,164");offset-rotate:0deg;animation:a-lap 10s linear infinite;}
+</style>
+<path class="f" d="M60,28V206H352m-6,-4l6,4l-6,4M54,34l6,-6l6,6"/>
+<path class="w" d="M85,28C140,56 190,96 240,126C275,148 305,164 335,176L335,200C305,188 275,172 240,150C190,120 140,80 85,52Z"/>
+<path class="s" d="M85,40C140,68 190,108 240,138C275,160 305,176 335,188"/>
+<ellipse class="w" cx="290" cy="70" rx="40" ry="16"/>
+<path class="q" d="M250,70C250,50 330,50 330,70C330,90 250,90 250,70Z"/>
+<ellipse class="w" cx="112" cy="168" rx="28" ry="12"/>
+<path class="q" d="M84,168C84,152 140,152 140,168C140,184 84,184 84,168Z"/>
+<path class="k q" d="M240,138C268,116 288,96 290,72C292,48 205,52 160,100C138,124 122,146 114,164"/>
+<circle class="p" cx="240" cy="138" r="3.5"/>
+<g class="a-star">
+<circle class="w" cx="0" cy="0" r="6"/>
+<circle class="s" cx="0" cy="0" r="6"/>
+</g>
+<text class="t" x="290" y="40" text-anchor="middle">giants</text>
+<text class="t" x="215" y="178" text-anchor="middle">main sequence</text>
+<text class="t" x="112" y="200" text-anchor="middle">white dwarfs</text>
+</svg>

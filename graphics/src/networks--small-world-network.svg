@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="networks--small-world-network" data-discipline="networks" data-tags="graph,small-world,shortcuts,six-degrees,watts-strogatz,path-length">
+<title>Small-world network</title>
+<desc>A ring of neighbours crossed by a few long chords; one signal walks round the ring while another takes a shortcut and arrives in three hops, why any two people are so few steps apart.</desc>
+<style>
+.a-fast{animation:a-fast 10s ease-in-out infinite;transform:translate(292px,120px)}
+@keyframes a-fast{0%{transform:translate(108px,120px);opacity:0}42.9%{transform:translate(108px,120px);opacity:0}43%{transform:translate(108px,120px);opacity:1}46%{transform:translate(111.1px,96.2px);opacity:1}47%{transform:translate(111.1px,96.2px);opacity:1}55%{transform:translate(288.9px,143.8px);opacity:1}56%{transform:translate(288.9px,143.8px);opacity:1}59%{transform:translate(292px,120px);opacity:1}100%{transform:translate(292px,120px);opacity:1}}
+.a-slow{animation:a-slow 10s linear infinite;transform:translate(246px,40.3px)}
+@keyframes a-slow{0%{transform:translate(108px,120px);opacity:0}42.9%{transform:translate(108px,120px);opacity:0}43%{transform:translate(108px,120px);opacity:1}46.8%{transform:translate(111.1px,96.2px);opacity:1}50.5%{transform:translate(120.3px,74px);opacity:1}54.2%{transform:translate(134.9px,54.9px);opacity:1}58%{transform:translate(154px,40.3px);opacity:1}61.8%{transform:translate(176.2px,31.1px);opacity:1}65.5%{transform:translate(200px,28px);opacity:1}69.2%{transform:translate(223.8px,31.1px);opacity:1}73%{transform:translate(246px,40.3px);opacity:1}76.8%{transform:translate(265.1px,54.9px);opacity:1}80.5%{transform:translate(279.7px,74px);opacity:1}84.2%{transform:translate(288.9px,96.2px);opacity:1}88%{transform:translate(292px,120px);opacity:1}100%{transform:translate(292px,120px);opacity:1}}
+</style>
+<path class="f hair" d="M108,120 L120.3,74 M111.1,96.2 L134.9,54.9 M120.3,74 L154,40.3 M134.9,54.9 L176.2,31.1 M154,40.3 L200,28 M176.2,31.1 L223.8,31.1 M200,28 L246,40.3 M223.8,31.1 L265.1,54.9 M246,40.3 L279.7,74 M265.1,54.9 L288.9,96.2 M279.7,74 L292,120 M288.9,96.2 L288.9,143.8 M292,120 L279.7,166 M288.9,143.8 L265.1,185.1 M279.7,166 L246,199.7 M265.1,185.1 L223.8,208.9 M246,199.7 L200,212 M223.8,208.9 L176.2,208.9 M200,212 L154,199.7 M176.2,208.9 L134.9,185.1 M154,199.7 L120.3,166 M134.9,185.1 L111.1,143.8 M120.3,166 L108,120 M111.1,143.8 L111.1,96.2"/>
+<path class="q" d="M108,120 L111.1,96.2 M111.1,96.2 L120.3,74 M120.3,74 L134.9,54.9 M134.9,54.9 L154,40.3 M154,40.3 L176.2,31.1 M176.2,31.1 L200,28 M200,28 L223.8,31.1 M223.8,31.1 L246,40.3 M246,40.3 L265.1,54.9 M265.1,54.9 L279.7,74 M279.7,74 L288.9,96.2 M288.9,96.2 L292,120 M292,120 L288.9,143.8 M288.9,143.8 L279.7,166 M279.7,166 L265.1,185.1 M265.1,185.1 L246,199.7 M246,199.7 L223.8,208.9 M223.8,208.9 L200,212 M200,212 L176.2,208.9 M176.2,208.9 L154,199.7 M154,199.7 L134.9,185.1 M134.9,185.1 L120.3,166 M120.3,166 L111.1,143.8 M111.1,143.8 L108,120"/>
+<path class="q" d="M154,40.3 Q183.4,124.4 200,212"/>
+<path class="q" d="M223.8,31.1 Q185.2,111.4 134.9,185.1"/>
+<path class="q" d="M265.1,54.9 Q240,125.3 246,199.7"/>
+<path class="s bold" d="M111.1,96.2 L288.9,143.8"/>
+<path class="p" d="M108.3,96.2 a2.8,2.8 0 1,0 5.6,0 a2.8,2.8 0 1,0 -5.6,0 M117.5,74 a2.8,2.8 0 1,0 5.6,0 a2.8,2.8 0 1,0 -5.6,0 M132.1,54.9 a2.8,2.8 0 1,0 5.6,0 a2.8,2.8 0 1,0 -5.6,0 M151.2,40.3 a2.8,2.8 0 1,0 5.6,0 a2.8,2.8 0 1,0 -5.6,0 M173.4,31.1 a2.8,2.8 0 1,0 5.6,0 a2.8,2.8 0 1,0 -5.6,0 M197.2,28 a2.8,2.8 0 1,0 5.6,0 a2.8,2.8 0 1,0 -5.6,0 M221,31.1 a2.8,2.8 0 1,0 5.6,0 a2.8,2.8 0 1,0 -5.6,0 M243.2,40.3 a2.8,2.8 0 1,0 5.6,0 a2.8,2.8 0 1,0 -5.6,0 M262.3,54.9 a2.8,2.8 0 1,0 5.6,0 a2.8,2.8 0 1,0 -5.6,0 M276.9,74 a2.8,2.8 0 1,0 5.6,0 a2.8,2.8 0 1,0 -5.6,0 M286.1,96.2 a2.8,2.8 0 1,0 5.6,0 a2.8,2.8 0 1,0 -5.6,0 M286.1,143.8 a2.8,2.8 0 1,0 5.6,0 a2.8,2.8 0 1,0 -5.6,0 M276.9,166 a2.8,2.8 0 1,0 5.6,0 a2.8,2.8 0 1,0 -5.6,0 M262.3,185.1 a2.8,2.8 0 1,0 5.6,0 a2.8,2.8 0 1,0 -5.6,0 M243.2,199.7 a2.8,2.8 0 1,0 5.6,0 a2.8,2.8 0 1,0 -5.6,0 M221,208.9 a2.8,2.8 0 1,0 5.6,0 a2.8,2.8 0 1,0 -5.6,0 M197.2,212 a2.8,2.8 0 1,0 5.6,0 a2.8,2.8 0 1,0 -5.6,0 M173.4,208.9 a2.8,2.8 0 1,0 5.6,0 a2.8,2.8 0 1,0 -5.6,0 M151.2,199.7 a2.8,2.8 0 1,0 5.6,0 a2.8,2.8 0 1,0 -5.6,0 M132.1,185.1 a2.8,2.8 0 1,0 5.6,0 a2.8,2.8 0 1,0 -5.6,0 M117.5,166 a2.8,2.8 0 1,0 5.6,0 a2.8,2.8 0 1,0 -5.6,0 M108.3,143.8 a2.8,2.8 0 1,0 5.6,0 a2.8,2.8 0 1,0 -5.6,0"/>
+<circle class="w" cx="108" cy="120" r="7"/>
+<circle class="s" cx="108" cy="120" r="7"/>
+<circle class="w" cx="292" cy="120" r="7"/>
+<circle class="s" cx="292" cy="120" r="7"/>
+<g class="a-slow"><circle class="pq" cx="0" cy="0" r="5"/></g>
+<g class="a-fast"><circle class="p" cx="0" cy="0" r="5.5"/></g>
+<text class="t" x="96" y="44" text-anchor="end">the long way</text>
+<text class="t" x="304" y="200" text-anchor="start">the shortcut</text>
+</svg>

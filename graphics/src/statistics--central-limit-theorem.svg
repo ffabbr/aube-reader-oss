@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="statistics--central-limit-theorem" data-discipline="statistics" data-tags="sampling,normal-distribution,sample-mean,convergence,probability">
+<title>Central limit theorem</title>
+<desc>Averages drawn from a lopsided population drop one by one into a pile that settles into a symmetric bell curve, whatever the shape of the original distribution.</desc>
+<style>
+.a-drop0{animation:a-drop0 2.5s linear infinite;animation-delay:0s}
+@keyframes a-drop0{0%{transform:translate(0px,0px);opacity:0;}8%{transform:translate(0px,0px);opacity:1;}62%{transform:translate(0px,50.2px);opacity:1;animation-timing-function:cubic-bezier(.45,0,.85,.55);}70%{transform:translate(0px,50.2px);opacity:0;}100%{transform:translate(0px,50.2px);opacity:0;}}
+.a-drop1{animation:a-drop1 2.5s linear infinite;animation-delay:-1.7s}
+@keyframes a-drop1{0%{transform:translate(0px,0px);opacity:0;}8%{transform:translate(0px,0px);opacity:1;}62%{transform:translate(0px,50.2px);opacity:1;animation-timing-function:cubic-bezier(.45,0,.85,.55);}70%{transform:translate(0px,50.2px);opacity:0;}100%{transform:translate(0px,50.2px);opacity:0;}}
+.a-drop2{animation:a-drop2 2.5s linear infinite;animation-delay:-0.8s}
+@keyframes a-drop2{0%{transform:translate(0px,0px);opacity:0;}8%{transform:translate(0px,0px);opacity:1;}62%{transform:translate(0px,41px);opacity:1;animation-timing-function:cubic-bezier(.45,0,.85,.55);}70%{transform:translate(0px,41px);opacity:0;}100%{transform:translate(0px,41px);opacity:0;}}
+.a-drop3{animation:a-drop3 2.5s linear infinite;animation-delay:-2.1s}
+@keyframes a-drop3{0%{transform:translate(0px,0px);opacity:0;}8%{transform:translate(0px,0px);opacity:1;}62%{transform:translate(0px,68.6px);opacity:1;animation-timing-function:cubic-bezier(.45,0,.85,.55);}70%{transform:translate(0px,68.6px);opacity:0;}100%{transform:translate(0px,68.6px);opacity:0;}}
+</style>
+<path class="f" d="M30,190 H160"/>
+<path class="f" d="M222,190 H370"/>
+<path class="w" d="M36,190 L40.6,149.5 L45.2,124.3 L49.8,110 L54.4,103.4 L59,102.1 L63.6,104.3 L68.2,108.9 L72.8,114.7 L77.4,121.2 L82,127.9 L86.6,134.6 L91.2,140.9 L95.8,146.8 L100.4,152.2 L105,157.2 L109.6,161.6 L114.2,165.5 L118.8,168.9 L123.4,171.9 L128,174.5 L132.6,176.8 L137.2,178.8 L141.8,180.5 L146.4,181.9 L146.4,190 Z"/>
+<path class="q" d="M36,190 C36.8,183.3 39.1,160.5 40.6,149.5 C42.1,138.6 43.7,130.9 45.2,124.3 C46.7,117.7 48.3,113.5 49.8,110 C51.3,106.5 52.9,104.7 54.4,103.4 C55.9,102.1 57.5,101.9 59,102.1 C60.5,102.2 62.1,103.2 63.6,104.3 C65.1,105.5 66.7,107.1 68.2,108.9 C69.7,110.6 71.3,112.6 72.8,114.7 C74.3,116.8 75.9,119 77.4,121.2 C78.9,123.4 80.5,125.7 82,127.9 C83.5,130.2 85.1,132.4 86.6,134.6 C88.1,136.7 89.7,138.9 91.2,140.9 C92.7,143 94.3,144.9 95.8,146.8 C97.3,148.7 98.9,150.5 100.4,152.2 C101.9,154 103.5,155.6 105,157.2 C106.5,158.7 108.1,160.2 109.6,161.6 C111.1,162.9 112.7,164.2 114.2,165.5 C115.7,166.7 117.3,167.8 118.8,168.9 C120.3,170 121.9,171 123.4,171.9 C124.9,172.9 126.5,173.7 128,174.5 C129.5,175.4 131.1,176.1 132.6,176.8 C134.1,177.5 135.7,178.2 137.2,178.8 C138.7,179.4 140.3,180 141.8,180.5 C143.3,181 145.6,181.7 146.4,181.9"/>
+<path class="k q" d="M222,185.1 C223.7,184.3 228.7,182.3 232,180 C235.3,177.8 238.7,175 242,171.6 C245.3,168.1 248.7,163.9 252,159.3 C255.3,154.7 258.7,149.2 262,144 C265.3,138.7 268.7,132.7 272,127.8 C275.3,122.8 278.7,117.7 282,114.1 C285.3,110.6 288.7,107.8 292,106.7 C295.3,105.6 298.7,105.9 302,107.6 C305.3,109.2 308.7,112.6 312,116.5 C315.3,120.4 318.7,125.8 322,130.9 C325.3,136 328.7,142 332,147.2 C335.3,152.4 338.7,157.7 342,162.1 C345.3,166.5 348.7,170.4 352,173.6 C355.3,176.8 360.3,180 362,181.3"/>
+<circle class="p" cx="236" cy="184.6" r="4.4"/>
+<circle class="p" cx="248" cy="184.6" r="4.4"/>
+<circle class="p" cx="248" cy="175.4" r="4.4"/>
+<circle class="p" cx="260" cy="184.6" r="4.4"/>
+<circle class="p" cx="260" cy="175.4" r="4.4"/>
+<circle class="p" cx="260" cy="166.2" r="4.4"/>
+<circle class="p" cx="272" cy="184.6" r="4.4"/>
+<circle class="p" cx="272" cy="175.4" r="4.4"/>
+<circle class="p" cx="272" cy="166.2" r="4.4"/>
+<circle class="p" cx="272" cy="157" r="4.4"/>
+<circle class="p" cx="272" cy="147.8" r="4.4"/>
+<circle class="p" cx="284" cy="184.6" r="4.4"/>
+<circle class="p" cx="284" cy="175.4" r="4.4"/>
+<circle class="p" cx="284" cy="166.2" r="4.4"/>
+<circle class="p" cx="284" cy="157" r="4.4"/>
+<circle class="p" cx="284" cy="147.8" r="4.4"/>
+<circle class="p" cx="284" cy="138.6" r="4.4"/>
+<circle class="p" cx="284" cy="129.4" r="4.4"/>
+<circle class="p" cx="296" cy="184.6" r="4.4"/>
+<circle class="p" cx="296" cy="175.4" r="4.4"/>
+<circle class="p" cx="296" cy="166.2" r="4.4"/>
+<circle class="p" cx="296" cy="157" r="4.4"/>
+<circle class="p" cx="296" cy="147.8" r="4.4"/>
+<circle class="p" cx="296" cy="138.6" r="4.4"/>
+<circle class="p" cx="296" cy="129.4" r="4.4"/>
+<circle class="p" cx="296" cy="120.2" r="4.4"/>
+<circle class="p" cx="308" cy="184.6" r="4.4"/>
+<circle class="p" cx="308" cy="175.4" r="4.4"/>
+<circle class="p" cx="308" cy="166.2" r="4.4"/>
+<circle class="p" cx="308" cy="157" r="4.4"/>
+<circle class="p" cx="308" cy="147.8" r="4.4"/>
+<circle class="p" cx="308" cy="138.6" r="4.4"/>
+<circle class="p" cx="308" cy="129.4" r="4.4"/>
+<circle class="p" cx="320" cy="184.6" r="4.4"/>
+<circle class="p" cx="320" cy="175.4" r="4.4"/>
+<circle class="p" cx="320" cy="166.2" r="4.4"/>
+<circle class="p" cx="320" cy="157" r="4.4"/>
+<circle class="p" cx="320" cy="147.8" r="4.4"/>
+<circle class="p" cx="332" cy="184.6" r="4.4"/>
+<circle class="p" cx="332" cy="175.4" r="4.4"/>
+<circle class="p" cx="332" cy="166.2" r="4.4"/>
+<circle class="p" cx="344" cy="184.6" r="4.4"/>
+<circle class="p" cx="344" cy="175.4" r="4.4"/>
+<circle class="p" cx="356" cy="184.6" r="4.4"/>
+<path class="q" d="M164,128 C176,118 200,118 214,128 M208.5,125.7 L214,128 L213,122.1"/>
+<g class="a-drop0"><circle class="p" cx="284" cy="70" r="4.4"/></g>
+<g class="a-drop1"><circle class="p" cx="308" cy="70" r="4.4"/></g>
+<g class="a-drop2"><circle class="p" cx="296" cy="70" r="4.4"/></g>
+<g class="a-drop3"><circle class="p" cx="272" cy="70" r="4.4"/></g>
+<text class="t" x="94" y="212" text-anchor="middle">any population</text>
+<text class="t" x="296" y="212" text-anchor="middle">means of many samples</text>
+<text class="t" x="188" y="106" text-anchor="middle">average n</text>
+</svg>

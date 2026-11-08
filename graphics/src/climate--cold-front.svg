@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="climate--cold-front" data-discipline="climate" data-tags="cold-front,weather-front,air-mass,cumulonimbus,storm,meteorology">
+<title>Cold front</title>
+<desc>A wedge of dense cold air ploughs under warm air like a snowplough, forcing it upward until it condenses into a towering storm cloud and rain.</desc>
+<style>
+.a-push{transform-box:view-box;transform-origin:20px 205px;animation:a-push 10s linear infinite}
+@keyframes a-push{from{transform:scaleX(1)}to{transform:scaleX(1.1)}}
+.a-ride{animation:a-ride 10s linear infinite}
+@keyframes a-ride{from{transform:translateX(0)}to{transform:translateX(22px)}}
+.a-up{offset-rotate:0deg;animation:a-up 2.5s ease-in infinite}
+.a-f1{offset-path:path("M340,196 C300,196 258,188 226,160 C208,144 200,124 200,96")}
+@keyframes a-up{0%{offset-distance:0%;opacity:0}15%{opacity:1}85%{opacity:1}100%{offset-distance:100%;opacity:0}}
+.a-d1{animation-delay:-1.25s}
+.a-rain{animation:a-rain 1s linear infinite}
+@keyframes a-rain{from{transform:translateY(0)}to{transform:translateY(10px)}}
+</style>
+<path class="f" d="M20,205 H380"/>
+<g class="a-push">
+<path class="w" d="M20,84 C90,88 170,130 206,178 C214,190 224,200 238,205 H20 Z"/>
+<path class="s" d="M20,84 C90,88 170,130 206,178 C214,190 224,200 238,205"/>
+<polygon class="p" points="77.6,94.8 90.9,99.2 87.4,87.5"/>
+<polygon class="p" points="129.5,116.3 141.7,123.2 140.5,111.0"/>
+<polygon class="p" points="171.0,143.1 181.8,152.0 182.8,139.8"/>
+<polygon class="p" points="198.2,168.3 207.1,179.1 210.4,167.4"/>
+<path class="k q" d="M340,196 C300,196 258,188 226,160 C208,144 200,124 200,96"/>
+<g class="a-up a-f1"><circle class="p" cx="0" cy="0" r="2.8"/></g>
+<g class="a-up a-f1 a-d1"><circle class="p" cx="0" cy="0" r="2.8"/></g>
+</g>
+<g class="a-ride">
+<path class="w" d="M190,112 C177,112 173,98 183,92 C175,82 183,68 197,70 C197,62 198,58 200,52 C184,50 166,46 158,40 C182,28 262,24 298,36 C292,44 272,50 256,52 C258,60 258,64 256,70 C270,68 278,82 270,92 C280,98 276,112 263,112 Z"/>
+<path class="s" d="M190,112 C177,112 173,98 183,92 C175,82 183,68 197,70 C197,62 198,58 200,52 C184,50 166,46 158,40 C182,28 262,24 298,36 C292,44 272,50 256,52 C258,60 258,64 256,70 C270,68 278,82 270,92 C280,98 276,112 263,112 Z"/>
+<g class="a-rain"><path class="k q" d="M224,118 V152 M238,118 V152 M252,118 V152"/></g>
+</g>
+<path class="s" d="M56,176 H118"/>
+<path class="s" d="M112.3,172.9 L118,176 L112.3,179.1"/>
+<text class="t" x="86" y="162" text-anchor="middle">cold air</text>
+<text class="t" x="330" y="160" text-anchor="middle">warm air</text>
+</svg>

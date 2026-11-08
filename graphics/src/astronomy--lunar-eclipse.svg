@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="astronomy--lunar-eclipse" data-discipline="astronomy" data-tags="eclipse,moon,earth,shadow,umbra,orbit">
+<title>Lunar eclipse</title>
+<desc>The Moon drifts through the long shadow cast by Earth and darkens; sunlight is blocked when Sun, Earth and Moon line up.</desc>
+<style>
+@keyframes a-pass{from{transform:translateY(-70px)}to{transform:translateY(70px)}}
+.a-pass{animation:a-pass 5s ease-in-out infinite alternate;transform:translateY(-70px)}
+@keyframes a-dim{0%,36%{opacity:1}50%{opacity:.2}64%,100%{opacity:1}}
+.a-dim{animation:a-dim 5s ease-in-out infinite alternate}
+</style>
+<circle class="w" cx="44" cy="120" r="22"/>
+<circle class="s" cx="44" cy="120" r="22"/>
+<path class="f" d="M78,106H106"/>
+<path class="f" d="M78,120H106"/>
+<path class="f" d="M78,134H106"/>
+<path class="w" d="M130,100L366,113V127L130,140Z"/>
+<path class="k f" d="M130,100L376,56M130,140L376,184"/>
+<path class="k q" d="M130,100L366,113M130,140L366,127"/>
+<circle class="w" cx="130" cy="120" r="20"/>
+<circle class="s" cx="130" cy="120" r="20"/>
+<path class="pq" d="M130,100A20,20 0 0 1 130,140Z"/>
+<path class="k f" d="M262,44V196"/>
+<g class="a-pass">
+<g class="a-dim">
+<circle class="w" cx="262" cy="120" r="10"/>
+<circle class="s" cx="262" cy="120" r="10"/>
+</g>
+</g>
+<text class="t" x="262" y="216" text-anchor="middle">Moon's path</text>
+<text class="t" x="376" y="100" text-anchor="end">Earth's shadow</text>
+</svg>

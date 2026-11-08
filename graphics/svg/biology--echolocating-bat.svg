@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="biology--echolocating-bat" data-discipline="biology" data-tags="echolocation,bat,sonar,ultrasound,hunting,echo,moth,hearing" role="img">
+ <title>Echolocating Bat</title>
+ <desc>A bat in flight sends out rings of ultrasound; they strike a moth and dashed echoes ripple back, and the delay tells the bat how far away its prey is flying.</desc>
+ <style>
+:root{--ink:#110f0c;--quiet:#555350;--faint:#b8b6b2;--wash:#f5f3ef}
+@media (prefers-color-scheme:dark){:root{--ink:#e7e5e2;--quiet:#a3a19e;--faint:#524f4c;--wash:#252321}}
+svg{overflow:visible}
+.s,.q,.f{fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1;stroke-dashoffset:0}
+.s{stroke:var(--ink);stroke-width:1.5}
+.q{stroke:var(--quiet);stroke-width:1.3}
+.f{stroke:var(--faint);stroke-width:1.1}
+.hair{stroke-width:1!important}
+.bold{stroke-width:2.2!important}
+.k{fill:none;stroke-dasharray:5 5!important;stroke-linecap:round}
+.p{fill:var(--ink);stroke:none}
+.pq{fill:var(--quiet);stroke:none}
+.w{fill:var(--wash);stroke:none}
+.t{fill:var(--quiet);stroke:none;font:italic 13px ui-serif,"New York",Georgia,serif}
+.all{animation:out 10s linear infinite}
+@keyframes out{0%,90%{opacity:1}97%,99.9%{opacity:0}100%{opacity:1}}
+@keyframes dr0{0%,0.0%{stroke-dashoffset:1;opacity:0}0.1%{stroke-dashoffset:1;opacity:1}9%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd0{0%,0.0%{opacity:0}7%,100%{opacity:1}}
+@keyframes dr1{0%,2.2%{stroke-dashoffset:1;opacity:0}2.3%{stroke-dashoffset:1;opacity:1}11.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd1{0%,2.2%{opacity:0}9.2%,100%{opacity:1}}
+@keyframes dr2{0%,4.4%{stroke-dashoffset:1;opacity:0}4.5%{stroke-dashoffset:1;opacity:1}13.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd2{0%,4.4%{opacity:0}11.4%,100%{opacity:1}}
+@keyframes dr3{0%,6.6%{stroke-dashoffset:1;opacity:0}6.7%{stroke-dashoffset:1;opacity:1}15.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd3{0%,6.6%{opacity:0}13.6%,100%{opacity:1}}
+@keyframes dr4{0%,8.8%{stroke-dashoffset:1;opacity:0}8.9%{stroke-dashoffset:1;opacity:1}17.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd4{0%,8.8%{opacity:0}15.8%,100%{opacity:1}}
+@keyframes dr5{0%,11.0%{stroke-dashoffset:1;opacity:0}11.1%{stroke-dashoffset:1;opacity:1}20%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd5{0%,11.0%{opacity:0}18%,100%{opacity:1}}
+@keyframes dr6{0%,13.2%{stroke-dashoffset:1;opacity:0}13.3%{stroke-dashoffset:1;opacity:1}22.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd6{0%,13.2%{opacity:0}20.2%,100%{opacity:1}}
+@keyframes dr7{0%,15.4%{stroke-dashoffset:1;opacity:0}15.5%{stroke-dashoffset:1;opacity:1}24.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd7{0%,15.4%{opacity:0}22.4%,100%{opacity:1}}
+@keyframes dr8{0%,17.6%{stroke-dashoffset:1;opacity:0}17.7%{stroke-dashoffset:1;opacity:1}26.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd8{0%,17.6%{opacity:0}24.6%,100%{opacity:1}}
+@keyframes dr9{0%,19.8%{stroke-dashoffset:1;opacity:0}19.9%{stroke-dashoffset:1;opacity:1}28.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd9{0%,19.8%{opacity:0}26.8%,100%{opacity:1}}
+@keyframes dr10{0%,22.0%{stroke-dashoffset:1;opacity:0}22.1%{stroke-dashoffset:1;opacity:1}31%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd10{0%,22.0%{opacity:0}29%,100%{opacity:1}}
+@keyframes dr11{0%,24.2%{stroke-dashoffset:1;opacity:0}24.3%{stroke-dashoffset:1;opacity:1}33.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd11{0%,24.2%{opacity:0}31.2%,100%{opacity:1}}
+@keyframes dr12{0%,26.4%{stroke-dashoffset:1;opacity:0}26.5%{stroke-dashoffset:1;opacity:1}35.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd12{0%,26.4%{opacity:0}33.4%,100%{opacity:1}}
+@keyframes dr13{0%,28.6%{stroke-dashoffset:1;opacity:0}28.7%{stroke-dashoffset:1;opacity:1}37.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd13{0%,28.6%{opacity:0}35.6%,100%{opacity:1}}
+@keyframes dr14{0%,30.8%{stroke-dashoffset:1;opacity:0}30.9%{stroke-dashoffset:1;opacity:1}39.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd14{0%,30.8%{opacity:0}37.8%,100%{opacity:1}}
+@keyframes dr15{0%,33.0%{stroke-dashoffset:1;opacity:0}33.1%{stroke-dashoffset:1;opacity:1}42%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd15{0%,33.0%{opacity:0}40%,100%{opacity:1}}
+.s.i0,.q.i0,.f.i0{animation:dr0 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i1,.q.i1,.f.i1{animation:dr1 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i2,.q.i2,.f.i2{animation:dr2 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i3,.q.i3,.f.i3{animation:dr3 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i4,.q.i4,.f.i4{animation:dr4 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i5,.q.i5,.f.i5{animation:dr5 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i6,.q.i6,.f.i6{animation:dr6 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i7,.q.i7,.f.i7{animation:dr7 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i8,.q.i8,.f.i8{animation:dr8 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i9,.q.i9,.f.i9{animation:dr9 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i10,.q.i10,.f.i10{animation:dr10 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i11,.q.i11,.f.i11{animation:dr11 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i12,.q.i12,.f.i12{animation:dr12 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i13,.q.i13,.f.i13{animation:dr13 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i14,.q.i14,.f.i14{animation:dr14 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i15,.q.i15,.f.i15{animation:dr15 10s cubic-bezier(.55,.05,.25,1) infinite}
+.p.i0,.w.i0,.pq.i0,.t.i0,.k.i0{animation:fd0 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i1,.w.i1,.pq.i1,.t.i1,.k.i1{animation:fd1 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i2,.w.i2,.pq.i2,.t.i2,.k.i2{animation:fd2 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i3,.w.i3,.pq.i3,.t.i3,.k.i3{animation:fd3 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i4,.w.i4,.pq.i4,.t.i4,.k.i4{animation:fd4 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i5,.w.i5,.pq.i5,.t.i5,.k.i5{animation:fd5 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i6,.w.i6,.pq.i6,.t.i6,.k.i6{animation:fd6 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i7,.w.i7,.pq.i7,.t.i7,.k.i7{animation:fd7 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i8,.w.i8,.pq.i8,.t.i8,.k.i8{animation:fd8 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i9,.w.i9,.pq.i9,.t.i9,.k.i9{animation:fd9 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i10,.w.i10,.pq.i10,.t.i10,.k.i10{animation:fd10 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i11,.w.i11,.pq.i11,.t.i11,.k.i11{animation:fd11 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i12,.w.i12,.pq.i12,.t.i12,.k.i12{animation:fd12 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i13,.w.i13,.pq.i13,.t.i13,.k.i13{animation:fd13 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i14,.w.i14,.pq.i14,.t.i14,.k.i14{animation:fd14 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i15,.w.i15,.pq.i15,.t.i15,.k.i15{animation:fd15 10s cubic-bezier(.2,.7,.3,1) infinite}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+ <style>
+.a-call{transform-box:view-box;transform-origin:142px 122px;animation:a-call 2.5s linear infinite}@keyframes a-call{0%{transform:scale(.08);opacity:0}6%{opacity:1}85%{opacity:1}100%{transform:scale(1);opacity:.1}}
+.a-echo{transform-box:view-box;transform-origin:340px 114px;animation:a-echo 2.5s linear infinite}@keyframes a-echo{0%{transform:scale(.08);opacity:0}6%{opacity:1}85%{opacity:1}100%{transform:scale(1);opacity:.1}}
+.a-t0{animation-delay:0s}
+.a-t1{animation-delay:-0.833s}
+.a-t2{animation-delay:-1.667s}
+.a-wing{transform-box:view-box;transform-origin:112px 112px;animation:a-wing 1s ease-in-out infinite alternate}@keyframes a-wing{from{transform:rotate(8deg)}to{transform:rotate(-12deg)}}
+.a-fwing{transform-box:view-box;transform-origin:118px 108px;animation:a-fwing 1s ease-in-out infinite alternate}@keyframes a-fwing{from{transform:rotate(-6deg)}to{transform:rotate(9deg)}}
+.a-moth{transform-box:view-box;transform-origin:0 0;animation:a-moth 1s ease-in-out infinite alternate}@keyframes a-moth{from{transform:scaleX(1)}to{transform:scaleX(.55)}}
+</style>
+ <g class="all">
+  <path class="f hair i0" d="M148,122 L326,114" pathLength="1" />
+  <g transform="translate(0,12)">
+   <g class="a-fwing">
+    <path class="w i0" d="M118,108 L134,66 C138,52 142,40 148,26 C150,44 152,56 156,66 C148,70 142,78 140,88 C134,88 128,96 124,108 Z" />
+    <path class="q i1" d="M118,108 L134,66 C138,52 142,40 148,26 C150,44 152,56 156,66 C148,70 142,78 140,88 C134,88 128,96 124,108 Z" pathLength="1" />
+    <path class="q hair i1" d="M134,66 L156,66 M134,66 L140,88" pathLength="1" />
+   </g>
+   <g class="a-wing">
+    <path class="w i2" d="M112,112 C106,94 100,78 94,62 C78,46 56,34 30,28 C40,44 40,60 26,76 C42,76 54,90 48,112 C60,108 72,114 72,130 C82,126 92,126 100,128 Z" />
+    <path class="s i2" d="M112,112 C106,94 100,78 94,62 C78,46 56,34 30,28 C40,44 40,60 26,76 C42,76 54,90 48,112 C60,108 72,114 72,130 C82,126 92,126 100,128 Z" pathLength="1" />
+    <path class="q hair i3" d="M94,62 L26,76 M94,62 L48,112 M94,62 L72,130" pathLength="1" />
+    <path class="s bold i3" d="M112,112 L94,62 M94,62 L90,54" pathLength="1" />
+   </g>
+   <path class="p i4" d="M124,104 C116,100 104,104 96,114 C90,122 84,130 78,136 C84,136 90,136 94,134 C106,132 118,126 124,116 C126,112 126,108 124,104 Z" />
+   <path class="s hair i4" d="M82,134 L68,142 M90,134 L78,146 M68,142 C72,146 74,146 78,146" pathLength="1" />
+   <path class="p i5" d="M118,106 L115,84 L124,96 C126,95 128,95 130,96 L137,86 L136,102 C140,104 142,106 141,109 L134,110 L139,113 C134,117 126,118 122,115 C118,112 117,109 118,106 Z" />
+  </g>
+  <g class="a-call a-t0">
+   <path class="s i6" d="M315.5,44.5 A190,190 0 0 1 315.5,199.5" pathLength="1" />
+  </g>
+  <g class="a-call a-t1">
+   <path class="s i6" d="M315.5,44.5 A190,190 0 0 1 315.5,199.5" pathLength="1" />
+  </g>
+  <g class="a-call a-t2">
+   <path class="s i7" d="M315.5,44.5 A190,190 0 0 1 315.5,199.5" pathLength="1" />
+  </g>
+  <g class="a-echo a-t0">
+   <path class="k q i7" d="M171.9,166 A176,176 0 0 1 171.9,62" />
+  </g>
+  <g class="a-echo a-t1">
+   <path class="k q i8" d="M171.9,166 A176,176 0 0 1 171.9,62" />
+  </g>
+  <g class="a-echo a-t2">
+   <path class="k q i8" d="M171.9,166 A176,176 0 0 1 171.9,62" />
+  </g>
+  <g transform="translate(340,114) rotate(-16) scale(1.25)">
+   <g class="a-moth">
+    <path class="w i9" d="M1,-2 C8,-14 18,-16 22,-12 C22,-4 14,2 1,3 Z" />
+    <path class="s i9" d="M1,-2 C8,-14 18,-16 22,-12 C22,-4 14,2 1,3 Z" pathLength="1" />
+    <path class="w i10" d="M1,3 C8,3 14,6 13,12 C8,16 3,10 1,6 Z" />
+    <path class="s i11" d="M1,3 C8,3 14,6 13,12 C8,16 3,10 1,6 Z" pathLength="1" />
+   </g>
+   <g transform="scale(-1,1)">
+    <g class="a-moth">
+     <path class="w i11" d="M1,-2 C8,-14 18,-16 22,-12 C22,-4 14,2 1,3 Z" />
+     <path class="s i12" d="M1,-2 C8,-14 18,-16 22,-12 C22,-4 14,2 1,3 Z" pathLength="1" />
+     <path class="w i12" d="M1,3 C8,3 14,6 13,12 C8,16 3,10 1,6 Z" />
+     <path class="s i13" d="M1,3 C8,3 14,6 13,12 C8,16 3,10 1,6 Z" pathLength="1" />
+    </g>
+   </g>
+   <path class="s bold i13" d="M0,-4 V10" pathLength="1" />
+   <path class="s hair i14" d="M0,-4 C-2,-9 -5,-11 -8,-11 M0,-4 C2,-9 5,-11 8,-11" pathLength="1" />
+  </g>
+  <text class="t i14" x="222" y="60" text-anchor="middle">call</text>
+  <text class="t i15" x="262" y="196" text-anchor="middle">echo</text>
+ </g>
+</svg>

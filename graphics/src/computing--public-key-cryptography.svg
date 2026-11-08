@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="computing--public-key-cryptography" data-discipline="computing" data-tags="encryption,cryptography,rsa,asymmetric,security,keys">
+<title>Public-key cryptography</title>
+<desc>A padlock with two keys: the public key can only snap it shut, scrambling the message inside, and only the matching private key can open it again. Asymmetric encryption.</desc>
+<style>
+.a-shackle{animation:a-shackle 10s ease-in-out infinite;transform:translateY(0px)}
+@keyframes a-shackle{0%{transform:translateY(-18px)}52%{transform:translateY(-18px)}54.5%{transform:translateY(0px)}72%{transform:translateY(0px)}75%{transform:translateY(-18px)}100%{transform:translateY(-18px)}}
+.a-plain{animation:a-plain 10s ease-in-out infinite;opacity:0}
+@keyframes a-plain{0%{opacity:1}54%{opacity:1}58%{opacity:0}74%{opacity:0}78%{opacity:1}100%{opacity:1}}
+.a-cipher{animation:a-cipher 10s ease-in-out infinite;opacity:1}
+@keyframes a-cipher{0%{opacity:0}54%{opacity:0}58%{opacity:1}74%{opacity:1}78%{opacity:0}100%{opacity:0}}
+.a-pub{animation:a-pub 10s ease-in-out infinite;}
+@keyframes a-pub{0%{transform:translateX(0px)}44%{transform:translateX(0px)}52%{transform:translateX(38px)}55%{transform:translateX(38px)}62%{transform:translateX(0px)}100%{transform:translateX(0px)}}
+.a-pri{animation:a-pri 10s ease-in-out infinite;}
+@keyframes a-pri{0%{transform:translateX(0px)}63%{transform:translateX(0px)}71%{transform:translateX(-38px)}75%{transform:translateX(-38px)}82%{transform:translateX(0px)}100%{transform:translateX(0px)}}
+</style>
+<g class="a-shackle"><path class="s bold" d="M176,136 V80 A24,24 0 0 1 224,80 V114"/></g>
+<rect class="w" x="160" y="108" width="80" height="64" rx="8"/>
+<rect class="s" x="160" y="108" width="80" height="64" rx="8"/>
+<path class="s bold" d="M160,132 v16 M240,132 v16"/>
+<g class="a-plain"><path class="q" d="M176,126 H224 M176,140 H224 M176,154 H210"/></g>
+<g class="a-cipher"><path class="q hair" d="M176,126 L182,130 L188,122 L194,130 L200,122 L206,130 L212,122 L218,130 L224,122 M176,140 L182,144 L188,136 L194,144 L200,136 L206,144 L212,136 L218,144 L224,136 M176,154 L182,158 L188,150 L194,158 L200,150 L206,158"/></g>
+<g class="a-pub"><circle class="w" cx="62" cy="140" r="13"/><circle class="s" cx="62" cy="140" r="13"/><path class="s" d="M75,140 H122 M120,140 v8 M111,140 v6 M103,140 v8"/></g>
+<g class="a-pri"><circle class="p" cx="338" cy="140" r="13"/><path class="s" d="M325,140 H278 M280,140 v8 M289,140 v6 M297,140 v8"/></g>
+<text class="t" x="86" y="182" text-anchor="middle">public key</text>
+<text class="t" x="314" y="182" text-anchor="middle">private key</text>
+<text class="t" x="200" y="206" text-anchor="middle">anyone can lock, only one can open</text>
+</svg>

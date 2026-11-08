@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="earth--earth-interior-layers" data-discipline="earth" data-tags="earth-interior,crust,mantle,outer-core,inner-core,convection,structure-of-earth">
+<title>Layers of the Earth</title>
+<desc>Concentric layers of the Earth: a thin crust, the thick mantle, a liquid outer core and a solid inner core, with slow circulation in the mantle and core.</desc>
+<style>
+.a-spin{transform-box:view-box;transform-origin:150px 120px;animation:a-spin 10s linear infinite}
+.a-back{transform-box:view-box;transform-origin:150px 120px;animation:a-spin 10s linear infinite reverse}
+@keyframes a-spin{from{transform:rotate(0)}to{transform:rotate(360deg)}}
+</style>
+<circle class="w" cx="150" cy="120" r="96"/>
+<circle class="s" cx="150" cy="120" r="96"/>
+<circle class="q" cx="150" cy="120" r="90"/>
+<circle class="s" cx="150" cy="120" r="52"/>
+<circle class="pq" cx="150" cy="120" r="18"/>
+<g class="a-spin"><path class="k q" d="M222,120 A72,72 0 0 1 200,171.8 M150,192 A72,72 0 0 1 98.2,170 M78,120 A72,72 0 0 1 100,68.2 M150,48 A72,72 0 0 1 201.8,70"/></g>
+<g class="a-back"><path class="k s" d="M182.9,132 A35,35 0 0 1 150,155 M123.2,142.5 A35,35 0 0 1 119.7,102.5 M143.9,85.5 A35,35 0 0 1 180.3,102.5"/></g>
+<path class="f hair" d="M200.9,69.1 L262,54"/>
+<path class="f hair" d="M185.5,113.7 L262,118"/>
+<path class="f hair" d="M158,128 L262,182"/>
+<circle class="p" cx="200.9" cy="69.1" r="2"/>
+<circle class="p" cx="185.5" cy="113.7" r="2"/>
+<circle class="p" cx="158" cy="128" r="2"/>
+<text class="t" x="268" y="58" text-anchor="start">mantle</text>
+<text class="t" x="268" y="122" text-anchor="start">outer core</text>
+<text class="t" x="268" y="186" text-anchor="start">inner core</text>
+</svg>

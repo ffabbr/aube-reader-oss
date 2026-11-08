@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="climate--greenhouse-effect" data-discipline="climate" data-tags="greenhouse-effect,global-warming,infrared,carbon-dioxide,atmosphere,radiation,climate-change">
+<title>Greenhouse effect</title>
+<desc>Sunlight warms the surface, which radiates infrared; greenhouse gas molecules in the atmosphere absorb some and send it back down, trapping heat.</desc>
+<style>
+.a-ph{offset-rotate:0deg;animation:a-ph 5s linear infinite}
+.a-r1{offset-path:path("M92,62 L138,180")}.a-r2{offset-path:path("M124,50 L170,178")}
+.a-ie{offset-path:path("M250,182 L280,34")}.a-it{offset-path:path("M298,182 L318,128 L338,182")}
+@keyframes a-ph{0%{offset-distance:0%;opacity:0}8%{opacity:1}88%{opacity:1}100%{offset-distance:100%;opacity:0}}
+.a-d1{animation-delay:-2.5s}.a-d2{animation-delay:-1.2s}
+</style>
+<path class="w" d="M20,120 Q200,70 380,120 L380,168 Q200,118 20,168 Z"/>
+<path class="w" d="M20,208 Q200,158 380,208 V220 H20 Z"/>
+<path class="f" d="M20,120 Q200,70 380,120 M20,168 Q200,118 380,168"/>
+<path class="s" d="M20,208 Q200,158 380,208"/>
+<path class="q" d="M62.1,132 a2.3,2.3 0 1 0 4.6,0 a2.3,2.3 0 1 0 -4.6,0 M68.1,132 a2.3,2.3 0 1 0 4.6,0 a2.3,2.3 0 1 0 -4.6,0 M74.1,132 a2.3,2.3 0 1 0 4.6,0 a2.3,2.3 0 1 0 -4.6,0 "/><path class="q" d="M119.7,123 a2.3,2.3 0 1 0 4.6,0 a2.3,2.3 0 1 0 -4.6,0 M125.7,123 a2.3,2.3 0 1 0 4.6,0 a2.3,2.3 0 1 0 -4.6,0 M131.7,123 a2.3,2.3 0 1 0 4.6,0 a2.3,2.3 0 1 0 -4.6,0 "/><path class="q" d="M191.7,119 a2.3,2.3 0 1 0 4.6,0 a2.3,2.3 0 1 0 -4.6,0 M197.7,119 a2.3,2.3 0 1 0 4.6,0 a2.3,2.3 0 1 0 -4.6,0 M203.7,119 a2.3,2.3 0 1 0 4.6,0 a2.3,2.3 0 1 0 -4.6,0 "/><path class="q" d="M249.3,121.6 a2.3,2.3 0 1 0 4.6,0 a2.3,2.3 0 1 0 -4.6,0 M255.3,121.6 a2.3,2.3 0 1 0 4.6,0 a2.3,2.3 0 1 0 -4.6,0 M261.3,121.6 a2.3,2.3 0 1 0 4.6,0 a2.3,2.3 0 1 0 -4.6,0 "/><path class="q" d="M321.3,132 a2.3,2.3 0 1 0 4.6,0 a2.3,2.3 0 1 0 -4.6,0 M327.3,132 a2.3,2.3 0 1 0 4.6,0 a2.3,2.3 0 1 0 -4.6,0 M333.3,132 a2.3,2.3 0 1 0 4.6,0 a2.3,2.3 0 1 0 -4.6,0 "/>
+<circle class="w" cx="56" cy="46" r="13"/><circle class="s" cx="56" cy="46" r="13"/>
+<path class="q" d="M56,24 v6 M56,62 v6 M34,46 h6 M72,46 h6 M40,30 l4,4 M72,30 l-4,4 M40,62 l4,-4 M72,62 l-4,-4"/>
+<path class="s" d="M92,62 L138,180 M132.6,175.5 L138,180 L138.9,173.1"/>
+<path class="s" d="M124,50 L170,178 M164.8,173.4 L170,178 L171.1,171.1"/>
+<path class="k s" d="M250,182 L280,34"/><path class="s" d="M283.1,36.7 L281,30 L276.5,35.4"/>
+<path class="k s" d="M298,182 L318,128 L338,182"/><path class="s" d="M333.7,179.4 L339,184 L340,177.1"/>
+<g class="a-ph a-r1"><circle class="p" cx="0" cy="0" r="2.6"/></g>
+<g class="a-ph a-r2 a-d1"><circle class="p" cx="0" cy="0" r="2.6"/></g>
+<g class="a-ph a-ie"><circle class="p" cx="0" cy="0" r="2.6"/></g>
+<g class="a-ph a-it a-d2"><circle class="p" cx="0" cy="0" r="2.6"/></g>
+<text class="t" x="62" y="112" text-anchor="middle">sunlight</text>
+<text class="t" x="294" y="56" text-anchor="start">infrared</text>
+<text class="t" x="200" y="76" text-anchor="middle">greenhouse gases</text>
+</svg>

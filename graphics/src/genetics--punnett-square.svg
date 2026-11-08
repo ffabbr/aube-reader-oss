@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="genetics--punnett-square" data-discipline="genetics" data-tags="punnett-square,alleles,inheritance,mendel,dominant-recessive,probability">
+<title>Punnett square</title>
+<desc>Two Aa parents each give one allele; the four boxes list every combination, showing offspring in a 1 : 2 : 1 ratio of AA, Aa and aa.</desc>
+<style>
+.a-hl{animation:a-hop 10s ease-in-out infinite}
+@keyframes a-hop{0%,12%{transform:translate(0px,0px)}25%,37%{transform:translate(58px,0px)}50%,62%{transform:translate(0px,58px)}75%,87%{transform:translate(58px,58px)}100%{transform:translate(0px,0px)}}
+</style>
+<g class="a-hl">
+<rect class="w" x="126" y="82" width="58" height="58"/>
+</g>
+<path class="q" d="M126,82 h116 v116 h-116 Z M184,82 v116 M126,140 h116"/>
+<circle class="p" cx="155" cy="64" r="6"/>
+<circle class="s" cx="213" cy="64" r="6"/>
+<circle class="p" cx="108" cy="111" r="6"/>
+<circle class="s" cx="108" cy="169" r="6"/>
+<circle class="p" cx="146" cy="111" r="5.5"/>
+<circle class="p" cx="164" cy="111" r="5.5"/>
+<circle class="s" cx="204" cy="111" r="5.5"/>
+<circle class="p" cx="222" cy="111" r="5.5"/>
+<circle class="p" cx="146" cy="169" r="5.5"/>
+<circle class="s" cx="164" cy="169" r="5.5"/>
+<circle class="s" cx="204" cy="169" r="5.5"/>
+<circle class="s" cx="222" cy="169" r="5.5"/>
+<text class="t" x="276" y="134" text-anchor="start">1 : 2 : 1</text>
+<text class="t" x="276" y="154" text-anchor="start">AA  Aa  aa</text>
+<text class="t" x="184" y="44" text-anchor="middle">Aa × Aa</text>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="earth--volcano-eruption" data-discipline="earth" data-tags="volcano,eruption,magma,ash,lava,magma-chamber,geology">
+<title>Volcanic eruption</title>
+<desc>Cross-section of a volcano: magma rises from its chamber through the conduit and erupts as lava, ash and flying bombs.</desc>
+<style>
+.a-lava{animation:a-lava 2.5s linear infinite}
+@keyframes a-lava{0%{transform:translateY(0);opacity:0}15%{opacity:1}85%{opacity:1}100%{transform:translateY(-100px);opacity:0}}
+.a-puff{transform-box:fill-box;transform-origin:center;animation:a-puff 5s linear infinite}
+@keyframes a-puff{0%{transform:translate(0,0) scale(.6);opacity:0}20%{opacity:1}70%{opacity:.85}100%{transform:translate(var(--dx,0px),-32px) scale(1.55);opacity:0}}
+.a-b1{--dx:6px}.a-b2{--dx:-12px;animation-delay:-1.25s}.a-b3{--dx:14px;animation-delay:-2.5s}.a-b4{--dx:-2px;animation-delay:-3.75s}
+.a-bomb{offset-rotate:0deg;animation:a-bomb 5s linear infinite}
+.a-b1{offset-path:path("M206,76 Q246,4 274,68")}.a-b2{offset-path:path("M194,76 Q154,8 126,72");animation-delay:-2.5s}
+@keyframes a-bomb{0%{offset-distance:0%;opacity:0}8%{opacity:1}85%{opacity:1}100%{offset-distance:100%;opacity:0}}
+.a-l1{animation-delay:-.8s}.a-l2{animation-delay:-1.6s}
+</style>
+<path class="w" d="M44,172 C100,150 152,106 180,72 Q200,84 220,72 C248,106 300,150 356,172 Z"/>
+<path class="w" d="M144,200 a56,14 0 1 0 112,0 a56,14 0 1 0 -112,0 Z"/>
+<path class="s" d="M44,172 C100,150 152,106 180,72 Q200,84 220,72 C248,106 300,150 356,172"/>
+<path class="f" d="M20,172 H44 M356,172 H380"/>
+<path class="f hair" d="M76,164 C122,148 164,114 200,98 C236,114 278,148 324,164"/>
+<ellipse class="s" cx="200" cy="200" rx="56" ry="14"/>
+<path class="q" d="M192,186 V84 M208,186 V84"/>
+<path class="k f" d="M206,76 Q246,4 274,68"/><path class="k f" d="M194,76 Q154,8 126,72"/>
+<g class="a-lava"><circle class="p" cx="200" cy="184" r="2.4"/></g>
+<g class="a-lava a-l1"><circle class="p" cx="200" cy="184" r="2.4"/></g>
+<g class="a-lava a-l2"><circle class="p" cx="200" cy="184" r="2.4"/></g>
+<g class="a-bomb a-b1"><circle class="p" cx="0" cy="0" r="3"/></g>
+<g class="a-bomb a-b2"><circle class="p" cx="0" cy="0" r="3"/></g>
+<g class="a-puff a-b1"><circle class="w" cx="200" cy="66" r="9"/><circle class="q" cx="200" cy="66" r="9"/></g><g class="a-puff a-b2"><circle class="w" cx="200" cy="66" r="9"/><circle class="q" cx="200" cy="66" r="9"/></g><g class="a-puff a-b3"><circle class="w" cx="200" cy="66" r="9"/><circle class="q" cx="200" cy="66" r="9"/></g><g class="a-puff a-b4"><circle class="w" cx="200" cy="66" r="9"/><circle class="q" cx="200" cy="66" r="9"/></g>
+<text class="t" x="270" y="204" text-anchor="start">magma chamber</text>
+<text class="t" x="292" y="40" text-anchor="start">ash and bombs</text>
+</svg>

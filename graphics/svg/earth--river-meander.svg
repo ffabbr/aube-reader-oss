@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="earth--river-meander" data-discipline="earth" data-tags="river,meander,erosion,deposition,oxbow-lake,fluvial,geomorphology" role="img">
+ <title>River meander</title>
+ <desc>Seen from above, a river swings in loops, eroding the outer bank and dropping sediment on the inner bend; a cut-off loop is left behind as an oxbow lake.</desc>
+ <style>
+:root{--ink:#110f0c;--quiet:#555350;--faint:#b8b6b2;--wash:#f5f3ef}
+@media (prefers-color-scheme:dark){:root{--ink:#e7e5e2;--quiet:#a3a19e;--faint:#524f4c;--wash:#252321}}
+svg{overflow:visible}
+.s,.q,.f{fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1;stroke-dashoffset:0}
+.s{stroke:var(--ink);stroke-width:1.5}
+.q{stroke:var(--quiet);stroke-width:1.3}
+.f{stroke:var(--faint);stroke-width:1.1}
+.hair{stroke-width:1!important}
+.bold{stroke-width:2.2!important}
+.k{fill:none;stroke-dasharray:5 5!important;stroke-linecap:round}
+.p{fill:var(--ink);stroke:none}
+.pq{fill:var(--quiet);stroke:none}
+.w{fill:var(--wash);stroke:none}
+.t{fill:var(--quiet);stroke:none;font:italic 13px ui-serif,"New York",Georgia,serif}
+.all{animation:out 10s linear infinite}
+@keyframes out{0%,90%{opacity:1}97%,99.9%{opacity:0}100%{opacity:1}}
+@keyframes dr0{0%,0.0%{stroke-dashoffset:1;opacity:0}0.1%{stroke-dashoffset:1;opacity:1}9%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd0{0%,0.0%{opacity:0}7%,100%{opacity:1}}
+@keyframes dr1{0%,2.2%{stroke-dashoffset:1;opacity:0}2.3%{stroke-dashoffset:1;opacity:1}11.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd1{0%,2.2%{opacity:0}9.2%,100%{opacity:1}}
+@keyframes dr2{0%,4.4%{stroke-dashoffset:1;opacity:0}4.5%{stroke-dashoffset:1;opacity:1}13.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd2{0%,4.4%{opacity:0}11.4%,100%{opacity:1}}
+@keyframes dr3{0%,6.6%{stroke-dashoffset:1;opacity:0}6.7%{stroke-dashoffset:1;opacity:1}15.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd3{0%,6.6%{opacity:0}13.6%,100%{opacity:1}}
+@keyframes dr4{0%,8.8%{stroke-dashoffset:1;opacity:0}8.9%{stroke-dashoffset:1;opacity:1}17.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd4{0%,8.8%{opacity:0}15.8%,100%{opacity:1}}
+@keyframes dr5{0%,11.0%{stroke-dashoffset:1;opacity:0}11.1%{stroke-dashoffset:1;opacity:1}20%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd5{0%,11.0%{opacity:0}18%,100%{opacity:1}}
+@keyframes dr6{0%,13.2%{stroke-dashoffset:1;opacity:0}13.3%{stroke-dashoffset:1;opacity:1}22.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd6{0%,13.2%{opacity:0}20.2%,100%{opacity:1}}
+@keyframes dr7{0%,15.4%{stroke-dashoffset:1;opacity:0}15.5%{stroke-dashoffset:1;opacity:1}24.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd7{0%,15.4%{opacity:0}22.4%,100%{opacity:1}}
+@keyframes dr8{0%,17.6%{stroke-dashoffset:1;opacity:0}17.7%{stroke-dashoffset:1;opacity:1}26.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd8{0%,17.6%{opacity:0}24.6%,100%{opacity:1}}
+@keyframes dr9{0%,19.8%{stroke-dashoffset:1;opacity:0}19.9%{stroke-dashoffset:1;opacity:1}28.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd9{0%,19.8%{opacity:0}26.8%,100%{opacity:1}}
+@keyframes dr10{0%,22.0%{stroke-dashoffset:1;opacity:0}22.1%{stroke-dashoffset:1;opacity:1}31%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd10{0%,22.0%{opacity:0}29%,100%{opacity:1}}
+@keyframes dr11{0%,24.2%{stroke-dashoffset:1;opacity:0}24.3%{stroke-dashoffset:1;opacity:1}33.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd11{0%,24.2%{opacity:0}31.2%,100%{opacity:1}}
+@keyframes dr12{0%,26.4%{stroke-dashoffset:1;opacity:0}26.5%{stroke-dashoffset:1;opacity:1}35.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd12{0%,26.4%{opacity:0}33.4%,100%{opacity:1}}
+@keyframes dr13{0%,28.6%{stroke-dashoffset:1;opacity:0}28.7%{stroke-dashoffset:1;opacity:1}37.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd13{0%,28.6%{opacity:0}35.6%,100%{opacity:1}}
+@keyframes dr14{0%,30.8%{stroke-dashoffset:1;opacity:0}30.9%{stroke-dashoffset:1;opacity:1}39.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd14{0%,30.8%{opacity:0}37.8%,100%{opacity:1}}
+@keyframes dr15{0%,33.0%{stroke-dashoffset:1;opacity:0}33.1%{stroke-dashoffset:1;opacity:1}42%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd15{0%,33.0%{opacity:0}40%,100%{opacity:1}}
+.s.i0,.q.i0,.f.i0{animation:dr0 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i1,.q.i1,.f.i1{animation:dr1 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i2,.q.i2,.f.i2{animation:dr2 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i3,.q.i3,.f.i3{animation:dr3 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i4,.q.i4,.f.i4{animation:dr4 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i5,.q.i5,.f.i5{animation:dr5 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i6,.q.i6,.f.i6{animation:dr6 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i7,.q.i7,.f.i7{animation:dr7 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i8,.q.i8,.f.i8{animation:dr8 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i9,.q.i9,.f.i9{animation:dr9 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i10,.q.i10,.f.i10{animation:dr10 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i11,.q.i11,.f.i11{animation:dr11 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i12,.q.i12,.f.i12{animation:dr12 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i13,.q.i13,.f.i13{animation:dr13 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i14,.q.i14,.f.i14{animation:dr14 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i15,.q.i15,.f.i15{animation:dr15 10s cubic-bezier(.55,.05,.25,1) infinite}
+.p.i0,.w.i0,.pq.i0,.t.i0,.k.i0{animation:fd0 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i1,.w.i1,.pq.i1,.t.i1,.k.i1{animation:fd1 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i2,.w.i2,.pq.i2,.t.i2,.k.i2{animation:fd2 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i3,.w.i3,.pq.i3,.t.i3,.k.i3{animation:fd3 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i4,.w.i4,.pq.i4,.t.i4,.k.i4{animation:fd4 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i5,.w.i5,.pq.i5,.t.i5,.k.i5{animation:fd5 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i6,.w.i6,.pq.i6,.t.i6,.k.i6{animation:fd6 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i7,.w.i7,.pq.i7,.t.i7,.k.i7{animation:fd7 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i8,.w.i8,.pq.i8,.t.i8,.k.i8{animation:fd8 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i9,.w.i9,.pq.i9,.t.i9,.k.i9{animation:fd9 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i10,.w.i10,.pq.i10,.t.i10,.k.i10{animation:fd10 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i11,.w.i11,.pq.i11,.t.i11,.k.i11{animation:fd11 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i12,.w.i12,.pq.i12,.t.i12,.k.i12{animation:fd12 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i13,.w.i13,.pq.i13,.t.i13,.k.i13{animation:fd13 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i14,.w.i14,.pq.i14,.t.i14,.k.i14{animation:fd14 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i15,.w.i15,.pq.i15,.t.i15,.k.i15{animation:fd15 10s cubic-bezier(.2,.7,.3,1) infinite}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+ <style>
+.a-flow{offset-path:path("M30,84.5 L38.3,85.4 L46,88.4 L52.8,93.2 L58.4,99.4 L62.6,106.6 L65.7,114.3 L67.9,122.4 L69.5,130.6 L70.9,138.8 L72.6,147 L74.9,155 L78.2,162.6 L82.6,169.7 L88.4,175.7 L95.4,180.2 L103.3,182.9 L111.6,183.4 L119.7,181.8 L127.2,178.1 L133.6,172.8 L138.7,166.3 L142.6,158.9 L145.3,151 L147.3,142.9 L148.8,134.7 L150.2,126.5 L152.1,118.3 L154.7,110.4 L158.3,102.9 L163.2,96.2 L169.4,90.6 L176.7,86.7 L184.8,84.7 L193.1,84.9 L201.1,87.2 L208.3,91.5 L214.3,97.2 L219,104.1 L222.4,111.7 L224.8,119.7 L226.6,127.8 L228,136.1 L229.6,144.2 L231.6,152.3 L234.5,160.1 L238.6,167.4 L243.9,173.8 L250.5,178.9 L258.2,182.2 L266.4,183.5 L274.7,182.6 L282.4,179.6 L289.2,174.8 L294.8,168.6 L299,161.4 L302.1,153.7 L304.3,145.6 L305.9,137.4 L307.3,129.2 L309,121 L311.3,113 L314.5,105.4 L319,98.3 L324.8,92.3 L331.8,87.8 L339.7,85.1 L348,84.6 L356.1,86.2 L363.6,89.9 L370,95.2");offset-rotate:0deg;animation:a-flow 10s linear infinite}
+@keyframes a-flow{0%{offset-distance:0%;opacity:0}5%{opacity:1}92%{opacity:1}100%{offset-distance:100%;opacity:0}}
+.a-d1{animation-delay:-3.3s}.a-d2{animation-delay:-6.6s}
+</style>
+ <g class="all">
+  <path class="w i0" d="M30,92.5 L36.2,93.2 L42.1,95.4 L47.4,99.1 L51.8,104 L55.4,110 L58.1,116.7 L60.1,124.1 L61.6,132 L63.1,140.2 L64.8,148.9 L67.4,157.7 L71.1,166.4 L76.4,174.7 L83.4,181.9 L92,187.5 L101.9,190.7 L112.3,191.4 L122.5,189.3 L131.7,184.8 L139.5,178.3 L145.6,170.4 L150,161.9 L153,153.1 L155.1,144.4 L156.7,136 L158.1,128 L159.8,120.5 L162.1,113.4 L165.1,107.1 L169.1,101.6 L173.9,97.3 L179.5,94.2 L185.5,92.7 L191.7,92.8 L197.8,94.5 L203.3,97.7 L208,102.3 L211.9,107.9 L214.9,114.4 L217.1,121.6 L218.7,129.3 L220.2,137.4 L221.8,146 L224,154.7 L227.3,163.5 L232,172 L238.5,179.7 L246.6,185.8 L256.1,189.9 L266.4,191.5 L276.7,190.3 L286.4,186.5 L294.7,180.6 L301.3,173.2 L306.3,164.8 L309.7,156.1 L312.1,147.3 L313.8,138.8 L315.2,130.7 L316.8,122.9 L318.8,115.7 L321.6,109.1 L325.3,103.4 L329.8,98.6 L335.1,95.1 L341.1,93 L347.3,92.6 L353.4,93.7 L359.1,96.5 L364.1,100.6 L375.9,89.7 L368.1,83.2 L358.8,78.7 L348.7,76.6 L338.3,77.3 L328.4,80.5 L319.8,86.1 L312.8,93.3 L307.5,101.6 L303.8,110.3 L301.2,119.1 L299.4,127.8 L298,136 L296.5,143.9 L294.5,151.3 L291.8,158 L288.2,164 L283.8,168.9 L278.5,172.6 L272.6,174.8 L266.4,175.5 L260.2,174.5 L254.5,171.9 L249.4,168 L245.1,162.8 L241.8,156.7 L239.3,149.9 L237.4,142.5 L235.9,134.7 L234.5,126.4 L232.6,117.8 L229.9,109 L226,100.4 L220.5,92.2 L213.3,85.2 L204.5,80 L194.5,77 L184.1,76.7 L174,79.2 L164.9,84 L157.3,90.8 L151.5,98.7 L147.3,107.4 L144.4,116.2 L142.4,124.9 L140.9,133.3 L139.4,141.3 L137.6,148.9 L135.2,155.8 L131.9,162.1 L127.8,167.4 L122.7,171.5 L117,174.3 L110.9,175.4 L104.7,175 L98.7,172.9 L93.4,169.4 L88.9,164.6 L85.2,158.9 L82.4,152.3 L80.4,145.1 L78.8,137.3 L77.4,129.2 L75.7,120.7 L73.4,111.9 L69.9,103.2 L64.9,94.8 L58.3,87.4 L50,81.5 L40.3,77.7 L30,76.5 Z" />
+  <path class="q i0" d="M30,92.5 L36.2,93.2 L42.1,95.4 L47.4,99.1 L51.8,104 L55.4,110 L58.1,116.7 L60.1,124.1 L61.6,132 L63.1,140.2 L64.8,148.9 L67.4,157.7 L71.1,166.4 L76.4,174.7 L83.4,181.9 L92,187.5 L101.9,190.7 L112.3,191.4 L122.5,189.3 L131.7,184.8 L139.5,178.3 L145.6,170.4 L150,161.9 L153,153.1 L155.1,144.4 L156.7,136 L158.1,128 L159.8,120.5 L162.1,113.4 L165.1,107.1 L169.1,101.6 L173.9,97.3 L179.5,94.2 L185.5,92.7 L191.7,92.8 L197.8,94.5 L203.3,97.7 L208,102.3 L211.9,107.9 L214.9,114.4 L217.1,121.6 L218.7,129.3 L220.2,137.4 L221.8,146 L224,154.7 L227.3,163.5 L232,172 L238.5,179.7 L246.6,185.8 L256.1,189.9 L266.4,191.5 L276.7,190.3 L286.4,186.5 L294.7,180.6 L301.3,173.2 L306.3,164.8 L309.7,156.1 L312.1,147.3 L313.8,138.8 L315.2,130.7 L316.8,122.9 L318.8,115.7 L321.6,109.1 L325.3,103.4 L329.8,98.6 L335.1,95.1 L341.1,93 L347.3,92.6 L353.4,93.7 L359.1,96.5 L364.1,100.6" pathLength="1" />
+  <path class="q i1" d="M30,76.5 L40.3,77.7 L50,81.5 L58.3,87.4 L64.9,94.8 L69.9,103.2 L73.4,111.9 L75.7,120.7 L77.4,129.2 L78.8,137.3 L80.4,145.1 L82.4,152.3 L85.2,158.9 L88.9,164.6 L93.4,169.4 L98.7,172.9 L104.7,175 L110.9,175.4 L117,174.3 L122.7,171.5 L127.8,167.4 L131.9,162.1 L135.2,155.8 L137.6,148.9 L139.4,141.3 L140.9,133.3 L142.4,124.9 L144.4,116.2 L147.3,107.4 L151.5,98.7 L157.3,90.8 L164.9,84 L174,79.2 L184.1,76.7 L194.5,77 L204.5,80 L213.3,85.2 L220.5,92.2 L226,100.4 L229.9,109 L232.6,117.8 L234.5,126.4 L235.9,134.7 L237.4,142.5 L239.3,149.9 L241.8,156.7 L245.1,162.8 L249.4,168 L254.5,171.9 L260.2,174.5 L266.4,175.5 L272.6,174.8 L278.5,172.6 L283.8,168.9 L288.2,164 L291.8,158 L294.5,151.3 L296.5,143.9 L298,136 L299.4,127.8 L301.2,119.1 L303.8,110.3 L307.5,101.6 L312.8,93.3 L319.8,86.1 L328.4,80.5 L338.3,77.3 L348.7,76.6 L358.8,78.7 L368.1,83.2 L375.9,89.7" pathLength="1" />
+  <path class="k f i2" d="M30,107.7 L38.3,109.1 L46,111.4 L52.8,114.7 L58.4,118.6 L62.6,123 L65.7,127.7 L67.9,132.6 L69.5,137.6 L70.9,142.6 L72.6,147.6 L74.9,152.4 L78.2,156.9 L82.6,160.8 L88.4,163.9 L95.4,165.8 L103.3,166.4 L111.6,165.4 L119.7,163.1 L127.2,159.6 L133.6,155.4 L138.7,150.6 L142.6,145.5 L145.3,140.3 L147.3,135 L148.8,129.8 L150.2,124.6 L152.1,119.3 L154.7,114.2 L158.3,109.3 L163.2,104.8 L169.4,101.2 L176.7,98.7 L184.8,97.7 L193.1,98.3 L201.1,100.5 L208.3,104 L214.3,108.4 L219,113.3 L222.4,118.6 L224.8,123.9 L226.6,129.2 L228,134.6 L229.6,139.9 L231.6,145.2 L234.5,150.5 L238.6,155.7 L243.9,160.5 L250.5,164.6 L258.2,167.7 L266.4,169.4 L274.7,169.6 L282.4,168.1 L289.2,165.3 L294.8,161.4 L299,156.8 L302.1,151.9 L304.3,146.8 L305.9,141.6 L307.3,136.4 L309,131.2 L311.3,126.1 L314.5,121 L319,116.2 L324.8,111.8 L331.8,108 L339.7,105.2 L348,103.5 L356.1,103.2 L363.6,104.3 L370,106.7" />
+  <path class="w i3" d="M250,64 C262,34 318,28 346,58 C318,44 276,46 250,64 Z" />
+  <path class="q i4" d="M250,64 C262,34 318,28 346,58 C318,44 276,46 250,64 Z" pathLength="1" />
+  <path class="s i5" d="M108.8,195.5 L108.8,211.5 M105.4,205.3 L108.8,211.5 L112.2,205.3" pathLength="1" />
+  <circle class="pq i6" cx="100.8" cy="165.5" r="1.7" />
+  <circle class="pq i7" cx="111.8" cy="159.5" r="1.7" />
+  <circle class="pq i8" cx="121.8" cy="166.5" r="1.7" />
+  <circle class="pq i8" cx="105.8" cy="169.5" r="1.7" />
+  <circle class="pq i9" cx="117.8" cy="173.5" r="1.7" />
+  <g class="a-flow">
+   <circle class="p i10" cx="0" cy="0" r="3" />
+  </g>
+  <g class="a-flow a-d1">
+   <circle class="p i11" cx="0" cy="0" r="3" />
+  </g>
+  <g class="a-flow a-d2">
+   <circle class="p i12" cx="0" cy="0" r="3" />
+  </g>
+  <text class="t i13" x="298" y="82" text-anchor="middle">oxbow lake</text>
+  <text class="t i14" x="108.8" y="225.5" text-anchor="middle">erosion</text>
+  <text class="t i15" x="56.8" y="153.5" text-anchor="middle">deposit</text>
+ </g>
+</svg>

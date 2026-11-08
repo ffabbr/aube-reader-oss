@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="ecology--mycorrhizal-network" data-discipline="ecology" data-tags="mycorrhiza,fungi,hyphae,wood-wide-web,symbiosis,forest,roots,soil">
+<title>Mycorrhizal Network</title>
+<desc>Beneath a forest floor, threads of fungus link the roots of separate trees; sugars travel from a big tree in the light through the hyphae to a seedling in its shade.</desc>
+<style>
+@keyframes a-trav{0%{offset-distance:0%;opacity:0}12%{opacity:1}88%{opacity:1}100%{offset-distance:100%;opacity:0}}
+.a-u0{transform-box:view-box;transform-origin:0 0;offset-path:path("M92,126 C94,146 96,160 112,172 C140,178 172,160 204,134");offset-rotate:0deg;animation:a-trav 5s linear infinite;}
+.a-u1{transform-box:view-box;transform-origin:0 0;offset-path:path("M92,126 C94,146 96,160 112,172 C140,178 172,160 204,134");offset-rotate:0deg;animation:a-trav 5s linear infinite;animation-delay:-2.5s;}
+.a-u2{transform-box:view-box;transform-origin:0 0;offset-path:path("M98,108 C106,122 124,134 148,142 C166,146 186,140 202,132");offset-rotate:0deg;animation:a-trav 5s linear infinite;animation-delay:-1.25s;}
+.a-u3{transform-box:view-box;transform-origin:0 0;offset-path:path("M98,108 C106,122 124,134 148,142 C166,146 186,140 202,132");offset-rotate:0deg;animation:a-trav 5s linear infinite;animation-delay:-3.75s;}
+.a-u4{transform-box:view-box;transform-origin:0 0;offset-path:path("M318,120 C310,126 298,136 282,144 C254,142 224,144 206,132");offset-rotate:0deg;animation:a-trav 5s linear infinite;animation-delay:-0.6s;}
+.a-u5{transform-box:view-box;transform-origin:0 0;offset-path:path("M318,120 C310,126 298,136 282,144 C254,142 224,144 206,132");offset-rotate:0deg;animation:a-trav 5s linear infinite;animation-delay:-3.1s;}
+</style>
+<path class="q" d="M22,108 H378"/>
+<path class="s" d="M85,108 C88.5,98 88.15,83.4 88.85,69.2 M99,108 C95.5,98 95.85,83.4 95.15,69.2"/>
+<path class="w" d="M90.5,25.9 A14,14 0 0 1 113,28.6 A11.4,11.4 0 0 1 128.3,38.8 A8.8,8.8 0 0 1 139.1,48 A9,9 0 0 1 134.1,61.6 A11.6,11.6 0 0 1 120.3,74.2 A12.3,12.3 0 0 1 101.2,79.4 A12.7,12.7 0 0 1 80.7,78 A13.4,13.4 0 0 1 59.6,73.8 A10,10 0 0 1 47.7,62.8 A8.3,8.3 0 0 1 48.8,49.4 A8.6,8.6 0 0 1 54.6,36.8 A10.8,10.8 0 0 1 70.9,30.7 A12.5,12.5 0 0 1 90.5,25.9 Z"/>
+<path class="s" d="M90.5,25.9 A14,14 0 0 1 113,28.6 A11.4,11.4 0 0 1 128.3,38.8 A8.8,8.8 0 0 1 139.1,48 A9,9 0 0 1 134.1,61.6 A11.6,11.6 0 0 1 120.3,74.2 A12.3,12.3 0 0 1 101.2,79.4 A12.7,12.7 0 0 1 80.7,78 A13.4,13.4 0 0 1 59.6,73.8 A10,10 0 0 1 47.7,62.8 A8.3,8.3 0 0 1 48.8,49.4 A8.6,8.6 0 0 1 54.6,36.8 A10.8,10.8 0 0 1 70.9,30.7 A12.5,12.5 0 0 1 90.5,25.9 Z"/>
+<path class="s" d="M313,108 C315.5,98 315.25,87.6 315.75,76.8 M323,108 C320.5,98 320.75,87.6 320.25,76.8"/>
+<path class="w" d="M316.9,38.7 A11.2,11.2 0 0 1 334.5,42.6 A9.3,9.3 0 0 1 345.5,52.7 A9.3,9.3 0 0 1 348.3,67.5 A7.8,7.8 0 0 1 341.7,78.3 A9.9,9.9 0 0 1 327.2,85 A10.8,10.8 0 0 1 309.8,86.2 A10,10 0 0 1 295.6,78.4 A8.4,8.4 0 0 1 287.5,67.5 A8.8,8.8 0 0 1 287.3,53.2 A10,10 0 0 1 301.1,44.7 A10.5,10.5 0 0 1 316.9,38.7 Z"/>
+<path class="s" d="M316.9,38.7 A11.2,11.2 0 0 1 334.5,42.6 A9.3,9.3 0 0 1 345.5,52.7 A9.3,9.3 0 0 1 348.3,67.5 A7.8,7.8 0 0 1 341.7,78.3 A9.9,9.9 0 0 1 327.2,85 A10.8,10.8 0 0 1 309.8,86.2 A10,10 0 0 1 295.6,78.4 A8.4,8.4 0 0 1 287.5,67.5 A8.8,8.8 0 0 1 287.3,53.2 A10,10 0 0 1 301.1,44.7 A10.5,10.5 0 0 1 316.9,38.7 Z"/>
+<path class="s" d="M204,108 C204,98 203,92 204,84 M204,92 C196,82 190,84 186,86 C192,92 198,94 204,92 M204,88 C212,78 218,80 222,82 C216,88 210,90 204,88"/>
+<path class="s" d="M266,108 C266,104 267,100 266,96 M272,108 C272,104 271,100 272,96"/><path class="w" d="M258,96 C258,84 280,84 280,96 Z"/><path class="s" d="M258,96 C258,84 280,84 280,96 Z"/>
+<path class="s" d="M86,108 C82,124 70,140 46,152 M78,130 C72,128 58,124 40,126 M92,108 C92,130 88,160 76,190 M90,148 C96,156 106,164 112,172 M98,108 C106,122 124,134 148,142 M118,133 C124,122 134,118 146,118"/>
+<path class="s" d="M204,108 C204,112 202,120 204,130 M204,120 C208,120 212,122 214,126"/>
+<path class="s" d="M314,108 C310,122 298,136 282,144 M300,136 C294,130 286,128 276,128 M318,108 C320,128 318,152 324,180 M319,148 C326,146 336,152 344,158 M322,108 C330,120 346,128 362,130"/>
+<path class="q hair" d="M112,172 C140,178 172,160 204,130 M148,142 C166,146 186,140 204,130 M204,130 C224,144 254,142 282,144 M214,126 C234,122 256,124 276,128 M76,190 C120,214 180,212 230,198 C266,190 300,196 324,180 M230,198 C226,176 216,150 204,130 M46,152 C40,176 50,190 76,190 M146,118 C160,112 180,118 204,130 M269,104 C270,114 272,124 276,128 M270,192 C272,176 278,160 282,144 M344,158 C352,172 346,186 324,180"/>
+<path class="f hair" d="M196,152 C200,164 196,178 200,190 M250,142 C246,156 256,168 250,186 M300,194 C310,204 330,206 352,198 M60,172 C50,184 38,186 30,196 M362,130 C368,142 366,156 372,166 M120,210 C110,218 90,218 74,214 M226,204 C236,214 256,216 276,212"/>
+<g class="a-u0"><circle class="p" cx="0" cy="0" r="3"/></g>
+<g class="a-u1"><circle class="p" cx="0" cy="0" r="3"/></g>
+<g class="a-u2"><circle class="p" cx="0" cy="0" r="3"/></g>
+<g class="a-u3"><circle class="p" cx="0" cy="0" r="3"/></g>
+<g class="a-u4"><circle class="p" cx="0" cy="0" r="3"/></g>
+<g class="a-u5"><circle class="p" cx="0" cy="0" r="3"/></g>
+<text class="t" x="92" y="214" text-anchor="start" dx="-68" dy="4">hyphae</text>
+<path class="q hair" d="M62,204 L80,188"/>
+<text class="t" x="204" y="70" text-anchor="middle">seedling</text>
+<text class="t" x="166" y="196" text-anchor="middle">sugars</text>
+</svg>

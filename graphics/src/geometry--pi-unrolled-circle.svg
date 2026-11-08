@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="geometry--pi-unrolled-circle" data-discipline="geometry" data-tags="pi,circle,circumference,diameter,ratio,rolling">
+<title>Pi as an unrolled circle</title>
+<desc>A circle rolls through one turn along a line and lays down its circumference, which spans three diameters and a little more: that ratio is pi.</desc>
+<style>
+.a-roll{transform-box:view-box;transform-origin:80.6px 108px;animation:a-roll 5s ease-in-out infinite alternate;}
+@keyframes a-roll{from{transform:translateX(0px) rotate(0deg)}to{transform:translateX(238.8px) rotate(360deg)}}
+.a-trace{transform-box:view-box;transform-origin:80.6px 146px;animation:a-trace 5s ease-in-out infinite alternate;}
+@keyframes a-trace{from{transform:scaleX(0.001)}to{transform:scaleX(1)}}
+</style>
+<path class="f" d="M28.6,146 H371.4"/>
+<path class="f" d="M80.6,146 v7 M156.6,146 v7 M232.6,146 v7 M308.6,146 v7"/>
+<path class="q" d="M319.4,146 v7"/>
+<circle class="k f" cx="319.4" cy="108" r="38"/>
+<g class="a-trace"><path class="s bold" d="M80.6,146 H319.4"/></g>
+<g class="a-roll"><circle class="w" cx="80.6" cy="108" r="38"/><circle class="s" cx="80.6" cy="108" r="38"/><path class="q" d="M80.6,108 V146"/><circle class="p" cx="80.6" cy="146" r="3.5"/></g>
+<text class="t" x="118.6" y="170" text-anchor="middle">d</text>
+<text class="t" x="200" y="194" text-anchor="middle">circumference = π d</text>
+</svg>

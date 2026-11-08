@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="psychology--anchoring-bias" data-discipline="psychology" data-tags="cognitive-bias,anchor,estimation,judgement,decision-making">
+<title>Anchoring bias</title>
+<desc>Estimates cluster around the true value on a number line, but an arbitrary anchor placed further along drags them toward itself; the cluster slides toward the anchor and back.</desc>
+<style>
+.a-pull{animation:a-pull 5s ease-in-out infinite alternate}
+@keyframes a-pull{0%{transform:translate(0px,0px);}100%{transform:translate(58px,0px);}}
+</style>
+<path class="f" d="M44,150 H356"/>
+<path class="f hair" d="M52,147 v6 M76,147 v6 M100,147 v6 M124,147 v6 M148,147 v6 M172,147 v6 M196,147 v6 M220,147 v6 M244,147 v6 M268,147 v6 M292,147 v6 M316,147 v6 M340,147 v6 "/>
+<path class="s" d="M190,153 V164 M185,164 h10"/>
+<circle class="s" cx="310" cy="44" r="4"/>
+<path class="s" d="M310,48 V108 M299,60 H321"/>
+<path class="s" d="M288,88 C290,108 302,113 310,108 C318,113 330,108 332,88 M283,93 L288,88 L294,92 M327,92 L332,88 L337,93"/>
+<path class="k f" d="M310,112 V150"/>
+<circle class="p" cx="310" cy="150" r="3.4"/>
+<path class="k q" d="M214,110 H282 M276.7,112.9 L282,110 L276.7,107.1"/>
+<g class="a-pull"><circle class="p" cx="166" cy="145.6" r="4.2"/>
+<circle class="p" cx="178" cy="145.6" r="4.2"/>
+<circle class="p" cx="190" cy="145.6" r="4.2"/>
+<circle class="p" cx="202" cy="145.6" r="4.2"/>
+<circle class="p" cx="214" cy="145.6" r="4.2"/>
+<circle class="p" cx="172" cy="135.6" r="4.2"/>
+<circle class="p" cx="184" cy="135.6" r="4.2"/>
+<circle class="p" cx="196" cy="135.6" r="4.2"/>
+<circle class="p" cx="208" cy="135.6" r="4.2"/>
+<circle class="p" cx="190" cy="125.6" r="4.2"/></g>
+<text class="t" x="190" y="188" text-anchor="middle">true value</text>
+<text class="t" x="244" y="96" text-anchor="middle">estimates</text>
+<text class="t" x="332" y="70" text-anchor="start">anchor</text>
+</svg>

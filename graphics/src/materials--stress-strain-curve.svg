@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="materials--stress-strain-curve" data-discipline="materials" data-tags="stress,strain,tensile-test,yield,elastic,plastic,necking,fracture">
+<title>Stress–Strain Curve</title>
+<desc>A steel test piece is pulled while a point climbs its stress–strain curve: straight elastic rise, yield, strain hardening, then necking to fracture, where the piece parts.</desc>
+<style>
+.a-dot{offset-path:path("M60,190 L104,72 C107,64 110,66 114,74 C120,76 128,76 136,74 C170,62 205,42 240,40 C272,38 300,62 326,104");offset-rotate:0deg;animation:a-dot 5s linear infinite}
+@keyframes a-dot{0%{offset-distance:0%;opacity:1}78%{offset-distance:100%;opacity:1}92%{offset-distance:100%;opacity:1}96%{offset-distance:100%;opacity:0}97%{offset-distance:0%;opacity:0}100%{offset-distance:0%;opacity:1}}
+.a-spec{animation:a-spec 5s linear infinite}
+@keyframes a-spec{0%,92%{opacity:1}96%{opacity:0}97%{opacity:0}100%{opacity:1}}
+.a-lh{transform-box:view-box;transform-origin:178px 152px;animation:a-lh 5s linear infinite}
+@keyframes a-lh{0.0%{transform:scaleX(1)}12.7%{transform:scaleX(1.035)}25.4%{transform:scaleX(1.069)}26.9%{transform:scaleX(1.077)}28.7%{transform:scaleX(1.085)}30.8%{transform:scaleX(1.101)}33.2%{transform:scaleX(1.12)}44.4%{transform:scaleX(1.202)}55.3%{transform:scaleX(1.284)}65.2%{transform:scaleX(1.356)}78.0%{transform:scaleX(1.42)}78.0%{transform:scaleX(1.42)}96%{transform:scaleX(1.42)}97%,100%{transform:scaleX(1)}}
+.a-rg{animation:a-rg 5s linear infinite}
+@keyframes a-rg{0.0%{transform:translateX(0px)}12.7%{transform:translateX(2.5px)}25.4%{transform:translateX(5px)}26.9%{transform:translateX(5.5px)}28.7%{transform:translateX(6.1px)}30.8%{transform:translateX(7.3px)}33.2%{transform:translateX(8.6px)}44.4%{transform:translateX(14.5px)}55.3%{transform:translateX(20.5px)}65.2%{transform:translateX(25.6px)}78.0%{transform:translateX(30.2px)}78.0%{transform:translateX(30.2px)}80%{transform:translateX(41.2px)}96%{transform:translateX(41.2px)}97%,100%{transform:translateX(0)}}
+.a-rh{transform-box:view-box;transform-origin:250px 152px;animation:a-rh 5s linear infinite}
+@keyframes a-rh{0.0%{transform:scaleX(1)}12.7%{transform:scaleX(1.035)}25.4%{transform:scaleX(1.069)}26.9%{transform:scaleX(1.077)}28.7%{transform:scaleX(1.085)}30.8%{transform:scaleX(1.101)}33.2%{transform:scaleX(1.12)}44.4%{transform:scaleX(1.202)}55.3%{transform:scaleX(1.284)}65.2%{transform:scaleX(1.356)}78.0%{transform:scaleX(1.42)}78.0%{transform:scaleX(1.42)}96%{transform:scaleX(1.42)}97%,100%{transform:scaleX(1)}}
+</style>
+<path class="f" d="M60,26 V190 H356"/>
+<path class="f" d="M56,33 L60,26 L64,33 M349,186 L356,190 L349,194"/>
+<path class="s" d="M60,190 L104,72 C107,64 110,66 114,74 C120,76 128,76 136,74 C170,62 205,42 240,40 C272,38 300,62 326,104"/>
+<path class="s" d="M322,100 L330,108 M330,100 L322,108"/>
+<g class="a-spec">
+<rect class="w" x="160" y="138" width="18" height="28"/><rect class="s" x="160" y="138" width="18" height="28"/>
+<g class="a-lh"><path class="w" d="M178,144 C188,147.5 198,148 214,148 V156 C198,156 188,156.5 178,160 Z"/><path class="s" d="M178,144 C188,147.5 198,148 214,148 V156 C198,156 188,156.5 178,160 Z"/></g>
+<g class="a-rg">
+<g class="a-rh"><path class="w" d="M250,144 C240,147.5 230,148 214,148 V156 C230,156 240,156.5 250,160 Z"/><path class="s" d="M250,144 C240,147.5 230,148 214,148 V156 C230,156 240,156.5 250,160 Z"/></g>
+<rect class="w" x="250" y="138" width="18" height="28"/><rect class="s" x="250" y="138" width="18" height="28"/>
+</g></g>
+<g class="a-dot"><circle class="p" r="4"/></g>
+<text class="t" x="68" y="32" text-anchor="start">stress</text>
+<text class="t" x="356" y="208" text-anchor="end">strain</text>
+<text class="t" x="96" y="56" text-anchor="middle">yield</text>
+</svg>

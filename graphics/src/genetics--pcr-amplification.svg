@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="genetics--pcr-amplification" data-discipline="genetics" data-tags="pcr,amplification,thermal-cycling,exponential-growth,dna-copying,polymerase">
+<title>PCR: amplifying DNA by thermal cycling</title>
+<desc>Repeated cycles of heating, cooling and copying double the DNA each round: one molecule becomes two, four, eight, a billion, as temperature rises and falls.</desc>
+<style>
+.a-heat{offset-path:path("M62,128 L86,128 L98,184 L120,184 L128,158 L152,158 L160,128 L160,128 L184,128 L196,184 L218,184 L226,158 L250,158 L258,128 L258,128 L282,128 L294,184 L316,184 L324,158 L348,158");offset-rotate:0deg;animation:a-cycle 10s linear infinite}
+@keyframes a-cycle{from{offset-distance:0%}to{offset-distance:100%}}
+</style>
+<path class="s" d="M50,40 v32 M58,40 v32"/>
+<path class="f hair" d="M50,48 h8 M50,56 h8 M50,64 h8"/>
+<path class="q" d="M68,56 H88 m-5,-4 l5,4 l-5,4"/>
+<path class="s" d="M98,40 v32 M106,40 v32"/>
+<path class="f hair" d="M98,48 h8 M98,56 h8 M98,64 h8"/>
+<path class="s" d="M113,40 v32 M121,40 v32"/>
+<path class="f hair" d="M113,48 h8 M113,56 h8 M113,64 h8"/>
+<path class="q" d="M131,56 H151 m-5,-4 l5,4 l-5,4"/>
+<path class="s" d="M161,40 v32 M169,40 v32"/>
+<path class="f hair" d="M161,48 h8 M161,56 h8 M161,64 h8"/>
+<path class="s" d="M176,40 v32 M184,40 v32"/>
+<path class="f hair" d="M176,48 h8 M176,56 h8 M176,64 h8"/>
+<path class="s" d="M191,40 v32 M199,40 v32"/>
+<path class="f hair" d="M191,48 h8 M191,56 h8 M191,64 h8"/>
+<path class="s" d="M206,40 v32 M214,40 v32"/>
+<path class="f hair" d="M206,48 h8 M206,56 h8 M206,64 h8"/>
+<path class="q" d="M224,56 H244 m-5,-4 l5,4 l-5,4"/>
+<path class="s" d="M254,40 v32 M262,40 v32"/>
+<path class="f hair" d="M254,48 h8 M254,56 h8 M254,64 h8"/>
+<path class="s" d="M269,40 v32 M277,40 v32"/>
+<path class="f hair" d="M269,48 h8 M269,56 h8 M269,64 h8"/>
+<path class="s" d="M284,40 v32 M292,40 v32"/>
+<path class="f hair" d="M284,48 h8 M284,56 h8 M284,64 h8"/>
+<path class="s" d="M299,40 v32 M307,40 v32"/>
+<path class="f hair" d="M299,48 h8 M299,56 h8 M299,64 h8"/>
+<path class="s" d="M314,40 v32 M322,40 v32"/>
+<path class="f hair" d="M314,48 h8 M314,56 h8 M314,64 h8"/>
+<path class="s" d="M329,40 v32 M337,40 v32"/>
+<path class="f hair" d="M329,48 h8 M329,56 h8 M329,64 h8"/>
+<path class="s" d="M344,40 v32 M352,40 v32"/>
+<path class="f hair" d="M344,48 h8 M344,56 h8 M344,64 h8"/>
+<path class="s" d="M359,40 v32 M367,40 v32"/>
+<path class="f hair" d="M359,48 h8 M359,56 h8 M359,64 h8"/>
+<path class="f" d="M50,210 H356 M50,210 V116"/>
+<path class="s" d="M62,128 L86,128 L98,184 L120,184 L128,158 L152,158 L160,128 L160,128 L184,128 L196,184 L218,184 L226,158 L250,158 L258,128 L258,128 L282,128 L294,184 L316,184 L324,158 L348,158"/>
+<text class="t" x="74" y="119" text-anchor="middle">95°</text>
+<text class="t" x="109" y="201" text-anchor="middle">55°</text>
+<text class="t" x="140" y="149" text-anchor="middle">72°</text>
+<g class="a-heat"><circle class="p" cx="0" cy="0" r="4.4"/></g>
+</svg>

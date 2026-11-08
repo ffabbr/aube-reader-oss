@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="physics--double-slit-experiment" data-discipline="physics" data-tags="quantum,wave-particle-duality,interference,double-slit,electrons">
+<title>Double-slit experiment</title>
+<desc>Electrons sent one at a time through two slits land as single dots, yet build up interference fringes: matter behaves as both particle and wave.</desc>
+<style>
+.a-e{animation:a-e 2s linear infinite}
+@keyframes a-e{0%{transform:translateX(0);opacity:0}10%{opacity:1}85%{opacity:1}100%{transform:translateX(104px);opacity:0}}
+.a-w{animation:a-w 2.5s ease-in-out infinite}
+@keyframes a-w{0%{opacity:0}35%{opacity:1}70%,100%{opacity:0}}
+.a-h{animation:a-h 2s ease-in-out infinite}
+.a-w2{animation-delay:-.8s}.a-w3{animation-delay:-1.6s}
+.a-h2{animation-delay:-.7s}.a-h3{animation-delay:-1.4s}
+.a-e2{animation-delay:-.66s}.a-e3{animation-delay:-1.33s}
+@keyframes a-h{0%,35%{opacity:0}50%,65%{opacity:1}80%,100%{opacity:0}}
+</style>
+<path class="k f" d="M44,120 H166"/>
+<path class="s bold" d="M170,38 V92 M170,108 V132 M170,148 V202"/>
+<path class="f" d="M304,40 V200"/>
+<g class="a-w a-w1"><path class="q" d="M189.8,80.2 A28,28 0 0 1 189.8,119.8 M189.8,120.2 A28,28 0 0 1 189.8,159.8"/></g>
+<g class="a-w a-w2"><path class="q" d="M211,59 A58,58 0 0 1 211,141 M211,99 A58,58 0 0 1 211,181"/></g>
+<g class="a-w a-w3"><path class="q" d="M232.2,37.8 A88,88 0 0 1 232.2,162.2 M232.2,77.8 A88,88 0 0 1 232.2,202.2"/></g>
+<path class="s" d="M313.6,40 L315.1,42 L315.3,44 L314.2,46 L311.9,48 L308.9,50 L306,52 L304.3,54 L304.3,56 L306.5,58 L310.8,60 L316.6,62 L322.7,64 L327.8,66 L330.7,68 L330.6,70 L327.2,72 L321.4,74 L314.5,76 L308.3,78 L304.5,80 L304.5,82 L308.8,84 L316.9,86 L327.2,88 L337.5,90 L345.5,92 L349.3,94 L347.8,96 L341.3,98 L331.3,100 L320,102 L310.4,104 L304.7,106 L304.8,108 L310.6,110 L321.1,112 L334,114 L346.2,116 L354.9,118 L358,120 L354.9,122 L346.2,124 L334,126 L321.1,128 L310.6,130 L304.8,132 L304.7,134 L310.4,136 L320,138 L331.3,140 L341.3,142 L347.8,144 L349.3,146 L345.5,148 L337.5,150 L327.2,152 L316.9,154 L308.8,156 L304.5,158 L304.5,160 L308.3,162 L314.5,164 L321.4,166 L327.2,168 L330.6,170 L330.7,172 L327.8,174 L322.7,176 L316.6,178 L310.8,180 L306.5,182 L304.3,184 L304.3,186 L306,188 L308.9,190 L311.9,192 L314.2,194 L315.3,196 L315.1,198 L313.6,200"/>
+<g class="a-h a-h1"><circle class="p" cx="306" cy="120" r="3"/><circle class="p" cx="305" cy="68" r="3"/></g>
+<g class="a-h a-h2"><circle class="p" cx="306" cy="94" r="3"/><circle class="p" cx="305" cy="172" r="3"/></g>
+<g class="a-h a-h3"><circle class="p" cx="306" cy="146" r="3"/><circle class="p" cx="305" cy="108" r="3"/></g>
+<g class="a-e a-e1"><circle class="p" cx="56" cy="120" r="3.2"/></g>
+<g class="a-e a-e2"><circle class="p" cx="56" cy="120" r="3.2"/></g>
+<g class="a-e a-e3"><circle class="p" cx="56" cy="120" r="3.2"/></g>
+<text class="t" x="80" y="148" text-anchor="middle">electrons</text>
+<text class="t" x="170" y="222" text-anchor="middle">two slits</text>
+<text class="t" x="336" y="222" text-anchor="middle">fringes</text>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="physics--centripetal-force" data-discipline="physics" data-tags="circular-motion,centripetal,force,velocity,tangent,rotation">
+<title>Centripetal force</title>
+<desc>A ball circles a centre. Its velocity points along the tangent, and an inward force along the string keeps bending its path into the circle.</desc>
+<style>
+.a-spin,.a-up1,.a-up2{transform-box:view-box}
+.a-spin{transform-origin:200px 116px;animation:a-spin 5s linear infinite}
+.a-up1{transform-origin:234px 103px;animation:a-unspin 5s linear infinite}
+.a-up2{transform-origin:276px 158px;animation:a-unspin 5s linear infinite}
+@keyframes a-spin{to{transform:rotate(360deg)}}
+@keyframes a-unspin{to{transform:rotate(-360deg)}}
+</style>
+<circle class="k f" cx="200" cy="116" r="66"/>
+<path class="f" d="M192,116 H208 M200,108 V124"/>
+<g class="a-spin">
+<path class="f" d="M200,116 H254"/>
+<path class="q" d="M266,130 L266,164 M269.1,157.7 L266,164 M262.9,157.7 L266,164"/>
+<path class="s bold" d="M253,116 L214,116 M221.2,119.5 L214,116 M221.2,112.5 L214,116"/>
+<circle class="w" cx="266" cy="116" r="11"/>
+<circle class="s" cx="266" cy="116" r="11"/>
+<g class="a-up1"><text class="t" x="234" y="103" text-anchor="middle">F</text></g>
+<g class="a-up2"><text class="t" x="276" y="158">v</text></g>
+</g>
+<text class="t" x="200" y="216" text-anchor="middle">F = mv²/r</text>
+</svg>

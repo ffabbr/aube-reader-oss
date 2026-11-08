@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="linguistics--language-family-tree" data-discipline="linguistics" data-tags="historical-linguistics,proto-language,cognates,divergence,descent,indo-european">
+<title>Language family tree</title>
+<desc>A reconstructed proto-word, dashed where nothing was written down, branches into daughter languages; dots carry it down the tree until it arrives as father in one and padre in another.</desc>
+<style>
+.a-w{offset-rotate:0deg;animation:a-w 5s ease-in-out infinite}
+.a-w1{offset-path:path("M88,118 C117,118 117,90 146,90 C176,90 176,58 206,58 C232,58 232,49 258,49 C288,49 288,38 318,38")}
+.a-w2{offset-path:path("M88,118 C117,118 117,90 146,90 C176,90 176,122 206,122 C232,122 232,115 258,115 C288,115 288,104 318,104")}
+@keyframes a-w{0%{offset-distance:0%;opacity:0}8%{opacity:1}75%{offset-distance:100%;opacity:1}90%,100%{offset-distance:100%;opacity:0}}
+</style>
+<path class="k q" d="M88,118 C117,118 117,90 146,90"/>
+<path class="k q" d="M88,118 C151,118 151,187 214,187"/>
+<path class="k q" d="M146,90 C176,90 176,58 206,58"/>
+<path class="k q" d="M146,90 C176,90 176,122 206,122"/>
+<path class="s" d="M206,58 C232,58 232,49 258,49"/>
+<path class="s" d="M206,58 C262,58 262,82 318,82"/>
+<path class="s" d="M258,49 C288,49 288,38 318,38"/>
+<path class="s" d="M258,49 C288,49 288,60 318,60"/>
+<path class="s" d="M206,122 C232,122 232,115 258,115"/>
+<path class="s" d="M206,122 C262,122 262,148 318,148"/>
+<path class="s" d="M258,115 C288,115 288,104 318,104"/>
+<path class="s" d="M258,115 C288,115 288,126 318,126"/>
+<path class="s" d="M214,187 C266,187 266,176 318,176"/>
+<path class="s" d="M214,187 C266,187 266,198 318,198"/>
+<circle class="p" cx="318" cy="38" r="2.6"/>
+<circle class="p" cx="318" cy="60" r="2.6"/>
+<circle class="p" cx="318" cy="82" r="2.6"/>
+<circle class="p" cx="318" cy="104" r="2.6"/>
+<circle class="p" cx="318" cy="126" r="2.6"/>
+<circle class="p" cx="318" cy="148" r="2.6"/>
+<circle class="p" cx="318" cy="176" r="2.6"/>
+<circle class="p" cx="318" cy="198" r="2.6"/>
+<circle class="p" cx="88" cy="118" r="3.6"/>
+<g class="a-w a-w1"><circle class="p" cx="0" cy="0" r="3.4"/></g>
+<g class="a-w a-w2"><circle class="p" cx="0" cy="0" r="3.4"/></g>
+<text class="t" x="78" y="122" text-anchor="end">*pətēr</text>
+<text class="t" x="327" y="42" text-anchor="start">father</text>
+<text class="t" x="327" y="108" text-anchor="start">padre</text>
+</svg>

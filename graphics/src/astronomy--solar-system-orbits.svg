@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="astronomy--solar-system-orbits" data-discipline="astronomy" data-tags="planets,orbits,sun,solar-system,orbital-period,kepler">
+<title>Solar system orbits</title>
+<desc>Four planets circle the Sun on concentric paths; the nearer a planet is to the Sun, the faster it completes its orbit.</desc>
+<style>
+@keyframes a-spin{to{transform:rotate(360deg)}}
+@keyframes a-spinr{to{transform:rotate(-360deg)}}
+@keyframes a-lap{to{offset-distance:100%}}
+.a-o0{transform-box:view-box;transform-origin:200px 120px;animation:a-spin 2s linear infinite;}
+.a-o1{transform-box:view-box;transform-origin:200px 120px;animation:a-spin 2.5s linear infinite;}
+.a-o2{transform-box:view-box;transform-origin:200px 120px;animation:a-spin 5s linear infinite;}
+.a-m2{transform-box:view-box;transform-origin:180.8px 191.5px;animation:a-spin 2s linear infinite;}
+.a-o3{transform-box:view-box;transform-origin:200px 120px;animation:a-spin 10s linear infinite;}
+</style>
+<circle class="f" cx="200" cy="120" r="30"/>
+<circle class="f" cx="200" cy="120" r="52"/>
+<circle class="f" cx="200" cy="120" r="74"/>
+<circle class="f" cx="200" cy="120" r="98"/>
+<circle class="w" cx="200" cy="120" r="15"/>
+<circle class="p" cx="200" cy="120" r="7"/>
+<g class="a-o0">
+<circle class="p" cx="224.6" cy="102.8" r="3"/>
+</g>
+<g class="a-o1">
+<circle class="w" cx="155" cy="94" r="4.5"/>
+<circle class="s" cx="155" cy="94" r="4.5"/>
+</g>
+<g class="a-o2">
+<circle class="w" cx="180.8" cy="191.5" r="5.5"/>
+<circle class="s" cx="180.8" cy="191.5" r="5.5"/>
+<g class="a-m2">
+<circle class="pq" cx="191.8" cy="191.5" r="1.8"/>
+</g>
+</g>
+<g class="a-o3">
+<circle class="w" cx="275.1" cy="183" r="8"/>
+<circle class="s" cx="275.1" cy="183" r="8"/>
+<path class="q" d="M267.1,183h16"/>
+</g>
+<text class="t" x="24" y="36" text-anchor="start">nearer, faster</text>
+</svg>

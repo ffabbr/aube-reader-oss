@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="computing--attention-mechanism" data-discipline="computing" data-tags="machine-learning,attention,transformer,language-model,weights,context">
+<title>Attention mechanism</title>
+<desc>To read the word it, a model weighs every earlier word: even arcs and bars gather into a peak on animal, and meaning flows along that arc. Attention, the heart of a transformer.</desc>
+<style>
+.a-b0{transform-box:view-box;transform-origin:50px 204px;animation:a-b0 10s ease-in-out infinite;transform:scaleY(1)}
+@keyframes a-b0{0%{transform:scaleY(5.556)}46%{transform:scaleY(5.556)}64%{transform:scaleY(1)}100%{transform:scaleY(1)}}
+.a-b1{transform-box:view-box;transform-origin:100px 204px;animation:a-b1 10s ease-in-out infinite;transform:scaleY(1)}
+@keyframes a-b1{0%{transform:scaleY(0.269)}46%{transform:scaleY(0.269)}64%{transform:scaleY(1)}100%{transform:scaleY(1)}}
+.a-b2{transform-box:view-box;transform-origin:150px 204px;animation:a-b2 10s ease-in-out infinite;transform:scaleY(1)}
+@keyframes a-b2{0%{transform:scaleY(3.333)}46%{transform:scaleY(3.333)}64%{transform:scaleY(1)}100%{transform:scaleY(1)}}
+.a-b3{transform-box:view-box;transform-origin:200px 204px;animation:a-b3 10s ease-in-out infinite;transform:scaleY(1)}
+@keyframes a-b3{0%{transform:scaleY(8.333)}46%{transform:scaleY(8.333)}64%{transform:scaleY(1)}100%{transform:scaleY(1)}}
+.a-b4{transform-box:view-box;transform-origin:250px 204px;animation:a-b4 10s ease-in-out infinite;transform:scaleY(1)}
+@keyframes a-b4{0%{transform:scaleY(0.758)}46%{transform:scaleY(0.758)}64%{transform:scaleY(1)}100%{transform:scaleY(1)}}
+.a-b5{transform-box:view-box;transform-origin:300px 204px;animation:a-b5 10s ease-in-out infinite;transform:scaleY(1)}
+@keyframes a-b5{0%{transform:scaleY(2.778)}46%{transform:scaleY(2.778)}64%{transform:scaleY(1)}100%{transform:scaleY(1)}}
+.a-even{animation:a-even 10s ease-in-out infinite;opacity:0}
+@keyframes a-even{0%{opacity:1}46%{opacity:1}60%{opacity:0}100%{opacity:0}}
+.a-foc{animation:a-foc 10s ease-in-out infinite;opacity:1}
+@keyframes a-foc{0%{opacity:0}48%{opacity:0}62%{opacity:1}100%{opacity:1}}
+.a-flow{animation:a-flow 2.5s linear infinite;transform:translate(225px,43.2px)}
+@keyframes a-flow{0%{transform:translate(100px,122px)}6.2%{transform:translate(109.7px,103.5px)}12.5%{transform:translate(121.8px,87.5px)}18.8%{transform:translate(135.9px,74px)}25%{transform:translate(151.7px,62.9px)}31.2%{transform:translate(168.9px,54.3px)}37.5%{transform:translate(187px,48.2px)}43.8%{transform:translate(205.8px,44.5px)}50%{transform:translate(225px,43.2px)}56.2%{transform:translate(244.2px,44.5px)}62.5%{transform:translate(263px,48.2px)}68.8%{transform:translate(281.1px,54.3px)}75%{transform:translate(298.3px,62.9px)}81.2%{transform:translate(314.1px,74px)}87.5%{transform:translate(328.2px,87.5px)}93.8%{transform:translate(340.3px,103.5px)}100%{transform:translate(350px,122px)}}
+.a-gate{animation:a-gate 10s ease-in-out infinite;}
+@keyframes a-gate{0%{opacity:0}58%{opacity:0}63%{opacity:1}100%{opacity:1}}
+</style>
+<g class="a-even"><path class="q" d="M350,122 C296,-4 104,-4 50,122 M350,122 C305,17 145,17 100,122 M350,122 C314,38 186,38 150,122 M350,122 C323,59 227,59 200,122 M350,122 C332,80 268,80 250,122 M350,122 C341,101 309,101 300,122"/></g>
+<g class="a-foc"><path class="f hair" d="M350,122 C296,-4 104,-4 50,122"/><path class="s bold" d="M350,122 C305,17 145,17 100,122"/><path class="f hair" d="M350,122 C314,38 186,38 150,122"/><path class="f hair" d="M350,122 C323,59 227,59 200,122"/><path class="q" d="M350,122 C332,80 268,80 250,122"/><path class="f hair" d="M350,122 C341,101 309,101 300,122"/></g>
+<rect class="w" x="27" y="122" width="46" height="26" rx="4"/>
+<rect class="w" x="77" y="122" width="46" height="26" rx="4"/>
+<rect class="w" x="127" y="122" width="46" height="26" rx="4"/>
+<rect class="w" x="177" y="122" width="46" height="26" rx="4"/>
+<rect class="w" x="227" y="122" width="46" height="26" rx="4"/>
+<rect class="w" x="277" y="122" width="46" height="26" rx="4"/>
+<rect class="w" x="327" y="122" width="46" height="26" rx="4"/>
+<rect class="q" x="27" y="122" width="46" height="26" rx="4"/>
+<rect class="s" x="77" y="122" width="46" height="26" rx="4"/>
+<rect class="q" x="127" y="122" width="46" height="26" rx="4"/>
+<rect class="q" x="177" y="122" width="46" height="26" rx="4"/>
+<rect class="s" x="227" y="122" width="46" height="26" rx="4"/>
+<rect class="q" x="277" y="122" width="46" height="26" rx="4"/>
+<rect class="s bold" x="327" y="122" width="46" height="26" rx="4"/>
+<path class="f" d="M41,135.0 h18"/>
+<path class="f" d="M136,135.0 h28"/>
+<path class="f" d="M191,135.0 h18"/>
+<path class="f" d="M285,135.0 h30"/>
+<path class="f" d="M28,204 H322"/>
+<g class="a-b0"><rect class="pq" x="41" y="202.1" width="18" height="1.9"/></g>
+<g class="a-b1"><rect class="p" x="91" y="165.6" width="18" height="38.4"/></g>
+<g class="a-b2"><rect class="pq" x="141" y="200.9" width="18" height="3.1"/></g>
+<g class="a-b3"><rect class="pq" x="191" y="202.8" width="18" height="1.2"/></g>
+<g class="a-b4"><rect class="pq" x="241" y="190.4" width="18" height="13.6"/></g>
+<g class="a-b5"><rect class="pq" x="291" y="200.3" width="18" height="3.7"/></g>
+<g class="a-gate"><g class="a-flow"><circle class="p" cx="0" cy="0" r="4"/></g></g>
+<text class="t" x="100" y="139.5" text-anchor="middle">animal</text>
+<text class="t" x="250" y="139.5" text-anchor="middle">street</text>
+<text class="t" x="350" y="139.5" text-anchor="middle">it</text>
+</svg>

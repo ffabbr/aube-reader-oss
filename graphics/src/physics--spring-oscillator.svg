@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="physics--spring-oscillator" data-discipline="physics" data-tags="spring,oscillation,hookes-law,harmonic-motion,sine-wave,restoring-force">
+<title>Spring oscillator</title>
+<desc>A mass on a spring bobs up and down about its rest line; traced against time, its height becomes a sine wave, the signature of harmonic motion.</desc>
+<style>
+.a-coil{transform-box:view-box;transform-origin:100px 40px;animation:a-coil 2.5s cubic-bezier(.37,0,.63,1) infinite alternate;transform:scale(1,.663)}
+@keyframes a-coil{from{transform:scale(1,.663)}to{transform:scale(1,1.337)}}
+.a-mass,.a-dy{animation:a-my 2.5s cubic-bezier(.37,0,.63,1) infinite alternate;transform:translateY(-32px)}
+@keyframes a-my{from{transform:translateY(-32px)}to{transform:translateY(32px)}}
+.a-dx{animation:a-dx 10s linear infinite}
+@keyframes a-dx{0%{transform:translateX(0);opacity:0}4%{opacity:1}94%{opacity:1}100%{transform:translateX(170px);opacity:0}}
+</style>
+<path class="q" d="M70,40 H130"/>
+<path class="f hair" d="M78,40 l-8,-8 M91,40 l-8,-8 M104,40 l-8,-8 M117,40 l-8,-8 M130,40 l-8,-8"/>
+<g class="a-coil"><path class="s" d="M100,40 L100,49 L89,55.4 L111,61.8 L89,68.2 L111,74.7 L89,81.1 L111,87.5 L89,93.9 L111,100.3 L89,106.8 L111,113.2 L89,119.6 L100,126 L100,135"/></g>
+<g class="a-mass"><rect class="w" x="76" y="135" width="48" height="34" rx="3"/>
+<rect class="s" x="76" y="135" width="48" height="34" rx="3"/></g>
+<path class="k f" d="M124,152 H200"/>
+<path class="f" d="M200,152 H374 M200,106 V198"/>
+<path class="q" d="M200,120 C215.5,120 227,184 242.5,184 C258,184 269.5,120 285,120 C300.5,120 312,184 327.5,184 C343,184 354.5,120 370,120"/>
+<g class="a-dx"><g class="a-dy"><circle class="p" cx="200" cy="152" r="4.5"/></g></g>
+<text class="t" x="150" y="84">F = −kx</text>
+<text class="t" x="374" y="172" text-anchor="end">t</text>
+<text class="t" x="190" y="112" text-anchor="end">x</text>
+</svg>

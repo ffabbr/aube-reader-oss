@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="neuroscience--synapse-neurotransmitters" data-discipline="neuroscience" data-tags="synapse,neurotransmitter,vesicle,receptor,synaptic-cleft,neuron,signalling">
+<title>Synapse and neurotransmitters</title>
+<desc>Vesicles in the presynaptic terminal release transmitter molecules that cross the cleft and bind receptors on the next cell, passing the signal on.</desc>
+<style>
+.a-ves{animation:a-ves 2.5s ease-in infinite}
+@keyframes a-ves{0%{transform:translateY(0);opacity:0}15%{opacity:1}70%{opacity:1}85%{transform:translateY(22px);opacity:0}100%{transform:translateY(22px);opacity:0}}
+.a-m1{animation:a-m1 2.5s ease-out infinite}.a-m2{animation:a-m2 2.5s ease-out infinite}.a-m3{animation:a-m3 2.5s ease-out infinite}
+@keyframes a-m1{0%,62%{transform:translate(0,0);opacity:0}70%{opacity:1}92%{transform:translate(-36px,19px);opacity:1}100%{transform:translate(-36px,19px);opacity:0}}
+@keyframes a-m2{0%,62%{transform:translate(0,0);opacity:0}70%{opacity:1}92%{transform:translate(0,19px);opacity:1}100%{transform:translate(0,19px);opacity:0}}
+@keyframes a-m3{0%,62%{transform:translate(0,0);opacity:0}70%{opacity:1}92%{transform:translate(36px,19px);opacity:1}100%{transform:translate(36px,19px);opacity:0}}
+.a-sig{transform-box:view-box;transform-origin:200px 150px;animation:a-sig 2.5s ease-out infinite}
+@keyframes a-sig{0%{transform:scale(.3);opacity:.9}55%{transform:scale(1.3);opacity:0}100%{transform:scale(1.3);opacity:0}}
+</style>
+<path class="w" d="M182,20C182,38 112,36 96,62C84,86 120,108 200,108C280,108 316,86 304,62C288,36 218,38 218,20Z"/>
+<path class="w" d="M112,220C124,192 92,176 110,158C128,146 160,144 200,144C240,144 272,146 290,158C308,176 276,192 288,220Z"/>
+<path class="s" d="M182,20C182,38 112,36 96,62C84,86 120,108 200,108C280,108 316,86 304,62C288,36 218,38 218,20"/>
+<path class="s" d="M112,220C124,192 92,176 110,158C128,146 160,144 200,144C240,144 272,146 290,158C308,176 276,192 288,220"/>
+<circle class="q" cx="140" cy="62" r="9"/><circle class="pq" cx="140" cy="62" r="3"/>
+<circle class="q" cx="178" cy="50" r="9"/><circle class="pq" cx="178" cy="50" r="3"/>
+<circle class="q" cx="226" cy="50" r="9"/><circle class="pq" cx="226" cy="50" r="3"/>
+<circle class="q" cx="262" cy="64" r="9"/><circle class="pq" cx="262" cy="64" r="3"/>
+<circle class="q" cx="154" cy="88" r="9"/><circle class="pq" cx="154" cy="88" r="3"/>
+<circle class="q" cx="246" cy="88" r="9"/><circle class="pq" cx="246" cy="88" r="3"/>
+<path class="q" d="M186,108C190,96 210,96 214,108"/>
+<g class="a-ves"><circle class="q" cx="200" cy="74" r="9"/><circle class="pq" cx="200" cy="74" r="3"/></g>
+<path class="q bold" d="M152,146V133M168,146V133M192,146V133M208,146V133M232,146V133M248,146V133"/>
+<g class="a-m1"><circle class="p" cx="196" cy="114" r="2.6"/></g>
+<g class="a-m2"><circle class="p" cx="200" cy="114" r="2.6"/></g>
+<g class="a-m3"><circle class="p" cx="204" cy="114" r="2.6"/></g>
+<g class="a-sig"><path class="k q" d="M160,160A40,40 0 0 0 240,160"/></g>
+<text class="t" x="58" y="66" text-anchor="middle">vesicles</text>
+<text class="t" x="62" y="128" text-anchor="middle">transmitter</text>
+<text class="t" x="338" y="128" text-anchor="middle">receptors</text>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="engineering--hydraulic-press" data-discipline="engineering" data-tags="hydraulic,pascal-principle,pressure,force-multiplication,piston,fluid">
+<title>Hydraulic Press</title>
+<desc>A small piston pushing on an enclosed fluid raises a much larger piston: pressure is shared, so force scales with piston area while the distance moved shrinks.</desc>
+<style>
+.a-pl{animation:a-pl 2.5s ease-in-out infinite alternate}
+@keyframes a-pl{from{transform:translateY(0)}to{transform:translateY(24px)}}
+.a-fl{transform-box:view-box;transform-origin:0px 190px;animation:a-fl 2.5s ease-in-out infinite alternate}
+@keyframes a-fl{from{transform:scaleY(1)}to{transform:scaleY(0.676)}}
+.a-pr{animation:a-pr 2.5s ease-in-out infinite alternate}
+@keyframes a-pr{from{transform:translateY(0)}to{transform:translateY(-6px)}}
+.a-fr{transform-box:view-box;transform-origin:0px 190px;animation:a-fr 2.5s ease-in-out infinite alternate}
+@keyframes a-fr{from{transform:scaleY(1)}to{transform:scaleY(1.088)}}
+</style>
+<rect class="w" x="100" y="162" width="150" height="28"/>
+<g class="a-fl"><rect class="w" x="72" y="116" width="36" height="74"/></g>
+<g class="a-fr"><rect class="w" x="242" y="122" width="86" height="68"/></g>
+<path class="s" d="M70,60 V190 H330 V90 M110,60 V162 H240 V90"/>
+<g class="a-pl">
+<rect class="w" x="72" y="98" width="36" height="16"/>
+<rect class="s" x="72" y="98" width="36" height="16"/>
+<path class="s" d="M90,98 V44"/>
+<path class="s" d="M90,24 L90,44 M86.7,37.8 L90,44 M93.3,37.8 L90,44"/>
+</g>
+<g class="a-pr">
+<rect class="w" x="242" y="104" width="86" height="16"/>
+<rect class="s" x="242" y="104" width="86" height="16"/>
+<rect class="w" x="258" y="62" width="54" height="42"/>
+<rect class="s" x="258" y="62" width="54" height="42"/>
+</g>
+<path class="f" d="M258,150 L258,134 M259.9,137.5 L258,134 M256.1,137.5 L258,134M285,150 L285,134 M286.9,137.5 L285,134 M283.1,137.5 L285,134M312,150 L312,134 M313.9,137.5 L312,134 M310.1,137.5 L312,134"/>
+<text class="t" x="104" y="40" text-anchor="start">F₁</text>
+<text class="t" x="285" y="52" text-anchor="middle">F₂ = F₁ · A₂ / A₁</text>
+<text class="t" x="200" y="216" text-anchor="middle">same pressure, bigger area, bigger force</text>
+</svg>

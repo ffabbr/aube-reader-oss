@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="genetics--chromosome-structure" data-discipline="genetics" data-tags="chromosome,chromatin,nucleosome,histone,dna-packaging,centromere,chromatid" role="img">
+ <title>Chromosome structure and chromatin packing</title>
+ <desc>A chromosome zoomed in is chromatin: DNA wrapped around histone spools, the nucleosomes, like beads on a string, packed ever tighter to fit a cell.</desc>
+ <style>
+:root{--ink:#110f0c;--quiet:#555350;--faint:#b8b6b2;--wash:#f5f3ef}
+@media (prefers-color-scheme:dark){:root{--ink:#e7e5e2;--quiet:#a3a19e;--faint:#524f4c;--wash:#252321}}
+svg{overflow:visible}
+.s,.q,.f{fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1;stroke-dashoffset:0}
+.s{stroke:var(--ink);stroke-width:1.5}
+.q{stroke:var(--quiet);stroke-width:1.3}
+.f{stroke:var(--faint);stroke-width:1.1}
+.hair{stroke-width:1!important}
+.bold{stroke-width:2.2!important}
+.k{fill:none;stroke-dasharray:5 5!important;stroke-linecap:round}
+.p{fill:var(--ink);stroke:none}
+.pq{fill:var(--quiet);stroke:none}
+.w{fill:var(--wash);stroke:none}
+.t{fill:var(--quiet);stroke:none;font:italic 13px ui-serif,"New York",Georgia,serif}
+.all{animation:out 10s linear infinite}
+@keyframes out{0%,90%{opacity:1}97%,99.9%{opacity:0}100%{opacity:1}}
+@keyframes dr0{0%,0.0%{stroke-dashoffset:1;opacity:0}0.1%{stroke-dashoffset:1;opacity:1}9%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd0{0%,0.0%{opacity:0}7%,100%{opacity:1}}
+@keyframes dr1{0%,2.2%{stroke-dashoffset:1;opacity:0}2.3%{stroke-dashoffset:1;opacity:1}11.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd1{0%,2.2%{opacity:0}9.2%,100%{opacity:1}}
+@keyframes dr2{0%,4.4%{stroke-dashoffset:1;opacity:0}4.5%{stroke-dashoffset:1;opacity:1}13.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd2{0%,4.4%{opacity:0}11.4%,100%{opacity:1}}
+@keyframes dr3{0%,6.6%{stroke-dashoffset:1;opacity:0}6.7%{stroke-dashoffset:1;opacity:1}15.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd3{0%,6.6%{opacity:0}13.6%,100%{opacity:1}}
+@keyframes dr4{0%,8.8%{stroke-dashoffset:1;opacity:0}8.9%{stroke-dashoffset:1;opacity:1}17.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd4{0%,8.8%{opacity:0}15.8%,100%{opacity:1}}
+@keyframes dr5{0%,11.0%{stroke-dashoffset:1;opacity:0}11.1%{stroke-dashoffset:1;opacity:1}20%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd5{0%,11.0%{opacity:0}18%,100%{opacity:1}}
+@keyframes dr6{0%,13.2%{stroke-dashoffset:1;opacity:0}13.3%{stroke-dashoffset:1;opacity:1}22.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd6{0%,13.2%{opacity:0}20.2%,100%{opacity:1}}
+@keyframes dr7{0%,15.4%{stroke-dashoffset:1;opacity:0}15.5%{stroke-dashoffset:1;opacity:1}24.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd7{0%,15.4%{opacity:0}22.4%,100%{opacity:1}}
+@keyframes dr8{0%,17.6%{stroke-dashoffset:1;opacity:0}17.7%{stroke-dashoffset:1;opacity:1}26.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd8{0%,17.6%{opacity:0}24.6%,100%{opacity:1}}
+@keyframes dr9{0%,19.8%{stroke-dashoffset:1;opacity:0}19.9%{stroke-dashoffset:1;opacity:1}28.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd9{0%,19.8%{opacity:0}26.8%,100%{opacity:1}}
+@keyframes dr10{0%,22.0%{stroke-dashoffset:1;opacity:0}22.1%{stroke-dashoffset:1;opacity:1}31%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd10{0%,22.0%{opacity:0}29%,100%{opacity:1}}
+@keyframes dr11{0%,24.2%{stroke-dashoffset:1;opacity:0}24.3%{stroke-dashoffset:1;opacity:1}33.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd11{0%,24.2%{opacity:0}31.2%,100%{opacity:1}}
+@keyframes dr12{0%,26.4%{stroke-dashoffset:1;opacity:0}26.5%{stroke-dashoffset:1;opacity:1}35.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd12{0%,26.4%{opacity:0}33.4%,100%{opacity:1}}
+@keyframes dr13{0%,28.6%{stroke-dashoffset:1;opacity:0}28.7%{stroke-dashoffset:1;opacity:1}37.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd13{0%,28.6%{opacity:0}35.6%,100%{opacity:1}}
+@keyframes dr14{0%,30.8%{stroke-dashoffset:1;opacity:0}30.9%{stroke-dashoffset:1;opacity:1}39.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd14{0%,30.8%{opacity:0}37.8%,100%{opacity:1}}
+@keyframes dr15{0%,33.0%{stroke-dashoffset:1;opacity:0}33.1%{stroke-dashoffset:1;opacity:1}42%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd15{0%,33.0%{opacity:0}40%,100%{opacity:1}}
+.s.i0,.q.i0,.f.i0{animation:dr0 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i1,.q.i1,.f.i1{animation:dr1 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i2,.q.i2,.f.i2{animation:dr2 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i3,.q.i3,.f.i3{animation:dr3 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i4,.q.i4,.f.i4{animation:dr4 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i5,.q.i5,.f.i5{animation:dr5 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i6,.q.i6,.f.i6{animation:dr6 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i7,.q.i7,.f.i7{animation:dr7 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i8,.q.i8,.f.i8{animation:dr8 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i9,.q.i9,.f.i9{animation:dr9 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i10,.q.i10,.f.i10{animation:dr10 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i11,.q.i11,.f.i11{animation:dr11 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i12,.q.i12,.f.i12{animation:dr12 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i13,.q.i13,.f.i13{animation:dr13 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i14,.q.i14,.f.i14{animation:dr14 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i15,.q.i15,.f.i15{animation:dr15 10s cubic-bezier(.55,.05,.25,1) infinite}
+.p.i0,.w.i0,.pq.i0,.t.i0,.k.i0{animation:fd0 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i1,.w.i1,.pq.i1,.t.i1,.k.i1{animation:fd1 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i2,.w.i2,.pq.i2,.t.i2,.k.i2{animation:fd2 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i3,.w.i3,.pq.i3,.t.i3,.k.i3{animation:fd3 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i4,.w.i4,.pq.i4,.t.i4,.k.i4{animation:fd4 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i5,.w.i5,.pq.i5,.t.i5,.k.i5{animation:fd5 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i6,.w.i6,.pq.i6,.t.i6,.k.i6{animation:fd6 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i7,.w.i7,.pq.i7,.t.i7,.k.i7{animation:fd7 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i8,.w.i8,.pq.i8,.t.i8,.k.i8{animation:fd8 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i9,.w.i9,.pq.i9,.t.i9,.k.i9{animation:fd9 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i10,.w.i10,.pq.i10,.t.i10,.k.i10{animation:fd10 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i11,.w.i11,.pq.i11,.t.i11,.k.i11{animation:fd11 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i12,.w.i12,.pq.i12,.t.i12,.k.i12{animation:fd12 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i13,.w.i13,.pq.i13,.t.i13,.k.i13{animation:fd13 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i14,.w.i14,.pq.i14,.t.i14,.k.i14{animation:fd14 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i15,.w.i15,.pq.i15,.t.i15,.k.i15{animation:fd15 10s cubic-bezier(.2,.7,.3,1) infinite}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+ <style>
+
+.a-nuc0,.a-nuc1,.a-nuc2{transform-box:fill-box;transform-origin:center;animation:a-pulse 2.5s ease-in-out infinite alternate}
+.a-nuc1{animation-delay:-.8s}
+.a-nuc2{animation-delay:-1.6s}
+@keyframes a-pulse{from{transform:scale(.9)}to{transform:scale(1.14)}}
+</style>
+ <g class="all">
+  <rect class="w i0" x="71" y="34" width="26" height="164" rx="13" transform="rotate(11 84 116)" />
+  <rect class="w i0" x="71" y="34" width="26" height="164" rx="13" transform="rotate(-11 84 116)" />
+  <rect class="q i1" x="71" y="34" width="26" height="164" rx="13" transform="rotate(11 84 116)" pathLength="1" />
+  <rect class="q i1" x="71" y="34" width="26" height="164" rx="13" transform="rotate(-11 84 116)" pathLength="1" />
+  <path class="f hair i2" d="M72,64 h18 M74,50 h14 M72,166 h18 M78,182 h16" pathLength="1" />
+  <circle class="p i3" cx="84" cy="116" r="3.4" />
+  <circle class="w i3" cx="274" cy="114" r="80" />
+  <circle class="q i4" cx="274" cy="114" r="80" pathLength="1" />
+  <circle class="k s i4" cx="95" cy="60" r="10" />
+  <path class="k f i5" d="M104,57 L212.7,62.6" />
+  <path class="k f i6" d="M103,65 L212.7,165.4" />
+  <path class="s i6" d="M212,118 C213.1,119.7 216.2,125.7 218.3,128.3 C220.4,131 222.5,133.1 224.6,133.7 C226.7,134.3 228.8,133.8 230.9,132.2 C233,130.6 235.1,127.5 237.2,124.3 C239.3,121.1 241.4,116.6 243.5,112.8 C245.6,109.1 247.7,104.7 249.8,101.8 C251.9,98.8 254,96.1 256.1,95 C258.2,93.8 260.3,93.8 262.4,94.8 C264.5,95.9 266.6,98.5 268.7,101.4 C270.8,104.3 272.9,108.6 275,112.3 C277.1,116.1 279.2,120.6 281.3,123.9 C283.4,127.2 285.5,130.3 287.6,132 C289.7,133.6 291.8,134.3 293.9,133.8 C296,133.2 298.1,131.2 300.2,128.7 C302.3,126.1 304.4,122.1 306.5,118.5 C308.6,114.8 310.7,110.2 312.8,106.7 C314.9,103.2 317,99.6 319.1,97.4 C321.2,95.3 323.3,94 325.4,94 C327.5,94 329.6,95.4 331.7,97.5 C333.8,99.7 336.9,105.3 338,106.8" pathLength="1" />
+  <g class="a-nuc0">
+   <circle class="w i7" cx="224.6" cy="133.7" r="13" />
+   <circle class="s i8" cx="224.6" cy="133.7" r="13" pathLength="1" />
+   <path class="f hair i8" d="M215.6,126.7 q9,-5 18,0 M213.6,133.7 q11,-6 22,0 M215.6,140.7 q9,-5 18,0" pathLength="1" />
+  </g>
+  <g class="a-nuc1">
+   <circle class="w i9" cx="258.2" cy="94.1" r="13" />
+   <circle class="s i9" cx="258.2" cy="94.1" r="13" pathLength="1" />
+   <path class="f hair i10" d="M249.2,87.1 q9,-5 18,0 M247.2,94.1 q11,-6 22,0 M249.2,101.1 q9,-5 18,0" pathLength="1" />
+  </g>
+  <g class="a-nuc2">
+   <circle class="w i11" cx="291.8" cy="134" r="13" />
+   <circle class="s i11" cx="291.8" cy="134" r="13" pathLength="1" />
+   <path class="f hair i12" d="M282.8,127.0 q9,-5 18,0 M280.8,134.0 q11,-6 22,0 M282.8,141.0 q9,-5 18,0" pathLength="1" />
+  </g>
+  <g class="a-nuc0">
+   <circle class="w i12" cx="325.4" cy="94" r="13" />
+   <circle class="s i13" cx="325.4" cy="94" r="13" pathLength="1" />
+   <path class="f hair i14" d="M316.4,87.0 q9,-5 18,0 M314.4,94.0 q11,-6 22,0 M316.4,101.0 q9,-5 18,0" pathLength="1" />
+  </g>
+  <text class="t i14" x="84" y="226" text-anchor="middle">chromosome</text>
+  <text class="t i15" x="274" y="222" text-anchor="middle">DNA wrapped on histones</text>
+ </g>
+</svg>

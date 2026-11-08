@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="neuroscience--sleep-cycle" data-discipline="neuroscience" data-tags="sleep,hypnogram,rem,deep-sleep,sleep-stages,brain">
+<title>Sleep cycles</title>
+<desc>A hypnogram of one night: sleep descends into deep stages and climbs back about every ninety minutes, deep sleep fading as dreaming REM spells lengthen.</desc>
+<style>
+.a-night{offset-path:path("M76,58H85V108H90.4V136H104.8V168H126.4V136H131.8V84H139V136H155.2V168H176.8V136H187.6V84H200.2V136H211V168H223.6V136H241.6V84H259.6V136H277.6V108H283V84H310V136H322.6V84H351.4V58H364V58");offset-rotate:0deg;animation:a-along 10s linear infinite;}
+@keyframes a-along{0%{offset-distance:0%;opacity:0}8%{opacity:1}92%{opacity:1}100%{offset-distance:100%;opacity:0}}
+</style>
+<path class="f" d="M76,40V196H364M76,196v5M148,196v5M220,196v5M292,196v5M364,196v5"/>
+<path class="f hair" d="M76,58H364M76,84H364M76,108H364M76,136H364M76,168H364"/>
+<path class="q" d="M76,58H85V108H90.4V136H104.8V168H126.4V136H131.8V84H139V136H155.2V168H176.8V136H187.6V84H200.2V136H211V168H223.6V136H241.6V84H259.6V136H277.6V108H283V84H310V136H322.6V84H351.4V58H364V58"/>
+<path class="s bold" d="M131.8,84H139M187.6,84H200.2M241.6,84H259.6M283,84H310M322.6,84H351.4"/>
+<g class="a-night"><circle class="q" r="7"/><circle class="p" r="3"/></g>
+<text class="t" x="66" y="62" text-anchor="end">awake</text>
+<text class="t" x="66" y="88" text-anchor="end">REM</text>
+<text class="t" x="66" y="172" text-anchor="end">deep</text>
+<path class="w" d="M84,204A9,9 0 1 0 94,216A7.5,7.5 0 0 1 84,204Z"/>
+<path class="q" d="M84,204A9,9 0 1 0 94,216A7.5,7.5 0 0 1 84,204Z"/>
+<circle class="w" cx="354" cy="213" r="6"/>
+<circle class="q" cx="354" cy="213" r="6"/>
+<path class="q" d="M342,213h-4M366,213h4M354,201v-4M354,225v-4M345.5,204.5l-3,-3M362.5,204.5l3,-3M345.5,221.5l-3,3M362.5,221.5l3,3"/>
+</svg>

@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="biology--bee-waggle-dance" data-discipline="biology" data-tags="waggle-dance,honeybee,communication,navigation,sun-compass,foraging,figure-eight" role="img">
+ <title>Bee waggle dance</title>
+ <desc>On the comb a bee traces a figure-eight; the angle of its straight waggle run from vertical tells the hive the direction of food relative to the sun.</desc>
+ <style>
+:root{--ink:#110f0c;--quiet:#555350;--faint:#b8b6b2;--wash:#f5f3ef}
+@media (prefers-color-scheme:dark){:root{--ink:#e7e5e2;--quiet:#a3a19e;--faint:#524f4c;--wash:#252321}}
+svg{overflow:visible}
+.s,.q,.f{fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1;stroke-dashoffset:0}
+.s{stroke:var(--ink);stroke-width:1.5}
+.q{stroke:var(--quiet);stroke-width:1.3}
+.f{stroke:var(--faint);stroke-width:1.1}
+.hair{stroke-width:1!important}
+.bold{stroke-width:2.2!important}
+.k{fill:none;stroke-dasharray:5 5!important;stroke-linecap:round}
+.p{fill:var(--ink);stroke:none}
+.pq{fill:var(--quiet);stroke:none}
+.w{fill:var(--wash);stroke:none}
+.t{fill:var(--quiet);stroke:none;font:italic 13px ui-serif,"New York",Georgia,serif}
+.all{animation:out 10s linear infinite}
+@keyframes out{0%,90%{opacity:1}97%,99.9%{opacity:0}100%{opacity:1}}
+@keyframes dr0{0%,0.0%{stroke-dashoffset:1;opacity:0}0.1%{stroke-dashoffset:1;opacity:1}9%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd0{0%,0.0%{opacity:0}7%,100%{opacity:1}}
+@keyframes dr1{0%,2.2%{stroke-dashoffset:1;opacity:0}2.3%{stroke-dashoffset:1;opacity:1}11.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd1{0%,2.2%{opacity:0}9.2%,100%{opacity:1}}
+@keyframes dr2{0%,4.4%{stroke-dashoffset:1;opacity:0}4.5%{stroke-dashoffset:1;opacity:1}13.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd2{0%,4.4%{opacity:0}11.4%,100%{opacity:1}}
+@keyframes dr3{0%,6.6%{stroke-dashoffset:1;opacity:0}6.7%{stroke-dashoffset:1;opacity:1}15.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd3{0%,6.6%{opacity:0}13.6%,100%{opacity:1}}
+@keyframes dr4{0%,8.8%{stroke-dashoffset:1;opacity:0}8.9%{stroke-dashoffset:1;opacity:1}17.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd4{0%,8.8%{opacity:0}15.8%,100%{opacity:1}}
+@keyframes dr5{0%,11.0%{stroke-dashoffset:1;opacity:0}11.1%{stroke-dashoffset:1;opacity:1}20%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd5{0%,11.0%{opacity:0}18%,100%{opacity:1}}
+@keyframes dr6{0%,13.2%{stroke-dashoffset:1;opacity:0}13.3%{stroke-dashoffset:1;opacity:1}22.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd6{0%,13.2%{opacity:0}20.2%,100%{opacity:1}}
+@keyframes dr7{0%,15.4%{stroke-dashoffset:1;opacity:0}15.5%{stroke-dashoffset:1;opacity:1}24.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd7{0%,15.4%{opacity:0}22.4%,100%{opacity:1}}
+@keyframes dr8{0%,17.6%{stroke-dashoffset:1;opacity:0}17.7%{stroke-dashoffset:1;opacity:1}26.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd8{0%,17.6%{opacity:0}24.6%,100%{opacity:1}}
+@keyframes dr9{0%,19.8%{stroke-dashoffset:1;opacity:0}19.9%{stroke-dashoffset:1;opacity:1}28.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd9{0%,19.8%{opacity:0}26.8%,100%{opacity:1}}
+@keyframes dr10{0%,22.0%{stroke-dashoffset:1;opacity:0}22.1%{stroke-dashoffset:1;opacity:1}31%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd10{0%,22.0%{opacity:0}29%,100%{opacity:1}}
+@keyframes dr11{0%,24.2%{stroke-dashoffset:1;opacity:0}24.3%{stroke-dashoffset:1;opacity:1}33.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd11{0%,24.2%{opacity:0}31.2%,100%{opacity:1}}
+@keyframes dr12{0%,26.4%{stroke-dashoffset:1;opacity:0}26.5%{stroke-dashoffset:1;opacity:1}35.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd12{0%,26.4%{opacity:0}33.4%,100%{opacity:1}}
+@keyframes dr13{0%,28.6%{stroke-dashoffset:1;opacity:0}28.7%{stroke-dashoffset:1;opacity:1}37.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd13{0%,28.6%{opacity:0}35.6%,100%{opacity:1}}
+@keyframes dr14{0%,30.8%{stroke-dashoffset:1;opacity:0}30.9%{stroke-dashoffset:1;opacity:1}39.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd14{0%,30.8%{opacity:0}37.8%,100%{opacity:1}}
+@keyframes dr15{0%,33.0%{stroke-dashoffset:1;opacity:0}33.1%{stroke-dashoffset:1;opacity:1}42%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd15{0%,33.0%{opacity:0}40%,100%{opacity:1}}
+.s.i0,.q.i0,.f.i0{animation:dr0 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i1,.q.i1,.f.i1{animation:dr1 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i2,.q.i2,.f.i2{animation:dr2 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i3,.q.i3,.f.i3{animation:dr3 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i4,.q.i4,.f.i4{animation:dr4 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i5,.q.i5,.f.i5{animation:dr5 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i6,.q.i6,.f.i6{animation:dr6 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i7,.q.i7,.f.i7{animation:dr7 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i8,.q.i8,.f.i8{animation:dr8 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i9,.q.i9,.f.i9{animation:dr9 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i10,.q.i10,.f.i10{animation:dr10 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i11,.q.i11,.f.i11{animation:dr11 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i12,.q.i12,.f.i12{animation:dr12 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i13,.q.i13,.f.i13{animation:dr13 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i14,.q.i14,.f.i14{animation:dr14 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i15,.q.i15,.f.i15{animation:dr15 10s cubic-bezier(.55,.05,.25,1) infinite}
+.p.i0,.w.i0,.pq.i0,.t.i0,.k.i0{animation:fd0 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i1,.w.i1,.pq.i1,.t.i1,.k.i1{animation:fd1 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i2,.w.i2,.pq.i2,.t.i2,.k.i2{animation:fd2 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i3,.w.i3,.pq.i3,.t.i3,.k.i3{animation:fd3 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i4,.w.i4,.pq.i4,.t.i4,.k.i4{animation:fd4 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i5,.w.i5,.pq.i5,.t.i5,.k.i5{animation:fd5 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i6,.w.i6,.pq.i6,.t.i6,.k.i6{animation:fd6 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i7,.w.i7,.pq.i7,.t.i7,.k.i7{animation:fd7 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i8,.w.i8,.pq.i8,.t.i8,.k.i8{animation:fd8 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i9,.w.i9,.pq.i9,.t.i9,.k.i9{animation:fd9 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i10,.w.i10,.pq.i10,.t.i10,.k.i10{animation:fd10 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i11,.w.i11,.pq.i11,.t.i11,.k.i11{animation:fd11 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i12,.w.i12,.pq.i12,.t.i12,.k.i12{animation:fd12 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i13,.w.i13,.pq.i13,.t.i13,.k.i13{animation:fd13 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i14,.w.i14,.pq.i14,.t.i14,.k.i14{animation:fd14 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i15,.w.i15,.pq.i15,.t.i15,.k.i15{animation:fd15 10s cubic-bezier(.2,.7,.3,1) infinite}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+ <style>
+.a-m1{transform:translate(107px,139.1px);animation:a-m1 5s linear infinite;animation-delay:0s}@keyframes a-m1{0%{transform:translate(107px,139.1px)}2.18%{transform:translate(112.5px,129.5px)}4.37%{transform:translate(118px,120px)}6.55%{transform:translate(123.5px,110.5px)}8.74%{transform:translate(129px,100.9px)}12.75%{transform:translate(149px,98.4px)}16.28%{transform:translate(166.3px,102.4px)}19.51%{transform:translate(179.7px,111.7px)}22.6%{transform:translate(187.8px,125px)}25.78%{transform:translate(189.6px,140.9px)}29.37%{transform:translate(183.8px,158px)}32.96%{transform:translate(171.9px,171.6px)}36.14%{transform:translate(157.2px,178px)}39.23%{transform:translate(141.7px,177.5px)}42.46%{transform:translate(126.9px,170.6px)}45.99%{transform:translate(114.8px,157.7px)}50%{transform:translate(107px,139.1px)}52.18%{transform:translate(112.5px,129.5px)}54.37%{transform:translate(118px,120px)}56.55%{transform:translate(123.5px,110.5px)}58.74%{transform:translate(129px,100.9px)}62.75%{transform:translate(121.2px,82.3px)}66.28%{transform:translate(109.1px,69.4px)}69.51%{transform:translate(94.3px,62.5px)}72.6%{transform:translate(78.8px,62px)}75.78%{transform:translate(64.1px,68.4px)}79.37%{transform:translate(52.2px,82px)}82.96%{transform:translate(46.4px,99.1px)}86.14%{transform:translate(48.2px,115px)}89.23%{transform:translate(56.3px,128.3px)}92.46%{transform:translate(69.7px,137.6px)}95.99%{transform:translate(87px,141.6px)}100%{transform:translate(107px,139.1px)}}
+</style>
+ <g class="all">
+  <path class="f hair i0" d="M89.4,59.5 L79.9,65 L70.4,59.5 L70.4,48.5 L79.9,43 L89.4,48.5 Z M108.5,59.5 L98.9,65 L89.4,59.5 L89.4,48.5 L98.9,43 L108.5,48.5 Z M127.5,59.5 L118,65 L108.5,59.5 L108.5,48.5 L118,43 L127.5,48.5 Z M146.6,59.5 L137.1,65 L127.5,59.5 L127.5,48.5 L137.1,43 L146.6,48.5 Z M165.6,59.5 L156.1,65 L146.6,59.5 L146.6,48.5 L156.1,43 L165.6,48.5 Z M79.9,76 L70.4,81.5 L60.8,76 L60.8,65 L70.4,59.5 L79.9,65 Z M98.9,76 L89.4,81.5 L79.9,76 L79.9,65 L89.4,59.5 L98.9,65 Z M118,76 L108.5,81.5 L98.9,76 L98.9,65 L108.5,59.5 L118,65 Z M137.1,76 L127.5,81.5 L118,76 L118,65 L127.5,59.5 L137.1,65 Z M156.1,76 L146.6,81.5 L137.1,76 L137.1,65 L146.6,59.5 L156.1,65 Z M175.2,76 L165.6,81.5 L156.1,76 L156.1,65 L165.6,59.5 L175.2,65 Z M51.3,92.5 L41.8,98 L32.3,92.5 L32.3,81.5 L41.8,76 L51.3,81.5 Z M70.4,92.5 L60.8,98 L51.3,92.5 L51.3,81.5 L60.8,76 L70.4,81.5 Z M89.4,92.5 L79.9,98 L70.4,92.5 L70.4,81.5 L79.9,76 L89.4,81.5 Z M108.5,92.5 L98.9,98 L89.4,92.5 L89.4,81.5 L98.9,76 L108.5,81.5 Z M127.5,92.5 L118,98 L108.5,92.5 L108.5,81.5 L118,76 L127.5,81.5 Z M146.6,92.5 L137.1,98 L127.5,92.5 L127.5,81.5 L137.1,76 L146.6,81.5 Z M165.6,92.5 L156.1,98 L146.6,92.5 L146.6,81.5 L156.1,76 L165.6,81.5 Z M184.7,92.5 L175.2,98 L165.6,92.5 L165.6,81.5 L175.2,76 L184.7,81.5 Z M203.7,92.5 L194.2,98 L184.7,92.5 L184.7,81.5 L194.2,76 L203.7,81.5 Z M60.8,109 L51.3,114.5 L41.8,109 L41.8,98 L51.3,92.5 L60.8,98 Z M79.9,109 L70.4,114.5 L60.8,109 L60.8,98 L70.4,92.5 L79.9,98 Z M98.9,109 L89.4,114.5 L79.9,109 L79.9,98 L89.4,92.5 L98.9,98 Z M118,109 L108.5,114.5 L98.9,109 L98.9,98 L108.5,92.5 L118,98 Z M137.1,109 L127.5,114.5 L118,109 L118,98 L127.5,92.5 L137.1,98 Z M156.1,109 L146.6,114.5 L137.1,109 L137.1,98 L146.6,92.5 L156.1,98 Z M175.2,109 L165.6,114.5 L156.1,109 L156.1,98 L165.6,92.5 L175.2,98 Z M194.2,109 L184.7,114.5 L175.2,109 L175.2,98 L184.7,92.5 L194.2,98 Z M51.3,125.5 L41.8,131 L32.3,125.5 L32.3,114.5 L41.8,109 L51.3,114.5 Z M70.4,125.5 L60.8,131 L51.3,125.5 L51.3,114.5 L60.8,109 L70.4,114.5 Z M89.4,125.5 L79.9,131 L70.4,125.5 L70.4,114.5 L79.9,109 L89.4,114.5 Z M108.5,125.5 L98.9,131 L89.4,125.5 L89.4,114.5 L98.9,109 L108.5,114.5 Z M127.5,125.5 L118,131 L108.5,125.5 L108.5,114.5 L118,109 L127.5,114.5 Z M146.6,125.5 L137.1,131 L127.5,125.5 L127.5,114.5 L137.1,109 L146.6,114.5 Z M165.6,125.5 L156.1,131 L146.6,125.5 L146.6,114.5 L156.1,109 L165.6,114.5 Z M184.7,125.5 L175.2,131 L165.6,125.5 L165.6,114.5 L175.2,109 L184.7,114.5 Z M203.7,125.5 L194.2,131 L184.7,125.5 L184.7,114.5 L194.2,109 L203.7,114.5 Z M60.8,142 L51.3,147.5 L41.8,142 L41.8,131 L51.3,125.5 L60.8,131 Z M79.9,142 L70.4,147.5 L60.8,142 L60.8,131 L70.4,125.5 L79.9,131 Z M98.9,142 L89.4,147.5 L79.9,142 L79.9,131 L89.4,125.5 L98.9,131 Z M118,142 L108.5,147.5 L98.9,142 L98.9,131 L108.5,125.5 L118,131 Z M137.1,142 L127.5,147.5 L118,142 L118,131 L127.5,125.5 L137.1,131 Z M156.1,142 L146.6,147.5 L137.1,142 L137.1,131 L146.6,125.5 L156.1,131 Z M175.2,142 L165.6,147.5 L156.1,142 L156.1,131 L165.6,125.5 L175.2,131 Z M194.2,142 L184.7,147.5 L175.2,142 L175.2,131 L184.7,125.5 L194.2,131 Z M51.3,158.5 L41.8,164 L32.3,158.5 L32.3,147.5 L41.8,142 L51.3,147.5 Z M70.4,158.5 L60.8,164 L51.3,158.5 L51.3,147.5 L60.8,142 L70.4,147.5 Z M89.4,158.5 L79.9,164 L70.4,158.5 L70.4,147.5 L79.9,142 L89.4,147.5 Z M108.5,158.5 L98.9,164 L89.4,158.5 L89.4,147.5 L98.9,142 L108.5,147.5 Z M127.5,158.5 L118,164 L108.5,158.5 L108.5,147.5 L118,142 L127.5,147.5 Z M146.6,158.5 L137.1,164 L127.5,158.5 L127.5,147.5 L137.1,142 L146.6,147.5 Z M165.6,158.5 L156.1,164 L146.6,158.5 L146.6,147.5 L156.1,142 L165.6,147.5 Z M184.7,158.5 L175.2,164 L165.6,158.5 L165.6,147.5 L175.2,142 L184.7,147.5 Z M203.7,158.5 L194.2,164 L184.7,158.5 L184.7,147.5 L194.2,142 L203.7,147.5 Z M79.9,175 L70.4,180.5 L60.8,175 L60.8,164 L70.4,158.5 L79.9,164 Z M98.9,175 L89.4,180.5 L79.9,175 L79.9,164 L89.4,158.5 L98.9,164 Z M118,175 L108.5,180.5 L98.9,175 L98.9,164 L108.5,158.5 L118,164 Z M137.1,175 L127.5,180.5 L118,175 L118,164 L127.5,158.5 L137.1,164 Z M156.1,175 L146.6,180.5 L137.1,175 L137.1,164 L146.6,158.5 L156.1,164 Z M175.2,175 L165.6,180.5 L156.1,175 L156.1,164 L165.6,158.5 L175.2,164 Z M89.4,191.5 L79.9,197 L70.4,191.5 L70.4,180.5 L79.9,175 L89.4,180.5 Z M108.5,191.5 L98.9,197 L89.4,191.5 L89.4,180.5 L98.9,175 L108.5,180.5 Z M127.5,191.5 L118,197 L108.5,191.5 L108.5,180.5 L118,175 L127.5,180.5 Z M146.6,191.5 L137.1,197 L127.5,191.5 L127.5,180.5 L137.1,175 L146.6,180.5 Z M165.6,191.5 L156.1,197 L146.6,191.5 L146.6,180.5 L156.1,175 L165.6,180.5 Z " pathLength="1" />
+  <path class="k f i0" d="M118,58 V182" />
+  <path class="s i1" d="M129,100.9 C171,88.2 203.8,123.4 183.8,158 C163.8,192.6 117,181.8 107,139.1 M129,100.9 C119,58.2 72.2,47.4 52.2,82 C32.2,116.6 65,151.8 107,139.1" pathLength="1" />
+  <path class="s bold i1" d="M107,139.1 L108.8,132 L115.7,127.9 L115.8,119.9 L122.7,115.8 L122.8,107.7 L129,100.9" pathLength="1" />
+  <text class="t i2" x="118" y="30" text-anchor="middle">waggle run</text>
+  <path class="q i2" d="M118,88 A32,32 0 0 1 134,92.3" pathLength="1" />
+  <g class="a-m1">
+   <ellipse class="w i3" cx="0" cy="0" rx="5.5" ry="3.8" />
+   <ellipse class="s i3" cx="0" cy="0" rx="5.5" ry="3.8" pathLength="1" />
+   <circle class="p i4" cx="4" cy="0" r="1.9" />
+   <path class="s hair i4" d="M-1,-3.5 V3.5" pathLength="1" />
+  </g>
+  <path class="w i5" d="M307.8,198.5 L300,203 L292.2,198.5 L292.2,189.5 L300,185 L307.8,189.5 Z" />
+  <path class="s i5" d="M307.8,198.5 L300,203 L292.2,198.5 L292.2,189.5 L300,185 L307.8,189.5 Z" pathLength="1" />
+  <path class="k f i6" d="M300,182 V84" />
+  <circle class="w i6" cx="300" cy="52" r="8" />
+  <circle class="s i7" cx="300" cy="52" r="8" pathLength="1" />
+  <path class="q i7" d="M312,52 L317,52 M308.5,60.5 L312,64 M300,64 L300,69 M291.5,60.5 L288,64 M288,52 L283,52 M291.5,43.5 L288,40 M300,40 L300,35 M308.5,43.5 L312,40 " pathLength="1" />
+  <text class="t i8" x="326" y="57" text-anchor="start">sun</text>
+  <path class="q i8" d="M305.5,184.5 L354.5,99.6" pathLength="1" />
+  <path class="q i9" d="M300,156 A38,38 0 0 1 319,161.1" pathLength="1" />
+  <circle class="w i9" cx="358.5" cy="88.2" r="3.2" />
+  <circle class="s i10" cx="358.5" cy="88.2" r="3.2" pathLength="1" />
+  <circle class="w i10" cx="362.8" cy="91.3" r="3.2" />
+  <circle class="s i11" cx="362.8" cy="91.3" r="3.2" pathLength="1" />
+  <circle class="w i11" cx="361.1" cy="96.3" r="3.2" />
+  <circle class="s i12" cx="361.1" cy="96.3" r="3.2" pathLength="1" />
+  <circle class="w i12" cx="355.9" cy="96.3" r="3.2" />
+  <circle class="s i13" cx="355.9" cy="96.3" r="3.2" pathLength="1" />
+  <circle class="w i13" cx="354.2" cy="91.3" r="3.2" />
+  <circle class="s i14" cx="354.2" cy="91.3" r="3.2" pathLength="1" />
+  <circle class="p i14" cx="358.5" cy="92.7" r="1.8" />
+  <text class="t i15" x="346.5" y="86.7" text-anchor="end">food</text>
+ </g>
+</svg>

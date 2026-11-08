@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="medicine--heart-circulation" data-discipline="medicine" data-tags="heart,circulation,blood,pulmonary,aorta,oxygen,cardiology">
+<title>Heart and double circulation</title>
+<desc>The heart pumps twice in one circuit: spent blood from the body goes through the right heart to the lungs, then returns oxygenated to the left heart and out to the body.</desc>
+<style>
+.a-beat{transform-box:view-box;transform-origin:200px 125px;animation:a-beat 1s ease-in-out infinite}
+@keyframes a-beat{0%,60%,100%{transform:scale(1)}20%{transform:scale(1.05)}40%{transform:scale(.97)}}
+.a-d0{offset-path:path("M200,206H110C96,206 88,198 88,184V110C88,100 96,96 106,96H164C172,100 178,116 180,130C186,112 186,96 186,78C186,58 150,56 150,34H200");offset-rotate:0deg;animation:a-along 5s linear infinite;}
+.a-o0{offset-path:path("M200,34H250C250,56 232,60 230,92C228,108 222,122 216,130C210,110 208,92 210,76C212,58 232,52 262,52H296C306,52 314,60 314,70V188C314,198 306,206 296,206H200");offset-rotate:0deg;animation:a-along 5s linear infinite;}
+.a-d1{offset-path:path("M200,206H110C96,206 88,198 88,184V110C88,100 96,96 106,96H164C172,100 178,116 180,130C186,112 186,96 186,78C186,58 150,56 150,34H200");offset-rotate:0deg;animation:a-along 5s linear infinite;animation-delay:-1.67s;}
+.a-o1{offset-path:path("M200,34H250C250,56 232,60 230,92C228,108 222,122 216,130C210,110 208,92 210,76C212,58 232,52 262,52H296C306,52 314,60 314,70V188C314,198 306,206 296,206H200");offset-rotate:0deg;animation:a-along 5s linear infinite;animation-delay:-1.67s;}
+.a-d2{offset-path:path("M200,206H110C96,206 88,198 88,184V110C88,100 96,96 106,96H164C172,100 178,116 180,130C186,112 186,96 186,78C186,58 150,56 150,34H200");offset-rotate:0deg;animation:a-along 5s linear infinite;animation-delay:-3.33s;}
+.a-o2{offset-path:path("M200,34H250C250,56 232,60 230,92C228,108 222,122 216,130C210,110 208,92 210,76C212,58 232,52 262,52H296C306,52 314,60 314,70V188C314,198 306,206 296,206H200");offset-rotate:0deg;animation:a-along 5s linear infinite;animation-delay:-3.33s;}
+@keyframes a-along{0%{offset-distance:0%;opacity:0}8%{opacity:1}92%{opacity:1}100%{offset-distance:100%;opacity:0}}
+</style>
+<rect class="w" x="138" y="20" width="124" height="28" rx="14"/>
+<rect class="w" x="138" y="192" width="124" height="28" rx="14"/>
+<path class="q" d="M150,206H110C96,206 88,198 88,184V110C88,100 96,96 106,96H164"/>
+<path class="q" d="M216,130C210,110 208,92 210,76C212,58 232,52 262,52H296C306,52 314,60 314,70V188C314,198 306,206 296,206H250"/>
+<path class="q" d="M180,130C186,112 186,96 186,78C186,58 150,56 150,34"/>
+<path class="q" d="M250,34C250,56 232,60 230,92"/>
+<path class="q hair" d="M150,34Q153.5,44 157,34Q160.5,24 164,34Q167.5,44 171,34Q174.5,24 178,34M222,34Q225.5,44 229,34Q232.5,24 236,34Q239.5,44 243,34Q246.5,24 250,34"/>
+<path class="q hair" d="M150,206Q153.5,216 157,206Q160.5,196 164,206Q167.5,216 171,206Q174.5,196 178,206M222,206Q225.5,216 229,206Q232.5,196 236,206Q239.5,216 243,206Q246.5,196 250,206"/>
+<g class="a-beat">
+<path class="w" d="M198,84C184,64 150,66 144,94C139,122 170,156 214,184C244,158 262,124 256,96C250,66 214,64 198,84Z"/>
+<path class="s" d="M198,84C184,64 150,66 144,94C139,122 170,156 214,184C244,158 262,124 256,96C250,66 214,64 198,84Z"/>
+<path class="s" d="M198,84C192,112 198,150 214,184"/>
+<path class="q" d="M142,112H168l6,7M186,119l6,-7H204l6,7M224,119l6,-7H259"/>
+</g>
+<g class="a-d0"><circle class="w" r="3.2"/><circle class="s" r="3.2"/></g>
+<g class="a-o0"><circle class="p" r="3.2"/></g>
+<g class="a-d1"><circle class="w" r="3.2"/><circle class="s" r="3.2"/></g>
+<g class="a-o1"><circle class="p" r="3.2"/></g>
+<g class="a-d2"><circle class="w" r="3.2"/><circle class="s" r="3.2"/></g>
+<g class="a-o2"><circle class="p" r="3.2"/></g>
+<text class="t" x="200" y="38" text-anchor="middle">lungs</text>
+<text class="t" x="200" y="210" text-anchor="middle">body</text>
+<text class="t" x="322" y="128" text-anchor="start">aorta</text>
+</svg>

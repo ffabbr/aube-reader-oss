@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="engineering--feedback-control-loop" data-discipline="engineering" data-tags="control,feedback,controller,setpoint,error,stability,system">
+<title>Feedback Control Loop</title>
+<desc>A controller compares a measured output with the set-point and drives the process to shrink the error; the sensor closes the loop and the response settles on target.</desc>
+<style>
+.a-f1,.a-f2,.a-f3{offset-path:path("M113,104 H352 V184 H100 V117");animation:a-flow 10s linear infinite}
+.a-f2{animation-delay:-3.33s}
+.a-f3{animation-delay:-6.66s}
+@keyframes a-flow{from{offset-distance:0%}to{offset-distance:100%}}
+</style>
+<path class="s" d="M24,104 L86,104 M80.7,106.8 L86,104 M80.7,101.2 L86,104"/>
+<circle class="w" cx="100" cy="104" r="13"/>
+<circle class="s" cx="100" cy="104" r="13"/>
+<path class="q hair" d="M90.8,94.8 L109.2,113.2 M90.8,113.2 L109.2,94.8"/>
+<path class="s" d="M114,104 L138,104 M132.7,106.8 L138,104 M132.7,101.2 L138,104"/>
+<rect class="w" x="140" y="78" width="76" height="52" rx="3"/>
+<rect class="s" x="140" y="78" width="76" height="52" rx="3"/>
+<path class="s" d="M216,104 L252,104 M246.7,106.8 L252,104 M246.7,101.2 L252,104"/>
+<rect class="w" x="254" y="78" width="76" height="52" rx="3"/>
+<rect class="s" x="254" y="78" width="76" height="52" rx="3"/>
+<path class="s" d="M330,104 H368"/>
+<path class="s" d="M352,104 V184 H238 M162,184 H100 V118"/>
+<path class="s" d="M100,127 L100,118 M102.3,122.4 L100,118 M97.7,122.4 L100,118"/>
+<rect class="w" x="162" y="170" width="76" height="28" rx="3"/>
+<rect class="s" x="162" y="170" width="76" height="28" rx="3"/>
+<path class="q" d="M24,66 H38 V48 H70"/>
+<path class="k f" d="M326,50 H378"/>
+<path class="q" d="M326,70 C336,68 338,40 348,40 C356,40 358,54 364,52 C368,51 372,50 378,50"/>
+<path class="q" d="M76,94 h8 M80,90 v8"/>
+<path class="q" d="M109,126 h8"/>
+<g class="a-f1"><circle class="p" r="3.2"/></g>
+<g class="a-f2"><circle class="p" r="3.2"/></g>
+<g class="a-f3"><circle class="p" r="3.2"/></g>
+<text class="t" x="178" y="66" text-anchor="middle">controller</text>
+<text class="t" x="292" y="66" text-anchor="middle">process</text>
+<text class="t" x="200" y="218" text-anchor="middle">sensor</text>
+</svg>

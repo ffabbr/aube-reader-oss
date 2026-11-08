@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="climate--coriolis-effect" data-discipline="climate" data-tags="coriolis-effect,earth-rotation,wind,deflection,trade-winds,atmosphere">
+<title>Coriolis effect</title>
+<desc>On the turning Earth the equator moves faster than the high latitudes, so air heading for it falls behind: winds bend right in the north, left in the south.</desc>
+<style>
+.a-spin{offset-rotate:0deg;animation:a-spin 5s linear infinite}
+.a-eq{offset-path:path("M112,126 A88,8 0 0 0 288,126")}.a-n{offset-path:path("M138,64 A62,10 0 0 0 262,64")}.a-s{offset-path:path("M138,188 A62,10 0 0 0 262,188")}
+@keyframes a-spin{0%{offset-distance:0%;opacity:0}12%{opacity:1}88%{opacity:1}100%{offset-distance:100%;opacity:0}}
+.a-wind{offset-rotate:0deg;animation:a-spin 2.5s ease-in infinite}
+.a-wn{offset-path:path("M244,62 C244,90 226,110 170,118")}.a-ws{offset-path:path("M244,200 C244,172 226,152 170,144")}
+.a-d1{animation-delay:-2.5s}.a-d2{animation-delay:-1.25s}
+</style>
+<circle class="w" cx="200" cy="126" r="88"/>
+<circle class="s" cx="200" cy="126" r="88"/>
+<path class="q" d="M112,126 A88,8 0 0 0 288,126"/>
+<path class="f" d="M138,64 A62,10 0 0 0 262,64"/>
+<path class="f" d="M138,188 A62,10 0 0 0 262,188"/>
+<path class="q" d="M200,38 V24"/>
+<path class="q" d="M185,31 A15,5 0 0 0 215,31"/>
+<path class="q" d="M209.5,31.4 L215,31 L212.2,35.8"/>
+<path class="k q" d="M244,62 V118"/>
+<path class="k q" d="M244,200 V144"/>
+<path class="s" d="M244,62 C244,90 226,110 170,118"/>
+<path class="s" d="M176.1,120.2 L170,118 L175.3,114.2"/>
+<path class="s" d="M244,200 C244,172 226,152 170,144"/>
+<path class="s" d="M175.3,147.8 L170,144 L176.1,141.8"/>
+<g class="a-spin a-eq"><circle class="pq" cx="0" cy="0" r="2.4"/></g>
+<g class="a-spin a-eq a-d1"><circle class="pq" cx="0" cy="0" r="2.4"/></g>
+<g class="a-spin a-n"><circle class="pq" cx="0" cy="0" r="2.4"/></g>
+<g class="a-spin a-n a-d1"><circle class="pq" cx="0" cy="0" r="2.4"/></g>
+<g class="a-spin a-s"><circle class="pq" cx="0" cy="0" r="2.4"/></g>
+<g class="a-spin a-s a-d1"><circle class="pq" cx="0" cy="0" r="2.4"/></g>
+<g class="a-wind a-wn"><circle class="p" cx="0" cy="0" r="2.8"/></g>
+<g class="a-wind a-ws a-d2"><circle class="p" cx="0" cy="0" r="2.8"/></g>
+<text class="t" x="222" y="30" text-anchor="start">rotation</text>
+<text class="t" x="102" y="72" text-anchor="end">bends right</text>
+<text class="t" x="102" y="188" text-anchor="end">bends left</text>
+</svg>

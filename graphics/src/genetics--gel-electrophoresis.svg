@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="genetics--gel-electrophoresis" data-discipline="genetics" data-tags="gel-electrophoresis,dna-fragments,size-separation,lab-technique,electric-field,bands">
+<title>Gel electrophoresis of DNA fragments</title>
+<desc>An electric field pulls DNA fragments through a gel; shorter pieces slip through faster and travel farther, sorting a mixture into bands by size.</desc>
+<style>
+.a-m0{animation:a-mv0 10s ease-in-out infinite}
+@keyframes a-mv0{0%,18%{transform:translateY(0)}85%,100%{transform:translateY(112px)}}
+.a-m1{animation:a-mv1 10s ease-in-out infinite}
+@keyframes a-mv1{0%,18%{transform:translateY(0)}85%,100%{transform:translateY(90px)}}
+.a-m2{animation:a-mv2 10s ease-in-out infinite}
+@keyframes a-mv2{0%,18%{transform:translateY(0)}85%,100%{transform:translateY(68px)}}
+.a-m3{animation:a-mv3 10s ease-in-out infinite}
+@keyframes a-mv3{0%,18%{transform:translateY(0)}85%,100%{transform:translateY(46px)}}
+.a-m4{animation:a-mv4 10s ease-in-out infinite}
+@keyframes a-mv4{0%,18%{transform:translateY(0)}85%,100%{transform:translateY(24px)}}
+</style>
+<rect class="w" x="118" y="40" width="200" height="156" rx="6"/>
+<rect class="q" x="118" y="40" width="200" height="156" rx="6"/>
+<rect class="f" x="130" y="48" width="24" height="9"/>
+<rect class="f" x="168" y="48" width="24" height="9"/>
+<rect class="f" x="206" y="48" width="24" height="9"/>
+<rect class="f" x="244" y="48" width="24" height="9"/>
+<rect class="f" x="282" y="48" width="24" height="9"/>
+<g class="a-m0"><rect class="p" x="131" y="70" width="22" height="4" rx="1.5"/></g>
+<g class="a-m1"><rect class="p" x="131" y="70" width="22" height="4" rx="1.5"/></g>
+<g class="a-m2"><rect class="p" x="131" y="70" width="22" height="4" rx="1.5"/></g>
+<g class="a-m3"><rect class="p" x="131" y="70" width="22" height="4" rx="1.5"/></g>
+<g class="a-m4"><rect class="p" x="131" y="70" width="22" height="4" rx="1.5"/></g>
+<g class="a-m1"><rect class="p" x="169" y="70" width="22" height="4" rx="1.5"/></g>
+<g class="a-m3"><rect class="p" x="169" y="70" width="22" height="4" rx="1.5"/></g>
+<g class="a-m0"><rect class="p" x="207" y="70" width="22" height="4" rx="1.5"/></g>
+<g class="a-m2"><rect class="p" x="207" y="70" width="22" height="4" rx="1.5"/></g>
+<g class="a-m4"><rect class="p" x="207" y="70" width="22" height="4" rx="1.5"/></g>
+<g class="a-m2"><rect class="p" x="245" y="70" width="22" height="4" rx="1.5"/></g>
+<g class="a-m1"><rect class="p" x="283" y="70" width="22" height="4" rx="1.5"/></g>
+<g class="a-m2"><rect class="p" x="283" y="70" width="22" height="4" rx="1.5"/></g>
+<g class="a-m4"><rect class="p" x="283" y="70" width="22" height="4" rx="1.5"/></g>
+<path class="s" d="M78,48 V190 M72,182 l6,8 l6,-8"/>
+<text class="t" x="78" y="38" text-anchor="middle">−</text>
+<text class="t" x="218" y="224" text-anchor="middle">shorter fragments run farther</text>
+<text class="t" x="78" y="212" text-anchor="middle">+</text>
+</svg>

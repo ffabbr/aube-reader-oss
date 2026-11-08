@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="astronomy--expanding-universe" data-discipline="astronomy" data-tags="cosmology,big-bang,expansion,hubble,space,galaxies,time" role="img">
+ <title>Expanding universe</title>
+ <desc>A slice of space sweeps forward in time from the big bang, widening as it goes. The galaxies stay at their places in space, yet the distances between them all grow.</desc>
+ <style>
+:root{--ink:#110f0c;--quiet:#555350;--faint:#b8b6b2;--wash:#f5f3ef}
+@media (prefers-color-scheme:dark){:root{--ink:#e7e5e2;--quiet:#a3a19e;--faint:#524f4c;--wash:#252321}}
+svg{overflow:visible}
+.s,.q,.f{fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1;stroke-dashoffset:0}
+.s{stroke:var(--ink);stroke-width:1.5}
+.q{stroke:var(--quiet);stroke-width:1.3}
+.f{stroke:var(--faint);stroke-width:1.1}
+.hair{stroke-width:1!important}
+.bold{stroke-width:2.2!important}
+.k{fill:none;stroke-dasharray:5 5!important;stroke-linecap:round}
+.p{fill:var(--ink);stroke:none}
+.pq{fill:var(--quiet);stroke:none}
+.w{fill:var(--wash);stroke:none}
+.t{fill:var(--quiet);stroke:none;font:italic 13px ui-serif,"New York",Georgia,serif}
+.all{animation:out 10s linear infinite}
+@keyframes out{0%,90%{opacity:1}97%,99.9%{opacity:0}100%{opacity:1}}
+@keyframes dr0{0%,0.0%{stroke-dashoffset:1;opacity:0}0.1%{stroke-dashoffset:1;opacity:1}9%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd0{0%,0.0%{opacity:0}7%,100%{opacity:1}}
+@keyframes dr1{0%,2.2%{stroke-dashoffset:1;opacity:0}2.3%{stroke-dashoffset:1;opacity:1}11.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd1{0%,2.2%{opacity:0}9.2%,100%{opacity:1}}
+@keyframes dr2{0%,4.4%{stroke-dashoffset:1;opacity:0}4.5%{stroke-dashoffset:1;opacity:1}13.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd2{0%,4.4%{opacity:0}11.4%,100%{opacity:1}}
+@keyframes dr3{0%,6.6%{stroke-dashoffset:1;opacity:0}6.7%{stroke-dashoffset:1;opacity:1}15.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd3{0%,6.6%{opacity:0}13.6%,100%{opacity:1}}
+@keyframes dr4{0%,8.8%{stroke-dashoffset:1;opacity:0}8.9%{stroke-dashoffset:1;opacity:1}17.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd4{0%,8.8%{opacity:0}15.8%,100%{opacity:1}}
+@keyframes dr5{0%,11.0%{stroke-dashoffset:1;opacity:0}11.1%{stroke-dashoffset:1;opacity:1}20%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd5{0%,11.0%{opacity:0}18%,100%{opacity:1}}
+@keyframes dr6{0%,13.2%{stroke-dashoffset:1;opacity:0}13.3%{stroke-dashoffset:1;opacity:1}22.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd6{0%,13.2%{opacity:0}20.2%,100%{opacity:1}}
+@keyframes dr7{0%,15.4%{stroke-dashoffset:1;opacity:0}15.5%{stroke-dashoffset:1;opacity:1}24.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd7{0%,15.4%{opacity:0}22.4%,100%{opacity:1}}
+@keyframes dr8{0%,17.6%{stroke-dashoffset:1;opacity:0}17.7%{stroke-dashoffset:1;opacity:1}26.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd8{0%,17.6%{opacity:0}24.6%,100%{opacity:1}}
+@keyframes dr9{0%,19.8%{stroke-dashoffset:1;opacity:0}19.9%{stroke-dashoffset:1;opacity:1}28.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd9{0%,19.8%{opacity:0}26.8%,100%{opacity:1}}
+@keyframes dr10{0%,22.0%{stroke-dashoffset:1;opacity:0}22.1%{stroke-dashoffset:1;opacity:1}31%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd10{0%,22.0%{opacity:0}29%,100%{opacity:1}}
+@keyframes dr11{0%,24.2%{stroke-dashoffset:1;opacity:0}24.3%{stroke-dashoffset:1;opacity:1}33.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd11{0%,24.2%{opacity:0}31.2%,100%{opacity:1}}
+@keyframes dr12{0%,26.4%{stroke-dashoffset:1;opacity:0}26.5%{stroke-dashoffset:1;opacity:1}35.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd12{0%,26.4%{opacity:0}33.4%,100%{opacity:1}}
+@keyframes dr13{0%,28.6%{stroke-dashoffset:1;opacity:0}28.7%{stroke-dashoffset:1;opacity:1}37.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd13{0%,28.6%{opacity:0}35.6%,100%{opacity:1}}
+@keyframes dr14{0%,30.8%{stroke-dashoffset:1;opacity:0}30.9%{stroke-dashoffset:1;opacity:1}39.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd14{0%,30.8%{opacity:0}37.8%,100%{opacity:1}}
+@keyframes dr15{0%,33.0%{stroke-dashoffset:1;opacity:0}33.1%{stroke-dashoffset:1;opacity:1}42%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd15{0%,33.0%{opacity:0}40%,100%{opacity:1}}
+.s.i0,.q.i0,.f.i0{animation:dr0 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i1,.q.i1,.f.i1{animation:dr1 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i2,.q.i2,.f.i2{animation:dr2 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i3,.q.i3,.f.i3{animation:dr3 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i4,.q.i4,.f.i4{animation:dr4 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i5,.q.i5,.f.i5{animation:dr5 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i6,.q.i6,.f.i6{animation:dr6 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i7,.q.i7,.f.i7{animation:dr7 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i8,.q.i8,.f.i8{animation:dr8 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i9,.q.i9,.f.i9{animation:dr9 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i10,.q.i10,.f.i10{animation:dr10 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i11,.q.i11,.f.i11{animation:dr11 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i12,.q.i12,.f.i12{animation:dr12 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i13,.q.i13,.f.i13{animation:dr13 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i14,.q.i14,.f.i14{animation:dr14 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i15,.q.i15,.f.i15{animation:dr15 10s cubic-bezier(.55,.05,.25,1) infinite}
+.p.i0,.w.i0,.pq.i0,.t.i0,.k.i0{animation:fd0 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i1,.w.i1,.pq.i1,.t.i1,.k.i1{animation:fd1 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i2,.w.i2,.pq.i2,.t.i2,.k.i2{animation:fd2 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i3,.w.i3,.pq.i3,.t.i3,.k.i3{animation:fd3 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i4,.w.i4,.pq.i4,.t.i4,.k.i4{animation:fd4 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i5,.w.i5,.pq.i5,.t.i5,.k.i5{animation:fd5 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i6,.w.i6,.pq.i6,.t.i6,.k.i6{animation:fd6 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i7,.w.i7,.pq.i7,.t.i7,.k.i7{animation:fd7 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i8,.w.i8,.pq.i8,.t.i8,.k.i8{animation:fd8 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i9,.w.i9,.pq.i9,.t.i9,.k.i9{animation:fd9 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i10,.w.i10,.pq.i10,.t.i10,.k.i10{animation:fd10 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i11,.w.i11,.pq.i11,.t.i11,.k.i11{animation:fd11 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i12,.w.i12,.pq.i12,.t.i12,.k.i12{animation:fd12 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i13,.w.i13,.pq.i13,.t.i13,.k.i13{animation:fd13 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i14,.w.i14,.pq.i14,.t.i14,.k.i14{animation:fd14 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i15,.w.i15,.pq.i15,.t.i15,.k.i15{animation:fd15 10s cubic-bezier(.2,.7,.3,1) infinite}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+ <style>
+@keyframes a-sl{0%{transform:translate(40.24px,110px) scale(0.1)}2.5%{transform:translate(40.24px,110px) scale(0.1)}5%{transform:translate(40.24px,110px) scale(0.1)}7.5%{transform:translate(40.24px,110px) scale(0.1)}10%{transform:translate(40.24px,110px) scale(0.1)}12.5%{transform:translate(42.31px,110px) scale(0.12)}15%{transform:translate(52.64px,110px) scale(0.18)}17.5%{transform:translate(62.97px,110px) scale(0.2)}20%{transform:translate(73.3px,110px) scale(0.22)}22.5%{transform:translate(83.62px,110px) scale(0.24)}25%{transform:translate(93.95px,110px) scale(0.26)}27.5%{transform:translate(104.28px,110px) scale(0.28)}30%{transform:translate(114.61px,110px) scale(0.3)}32.5%{transform:translate(124.94px,110px) scale(0.32)}35%{transform:translate(135.27px,110px) scale(0.34)}37.5%{transform:translate(145.6px,110px) scale(0.36)}40%{transform:translate(155.93px,110px) scale(0.39)}42.5%{transform:translate(166.26px,110px) scale(0.41)}45%{transform:translate(176.59px,110px) scale(0.43)}47.5%{transform:translate(186.92px,110px) scale(0.46)}50%{transform:translate(197.25px,110px) scale(0.48)}52.5%{transform:translate(207.58px,110px) scale(0.51)}55%{transform:translate(217.91px,110px) scale(0.54)}57.5%{transform:translate(228.24px,110px) scale(0.57)}60%{transform:translate(238.57px,110px) scale(0.6)}62.5%{transform:translate(248.9px,110px) scale(0.63)}65%{transform:translate(259.23px,110px) scale(0.66)}67.5%{transform:translate(269.56px,110px) scale(0.69)}70%{transform:translate(279.89px,110px) scale(0.73)}72.5%{transform:translate(290.22px,110px) scale(0.77)}75%{transform:translate(300.55px,110px) scale(0.81)}77.5%{transform:translate(310.88px,110px) scale(0.85)}80%{transform:translate(321.21px,110px) scale(0.89)}82.5%{transform:translate(331.54px,110px) scale(0.93)}85%{transform:translate(341.87px,110px) scale(0.98)}87.5%{transform:translate(346px,110px) scale(1)}90%{transform:translate(346px,110px) scale(1)}92.5%{transform:translate(346px,110px) scale(1)}95%{transform:translate(346px,110px) scale(1)}97.5%{transform:translate(346px,110px) scale(1)}100%{transform:translate(346px,110px) scale(1)}}
+.a-sl{transform-box:view-box;transform-origin:0 0;animation:a-sl 10s linear infinite}
+</style>
+ <g class="all">
+  <path class="w i0" d="M34,110 L39.2,102.61 L44.4,98.46 L49.6,95.97 L54.8,94.33 L60,93.12 L65.2,92.12 L70.4,91.23 L75.6,90.38 L80.8,89.56 L86,88.74 L91.2,87.91 L96.4,87.08 L101.6,86.24 L106.8,85.39 L112,84.53 L117.2,83.65 L122.4,82.77 L127.6,81.87 L132.8,80.96 L138,80.04 L143.2,79.11 L148.4,78.16 L153.6,77.19 L158.8,76.21 L164,75.22 L169.2,74.2 L174.4,73.17 L179.6,72.13 L184.8,71.06 L190,69.97 L195.2,68.87 L200.4,67.74 L205.6,66.59 L210.8,65.42 L216,64.23 L221.2,63.01 L226.4,61.76 L231.6,60.49 L236.8,59.2 L242,57.87 L247.2,56.52 L252.4,55.14 L257.6,53.72 L262.8,52.28 L268,50.8 L273.2,49.29 L278.4,47.74 L283.6,46.16 L288.8,44.54 L294,42.88 L299.2,41.19 L304.4,39.45 L309.6,37.68 L314.8,35.86 L320,34 L325.2,32.09 L330.4,30.14 L335.6,28.14 L340.8,26.1 L346,24 L346,24 L351.37,25.65 L356.53,30.55 L361.29,38.49 L365.46,49.19 L368.88,62.22 L371.43,77.09 L372.99,93.22 L373.52,110 L372.99,126.78 L371.43,142.91 L368.88,157.78 L365.46,170.81 L361.29,181.51 L356.53,189.45 L351.37,194.35 L346,196 L346,196 L340.8,193.9 L335.6,191.86 L330.4,189.86 L325.2,187.91 L320,186 L314.8,184.14 L309.6,182.32 L304.4,180.55 L299.2,178.81 L294,177.12 L288.8,175.46 L283.6,173.84 L278.4,172.26 L273.2,170.71 L268,169.2 L262.8,167.72 L257.6,166.28 L252.4,164.86 L247.2,163.48 L242,162.13 L236.8,160.8 L231.6,159.51 L226.4,158.24 L221.2,156.99 L216,155.77 L210.8,154.58 L205.6,153.41 L200.4,152.26 L195.2,151.13 L190,150.03 L184.8,148.94 L179.6,147.87 L174.4,146.83 L169.2,145.8 L164,144.78 L158.8,143.79 L153.6,142.81 L148.4,141.84 L143.2,140.89 L138,139.96 L132.8,139.04 L127.6,138.13 L122.4,137.23 L117.2,136.35 L112,135.47 L106.8,134.61 L101.6,133.76 L96.4,132.92 L91.2,132.09 L86,131.26 L80.8,130.44 L75.6,129.62 L70.4,128.77 L65.2,127.88 L60,126.88 L54.8,125.67 L49.6,124.03 L44.4,121.54 L39.2,117.39 L34,110 Z" />
+  <path class="f i0" d="M34,110 C35.24,108.85 38.64,104.65 41.44,103.09 C44.24,101.53 47.59,101.25 50.78,100.62 C53.98,99.99 57.32,99.69 60.62,99.3 C63.91,98.91 67.25,98.6 70.57,98.26 C73.89,97.92 77.22,97.6 80.55,97.27 C83.87,96.94 87.2,96.62 90.52,96.28 C93.85,95.95 97.17,95.61 100.49,95.27 C103.81,94.93 107.13,94.58 110.45,94.23 C113.76,93.88 117.08,93.53 120.39,93.17 C123.7,92.81 127.01,92.44 130.32,92.07 C133.63,91.7 136.93,91.32 140.24,90.94 C143.54,90.56 146.84,90.17 150.14,89.78 C153.44,89.38 156.73,88.98 160.02,88.58 C163.31,88.17 166.6,87.76 169.89,87.33 C173.18,86.91 176.46,86.48 179.74,86.05 C183.02,85.61 186.29,85.16 189.57,84.71 C192.84,84.25 196.11,83.79 199.37,83.32 C202.64,82.85 205.9,82.37 209.15,81.88 C212.41,81.38 215.66,80.88 218.91,80.37 C222.16,79.86 225.4,79.34 228.64,78.8 C231.87,78.27 235.11,77.72 238.33,77.17 C241.56,76.61 244.78,76.04 248,75.45 C251.22,74.87 254.43,74.28 257.64,73.67 C260.84,73.05 264.04,72.43 267.23,71.79 C270.43,71.15 273.61,70.5 276.79,69.83 C279.97,69.16 283.15,68.48 286.31,67.78 C289.48,67.08 292.64,66.36 295.79,65.63 C298.94,64.89 302.09,64.14 305.23,63.37 C308.36,62.6 311.49,61.82 314.61,61.01 C317.74,60.2 322.4,58.94 323.95,58.53" pathLength="1" />
+  <path class="q hair i1" d="M34,110 C35.96,108.21 41.97,101.68 45.74,99.24 C49.51,96.81 53.03,96.38 56.62,95.39 C60.21,94.41 63.73,93.95 67.27,93.33 C70.82,92.72 74.34,92.24 77.87,91.72 C81.41,91.19 84.94,90.69 88.47,90.18 C92,89.67 95.53,89.16 99.06,88.64 C102.59,88.12 106.12,87.59 109.65,87.06 C113.19,86.53 116.72,85.99 120.25,85.45 C123.79,84.9 127.32,84.35 130.86,83.79 C134.4,83.22 137.94,82.66 141.47,82.08 C145.01,81.5 148.55,80.92 152.09,80.32 C155.63,79.73 159.17,79.12 162.72,78.51 C166.26,77.89 169.81,77.27 173.35,76.64 C176.9,76 180.44,75.36 183.99,74.7 C187.54,74.04 191.09,73.37 194.64,72.69 C198.19,72.01 201.75,71.32 205.3,70.61 C208.85,69.91 212.41,69.19 215.97,68.45 C219.53,67.72 223.09,66.97 226.65,66.2 C230.21,65.44 233.77,64.66 237.34,63.86 C240.91,63.06 244.47,62.25 248.04,61.41 C251.61,60.58 255.19,59.73 258.76,58.86 C262.34,58 265.91,57.11 269.49,56.2 C273.07,55.29 276.66,54.36 280.24,53.41 C283.82,52.46 287.41,51.49 291,50.5 C294.59,49.5 298.19,48.49 301.78,47.45 C305.38,46.4 308.98,45.34 312.58,44.25 C316.18,43.16 319.79,42.04 323.4,40.9 C327.01,39.75 330.62,38.58 334.23,37.39 C337.85,36.19 341.47,34.96 345.09,33.7 C348.71,32.45 354.16,30.49 355.97,29.84" pathLength="1" />
+  <path class="q hair i1" d="M34,110 C36.27,110.92 43.44,114.28 47.64,115.53 C51.84,116.79 55.44,117.01 59.2,117.51 C62.96,118.02 66.57,118.26 70.22,118.57 C73.87,118.89 77.48,119.13 81.11,119.41 C84.73,119.68 88.35,119.93 91.97,120.19 C95.59,120.46 99.21,120.72 102.84,120.99 C106.46,121.26 110.08,121.53 113.71,121.8 C117.34,122.07 120.97,122.35 124.6,122.63 C128.23,122.91 131.86,123.2 135.5,123.48 C139.13,123.77 142.77,124.07 146.41,124.36 C150.05,124.66 153.7,124.96 157.34,125.27 C160.99,125.57 164.64,125.88 168.29,126.2 C171.94,126.51 175.59,126.84 179.25,127.16 C182.91,127.49 186.57,127.82 190.24,128.16 C193.9,128.5 197.57,128.84 201.24,129.19 C204.91,129.54 208.59,129.9 212.27,130.26 C215.95,130.62 219.63,130.99 223.32,131.37 C227.01,131.75 230.7,132.14 234.4,132.53 C238.09,132.92 241.8,133.32 245.5,133.73 C249.21,134.14 252.92,134.56 256.64,134.99 C260.36,135.42 264.08,135.86 267.81,136.3 C271.54,136.75 275.27,137.21 279.01,137.67 C282.75,138.14 286.5,138.62 290.25,139.11 C294,139.6 297.76,140.1 301.53,140.61 C305.29,141.12 309.07,141.64 312.85,142.18 C316.63,142.71 320.42,143.26 324.21,143.82 C328.01,144.38 331.81,144.96 335.62,145.55 C339.43,146.13 343.25,146.73 347.08,147.35 C350.91,147.97 354.74,148.6 358.59,149.25 C362.43,149.89 368.22,150.9 370.15,151.23" pathLength="1" />
+  <path class="q hair i2" d="M34,110 C35.62,111.89 40.42,118.79 43.74,121.36 C47.06,123.93 50.5,124.38 53.91,125.42 C57.31,126.46 60.75,126.95 64.18,127.59 C67.61,128.24 71.05,128.75 74.48,129.3 C77.92,129.86 81.35,130.38 84.79,130.92 C88.22,131.47 91.66,132 95.09,132.55 C98.53,133.1 101.96,133.66 105.4,134.22 C108.83,134.78 112.26,135.35 115.7,135.92 C119.13,136.5 122.56,137.08 126,137.68 C129.43,138.27 132.86,138.87 136.29,139.48 C139.72,140.09 143.15,140.71 146.58,141.33 C150.01,141.96 153.44,142.6 156.87,143.25 C160.3,143.9 163.73,144.55 167.16,145.22 C170.59,145.89 174.01,146.57 177.44,147.27 C180.87,147.96 184.29,148.67 187.72,149.39 C191.14,150.1 194.57,150.84 197.99,151.58 C201.41,152.33 204.84,153.09 208.26,153.87 C211.68,154.64 215.1,155.43 218.52,156.24 C221.94,157.05 225.36,157.87 228.78,158.71 C232.19,159.56 235.61,160.41 239.03,161.29 C242.44,162.17 245.86,163.07 249.27,163.99 C252.68,164.9 256.1,165.84 259.51,166.8 C262.92,167.76 266.33,168.74 269.74,169.74 C273.15,170.74 276.55,171.77 279.96,172.82 C283.36,173.87 286.77,174.94 290.17,176.04 C293.57,177.14 296.98,178.26 300.38,179.42 C303.78,180.57 307.17,181.75 310.57,182.95 C313.97,184.16 317.36,185.4 320.76,186.66 C324.15,187.93 327.54,189.22 330.93,190.55 C334.32,191.87 339.4,193.94 341.09,194.62" pathLength="1" />
+  <path class="f i3" d="M34,110 C35.16,110.73 38.29,113.41 40.99,114.41 C43.68,115.4 47.01,115.58 50.16,115.98 C53.32,116.38 56.64,116.57 59.91,116.82 C63.18,117.08 66.5,117.27 69.8,117.49 C73.1,117.7 76.41,117.91 79.71,118.12 C83.01,118.33 86.32,118.54 89.62,118.75 C92.92,118.96 96.22,119.18 99.52,119.39 C102.82,119.61 106.11,119.83 109.41,120.05 C112.7,120.28 115.99,120.5 119.28,120.73 C122.57,120.96 125.86,121.2 129.14,121.43 C132.42,121.67 135.7,121.91 138.98,122.15 C142.26,122.4 145.53,122.64 148.81,122.9 C152.08,123.15 155.35,123.4 158.61,123.66 C161.88,123.92 165.14,124.19 168.4,124.46 C171.66,124.72 174.91,125 178.16,125.28 C181.41,125.56 184.66,125.84 187.9,126.13 C191.14,126.42 194.38,126.71 197.61,127.01 C200.85,127.32 204.08,127.62 207.3,127.94 C210.52,128.25 213.74,128.57 216.96,128.89 C220.17,129.22 223.38,129.55 226.58,129.9 C229.78,130.24 232.98,130.58 236.17,130.94 C239.36,131.3 242.55,131.66 245.73,132.03 C248.91,132.4 252.08,132.78 255.24,133.17 C258.41,133.56 261.57,133.96 264.72,134.37 C267.87,134.77 271.01,135.19 274.15,135.62 C277.28,136.04 280.41,136.48 283.53,136.92 C286.65,137.37 289.77,137.83 292.87,138.3 C295.97,138.77 299.07,139.24 302.16,139.73 C305.24,140.23 308.32,140.73 311.39,141.24 C314.46,141.76 319.03,142.56 320.56,142.82" pathLength="1" />
+  <path class="s i3" d="M34,110 C35.73,108.08 40.93,101.07 44.4,98.46 C47.87,95.84 51.33,95.38 54.8,94.33 C58.27,93.27 61.73,92.78 65.2,92.12 C68.67,91.46 72.13,90.95 75.6,90.38 C79.07,89.82 82.53,89.29 86,88.74 C89.47,88.18 92.93,87.64 96.4,87.08 C99.87,86.52 103.33,85.96 106.8,85.39 C110.27,84.82 113.73,84.24 117.2,83.65 C120.67,83.07 124.13,82.48 127.6,81.87 C131.07,81.27 134.53,80.66 138,80.04 C141.47,79.42 144.93,78.79 148.4,78.16 C151.87,77.52 155.33,76.87 158.8,76.21 C162.27,75.55 165.73,74.88 169.2,74.2 C172.67,73.52 176.13,72.83 179.6,72.13 C183.07,71.42 186.53,70.7 190,69.97 C193.47,69.24 196.93,68.5 200.4,67.74 C203.87,66.98 207.33,66.21 210.8,65.42 C214.27,64.63 217.73,63.83 221.2,63.01 C224.67,62.19 228.13,61.35 231.6,60.49 C235.07,59.64 238.53,58.77 242,57.87 C245.47,56.98 248.93,56.07 252.4,55.14 C255.87,54.2 259.33,53.25 262.8,52.28 C266.27,51.3 269.73,50.31 273.2,49.29 C276.67,48.27 280.13,47.23 283.6,46.16 C287.07,45.09 290.53,44 294,42.88 C297.47,41.77 300.93,40.62 304.4,39.45 C307.87,38.28 311.33,37.09 314.8,35.86 C318.27,34.63 321.73,33.38 325.2,32.09 C328.67,30.8 332.13,29.49 335.6,28.14 C339.07,26.79 344.27,24.69 346,24" pathLength="1" />
+  <path class="s i4" d="M34,110 C35.73,111.92 40.93,118.93 44.4,121.54 C47.87,124.16 51.33,124.62 54.8,125.67 C58.27,126.73 61.73,127.22 65.2,127.88 C68.67,128.54 72.13,129.05 75.6,129.62 C79.07,130.18 82.53,130.71 86,131.26 C89.47,131.82 92.93,132.36 96.4,132.92 C99.87,133.48 103.33,134.04 106.8,134.61 C110.27,135.18 113.73,135.76 117.2,136.35 C120.67,136.93 124.13,137.52 127.6,138.13 C131.07,138.73 134.53,139.34 138,139.96 C141.47,140.58 144.93,141.21 148.4,141.84 C151.87,142.48 155.33,143.13 158.8,143.79 C162.27,144.45 165.73,145.12 169.2,145.8 C172.67,146.48 176.13,147.17 179.6,147.87 C183.07,148.58 186.53,149.3 190,150.03 C193.47,150.76 196.93,151.5 200.4,152.26 C203.87,153.02 207.33,153.79 210.8,154.58 C214.27,155.37 217.73,156.17 221.2,156.99 C224.67,157.81 228.13,158.65 231.6,159.51 C235.07,160.36 238.53,161.23 242,162.13 C245.47,163.02 248.93,163.93 252.4,164.86 C255.87,165.8 259.33,166.75 262.8,167.72 C266.27,168.7 269.73,169.69 273.2,170.71 C276.67,171.73 280.13,172.77 283.6,173.84 C287.07,174.91 290.53,176 294,177.12 C297.47,178.23 300.93,179.38 304.4,180.55 C307.87,181.72 311.33,182.91 314.8,184.14 C318.27,185.37 321.73,186.62 325.2,187.91 C328.67,189.2 332.13,190.51 335.6,191.86 C339.07,193.21 344.27,195.31 346,196" pathLength="1" />
+  <path class="f i4" d="M127.6,81.87 A9,28.13 0 0 1 127.6,138.13" pathLength="1" />
+  <path class="k f i5" d="M127.6,138.13 A9,28.13 0 0 1 127.6,81.87" />
+  <path class="f i6" d="M227.44,61.51 A15.52,48.49 0 0 1 227.44,158.49" pathLength="1" />
+  <path class="k f i6" d="M227.44,158.49 A15.52,48.49 0 0 1 227.44,61.51" />
+  <path class="f i7" d="M346,24 A27.52,86 0 0 1 346,196" pathLength="1" />
+  <path class="k f i8" d="M346,196 A27.52,86 0 0 1 346,24" />
+  <circle class="p i8" cx="34" cy="110" r="3" />
+  <g class="a-sl">
+   <ellipse class="w i9" rx="27.52" ry="86" />
+   <ellipse class="s i9" rx="27.52" ry="86" pathLength="1" />
+   <path class="k q i10" d="M-22.05,-51.47 L9.97,-80.16 L24.15,41.23 L-4.91,84.62 L-25.44,32.82 Z" />
+   <circle class="p i11" cx="-22.05" cy="-51.47" r="4" />
+   <circle class="p i11" cx="9.97" cy="-80.16" r="4" />
+   <circle class="p i12" cx="24.15" cy="41.23" r="4" />
+   <circle class="p i12" cx="-4.91" cy="84.62" r="4" />
+   <circle class="p i13" cx="-25.44" cy="32.82" r="4" />
+  </g>
+  <text class="t i14" x="22" y="154" text-anchor="start">big bang</text>
+  <text class="t i14" x="380" y="226" text-anchor="end">today</text>
+  <text class="t i15" x="200" y="226" text-anchor="middle">space itself stretches</text>
+ </g>
+</svg>

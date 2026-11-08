@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="chemistry--fractional-distillation" data-discipline="chemistry" data-tags="distillation,crude-oil,boiling-point,separation,fractions,column">
+<title>Fractional distillation column</title>
+<desc>Heated crude oil enters a tall column; vapours rise and condense on trays at different heights, so light fractions leave at the top and heavy ones low down.</desc>
+<style>
+.a-vap{animation:a-vap 2.5s linear infinite}
+.a-v2{animation-delay:-.6s}
+.a-v3{animation-delay:-1.2s}
+.a-v4{animation-delay:-1.8s}
+@keyframes a-vap{0%{transform:translateY(0);opacity:0}20%{opacity:1}80%{opacity:1}100%{transform:translateY(-34px);opacity:0}}
+</style>
+<path class="w" d="M164,212 H236 V46 Q236,26 200,26 Q164,26 164,46Z"/>
+<path class="s" d="M164,212 H236 V46 Q236,26 200,26 Q164,26 164,46Z"/>
+<path class="q" d="M164,78 H214 M236,118 H186 M164,158 H214"/>
+<path class="s" d="M44,192 H84 l5,-8 l8,16 l8,-16 l8,16 l8,-16 l5,8 H164"/>
+<path class="s" d="M236,58 H296 M290,54.5 L296,58 L290,61.5 M236,98 H296 M290,94.5 L296,98 L290,101.5 M236,138 H296 M290,134.5 L296,138 L290,141.5 M236,178 H296 M290,174.5 L296,178 L290,181.5 "/>
+<g class="a-vap a-v1"><circle class="p" cx="178" cy="194" r="2.4"/><circle class="p" cx="222" cy="202" r="2.4"/><circle class="p" cx="200" cy="210" r="2.4"/></g><g class="a-vap a-v2"><circle class="p" cx="180" cy="154" r="2.4"/><circle class="p" cx="224" cy="162" r="2.4"/><circle class="p" cx="202" cy="170" r="2.4"/></g><g class="a-vap a-v3"><circle class="p" cx="176" cy="114" r="2.4"/><circle class="p" cx="220" cy="122" r="2.4"/><circle class="p" cx="198" cy="130" r="2.4"/></g><g class="a-vap a-v4"><circle class="p" cx="182" cy="74" r="2.4"/><circle class="p" cx="226" cy="82" r="2.4"/><circle class="p" cx="204" cy="90" r="2.4"/></g>
+<text class="t" x="44" y="178" text-anchor="start">crude</text>
+<text class="t" x="304" y="62" text-anchor="start">light</text>
+<text class="t" x="304" y="182" text-anchor="start">heavy</text>
+</svg>

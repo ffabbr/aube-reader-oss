@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="physics--quantum-tunneling" data-discipline="physics" data-tags="quantum,tunneling,wave-packet,potential-barrier,wavefunction" role="img">
+ <title>Quantum tunneling</title>
+ <desc>A wave packet meets an energy barrier: most of it is reflected, but a small, weaker part leaks through to the far side though classically it could not.</desc>
+ <style>
+:root{--ink:#110f0c;--quiet:#555350;--faint:#b8b6b2;--wash:#f5f3ef}
+@media (prefers-color-scheme:dark){:root{--ink:#e7e5e2;--quiet:#a3a19e;--faint:#524f4c;--wash:#252321}}
+svg{overflow:visible}
+.s,.q,.f{fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1;stroke-dashoffset:0}
+.s{stroke:var(--ink);stroke-width:1.5}
+.q{stroke:var(--quiet);stroke-width:1.3}
+.f{stroke:var(--faint);stroke-width:1.1}
+.hair{stroke-width:1!important}
+.bold{stroke-width:2.2!important}
+.k{fill:none;stroke-dasharray:5 5!important;stroke-linecap:round}
+.p{fill:var(--ink);stroke:none}
+.pq{fill:var(--quiet);stroke:none}
+.w{fill:var(--wash);stroke:none}
+.t{fill:var(--quiet);stroke:none;font:italic 13px ui-serif,"New York",Georgia,serif}
+.all{animation:out 10s linear infinite}
+@keyframes out{0%,90%{opacity:1}97%,99.9%{opacity:0}100%{opacity:1}}
+@keyframes dr0{0%,0.0%{stroke-dashoffset:1;opacity:0}0.1%{stroke-dashoffset:1;opacity:1}9%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd0{0%,0.0%{opacity:0}7%,100%{opacity:1}}
+@keyframes dr1{0%,2.2%{stroke-dashoffset:1;opacity:0}2.3%{stroke-dashoffset:1;opacity:1}11.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd1{0%,2.2%{opacity:0}9.2%,100%{opacity:1}}
+@keyframes dr2{0%,4.4%{stroke-dashoffset:1;opacity:0}4.5%{stroke-dashoffset:1;opacity:1}13.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd2{0%,4.4%{opacity:0}11.4%,100%{opacity:1}}
+@keyframes dr3{0%,6.6%{stroke-dashoffset:1;opacity:0}6.7%{stroke-dashoffset:1;opacity:1}15.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd3{0%,6.6%{opacity:0}13.6%,100%{opacity:1}}
+@keyframes dr4{0%,8.8%{stroke-dashoffset:1;opacity:0}8.9%{stroke-dashoffset:1;opacity:1}17.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd4{0%,8.8%{opacity:0}15.8%,100%{opacity:1}}
+@keyframes dr5{0%,11.0%{stroke-dashoffset:1;opacity:0}11.1%{stroke-dashoffset:1;opacity:1}20%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd5{0%,11.0%{opacity:0}18%,100%{opacity:1}}
+@keyframes dr6{0%,13.2%{stroke-dashoffset:1;opacity:0}13.3%{stroke-dashoffset:1;opacity:1}22.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd6{0%,13.2%{opacity:0}20.2%,100%{opacity:1}}
+@keyframes dr7{0%,15.4%{stroke-dashoffset:1;opacity:0}15.5%{stroke-dashoffset:1;opacity:1}24.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd7{0%,15.4%{opacity:0}22.4%,100%{opacity:1}}
+@keyframes dr8{0%,17.6%{stroke-dashoffset:1;opacity:0}17.7%{stroke-dashoffset:1;opacity:1}26.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd8{0%,17.6%{opacity:0}24.6%,100%{opacity:1}}
+@keyframes dr9{0%,19.8%{stroke-dashoffset:1;opacity:0}19.9%{stroke-dashoffset:1;opacity:1}28.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd9{0%,19.8%{opacity:0}26.8%,100%{opacity:1}}
+@keyframes dr10{0%,22.0%{stroke-dashoffset:1;opacity:0}22.1%{stroke-dashoffset:1;opacity:1}31%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd10{0%,22.0%{opacity:0}29%,100%{opacity:1}}
+@keyframes dr11{0%,24.2%{stroke-dashoffset:1;opacity:0}24.3%{stroke-dashoffset:1;opacity:1}33.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd11{0%,24.2%{opacity:0}31.2%,100%{opacity:1}}
+@keyframes dr12{0%,26.4%{stroke-dashoffset:1;opacity:0}26.5%{stroke-dashoffset:1;opacity:1}35.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd12{0%,26.4%{opacity:0}33.4%,100%{opacity:1}}
+@keyframes dr13{0%,28.6%{stroke-dashoffset:1;opacity:0}28.7%{stroke-dashoffset:1;opacity:1}37.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd13{0%,28.6%{opacity:0}35.6%,100%{opacity:1}}
+@keyframes dr14{0%,30.8%{stroke-dashoffset:1;opacity:0}30.9%{stroke-dashoffset:1;opacity:1}39.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd14{0%,30.8%{opacity:0}37.8%,100%{opacity:1}}
+@keyframes dr15{0%,33.0%{stroke-dashoffset:1;opacity:0}33.1%{stroke-dashoffset:1;opacity:1}42%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd15{0%,33.0%{opacity:0}40%,100%{opacity:1}}
+.s.i0,.q.i0,.f.i0{animation:dr0 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i1,.q.i1,.f.i1{animation:dr1 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i2,.q.i2,.f.i2{animation:dr2 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i3,.q.i3,.f.i3{animation:dr3 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i4,.q.i4,.f.i4{animation:dr4 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i5,.q.i5,.f.i5{animation:dr5 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i6,.q.i6,.f.i6{animation:dr6 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i7,.q.i7,.f.i7{animation:dr7 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i8,.q.i8,.f.i8{animation:dr8 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i9,.q.i9,.f.i9{animation:dr9 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i10,.q.i10,.f.i10{animation:dr10 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i11,.q.i11,.f.i11{animation:dr11 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i12,.q.i12,.f.i12{animation:dr12 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i13,.q.i13,.f.i13{animation:dr13 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i14,.q.i14,.f.i14{animation:dr14 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i15,.q.i15,.f.i15{animation:dr15 10s cubic-bezier(.55,.05,.25,1) infinite}
+.p.i0,.w.i0,.pq.i0,.t.i0,.k.i0{animation:fd0 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i1,.w.i1,.pq.i1,.t.i1,.k.i1{animation:fd1 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i2,.w.i2,.pq.i2,.t.i2,.k.i2{animation:fd2 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i3,.w.i3,.pq.i3,.t.i3,.k.i3{animation:fd3 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i4,.w.i4,.pq.i4,.t.i4,.k.i4{animation:fd4 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i5,.w.i5,.pq.i5,.t.i5,.k.i5{animation:fd5 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i6,.w.i6,.pq.i6,.t.i6,.k.i6{animation:fd6 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i7,.w.i7,.pq.i7,.t.i7,.k.i7{animation:fd7 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i8,.w.i8,.pq.i8,.t.i8,.k.i8{animation:fd8 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i9,.w.i9,.pq.i9,.t.i9,.k.i9{animation:fd9 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i10,.w.i10,.pq.i10,.t.i10,.k.i10{animation:fd10 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i11,.w.i11,.pq.i11,.t.i11,.k.i11{animation:fd11 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i12,.w.i12,.pq.i12,.t.i12,.k.i12{animation:fd12 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i13,.w.i13,.pq.i13,.t.i13,.k.i13{animation:fd13 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i14,.w.i14,.pq.i14,.t.i14,.k.i14{animation:fd14 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i15,.w.i15,.pq.i15,.t.i15,.k.i15{animation:fd15 10s cubic-bezier(.2,.7,.3,1) infinite}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+ <style>
+.a-in{animation:a-in 10s linear infinite}
+@keyframes a-in{0%,40%{transform:translateX(0);opacity:1}55%{opacity:1}62%{transform:translateX(80px);opacity:0}100%{transform:translateX(80px);opacity:0}}
+.a-re{animation:a-re 10s linear infinite}
+@keyframes a-re{0%,54%{transform:translateX(0);opacity:0}60%{opacity:1}88%{transform:translateX(-86px);opacity:0}100%{transform:translateX(-86px);opacity:0}}
+.a-tr{animation:a-tr 10s linear infinite}
+@keyframes a-tr{0%,54%{transform:translateX(0);opacity:0}62%{opacity:1}84%{opacity:1}92%{transform:translateX(96px);opacity:0}100%{transform:translateX(96px);opacity:0}}
+</style>
+ <g class="all">
+  <path class="f i0" d="M22,120 H378" pathLength="1" />
+  <rect class="w i1" x="175" y="60" width="50" height="120" />
+  <rect class="s i2" x="175" y="60" width="50" height="120" pathLength="1" />
+  <g class="a-in">
+   <path class="s i3" d="M22,120 L23.5,119.7 L25,119.4 L26.5,119.2 L28,119.2 L29.5,119.7 L31,120.7 L32.5,121.8 L34,122.7 L35.5,122.8 L37,121.6 L38.5,119 L40,115.9 L41.5,113.2 L43,112.4 L44.5,114.7 L46,120 L47.5,127 L49,133.3 L50.5,135.9 L52,132.8 L53.5,123.9 L55,111.6 L56.5,100.2 L58,94.3 L59.5,97.2 L61,108.9 L62.5,125.9 L64,142.4 L65.5,152.1 L67,150.9 L68.5,138.8 L70,120 L71.5,101.2 L73,89.1 L74.5,87.9 L76,97.6 L77.5,114.1 L79,131.1 L80.5,142.8 L82,145.7 L83.5,139.8 L85,128.4 L86.5,116.1 L88,107.2 L89.5,104.1 L91,106.7 L92.5,113 L94,120 L95.5,125.3 L97,127.6 L98.5,126.8 L100,124.1 L101.5,121 L103,118.4 L104.5,117.2 L106,117.3 L107.5,118.2 L109,119.3 L110.5,120.3 L112,120.8 L113.5,120.8 L115,120.6 L116.5,120.3 L118,120" pathLength="1" />
+  </g>
+  <g class="a-re">
+   <path class="q i4" d="M102,120 L103.5,119.8 L105,119.6 L106.5,119.5 L108,119.5 L109.5,119.8 L111,120.4 L112.5,121.2 L114,121.8 L115.5,121.8 L117,121 L118.5,119.4 L120,117.3 L121.5,115.6 L123,115.1 L124.5,116.6 L126,120 L127.5,124.5 L129,128.6 L130.5,130.3 L132,128.3 L133.5,122.5 L135,114.6 L136.5,107.2 L138,103.4 L139.5,105.3 L141,112.8 L142.5,123.8 L144,134.5 L145.5,140.7 L147,140 L148.5,132.2 L150,120 L151.5,107.8 L153,100 L154.5,99.3 L156,105.5 L157.5,116.2 L159,127.2 L160.5,134.7 L162,136.6 L163.5,132.8 L165,125.4 L166.5,117.5 L168,111.7 L169.5,109.7 L171,111.4 L172.5,115.5 L174,120 L175.5,123.4 L177,124.9 L178.5,124.4 L180,122.7 L181.5,120.6 L183,119 L184.5,118.2 L186,118.2 L187.5,118.8 L189,119.6 L190.5,120.2 L192,120.5 L193.5,120.5 L195,120.4 L196.5,120.2 L198,120" pathLength="1" />
+  </g>
+  <g class="a-tr">
+   <path class="q i5" d="M184,120 L185.5,119.9 L187,119.8 L188.5,119.7 L190,119.8 L191.5,119.9 L193,120.2 L194.5,120.6 L196,120.9 L197.5,120.9 L199,120.5 L200.5,119.7 L202,118.7 L203.5,117.8 L205,117.6 L206.5,118.3 L208,120 L209.5,122.3 L211,124.3 L212.5,125.1 L214,124.1 L215.5,121.3 L217,117.3 L218.5,113.6 L220,111.7 L221.5,112.6 L223,116.4 L224.5,121.9 L226,127.3 L227.5,130.4 L229,130 L230.5,126.1 L232,120 L233.5,113.9 L235,110 L236.5,109.6 L238,112.7 L239.5,118.1 L241,123.6 L242.5,127.4 L244,128.3 L245.5,126.4 L247,122.7 L248.5,118.7 L250,115.9 L251.5,114.9 L253,115.7 L254.5,117.7 L256,120 L257.5,121.7 L259,122.4 L260.5,122.2 L262,121.3 L263.5,120.3 L265,119.5 L266.5,119.1 L268,119.1 L269.5,119.4 L271,119.8 L272.5,120.1 L274,120.2 L275.5,120.3 L277,120.2 L278.5,120.1 L280,120" pathLength="1" />
+  </g>
+  <text class="t i6" x="200" y="204" text-anchor="middle">barrier</text>
+ </g>
+</svg>

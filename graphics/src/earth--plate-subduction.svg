@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="earth--plate-subduction" data-discipline="earth" data-tags="plate-tectonics,subduction,trench,volcano,convergent-boundary,mantle">
+<title>Plate subduction</title>
+<desc>A dense oceanic plate slides beneath a continental plate at a trench and sinks into the mantle, melting as it descends and feeding a volcano above.</desc>
+<style>
+.a-slab{offset-path:path("M30,111 H136 C168,111 188,128 208,153 L266,211");offset-rotate:0deg;animation:a-slab 10s linear infinite}
+.a-mag{offset-path:path("M262,190 C288,162 304,118 316,54");offset-rotate:0deg;animation:a-mag 5s linear infinite}
+@keyframes a-slab{0%{offset-distance:0%;opacity:0}8%{opacity:1}92%{opacity:1}100%{offset-distance:100%;opacity:0}}
+@keyframes a-mag{0%{offset-distance:0%;opacity:0}12%{opacity:1}88%{opacity:1}100%{offset-distance:100%;opacity:0}}
+.a-d1{animation-delay:-3.3s}.a-d2{animation-delay:-6.6s}.a-d3{animation-delay:-2.5s}
+.a-puff{transform-box:fill-box;transform-origin:center;animation:a-puff 5s linear infinite}
+@keyframes a-puff{0%{transform:translate(0,0) scale(.5);opacity:0}25%{opacity:1}100%{transform:translate(10px,-26px) scale(1.5);opacity:0}}
+</style>
+<path class="w" d="M20,74 H205 L150,105 H20 Z"/>
+<path class="f" d="M20,74 q9,-3 18,0 t18,0 t18,0 t18,0 t18,0 t18,0 t18,0 t18,0 t18,0 t18,0 "/>
+<path class="w" d="M150,105 L205,72 H298 L318,42 L338,72 H380 V136 H204 C190,118 170,107 150,105 Z"/>
+<path class="s" d="M150,105 L205,72 H298 L318,42 L338,72 H380"/>
+<path class="w" d="M20,104 H138 C172,104 194,122 214,148 L274,208 L264,218 L204,158 C188,134 166,118 134,118 H20 Z"/>
+<path class="s" d="M20,104 H138 C172,104 194,122 214,148 L274,208 L264,218 L204,158 C188,134 166,118 134,118 H20"/>
+<path class="q" d="M380,136 H204"/>
+<path class="k q" d="M262,190 C288,162 304,118 316,54"/>
+<path class="s" d="M50,90 L104,90 M97.9,93.4 L104,90 L97.9,86.6"/>
+<g class="a-slab"><circle class="p" cx="0" cy="0" r="2.6"/></g>
+<g class="a-slab a-d1"><circle class="p" cx="0" cy="0" r="2.6"/></g>
+<g class="a-slab a-d2"><circle class="p" cx="0" cy="0" r="2.6"/></g>
+<g class="a-mag"><circle class="p" cx="0" cy="0" r="2.4"/></g>
+<g class="a-mag a-d3"><circle class="p" cx="0" cy="0" r="2.4"/></g>
+<g class="a-puff"><circle class="q" cx="318" cy="34" r="6"/></g>
+<g class="a-puff a-d3"><circle class="q" cx="318" cy="34" r="6"/></g>
+<text class="t" x="80" y="146" text-anchor="middle">oceanic plate</text>
+<text class="t" x="338" y="110" text-anchor="middle">continent</text>
+<text class="t" x="330" y="190" text-anchor="middle">mantle</text>
+</svg>

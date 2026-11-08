@@ -1,0 +1,74 @@
+{
+  "black-holes": {
+    "title": "Black Holes: Collapse, Horizons, and the Observational Record",
+    "field": "astrophysics and general relativity",
+    "lengths": [
+      150,
+      85,
+      40,
+      12,
+      5
+    ],
+    "slack": [
+      15,
+      9,
+      5,
+      2,
+      2
+    ],
+    "home": 1,
+    "core": 5,
+    "paragraphs": [
+      "A black hole is a region of spacetime from which no signal can escape to distant observers. In general relativity, mass and energy curve spacetime, and an object compressed within its Schwarzschild radius, $r_s = 2GM/c^2$, about three kilometers for a mass like the Sun’s, curves it so severely that the escape velocity would exceed the speed of light. The boundary of that region is the event horizon. Far outside it, a black hole’s gravity is no different from that of any other object of the same mass. The extreme effects appear only close in.",
+      "Stellar-mass black holes form from the core collapse of massive stars, typically those born with more than about twenty solar masses. Fusion builds up an iron core, from which no further energy can be extracted. Once the core exceeds the Chandrasekhar limit, electron degeneracy pressure fails and it collapses at a sizable fraction of the speed of light. If the remnant exceeds roughly two to three solar masses, more than neutron degeneracy can support, collapse continues to a black hole. Supermassive black holes, by contrast, grow over cosmic time through accretion and mergers.",
+      "The event horizon is a causal boundary, not a material one. For a non-rotating black hole it lies at the Schwarzschild radius, $r_s = 2GM/c^2$, roughly three kilometers per solar mass. Inside it, light cones tip so far inward that all future-directed paths, including those of light, lead to smaller radii. A freely falling observer crosses it without meeting anything locally special; its significance is global. Rotation shrinks the horizon and adds an ergosphere outside it, where nothing can remain at rest relative to the distant stars.",
+      "Gravitational time dilation grows without bound near the horizon: a static clock at radius r runs slow by a factor of $\\sqrt{1 - r_s/r}$ relative to one at infinity. A distant observer therefore sees an infalling object asymptotically freeze and fade as its light is exponentially redshifted, while in the infaller’s own proper time the crossing takes a finite, brief interval. Tidal acceleration across a body of length L scales as $2GML/r^3$. At the horizon this goes as $1/M^2$, so stellar-mass black holes shred objects well outside the horizon, while supermassive ones can be crossed intact.",
+      "The evidence for black holes is now observational on several fronts. Decades of infrared astrometry of the S-stars, notably S2 and its sixteen-year orbit, pin a compact mass of about four million solar masses at Sagittarius A*, work recognized by the 2020 Nobel Prize. LIGO’s detection of GW150914 matched the predicted inspiral, merger and ringdown of two black holes of roughly 36 and 29 solar masses. And the Event Horizon Telescope, using very-long-baseline interferometry at 1.3 mm, resolved the shadows of M87* in 2019 and Sagittarius A* in 2022.",
+      "The idea is older than relativity. In 1783 John Michell combined Newton’s gravity with the corpuscular theory of light and argued that a sufficiently large star would have an escape velocity exceeding the speed of light; such “dark stars” would be invisible except through their pull on companions. The modern account began in 1916, when Karl Schwarzschild found the first exact solution of Einstein’s field equations. In 1939 Oppenheimer and Snyder showed that a collapsing sphere crosses its critical radius in finite proper time, and in the 1960s John Wheeler popularized the name “black hole.”",
+      "Because the Schwarzschild radius grows linearly with mass, the mean density inside the horizon falls as the inverse square of the mass. A black hole of one solar mass would have to be compressed beyond nuclear density, whereas one of a hundred million solar masses has a mean density comparable to that of water. Stellar-mass black holes, from about five to a few tens of solar masses, are the remnants of massive stars. Supermassive black holes, from about a million to tens of billions of solar masses, sit at the centers of most large galaxies.",
+      "Whether a collapsing core produces a neutron star or a black hole depends on whether the supernova succeeds. When the core rebounds at nuclear density it launches a shock outward, but the shock quickly stalls. In the leading picture it is revived by the small fraction of neutrinos absorbed behind it. If revival fails, the star’s outer layers rain back onto the proto-neutron star until it exceeds the maximum mass that nuclear matter can support, and it collapses to a black hole, possibly with little visible explosion at all.",
+      "Supermassive black holes pose a different puzzle: how they grew so large so early. Accretion is limited by radiation pressure, which caps the growth rate for a given mass at the Eddington limit. Yet quasars powered by black holes of about a billion solar masses are seen less than eight hundred million years after the Big Bang. Growing that large from a stellar-mass seed would require nearly uninterrupted accretion at the limit. Proposed solutions include heavy seeds from the direct collapse of pristine gas clouds, bursts of super-Eddington accretion, and frequent mergers.",
+      "Real black holes almost certainly rotate, and in 1963 Roy Kerr found the exact solution that describes them. A stationary black hole is characterized completely by its mass, its angular momentum and its electric charge, a result summarized as the no-hair theorem. As spin increases, the horizon shrinks, from $2GM/c^2$ for a non-rotating black hole to $GM/c^2$ in the extremal limit. Outside the horizon lies the ergosphere, a region where spacetime is dragged around so strongly that nothing can remain at rest, and from which rotational energy can be extracted.",
+      "Classically nothing escapes a black hole, but in 1974 Stephen Hawking showed that a black hole radiates like a black body, at a temperature inversely proportional to its mass. For a black hole of one solar mass this is about sixty billionths of a kelvin, far colder than the cosmic microwave background. Jacob Bekenstein had proposed that a black hole carries an entropy proportional to its horizon area, and with Hawking’s temperature this became exact. Whether the information that fell in is returned in the radiation remains one of the deepest open questions in physics.",
+      "Near a black hole, orbits behave in ways that have no Newtonian counterpart. At one and a half Schwarzschild radii lies the photon sphere, where light itself can circle the black hole on an unstable orbit. Below three Schwarzschild radii no stable circular orbit exists, so gas in an accretion disk spirals smoothly inward once it reaches this innermost stable circular orbit. The binding energy released down to that radius makes accretion about six percent efficient for a non-rotating black hole, many times the efficiency of nuclear fusion.",
+      "The image of a black hole is not of the horizon itself but of its shadow. For a non-rotating black hole the shadow’s diameter is about five Schwarzschild radii, enlarged by the bending of light, which makes its size a direct test of the mass inferred from stellar orbits. For M87* the bright ring measures about forty-two microarcseconds across, consistent with general relativity. The space interferometer LISA, planned for the 2030s, will hear supermassive black holes merge across the observable universe and map their spacetime with extraordinary precision."
+    ]
+  },
+  "swarm": {
+    "title": "How a Swarm Chooses a Home",
+    "authors": [
+      "Maren Holt",
+      "Teodor Vasile"
+    ],
+    "field": "behavioural ecology",
+    "lengths": [
+      140,
+      120,
+      100,
+      80,
+      60,
+      40,
+      20
+    ],
+    "slack": [
+      9,
+      9,
+      9,
+      9,
+      9,
+      9,
+      9
+    ],
+    "home": 3,
+    "paragraphs": [
+      "Every spring, a crowded honeybee colony splits in two. The old queen flies off with roughly ten thousand workers, and the swarm settles on a nearby branch as a dangling cluster about the size of a football. It carries only a few days of honey in the workers' stomachs, so it cannot linger. Somewhere within a few kilometres it must find a dry, sheltered cavity where it can build comb, raise brood and store enough food to survive the winter.",
+      "The search is left to a few hundred scouts, the colony's oldest and most experienced foragers. They fan out across the countryside and inspect hollow trees, rock crevices and the occasional wall cavity. A scout that finds a candidate may spend up to an hour inside it, walking its walls to gauge the volume. Bees favour a cavity of about forty litres, with a small entrance facing the sun, several metres above the ground, out of reach of predators and winter winds.",
+      "Back on the cluster, a scout reports her find with the waggle dance. She runs a short straight line across the surface of the swarm, shaking her abdomen, then loops round and repeats. The angle of that run, measured from vertical, gives the direction of the site relative to the sun, and its duration encodes the distance. Crucially, a scout that has found an excellent site dances many more circuits than one that has found a mediocre site.",
+      "Other scouts follow these dances, fly out and judge each site for themselves; if they approve, they return and dance for it too. Every scout, however, dances a little less each time she comes back, and eventually stops altogether. This built-in decay means that support for a poor site soon dies out, while support for a good site keeps growing as fresh recruits replace those who fall silent. Within a day or two, most dancers advertise just a handful of options.",
+      "Scouts also argue against rivals. A bee committed to one site will seek out a dancer promoting another, butt her with its head and emit a brief vibration known as a stop signal. Each signal makes the dancer more likely to quit early. Because the signals flow mostly between supporters of competing sites, they act as cross-inhibition: they break deadlocks between two equally good options and keep the swarm from splitting its loyalty, which could be fatal.",
+      "The decision itself is reached not on the cluster but at the candidate sites. When a scout finds twenty or so other scouts at a site at the same time, she senses that a quorum has formed. She flies back and begins piping, a high-pitched signal that prompts the resting bees to warm their flight muscles to about thirty-five degrees Celsius. Within an hour or so the whole swarm is ready, and it lifts off into the air.",
+      "Guiding ten thousand bees to a place that only a few hundred have seen is a problem in its own right. The scouts solve it by streaking: they shoot through the upper part of the cloud of flying bees at high speed towards the new home, then drift back slowly along its edges and streak again. The swarm follows these fast guides and arrives, often several kilometres away, at a cavity that most of its members have never visited.",
+      "No single bee compares the options or makes the final choice. The decision emerges from many independent assessments, from competition between the groups backing each site, and from a threshold that turns agreement into action. Neuroscientists have noted a striking parallel with how populations of neurons accumulate evidence before a primate commits to a choice. Others have drawn lessons for human committees: search widely, judge for yourself, debate openly, and act only when enough members agree."
+    ]
+  }
+}

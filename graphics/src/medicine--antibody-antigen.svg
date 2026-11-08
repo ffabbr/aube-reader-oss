@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="medicine--antibody-antigen" data-discipline="medicine" data-tags="antibody,antigen,immune-system,immunoglobulin,binding,pathogen">
+<title>Antibody and antigen</title>
+<desc>A Y-shaped antibody, built from paired protein domains, reaches down and clasps two matching antigens on a pathogen surface with the tips of its arms.</desc>
+<style>
+.a-dock{animation:a-dock 5s ease-in-out infinite}
+@keyframes a-dock{0%{transform:translateY(-8px)}40%{transform:translateY(29.3px)}85%{transform:translateY(29.3px)}100%{transform:translateY(-8px)}}
+</style>
+<path class="w" d="M28,220C100,180 300,180 372,220Z"/>
+<path class="s" d="M28,220C100,180 300,180 372,220"/>
+<path class="q" d="M72,206.6V192.6M147,192.9V178.9M253,192.9V178.9M328,206.6V192.6"/>
+<circle class="w" cx="72" cy="186.6" r="6"/><circle class="s" cx="72" cy="186.6" r="6"/>
+<circle class="w" cx="147" cy="172.9" r="6"/><circle class="s" cx="147" cy="172.9" r="6"/>
+<circle class="w" cx="253" cy="172.9" r="6"/><circle class="s" cx="253" cy="172.9" r="6"/>
+<circle class="w" cx="328" cy="186.6" r="6"/><circle class="s" cx="328" cy="186.6" r="6"/>
+<g class="a-dock"><path class="w" d="M191.5,88A13,8 -90 1 0 191.5,62A13,8 -90 1 0 191.5,88Z"/>
+<path class="w" d="M191.5,60A13,8 -90 1 0 191.5,34A13,8 -90 1 0 191.5,60Z"/>
+<path class="w" d="M208.5,88A13,8 -90 1 0 208.5,62A13,8 -90 1 0 208.5,88Z"/>
+<path class="w" d="M208.5,60A13,8 -90 1 0 208.5,34A13,8 -90 1 0 208.5,60Z"/>
+<path class="w" d="M183.8,94.1A13,8 141.3 1 0 163.5,110.4A13,8 141.3 1 0 183.8,94.1Z"/>
+<path class="w" d="M161.9,111.7A13,8 141.3 1 0 141.6,127.9A13,8 141.3 1 0 161.9,111.7Z"/>
+<path class="w" d="M194.4,107.4A13,8 141.3 1 0 174.1,123.7A13,8 141.3 1 0 194.4,107.4Z"/>
+<path class="w" d="M172.6,124.9A13,8 141.3 1 0 152.3,141.2A13,8 141.3 1 0 172.6,124.9Z"/>
+<path class="w" d="M205.6,107.4A13,8 38.7 1 0 225.9,123.7A13,8 38.7 1 0 205.6,107.4Z"/>
+<path class="w" d="M227.4,124.9A13,8 38.7 1 0 247.7,141.2A13,8 38.7 1 0 227.4,124.9Z"/>
+<path class="w" d="M216.2,94.1A13,8 38.7 1 0 236.5,110.4A13,8 38.7 1 0 216.2,94.1Z"/>
+<path class="w" d="M238.1,111.7A13,8 38.7 1 0 258.4,127.9A13,8 38.7 1 0 238.1,111.7Z"/>
+<path class="s" d="M191.5,88A13,8 -90 1 0 191.5,62A13,8 -90 1 0 191.5,88Z"/>
+<path class="s" d="M191.5,60A13,8 -90 1 0 191.5,34A13,8 -90 1 0 191.5,60Z"/>
+<path class="s" d="M208.5,88A13,8 -90 1 0 208.5,62A13,8 -90 1 0 208.5,88Z"/>
+<path class="s" d="M208.5,60A13,8 -90 1 0 208.5,34A13,8 -90 1 0 208.5,60Z"/>
+<path class="s" d="M183.8,94.1A13,8 141.3 1 0 163.5,110.4A13,8 141.3 1 0 183.8,94.1Z"/>
+<path class="s" d="M161.9,111.7A13,8 141.3 1 0 141.6,127.9A13,8 141.3 1 0 161.9,111.7Z"/>
+<path class="s" d="M194.4,107.4A13,8 141.3 1 0 174.1,123.7A13,8 141.3 1 0 194.4,107.4Z"/>
+<path class="s" d="M172.6,124.9A13,8 141.3 1 0 152.3,141.2A13,8 141.3 1 0 172.6,124.9Z"/>
+<path class="s" d="M205.6,107.4A13,8 38.7 1 0 225.9,123.7A13,8 38.7 1 0 205.6,107.4Z"/>
+<path class="s" d="M227.4,124.9A13,8 38.7 1 0 247.7,141.2A13,8 38.7 1 0 227.4,124.9Z"/>
+<path class="s" d="M216.2,94.1A13,8 38.7 1 0 236.5,110.4A13,8 38.7 1 0 216.2,94.1Z"/>
+<path class="s" d="M238.1,111.7A13,8 38.7 1 0 258.4,127.9A13,8 38.7 1 0 238.1,111.7Z"/></g>
+<text class="t" x="240" y="48" text-anchor="start">antibody</text>
+<text class="t" x="50" y="150" text-anchor="start">antigen</text>
+<text class="t" x="200" y="212" text-anchor="middle">pathogen</text>
+</svg>

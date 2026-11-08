@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="earth--tsunami-wave" data-discipline="earth" data-tags="tsunami,wave,earthquake,shoaling,run-up,ocean,seafloor">
+<title>Tsunami wave</title>
+<desc>A seafloor earthquake lifts the water; the long, low wave races across the ocean, then slows, shortens and grows tall as the seabed shoals toward the coast.</desc>
+<style>
+.a-run{animation:a-run 10s linear infinite}
+@keyframes a-run{0%{transform:translate(70px,100px) scale(1,1);opacity:0}8%{opacity:1}88%{opacity:1}100%{transform:translate(318px,100px) scale(.6,3.2);opacity:0}}
+.a-d1{animation-delay:-5s}
+.a-lift{animation:a-lift 2s ease-in-out infinite alternate}
+@keyframes a-lift{from{transform:translateY(0)}to{transform:translateY(-5px)}}
+</style>
+<path class="w" d="M20,100 H346 L226,182 H70 L66,192 H20 Z"/>
+<path class="w" d="M20,192 H66 L70,182 H226 L346,104 L380,100 V220 H20 Z"/>
+<path class="s" d="M20,192 H66 L70,182 H226 L346,104 L380,100"/>
+<path class="k q" d="M68,186 L44,218"/>
+<path class="q" d="M20,100 H346"/>
+<path class="q" d="M356,99 v-9 l5,-5 l5,5 v9 M370,97 v-7 l4,-4 l4,4 v7"/>
+<g class="a-lift"><path class="s" d="M98,172 V150 M98,150 l-4,7 M98,150 l4,7"/></g>
+<g class="a-run"><path class="w" d="M-48,0 C-24,0 -24,-12 0,-12 C24,-12 24,0 48,0 Z"/><path class="s" d="M-48,0 C-24,0 -24,-12 0,-12 C24,-12 24,0 48,0"/></g>
+<g class="a-run a-d1"><path class="w" d="M-48,0 C-24,0 -24,-12 0,-12 C24,-12 24,0 48,0 Z"/><path class="s" d="M-48,0 C-24,0 -24,-12 0,-12 C24,-12 24,0 48,0"/></g>
+<text class="t" x="98" y="138" text-anchor="middle">uplift</text>
+<text class="t" x="240" y="140" text-anchor="middle">shoaling</text>
+</svg>

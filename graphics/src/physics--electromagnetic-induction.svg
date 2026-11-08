@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="physics--electromagnetic-induction" data-discipline="physics" data-tags="induction,faraday,coil,magnet,electric-current,generator">
+<title>Electromagnetic Induction</title>
+<desc>A magnet slides in and out of a coil and a meter needle swings: current flows only while the field through the coil is changing, and stops when the magnet pauses.</desc>
+<style>
+.a-mag{animation:a-mag 5s linear infinite}
+@keyframes a-mag{0%{transform:translateX(0px)}4.17%{transform:translateX(14.24px)}8.33%{transform:translateX(27.5px)}12.5%{transform:translateX(38.89px)}16.67%{transform:translateX(47.63px)}20.83%{transform:translateX(53.13px)}25%{transform:translateX(55px)}29.17%{transform:translateX(53.13px)}33.33%{transform:translateX(47.63px)}37.5%{transform:translateX(38.89px)}41.67%{transform:translateX(27.5px)}45.83%{transform:translateX(14.24px)}50%{transform:translateX(0px)}54.17%{transform:translateX(-14.24px)}58.33%{transform:translateX(-27.5px)}62.5%{transform:translateX(-38.89px)}66.67%{transform:translateX(-47.63px)}70.83%{transform:translateX(-53.13px)}75%{transform:translateX(-55px)}79.17%{transform:translateX(-53.13px)}83.33%{transform:translateX(-47.63px)}87.5%{transform:translateX(-38.89px)}91.67%{transform:translateX(-27.5px)}95.83%{transform:translateX(-14.24px)}100%{transform:translateX(0px)}}
+.a-ned{transform-box:view-box;transform-origin:275px 212px;animation:a-ned 5s linear infinite}
+@keyframes a-ned{0%{transform:rotate(34deg)}4.17%{transform:rotate(32.84deg)}8.33%{transform:rotate(29.44deg)}12.5%{transform:rotate(24.04deg)}16.67%{transform:rotate(17deg)}20.83%{transform:rotate(8.8deg)}25%{transform:rotate(0deg)}29.17%{transform:rotate(-8.8deg)}33.33%{transform:rotate(-17deg)}37.5%{transform:rotate(-24.04deg)}41.67%{transform:rotate(-29.44deg)}45.83%{transform:rotate(-32.84deg)}50%{transform:rotate(-34deg)}54.17%{transform:rotate(-32.84deg)}58.33%{transform:rotate(-29.44deg)}62.5%{transform:rotate(-24.04deg)}66.67%{transform:rotate(-17deg)}70.83%{transform:rotate(-8.8deg)}75%{transform:rotate(0deg)}79.17%{transform:rotate(8.8deg)}83.33%{transform:rotate(17deg)}87.5%{transform:rotate(24.04deg)}91.67%{transform:rotate(29.44deg)}95.83%{transform:rotate(32.84deg)}100%{transform:rotate(34deg)}}
+</style>
+<path class="q" d="M219,126 V198 H229"/>
+<path class="q" d="M331,126 V198 H321"/>
+<rect class="w" x="229" y="168" width="92" height="50"/>
+<rect class="q" x="229" y="168" width="92" height="50"/>
+<path class="f" d="M252.25,186.73 A34,34 0 0 1 297.75,186.73"/>
+<path class="f hair" d="M255.99,183.81 L258.78,187.96 M265.06,179.49 L266.52,184.27 M275,178 L275,183 M284.94,179.49 L283.48,184.27 M294.01,183.81 L291.22,187.96"/>
+<path class="q" d="M219,126 A9,34 0 0 1 227,58"/>
+<path class="q" d="M235,126 A9,34 0 0 1 243,58"/>
+<path class="q" d="M251,126 A9,34 0 0 1 259,58"/>
+<path class="q" d="M267,126 A9,34 0 0 1 275,58"/>
+<path class="q" d="M283,126 A9,34 0 0 1 291,58"/>
+<path class="q" d="M299,126 A9,34 0 0 1 307,58"/>
+<path class="q" d="M315,126 A9,34 0 0 1 323,58"/>
+<g class="a-mag"><rect class="w" x="110" y="79" width="96" height="26"/>
+<rect class="s" x="110" y="79" width="96" height="26"/>
+<line class="s" x1="158" y1="79" x2="158" y2="105"/>
+<text class="t" x="134" y="97" text-anchor="middle">S</text>
+<text class="t" x="182" y="97" text-anchor="middle">N</text></g>
+<path class="s" d="M227,58 A9,34 0 0 1 235,126"/>
+<path class="s" d="M243,58 A9,34 0 0 1 251,126"/>
+<path class="s" d="M259,58 A9,34 0 0 1 267,126"/>
+<path class="s" d="M275,58 A9,34 0 0 1 283,126"/>
+<path class="s" d="M291,58 A9,34 0 0 1 299,126"/>
+<path class="s" d="M307,58 A9,34 0 0 1 315,126"/>
+<path class="s" d="M323,58 A9,34 0 0 1 331,126"/>
+<g class="a-ned"><line class="s" x1="275" y1="212" x2="275" y2="182"/></g>
+<circle class="p" cx="275" cy="212" r="2.6"/>
+<text class="t" x="335" y="196" text-anchor="start">I</text>
+</svg>

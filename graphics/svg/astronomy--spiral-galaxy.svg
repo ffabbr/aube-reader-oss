@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="astronomy--spiral-galaxy" data-discipline="astronomy" data-tags="galaxy,spiral-arms,density-wave,milky-way,stars,rotation,differential-rotation" role="img">
+ <title>Spiral galaxy</title>
+ <desc>Two arms wind out of a bright bulge across a tilted disc. Inner stars lap faster than the arms, which turn as a slow wave of density that stars pass through.</desc>
+ <style>
+:root{--ink:#110f0c;--quiet:#555350;--faint:#b8b6b2;--wash:#f5f3ef}
+@media (prefers-color-scheme:dark){:root{--ink:#e7e5e2;--quiet:#a3a19e;--faint:#524f4c;--wash:#252321}}
+svg{overflow:visible}
+.s,.q,.f{fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1;stroke-dashoffset:0}
+.s{stroke:var(--ink);stroke-width:1.5}
+.q{stroke:var(--quiet);stroke-width:1.3}
+.f{stroke:var(--faint);stroke-width:1.1}
+.hair{stroke-width:1!important}
+.bold{stroke-width:2.2!important}
+.k{fill:none;stroke-dasharray:5 5!important;stroke-linecap:round}
+.p{fill:var(--ink);stroke:none}
+.pq{fill:var(--quiet);stroke:none}
+.w{fill:var(--wash);stroke:none}
+.t{fill:var(--quiet);stroke:none;font:italic 13px ui-serif,"New York",Georgia,serif}
+.all{animation:out 10s linear infinite}
+@keyframes out{0%,90%{opacity:1}97%,99.9%{opacity:0}100%{opacity:1}}
+@keyframes dr0{0%,0.0%{stroke-dashoffset:1;opacity:0}0.1%{stroke-dashoffset:1;opacity:1}9%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd0{0%,0.0%{opacity:0}7%,100%{opacity:1}}
+@keyframes dr1{0%,2.2%{stroke-dashoffset:1;opacity:0}2.3%{stroke-dashoffset:1;opacity:1}11.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd1{0%,2.2%{opacity:0}9.2%,100%{opacity:1}}
+@keyframes dr2{0%,4.4%{stroke-dashoffset:1;opacity:0}4.5%{stroke-dashoffset:1;opacity:1}13.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd2{0%,4.4%{opacity:0}11.4%,100%{opacity:1}}
+@keyframes dr3{0%,6.6%{stroke-dashoffset:1;opacity:0}6.7%{stroke-dashoffset:1;opacity:1}15.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd3{0%,6.6%{opacity:0}13.6%,100%{opacity:1}}
+@keyframes dr4{0%,8.8%{stroke-dashoffset:1;opacity:0}8.9%{stroke-dashoffset:1;opacity:1}17.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd4{0%,8.8%{opacity:0}15.8%,100%{opacity:1}}
+@keyframes dr5{0%,11.0%{stroke-dashoffset:1;opacity:0}11.1%{stroke-dashoffset:1;opacity:1}20%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd5{0%,11.0%{opacity:0}18%,100%{opacity:1}}
+@keyframes dr6{0%,13.2%{stroke-dashoffset:1;opacity:0}13.3%{stroke-dashoffset:1;opacity:1}22.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd6{0%,13.2%{opacity:0}20.2%,100%{opacity:1}}
+@keyframes dr7{0%,15.4%{stroke-dashoffset:1;opacity:0}15.5%{stroke-dashoffset:1;opacity:1}24.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd7{0%,15.4%{opacity:0}22.4%,100%{opacity:1}}
+@keyframes dr8{0%,17.6%{stroke-dashoffset:1;opacity:0}17.7%{stroke-dashoffset:1;opacity:1}26.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd8{0%,17.6%{opacity:0}24.6%,100%{opacity:1}}
+@keyframes dr9{0%,19.8%{stroke-dashoffset:1;opacity:0}19.9%{stroke-dashoffset:1;opacity:1}28.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd9{0%,19.8%{opacity:0}26.8%,100%{opacity:1}}
+@keyframes dr10{0%,22.0%{stroke-dashoffset:1;opacity:0}22.1%{stroke-dashoffset:1;opacity:1}31%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd10{0%,22.0%{opacity:0}29%,100%{opacity:1}}
+@keyframes dr11{0%,24.2%{stroke-dashoffset:1;opacity:0}24.3%{stroke-dashoffset:1;opacity:1}33.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd11{0%,24.2%{opacity:0}31.2%,100%{opacity:1}}
+@keyframes dr12{0%,26.4%{stroke-dashoffset:1;opacity:0}26.5%{stroke-dashoffset:1;opacity:1}35.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd12{0%,26.4%{opacity:0}33.4%,100%{opacity:1}}
+@keyframes dr13{0%,28.6%{stroke-dashoffset:1;opacity:0}28.7%{stroke-dashoffset:1;opacity:1}37.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd13{0%,28.6%{opacity:0}35.6%,100%{opacity:1}}
+@keyframes dr14{0%,30.8%{stroke-dashoffset:1;opacity:0}30.9%{stroke-dashoffset:1;opacity:1}39.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd14{0%,30.8%{opacity:0}37.8%,100%{opacity:1}}
+@keyframes dr15{0%,33.0%{stroke-dashoffset:1;opacity:0}33.1%{stroke-dashoffset:1;opacity:1}42%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd15{0%,33.0%{opacity:0}40%,100%{opacity:1}}
+.s.i0,.q.i0,.f.i0{animation:dr0 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i1,.q.i1,.f.i1{animation:dr1 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i2,.q.i2,.f.i2{animation:dr2 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i3,.q.i3,.f.i3{animation:dr3 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i4,.q.i4,.f.i4{animation:dr4 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i5,.q.i5,.f.i5{animation:dr5 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i6,.q.i6,.f.i6{animation:dr6 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i7,.q.i7,.f.i7{animation:dr7 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i8,.q.i8,.f.i8{animation:dr8 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i9,.q.i9,.f.i9{animation:dr9 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i10,.q.i10,.f.i10{animation:dr10 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i11,.q.i11,.f.i11{animation:dr11 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i12,.q.i12,.f.i12{animation:dr12 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i13,.q.i13,.f.i13{animation:dr13 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i14,.q.i14,.f.i14{animation:dr14 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i15,.q.i15,.f.i15{animation:dr15 10s cubic-bezier(.55,.05,.25,1) infinite}
+.p.i0,.w.i0,.pq.i0,.t.i0,.k.i0{animation:fd0 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i1,.w.i1,.pq.i1,.t.i1,.k.i1{animation:fd1 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i2,.w.i2,.pq.i2,.t.i2,.k.i2{animation:fd2 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i3,.w.i3,.pq.i3,.t.i3,.k.i3{animation:fd3 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i4,.w.i4,.pq.i4,.t.i4,.k.i4{animation:fd4 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i5,.w.i5,.pq.i5,.t.i5,.k.i5{animation:fd5 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i6,.w.i6,.pq.i6,.t.i6,.k.i6{animation:fd6 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i7,.w.i7,.pq.i7,.t.i7,.k.i7{animation:fd7 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i8,.w.i8,.pq.i8,.t.i8,.k.i8{animation:fd8 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i9,.w.i9,.pq.i9,.t.i9,.k.i9{animation:fd9 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i10,.w.i10,.pq.i10,.t.i10,.k.i10{animation:fd10 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i11,.w.i11,.pq.i11,.t.i11,.k.i11{animation:fd11 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i12,.w.i12,.pq.i12,.t.i12,.k.i12{animation:fd12 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i13,.w.i13,.pq.i13,.t.i13,.k.i13{animation:fd13 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i14,.w.i14,.pq.i14,.t.i14,.k.i14{animation:fd14 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i15,.w.i15,.pq.i15,.t.i15,.k.i15{animation:fd15 10s cubic-bezier(.2,.7,.3,1) infinite}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+ <style>
+@keyframes a-arm{to{transform:rotate(-180deg)}}
+@keyframes a-lap{to{transform:rotate(-360deg)}}
+.a-arm,.a-in,.a-out{transform-box:view-box;transform-origin:200px 110px}
+.a-arm{animation:a-arm 10s linear infinite}
+.a-in{animation:a-lap 5s linear infinite}
+.a-out{animation:a-lap 10s linear infinite}
+</style>
+ <g class="all">
+  <g transform="rotate(-14 200 110) translate(200 110) scale(1 .6) translate(-200 -110)">
+   <circle class="k f i0" cx="200" cy="110" r="164" />
+   <g class="a-arm">
+    <path class="w i0" d="M220.63,110 C220.89,110.91 221.89,113.52 222.18,115.48 C222.47,117.44 222.58,119.59 222.36,121.76 C222.14,123.94 221.67,126.26 220.85,128.53 C220.03,130.79 218.91,133.15 217.42,135.35 C215.93,137.54 214.1,139.75 211.93,141.69 C209.75,143.63 207.21,145.5 204.38,146.98 C201.54,148.46 198.34,149.77 194.93,150.59 C191.52,151.4 187.76,151.93 183.92,151.89 C180.08,151.84 175.96,151.39 171.9,150.32 C167.84,149.25 163.58,147.67 159.57,145.46 C155.56,143.24 151.48,140.43 147.82,137.02 C144.17,133.6 140.6,129.55 137.65,124.97 C134.7,120.39 132.02,115.16 130.12,109.54 C128.23,103.93 126.79,97.7 126.28,91.28 C125.77,84.86 125.91,77.92 127.08,71.03 C128.25,64.14 130.24,56.87 133.3,49.94 C136.35,43.01 140.36,35.9 145.4,29.44 C150.44,22.97 156.53,16.58 163.52,11.13 C170.51,5.68 178.59,0.59 187.34,-3.27 C196.1,-7.13 205.89,-10.32 216.07,-12.04 C226.24,-13.77 237.32,-14.52 248.39,-13.63 C259.46,-12.75 271.22,-10.6 282.51,-6.75 C293.8,-2.89 305.54,2.43 316.14,9.48 C326.75,16.53 341.13,31.2 346.13,35.55 L346.13,35.55 C340.28,31.94 322.68,19.48 311.05,13.89 C299.42,8.29 287.61,4.48 276.35,1.97 C265.09,-0.54 253.89,-1.35 243.51,-1.17 C233.13,-0.99 223.14,0.68 214.08,3.04 C205.02,5.4 196.61,8.99 189.16,12.99 C181.71,16.98 175.08,21.93 169.39,27.02 C163.69,32.12 158.91,37.88 154.99,43.58 C151.06,49.28 148.07,55.36 145.83,61.22 C143.58,67.08 142.24,73.09 141.51,78.74 C140.77,84.39 140.87,89.97 141.42,95.12 C141.98,100.27 143.25,105.2 144.84,109.64 C146.43,114.08 148.61,118.17 150.97,121.77 C153.33,125.37 156.13,128.54 159,131.23 C161.87,133.92 165.04,136.14 168.16,137.92 C171.29,139.7 174.59,141 177.76,141.92 C180.92,142.83 184.15,143.28 187.17,143.42 C190.2,143.55 193.17,143.26 195.91,142.73 C198.64,142.2 201.24,141.3 203.58,140.24 C205.91,139.17 208.05,137.8 209.91,136.34 C211.78,134.88 213.4,133.18 214.75,131.47 C216.11,129.75 217.2,127.87 218.05,126.04 C218.89,124.2 219.46,122.27 219.83,120.43 C220.19,118.59 220.28,116.73 220.21,114.99 C220.13,113.25 219.51,110.83 219.37,110 Z" />
+    <path class="w i0" d="M179.37,110 C179.11,109.09 178.11,106.48 177.82,104.52 C177.53,102.56 177.42,100.41 177.64,98.24 C177.86,96.06 178.33,93.74 179.15,91.47 C179.97,89.21 181.09,86.85 182.58,84.65 C184.07,82.46 185.9,80.25 188.07,78.31 C190.25,76.37 192.79,74.5 195.62,73.02 C198.46,71.54 201.66,70.23 205.07,69.41 C208.48,68.6 212.24,68.07 216.08,68.11 C219.92,68.16 224.04,68.61 228.1,69.68 C232.16,70.75 236.42,72.33 240.43,74.54 C244.44,76.76 248.52,79.57 252.18,82.98 C255.83,86.4 259.4,90.45 262.35,95.03 C265.3,99.61 267.98,104.84 269.88,110.46 C271.77,116.07 273.21,122.3 273.72,128.72 C274.23,135.14 274.09,142.08 272.92,148.97 C271.75,155.86 269.76,163.13 266.7,170.06 C263.65,176.99 259.64,184.1 254.6,190.56 C249.56,197.03 243.47,203.42 236.48,208.87 C229.49,214.32 221.41,219.41 212.66,223.27 C203.9,227.13 194.11,230.32 183.93,232.04 C173.76,233.77 162.68,234.52 151.61,233.63 C140.54,232.75 128.78,230.6 117.49,226.75 C106.2,222.89 94.46,217.57 83.86,210.52 C73.25,203.47 58.87,188.8 53.87,184.45 L53.87,184.45 C59.72,188.06 77.32,200.52 88.95,206.11 C100.58,211.71 112.39,215.52 123.65,218.03 C134.91,220.54 146.11,221.35 156.49,221.17 C166.87,220.99 176.86,219.32 185.92,216.96 C194.98,214.6 203.39,211.01 210.84,207.01 C218.29,203.02 224.92,198.07 230.61,192.98 C236.31,187.88 241.09,182.12 245.01,176.42 C248.94,170.72 251.93,164.64 254.17,158.78 C256.42,152.92 257.76,146.91 258.49,141.26 C259.23,135.61 259.13,130.03 258.58,124.88 C258.02,119.73 256.75,114.8 255.16,110.36 C253.57,105.92 251.39,101.83 249.03,98.23 C246.67,94.63 243.87,91.46 241,88.77 C238.13,86.08 234.96,83.86 231.84,82.08 C228.71,80.3 225.41,79 222.24,78.08 C219.08,77.17 215.85,76.72 212.83,76.58 C209.8,76.45 206.83,76.74 204.09,77.27 C201.36,77.8 198.76,78.7 196.42,79.76 C194.09,80.83 191.95,82.2 190.09,83.66 C188.22,85.12 186.6,86.82 185.25,88.53 C183.89,90.25 182.8,92.13 181.95,93.96 C181.11,95.8 180.54,97.73 180.17,99.57 C179.81,101.41 179.72,103.27 179.79,105.01 C179.87,106.75 180.49,109.17 180.63,110 Z" />
+    <path class="s i1" d="M220.63,110 C220.89,110.91 221.89,113.52 222.18,115.48 C222.47,117.44 222.58,119.59 222.36,121.76 C222.14,123.94 221.67,126.26 220.85,128.53 C220.03,130.79 218.91,133.15 217.42,135.35 C215.93,137.54 214.1,139.75 211.93,141.69 C209.75,143.63 207.21,145.5 204.38,146.98 C201.54,148.46 198.34,149.77 194.93,150.59 C191.52,151.4 187.76,151.93 183.92,151.89 C180.08,151.84 175.96,151.39 171.9,150.32 C167.84,149.25 163.58,147.67 159.57,145.46 C155.56,143.24 151.48,140.43 147.82,137.02 C144.17,133.6 140.6,129.55 137.65,124.97 C134.7,120.39 132.02,115.16 130.12,109.54 C128.23,103.93 126.79,97.7 126.28,91.28 C125.77,84.86 125.91,77.92 127.08,71.03 C128.25,64.14 130.24,56.87 133.3,49.94 C136.35,43.01 140.36,35.9 145.4,29.44 C150.44,22.97 156.53,16.58 163.52,11.13 C170.51,5.68 178.59,0.59 187.34,-3.27 C196.1,-7.13 205.89,-10.32 216.07,-12.04 C226.24,-13.77 237.32,-14.52 248.39,-13.63 C259.46,-12.75 271.22,-10.6 282.51,-6.75 C293.8,-2.89 305.54,2.43 316.14,9.48 C326.75,16.53 341.13,31.2 346.13,35.55" pathLength="1" />
+    <path class="q i1" d="M219.37,110 C219.51,110.83 220.13,113.25 220.21,114.99 C220.28,116.73 220.19,118.59 219.83,120.43 C219.46,122.27 218.89,124.2 218.05,126.04 C217.2,127.87 216.11,129.75 214.75,131.47 C213.4,133.18 211.78,134.88 209.91,136.34 C208.05,137.8 205.91,139.17 203.58,140.24 C201.24,141.3 198.64,142.2 195.91,142.73 C193.17,143.26 190.2,143.55 187.17,143.42 C184.15,143.28 180.92,142.83 177.76,141.92 C174.59,141 171.29,139.7 168.16,137.92 C165.04,136.14 161.87,133.92 159,131.23 C156.13,128.54 153.33,125.37 150.97,121.77 C148.61,118.17 146.43,114.08 144.84,109.64 C143.25,105.2 141.98,100.27 141.42,95.12 C140.87,89.97 140.77,84.39 141.51,78.74 C142.24,73.09 143.58,67.08 145.83,61.22 C148.07,55.36 151.06,49.28 154.99,43.58 C158.91,37.88 163.69,32.12 169.39,27.02 C175.08,21.93 181.71,16.98 189.16,12.99 C196.61,8.99 205.02,5.4 214.08,3.04 C223.14,0.68 233.13,-0.99 243.51,-1.17 C253.89,-1.35 265.09,-0.54 276.35,1.97 C287.61,4.48 299.42,8.29 311.05,13.89 C322.68,19.48 340.28,31.94 346.13,35.55" pathLength="1" />
+    <path class="s i1" d="M179.37,110 C179.11,109.09 178.11,106.48 177.82,104.52 C177.53,102.56 177.42,100.41 177.64,98.24 C177.86,96.06 178.33,93.74 179.15,91.47 C179.97,89.21 181.09,86.85 182.58,84.65 C184.07,82.46 185.9,80.25 188.07,78.31 C190.25,76.37 192.79,74.5 195.62,73.02 C198.46,71.54 201.66,70.23 205.07,69.41 C208.48,68.6 212.24,68.07 216.08,68.11 C219.92,68.16 224.04,68.61 228.1,69.68 C232.16,70.75 236.42,72.33 240.43,74.54 C244.44,76.76 248.52,79.57 252.18,82.98 C255.83,86.4 259.4,90.45 262.35,95.03 C265.3,99.61 267.98,104.84 269.88,110.46 C271.77,116.07 273.21,122.3 273.72,128.72 C274.23,135.14 274.09,142.08 272.92,148.97 C271.75,155.86 269.76,163.13 266.7,170.06 C263.65,176.99 259.64,184.1 254.6,190.56 C249.56,197.03 243.47,203.42 236.48,208.87 C229.49,214.32 221.41,219.41 212.66,223.27 C203.9,227.13 194.11,230.32 183.93,232.04 C173.76,233.77 162.68,234.52 151.61,233.63 C140.54,232.75 128.78,230.6 117.49,226.75 C106.2,222.89 94.46,217.57 83.86,210.52 C73.25,203.47 58.87,188.8 53.87,184.45" pathLength="1" />
+    <path class="q i2" d="M180.63,110 C180.49,109.17 179.87,106.75 179.79,105.01 C179.72,103.27 179.81,101.41 180.17,99.57 C180.54,97.73 181.11,95.8 181.95,93.96 C182.8,92.13 183.89,90.25 185.25,88.53 C186.6,86.82 188.22,85.12 190.09,83.66 C191.95,82.2 194.09,80.83 196.42,79.76 C198.76,78.7 201.36,77.8 204.09,77.27 C206.83,76.74 209.8,76.45 212.83,76.58 C215.85,76.72 219.08,77.17 222.24,78.08 C225.41,79 228.71,80.3 231.84,82.08 C234.96,83.86 238.13,86.08 241,88.77 C243.87,91.46 246.67,94.63 249.03,98.23 C251.39,101.83 253.57,105.92 255.16,110.36 C256.75,114.8 258.02,119.73 258.58,124.88 C259.13,130.03 259.23,135.61 258.49,141.26 C257.76,146.91 256.42,152.92 254.17,158.78 C251.93,164.64 248.94,170.72 245.01,176.42 C241.09,182.12 236.31,187.88 230.61,192.98 C224.92,198.07 218.29,203.02 210.84,207.01 C203.39,211.01 194.98,214.6 185.92,216.96 C176.86,219.32 166.87,220.99 156.49,221.17 C146.11,221.35 134.91,220.54 123.65,218.03 C112.39,215.52 100.58,211.71 88.95,206.11 C77.32,200.52 59.72,188.06 53.87,184.45" pathLength="1" />
+   </g>
+   <g class="a-in">
+    <circle class="pq i2" cx="205.2" cy="75.73" r="1.6" />
+    <circle class="pq i2" cx="154.74" cy="115.85" r="1.6" />
+    <circle class="pq i3" cx="170.56" cy="144.63" r="1.6" />
+    <circle class="pq i3" cx="221.1" cy="140.26" r="1.6" />
+    <circle class="pq i4" cx="262.2" cy="82.81" r="1.6" />
+    <circle class="pq i4" cx="148.14" cy="79.61" r="1.6" />
+    <circle class="pq i4" cx="250.67" cy="131.59" r="1.6" />
+    <circle class="pq i5" cx="257.17" cy="106.48" r="1.6" />
+    <circle class="pq i5" cx="190.62" cy="80.55" r="1.6" />
+    <circle class="pq i5" cx="226.98" cy="61.99" r="1.6" />
+    <circle class="pq i6" cx="159.7" cy="150.87" r="1.6" />
+    <circle class="pq i6" cx="264.85" cy="90.93" r="1.6" />
+   </g>
+   <g class="a-out">
+    <circle class="pq i7" cx="148.71" cy="228.16" r="1.6" />
+    <circle class="pq i7" cx="139.63" cy="52.19" r="1.6" />
+    <circle class="pq i7" cx="320.57" cy="41.65" r="1.6" />
+    <circle class="pq i8" cx="118.51" cy="85.66" r="1.6" />
+    <circle class="pq i8" cx="257.02" cy="198.55" r="1.6" />
+    <circle class="pq i8" cx="121.36" cy="238.3" r="1.6" />
+    <circle class="pq i9" cx="105.65" cy="232.08" r="1.6" />
+    <circle class="pq i9" cx="277.18" cy="182.67" r="1.6" />
+    <circle class="pq i10" cx="276.77" cy="98.91" r="1.6" />
+    <circle class="pq i10" cx="139.77" cy="63.41" r="1.6" />
+    <circle class="pq i10" cx="124.44" cy="56.02" r="1.6" />
+    <circle class="pq i11" cx="224.26" cy="188.82" r="1.6" />
+    <circle class="pq i11" cx="268.8" cy="173.88" r="1.6" />
+    <circle class="pq i11" cx="168.93" cy="33.7" r="1.6" />
+    <circle class="pq i12" cx="191.89" cy="13.21" r="1.6" />
+    <circle class="pq i12" cx="291.46" cy="-5.81" r="1.6" />
+    <circle class="pq i13" cx="358.6" cy="111.79" r="1.6" />
+    <circle class="pq i13" cx="183.14" cy="215.21" r="1.6" />
+    <circle class="pq i13" cx="257.01" cy="-30.97" r="1.6" />
+    <circle class="pq i14" cx="243.62" cy="172.35" r="1.6" />
+   </g>
+   <circle class="w i14" cx="200" cy="110" r="24" />
+   <circle class="s i14" cx="200" cy="110" r="24" pathLength="1" />
+   <circle class="p i15" cx="200" cy="110" r="8" />
+  </g>
+  <text class="t i15" x="200" y="226" text-anchor="middle">stars drift through the slower arms</text>
+ </g>
+</svg>

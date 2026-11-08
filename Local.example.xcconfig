@@ -1,0 +1,11 @@
+// Copy this file to Local.xcconfig (ignored by git) and fill in what you need.
+
+// A bundle identifier of your own, and your Apple developer team ID, to sign
+// builds for a device. Neither is needed for the simulator.
+// PRODUCT_BUNDLE_IDENTIFIER = com.yourname.aubereader
+// DEVELOPMENT_TEAM = ABCDE12345
+
+// Your OpenAI API key, for rewriting, asking and checking imports. Without it
+// the app still builds and runs; those features say the key is missing.
+// The key is embedded in the built app, so never distribute a build that has one.
+// OPENAI_API_KEY = sk-...

@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="medicine--epidemic-sir-curve" data-discipline="medicine" data-tags="epidemic,sir-model,infection,herd-immunity,epidemiology,r0" role="img">
+ <title>Epidemic SIR curves</title>
+ <desc>The SIR model of an epidemic: susceptible people fall as recovered people rise, while the infected curve swells to a peak and dies away as hosts run out.</desc>
+ <style>
+:root{--ink:#110f0c;--quiet:#555350;--faint:#b8b6b2;--wash:#f5f3ef}
+@media (prefers-color-scheme:dark){:root{--ink:#e7e5e2;--quiet:#a3a19e;--faint:#524f4c;--wash:#252321}}
+svg{overflow:visible}
+.s,.q,.f{fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1;stroke-dashoffset:0}
+.s{stroke:var(--ink);stroke-width:1.5}
+.q{stroke:var(--quiet);stroke-width:1.3}
+.f{stroke:var(--faint);stroke-width:1.1}
+.hair{stroke-width:1!important}
+.bold{stroke-width:2.2!important}
+.k{fill:none;stroke-dasharray:5 5!important;stroke-linecap:round}
+.p{fill:var(--ink);stroke:none}
+.pq{fill:var(--quiet);stroke:none}
+.w{fill:var(--wash);stroke:none}
+.t{fill:var(--quiet);stroke:none;font:italic 13px ui-serif,"New York",Georgia,serif}
+.all{animation:out 10s linear infinite}
+@keyframes out{0%,90%{opacity:1}97%,99.9%{opacity:0}100%{opacity:1}}
+@keyframes dr0{0%,0.0%{stroke-dashoffset:1;opacity:0}0.1%{stroke-dashoffset:1;opacity:1}9%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd0{0%,0.0%{opacity:0}7%,100%{opacity:1}}
+@keyframes dr1{0%,2.2%{stroke-dashoffset:1;opacity:0}2.3%{stroke-dashoffset:1;opacity:1}11.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd1{0%,2.2%{opacity:0}9.2%,100%{opacity:1}}
+@keyframes dr2{0%,4.4%{stroke-dashoffset:1;opacity:0}4.5%{stroke-dashoffset:1;opacity:1}13.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd2{0%,4.4%{opacity:0}11.4%,100%{opacity:1}}
+@keyframes dr3{0%,6.6%{stroke-dashoffset:1;opacity:0}6.7%{stroke-dashoffset:1;opacity:1}15.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd3{0%,6.6%{opacity:0}13.6%,100%{opacity:1}}
+@keyframes dr4{0%,8.8%{stroke-dashoffset:1;opacity:0}8.9%{stroke-dashoffset:1;opacity:1}17.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd4{0%,8.8%{opacity:0}15.8%,100%{opacity:1}}
+@keyframes dr5{0%,11.0%{stroke-dashoffset:1;opacity:0}11.1%{stroke-dashoffset:1;opacity:1}20%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd5{0%,11.0%{opacity:0}18%,100%{opacity:1}}
+@keyframes dr6{0%,13.2%{stroke-dashoffset:1;opacity:0}13.3%{stroke-dashoffset:1;opacity:1}22.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd6{0%,13.2%{opacity:0}20.2%,100%{opacity:1}}
+@keyframes dr7{0%,15.4%{stroke-dashoffset:1;opacity:0}15.5%{stroke-dashoffset:1;opacity:1}24.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd7{0%,15.4%{opacity:0}22.4%,100%{opacity:1}}
+@keyframes dr8{0%,17.6%{stroke-dashoffset:1;opacity:0}17.7%{stroke-dashoffset:1;opacity:1}26.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd8{0%,17.6%{opacity:0}24.6%,100%{opacity:1}}
+@keyframes dr9{0%,19.8%{stroke-dashoffset:1;opacity:0}19.9%{stroke-dashoffset:1;opacity:1}28.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd9{0%,19.8%{opacity:0}26.8%,100%{opacity:1}}
+@keyframes dr10{0%,22.0%{stroke-dashoffset:1;opacity:0}22.1%{stroke-dashoffset:1;opacity:1}31%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd10{0%,22.0%{opacity:0}29%,100%{opacity:1}}
+@keyframes dr11{0%,24.2%{stroke-dashoffset:1;opacity:0}24.3%{stroke-dashoffset:1;opacity:1}33.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd11{0%,24.2%{opacity:0}31.2%,100%{opacity:1}}
+@keyframes dr12{0%,26.4%{stroke-dashoffset:1;opacity:0}26.5%{stroke-dashoffset:1;opacity:1}35.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd12{0%,26.4%{opacity:0}33.4%,100%{opacity:1}}
+@keyframes dr13{0%,28.6%{stroke-dashoffset:1;opacity:0}28.7%{stroke-dashoffset:1;opacity:1}37.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd13{0%,28.6%{opacity:0}35.6%,100%{opacity:1}}
+@keyframes dr14{0%,30.8%{stroke-dashoffset:1;opacity:0}30.9%{stroke-dashoffset:1;opacity:1}39.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd14{0%,30.8%{opacity:0}37.8%,100%{opacity:1}}
+@keyframes dr15{0%,33.0%{stroke-dashoffset:1;opacity:0}33.1%{stroke-dashoffset:1;opacity:1}42%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd15{0%,33.0%{opacity:0}40%,100%{opacity:1}}
+.s.i0,.q.i0,.f.i0{animation:dr0 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i1,.q.i1,.f.i1{animation:dr1 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i2,.q.i2,.f.i2{animation:dr2 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i3,.q.i3,.f.i3{animation:dr3 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i4,.q.i4,.f.i4{animation:dr4 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i5,.q.i5,.f.i5{animation:dr5 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i6,.q.i6,.f.i6{animation:dr6 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i7,.q.i7,.f.i7{animation:dr7 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i8,.q.i8,.f.i8{animation:dr8 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i9,.q.i9,.f.i9{animation:dr9 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i10,.q.i10,.f.i10{animation:dr10 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i11,.q.i11,.f.i11{animation:dr11 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i12,.q.i12,.f.i12{animation:dr12 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i13,.q.i13,.f.i13{animation:dr13 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i14,.q.i14,.f.i14{animation:dr14 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i15,.q.i15,.f.i15{animation:dr15 10s cubic-bezier(.55,.05,.25,1) infinite}
+.p.i0,.w.i0,.pq.i0,.t.i0,.k.i0{animation:fd0 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i1,.w.i1,.pq.i1,.t.i1,.k.i1{animation:fd1 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i2,.w.i2,.pq.i2,.t.i2,.k.i2{animation:fd2 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i3,.w.i3,.pq.i3,.t.i3,.k.i3{animation:fd3 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i4,.w.i4,.pq.i4,.t.i4,.k.i4{animation:fd4 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i5,.w.i5,.pq.i5,.t.i5,.k.i5{animation:fd5 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i6,.w.i6,.pq.i6,.t.i6,.k.i6{animation:fd6 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i7,.w.i7,.pq.i7,.t.i7,.k.i7{animation:fd7 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i8,.w.i8,.pq.i8,.t.i8,.k.i8{animation:fd8 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i9,.w.i9,.pq.i9,.t.i9,.k.i9{animation:fd9 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i10,.w.i10,.pq.i10,.t.i10,.k.i10{animation:fd10 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i11,.w.i11,.pq.i11,.t.i11,.k.i11{animation:fd11 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i12,.w.i12,.pq.i12,.t.i12,.k.i12{animation:fd12 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i13,.w.i13,.pq.i13,.t.i13,.k.i13{animation:fd13 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i14,.w.i14,.pq.i14,.t.i14,.k.i14{animation:fd14 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i15,.w.i15,.pq.i15,.t.i15,.k.i15{animation:fd15 10s cubic-bezier(.2,.7,.3,1) infinite}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+ <style>
+.a-cursor{animation:a-cursor 10s linear infinite}
+@keyframes a-cursor{0%{transform:translateX(0)}100%{transform:translateX(312px)}}
+.a-ms{animation:a-ms 10s linear infinite}
+@keyframes a-ms{0.00%{transform:translateY(38.8px)}5.00%{transform:translateY(40.3px)}10.00%{transform:translateY(43.8px)}15.00%{transform:translateY(51.7px)}20.00%{transform:translateY(67.6px)}25.00%{transform:translateY(93.6px)}30.00%{transform:translateY(124.6px)}35.00%{transform:translateY(151.0px)}40.00%{transform:translateY(168.3px)}45.00%{transform:translateY(178.2px)}50.00%{transform:translateY(183.9px)}55.00%{transform:translateY(187.1px)}60.00%{transform:translateY(189.0px)}65.00%{transform:translateY(190.2px)}70.00%{transform:translateY(191.0px)}75.00%{transform:translateY(191.6px)}80.00%{transform:translateY(191.9px)}85.00%{transform:translateY(192.2px)}90.00%{transform:translateY(192.4px)}95.00%{transform:translateY(192.5px)}100.00%{transform:translateY(192.6px)}}
+.a-mi{animation:a-mi 10s linear infinite}
+@keyframes a-mi{0.00%{transform:translateY(195.2px)}5.00%{transform:translateY(194.1px)}10.00%{transform:translateY(191.5px)}15.00%{transform:translateY(185.7px)}20.00%{transform:translateY(174.4px)}25.00%{transform:translateY(157.3px)}30.00%{transform:translateY(140.5px)}35.00%{transform:translateY(132.3px)}40.00%{transform:translateY(134.0px)}45.00%{transform:translateY(141.6px)}50.00%{transform:translateY(151.0px)}55.00%{transform:translateY(159.9px)}60.00%{transform:translateY(167.6px)}65.00%{transform:translateY(173.9px)}70.00%{transform:translateY(179.0px)}75.00%{transform:translateY(183.0px)}80.00%{transform:translateY(186.0px)}85.00%{transform:translateY(188.4px)}90.00%{transform:translateY(190.2px)}95.00%{transform:translateY(191.6px)}100.00%{transform:translateY(192.7px)}}
+.a-mr{animation:a-mr 10s linear infinite}
+@keyframes a-mr{0.00%{transform:translateY(196.0px)}5.00%{transform:translateY(195.6px)}10.00%{transform:translateY(194.7px)}15.00%{transform:translateY(192.6px)}20.00%{transform:translateY(187.9px)}25.00%{transform:translateY(178.9px)}30.00%{transform:translateY(164.6px)}35.00%{transform:translateY(146.4px)}40.00%{transform:translateY(127.4px)}45.00%{transform:translateY(109.9px)}50.00%{transform:translateY(95.0px)}55.00%{transform:translateY(82.8px)}60.00%{transform:translateY(73.2px)}65.00%{transform:translateY(65.7px)}70.00%{transform:translateY(59.9px)}75.00%{transform:translateY(55.4px)}80.00%{transform:translateY(52.0px)}85.00%{transform:translateY(49.4px)}90.00%{transform:translateY(47.4px)}95.00%{transform:translateY(45.9px)}100.00%{transform:translateY(44.7px)}}
+</style>
+ <g class="all">
+  <path class="f i0" d="M44,30V196H362" pathLength="1" />
+  <path class="w i1" d="M44,195.2C44.9,195.2 47.5,195 49.2,194.9C50.9,194.8 52.7,194.7 54.4,194.6C56.1,194.4 57.9,194.3 59.6,194.1C61.3,193.9 63.1,193.7 64.8,193.4C66.5,193.2 68.3,192.9 70,192.6C71.7,192.3 73.5,191.9 75.2,191.5C76.9,191 78.7,190.6 80.4,190C82.1,189.4 83.9,188.8 85.6,188.1C87.3,187.4 89.1,186.6 90.8,185.7C92.5,184.7 94.3,183.7 96,182.6C97.7,181.5 99.5,180.2 101.2,178.9C102.9,177.5 104.7,176 106.4,174.4C108.1,172.8 109.9,171 111.6,169.2C113.3,167.4 115.1,165.4 116.8,163.4C118.5,161.4 120.3,159.4 122,157.3C123.7,155.3 125.5,153.2 127.2,151.2C128.9,149.2 130.7,147.3 132.4,145.5C134.1,143.7 135.9,142 137.6,140.5C139.3,139 141.1,137.7 142.8,136.6C144.5,135.4 146.3,134.5 148,133.8C149.7,133.1 151.5,132.6 153.2,132.3C154.9,132 156.7,131.9 158.4,131.9C160.1,132 161.9,132.2 163.6,132.6C165.3,132.9 167.1,133.4 168.8,134C170.5,134.6 172.3,135.4 174,136.2C175.7,136.9 177.5,137.8 179.2,138.7C180.9,139.6 182.7,140.6 184.4,141.6C186.1,142.6 187.9,143.6 189.6,144.7C191.3,145.7 193.1,146.8 194.8,147.8C196.5,148.9 198.3,149.9 200,151C201.7,152 203.5,153 205.2,154C206.9,155.1 208.7,156.1 210.4,157C212.1,158 213.9,159 215.6,159.9C217.3,160.8 219.1,161.7 220.8,162.6C222.5,163.5 224.3,164.4 226,165.2C227.7,166 229.5,166.8 231.2,167.6C232.9,168.4 234.7,169.2 236.4,169.9C238.1,170.6 239.9,171.3 241.6,172C243.3,172.7 245.1,173.3 246.8,173.9C248.5,174.6 250.3,175.2 252,175.8C253.7,176.3 255.5,176.9 257.2,177.4C258.9,178 260.7,178.5 262.4,179C264.1,179.5 265.9,180 267.6,180.4C269.3,180.9 271.1,181.3 272.8,181.7C274.5,182.2 276.3,182.6 278,183C279.7,183.3 281.5,183.7 283.2,184.1C284.9,184.4 286.7,184.8 288.4,185.1C290.1,185.4 291.9,185.7 293.6,186C295.3,186.3 297.1,186.6 298.8,186.9C300.5,187.2 302.3,187.4 304,187.7C305.7,187.9 307.5,188.2 309.2,188.4C310.9,188.6 312.7,188.8 314.4,189.1C316.1,189.3 317.9,189.5 319.6,189.7C321.3,189.8 323.1,190 324.8,190.2C326.5,190.4 328.3,190.5 330,190.7C331.7,190.9 333.5,191 335.2,191.2C336.9,191.3 338.7,191.5 340.4,191.6C342.1,191.7 343.9,191.9 345.6,192C347.3,192.1 349.1,192.2 350.8,192.3C352.5,192.4 355.1,192.6 356,192.7L356,196L44,196Z" />
+  <path class="q i2" d="M44,38.8C44.9,38.9 47.5,39 49.2,39.2C50.9,39.3 52.7,39.4 54.4,39.6C56.1,39.8 57.9,40 59.6,40.3C61.3,40.5 63.1,40.8 64.8,41.2C66.5,41.5 68.3,41.9 70,42.3C71.7,42.7 73.5,43.2 75.2,43.8C76.9,44.4 78.7,45 80.4,45.8C82.1,46.6 83.9,47.4 85.6,48.4C87.3,49.4 89.1,50.5 90.8,51.7C92.5,53 94.3,54.4 96,56C97.7,57.5 99.5,59.3 101.2,61.2C102.9,63.2 104.7,65.3 106.4,67.6C108.1,70 109.9,72.5 111.6,75.2C113.3,77.9 115.1,80.9 116.8,83.9C118.5,87 120.3,90.3 122,93.6C123.7,96.9 125.5,100.4 127.2,103.8C128.9,107.3 130.7,110.9 132.4,114.3C134.1,117.8 135.9,121.3 137.6,124.6C139.3,127.9 141.1,131.2 142.8,134.3C144.5,137.4 146.3,140.4 148,143.1C149.7,145.9 151.5,148.5 153.2,151C154.9,153.4 156.7,155.6 158.4,157.7C160.1,159.8 161.9,161.7 163.6,163.5C165.3,165.2 167.1,166.8 168.8,168.3C170.5,169.7 172.3,171 174,172.2C175.7,173.5 177.5,174.5 179.2,175.5C180.9,176.5 182.7,177.4 184.4,178.2C186.1,179.1 187.9,179.8 189.6,180.5C191.3,181.2 193.1,181.8 194.8,182.3C196.5,182.9 198.3,183.4 200,183.9C201.7,184.3 203.5,184.7 205.2,185.1C206.9,185.5 208.7,185.9 210.4,186.2C212.1,186.5 213.9,186.8 215.6,187.1C217.3,187.4 219.1,187.6 220.8,187.8C222.5,188.1 224.3,188.3 226,188.5C227.7,188.7 229.5,188.8 231.2,189C232.9,189.2 234.7,189.3 236.4,189.5C238.1,189.6 239.9,189.8 241.6,189.9C243.3,190 245.1,190.1 246.8,190.2C248.5,190.3 250.3,190.4 252,190.5C253.7,190.6 255.5,190.7 257.2,190.8C258.9,190.9 260.7,191 262.4,191C264.1,191.1 265.9,191.2 267.6,191.2C269.3,191.3 271.1,191.4 272.8,191.4C274.5,191.5 276.3,191.5 278,191.6C279.7,191.6 281.5,191.7 283.2,191.7C284.9,191.7 286.7,191.8 288.4,191.8C290.1,191.9 291.9,191.9 293.6,191.9C295.3,192 297.1,192 298.8,192C300.5,192.1 302.3,192.1 304,192.1C305.7,192.1 307.5,192.2 309.2,192.2C310.9,192.2 312.7,192.2 314.4,192.3C316.1,192.3 317.9,192.3 319.6,192.3C321.3,192.3 323.1,192.4 324.8,192.4C326.5,192.4 328.3,192.4 330,192.4C331.7,192.4 333.5,192.5 335.2,192.5C336.9,192.5 338.7,192.5 340.4,192.5C342.1,192.5 343.9,192.5 345.6,192.6C347.3,192.6 349.1,192.6 350.8,192.6C352.5,192.6 355.1,192.6 356,192.6" pathLength="1" />
+  <path class="k q i3" d="M44,196C44.9,196 47.5,195.9 49.2,195.9C50.9,195.9 52.7,195.8 54.4,195.8C56.1,195.7 57.9,195.7 59.6,195.6C61.3,195.6 63.1,195.5 64.8,195.4C66.5,195.3 68.3,195.2 70,195.1C71.7,195 73.5,194.9 75.2,194.7C76.9,194.5 78.7,194.4 80.4,194.2C82.1,194 83.9,193.7 85.6,193.5C87.3,193.2 89.1,192.9 90.8,192.6C92.5,192.2 94.3,191.8 96,191.4C97.7,190.9 99.5,190.4 101.2,189.8C102.9,189.3 104.7,188.6 106.4,187.9C108.1,187.2 109.9,186.4 111.6,185.5C113.3,184.6 115.1,183.6 116.8,182.5C118.5,181.4 120.3,180.2 122,178.9C123.7,177.6 125.5,176.2 127.2,174.7C128.9,173.2 130.7,171.6 132.4,169.9C134.1,168.2 135.9,166.5 137.6,164.6C139.3,162.8 141.1,160.8 142.8,158.8C144.5,156.9 146.3,154.8 148,152.7C149.7,150.7 151.5,148.6 153.2,146.4C154.9,144.3 156.7,142.2 158.4,140C160.1,137.9 161.9,135.8 163.6,133.7C165.3,131.5 167.1,129.4 168.8,127.4C170.5,125.3 172.3,123.3 174,121.3C175.7,119.3 177.5,117.3 179.2,115.4C180.9,113.5 182.7,111.7 184.4,109.9C186.1,108.1 187.9,106.3 189.6,104.6C191.3,102.9 193.1,101.2 194.8,99.6C196.5,98 198.3,96.5 200,95C201.7,93.5 203.5,92 205.2,90.6C206.9,89.2 208.7,87.9 210.4,86.6C212.1,85.3 213.9,84 215.6,82.8C217.3,81.6 219.1,80.5 220.8,79.4C222.5,78.3 224.3,77.2 226,76.2C227.7,75.2 229.5,74.2 231.2,73.2C232.9,72.3 234.7,71.4 236.4,70.5C238.1,69.6 239.9,68.8 241.6,68C243.3,67.2 245.1,66.4 246.8,65.7C248.5,65 250.3,64.3 252,63.6C253.7,62.9 255.5,62.3 257.2,61.7C258.9,61 260.7,60.5 262.4,59.9C264.1,59.3 265.9,58.8 267.6,58.3C269.3,57.8 271.1,57.3 272.8,56.8C274.5,56.3 276.3,55.9 278,55.4C279.7,55 281.5,54.6 283.2,54.2C284.9,53.8 286.7,53.4 288.4,53C290.1,52.7 291.9,52.3 293.6,52C295.3,51.7 297.1,51.3 298.8,51C300.5,50.7 302.3,50.5 304,50.2C305.7,49.9 307.5,49.6 309.2,49.4C310.9,49.1 312.7,48.9 314.4,48.7C316.1,48.4 317.9,48.2 319.6,48C321.3,47.8 323.1,47.6 324.8,47.4C326.5,47.2 328.3,47 330,46.8C331.7,46.7 333.5,46.5 335.2,46.3C336.9,46.2 338.7,46 340.4,45.9C342.1,45.7 343.9,45.6 345.6,45.4C347.3,45.3 349.1,45.2 350.8,45.1C352.5,44.9 355.1,44.8 356,44.7" />
+  <path class="s bold i4" d="M44,195.2C44.9,195.2 47.5,195 49.2,194.9C50.9,194.8 52.7,194.7 54.4,194.6C56.1,194.4 57.9,194.3 59.6,194.1C61.3,193.9 63.1,193.7 64.8,193.4C66.5,193.2 68.3,192.9 70,192.6C71.7,192.3 73.5,191.9 75.2,191.5C76.9,191 78.7,190.6 80.4,190C82.1,189.4 83.9,188.8 85.6,188.1C87.3,187.4 89.1,186.6 90.8,185.7C92.5,184.7 94.3,183.7 96,182.6C97.7,181.5 99.5,180.2 101.2,178.9C102.9,177.5 104.7,176 106.4,174.4C108.1,172.8 109.9,171 111.6,169.2C113.3,167.4 115.1,165.4 116.8,163.4C118.5,161.4 120.3,159.4 122,157.3C123.7,155.3 125.5,153.2 127.2,151.2C128.9,149.2 130.7,147.3 132.4,145.5C134.1,143.7 135.9,142 137.6,140.5C139.3,139 141.1,137.7 142.8,136.6C144.5,135.4 146.3,134.5 148,133.8C149.7,133.1 151.5,132.6 153.2,132.3C154.9,132 156.7,131.9 158.4,131.9C160.1,132 161.9,132.2 163.6,132.6C165.3,132.9 167.1,133.4 168.8,134C170.5,134.6 172.3,135.4 174,136.2C175.7,136.9 177.5,137.8 179.2,138.7C180.9,139.6 182.7,140.6 184.4,141.6C186.1,142.6 187.9,143.6 189.6,144.7C191.3,145.7 193.1,146.8 194.8,147.8C196.5,148.9 198.3,149.9 200,151C201.7,152 203.5,153 205.2,154C206.9,155.1 208.7,156.1 210.4,157C212.1,158 213.9,159 215.6,159.9C217.3,160.8 219.1,161.7 220.8,162.6C222.5,163.5 224.3,164.4 226,165.2C227.7,166 229.5,166.8 231.2,167.6C232.9,168.4 234.7,169.2 236.4,169.9C238.1,170.6 239.9,171.3 241.6,172C243.3,172.7 245.1,173.3 246.8,173.9C248.5,174.6 250.3,175.2 252,175.8C253.7,176.3 255.5,176.9 257.2,177.4C258.9,178 260.7,178.5 262.4,179C264.1,179.5 265.9,180 267.6,180.4C269.3,180.9 271.1,181.3 272.8,181.7C274.5,182.2 276.3,182.6 278,183C279.7,183.3 281.5,183.7 283.2,184.1C284.9,184.4 286.7,184.8 288.4,185.1C290.1,185.4 291.9,185.7 293.6,186C295.3,186.3 297.1,186.6 298.8,186.9C300.5,187.2 302.3,187.4 304,187.7C305.7,187.9 307.5,188.2 309.2,188.4C310.9,188.6 312.7,188.8 314.4,189.1C316.1,189.3 317.9,189.5 319.6,189.7C321.3,189.8 323.1,190 324.8,190.2C326.5,190.4 328.3,190.5 330,190.7C331.7,190.9 333.5,191 335.2,191.2C336.9,191.3 338.7,191.5 340.4,191.6C342.1,191.7 343.9,191.9 345.6,192C347.3,192.1 349.1,192.2 350.8,192.3C352.5,192.4 355.1,192.6 356,192.7" pathLength="1" />
+  <g class="a-cursor">
+   <path class="f hair i5" d="M44,34V196" pathLength="1" />
+   <g class="a-ms">
+    <circle class="pq i6" cx="44" r="2.8" />
+   </g>
+   <g class="a-mr">
+    <circle class="pq i7" cx="44" r="2.8" />
+   </g>
+   <g class="a-mi">
+    <circle class="p i8" cx="44" r="3.6" />
+   </g>
+  </g>
+  <text class="t i9" x="92" y="30" text-anchor="start">susceptible</text>
+  <text class="t i10" x="224.4" y="149.9" text-anchor="start">infected</text>
+  <text class="t i11" x="354" y="30" text-anchor="end">recovered</text>
+ </g>
+</svg>

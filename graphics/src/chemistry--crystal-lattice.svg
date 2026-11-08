@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="chemistry--crystal-lattice" data-discipline="chemistry" data-tags="crystal,lattice,ionic-solid,sodium-chloride,unit-cell,vibration">
+<title>Ionic crystal lattice</title>
+<desc>Sodium and chloride ions alternate in a regular grid, each held by its neighbours; heat only makes them tremble about fixed positions.</desc>
+<style>
+.a-v1{animation:a-v1 1s ease-in-out infinite alternate}
+.a-v2{animation:a-v2 1s ease-in-out infinite alternate}
+@keyframes a-v1{from{transform:translate(-1.4px,.9px)}to{transform:translate(1.4px,-.9px)}}
+@keyframes a-v2{from{transform:translate(1.6px,-1px)}to{transform:translate(-1.6px,1px)}}
+</style>
+<g class="a-v1"><circle class="w" cx="90" cy="52" r="16"/><circle class="w" cx="178" cy="52" r="16"/><circle class="w" cx="266" cy="52" r="16"/><circle class="w" cx="134" cy="96" r="16"/><circle class="w" cx="222" cy="96" r="16"/><circle class="w" cx="310" cy="96" r="16"/><circle class="w" cx="90" cy="140" r="16"/><circle class="w" cx="178" cy="140" r="16"/><circle class="w" cx="266" cy="140" r="16"/><circle class="w" cx="134" cy="184" r="16"/><circle class="w" cx="222" cy="184" r="16"/><circle class="w" cx="310" cy="184" r="16"/><circle class="s" cx="90" cy="52" r="16"/><circle class="s" cx="178" cy="52" r="16"/><circle class="s" cx="266" cy="52" r="16"/><circle class="s" cx="134" cy="96" r="16"/><circle class="s" cx="222" cy="96" r="16"/><circle class="s" cx="310" cy="96" r="16"/><circle class="s" cx="90" cy="140" r="16"/><circle class="s" cx="178" cy="140" r="16"/><circle class="s" cx="266" cy="140" r="16"/><circle class="s" cx="134" cy="184" r="16"/><circle class="s" cx="222" cy="184" r="16"/><circle class="s" cx="310" cy="184" r="16"/></g>
+<g class="a-v2"><circle class="p" cx="134" cy="52" r="7"/><circle class="p" cx="222" cy="52" r="7"/><circle class="p" cx="310" cy="52" r="7"/><circle class="p" cx="90" cy="96" r="7"/><circle class="p" cx="178" cy="96" r="7"/><circle class="p" cx="266" cy="96" r="7"/><circle class="p" cx="134" cy="140" r="7"/><circle class="p" cx="222" cy="140" r="7"/><circle class="p" cx="310" cy="140" r="7"/><circle class="p" cx="90" cy="184" r="7"/><circle class="p" cx="178" cy="184" r="7"/><circle class="p" cx="266" cy="184" r="7"/></g>
+<path class="k s" d="M178,96 H222 V140 H178Z"/>
+<circle class="p" cx="160" cy="214" r="5"/>
+<circle class="w" cx="236" cy="214" r="9"/><circle class="s" cx="236" cy="214" r="9"/>
+<text class="t" x="172" y="219" text-anchor="start">Na⁺</text>
+<text class="t" x="251" y="219" text-anchor="start">Cl⁻</text>
+</svg>

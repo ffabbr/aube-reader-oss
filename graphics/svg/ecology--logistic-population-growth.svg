@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="ecology--logistic-population-growth" data-discipline="ecology" data-tags="logistic-growth,carrying-capacity,population,s-curve,resource-limits,growth-rate" role="img">
+ <title>Logistic population growth</title>
+ <desc>A population grows slowly, then fast, then levels off at the carrying capacity K where resources run out: the S-shaped logistic curve.</desc>
+ <style>
+:root{--ink:#110f0c;--quiet:#555350;--faint:#b8b6b2;--wash:#f5f3ef}
+@media (prefers-color-scheme:dark){:root{--ink:#e7e5e2;--quiet:#a3a19e;--faint:#524f4c;--wash:#252321}}
+svg{overflow:visible}
+.s,.q,.f{fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1;stroke-dashoffset:0}
+.s{stroke:var(--ink);stroke-width:1.5}
+.q{stroke:var(--quiet);stroke-width:1.3}
+.f{stroke:var(--faint);stroke-width:1.1}
+.hair{stroke-width:1!important}
+.bold{stroke-width:2.2!important}
+.k{fill:none;stroke-dasharray:5 5!important;stroke-linecap:round}
+.p{fill:var(--ink);stroke:none}
+.pq{fill:var(--quiet);stroke:none}
+.w{fill:var(--wash);stroke:none}
+.t{fill:var(--quiet);stroke:none;font:italic 13px ui-serif,"New York",Georgia,serif}
+.all{animation:out 10s linear infinite}
+@keyframes out{0%,90%{opacity:1}97%,99.9%{opacity:0}100%{opacity:1}}
+@keyframes dr0{0%,0.0%{stroke-dashoffset:1;opacity:0}0.1%{stroke-dashoffset:1;opacity:1}9%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd0{0%,0.0%{opacity:0}7%,100%{opacity:1}}
+@keyframes dr1{0%,2.2%{stroke-dashoffset:1;opacity:0}2.3%{stroke-dashoffset:1;opacity:1}11.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd1{0%,2.2%{opacity:0}9.2%,100%{opacity:1}}
+@keyframes dr2{0%,4.4%{stroke-dashoffset:1;opacity:0}4.5%{stroke-dashoffset:1;opacity:1}13.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd2{0%,4.4%{opacity:0}11.4%,100%{opacity:1}}
+@keyframes dr3{0%,6.6%{stroke-dashoffset:1;opacity:0}6.7%{stroke-dashoffset:1;opacity:1}15.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd3{0%,6.6%{opacity:0}13.6%,100%{opacity:1}}
+@keyframes dr4{0%,8.8%{stroke-dashoffset:1;opacity:0}8.9%{stroke-dashoffset:1;opacity:1}17.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd4{0%,8.8%{opacity:0}15.8%,100%{opacity:1}}
+@keyframes dr5{0%,11.0%{stroke-dashoffset:1;opacity:0}11.1%{stroke-dashoffset:1;opacity:1}20%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd5{0%,11.0%{opacity:0}18%,100%{opacity:1}}
+@keyframes dr6{0%,13.2%{stroke-dashoffset:1;opacity:0}13.3%{stroke-dashoffset:1;opacity:1}22.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd6{0%,13.2%{opacity:0}20.2%,100%{opacity:1}}
+@keyframes dr7{0%,15.4%{stroke-dashoffset:1;opacity:0}15.5%{stroke-dashoffset:1;opacity:1}24.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd7{0%,15.4%{opacity:0}22.4%,100%{opacity:1}}
+@keyframes dr8{0%,17.6%{stroke-dashoffset:1;opacity:0}17.7%{stroke-dashoffset:1;opacity:1}26.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd8{0%,17.6%{opacity:0}24.6%,100%{opacity:1}}
+@keyframes dr9{0%,19.8%{stroke-dashoffset:1;opacity:0}19.9%{stroke-dashoffset:1;opacity:1}28.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd9{0%,19.8%{opacity:0}26.8%,100%{opacity:1}}
+@keyframes dr10{0%,22.0%{stroke-dashoffset:1;opacity:0}22.1%{stroke-dashoffset:1;opacity:1}31%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd10{0%,22.0%{opacity:0}29%,100%{opacity:1}}
+@keyframes dr11{0%,24.2%{stroke-dashoffset:1;opacity:0}24.3%{stroke-dashoffset:1;opacity:1}33.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd11{0%,24.2%{opacity:0}31.2%,100%{opacity:1}}
+@keyframes dr12{0%,26.4%{stroke-dashoffset:1;opacity:0}26.5%{stroke-dashoffset:1;opacity:1}35.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd12{0%,26.4%{opacity:0}33.4%,100%{opacity:1}}
+@keyframes dr13{0%,28.6%{stroke-dashoffset:1;opacity:0}28.7%{stroke-dashoffset:1;opacity:1}37.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd13{0%,28.6%{opacity:0}35.6%,100%{opacity:1}}
+@keyframes dr14{0%,30.8%{stroke-dashoffset:1;opacity:0}30.9%{stroke-dashoffset:1;opacity:1}39.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd14{0%,30.8%{opacity:0}37.8%,100%{opacity:1}}
+@keyframes dr15{0%,33.0%{stroke-dashoffset:1;opacity:0}33.1%{stroke-dashoffset:1;opacity:1}42%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd15{0%,33.0%{opacity:0}40%,100%{opacity:1}}
+.s.i0,.q.i0,.f.i0{animation:dr0 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i1,.q.i1,.f.i1{animation:dr1 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i2,.q.i2,.f.i2{animation:dr2 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i3,.q.i3,.f.i3{animation:dr3 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i4,.q.i4,.f.i4{animation:dr4 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i5,.q.i5,.f.i5{animation:dr5 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i6,.q.i6,.f.i6{animation:dr6 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i7,.q.i7,.f.i7{animation:dr7 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i8,.q.i8,.f.i8{animation:dr8 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i9,.q.i9,.f.i9{animation:dr9 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i10,.q.i10,.f.i10{animation:dr10 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i11,.q.i11,.f.i11{animation:dr11 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i12,.q.i12,.f.i12{animation:dr12 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i13,.q.i13,.f.i13{animation:dr13 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i14,.q.i14,.f.i14{animation:dr14 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i15,.q.i15,.f.i15{animation:dr15 10s cubic-bezier(.55,.05,.25,1) infinite}
+.p.i0,.w.i0,.pq.i0,.t.i0,.k.i0{animation:fd0 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i1,.w.i1,.pq.i1,.t.i1,.k.i1{animation:fd1 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i2,.w.i2,.pq.i2,.t.i2,.k.i2{animation:fd2 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i3,.w.i3,.pq.i3,.t.i3,.k.i3{animation:fd3 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i4,.w.i4,.pq.i4,.t.i4,.k.i4{animation:fd4 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i5,.w.i5,.pq.i5,.t.i5,.k.i5{animation:fd5 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i6,.w.i6,.pq.i6,.t.i6,.k.i6{animation:fd6 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i7,.w.i7,.pq.i7,.t.i7,.k.i7{animation:fd7 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i8,.w.i8,.pq.i8,.t.i8,.k.i8{animation:fd8 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i9,.w.i9,.pq.i9,.t.i9,.k.i9{animation:fd9 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i10,.w.i10,.pq.i10,.t.i10,.k.i10{animation:fd10 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i11,.w.i11,.pq.i11,.t.i11,.k.i11{animation:fd11 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i12,.w.i12,.pq.i12,.t.i12,.k.i12{animation:fd12 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i13,.w.i13,.pq.i13,.t.i13,.k.i13{animation:fd13 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i14,.w.i14,.pq.i14,.t.i14,.k.i14{animation:fd14 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i15,.w.i15,.pq.i15,.t.i15,.k.i15{animation:fd15 10s cubic-bezier(.2,.7,.3,1) infinite}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+ <style>
+.a-m1{transform:translate(200px,135.8px);animation:a-m1 10s linear infinite;animation-delay:0s}@keyframes a-m1{0%{transform:translate(58px,199px)}2.78%{transform:translate(65.9px,198.7px)}5.56%{transform:translate(73.8px,198.3px)}8.33%{transform:translate(81.7px,197.7px)}11.11%{transform:translate(89.6px,197.1px)}13.89%{transform:translate(97.4px,196.2px)}16.67%{transform:translate(105.3px,195.1px)}19.44%{transform:translate(113.2px,193.7px)}22.22%{transform:translate(121.1px,191.9px)}25%{transform:translate(129px,189.7px)}27.78%{transform:translate(136.9px,186.9px)}30.56%{transform:translate(144.8px,183.4px)}33.33%{transform:translate(152.7px,179.2px)}36.11%{transform:translate(160.6px,174.1px)}38.89%{transform:translate(168.4px,168.1px)}41.67%{transform:translate(176.3px,161.1px)}44.44%{transform:translate(184.2px,153.3px)}47.22%{transform:translate(192.1px,144.8px)}50%{transform:translate(200px,135.8px)}52.78%{transform:translate(207.9px,126.6px)}55.56%{transform:translate(215.8px,117.6px)}58.33%{transform:translate(223.7px,108.9px)}61.11%{transform:translate(231.6px,100.9px)}63.89%{transform:translate(239.4px,93.7px)}66.67%{transform:translate(247.3px,87.4px)}69.44%{transform:translate(255.2px,82.1px)}72.22%{transform:translate(263.1px,77.6px)}75%{transform:translate(271px,74px)}77.78%{transform:translate(278.9px,71px)}80.56%{transform:translate(286.8px,68.6px)}83.33%{transform:translate(294.7px,66.7px)}86.11%{transform:translate(302.6px,65.2px)}88.89%{transform:translate(310.4px,64px)}91.67%{transform:translate(318.3px,63.1px)}94.44%{transform:translate(326.2px,62.4px)}97.22%{transform:translate(334.1px,61.9px)}100%{transform:translate(342px,61.4px)}}
+</style>
+ <g class="all">
+  <path class="f i0" d="M44,34 V200 H356" pathLength="1" />
+  <path class="k f i1" d="M44,60 H356" />
+  <path class="w i2" d="M58,199 C59.3,198.9 63.3,198.8 65.9,198.7 C68.5,198.5 71.1,198.4 73.8,198.3 C76.4,198.1 79,197.9 81.7,197.7 C84.3,197.5 86.9,197.3 89.6,197.1 C92.2,196.8 94.8,196.5 97.4,196.2 C100.1,195.9 102.7,195.5 105.3,195.1 C108,194.7 110.6,194.3 113.2,193.7 C115.9,193.2 118.5,192.6 121.1,191.9 C123.7,191.3 126.4,190.5 129,189.7 C131.6,188.9 134.3,187.9 136.9,186.9 C139.5,185.8 142.1,184.7 144.8,183.4 C147.4,182.1 150,180.7 152.7,179.2 C155.3,177.6 157.9,175.9 160.6,174.1 C163.2,172.2 165.8,170.2 168.4,168.1 C171.1,165.9 173.7,163.6 176.3,161.1 C179,158.7 181.6,156 184.2,153.3 C186.9,150.6 189.5,147.7 192.1,144.8 C194.7,141.9 197.4,138.8 200,135.8 C202.6,132.8 205.3,129.7 207.9,126.6 C210.5,123.6 213.1,120.5 215.8,117.6 C218.4,114.6 221,111.7 223.7,108.9 C226.3,106.1 228.9,103.4 231.6,100.9 C234.2,98.4 236.8,96 239.4,93.7 C242.1,91.5 244.7,89.4 247.3,87.4 C250,85.5 252.6,83.7 255.2,82.1 C257.9,80.5 260.5,79 263.1,77.6 C265.7,76.3 268.4,75.1 271,74 C273.6,72.9 276.3,71.9 278.9,71 C281.5,70.1 284.1,69.3 286.8,68.6 C289.4,67.9 292,67.3 294.7,66.7 C297.3,66.1 299.9,65.7 302.6,65.2 C305.2,64.8 307.8,64.4 310.4,64 C313.1,63.7 315.7,63.4 318.3,63.1 C321,62.9 323.6,62.6 326.2,62.4 C328.9,62.2 331.5,62 334.1,61.9 C336.7,61.7 340.7,61.5 342,61.4 L342,200 L58,200 Z" />
+  <path class="s i3" d="M58,199 C59.3,198.9 63.3,198.8 65.9,198.7 C68.5,198.5 71.1,198.4 73.8,198.3 C76.4,198.1 79,197.9 81.7,197.7 C84.3,197.5 86.9,197.3 89.6,197.1 C92.2,196.8 94.8,196.5 97.4,196.2 C100.1,195.9 102.7,195.5 105.3,195.1 C108,194.7 110.6,194.3 113.2,193.7 C115.9,193.2 118.5,192.6 121.1,191.9 C123.7,191.3 126.4,190.5 129,189.7 C131.6,188.9 134.3,187.9 136.9,186.9 C139.5,185.8 142.1,184.7 144.8,183.4 C147.4,182.1 150,180.7 152.7,179.2 C155.3,177.6 157.9,175.9 160.6,174.1 C163.2,172.2 165.8,170.2 168.4,168.1 C171.1,165.9 173.7,163.6 176.3,161.1 C179,158.7 181.6,156 184.2,153.3 C186.9,150.6 189.5,147.7 192.1,144.8 C194.7,141.9 197.4,138.8 200,135.8 C202.6,132.8 205.3,129.7 207.9,126.6 C210.5,123.6 213.1,120.5 215.8,117.6 C218.4,114.6 221,111.7 223.7,108.9 C226.3,106.1 228.9,103.4 231.6,100.9 C234.2,98.4 236.8,96 239.4,93.7 C242.1,91.5 244.7,89.4 247.3,87.4 C250,85.5 252.6,83.7 255.2,82.1 C257.9,80.5 260.5,79 263.1,77.6 C265.7,76.3 268.4,75.1 271,74 C273.6,72.9 276.3,71.9 278.9,71 C281.5,70.1 284.1,69.3 286.8,68.6 C289.4,67.9 292,67.3 294.7,66.7 C297.3,66.1 299.9,65.7 302.6,65.2 C305.2,64.8 307.8,64.4 310.4,64 C313.1,63.7 315.7,63.4 318.3,63.1 C321,62.9 323.6,62.6 326.2,62.4 C328.9,62.2 331.5,62 334.1,61.9 C336.7,61.7 340.7,61.5 342,61.4" pathLength="1" />
+  <path class="k f hair i4" d="M205,130 V200 M44,130 H205" />
+  <circle class="p i5" cx="205" cy="130" r="3" />
+  <text class="t i6" x="60" y="52" text-anchor="start">carrying capacity K</text>
+  <text class="t i7" x="54" y="28" text-anchor="start">population</text>
+  <text class="t i8" x="356" y="219" text-anchor="end">time</text>
+  <g class="a-m1">
+   <circle class="p i9" cx="0" cy="0" r="4" />
+  </g>
+ </g>
+</svg>

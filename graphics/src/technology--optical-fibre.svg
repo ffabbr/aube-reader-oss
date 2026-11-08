@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="technology--optical-fibre" data-discipline="technology" data-tags="optical-fibre,total-internal-reflection,light,core,cladding,telecommunications,data">
+<title>Optical Fibre</title>
+<desc>Pulses of light zigzag down a curving glass core, reflected at the cladding by total internal reflection so they follow the bend; an end-on view shows the core inside its cladding.</desc>
+<style>
+.a-pl{offset-path:path("M30,178 L46.8,164.8 L86.4,182.5 L113.4,148.3 L156,157.7 L178.7,120.5 L221.7,127.6 L244.5,90.4 L287,99.9 L314.1,65.6 L353.8,83.3 L372,70");offset-rotate:0deg;animation:a-pl 5s linear infinite}
+.a-pl1{animation-delay:-1.67s}.a-pl2{animation-delay:-3.33s}
+@keyframes a-pl{0%{offset-distance:0%;opacity:0}4%{opacity:1}96%{opacity:1}100%{offset-distance:100%;opacity:0}}
+.a-glow{transform-box:view-box;transform-origin:78px 66px;animation:a-glow 2.5s ease-in-out infinite alternate}
+@keyframes a-glow{from{transform:scale(.55)}to{transform:scale(1)}}
+</style>
+<path class="w" d="M29.9,165 L42.9,164.5 L55.8,163 L68.8,160.7 L81.6,157.6 L94.5,154 L107.2,149.8 L119.9,145.1 L132.6,140.1 L145.1,134.8 L157.7,129.3 L170.3,123.6 L182.8,117.8 L195.4,111.9 L208,106 L220.7,100.2 L233.5,94.4 L246.4,88.8 L259.5,83.3 L272.8,78.1 L286.2,73.3 L299.9,68.9 L313.8,65 L328,61.7 L342.4,59.2 L357.1,57.6 L371.9,57 L372.1,83 L359.1,83.5 L346.1,84.9 L333.2,87.2 L320.3,90.2 L307.4,93.8 L294.6,97.9 L281.9,102.5 L269.3,107.4 L256.7,112.7 L244.1,118.2 L231.5,123.8 L219,129.6 L206.4,135.5 L193.8,141.4 L181.1,147.2 L168.3,153 L155.5,158.7 L142.4,164.2 L129.2,169.4 L115.8,174.3 L102.1,178.8 L88.2,182.8 L74,186.2 L59.6,188.7 L44.9,190.4 L30.1,191 Z"/>
+<path class="f" d="M29.9,154 L42,153.5 L54.2,152.1 L66.5,149.9 L78.9,147 L91.2,143.5 L103.6,139.4 L116,134.9 L128.4,129.9 L140.8,124.7 L153.2,119.3 L165.7,113.6 L178.2,107.8 L190.7,102 L203.4,96.1 L216.2,90.2 L229.1,84.3 L242.1,78.6 L255.4,73.1 L268.9,67.9 L282.7,62.9 L296.7,58.4 L311.1,54.3 L325.8,50.9 L340.9,48.3 L356.2,46.6 L371.9,46"/>
+<path class="f" d="M30.1,202 L45.8,201.4 L61.2,199.6 L76.3,196.9 L91,193.4 L105.3,189.3 L119.4,184.7 L133.1,179.7 L146.6,174.4 L159.8,168.8 L172.8,163.1 L185.7,157.2 L198.4,151.3 L211.1,145.4 L223.6,139.6 L236.1,133.8 L248.5,128.2 L261,122.8 L273.4,117.6 L285.8,112.8 L298.2,108.3 L310.7,104.3 L323,100.8 L335.4,98 L347.7,95.8 L360,94.5 L372.1,94"/>
+<path class="s" d="M29.9,165 L42.9,164.5 L55.8,163 L68.8,160.7 L81.6,157.6 L94.5,154 L107.2,149.8 L119.9,145.1 L132.6,140.1 L145.1,134.8 L157.7,129.3 L170.3,123.6 L182.8,117.8 L195.4,111.9 L208,106 L220.7,100.2 L233.5,94.4 L246.4,88.8 L259.5,83.3 L272.8,78.1 L286.2,73.3 L299.9,68.9 L313.8,65 L328,61.7 L342.4,59.2 L357.1,57.6 L371.9,57"/>
+<path class="s" d="M30.1,191 L44.9,190.4 L59.6,188.7 L74,186.2 L88.2,182.8 L102.1,178.8 L115.8,174.3 L129.2,169.4 L142.4,164.2 L155.5,158.7 L168.3,153 L181.1,147.2 L193.8,141.4 L206.4,135.5 L219,129.6 L231.5,123.8 L244.1,118.2 L256.7,112.7 L269.3,107.4 L281.9,102.5 L294.6,97.9 L307.4,93.8 L320.3,90.2 L333.2,87.2 L346.1,84.9 L359.1,83.5 L372.1,83"/>
+<path class="f" d="M29.9,154 L30.1,202 M371.9,46 L372.1,94"/>
+<path class="q hair" d="M30,178 L46.8,164.8 L86.4,182.5 L113.4,148.3 L156,157.7 L178.7,120.5 L221.7,127.6 L244.5,90.4 L287,99.9 L314.1,65.6 L353.8,83.3 L372,70"/>
+<circle class="f" cx="78" cy="66" r="38"/>
+<path class="f hair" d="M108,44 L120,44 M94,68 L120,68"/>
+<circle class="w" cx="78" cy="66" r="18"/>
+<circle class="s" cx="78" cy="66" r="18"/>
+<g class="a-glow"><circle class="pq" cx="78" cy="66" r="7"/></g>
+<g class="a-pl"><circle class="p" r="3.6"/></g><g class="a-pl a-pl1"><circle class="p" r="3.6"/></g><g class="a-pl a-pl2"><circle class="p" r="3.6"/></g>
+<text class="t" x="124" y="48" text-anchor="start">cladding</text>
+<text class="t" x="124" y="72" text-anchor="start">core</text>
+<text class="t" x="372" y="192" text-anchor="end">total internal reflection</text>
+</svg>

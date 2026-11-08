@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="biology--atp-synthase" data-discipline="biology" data-tags="atp-synthase,proton-gradient,rotor,atp,mitochondrion,chemiosmosis,enzyme">
+<title>ATP synthase</title>
+<desc>Protons flowing down their gradient through ATP synthase spin its rotor and shaft; the turning head squeezes ADP and phosphate together into ATP.</desc>
+<style>
+.a-rot{animation:a-rot 2.5s ease-in-out infinite alternate}
+@keyframes a-rot{from{transform:translateX(-16px)}to{transform:translateX(16px)}}
+.a-spin{transform-box:view-box;transform-origin:310px 128px;animation:a-spin 5s linear infinite}
+@keyframes a-spin{to{transform:rotate(360deg)}}
+.a-h{animation:a-hf 5s linear infinite}
+.a-h2{animation:a-hf 5s linear infinite;animation-delay:-2.5s}
+@keyframes a-hf{0%{transform:translateY(0);opacity:0}12%{opacity:1}88%{opacity:1}100%{transform:translateY(96px);opacity:0}}
+</style>
+<path class="q" d="M22,99v10M26,99v10M32,99v10M36,99v10M42,99v10M46,99v10M52,99v10M56,99v10M62,99v10M66,99v10M72,99v10M76,99v10M82,99v10M86,99v10M92,99v10M96,99v10M182,99v10M186,99v10M192,99v10M196,99v10M202,99v10M206,99v10M212,99v10M216,99v10M222,99v10M226,99v10M232,99v10M236,99v10M242,99v10M246,99v10M22,121v-10M26,121v-10M32,121v-10M36,121v-10M42,121v-10M46,121v-10M52,121v-10M56,121v-10M62,121v-10M66,121v-10M72,121v-10M76,121v-10M82,121v-10M86,121v-10M92,121v-10M96,121v-10M182,121v-10M186,121v-10M192,121v-10M196,121v-10M202,121v-10M206,121v-10M212,121v-10M216,121v-10M222,121v-10M226,121v-10M232,121v-10M236,121v-10M242,121v-10M246,121v-10"/>
+<path class="w" d="M20,95a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M30,95a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M40,95a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M50,95a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M60,95a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M70,95a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M80,95a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M90,95a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M180,95a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M190,95a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M200,95a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M210,95a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M220,95a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M230,95a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M240,95a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M20,125a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M30,125a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M40,125a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M50,125a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M60,125a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M70,125a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M80,125a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M90,125a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M180,125a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M190,125a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M200,125a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M210,125a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M220,125a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M230,125a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M240,125a4,4 0 1 0 8,0a4,4 0 1 0 -8,0"/>
+<path class="s" d="M20,95a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M30,95a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M40,95a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M50,95a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M60,95a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M70,95a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M80,95a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M90,95a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M180,95a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M190,95a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M200,95a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M210,95a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M220,95a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M230,95a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M240,95a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M20,125a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M30,125a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M40,125a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M50,125a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M60,125a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M70,125a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M80,125a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M90,125a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M180,125a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M190,125a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M200,125a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M210,125a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M220,125a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M230,125a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M240,125a4,4 0 1 0 8,0a4,4 0 1 0 -8,0"/>
+<rect class="w" x="104" y="86" width="44" height="46" rx="8"/>
+<rect class="s" x="104" y="86" width="44" height="46" rx="8"/>
+<path class="f hair" d="M115,90V128M126,90V128M137,90V128"/>
+<rect class="w" x="152" y="86" width="26" height="46" rx="6"/>
+<rect class="s" x="152" y="86" width="26" height="46" rx="6"/>
+<path class="k f" d="M165,88V130"/>
+<path class="s bold" d="M126,132V160"/>
+<ellipse class="w" cx="126" cy="182" rx="44" ry="26"/>
+<ellipse class="s" cx="126" cy="182" rx="44" ry="26"/>
+<path class="q" d="M111,158C117,173 117,190 111,205M141,158C135,173 135,190 141,205"/>
+<path class="q" d="M170,132C170,144 160,148 156,158"/>
+<g class="a-rot"><circle class="p" cx="126" cy="109" r="2.6"/></g>
+<g class="a-h"><circle class="p" cx="165" cy="48" r="3"/></g>
+<g class="a-h2"><circle class="p" cx="165" cy="48" r="3"/></g>
+<path class="k f" d="M178,176L262,150"/>
+<circle class="w" cx="310" cy="107" r="19"/><circle class="w" cx="328.2" cy="138.5" r="19"/><circle class="w" cx="291.8" cy="138.5" r="19"/>
+<circle class="s" cx="310" cy="107" r="19"/><circle class="s" cx="328.2" cy="138.5" r="19"/><circle class="s" cx="291.8" cy="138.5" r="19"/>
+<g class="a-spin"><path class="s bold" d="M310,128V114"/><circle class="p" cx="310" cy="114" r="3"/></g>
+<circle class="p" cx="310" cy="128" r="3.4"/>
+<text class="t" x="180" y="54">H⁺</text>
+<text class="t" x="24" y="186">F₁ head</text>
+<text class="t" x="310" y="190" text-anchor="middle">ADP + Pᵢ → ATP</text>
+</svg>

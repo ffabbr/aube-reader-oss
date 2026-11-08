@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="math--fibonacci-sequence" data-discipline="math" data-tags="fibonacci,sequence,recursion,growth,rabbits,generations,sum">
+<title>Fibonacci sequence as growing generations</title>
+<desc>Each filled dot spawns itself and a hollow one, each hollow dot turns filled: the rows hold 1, 2, 3, 5, 8, 13 dots, every count the sum of the two before.</desc>
+<style>
+.a-band{transform-box:view-box;transform-origin:0px 0px;animation:a-band 10s ease-in-out infinite}
+@keyframes a-band{0%,30%{transform:translateY(0px)}35%,43%{transform:translateY(32px)}48%,56%{transform:translateY(64px)}61%,69%{transform:translateY(96px)}74%,82%{transform:translateY(128px)}87%,100%{transform:translateY(160px)}}
+</style>
+<g class="a-band"><rect class="w" x="40" y="16" width="320" height="24" rx="12"/></g>
+<path class="q hair" d="M200,28 L189,60 M200,28 L209.8,56.4"/>
+<path class="q hair" d="M189,60 L178,92 M189,60 L198.8,88.4 M212.2,63.6 L222,92"/>
+<path class="q hair" d="M178,92 L156,124 M178,92 L178,120.2 M200,95.8 L200,124 M222,92 L222,124 M222,92 L241.8,120.9"/>
+<path class="q hair" d="M156,124 L123,156 M156,124 L146.2,152.4 M176.8,127.6 L167,156 M200,124 L189,156 M200,124 L209.8,152.4 M222,124 L233,156 M222,124 L252.3,153.4 M246.7,126.6 L277,156"/>
+<path class="q hair" d="M123,156 L68,188 M123,156 L92.7,185.4 M142.3,158.6 L112,188 M167,156 L134,188 M167,156 L157.2,184.4 M189,156 L178,188 M189,156 L198.8,184.4 M212.2,159.6 L222,188 M233,156 L244,188 M233,156 L263.3,185.4 M257.7,158.6 L288,188 M277,156 L310,188 M277,156 L328.7,186.1"/>
+<circle class="p" cx="200" cy="28.0" r="4"/>
+<circle class="p" cx="189" cy="60.0" r="4"/>
+<circle class="p" cx="178" cy="92.0" r="4"/>
+<circle class="p" cx="222" cy="92.0" r="4"/>
+<circle class="p" cx="156" cy="124.0" r="4"/>
+<circle class="p" cx="200" cy="124.0" r="4"/>
+<circle class="p" cx="222" cy="124.0" r="4"/>
+<circle class="p" cx="123" cy="156.0" r="4"/>
+<circle class="p" cx="167" cy="156.0" r="4"/>
+<circle class="p" cx="189" cy="156.0" r="4"/>
+<circle class="p" cx="233" cy="156.0" r="4"/>
+<circle class="p" cx="277" cy="156.0" r="4"/>
+<circle class="p" cx="68" cy="188.0" r="4"/>
+<circle class="p" cx="112" cy="188.0" r="4"/>
+<circle class="p" cx="134" cy="188.0" r="4"/>
+<circle class="p" cx="178" cy="188.0" r="4"/>
+<circle class="p" cx="222" cy="188.0" r="4"/>
+<circle class="p" cx="244" cy="188.0" r="4"/>
+<circle class="p" cx="288" cy="188.0" r="4"/>
+<circle class="p" cx="310" cy="188.0" r="4"/>
+<circle class="s" cx="211" cy="60.0" r="3.8"/>
+<circle class="s" cx="200" cy="92.0" r="3.8"/>
+<circle class="s" cx="178" cy="124.0" r="3.8"/>
+<circle class="s" cx="244" cy="124.0" r="3.8"/>
+<circle class="s" cx="145" cy="156.0" r="3.8"/>
+<circle class="s" cx="211" cy="156.0" r="3.8"/>
+<circle class="s" cx="255" cy="156.0" r="3.8"/>
+<circle class="s" cx="90" cy="188.0" r="3.8"/>
+<circle class="s" cx="156" cy="188.0" r="3.8"/>
+<circle class="s" cx="200" cy="188.0" r="3.8"/>
+<circle class="s" cx="266" cy="188.0" r="3.8"/>
+<circle class="s" cx="332" cy="188.0" r="3.8"/>
+<text class="t" x="200" y="222" text-anchor="middle">1, 2, 3, 5, 8, 13, …</text>
+</svg>

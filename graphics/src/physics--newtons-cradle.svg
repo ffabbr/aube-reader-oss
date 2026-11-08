@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="physics--newtons-cradle" data-discipline="physics" data-tags="momentum,collision,conservation,energy,pendulum,newtons-cradle">
+<title>Newton's cradle</title>
+<desc>Five hanging balls: one swings in and strikes the row, and one ball swings out the far side. Momentum and energy pass straight through, conserved.</desc>
+<style>
+.a-cl,.a-cr{transform-box:view-box}
+.a-cl{transform-origin:136px 48px;animation:a-cl 5s infinite;transform:rotate(24deg)}
+.a-cr{transform-origin:264px 48px;animation:a-cr 5s infinite}
+@keyframes a-cl{0%{transform:rotate(24deg);animation-timing-function:cubic-bezier(.12,0,.39,0)}25%,75%{transform:rotate(0);animation-timing-function:cubic-bezier(.61,1,.88,1)}100%{transform:rotate(24deg)}}
+@keyframes a-cr{0%,25%{transform:rotate(0);animation-timing-function:cubic-bezier(.61,1,.88,1)}50%{transform:rotate(-24deg);animation-timing-function:cubic-bezier(.12,0,.39,0)}75%,100%{transform:rotate(0)}}
+</style>
+<path class="f" d="M30,204 H370"/>
+<path class="q" d="M44,204 V48 H356 V204"/>
+<path class="q" d="M168,48 V170"/>
+<circle class="w" cx="168" cy="170" r="16"/>
+<circle class="s" cx="168" cy="170" r="16"/>
+<path class="q" d="M200,48 V170"/>
+<circle class="w" cx="200" cy="170" r="16"/>
+<circle class="s" cx="200" cy="170" r="16"/>
+<path class="q" d="M232,48 V170"/>
+<circle class="w" cx="232" cy="170" r="16"/>
+<circle class="s" cx="232" cy="170" r="16"/>
+<path class="k f" d="M136,48 L87.2,157.6"/>
+<circle class="k f" cx="87.2" cy="157.6" r="16"/>
+<path class="k f" d="M264,48 L312.8,157.6"/>
+<circle class="k f" cx="312.8" cy="157.6" r="16"/>
+<g class="a-cl"><path class="q" d="M136,48 V170"/>
+<circle class="w" cx="136" cy="170" r="16"/>
+<circle class="s" cx="136" cy="170" r="16"/></g>
+<g class="a-cr"><path class="q" d="M264,48 V170"/>
+<circle class="w" cx="264" cy="170" r="16"/>
+<circle class="s" cx="264" cy="170" r="16"/></g>
+</svg>

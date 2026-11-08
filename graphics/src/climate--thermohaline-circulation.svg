@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="climate--thermohaline-circulation" data-discipline="climate" data-tags="ocean-circulation,thermohaline,conveyor-belt,deep-water,density,salinity,climate">
+<title>Thermohaline circulation</title>
+<desc>The ocean conveyor: warm surface water flows to the poles, cools and sinks, and returns as cold deep water, driven by differences in temperature and salt.</desc>
+<style>
+.a-cur{offset-path:path("M300,94 H106 Q76,94 76,124 V140 Q76,170 106,170 H294 Q324,170 324,140 V124 Q324,94 294,94 Z");offset-rotate:0deg;animation:a-cur 10s linear infinite}
+@keyframes a-cur{from{offset-distance:0%}to{offset-distance:100%}}
+.a-d1{animation-delay:-2.5s}.a-d2{animation-delay:-5s}.a-d3{animation-delay:-7.5s}
+</style>
+<path class="w" d="M30,72 V160 Q30,202 72,202 H328 Q370,202 370,160 V72 Z"/>
+<path class="s" d="M30,72 V160 Q30,202 72,202 H328 Q370,202 370,160 V72"/>
+<path class="f" d="M30,72 q9,-3 18,0 t18,0 t18,0 t18,0 t18,0 t18,0 t18,0 t18,0 t18,0 t18,0 t18,0 t18,0 t18,0 t18,0 t18,0 t18,0 t18,0 t18,0 t18,0 "/>
+<path class="w" d="M38,72 L46,58 L54,64 L62,50 L74,72 Z"/>
+<path class="s" d="M38,72 L46,58 L54,64 L62,50 L74,72"/>
+<circle class="w" cx="338" cy="42" r="11"/><circle class="s" cx="338" cy="42" r="11"/>
+<path class="q" d="M338,22 v5 M338,57 v5 M318,42 h5 M353,42 h5 M324,28 l3,3 M352,28 l-3,3 M324,56 l3,-3 M352,56 l-3,-3"/>
+<path class="s" d="M324,140 V124 Q324,94 294,94 H106 Q76,94 76,124 V134"/>
+<path class="k q" d="M76,134 V140 Q76,170 106,170 H294 Q324,170 324,140"/>
+<path class="s" d="M206.1,90.6 L200,94 L206.1,97.4"/>
+<path class="s" d="M72.6,119.9 L76,126 L79.4,119.9"/>
+<path class="s" d="M193.9,173.4 L200,170 L193.9,166.6"/>
+<path class="s" d="M327.4,138.1 L324,132 L320.6,138.1"/>
+<g class="a-cur"><circle class="p" cx="0" cy="0" r="3"/></g>
+<g class="a-cur a-d1"><circle class="p" cx="0" cy="0" r="3"/></g>
+<g class="a-cur a-d2"><circle class="p" cx="0" cy="0" r="3"/></g>
+<g class="a-cur a-d3"><circle class="p" cx="0" cy="0" r="3"/></g>
+<text class="t" x="200" y="124" text-anchor="middle">warm surface</text>
+<text class="t" x="200" y="150" text-anchor="middle">cold deep water</text>
+<text class="t" x="66" y="190" text-anchor="end">sinks</text>
+</svg>

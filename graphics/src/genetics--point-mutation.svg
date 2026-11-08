@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="genetics--point-mutation" data-discipline="genetics" data-tags="mutation,point-mutation,substitution,codon,amino-acid,dna">
+<title>Point mutation</title>
+<desc>A single base in a gene is swapped; because codons are read in threes, that one change can alter a single amino acid in the protein built from it.</desc>
+<style>
+.a-old{animation:a-fo 5s ease-in-out infinite alternate}
+.a-new{animation:a-fi 5s ease-in-out infinite alternate}
+@keyframes a-fo{from{opacity:1}to{opacity:0}}
+@keyframes a-fi{from{opacity:0}to{opacity:1}}
+</style>
+<path class="q" d="M48.5,56 H351.5"/>
+<path class="f" d="M53.5,70 v5 H121.5 v-5"/>
+<path class="f" d="M128.5,70 v5 H196.5 v-5"/>
+<path class="f" d="M203.5,70 v5 H271.5 v-5"/>
+<path class="f" d="M278.5,70 v5 H346.5 v-5"/>
+<circle class="w" cx="62.5" cy="56" r="5"/>
+<circle class="s" cx="62.5" cy="56" r="5"/>
+<circle class="w" cx="87.5" cy="56" r="5"/>
+<circle class="s" cx="87.5" cy="56" r="5"/>
+<circle class="w" cx="112.5" cy="56" r="5"/>
+<circle class="s" cx="112.5" cy="56" r="5"/>
+<circle class="w" cx="137.5" cy="56" r="5"/>
+<circle class="s" cx="137.5" cy="56" r="5"/>
+<circle class="w" cx="162.5" cy="56" r="5"/>
+<circle class="s" cx="162.5" cy="56" r="5"/>
+<circle class="w" cx="187.5" cy="56" r="5"/>
+<circle class="s" cx="187.5" cy="56" r="5"/>
+<circle class="w" cx="212.5" cy="56" r="5"/>
+<circle class="s" cx="212.5" cy="56" r="5"/>
+<circle class="w" cx="262.5" cy="56" r="5"/>
+<circle class="s" cx="262.5" cy="56" r="5"/>
+<circle class="w" cx="287.5" cy="56" r="5"/>
+<circle class="s" cx="287.5" cy="56" r="5"/>
+<circle class="w" cx="312.5" cy="56" r="5"/>
+<circle class="s" cx="312.5" cy="56" r="5"/>
+<circle class="w" cx="337.5" cy="56" r="5"/>
+<circle class="s" cx="337.5" cy="56" r="5"/>
+<g class="a-old">
+<circle class="w" cx="237.5" cy="56" r="5"/>
+<circle class="s" cx="237.5" cy="56" r="5"/>
+</g>
+<g class="a-new">
+<rect class="p" x="232" y="50.5" width="11" height="11"/>
+</g>
+<path class="q" d="M87.5,160 H312.5"/>
+<path class="k f" d="M87.5,84 V144"/>
+<path class="k f" d="M162.5,84 V144"/>
+<path class="k f" d="M237.5,84 V144"/>
+<path class="k f" d="M312.5,84 V144"/>
+<circle class="w" cx="87.5" cy="160" r="11"/>
+<circle class="s" cx="87.5" cy="160" r="11"/>
+<circle class="w" cx="162.5" cy="160" r="11"/>
+<circle class="s" cx="162.5" cy="160" r="11"/>
+<g class="a-old">
+<circle class="w" cx="237.5" cy="160" r="11"/>
+<circle class="s" cx="237.5" cy="160" r="11"/>
+</g>
+<g class="a-new">
+<path class="w" d="M237.5,146 L251.5,160 L237.5,174 L223.5,160 Z"/>
+<path class="s" d="M237.5,146 L251.5,160 L237.5,174 L223.5,160 Z"/>
+</g>
+<circle class="w" cx="312.5" cy="160" r="11"/>
+<circle class="s" cx="312.5" cy="160" r="11"/>
+<text class="t" x="237.5" y="36" text-anchor="middle">one base changed</text>
+<text class="t" x="237.5" y="196" text-anchor="middle">one amino acid changed</text>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="biology--mitosis" data-discipline="biology" data-tags="mitosis,anaphase,chromosome,spindle,cell-division,chromatid">
+<title>Mitosis (anaphase)</title>
+<desc>In anaphase the spindle fibres shorten and pull the separated sister chromatids toward opposite poles, so each daughter cell gets one full copy.</desc>
+<style>
+.a-cl{animation:a-cl 10s ease-in-out infinite}
+.a-cr{animation:a-cr 10s ease-in-out infinite}
+.a-fl{transform-box:view-box;transform-origin:62px 120px;animation:a-fl 10s ease-in-out infinite}
+.a-fr{transform-box:view-box;transform-origin:338px 120px;animation:a-fl 10s ease-in-out infinite}
+@keyframes a-cl{0%,10%{transform:translateX(0)}85%,100%{transform:translateX(-48px)}}
+@keyframes a-cr{0%,10%{transform:translateX(0)}85%,100%{transform:translateX(48px)}}
+@keyframes a-fl{0%,10%{transform:scaleX(1)}85%,100%{transform:scaleX(.613)}}
+</style>
+<ellipse class="w" cx="200" cy="120" rx="165" ry="84"/>
+<ellipse class="s" cx="200" cy="120" rx="165" ry="84"/>
+<path class="k f" d="M200,44V196"/>
+<path class="f hair" d="M62,120L40,104M62,120L38,120M62,120L40,136M338,120L360,104M338,120L362,120M338,120L360,136"/>
+<g class="a-fl"><path class="q hair" d="M62,120L186,88M62,120L186,120M62,120L186,152"/></g>
+<g class="a-fr"><path class="q hair" d="M338,120L214,88M338,120L214,120M338,120L214,152"/></g>
+<circle class="p" cx="62" cy="120" r="3.5"/>
+<circle class="p" cx="338" cy="120" r="3.5"/>
+<g class="a-cl"><path class="s bold" d="M194,81L186,88L194,95M194,113L186,120L194,127M194,145L186,152L194,159"/></g>
+<g class="a-cr"><path class="s bold" d="M206,81L214,88L206,95M206,113L214,120L206,127M206,145L214,152L206,159"/></g>
+<path class="f" d="M92,38L128,92"/>
+<text class="t" x="30" y="34">spindle fibres</text>
+<path class="f" d="M300,40L272,88"/>
+<text class="t" x="372" y="36" text-anchor="end">sister chromatids</text>
+<text class="t" x="200" y="222" text-anchor="middle">anaphase</text>
+</svg>

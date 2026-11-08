@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="genetics--chromosome-structure" data-discipline="genetics" data-tags="chromosome,chromatin,nucleosome,histone,dna-packaging,centromere,chromatid">
+<title>Chromosome structure and chromatin packing</title>
+<desc>A chromosome zoomed in is chromatin: DNA wrapped around histone spools, the nucleosomes, like beads on a string, packed ever tighter to fit a cell.</desc>
+<style>
+
+.a-nuc0,.a-nuc1,.a-nuc2{transform-box:fill-box;transform-origin:center;animation:a-pulse 2.5s ease-in-out infinite alternate}
+.a-nuc1{animation-delay:-.8s}
+.a-nuc2{animation-delay:-1.6s}
+@keyframes a-pulse{from{transform:scale(.9)}to{transform:scale(1.14)}}
+</style>
+<rect class="w" x="71" y="34" width="26" height="164" rx="13" transform="rotate(11 84 116)"/>
+<rect class="w" x="71" y="34" width="26" height="164" rx="13" transform="rotate(-11 84 116)"/>
+<rect class="q" x="71" y="34" width="26" height="164" rx="13" transform="rotate(11 84 116)"/>
+<rect class="q" x="71" y="34" width="26" height="164" rx="13" transform="rotate(-11 84 116)"/>
+<path class="f hair" d="M72,64 h18 M74,50 h14 M72,166 h18 M78,182 h16"/>
+<circle class="p" cx="84" cy="116" r="3.4"/>
+<circle class="w" cx="274" cy="114" r="80"/>
+<circle class="q" cx="274" cy="114" r="80"/>
+<circle class="k s" cx="95" cy="60" r="10"/>
+<path class="k f" d="M104,57 L212.7,62.6"/>
+<path class="k f" d="M103,65 L212.7,165.4"/>
+<path class="s" d="M212,118 C213.1,119.7 216.2,125.7 218.3,128.3 C220.4,131 222.5,133.1 224.6,133.7 C226.7,134.3 228.8,133.8 230.9,132.2 C233,130.6 235.1,127.5 237.2,124.3 C239.3,121.1 241.4,116.6 243.5,112.8 C245.6,109.1 247.7,104.7 249.8,101.8 C251.9,98.8 254,96.1 256.1,95 C258.2,93.8 260.3,93.8 262.4,94.8 C264.5,95.9 266.6,98.5 268.7,101.4 C270.8,104.3 272.9,108.6 275,112.3 C277.1,116.1 279.2,120.6 281.3,123.9 C283.4,127.2 285.5,130.3 287.6,132 C289.7,133.6 291.8,134.3 293.9,133.8 C296,133.2 298.1,131.2 300.2,128.7 C302.3,126.1 304.4,122.1 306.5,118.5 C308.6,114.8 310.7,110.2 312.8,106.7 C314.9,103.2 317,99.6 319.1,97.4 C321.2,95.3 323.3,94 325.4,94 C327.5,94 329.6,95.4 331.7,97.5 C333.8,99.7 336.9,105.3 338,106.8"/>
+<g class="a-nuc0">
+<circle class="w" cx="224.6" cy="133.7" r="13"/>
+<circle class="s" cx="224.6" cy="133.7" r="13"/>
+<path class="f hair" d="M215.6,126.7 q9,-5 18,0 M213.6,133.7 q11,-6 22,0 M215.6,140.7 q9,-5 18,0"/>
+</g>
+<g class="a-nuc1">
+<circle class="w" cx="258.2" cy="94.1" r="13"/>
+<circle class="s" cx="258.2" cy="94.1" r="13"/>
+<path class="f hair" d="M249.2,87.1 q9,-5 18,0 M247.2,94.1 q11,-6 22,0 M249.2,101.1 q9,-5 18,0"/>
+</g>
+<g class="a-nuc2">
+<circle class="w" cx="291.8" cy="134" r="13"/>
+<circle class="s" cx="291.8" cy="134" r="13"/>
+<path class="f hair" d="M282.8,127.0 q9,-5 18,0 M280.8,134.0 q11,-6 22,0 M282.8,141.0 q9,-5 18,0"/>
+</g>
+<g class="a-nuc0">
+<circle class="w" cx="325.4" cy="94" r="13"/>
+<circle class="s" cx="325.4" cy="94" r="13"/>
+<path class="f hair" d="M316.4,87.0 q9,-5 18,0 M314.4,94.0 q11,-6 22,0 M316.4,101.0 q9,-5 18,0"/>
+</g>
+<text class="t" x="84" y="226" text-anchor="middle">chromosome</text>
+<text class="t" x="274" y="222" text-anchor="middle">DNA wrapped on histones</text>
+</svg>

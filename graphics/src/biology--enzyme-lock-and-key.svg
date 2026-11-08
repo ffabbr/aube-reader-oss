@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="biology--enzyme-lock-and-key" data-discipline="biology" data-tags="enzyme,active-site,substrate,lock-and-key,catalysis,specificity">
+<title>Enzyme lock and key</title>
+<desc>A substrate whose shape matches the enzyme's active site slots in, is converted, and is released as two products, leaving the enzyme unchanged.</desc>
+<style>
+.a-sa{animation:a-sa 10s ease-in-out infinite}
+.a-sb{animation:a-sb 10s ease-in-out infinite}
+@keyframes a-sa{0%{transform:translate(0,-44px)}35%,55%{transform:translate(0,0)}85%,100%{transform:translate(-44px,-44px)}}
+@keyframes a-sb{0%{transform:translate(0,-44px)}35%,55%{transform:translate(0,0)}85%,100%{transform:translate(44px,-44px)}}
+.a-l1{animation:a-l1 10s linear infinite}
+.a-l2{animation:a-l2 10s linear infinite}
+@keyframes a-l1{0%,50%{opacity:1}58%,100%{opacity:0}}
+@keyframes a-l2{0%,58%{opacity:0}66%,100%{opacity:1}}
+</style>
+<path class="w" d="M70,125C60,92 110,88 150,95L165,95L165,120L185,120L185,105L215,105L215,120L235,120L235,95L250,95C300,88 345,95 335,135C330,170 280,192 200,192C120,192 78,170 70,125Z"/>
+<path class="s" d="M70,125C60,92 110,88 150,95L165,95L165,120L185,120L185,105L215,105L215,120L235,120L235,95L250,95C300,88 345,95 335,135C330,170 280,192 200,192C120,192 78,170 70,125Z"/>
+<g class="a-sa"><path class="w" d="M167,72H199V103H183V118H167Z"/><path class="s" d="M167,72H199V103H183V118H167Z"/></g>
+<g class="a-sb"><path class="w" d="M233,72H201V103H217V118H233Z"/><path class="s" d="M233,72H201V103H217V118H233Z"/></g>
+<path class="f" d="M192,148L176,126"/>
+<text class="t" x="200" y="166" text-anchor="middle">active site</text>
+<g class="a-l1"><text class="t" x="44" y="62">substrate</text></g>
+<g class="a-l2"><text class="t" x="44" y="62">products</text></g>
+</svg>

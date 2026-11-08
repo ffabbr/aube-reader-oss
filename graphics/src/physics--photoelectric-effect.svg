@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="physics--photoelectric-effect" data-discipline="physics" data-tags="quantum,photon,photoelectric,threshold-frequency,einstein">
+<title>Photoelectric effect</title>
+<desc>Light hitting a metal frees electrons only if each photon carries enough energy: low-frequency light, however it is drawn on, ejects nothing; high-frequency light does.</desc>
+<style>
+.a-phl{animation:a-phl 5s linear infinite}
+@keyframes a-phl{0%{transform:translate(0,0);opacity:0}10%{opacity:1}50%{transform:translate(42px,42px);opacity:1}55%{transform:translate(42px,42px);opacity:0}100%{transform:translate(42px,42px);opacity:0}}
+.a-eje{animation:a-eje 5s linear infinite}
+@keyframes a-eje{0%,52%{transform:translate(0,0);opacity:0}54%{opacity:1}100%{transform:translate(58px,-52px);opacity:0}}
+</style>
+<rect class="w" x="30" y="150" width="340" height="42"/>
+<path class="s" d="M30,150 H370"/>
+<path class="pq" d="M39.6,171 a2.4,2.4 0 1,0 4.8,0 a2.4,2.4 0 1,0 -4.8,0 M65.6,171 a2.4,2.4 0 1,0 4.8,0 a2.4,2.4 0 1,0 -4.8,0 M91.6,171 a2.4,2.4 0 1,0 4.8,0 a2.4,2.4 0 1,0 -4.8,0 M117.6,171 a2.4,2.4 0 1,0 4.8,0 a2.4,2.4 0 1,0 -4.8,0 M143.6,171 a2.4,2.4 0 1,0 4.8,0 a2.4,2.4 0 1,0 -4.8,0 M169.6,171 a2.4,2.4 0 1,0 4.8,0 a2.4,2.4 0 1,0 -4.8,0 M195.6,171 a2.4,2.4 0 1,0 4.8,0 a2.4,2.4 0 1,0 -4.8,0 M221.6,171 a2.4,2.4 0 1,0 4.8,0 a2.4,2.4 0 1,0 -4.8,0 M247.6,171 a2.4,2.4 0 1,0 4.8,0 a2.4,2.4 0 1,0 -4.8,0 M273.6,171 a2.4,2.4 0 1,0 4.8,0 a2.4,2.4 0 1,0 -4.8,0 M299.6,171 a2.4,2.4 0 1,0 4.8,0 a2.4,2.4 0 1,0 -4.8,0 M325.6,171 a2.4,2.4 0 1,0 4.8,0 a2.4,2.4 0 1,0 -4.8,0 M351.6,171 a2.4,2.4 0 1,0 4.8,0 a2.4,2.4 0 1,0 -4.8,0"/>
+<g class="a-phl"><path class="q" d="M77.6,107.6 L74.4,108 L71.7,107.8 L69.8,106.9 L68.9,105 L68.8,102.3 L69.1,99.1 L69.5,95.9 L69.3,93.2 L68.4,91.3 L66.5,90.4 L63.8,90.3 L60.6,90.6 L57.4,91 L54.7,90.9 L52.9,89.9 L51.9,88 L51.8,85.3 L52.1,82.1 L52.5,79 L52.4,76.3 L51.4,74.4 L49.5,73.4 L46.8,73.3 L43.7,73.7 L40.5,74 L37.8,73.9 L35.9,73 L34.9,71.1 L34.8,68.4 L35.2,65.2 L35.5,62 L35.4,59.3 L34.5,57.4 L32.6,56.5 L29.9,56.3 L26.7,56.7"/></g>
+<g class="a-phl"><path class="s" d="M247.6,107.6 L243.6,108.8 L242.6,106.9 L244.2,102.6 L244.7,99.1 L242.1,99 L237.6,100.6 L234.9,100.5 L235.5,97.1 L237,92.7 L236,90.9 L232,92 L228.1,93.2 L227.1,91.4 L228.6,87 L229.2,83.6 L226.5,83.4 L222,85.1 L219.3,84.9 L219.9,81.5 L221.5,77.2 L220.5,75.3 L216.5,76.5 L212.5,77.6 L211.5,75.8 L213,71.4 L213.6,68 L210.9,67.9 L206.5,69.5 L203.8,69.4 L204.4,66 L205.9,61.6 L204.9,59.8 L200.9,60.9"/></g>
+<g class="a-eje"><circle class="p" cx="290" cy="146" r="3.6"/></g>
+<text class="t" x="120" y="216" text-anchor="middle">below threshold</text>
+<text class="t" x="290" y="216" text-anchor="middle">above threshold</text>
+<text class="t" x="330" y="92" text-anchor="middle">e⁻</text>
+</svg>

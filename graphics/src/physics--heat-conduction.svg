@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="physics--heat-conduction" data-discipline="physics" data-tags="heat-transfer,conduction,temperature,thermal-gradient,atoms,fourier">
+<title>Heat conduction</title>
+<desc>Heat flows along a metal rod from a flame to ice as atoms vibrate hardest at the hot end and pass the jostling on, so temperature falls steadily along it.</desc>
+<style>
+.a-j{animation:a-jig 1s ease-in-out infinite alternate}
+@keyframes a-jig{from{transform:translate(calc(var(--a) * -1),calc(var(--a) * .6))}to{transform:translate(var(--a),calc(var(--a) * -.6))}}
+.a-c0{--a:5.5px;animation-delay:-0.00s}
+.a-c1{--a:4.4px;animation-delay:-0.17s}
+.a-c2{--a:3.4px;animation-delay:-0.34s}
+.a-c3{--a:2.5px;animation-delay:-0.51s}
+.a-c4{--a:1.8px;animation-delay:-0.68s}
+.a-c5{--a:1.2px;animation-delay:-0.85s}
+.a-c6{--a:0.8px;animation-delay:-1.02s}
+.a-c7{--a:0.5px;animation-delay:-1.19s}
+.a-c1{animation-duration:2s}
+.a-c3{animation-duration:2s}
+.a-c5{animation-duration:2s}
+.a-c7{animation-duration:2s}
+.a-pk{animation:a-pk 5s linear infinite}
+@keyframes a-pk{0%{transform:translateX(0);opacity:0}10%{opacity:1}90%{opacity:1}100%{transform:translateX(190px);opacity:0}}
+</style>
+<rect class="w" x="88" y="60" width="224" height="48" rx="8"/>
+<rect class="s" x="88" y="60" width="224" height="48" rx="8"/>
+<path class="w" d="M52,108 C34,98 36,82 46,68 C48,76 54,78 57,71 C70,84 70,100 52,108 Z"/>
+<path class="s" d="M52,108 C34,98 36,82 46,68 C48,76 54,78 57,71 C70,84 70,100 52,108 Z"/>
+<path class="q" d="M52,108 C44,102 45,94 51,88 C56,94 60,100 52,108"/>
+<rect class="w" x="334" y="70" width="30" height="30" rx="4"/>
+<rect class="s" x="334" y="70" width="30" height="30" rx="4"/>
+<path class="q hair" d="M341,78 H351 M341,84 H346"/>
+<g class="a-j a-c0"><circle class="p" cx="108" cy="76" r="4"/><circle class="p" cx="108" cy="92" r="4"/></g>
+<g class="a-j a-c1"><circle class="p" cx="136" cy="76" r="4"/><circle class="p" cx="136" cy="92" r="4"/></g>
+<g class="a-j a-c2"><circle class="p" cx="164" cy="76" r="4"/><circle class="p" cx="164" cy="92" r="4"/></g>
+<g class="a-j a-c3"><circle class="p" cx="192" cy="76" r="4"/><circle class="p" cx="192" cy="92" r="4"/></g>
+<g class="a-j a-c4"><circle class="p" cx="220" cy="76" r="4"/><circle class="p" cx="220" cy="92" r="4"/></g>
+<g class="a-j a-c5"><circle class="p" cx="248" cy="76" r="4"/><circle class="p" cx="248" cy="92" r="4"/></g>
+<g class="a-j a-c6"><circle class="p" cx="276" cy="76" r="4"/><circle class="p" cx="276" cy="92" r="4"/></g>
+<g class="a-j a-c7"><circle class="p" cx="304" cy="76" r="4"/><circle class="p" cx="304" cy="92" r="4"/></g>
+<path class="s" d="M100,134 L300,134 M292.8,130.5 L300,134 M292.8,137.5 L300,134"/>
+<path class="f" d="M88,216 H312 M88,216 V164"/>
+<path class="q" d="M88,168 C150,172 220,192 312,212"/>
+<g class="a-pk"><circle class="pq" cx="100" cy="134" r="3.6"/></g>
+<text class="t" x="52" y="58" text-anchor="middle">hot</text>
+<text class="t" x="349" y="58" text-anchor="middle">cold</text>
+<text class="t" x="200" y="158" text-anchor="middle">heat flow</text>
+</svg>

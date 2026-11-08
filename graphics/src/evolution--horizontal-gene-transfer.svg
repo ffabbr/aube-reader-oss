@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="evolution--horizontal-gene-transfer" data-discipline="evolution" data-tags="horizontal-gene-transfer,bacteria,plasmid,conjugation,antibiotic-resistance,gene-flow">
+<title>Horizontal gene transfer between bacteria</title>
+<desc>One bacterium passes a loop of DNA, a plasmid, through a thin bridge into another cell, so genes move sideways between unrelated lineages rather than parent to child.</desc>
+<style>
+.a-pass{offset-path:path("M130,116 H270");offset-rotate:0deg;animation:a-cross 10s ease-in-out infinite}
+.a-arrive{animation:a-land 10s linear infinite}
+@keyframes a-cross{0%,22%{offset-distance:0%;opacity:0}27%{offset-distance:0%;opacity:1}72%{offset-distance:100%;opacity:1}75%,100%{offset-distance:100%;opacity:0}}
+@keyframes a-land{0%,71%{opacity:0}74%,100%{opacity:1}}
+</style>
+<rect class="w" x="38" y="74" width="130" height="84" rx="42"/>
+<rect class="q" x="38" y="74" width="130" height="84" rx="42"/>
+<rect class="w" x="232" y="74" width="130" height="84" rx="42"/>
+<rect class="q" x="232" y="74" width="130" height="84" rx="42"/>
+<rect class="w" x="166" y="105" width="68" height="22"/>
+<path class="q" d="M168,105 H232 M168,127 H232"/>
+<path class="q" d="M56,116 q6,-16 12,0 t12,0 t12,0 t12,0"/>
+<path class="q" d="M296,116 q4,-16 8,0 t8,0 t8,0 t8,0 t8,0 t8,0"/>
+<circle class="w" cx="130" cy="116" r="8"/><circle class="s" cx="130" cy="116" r="8"/><circle class="p" cx="130" cy="108" r="2"/>
+<circle class="k s" cx="270" cy="116" r="8"/>
+<g class="a-arrive"><circle class="w" cx="270" cy="116" r="8"/><circle class="s" cx="270" cy="116" r="8"/><circle class="p" cx="270" cy="108" r="2"/></g>
+<g class="a-pass"><circle class="w" cx="0" cy="0" r="8"/><circle class="s" cx="0" cy="0" r="8"/><circle class="p" cx="0" cy="-8" r="2"/></g>
+<text class="t" x="103" y="60" text-anchor="middle">donor</text>
+<text class="t" x="297" y="60" text-anchor="middle">recipient</text>
+<text class="t" x="200" y="184" text-anchor="middle">plasmid passes across</text>
+</svg>

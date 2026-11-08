@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="astronomy--solar-eclipse" data-discipline="astronomy" data-tags="eclipse,sun,moon,shadow,umbra,penumbra">
+<title>Solar eclipse</title>
+<desc>The Moon steps between Sun and Earth; its small dark shadow sweeps across the Earth's surface and briefly hides the Sun.</desc>
+<style>
+@keyframes a-sweep{from{transform:translateY(-16px)}to{transform:translateY(16px)}}
+.a-sweep{animation:a-sweep 5s ease-in-out infinite alternate;transform:translateY(-16px)}
+</style>
+<circle class="w" cx="58" cy="120" r="32"/>
+<circle class="s" cx="58" cy="120" r="32"/>
+<path class="f" d="M98,106H212"/>
+<path class="f" d="M98,120H212"/>
+<path class="f" d="M98,134H212"/>
+<circle class="w" cx="336" cy="120" r="28"/>
+<circle class="s" cx="336" cy="120" r="28"/>
+<g class="a-sweep">
+<path class="w" d="M228,110L308,120L228,130Z"/>
+<path class="k q" d="M228,110L308,120L228,130"/>
+<path class="k f" d="M228,110L302,86M228,130L302,154"/>
+<circle class="w" cx="228" cy="120" r="10"/>
+<circle class="p" cx="228" cy="120" r="10"/>
+<ellipse class="p" cx="309.5" cy="120" rx="2.5" ry="6"/>
+</g>
+<text class="t" x="58" y="174" text-anchor="middle">Sun</text>
+<text class="t" x="228" y="78" text-anchor="middle">Moon</text>
+<text class="t" x="336" y="170" text-anchor="middle">Earth</text>
+</svg>

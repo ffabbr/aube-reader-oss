@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="biology--krebs-cycle" data-discipline="biology" data-tags="krebs-cycle,citric-acid-cycle,metabolism,cellular-respiration,acetyl-coa,carbon-dioxide">
+<title>Krebs cycle</title>
+<desc>The citric acid cycle as a wheel of carbon skeletons: a two-carbon acetyl joins four to make six, then two carbons leave as CO₂ and the four-carbon carrier returns.</desc>
+<style>
+.a-spin{transform-box:view-box;transform-origin:200px 132px;animation:a-spin 5s linear infinite}
+@keyframes a-spin{from{transform:rotate(0)}to{transform:rotate(360deg)}}
+.a-ac{animation:a-ac 5s ease-in infinite}
+@keyframes a-ac{0%,70%{transform:translateY(0);opacity:1}95%{transform:translateY(14px);opacity:1}100%{transform:translateY(14px);opacity:0}}
+.a-o1{animation:a-o1 5s ease-out infinite}
+@keyframes a-o1{0%,24%{transform:translate(0,0);opacity:0}26%{opacity:1}55%{opacity:1}62%,100%{transform:translate(46px,26px);opacity:0}}
+.a-o2{animation:a-o2 5s ease-out infinite}
+@keyframes a-o2{0%,36%{transform:translate(0,0);opacity:0}38%{opacity:1}67%{opacity:1}74%,100%{transform:translate(62.6px,-5.4px);opacity:0}}
+</style>
+<circle class="k f" cx="200" cy="132" r="66"/>
+<path class="q" d="M253.1,66.9A84,84 0 0 1 265.1,78.9M283.6,123.5A84,84 0 0 1 283.1,144.1M267.3,182.2A84,84 0 0 1 247.3,201.4M215.6,214.5A84,84 0 0 1 184.4,214.5M152.7,201.4A84,84 0 0 1 130.6,179.3M117.5,147.6A84,84 0 0 1 117.5,116.4M130.6,84.7A84,84 0 0 1 152.7,62.6M184.4,49.5A84,84 0 0 1 208.5,48.4"/>
+<path class="q" d="M264.1,72L265.1,78.9L258.5,76.5M287.6,138.6L283.1,144.1L280.4,137.6M254.3,201L247.3,201.4L250.2,195M189.6,219.2L184.4,214.5L190.9,212.1M131,186.3L130.6,179.3L137,182.2M112.8,121.6L117.5,116.4L119.9,122.9M145.7,63L152.7,62.6L149.8,69M202.9,44.2L208.5,48.4L202.2,51.4"/>
+<circle class="p" cx="214.9" cy="49.3" r="2.9"/>
+<circle class="p" cx="221.9" cy="50.9" r="2.9"/>
+<circle class="p" cx="228.8" cy="53.1" r="2.9"/>
+<circle class="p" cx="235.4" cy="55.8" r="2.9"/>
+<circle class="p" cx="241.8" cy="59.2" r="2.9"/>
+<circle class="p" cx="247.9" cy="63" r="2.9"/>
+<circle class="p" cx="269" cy="84.1" r="2.9"/>
+<circle class="p" cx="272.8" cy="90.2" r="2.9"/>
+<circle class="p" cx="276.2" cy="96.6" r="2.9"/>
+<circle class="p" cx="278.9" cy="103.2" r="2.9"/>
+<circle class="p" cx="281.1" cy="110.1" r="2.9"/>
+<circle class="p" cx="282.7" cy="117.1" r="2.9"/>
+<circle class="p" cx="282" cy="150.4" r="2.9"/>
+<circle class="p" cx="280.1" cy="157.4" r="2.9"/>
+<circle class="p" cx="277.6" cy="164.1" r="2.9"/>
+<circle class="p" cx="274.6" cy="170.7" r="2.9"/>
+<circle class="p" cx="271" cy="176.9" r="2.9"/>
+<circle class="p" cx="241.8" cy="204.8" r="2.9"/>
+<circle class="p" cx="235.4" cy="208.2" r="2.9"/>
+<circle class="p" cx="228.8" cy="210.9" r="2.9"/>
+<circle class="p" cx="221.9" cy="213.1" r="2.9"/>
+<circle class="p" cx="178.1" cy="213.1" r="2.9"/>
+<circle class="p" cx="171.2" cy="210.9" r="2.9"/>
+<circle class="p" cx="164.6" cy="208.2" r="2.9"/>
+<circle class="p" cx="158.2" cy="204.8" r="2.9"/>
+<circle class="p" cx="127.2" cy="173.8" r="2.9"/>
+<circle class="p" cx="123.8" cy="167.4" r="2.9"/>
+<circle class="p" cx="121.1" cy="160.8" r="2.9"/>
+<circle class="p" cx="118.9" cy="153.9" r="2.9"/>
+<circle class="p" cx="118.9" cy="110.1" r="2.9"/>
+<circle class="p" cx="121.1" cy="103.2" r="2.9"/>
+<circle class="p" cx="123.8" cy="96.6" r="2.9"/>
+<circle class="p" cx="127.2" cy="90.2" r="2.9"/>
+<circle class="p" cx="158.2" cy="59.2" r="2.9"/>
+<circle class="p" cx="164.6" cy="55.8" r="2.9"/>
+<circle class="p" cx="171.2" cy="53.1" r="2.9"/>
+<circle class="p" cx="178.1" cy="50.9" r="2.9"/>
+<path class="k f" d="M200,24V47"/>
+<g class="a-ac">
+<circle class="p" cx="200" cy="26" r="2.9"/>
+<circle class="p" cx="200" cy="33" r="2.9"/>
+</g>
+<path class="k f" d="M284,132L330,158M259.4,191.4L322,186"/>
+<g class="a-o1">
+<circle class="p" cx="284" cy="132" r="2.9"/>
+</g>
+<g class="a-o2">
+<circle class="p" cx="259.4" cy="191.4" r="2.9"/>
+</g>
+<g class="a-spin">
+<circle class="p" cx="200" cy="66" r="3.6"/>
+</g>
+<text class="t" x="200" y="137" text-anchor="middle">Krebs cycle</text>
+<text class="t" x="191" y="32" text-anchor="end">acetyl-CoA</text>
+<text class="t" x="340" y="178">CO₂</text>
+</svg>

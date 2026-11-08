@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="physics--pendulum" data-discipline="physics" data-tags="oscillation,gravity,period,harmonic-motion,mechanics">
+<title>Pendulum</title>
+<desc>A bob swings on a string beneath a pivot; the faint arc is the path it keeps retracing, the rhythm of simple harmonic motion.</desc>
+<style>
+.a-swing{transform-box:view-box;transform-origin:200px 40px;animation:a-swing 2.5s ease-in-out infinite alternate;transform:rotate(-24deg)}
+@keyframes a-swing{from{transform:rotate(-24deg)}to{transform:rotate(24deg)}}
+</style>
+<path class="q" d="M130,40 H270"/>
+<path class="f hair" d="M150,40 l-10,-10 M175,40 l-10,-10 M200,40 l-10,-10 M225,40 l-10,-10 M250,40 l-10,-10 M275,40 l-10,-10"/>
+<path class="k f" d="M200,40 V202"/>
+<path class="f" d="M134.1,188 A162,162 0 0 0 265.9,188"/>
+<g class="a-swing">
+<path class="s" d="M200,40 V190"/>
+<circle class="w" cx="200" cy="202" r="14"/>
+<circle class="s" cx="200" cy="202" r="14"/>
+<circle class="p" cx="200" cy="40" r="3"/>
+</g>
+<text class="t" x="200" y="230" text-anchor="middle">T = 2π√(L/g)</text>
+</svg>

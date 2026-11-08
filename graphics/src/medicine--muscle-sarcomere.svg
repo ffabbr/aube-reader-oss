@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="medicine--muscle-sarcomere" data-discipline="medicine" data-tags="muscle,sarcomere,actin,myosin,sliding-filament,contraction">
+<title>Muscle sarcomere</title>
+<desc>A sarcomere, the unit of muscle: myosin heads ratchet along thin actin filaments, drawing the Z lines inward so the whole band shortens while no filament does.</desc>
+<style>
+.a-l{animation:a-l 2.5s ease-in-out infinite alternate}.a-r{animation:a-r 2.5s ease-in-out infinite alternate}
+@keyframes a-l{from{transform:translateX(0)}to{transform:translateX(26px)}}
+@keyframes a-r{from{transform:translateX(0)}to{transform:translateX(-26px)}}
+.a-h0{transform-box:view-box;transform-origin:200px 75px;animation:a-stroke 1s ease-in-out infinite alternate}
+.a-h1{transform-box:view-box;transform-origin:200px 109px;animation:a-stroke 1s ease-in-out infinite alternate}
+.a-h2{transform-box:view-box;transform-origin:200px 143px;animation:a-stroke 1s ease-in-out infinite alternate}
+@keyframes a-stroke{from{transform:skewX(0deg)}to{transform:skewX(14deg)}}
+</style>
+<path class="f hair" d="M200,44V174"/>
+<path class="s bold" d="M122,75H278M122,109H278M122,143H278"/>
+<g class="a-h0"><path class="q" d="M132,75l5,-9M132,75l5,9M146,75l5,-9M146,75l5,9M160,75l5,-9M160,75l5,9M174,75l5,-9M174,75l5,9M226,75l-5,-9M226,75l-5,9M240,75l-5,-9M240,75l-5,9M254,75l-5,-9M254,75l-5,9M268,75l-5,-9M268,75l-5,9"/></g>
+<g class="a-h1"><path class="q" d="M132,109l5,-9M132,109l5,9M146,109l5,-9M146,109l5,9M160,109l5,-9M160,109l5,9M174,109l5,-9M174,109l5,9M226,109l-5,-9M226,109l-5,9M240,109l-5,-9M240,109l-5,9M254,109l-5,-9M254,109l-5,9M268,109l-5,-9M268,109l-5,9"/></g>
+<g class="a-h2"><path class="q" d="M132,143l5,-9M132,143l5,9M146,143l5,-9M146,143l5,9M160,143l5,-9M160,143l5,9M174,143l5,-9M174,143l5,9M226,143l-5,-9M226,143l-5,9M240,143l-5,-9M240,143l-5,9M254,143l-5,-9M254,143l-5,9M268,143l-5,-9M268,143l-5,9"/></g>
+<g class="a-l"><path class="s" d="M46,44L38,60L52,76L38,92L52,108L38,124L52,140L38,156L46,174"/><path class="q" d="M46,58H164M46,92H164M46,126H164M46,160H164"/></g>
+<g class="a-r"><path class="s" d="M354,44L362,60L348,76L362,92L348,108L362,124L348,140L362,156L354,174"/><path class="q" d="M354,58H236M354,92H236M354,126H236M354,160H236"/></g>
+<text class="t" x="46" y="200" text-anchor="middle">Z line</text>
+<text class="t" x="200" y="200" text-anchor="middle">myosin</text>
+<text class="t" x="112" y="44" text-anchor="middle">actin</text>
+</svg>

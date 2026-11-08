@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="evolution--convergent-evolution" data-discipline="evolution" data-tags="convergent-evolution,analogous-traits,shark,dolphin,streamlined,natural-selection,ancestry">
+<title>Convergent evolution: shark and dolphin</title>
+<desc>A fish and a mammal, only distantly related, evolved the same streamlined body for fast swimming: similar form shaped by the same pressure, not by shared descent.</desc>
+<style>
+.a-tail1{transform-box:view-box;transform-origin:156px 70px;animation:a-wag1 2.5s ease-in-out infinite alternate}
+.a-tail2{transform-box:view-box;transform-origin:244px 70px;animation:a-wag2 2.5s ease-in-out infinite alternate}
+@keyframes a-wag1{from{transform:rotate(-11deg)}to{transform:rotate(11deg)}}
+@keyframes a-wag2{from{transform:rotate(11deg)}to{transform:rotate(-11deg)}}
+.a-same{animation:a-same 2.5s ease-in-out infinite alternate}
+@keyframes a-same{from{opacity:.35}to{opacity:1}}
+</style>
+<path class="w" d="M56,70 C72,50 112,44 152,64 L158,66 L158,74 L152,76 C112,96 72,90 56,70 Z"/>
+<path class="w" d="M90,54 L108,32 L112,51 Z"/>
+<path class="s" d="M56,70 C72,50 112,44 152,64 L158,66 L158,74 L152,76 C112,96 72,90 56,70 Z"/>
+<path class="s" d="M90,54.5 L108,32 L112,50.5"/>
+<path class="s" d="M92,85 L84,102 L106,85.5"/>
+<path class="f hair" d="M78,62 q3,6 0,13 M83,61 q3,7 0,14 M88,60 q3,7 0,15"/>
+<circle class="p" cx="67" cy="67" r="1.8"/>
+<g class="a-tail1"><path class="w" d="M156,67 L178,42 L171,70 L179,92 L156,73 Z"/><path class="s" d="M156,67 L178,42 L171,70 L179,92 L156,73 Z"/></g>
+<path class="w" d="M358,72 C352,71 349,68 343,63 C325,48 285,48 248,64 L242,66 L242,74 L248,76 C285,92 330,90 347,75 C351,74 355,74 358,72 Z"/>
+<path class="w" d="M306,50.5 Q294,36 280,35 Q286,44 285,53 Z"/>
+<path class="s" d="M358,72 C352,71 349,68 343,63 C325,48 285,48 248,64 L242,66 L242,74 L248,76 C285,92 330,90 347,75 C351,74 355,74 358,72 Z"/>
+<path class="s" d="M306,50.5 Q294,36 280,35 Q286,44 285,53"/>
+<path class="s" d="M312,85 Q312,98 296,102 Q298,94 296,86"/>
+<path class="f hair" d="M347,75 Q336,75 328,72"/>
+<circle class="p" cx="332" cy="66" r="1.8"/>
+<g class="a-tail2"><path class="w" d="M244,67 Q232,62 222,44 Q218,58 228,70 Q218,82 222,96 Q232,78 244,73 Z"/><path class="s" d="M244,67 Q232,62 222,44 Q218,58 228,70 Q218,82 222,96 Q232,78 244,73 Z"/></g>
+<path class="q" d="M200,206 V190 C200,166 124,162 112,122"/>
+<path class="q" d="M200,190 C200,166 276,162 288,122"/>
+<path class="k q" d="M112,122 V106 M288,122 V106"/>
+<circle class="p" cx="200" cy="190" r="3.4"/>
+<g class="a-same"><path class="k s" d="M150,122 H250 M157,118 l-7,4 l7,4 M243,118 l7,4 l-7,4"/></g>
+<text class="t" x="96" y="122" text-anchor="end">shark</text>
+<text class="t" x="304" y="122" text-anchor="start">dolphin</text>
+<text class="t" x="200" y="222" text-anchor="middle">similar shape, distant relatives</text>
+</svg>

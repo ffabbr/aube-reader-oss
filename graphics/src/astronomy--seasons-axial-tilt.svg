@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="astronomy--seasons-axial-tilt" data-discipline="astronomy" data-tags="seasons,axial-tilt,earth,orbit,sun,solstice">
+<title>Seasons from axial tilt</title>
+<desc>Earth keeps its axis tilted 23.5 degrees in the same direction all year, so each hemisphere leans toward or away from the Sun as it orbits.</desc>
+<style>
+@keyframes a-spin{to{transform:rotate(360deg)}}
+@keyframes a-spinr{to{transform:rotate(-360deg)}}
+@keyframes a-lap{to{offset-distance:100%}}
+.a-here{offset-path:path("M50,120A150,62 0 0 0 350,120A150,62 0 0 0 50,120");offset-rotate:0deg;animation:a-lap 10s linear infinite;}
+</style>
+<ellipse class="f" cx="200" cy="120" rx="150" ry="62"/>
+<circle class="w" cx="200" cy="120" r="15"/>
+<circle class="p" cx="200" cy="120" r="7"/>
+<circle class="w" cx="50" cy="120" r="11"/>
+<path class="pq" d="M50,109A11,11 0 0 0 50,131Z"/>
+<circle class="s" cx="50" cy="120" r="11"/>
+<path class="q" d="M42.4,137.4L57.6,102.6"/>
+<circle class="w" cx="200" cy="58" r="11"/>
+<path class="pq" d="M211,58A11,11 0 0 0 189,58Z"/>
+<circle class="s" cx="200" cy="58" r="11"/>
+<path class="q" d="M192.4,75.4L207.6,40.6"/>
+<circle class="w" cx="350" cy="120" r="11"/>
+<path class="pq" d="M350,131A11,11 0 0 0 350,109Z"/>
+<circle class="s" cx="350" cy="120" r="11"/>
+<path class="q" d="M342.4,137.4L357.6,102.6"/>
+<circle class="w" cx="200" cy="182" r="11"/>
+<path class="pq" d="M189,182A11,11 0 0 0 211,182Z"/>
+<circle class="s" cx="200" cy="182" r="11"/>
+<path class="q" d="M192.4,199.4L207.6,164.6"/>
+<g class="a-here">
+<circle class="q" cx="0" cy="0" r="16"/>
+</g>
+<text class="t" x="50" y="153" text-anchor="middle">June</text>
+<text class="t" x="350" y="153" text-anchor="middle">December</text>
+</svg>

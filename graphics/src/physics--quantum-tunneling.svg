@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="physics--quantum-tunneling" data-discipline="physics" data-tags="quantum,tunneling,wave-packet,potential-barrier,wavefunction">
+<title>Quantum tunneling</title>
+<desc>A wave packet meets an energy barrier: most of it is reflected, but a small, weaker part leaks through to the far side though classically it could not.</desc>
+<style>
+.a-in{animation:a-in 10s linear infinite}
+@keyframes a-in{0%,40%{transform:translateX(0);opacity:1}55%{opacity:1}62%{transform:translateX(80px);opacity:0}100%{transform:translateX(80px);opacity:0}}
+.a-re{animation:a-re 10s linear infinite}
+@keyframes a-re{0%,54%{transform:translateX(0);opacity:0}60%{opacity:1}88%{transform:translateX(-86px);opacity:0}100%{transform:translateX(-86px);opacity:0}}
+.a-tr{animation:a-tr 10s linear infinite}
+@keyframes a-tr{0%,54%{transform:translateX(0);opacity:0}62%{opacity:1}84%{opacity:1}92%{transform:translateX(96px);opacity:0}100%{transform:translateX(96px);opacity:0}}
+</style>
+<path class="f" d="M22,120 H378"/>
+<rect class="w" x="175" y="60" width="50" height="120"/>
+<rect class="s" x="175" y="60" width="50" height="120"/>
+<g class="a-in"><path class="s" d="M22,120 L23.5,119.7 L25,119.4 L26.5,119.2 L28,119.2 L29.5,119.7 L31,120.7 L32.5,121.8 L34,122.7 L35.5,122.8 L37,121.6 L38.5,119 L40,115.9 L41.5,113.2 L43,112.4 L44.5,114.7 L46,120 L47.5,127 L49,133.3 L50.5,135.9 L52,132.8 L53.5,123.9 L55,111.6 L56.5,100.2 L58,94.3 L59.5,97.2 L61,108.9 L62.5,125.9 L64,142.4 L65.5,152.1 L67,150.9 L68.5,138.8 L70,120 L71.5,101.2 L73,89.1 L74.5,87.9 L76,97.6 L77.5,114.1 L79,131.1 L80.5,142.8 L82,145.7 L83.5,139.8 L85,128.4 L86.5,116.1 L88,107.2 L89.5,104.1 L91,106.7 L92.5,113 L94,120 L95.5,125.3 L97,127.6 L98.5,126.8 L100,124.1 L101.5,121 L103,118.4 L104.5,117.2 L106,117.3 L107.5,118.2 L109,119.3 L110.5,120.3 L112,120.8 L113.5,120.8 L115,120.6 L116.5,120.3 L118,120"/></g>
+<g class="a-re"><path class="q" d="M102,120 L103.5,119.8 L105,119.6 L106.5,119.5 L108,119.5 L109.5,119.8 L111,120.4 L112.5,121.2 L114,121.8 L115.5,121.8 L117,121 L118.5,119.4 L120,117.3 L121.5,115.6 L123,115.1 L124.5,116.6 L126,120 L127.5,124.5 L129,128.6 L130.5,130.3 L132,128.3 L133.5,122.5 L135,114.6 L136.5,107.2 L138,103.4 L139.5,105.3 L141,112.8 L142.5,123.8 L144,134.5 L145.5,140.7 L147,140 L148.5,132.2 L150,120 L151.5,107.8 L153,100 L154.5,99.3 L156,105.5 L157.5,116.2 L159,127.2 L160.5,134.7 L162,136.6 L163.5,132.8 L165,125.4 L166.5,117.5 L168,111.7 L169.5,109.7 L171,111.4 L172.5,115.5 L174,120 L175.5,123.4 L177,124.9 L178.5,124.4 L180,122.7 L181.5,120.6 L183,119 L184.5,118.2 L186,118.2 L187.5,118.8 L189,119.6 L190.5,120.2 L192,120.5 L193.5,120.5 L195,120.4 L196.5,120.2 L198,120"/></g>
+<g class="a-tr"><path class="q" d="M184,120 L185.5,119.9 L187,119.8 L188.5,119.7 L190,119.8 L191.5,119.9 L193,120.2 L194.5,120.6 L196,120.9 L197.5,120.9 L199,120.5 L200.5,119.7 L202,118.7 L203.5,117.8 L205,117.6 L206.5,118.3 L208,120 L209.5,122.3 L211,124.3 L212.5,125.1 L214,124.1 L215.5,121.3 L217,117.3 L218.5,113.6 L220,111.7 L221.5,112.6 L223,116.4 L224.5,121.9 L226,127.3 L227.5,130.4 L229,130 L230.5,126.1 L232,120 L233.5,113.9 L235,110 L236.5,109.6 L238,112.7 L239.5,118.1 L241,123.6 L242.5,127.4 L244,128.3 L245.5,126.4 L247,122.7 L248.5,118.7 L250,115.9 L251.5,114.9 L253,115.7 L254.5,117.7 L256,120 L257.5,121.7 L259,122.4 L260.5,122.2 L262,121.3 L263.5,120.3 L265,119.5 L266.5,119.1 L268,119.1 L269.5,119.4 L271,119.8 L272.5,120.1 L274,120.2 L275.5,120.3 L277,120.2 L278.5,120.1 L280,120"/></g>
+<text class="t" x="200" y="204" text-anchor="middle">barrier</text>
+</svg>

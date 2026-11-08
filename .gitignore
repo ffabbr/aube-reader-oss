@@ -1,0 +1,16 @@
+# Local settings: signing team, bundle identifier, API key.
+Local.xcconfig
+
+# Build output
+build/
+DerivedData/
+
+# Xcode user state
+xcuserdata/
+*.xcuserstate
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/

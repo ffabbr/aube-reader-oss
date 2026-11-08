@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="astronomy--ocean-tides-moon" data-discipline="astronomy" data-tags="tides,moon,gravity,ocean,earth-rotation,bulge">
+<title>Ocean tides from the Moon</title>
+<desc>The Moon's pull raises two ocean bulges on opposite sides of Earth; as the planet turns beneath them, a shore passes through high and low tides.</desc>
+<style>
+@keyframes a-spin{to{transform:rotate(360deg)}}
+@keyframes a-spinr{to{transform:rotate(-360deg)}}
+@keyframes a-lap{to{offset-distance:100%}}
+.a-turn{transform-box:view-box;transform-origin:140px 120px;animation:a-spinr 10s linear infinite;}
+</style>
+<path class="w" fill-rule="evenodd" d="M76,120A64,43 0 1 0 204,120A64,43 0 1 0 76,120ZM102,120A38,38 0 1 0 178,120A38,38 0 1 0 102,120Z"/>
+<ellipse class="q" cx="140" cy="120" rx="64" ry="43"/>
+<circle class="s" cx="140" cy="120" r="38"/>
+<g class="a-turn">
+<path class="q" d="M148,90c8,-4 16,2 14,10c-2,8 -12,6 -16,14c-4,6 -12,2 -10,-6c2,-8 -2,-12 4,-18z"/>
+<path class="q" d="M116,132c6,-4 14,0 12,8c-2,6 -10,8 -14,2c-3,-4 0,-8 2,-10z"/>
+<circle class="p" cx="140" cy="82" r="3.6"/>
+</g>
+<circle class="w" cx="322" cy="120" r="13"/>
+<circle class="s" cx="322" cy="120" r="13"/>
+<path class="q" d="M212,120H292m-6,-4l6,4l-6,4"/>
+<text class="t" x="322" y="150" text-anchor="middle">Moon</text>
+<text class="t" x="200" y="212" text-anchor="middle">two bulges, two high tides a day</text>
+</svg>

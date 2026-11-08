@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="genetics--hardy-weinberg" data-discipline="genetics" data-tags="hardy-weinberg,allele-frequency,genotype-frequency,population-genetics,equilibrium,p-squared">
+<title>Hardy-Weinberg equilibrium</title>
+<desc>A unit square split by allele frequency p and q: its areas p², 2pq and q² are the genotype shares, and they stay fixed when nothing acts on the population.</desc>
+<style>
+.a-vx{animation:a-vx 5s ease-in-out infinite alternate}
+.a-hy{animation:a-hy 5s ease-in-out infinite alternate}
+.a-tl{transform-box:view-box;transform-origin:120px 42px;animation:a-tl 5s ease-in-out infinite alternate}
+.a-br{transform-box:view-box;transform-origin:280px 202px;animation:a-br 5s ease-in-out infinite alternate}
+@keyframes a-vx{from{transform:translateX(32px)}to{transform:translateX(-32px)}}
+@keyframes a-hy{from{transform:translateY(32px)}to{transform:translateY(-32px)}}
+@keyframes a-tl{from{transform:scale(1.4)}to{transform:scale(.6)}}
+@keyframes a-br{from{transform:scale(.6)}to{transform:scale(1.4)}}
+
+</style>
+<g class="a-tl"><rect class="w" x="120" y="42" width="80.0" height="80.0"/></g>
+<g class="a-br"><rect class="w" x="200.0" y="122.0" width="80.0" height="80.0"/></g>
+<path class="q" d="M120,42 h160 v160 h-160 Z"/>
+<g class="a-vx"><line class="s" x1="200.0" y1="42" x2="200.0" y2="202"/></g>
+<g class="a-hy"><line class="s" x1="120" y1="122.0" x2="280" y2="122.0"/></g>
+<circle class="p" cx="134" cy="58" r="4"/>
+<circle class="p" cx="148" cy="58" r="4"/>
+<circle class="p" cx="246" cy="58" r="4"/>
+<circle class="s" cx="260" cy="58" r="4"/>
+<circle class="s" cx="246" cy="164" r="4"/>
+<circle class="s" cx="260" cy="164" r="4"/>
+<text class="t" x="141" y="82" text-anchor="middle">p²</text>
+<text class="t" x="253" y="82" text-anchor="middle">2pq</text>
+<text class="t" x="253" y="188" text-anchor="middle">q²</text>
+</svg>

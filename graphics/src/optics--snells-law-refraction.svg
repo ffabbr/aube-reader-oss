@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="optics--snells-law-refraction" data-discipline="optics" data-tags="refraction,snells-law,wavefront,index-of-refraction,light,optics">
+<title>Snell's Law of Refraction</title>
+<desc>A ray bends toward the normal as it enters glass; its wavefronts bunch up as they slow, and the change of speed is what turns the ray.</desc>
+<style>
+.a-front{animation:a-front 5s linear infinite}
+@keyframes a-front{0%{transform:translate(97.56px,39.96px) rotate(38deg);opacity:0}7%{opacity:1}42.02%{transform:translate(194.25px,115.51px) rotate(38deg)}47.52%{transform:translate(203.07px,124.97px) rotate(58.31deg)}93%{opacity:1}100%{transform:translate(256.74px,211.9px) rotate(58.31deg);opacity:0}}
+.a-f0{animation-delay:0s}
+.a-f1{animation-delay:-0.83s}
+.a-f2{animation-delay:-1.67s}
+.a-f3{animation-delay:-2.5s}
+.a-f4{animation-delay:-3.33s}
+.a-f5{animation-delay:-4.17s}
+</style>
+<rect class="w" x="30" y="120" width="340" height="100"/>
+<line class="q" x1="30" y1="120" x2="370" y2="120"/>
+<line class="k f" x1="200" y1="24" x2="200" y2="216"/>
+<path class="s" d="M97.56,39.96 L200,120 L256.74,211.9"/>
+<path class="f" d="M200,84 A36,36 0 0 0 171.63,97.84"/>
+<path class="f" d="M200,162 A42,42 0 0 0 222.06,155.74"/>
+<g class="a-front a-f0"><line class="q" x1="0" y1="-13" x2="0" y2="13"/></g>
+<g class="a-front a-f1"><line class="q" x1="0" y1="-13" x2="0" y2="13"/></g>
+<g class="a-front a-f2"><line class="q" x1="0" y1="-13" x2="0" y2="13"/></g>
+<g class="a-front a-f3"><line class="q" x1="0" y1="-13" x2="0" y2="13"/></g>
+<g class="a-front a-f4"><line class="q" x1="0" y1="-13" x2="0" y2="13"/></g>
+<g class="a-front a-f5"><line class="q" x1="0" y1="-13" x2="0" y2="13"/></g>
+<text class="t" x="180" y="70" text-anchor="middle">θ₁</text>
+<text class="t" x="213" y="193" text-anchor="middle">θ₂</text>
+<text class="t" x="366" y="52" text-anchor="end">n₁ sin θ₁ = n₂ sin θ₂</text>
+</svg>

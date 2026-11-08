@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="chemistry--atomic-orbitals" data-discipline="chemistry" data-tags="orbital,s-orbital,p-orbital,d-orbital,electron-density,quantum">
+<title>Atomic orbitals s, p and d</title>
+<desc>The s orbital is a sphere, p a pair of lobes along an axis, d a four-leaf clover: the shapes of the regions where an electron is likely to be found.</desc>
+<style>
+.a-br1{transform-box:view-box;transform-origin:80px 108px;animation:a-br 5s ease-in-out infinite alternate}
+.a-br2{transform-box:view-box;transform-origin:200px 108px;animation:a-br 5s ease-in-out infinite alternate-reverse}
+.a-br3{transform-box:view-box;transform-origin:320px 108px;animation:a-br 5s ease-in-out infinite alternate}
+@keyframes a-br{from{transform:scale(.95)}to{transform:scale(1.06)}}
+.a-tw1{animation:a-tw 2s ease-in-out infinite alternate}
+.a-tw2{animation:a-tw 2.5s ease-in-out infinite alternate-reverse}
+@keyframes a-tw{from{opacity:.15}to{opacity:1}}
+</style>
+<path class="f hair" d="M24,108 H136 M80,56 V160 M144,108 H256 M200,38 V178 M264,108 H376 M320,50 V166"/>
+<g class="a-br1"><circle class="w" cx="80" cy="108" r="40"/><circle class="s" cx="80" cy="108" r="40"/>
+<circle class="p" cx="80" cy="108" r="2.6"/></g>
+<g class="a-br2"><path class="w" d="M200,108 C175,85.6 177.5,47.2 200,44 C222.5,47.2 225,85.6 200,108Z" transform="rotate(0 200 108)"/><path class="s" d="M200,108 C175,85.6 177.5,47.2 200,44 C222.5,47.2 225,85.6 200,108Z" transform="rotate(0 200 108)"/><path class="s" d="M200,108 C175,85.6 177.5,47.2 200,44 C222.5,47.2 225,85.6 200,108Z" transform="rotate(180 200 108)"/><circle class="p" cx="200" cy="108" r="2.6"/></g>
+<g class="a-br3"><path class="w" d="M320,108 C301,88.4 302.9,54.800000000000004 320,52 C337.1,54.800000000000004 339,88.4 320,108Z" transform="rotate(45 320 108)"/><path class="w" d="M320,108 C301,88.4 302.9,54.800000000000004 320,52 C337.1,54.800000000000004 339,88.4 320,108Z" transform="rotate(225 320 108)"/><path class="s" d="M320,108 C301,88.4 302.9,54.800000000000004 320,52 C337.1,54.800000000000004 339,88.4 320,108Z" transform="rotate(45 320 108)"/><path class="s" d="M320,108 C301,88.4 302.9,54.800000000000004 320,52 C337.1,54.800000000000004 339,88.4 320,108Z" transform="rotate(135 320 108)"/><path class="s" d="M320,108 C301,88.4 302.9,54.800000000000004 320,52 C337.1,54.800000000000004 339,88.4 320,108Z" transform="rotate(225 320 108)"/><path class="s" d="M320,108 C301,88.4 302.9,54.800000000000004 320,52 C337.1,54.800000000000004 339,88.4 320,108Z" transform="rotate(315 320 108)"/><circle class="p" cx="320" cy="108" r="2.6"/></g>
+<g class="a-tw1"><circle class="p" cx="68" cy="96" r="1.6"/><circle class="p" cx="92" cy="118" r="1.6"/><circle class="p" cx="80" cy="130" r="1.6"/><circle class="p" cx="96" cy="94" r="1.6"/><circle class="p" cx="62" cy="116" r="1.6"/></g>
+<g class="a-tw2"><circle class="p" cx="200" cy="74" r="1.6"/><circle class="p" cx="204" cy="146" r="1.6"/><circle class="p" cx="196" cy="88" r="1.6"/><circle class="p" cx="194" cy="136" r="1.6"/><circle class="p" cx="202" cy="62" r="1.6"/></g>
+<g class="a-tw1"><circle class="p" cx="342" cy="86" r="1.6"/><circle class="p" cx="298" cy="132" r="1.6"/><circle class="p" cx="338" cy="130" r="1.6"/><circle class="p" cx="300" cy="86" r="1.6"/></g>
+<text class="t" x="80" y="196" text-anchor="middle">s</text>
+<text class="t" x="200" y="196" text-anchor="middle">p</text>
+<text class="t" x="320" y="196" text-anchor="middle">d</text>
+</svg>

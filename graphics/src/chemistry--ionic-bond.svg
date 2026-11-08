@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="chemistry--ionic-bond" data-discipline="chemistry" data-tags="ionic-bond,ion,electron-transfer,sodium-chloride,electrostatic,valence">
+<title>Ionic bond: sodium gives an electron to chlorine</title>
+<desc>Sodium hands its single outer electron to chlorine; the resulting positive and negative ions are held together by electrostatic attraction.</desc>
+<style>
+.a-hop{offset-path:path("M146,112 Q195,56 246,115");offset-rotate:0deg;animation:a-hop 10s linear infinite}
+@keyframes a-hop{0%{offset-distance:0%;opacity:0}8%{offset-distance:0%;opacity:1}20%{offset-distance:0%}55%{offset-distance:100%}86%{offset-distance:100%;opacity:1}94%{offset-distance:100%;opacity:0}100%{offset-distance:0%;opacity:0}}
+.a-charge{animation:a-charge 10s ease-in-out infinite}
+@keyframes a-charge{0%,45%{opacity:0}60%,85%{opacity:1}95%,100%{opacity:0}}
+</style>
+<path class="k f" d="M146,112 Q195,56 244,112"/>
+<circle class="w" cx="110" cy="115" r="34"/>
+<circle class="s" cx="110" cy="115" r="34"/>
+<circle class="w" cx="290" cy="115" r="44"/>
+<circle class="s" cx="290" cy="115" r="44"/>
+<circle class="p" cx="290" cy="71" r="3.2"/><circle class="p" cx="321.1" cy="83.9" r="3.2"/><circle class="p" cx="334" cy="115" r="3.2"/><circle class="p" cx="321.1" cy="146.1" r="3.2"/><circle class="p" cx="290" cy="159" r="3.2"/><circle class="p" cx="258.9" cy="146.1" r="3.2"/><circle class="p" cx="258.9" cy="83.9" r="3.2"/>
+<g class="a-hop"><circle class="p" cx="0" cy="0" r="3.6"/></g>
+<g class="a-charge"><path class="s" d="M102,115 h16 M110,107 v16"/><path class="s" d="M282,115 h16"/>
+<path class="k q" d="M152,115 H238"/></g>
+<text class="t" x="110" y="176" text-anchor="middle">Na</text>
+<text class="t" x="290" y="184" text-anchor="middle">Cl</text>
+<text class="t" x="195" y="72" text-anchor="middle">e⁻</text>
+</svg>

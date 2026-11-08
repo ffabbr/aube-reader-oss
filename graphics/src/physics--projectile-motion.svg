@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="physics--projectile-motion" data-discipline="physics" data-tags="projectile,parabola,gravity,trajectory,kinematics,launch-angle">
+<title>Projectile motion</title>
+<desc>A ball launched at an angle traces a parabola: steady sideways drift, gravity bending the vertical speed. Faint copies mark equal time steps.</desc>
+<style>
+.a-px{animation:a-px 5s linear infinite}
+@keyframes a-px{0%{transform:translateX(0);opacity:0}6%{opacity:1}94%{opacity:1}100%{transform:translateX(300px);opacity:0}}
+.a-py{animation:a-py 5s infinite}
+@keyframes a-py{0%{transform:translateY(0);animation-timing-function:cubic-bezier(.5,1,.89,1)}50%{transform:translateY(-100px);animation-timing-function:cubic-bezier(.11,0,.5,0)}100%{transform:translateY(0)}}
+</style>
+<path class="f" d="M30,195 H370"/>
+<path class="k q" d="M50,195 Q200,-5 350,195"/>
+<path class="k f" d="M200,95 V195"/>
+<circle class="f" cx="140" cy="111" r="5"/>
+<circle class="f" cx="200" cy="95" r="5"/>
+<circle class="f" cx="260" cy="111" r="5"/>
+<circle class="f" cx="320" cy="159" r="5"/>
+<path class="s" d="M50,195 L86,147 M78.9,150.6 L86,147 M84.5,154.9 L86,147"/>
+<path class="f" d="M82,195 A32,32 0 0 0 69,169.4"/>
+<path class="f" d="M366,96 L366,140 M368.6,134.6 L366,140 M363.4,134.6 L366,140"/>
+<g class="a-px"><g class="a-py">
+<circle class="w" cx="50" cy="195" r="7"/>
+<circle class="s" cx="50" cy="195" r="7"/>
+</g></g>
+<text class="t" x="94" y="184">θ</text>
+<text class="t" x="94" y="143">v₀</text>
+<text class="t" x="352" y="122" text-anchor="end">g</text>
+</svg>

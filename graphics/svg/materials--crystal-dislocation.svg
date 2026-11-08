@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="materials--crystal-dislocation" data-discipline="materials" data-tags="dislocation,crystal,slip,plasticity,shear,metal,defect,lattice" role="img">
+ <title>Crystal Dislocation</title>
+ <desc>An edge dislocation, the end of an extra half-plane of atoms, glides along the slip plane under shear; when it leaves, the upper crystal has slipped one atom over, which is why metals bend.</desc>
+ <style>
+:root{--ink:#110f0c;--quiet:#555350;--faint:#b8b6b2;--wash:#f5f3ef}
+@media (prefers-color-scheme:dark){:root{--ink:#e7e5e2;--quiet:#a3a19e;--faint:#524f4c;--wash:#252321}}
+svg{overflow:visible}
+.s,.q,.f{fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1;stroke-dashoffset:0}
+.s{stroke:var(--ink);stroke-width:1.5}
+.q{stroke:var(--quiet);stroke-width:1.3}
+.f{stroke:var(--faint);stroke-width:1.1}
+.hair{stroke-width:1!important}
+.bold{stroke-width:2.2!important}
+.k{fill:none;stroke-dasharray:5 5!important;stroke-linecap:round}
+.p{fill:var(--ink);stroke:none}
+.pq{fill:var(--quiet);stroke:none}
+.w{fill:var(--wash);stroke:none}
+.t{fill:var(--quiet);stroke:none;font:italic 13px ui-serif,"New York",Georgia,serif}
+.all{animation:out 10s linear infinite}
+@keyframes out{0%,90%{opacity:1}97%,99.9%{opacity:0}100%{opacity:1}}
+@keyframes dr0{0%,0.0%{stroke-dashoffset:1;opacity:0}0.1%{stroke-dashoffset:1;opacity:1}9%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd0{0%,0.0%{opacity:0}7%,100%{opacity:1}}
+@keyframes dr1{0%,2.2%{stroke-dashoffset:1;opacity:0}2.3%{stroke-dashoffset:1;opacity:1}11.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd1{0%,2.2%{opacity:0}9.2%,100%{opacity:1}}
+@keyframes dr2{0%,4.4%{stroke-dashoffset:1;opacity:0}4.5%{stroke-dashoffset:1;opacity:1}13.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd2{0%,4.4%{opacity:0}11.4%,100%{opacity:1}}
+@keyframes dr3{0%,6.6%{stroke-dashoffset:1;opacity:0}6.7%{stroke-dashoffset:1;opacity:1}15.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd3{0%,6.6%{opacity:0}13.6%,100%{opacity:1}}
+@keyframes dr4{0%,8.8%{stroke-dashoffset:1;opacity:0}8.9%{stroke-dashoffset:1;opacity:1}17.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd4{0%,8.8%{opacity:0}15.8%,100%{opacity:1}}
+@keyframes dr5{0%,11.0%{stroke-dashoffset:1;opacity:0}11.1%{stroke-dashoffset:1;opacity:1}20%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd5{0%,11.0%{opacity:0}18%,100%{opacity:1}}
+@keyframes dr6{0%,13.2%{stroke-dashoffset:1;opacity:0}13.3%{stroke-dashoffset:1;opacity:1}22.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd6{0%,13.2%{opacity:0}20.2%,100%{opacity:1}}
+@keyframes dr7{0%,15.4%{stroke-dashoffset:1;opacity:0}15.5%{stroke-dashoffset:1;opacity:1}24.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd7{0%,15.4%{opacity:0}22.4%,100%{opacity:1}}
+@keyframes dr8{0%,17.6%{stroke-dashoffset:1;opacity:0}17.7%{stroke-dashoffset:1;opacity:1}26.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd8{0%,17.6%{opacity:0}24.6%,100%{opacity:1}}
+@keyframes dr9{0%,19.8%{stroke-dashoffset:1;opacity:0}19.9%{stroke-dashoffset:1;opacity:1}28.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd9{0%,19.8%{opacity:0}26.8%,100%{opacity:1}}
+@keyframes dr10{0%,22.0%{stroke-dashoffset:1;opacity:0}22.1%{stroke-dashoffset:1;opacity:1}31%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd10{0%,22.0%{opacity:0}29%,100%{opacity:1}}
+@keyframes dr11{0%,24.2%{stroke-dashoffset:1;opacity:0}24.3%{stroke-dashoffset:1;opacity:1}33.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd11{0%,24.2%{opacity:0}31.2%,100%{opacity:1}}
+@keyframes dr12{0%,26.4%{stroke-dashoffset:1;opacity:0}26.5%{stroke-dashoffset:1;opacity:1}35.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd12{0%,26.4%{opacity:0}33.4%,100%{opacity:1}}
+@keyframes dr13{0%,28.6%{stroke-dashoffset:1;opacity:0}28.7%{stroke-dashoffset:1;opacity:1}37.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd13{0%,28.6%{opacity:0}35.6%,100%{opacity:1}}
+@keyframes dr14{0%,30.8%{stroke-dashoffset:1;opacity:0}30.9%{stroke-dashoffset:1;opacity:1}39.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd14{0%,30.8%{opacity:0}37.8%,100%{opacity:1}}
+@keyframes dr15{0%,33.0%{stroke-dashoffset:1;opacity:0}33.1%{stroke-dashoffset:1;opacity:1}42%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd15{0%,33.0%{opacity:0}40%,100%{opacity:1}}
+.s.i0,.q.i0,.f.i0{animation:dr0 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i1,.q.i1,.f.i1{animation:dr1 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i2,.q.i2,.f.i2{animation:dr2 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i3,.q.i3,.f.i3{animation:dr3 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i4,.q.i4,.f.i4{animation:dr4 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i5,.q.i5,.f.i5{animation:dr5 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i6,.q.i6,.f.i6{animation:dr6 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i7,.q.i7,.f.i7{animation:dr7 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i8,.q.i8,.f.i8{animation:dr8 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i9,.q.i9,.f.i9{animation:dr9 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i10,.q.i10,.f.i10{animation:dr10 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i11,.q.i11,.f.i11{animation:dr11 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i12,.q.i12,.f.i12{animation:dr12 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i13,.q.i13,.f.i13{animation:dr13 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i14,.q.i14,.f.i14{animation:dr14 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i15,.q.i15,.f.i15{animation:dr15 10s cubic-bezier(.55,.05,.25,1) infinite}
+.p.i0,.w.i0,.pq.i0,.t.i0,.k.i0{animation:fd0 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i1,.w.i1,.pq.i1,.t.i1,.k.i1{animation:fd1 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i2,.w.i2,.pq.i2,.t.i2,.k.i2{animation:fd2 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i3,.w.i3,.pq.i3,.t.i3,.k.i3{animation:fd3 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i4,.w.i4,.pq.i4,.t.i4,.k.i4{animation:fd4 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i5,.w.i5,.pq.i5,.t.i5,.k.i5{animation:fd5 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i6,.w.i6,.pq.i6,.t.i6,.k.i6{animation:fd6 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i7,.w.i7,.pq.i7,.t.i7,.k.i7{animation:fd7 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i8,.w.i8,.pq.i8,.t.i8,.k.i8{animation:fd8 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i9,.w.i9,.pq.i9,.t.i9,.k.i9{animation:fd9 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i10,.w.i10,.pq.i10,.t.i10,.k.i10{animation:fd10 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i11,.w.i11,.pq.i11,.t.i11,.k.i11{animation:fd11 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i12,.w.i12,.pq.i12,.t.i12,.k.i12{animation:fd12 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i13,.w.i13,.pq.i13,.t.i13,.k.i13{animation:fd13 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i14,.w.i14,.pq.i14,.t.i14,.k.i14{animation:fd14 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i15,.w.i15,.pq.i15,.t.i15,.k.i15{animation:fd15 10s cubic-bezier(.2,.7,.3,1) infinite}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+ <style>
+.a-core{animation:a-core 10s linear infinite}
+@keyframes a-core{0%,42%{transform:translateX(40px)}88%,100%{transform:translateX(360px)}}
+.a-coreo{animation:a-coreo 10s linear infinite;opacity:0}
+@keyframes a-coreo{0%,42%{opacity:0}46%,84%{opacity:1}88%,100%{opacity:0}}
+.a-c0{transform-box:view-box;transform-origin:0px 118px;animation:a-c0 10s linear infinite}
+@keyframes a-c0{0%{transform:matrix(1,0,0,1,0,0)}42.0%{transform:matrix(1,0,-0.0000,1,0.00,0)}43.8%{transform:matrix(1,0,-0.0156,1,0.79,0)}45.5%{transform:matrix(1,0,-0.0273,1,2.44,0)}47.3%{transform:matrix(1,0,-0.0155,1,6.31,0)}49.1%{transform:matrix(1,0,0.0495,1,14.14,0)}50.8%{transform:matrix(1,0,0.1044,1,21.25,0)}52.6%{transform:matrix(1,0,0.1088,1,24.50,0)}54.4%{transform:matrix(1,0,0.0954,1,25.90,0)}56.2%{transform:matrix(1,0,0.0799,1,26.60,0)}57.9%{transform:matrix(1,0,0.0663,1,26.99,0)}59.7%{transform:matrix(1,0,0.0552,1,27.24,0)}61.5%{transform:matrix(1,0,0.0461,1,27.40,0)}63.2%{transform:matrix(1,0,0.0387,1,27.52,0)}65.0%{transform:matrix(1,0,0.0326,1,27.61,0)}66.8%{transform:matrix(1,0,0.0275,1,27.68,0)}68.5%{transform:matrix(1,0,0.0231,1,27.74,0)}70.3%{transform:matrix(1,0,0.0195,1,27.78,0)}72.1%{transform:matrix(1,0,0.0163,1,27.82,0)}73.8%{transform:matrix(1,0,0.0135,1,27.85,0)}75.6%{transform:matrix(1,0,0.0111,1,27.88,0)}77.4%{transform:matrix(1,0,0.0090,1,27.90,0)}79.2%{transform:matrix(1,0,0.0070,1,27.93,0)}80.9%{transform:matrix(1,0,0.0053,1,27.94,0)}82.7%{transform:matrix(1,0,0.0038,1,27.96,0)}84.5%{transform:matrix(1,0,0.0024,1,27.97,0)}86.2%{transform:matrix(1,0,0.0012,1,27.99,0)}88.0%{transform:matrix(1,0,-0.0000,1,28.00,0)}100%{transform:matrix(1,0,0,1,28,0)}}
+.a-c1{transform-box:view-box;transform-origin:0px 118px;animation:a-c1 10s linear infinite}
+@keyframes a-c1{0%{transform:matrix(1,0,0,1,0,0)}42.0%{transform:matrix(1,0,-0.0000,1,0.00,0)}43.8%{transform:matrix(1,0,-0.0098,1,0.24,0)}45.5%{transform:matrix(1,0,-0.0217,1,0.62,0)}47.3%{transform:matrix(1,0,-0.0351,1,1.28,0)}49.1%{transform:matrix(1,0,-0.0467,1,2.58,0)}50.8%{transform:matrix(1,0,-0.0424,1,5.54,0)}52.6%{transform:matrix(1,0,0.0092,1,12.13,0)}54.4%{transform:matrix(1,0,0.0775,1,19.91,0)}56.2%{transform:matrix(1,0,0.0946,1,23.92,0)}57.9%{transform:matrix(1,0,0.0861,1,25.63,0)}59.7%{transform:matrix(1,0,0.0726,1,26.46,0)}61.5%{transform:matrix(1,0,0.0601,1,26.91,0)}63.2%{transform:matrix(1,0,0.0496,1,27.19,0)}65.0%{transform:matrix(1,0,0.0410,1,27.38,0)}66.8%{transform:matrix(1,0,0.0340,1,27.51,0)}68.5%{transform:matrix(1,0,0.0282,1,27.61,0)}70.3%{transform:matrix(1,0,0.0234,1,27.68,0)}72.1%{transform:matrix(1,0,0.0193,1,27.74,0)}73.8%{transform:matrix(1,0,0.0159,1,27.79,0)}75.6%{transform:matrix(1,0,0.0129,1,27.83,0)}77.4%{transform:matrix(1,0,0.0103,1,27.87,0)}79.2%{transform:matrix(1,0,0.0081,1,27.90,0)}80.9%{transform:matrix(1,0,0.0061,1,27.92,0)}82.7%{transform:matrix(1,0,0.0043,1,27.95,0)}84.5%{transform:matrix(1,0,0.0027,1,27.97,0)}86.2%{transform:matrix(1,0,0.0013,1,27.98,0)}88.0%{transform:matrix(1,0,-0.0000,1,28.00,0)}100%{transform:matrix(1,0,0,1,28,0)}}
+.a-c2{transform-box:view-box;transform-origin:0px 118px;animation:a-c2 10s linear infinite}
+@keyframes a-c2{0%{transform:matrix(1,0,0,1,0,0)}42.0%{transform:matrix(1,0,-0.0000,1,0.00,0)}43.8%{transform:matrix(1,0,-0.0059,1,0.11,0)}45.5%{transform:matrix(1,0,-0.0130,1,0.26,0)}47.3%{transform:matrix(1,0,-0.0218,1,0.48,0)}49.1%{transform:matrix(1,0,-0.0324,1,0.81,0)}50.8%{transform:matrix(1,0,-0.0448,1,1.37,0)}52.6%{transform:matrix(1,0,-0.0565,1,2.43,0)}54.4%{transform:matrix(1,0,-0.0580,1,4.74,0)}56.2%{transform:matrix(1,0,-0.0212,1,10.12,0)}57.9%{transform:matrix(1,0,0.0532,1,18.21,0)}59.7%{transform:matrix(1,0,0.0846,1,23.19,0)}61.5%{transform:matrix(1,0,0.0812,1,25.32,0)}63.2%{transform:matrix(1,0,0.0692,1,26.31,0)}65.0%{transform:matrix(1,0,0.0570,1,26.83,0)}66.8%{transform:matrix(1,0,0.0465,1,27.15,0)}68.5%{transform:matrix(1,0,0.0380,1,27.36,0)}70.3%{transform:matrix(1,0,0.0309,1,27.51,0)}72.1%{transform:matrix(1,0,0.0252,1,27.61,0)}73.8%{transform:matrix(1,0,0.0204,1,27.70,0)}75.6%{transform:matrix(1,0,0.0164,1,27.76,0)}77.4%{transform:matrix(1,0,0.0129,1,27.81,0)}79.2%{transform:matrix(1,0,0.0100,1,27.86,0)}80.9%{transform:matrix(1,0,0.0075,1,27.90,0)}82.7%{transform:matrix(1,0,0.0052,1,27.93,0)}84.5%{transform:matrix(1,0,0.0033,1,27.96,0)}86.2%{transform:matrix(1,0,0.0015,1,27.98,0)}88.0%{transform:matrix(1,0,-0.0000,1,28.00,0)}100%{transform:matrix(1,0,0,1,28,0)}}
+.a-c3{transform-box:view-box;transform-origin:0px 118px;animation:a-c3 10s linear infinite}
+@keyframes a-c3{0%{transform:matrix(1,0,0,1,0,0)}42.0%{transform:matrix(1,0,-0.0000,1,0.00,0)}43.8%{transform:matrix(1,0,-0.0038,1,0.06,0)}45.5%{transform:matrix(1,0,-0.0083,1,0.14,0)}47.3%{transform:matrix(1,0,-0.0138,1,0.25,0)}49.1%{transform:matrix(1,0,-0.0204,1,0.39,0)}50.8%{transform:matrix(1,0,-0.0284,1,0.58,0)}52.6%{transform:matrix(1,0,-0.0383,1,0.87,0)}54.4%{transform:matrix(1,0,-0.0499,1,1.35,0)}56.2%{transform:matrix(1,0,-0.0618,1,2.23,0)}57.9%{transform:matrix(1,0,-0.0674,1,4.06,0)}59.7%{transform:matrix(1,0,-0.0444,1,8.36,0)}61.5%{transform:matrix(1,0,0.0275,1,16.20,0)}63.2%{transform:matrix(1,0,0.0744,1,22.27,0)}65.0%{transform:matrix(1,0,0.0775,1,24.94,0)}66.8%{transform:matrix(1,0,0.0670,1,26.14,0)}68.5%{transform:matrix(1,0,0.0549,1,26.76,0)}70.3%{transform:matrix(1,0,0.0443,1,27.13,0)}72.1%{transform:matrix(1,0,0.0354,1,27.36,0)}73.8%{transform:matrix(1,0,0.0282,1,27.52,0)}75.6%{transform:matrix(1,0,0.0223,1,27.64,0)}77.4%{transform:matrix(1,0,0.0174,1,27.73,0)}79.2%{transform:matrix(1,0,0.0133,1,27.80,0)}80.9%{transform:matrix(1,0,0.0098,1,27.85,0)}82.7%{transform:matrix(1,0,0.0068,1,27.90,0)}84.5%{transform:matrix(1,0,0.0042,1,27.94,0)}86.2%{transform:matrix(1,0,0.0020,1,27.97,0)}88.0%{transform:matrix(1,0,-0.0000,1,28.00,0)}100%{transform:matrix(1,0,0,1,28,0)}}
+.a-c4{transform-box:view-box;transform-origin:0px 118px;animation:a-c4 10s linear infinite}
+@keyframes a-c4{0%{transform:matrix(1,0,0,1,0,0)}42.0%{transform:matrix(1,0,-0.0000,1,0.00,0)}43.8%{transform:matrix(1,0,-0.0027,1,0.04,0)}45.5%{transform:matrix(1,0,-0.0057,1,0.09,0)}47.3%{transform:matrix(1,0,-0.0094,1,0.15,0)}49.1%{transform:matrix(1,0,-0.0136,1,0.23,0)}50.8%{transform:matrix(1,0,-0.0188,1,0.32,0)}52.6%{transform:matrix(1,0,-0.0250,1,0.45,0)}54.4%{transform:matrix(1,0,-0.0325,1,0.63,0)}56.2%{transform:matrix(1,0,-0.0418,1,0.89,0)}57.9%{transform:matrix(1,0,-0.0528,1,1.30,0)}59.7%{transform:matrix(1,0,-0.0649,1,2.03,0)}61.5%{transform:matrix(1,0,-0.0734,1,3.51,0)}63.2%{transform:matrix(1,0,-0.0616,1,6.90,0)}65.0%{transform:matrix(1,0,-0.0000,1,14.00,0)}66.8%{transform:matrix(1,0,0.0616,1,21.10,0)}68.5%{transform:matrix(1,0,0.0734,1,24.49,0)}70.3%{transform:matrix(1,0,0.0649,1,25.97,0)}72.1%{transform:matrix(1,0,0.0528,1,26.70,0)}73.8%{transform:matrix(1,0,0.0418,1,27.11,0)}75.6%{transform:matrix(1,0,0.0325,1,27.37,0)}77.4%{transform:matrix(1,0,0.0250,1,27.55,0)}79.2%{transform:matrix(1,0,0.0188,1,27.68,0)}80.9%{transform:matrix(1,0,0.0136,1,27.77,0)}82.7%{transform:matrix(1,0,0.0094,1,27.85,0)}84.5%{transform:matrix(1,0,0.0057,1,27.91,0)}86.2%{transform:matrix(1,0,0.0027,1,27.96,0)}88.0%{transform:matrix(1,0,-0.0000,1,28.00,0)}100%{transform:matrix(1,0,0,1,28,0)}}
+.a-c5{transform-box:view-box;transform-origin:0px 118px;animation:a-c5 10s linear infinite}
+@keyframes a-c5{0%{transform:matrix(1,0,0,1,0,0)}42.0%{transform:matrix(1,0,-0.0000,1,0.00,0)}43.8%{transform:matrix(1,0,-0.0020,1,0.03,0)}45.5%{transform:matrix(1,0,-0.0042,1,0.06,0)}47.3%{transform:matrix(1,0,-0.0068,1,0.10,0)}49.1%{transform:matrix(1,0,-0.0098,1,0.15,0)}50.8%{transform:matrix(1,0,-0.0133,1,0.20,0)}52.6%{transform:matrix(1,0,-0.0174,1,0.27,0)}54.4%{transform:matrix(1,0,-0.0223,1,0.36,0)}56.2%{transform:matrix(1,0,-0.0282,1,0.48,0)}57.9%{transform:matrix(1,0,-0.0354,1,0.64,0)}59.7%{transform:matrix(1,0,-0.0443,1,0.87,0)}61.5%{transform:matrix(1,0,-0.0549,1,1.24,0)}63.2%{transform:matrix(1,0,-0.0670,1,1.86,0)}65.0%{transform:matrix(1,0,-0.0775,1,3.06,0)}66.8%{transform:matrix(1,0,-0.0744,1,5.73,0)}68.5%{transform:matrix(1,0,-0.0275,1,11.80,0)}70.3%{transform:matrix(1,0,0.0444,1,19.64,0)}72.1%{transform:matrix(1,0,0.0674,1,23.94,0)}73.8%{transform:matrix(1,0,0.0618,1,25.77,0)}75.6%{transform:matrix(1,0,0.0499,1,26.65,0)}77.4%{transform:matrix(1,0,0.0383,1,27.13,0)}79.2%{transform:matrix(1,0,0.0284,1,27.42,0)}80.9%{transform:matrix(1,0,0.0204,1,27.61,0)}82.7%{transform:matrix(1,0,0.0138,1,27.75,0)}84.5%{transform:matrix(1,0,0.0083,1,27.86,0)}86.2%{transform:matrix(1,0,0.0038,1,27.94,0)}88.0%{transform:matrix(1,0,-0.0000,1,28.00,0)}100%{transform:matrix(1,0,0,1,28,0)}}
+.a-c6{transform-box:view-box;transform-origin:0px 118px;animation:a-c6 10s linear infinite}
+@keyframes a-c6{0%{transform:matrix(1,0,0,1,0,0)}42.0%{transform:matrix(1,0,-0.0000,1,0.00,0)}43.8%{transform:matrix(1,0,-0.0015,1,0.02,0)}45.5%{transform:matrix(1,0,-0.0033,1,0.04,0)}47.3%{transform:matrix(1,0,-0.0052,1,0.07,0)}49.1%{transform:matrix(1,0,-0.0075,1,0.10,0)}50.8%{transform:matrix(1,0,-0.0100,1,0.14,0)}52.6%{transform:matrix(1,0,-0.0129,1,0.19,0)}54.4%{transform:matrix(1,0,-0.0164,1,0.24,0)}56.2%{transform:matrix(1,0,-0.0204,1,0.30,0)}57.9%{transform:matrix(1,0,-0.0252,1,0.39,0)}59.7%{transform:matrix(1,0,-0.0309,1,0.49,0)}61.5%{transform:matrix(1,0,-0.0380,1,0.64,0)}63.2%{transform:matrix(1,0,-0.0465,1,0.85,0)}65.0%{transform:matrix(1,0,-0.0570,1,1.17,0)}66.8%{transform:matrix(1,0,-0.0692,1,1.69,0)}68.5%{transform:matrix(1,0,-0.0812,1,2.68,0)}70.3%{transform:matrix(1,0,-0.0846,1,4.81,0)}72.1%{transform:matrix(1,0,-0.0532,1,9.79,0)}73.8%{transform:matrix(1,0,0.0212,1,17.88,0)}75.6%{transform:matrix(1,0,0.0580,1,23.26,0)}77.4%{transform:matrix(1,0,0.0565,1,25.57,0)}79.2%{transform:matrix(1,0,0.0448,1,26.63,0)}80.9%{transform:matrix(1,0,0.0324,1,27.19,0)}82.7%{transform:matrix(1,0,0.0218,1,27.52,0)}84.5%{transform:matrix(1,0,0.0130,1,27.74,0)}86.2%{transform:matrix(1,0,0.0059,1,27.89,0)}88.0%{transform:matrix(1,0,-0.0000,1,28.00,0)}100%{transform:matrix(1,0,0,1,28,0)}}
+.a-c7{transform-box:view-box;transform-origin:0px 118px;animation:a-c7 10s linear infinite}
+@keyframes a-c7{0%{transform:matrix(1,0,0,1,0,0)}42.0%{transform:matrix(1,0,-0.0000,1,0.00,0)}43.8%{transform:matrix(1,0,-0.0013,1,0.02,0)}45.5%{transform:matrix(1,0,-0.0027,1,0.03,0)}47.3%{transform:matrix(1,0,-0.0043,1,0.05,0)}49.1%{transform:matrix(1,0,-0.0061,1,0.08,0)}50.8%{transform:matrix(1,0,-0.0081,1,0.10,0)}52.6%{transform:matrix(1,0,-0.0103,1,0.13,0)}54.4%{transform:matrix(1,0,-0.0129,1,0.17,0)}56.2%{transform:matrix(1,0,-0.0159,1,0.21,0)}57.9%{transform:matrix(1,0,-0.0193,1,0.26,0)}59.7%{transform:matrix(1,0,-0.0234,1,0.32,0)}61.5%{transform:matrix(1,0,-0.0282,1,0.39,0)}63.2%{transform:matrix(1,0,-0.0340,1,0.49,0)}65.0%{transform:matrix(1,0,-0.0410,1,0.62,0)}66.8%{transform:matrix(1,0,-0.0496,1,0.81,0)}68.5%{transform:matrix(1,0,-0.0601,1,1.09,0)}70.3%{transform:matrix(1,0,-0.0726,1,1.54,0)}72.1%{transform:matrix(1,0,-0.0861,1,2.37,0)}73.8%{transform:matrix(1,0,-0.0946,1,4.08,0)}75.6%{transform:matrix(1,0,-0.0775,1,8.09,0)}77.4%{transform:matrix(1,0,-0.0092,1,15.87,0)}79.2%{transform:matrix(1,0,0.0424,1,22.46,0)}80.9%{transform:matrix(1,0,0.0467,1,25.42,0)}82.7%{transform:matrix(1,0,0.0351,1,26.72,0)}84.5%{transform:matrix(1,0,0.0217,1,27.38,0)}86.2%{transform:matrix(1,0,0.0098,1,27.76,0)}88.0%{transform:matrix(1,0,-0.0000,1,28.00,0)}100%{transform:matrix(1,0,0,1,28,0)}}
+.a-c8{transform-box:view-box;transform-origin:0px 118px;animation:a-c8 10s linear infinite}
+@keyframes a-c8{0%{transform:matrix(1,0,0,1,0,0)}42.0%{transform:matrix(1,0,-0.0000,1,0.00,0)}43.8%{transform:matrix(1,0,-0.0012,1,0.01,0)}45.5%{transform:matrix(1,0,-0.0024,1,0.03,0)}47.3%{transform:matrix(1,0,-0.0038,1,0.04,0)}49.1%{transform:matrix(1,0,-0.0053,1,0.06,0)}50.8%{transform:matrix(1,0,-0.0070,1,0.07,0)}52.6%{transform:matrix(1,0,-0.0090,1,0.10,0)}54.4%{transform:matrix(1,0,-0.0111,1,0.12,0)}56.2%{transform:matrix(1,0,-0.0135,1,0.15,0)}57.9%{transform:matrix(1,0,-0.0163,1,0.18,0)}59.7%{transform:matrix(1,0,-0.0195,1,0.22,0)}61.5%{transform:matrix(1,0,-0.0231,1,0.26,0)}63.2%{transform:matrix(1,0,-0.0275,1,0.32,0)}65.0%{transform:matrix(1,0,-0.0326,1,0.39,0)}66.8%{transform:matrix(1,0,-0.0387,1,0.48,0)}68.5%{transform:matrix(1,0,-0.0461,1,0.60,0)}70.3%{transform:matrix(1,0,-0.0552,1,0.76,0)}72.1%{transform:matrix(1,0,-0.0663,1,1.01,0)}73.8%{transform:matrix(1,0,-0.0799,1,1.40,0)}75.6%{transform:matrix(1,0,-0.0954,1,2.10,0)}77.4%{transform:matrix(1,0,-0.1088,1,3.50,0)}79.2%{transform:matrix(1,0,-0.1044,1,6.75,0)}80.9%{transform:matrix(1,0,-0.0495,1,13.86,0)}82.7%{transform:matrix(1,0,0.0155,1,21.69,0)}84.5%{transform:matrix(1,0,0.0273,1,25.56,0)}86.2%{transform:matrix(1,0,0.0156,1,27.21,0)}88.0%{transform:matrix(1,0,-0.0000,1,28.00,0)}100%{transform:matrix(1,0,0,1,28,0)}}
+</style>
+ <g class="all">
+  <path class="k f i0" d="M28,118 H372" />
+  <path class="q i0" d="M88,132 V184" pathLength="1" />
+  <path class="q i0" d="M116,132 V184" pathLength="1" />
+  <path class="q i1" d="M144,132 V184" pathLength="1" />
+  <path class="q i1" d="M172,132 V184" pathLength="1" />
+  <path class="q i2" d="M200,132 V184" pathLength="1" />
+  <path class="q i2" d="M228,132 V184" pathLength="1" />
+  <path class="q i3" d="M256,132 V184" pathLength="1" />
+  <path class="q i3" d="M284,132 V184" pathLength="1" />
+  <path class="q i4" d="M312,132 V184" pathLength="1" />
+  <path class="pq i4" d="M85,132 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0ZM85,158 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0ZM85,184 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0ZM113,132 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0ZM113,158 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0ZM113,184 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0ZM141,132 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0ZM141,158 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0ZM141,184 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0ZM169,132 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0ZM169,158 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0ZM169,184 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0ZM197,132 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0ZM197,158 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0ZM197,184 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0ZM225,132 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0ZM225,158 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0ZM225,184 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0ZM253,132 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0ZM253,158 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0ZM253,184 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0ZM281,132 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0ZM281,158 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0ZM281,184 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0ZM309,132 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0ZM309,158 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0ZM309,184 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0Z" />
+  <g class="a-c0">
+   <path class="q i5" d="M88,52 V104" pathLength="1" />
+   <path class="p i5" d="M85,52 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0ZM85,78 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0ZM85,104 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0Z" />
+  </g>
+  <g class="a-c1">
+   <path class="q i6" d="M116,52 V104" pathLength="1" />
+   <path class="p i6" d="M113,52 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0ZM113,78 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0ZM113,104 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0Z" />
+  </g>
+  <g class="a-c2">
+   <path class="q i7" d="M144,52 V104" pathLength="1" />
+   <path class="p i7" d="M141,52 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0ZM141,78 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0ZM141,104 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0Z" />
+  </g>
+  <g class="a-c3">
+   <path class="q i8" d="M172,52 V104" pathLength="1" />
+   <path class="p i8" d="M169,52 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0ZM169,78 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0ZM169,104 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0Z" />
+  </g>
+  <g class="a-c4">
+   <path class="q i8" d="M200,52 V104" pathLength="1" />
+   <path class="p i9" d="M197,52 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0ZM197,78 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0ZM197,104 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0Z" />
+  </g>
+  <g class="a-c5">
+   <path class="q i9" d="M228,52 V104" pathLength="1" />
+   <path class="p i10" d="M225,52 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0ZM225,78 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0ZM225,104 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0Z" />
+  </g>
+  <g class="a-c6">
+   <path class="q i10" d="M256,52 V104" pathLength="1" />
+   <path class="p i11" d="M253,52 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0ZM253,78 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0ZM253,104 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0Z" />
+  </g>
+  <g class="a-c7">
+   <path class="q i11" d="M284,52 V104" pathLength="1" />
+   <path class="p i12" d="M281,52 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0ZM281,78 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0ZM281,104 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0Z" />
+  </g>
+  <g class="a-c8">
+   <path class="q i12" d="M312,52 V104" pathLength="1" />
+   <path class="p i13" d="M309,52 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0ZM309,78 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0ZM309,104 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0Z" />
+  </g>
+  <g class="a-coreo">
+   <g class="a-core">
+    <path class="s bold i13" d="M-8,118 H8 M0,118 V104" pathLength="1" />
+   </g>
+  </g>
+  <path class="s i14" d="M150,32 H250 M242,27 L250,32 L242,37" pathLength="1" />
+  <path class="s i14" d="M250,206 H150 M158,201 L150,206 L158,211" pathLength="1" />
+  <text class="t i15" x="262" y="36" text-anchor="start">shear</text>
+  <text class="t i15" x="378" y="136" text-anchor="end">slip plane</text>
+ </g>
+</svg>

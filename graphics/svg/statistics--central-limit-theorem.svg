@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="statistics--central-limit-theorem" data-discipline="statistics" data-tags="sampling,normal-distribution,sample-mean,convergence,probability" role="img">
+ <title>Central limit theorem</title>
+ <desc>Averages drawn from a lopsided population drop one by one into a pile that settles into a symmetric bell curve, whatever the shape of the original distribution.</desc>
+ <style>
+:root{--ink:#110f0c;--quiet:#555350;--faint:#b8b6b2;--wash:#f5f3ef}
+@media (prefers-color-scheme:dark){:root{--ink:#e7e5e2;--quiet:#a3a19e;--faint:#524f4c;--wash:#252321}}
+svg{overflow:visible}
+.s,.q,.f{fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1;stroke-dashoffset:0}
+.s{stroke:var(--ink);stroke-width:1.5}
+.q{stroke:var(--quiet);stroke-width:1.3}
+.f{stroke:var(--faint);stroke-width:1.1}
+.hair{stroke-width:1!important}
+.bold{stroke-width:2.2!important}
+.k{fill:none;stroke-dasharray:5 5!important;stroke-linecap:round}
+.p{fill:var(--ink);stroke:none}
+.pq{fill:var(--quiet);stroke:none}
+.w{fill:var(--wash);stroke:none}
+.t{fill:var(--quiet);stroke:none;font:italic 13px ui-serif,"New York",Georgia,serif}
+.all{animation:out 10s linear infinite}
+@keyframes out{0%,90%{opacity:1}97%,99.9%{opacity:0}100%{opacity:1}}
+@keyframes dr0{0%,0.0%{stroke-dashoffset:1;opacity:0}0.1%{stroke-dashoffset:1;opacity:1}9%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd0{0%,0.0%{opacity:0}7%,100%{opacity:1}}
+@keyframes dr1{0%,2.2%{stroke-dashoffset:1;opacity:0}2.3%{stroke-dashoffset:1;opacity:1}11.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd1{0%,2.2%{opacity:0}9.2%,100%{opacity:1}}
+@keyframes dr2{0%,4.4%{stroke-dashoffset:1;opacity:0}4.5%{stroke-dashoffset:1;opacity:1}13.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd2{0%,4.4%{opacity:0}11.4%,100%{opacity:1}}
+@keyframes dr3{0%,6.6%{stroke-dashoffset:1;opacity:0}6.7%{stroke-dashoffset:1;opacity:1}15.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd3{0%,6.6%{opacity:0}13.6%,100%{opacity:1}}
+@keyframes dr4{0%,8.8%{stroke-dashoffset:1;opacity:0}8.9%{stroke-dashoffset:1;opacity:1}17.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd4{0%,8.8%{opacity:0}15.8%,100%{opacity:1}}
+@keyframes dr5{0%,11.0%{stroke-dashoffset:1;opacity:0}11.1%{stroke-dashoffset:1;opacity:1}20%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd5{0%,11.0%{opacity:0}18%,100%{opacity:1}}
+@keyframes dr6{0%,13.2%{stroke-dashoffset:1;opacity:0}13.3%{stroke-dashoffset:1;opacity:1}22.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd6{0%,13.2%{opacity:0}20.2%,100%{opacity:1}}
+@keyframes dr7{0%,15.4%{stroke-dashoffset:1;opacity:0}15.5%{stroke-dashoffset:1;opacity:1}24.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd7{0%,15.4%{opacity:0}22.4%,100%{opacity:1}}
+@keyframes dr8{0%,17.6%{stroke-dashoffset:1;opacity:0}17.7%{stroke-dashoffset:1;opacity:1}26.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd8{0%,17.6%{opacity:0}24.6%,100%{opacity:1}}
+@keyframes dr9{0%,19.8%{stroke-dashoffset:1;opacity:0}19.9%{stroke-dashoffset:1;opacity:1}28.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd9{0%,19.8%{opacity:0}26.8%,100%{opacity:1}}
+@keyframes dr10{0%,22.0%{stroke-dashoffset:1;opacity:0}22.1%{stroke-dashoffset:1;opacity:1}31%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd10{0%,22.0%{opacity:0}29%,100%{opacity:1}}
+@keyframes dr11{0%,24.2%{stroke-dashoffset:1;opacity:0}24.3%{stroke-dashoffset:1;opacity:1}33.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd11{0%,24.2%{opacity:0}31.2%,100%{opacity:1}}
+@keyframes dr12{0%,26.4%{stroke-dashoffset:1;opacity:0}26.5%{stroke-dashoffset:1;opacity:1}35.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd12{0%,26.4%{opacity:0}33.4%,100%{opacity:1}}
+@keyframes dr13{0%,28.6%{stroke-dashoffset:1;opacity:0}28.7%{stroke-dashoffset:1;opacity:1}37.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd13{0%,28.6%{opacity:0}35.6%,100%{opacity:1}}
+@keyframes dr14{0%,30.8%{stroke-dashoffset:1;opacity:0}30.9%{stroke-dashoffset:1;opacity:1}39.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd14{0%,30.8%{opacity:0}37.8%,100%{opacity:1}}
+@keyframes dr15{0%,33.0%{stroke-dashoffset:1;opacity:0}33.1%{stroke-dashoffset:1;opacity:1}42%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd15{0%,33.0%{opacity:0}40%,100%{opacity:1}}
+.s.i0,.q.i0,.f.i0{animation:dr0 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i1,.q.i1,.f.i1{animation:dr1 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i2,.q.i2,.f.i2{animation:dr2 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i3,.q.i3,.f.i3{animation:dr3 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i4,.q.i4,.f.i4{animation:dr4 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i5,.q.i5,.f.i5{animation:dr5 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i6,.q.i6,.f.i6{animation:dr6 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i7,.q.i7,.f.i7{animation:dr7 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i8,.q.i8,.f.i8{animation:dr8 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i9,.q.i9,.f.i9{animation:dr9 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i10,.q.i10,.f.i10{animation:dr10 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i11,.q.i11,.f.i11{animation:dr11 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i12,.q.i12,.f.i12{animation:dr12 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i13,.q.i13,.f.i13{animation:dr13 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i14,.q.i14,.f.i14{animation:dr14 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i15,.q.i15,.f.i15{animation:dr15 10s cubic-bezier(.55,.05,.25,1) infinite}
+.p.i0,.w.i0,.pq.i0,.t.i0,.k.i0{animation:fd0 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i1,.w.i1,.pq.i1,.t.i1,.k.i1{animation:fd1 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i2,.w.i2,.pq.i2,.t.i2,.k.i2{animation:fd2 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i3,.w.i3,.pq.i3,.t.i3,.k.i3{animation:fd3 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i4,.w.i4,.pq.i4,.t.i4,.k.i4{animation:fd4 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i5,.w.i5,.pq.i5,.t.i5,.k.i5{animation:fd5 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i6,.w.i6,.pq.i6,.t.i6,.k.i6{animation:fd6 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i7,.w.i7,.pq.i7,.t.i7,.k.i7{animation:fd7 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i8,.w.i8,.pq.i8,.t.i8,.k.i8{animation:fd8 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i9,.w.i9,.pq.i9,.t.i9,.k.i9{animation:fd9 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i10,.w.i10,.pq.i10,.t.i10,.k.i10{animation:fd10 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i11,.w.i11,.pq.i11,.t.i11,.k.i11{animation:fd11 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i12,.w.i12,.pq.i12,.t.i12,.k.i12{animation:fd12 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i13,.w.i13,.pq.i13,.t.i13,.k.i13{animation:fd13 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i14,.w.i14,.pq.i14,.t.i14,.k.i14{animation:fd14 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i15,.w.i15,.pq.i15,.t.i15,.k.i15{animation:fd15 10s cubic-bezier(.2,.7,.3,1) infinite}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+ <style>
+.a-drop0{animation:a-drop0 2.5s linear infinite;animation-delay:0s}
+@keyframes a-drop0{0%{transform:translate(0px,0px);opacity:0;}8%{transform:translate(0px,0px);opacity:1;}62%{transform:translate(0px,50.2px);opacity:1;animation-timing-function:cubic-bezier(.45,0,.85,.55);}70%{transform:translate(0px,50.2px);opacity:0;}100%{transform:translate(0px,50.2px);opacity:0;}}
+.a-drop1{animation:a-drop1 2.5s linear infinite;animation-delay:-1.7s}
+@keyframes a-drop1{0%{transform:translate(0px,0px);opacity:0;}8%{transform:translate(0px,0px);opacity:1;}62%{transform:translate(0px,50.2px);opacity:1;animation-timing-function:cubic-bezier(.45,0,.85,.55);}70%{transform:translate(0px,50.2px);opacity:0;}100%{transform:translate(0px,50.2px);opacity:0;}}
+.a-drop2{animation:a-drop2 2.5s linear infinite;animation-delay:-0.8s}
+@keyframes a-drop2{0%{transform:translate(0px,0px);opacity:0;}8%{transform:translate(0px,0px);opacity:1;}62%{transform:translate(0px,41px);opacity:1;animation-timing-function:cubic-bezier(.45,0,.85,.55);}70%{transform:translate(0px,41px);opacity:0;}100%{transform:translate(0px,41px);opacity:0;}}
+.a-drop3{animation:a-drop3 2.5s linear infinite;animation-delay:-2.1s}
+@keyframes a-drop3{0%{transform:translate(0px,0px);opacity:0;}8%{transform:translate(0px,0px);opacity:1;}62%{transform:translate(0px,68.6px);opacity:1;animation-timing-function:cubic-bezier(.45,0,.85,.55);}70%{transform:translate(0px,68.6px);opacity:0;}100%{transform:translate(0px,68.6px);opacity:0;}}
+</style>
+ <g class="all">
+  <path class="f i0" d="M30,190 H160" pathLength="1" />
+  <path class="f i0" d="M222,190 H370" pathLength="1" />
+  <path class="w i0" d="M36,190 L40.6,149.5 L45.2,124.3 L49.8,110 L54.4,103.4 L59,102.1 L63.6,104.3 L68.2,108.9 L72.8,114.7 L77.4,121.2 L82,127.9 L86.6,134.6 L91.2,140.9 L95.8,146.8 L100.4,152.2 L105,157.2 L109.6,161.6 L114.2,165.5 L118.8,168.9 L123.4,171.9 L128,174.5 L132.6,176.8 L137.2,178.8 L141.8,180.5 L146.4,181.9 L146.4,190 Z" />
+  <path class="q i0" d="M36,190 C36.8,183.3 39.1,160.5 40.6,149.5 C42.1,138.6 43.7,130.9 45.2,124.3 C46.7,117.7 48.3,113.5 49.8,110 C51.3,106.5 52.9,104.7 54.4,103.4 C55.9,102.1 57.5,101.9 59,102.1 C60.5,102.2 62.1,103.2 63.6,104.3 C65.1,105.5 66.7,107.1 68.2,108.9 C69.7,110.6 71.3,112.6 72.8,114.7 C74.3,116.8 75.9,119 77.4,121.2 C78.9,123.4 80.5,125.7 82,127.9 C83.5,130.2 85.1,132.4 86.6,134.6 C88.1,136.7 89.7,138.9 91.2,140.9 C92.7,143 94.3,144.9 95.8,146.8 C97.3,148.7 98.9,150.5 100.4,152.2 C101.9,154 103.5,155.6 105,157.2 C106.5,158.7 108.1,160.2 109.6,161.6 C111.1,162.9 112.7,164.2 114.2,165.5 C115.7,166.7 117.3,167.8 118.8,168.9 C120.3,170 121.9,171 123.4,171.9 C124.9,172.9 126.5,173.7 128,174.5 C129.5,175.4 131.1,176.1 132.6,176.8 C134.1,177.5 135.7,178.2 137.2,178.8 C138.7,179.4 140.3,180 141.8,180.5 C143.3,181 145.6,181.7 146.4,181.9" pathLength="1" />
+  <path class="k q i1" d="M222,185.1 C223.7,184.3 228.7,182.3 232,180 C235.3,177.8 238.7,175 242,171.6 C245.3,168.1 248.7,163.9 252,159.3 C255.3,154.7 258.7,149.2 262,144 C265.3,138.7 268.7,132.7 272,127.8 C275.3,122.8 278.7,117.7 282,114.1 C285.3,110.6 288.7,107.8 292,106.7 C295.3,105.6 298.7,105.9 302,107.6 C305.3,109.2 308.7,112.6 312,116.5 C315.3,120.4 318.7,125.8 322,130.9 C325.3,136 328.7,142 332,147.2 C335.3,152.4 338.7,157.7 342,162.1 C345.3,166.5 348.7,170.4 352,173.6 C355.3,176.8 360.3,180 362,181.3" />
+  <circle class="p i1" cx="236" cy="184.6" r="4.4" />
+  <circle class="p i1" cx="248" cy="184.6" r="4.4" />
+  <circle class="p i1" cx="248" cy="175.4" r="4.4" />
+  <circle class="p i2" cx="260" cy="184.6" r="4.4" />
+  <circle class="p i2" cx="260" cy="175.4" r="4.4" />
+  <circle class="p i2" cx="260" cy="166.2" r="4.4" />
+  <circle class="p i3" cx="272" cy="184.6" r="4.4" />
+  <circle class="p i3" cx="272" cy="175.4" r="4.4" />
+  <circle class="p i3" cx="272" cy="166.2" r="4.4" />
+  <circle class="p i3" cx="272" cy="157" r="4.4" />
+  <circle class="p i4" cx="272" cy="147.8" r="4.4" />
+  <circle class="p i4" cx="284" cy="184.6" r="4.4" />
+  <circle class="p i4" cx="284" cy="175.4" r="4.4" />
+  <circle class="p i5" cx="284" cy="166.2" r="4.4" />
+  <circle class="p i5" cx="284" cy="157" r="4.4" />
+  <circle class="p i5" cx="284" cy="147.8" r="4.4" />
+  <circle class="p i5" cx="284" cy="138.6" r="4.4" />
+  <circle class="p i6" cx="284" cy="129.4" r="4.4" />
+  <circle class="p i6" cx="296" cy="184.6" r="4.4" />
+  <circle class="p i6" cx="296" cy="175.4" r="4.4" />
+  <circle class="p i7" cx="296" cy="166.2" r="4.4" />
+  <circle class="p i7" cx="296" cy="157" r="4.4" />
+  <circle class="p i7" cx="296" cy="147.8" r="4.4" />
+  <circle class="p i7" cx="296" cy="138.6" r="4.4" />
+  <circle class="p i8" cx="296" cy="129.4" r="4.4" />
+  <circle class="p i8" cx="296" cy="120.2" r="4.4" />
+  <circle class="p i8" cx="308" cy="184.6" r="4.4" />
+  <circle class="p i8" cx="308" cy="175.4" r="4.4" />
+  <circle class="p i9" cx="308" cy="166.2" r="4.4" />
+  <circle class="p i9" cx="308" cy="157" r="4.4" />
+  <circle class="p i9" cx="308" cy="147.8" r="4.4" />
+  <circle class="p i10" cx="308" cy="138.6" r="4.4" />
+  <circle class="p i10" cx="308" cy="129.4" r="4.4" />
+  <circle class="p i10" cx="320" cy="184.6" r="4.4" />
+  <circle class="p i10" cx="320" cy="175.4" r="4.4" />
+  <circle class="p i11" cx="320" cy="166.2" r="4.4" />
+  <circle class="p i11" cx="320" cy="157" r="4.4" />
+  <circle class="p i11" cx="320" cy="147.8" r="4.4" />
+  <circle class="p i12" cx="332" cy="184.6" r="4.4" />
+  <circle class="p i12" cx="332" cy="175.4" r="4.4" />
+  <circle class="p i12" cx="332" cy="166.2" r="4.4" />
+  <circle class="p i12" cx="344" cy="184.6" r="4.4" />
+  <circle class="p i13" cx="344" cy="175.4" r="4.4" />
+  <circle class="p i13" cx="356" cy="184.6" r="4.4" />
+  <path class="q i13" d="M164,128 C176,118 200,118 214,128 M208.5,125.7 L214,128 L213,122.1" pathLength="1" />
+  <g class="a-drop0">
+   <circle class="p i14" cx="284" cy="70" r="4.4" />
+  </g>
+  <g class="a-drop1">
+   <circle class="p i14" cx="308" cy="70" r="4.4" />
+  </g>
+  <g class="a-drop2">
+   <circle class="p i14" cx="296" cy="70" r="4.4" />
+  </g>
+  <g class="a-drop3">
+   <circle class="p i14" cx="272" cy="70" r="4.4" />
+  </g>
+  <text class="t i15" x="94" y="212" text-anchor="middle">any population</text>
+  <text class="t i15" x="296" y="212" text-anchor="middle">means of many samples</text>
+  <text class="t i15" x="188" y="106" text-anchor="middle">average n</text>
+ </g>
+</svg>

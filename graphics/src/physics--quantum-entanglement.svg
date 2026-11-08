@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="physics--quantum-entanglement" data-discipline="physics" data-tags="quantum,entanglement,spin,correlation,bell">
+<title>Quantum entanglement</title>
+<desc>A source emits two particles with linked spins: whichever way one dial points, the far one points the opposite way, however far apart they have travelled.</desc>
+<style>
+.a-pl{animation:a-pl 2.5s linear infinite}
+.a-pr{animation:a-pr 2.5s linear infinite}
+@keyframes a-pl{0%{transform:translateX(0);opacity:0}12%{opacity:1}88%{opacity:1}100%{transform:translateX(-84px);opacity:0}}
+@keyframes a-pr{0%{transform:translateX(0);opacity:0}12%{opacity:1}88%{opacity:1}100%{transform:translateX(84px);opacity:0}}
+.a-dl{transform-box:view-box;transform-origin:62px 120px;animation:a-dl 5s linear infinite}
+.a-dr{transform-box:view-box;transform-origin:338px 120px;animation:a-dr 5s linear infinite}
+@keyframes a-dl{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
+@keyframes a-dr{from{transform:rotate(180deg)}to{transform:rotate(540deg)}}
+</style>
+<circle class="w" cx="62" cy="120" r="32"/>
+<circle class="s" cx="62" cy="120" r="32"/>
+<circle class="w" cx="338" cy="120" r="32"/>
+<circle class="s" cx="338" cy="120" r="32"/>
+<path class="k q" d="M62,88 Q200,22 338,88"/>
+<path class="k f" d="M94,120 H188 M212,120 H306"/>
+<circle class="w" cx="200" cy="120" r="12"/>
+<circle class="s" cx="200" cy="120" r="12"/>
+<circle class="p" cx="200" cy="120" r="3"/>
+<g class="a-pl"><circle class="p" cx="188" cy="120" r="3.4"/></g>
+<g class="a-pr"><circle class="p" cx="212" cy="120" r="3.4"/></g>
+<g class="a-dl"><path class="s" d="M62,136 V104 M55,112 L62,104 L69,112"/></g>
+<g class="a-dr"><path class="s" d="M338,136 V104 M331,112 L338,104 L345,112"/></g>
+<text class="t" x="200" y="164" text-anchor="middle">entangled pair</text>
+<text class="t" x="200" y="190" text-anchor="middle">always opposite</text>
+</svg>

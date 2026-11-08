@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="ecology--ecological-succession" data-discipline="ecology" data-tags="succession,pioneer-species,climax-community,soil,forest,ecosystem-development,time" role="img">
+ <title>Ecological Succession</title>
+ <desc>Lichen on bare rock gives way to grass, flowers, shrubs, birch and finally oak, each stage growing in turn and building the deeper soil that the next one needs.</desc>
+ <style>
+:root{--ink:#110f0c;--quiet:#555350;--faint:#b8b6b2;--wash:#f5f3ef}
+@media (prefers-color-scheme:dark){:root{--ink:#e7e5e2;--quiet:#a3a19e;--faint:#524f4c;--wash:#252321}}
+svg{overflow:visible}
+.s,.q,.f{fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1;stroke-dashoffset:0}
+.s{stroke:var(--ink);stroke-width:1.5}
+.q{stroke:var(--quiet);stroke-width:1.3}
+.f{stroke:var(--faint);stroke-width:1.1}
+.hair{stroke-width:1!important}
+.bold{stroke-width:2.2!important}
+.k{fill:none;stroke-dasharray:5 5!important;stroke-linecap:round}
+.p{fill:var(--ink);stroke:none}
+.pq{fill:var(--quiet);stroke:none}
+.w{fill:var(--wash);stroke:none}
+.t{fill:var(--quiet);stroke:none;font:italic 13px ui-serif,"New York",Georgia,serif}
+.all{animation:out 10s linear infinite}
+@keyframes out{0%,90%{opacity:1}97%,99.9%{opacity:0}100%{opacity:1}}
+@keyframes dr0{0%,0.0%{stroke-dashoffset:1;opacity:0}0.1%{stroke-dashoffset:1;opacity:1}9%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd0{0%,0.0%{opacity:0}7%,100%{opacity:1}}
+@keyframes dr1{0%,2.2%{stroke-dashoffset:1;opacity:0}2.3%{stroke-dashoffset:1;opacity:1}11.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd1{0%,2.2%{opacity:0}9.2%,100%{opacity:1}}
+@keyframes dr2{0%,4.4%{stroke-dashoffset:1;opacity:0}4.5%{stroke-dashoffset:1;opacity:1}13.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd2{0%,4.4%{opacity:0}11.4%,100%{opacity:1}}
+@keyframes dr3{0%,6.6%{stroke-dashoffset:1;opacity:0}6.7%{stroke-dashoffset:1;opacity:1}15.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd3{0%,6.6%{opacity:0}13.6%,100%{opacity:1}}
+@keyframes dr4{0%,8.8%{stroke-dashoffset:1;opacity:0}8.9%{stroke-dashoffset:1;opacity:1}17.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd4{0%,8.8%{opacity:0}15.8%,100%{opacity:1}}
+@keyframes dr5{0%,11.0%{stroke-dashoffset:1;opacity:0}11.1%{stroke-dashoffset:1;opacity:1}20%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd5{0%,11.0%{opacity:0}18%,100%{opacity:1}}
+@keyframes dr6{0%,13.2%{stroke-dashoffset:1;opacity:0}13.3%{stroke-dashoffset:1;opacity:1}22.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd6{0%,13.2%{opacity:0}20.2%,100%{opacity:1}}
+@keyframes dr7{0%,15.4%{stroke-dashoffset:1;opacity:0}15.5%{stroke-dashoffset:1;opacity:1}24.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd7{0%,15.4%{opacity:0}22.4%,100%{opacity:1}}
+@keyframes dr8{0%,17.6%{stroke-dashoffset:1;opacity:0}17.7%{stroke-dashoffset:1;opacity:1}26.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd8{0%,17.6%{opacity:0}24.6%,100%{opacity:1}}
+@keyframes dr9{0%,19.8%{stroke-dashoffset:1;opacity:0}19.9%{stroke-dashoffset:1;opacity:1}28.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd9{0%,19.8%{opacity:0}26.8%,100%{opacity:1}}
+@keyframes dr10{0%,22.0%{stroke-dashoffset:1;opacity:0}22.1%{stroke-dashoffset:1;opacity:1}31%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd10{0%,22.0%{opacity:0}29%,100%{opacity:1}}
+@keyframes dr11{0%,24.2%{stroke-dashoffset:1;opacity:0}24.3%{stroke-dashoffset:1;opacity:1}33.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd11{0%,24.2%{opacity:0}31.2%,100%{opacity:1}}
+@keyframes dr12{0%,26.4%{stroke-dashoffset:1;opacity:0}26.5%{stroke-dashoffset:1;opacity:1}35.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd12{0%,26.4%{opacity:0}33.4%,100%{opacity:1}}
+@keyframes dr13{0%,28.6%{stroke-dashoffset:1;opacity:0}28.7%{stroke-dashoffset:1;opacity:1}37.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd13{0%,28.6%{opacity:0}35.6%,100%{opacity:1}}
+@keyframes dr14{0%,30.8%{stroke-dashoffset:1;opacity:0}30.9%{stroke-dashoffset:1;opacity:1}39.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd14{0%,30.8%{opacity:0}37.8%,100%{opacity:1}}
+@keyframes dr15{0%,33.0%{stroke-dashoffset:1;opacity:0}33.1%{stroke-dashoffset:1;opacity:1}42%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd15{0%,33.0%{opacity:0}40%,100%{opacity:1}}
+.s.i0,.q.i0,.f.i0{animation:dr0 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i1,.q.i1,.f.i1{animation:dr1 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i2,.q.i2,.f.i2{animation:dr2 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i3,.q.i3,.f.i3{animation:dr3 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i4,.q.i4,.f.i4{animation:dr4 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i5,.q.i5,.f.i5{animation:dr5 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i6,.q.i6,.f.i6{animation:dr6 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i7,.q.i7,.f.i7{animation:dr7 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i8,.q.i8,.f.i8{animation:dr8 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i9,.q.i9,.f.i9{animation:dr9 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i10,.q.i10,.f.i10{animation:dr10 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i11,.q.i11,.f.i11{animation:dr11 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i12,.q.i12,.f.i12{animation:dr12 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i13,.q.i13,.f.i13{animation:dr13 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i14,.q.i14,.f.i14{animation:dr14 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i15,.q.i15,.f.i15{animation:dr15 10s cubic-bezier(.55,.05,.25,1) infinite}
+.p.i0,.w.i0,.pq.i0,.t.i0,.k.i0{animation:fd0 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i1,.w.i1,.pq.i1,.t.i1,.k.i1{animation:fd1 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i2,.w.i2,.pq.i2,.t.i2,.k.i2{animation:fd2 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i3,.w.i3,.pq.i3,.t.i3,.k.i3{animation:fd3 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i4,.w.i4,.pq.i4,.t.i4,.k.i4{animation:fd4 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i5,.w.i5,.pq.i5,.t.i5,.k.i5{animation:fd5 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i6,.w.i6,.pq.i6,.t.i6,.k.i6{animation:fd6 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i7,.w.i7,.pq.i7,.t.i7,.k.i7{animation:fd7 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i8,.w.i8,.pq.i8,.t.i8,.k.i8{animation:fd8 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i9,.w.i9,.pq.i9,.t.i9,.k.i9{animation:fd9 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i10,.w.i10,.pq.i10,.t.i10,.k.i10{animation:fd10 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i11,.w.i11,.pq.i11,.t.i11,.k.i11{animation:fd11 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i12,.w.i12,.pq.i12,.t.i12,.k.i12{animation:fd12 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i13,.w.i13,.pq.i13,.t.i13,.k.i13{animation:fd13 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i14,.w.i14,.pq.i14,.t.i14,.k.i14{animation:fd14 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i15,.w.i15,.pq.i15,.t.i15,.k.i15{animation:fd15 10s cubic-bezier(.2,.7,.3,1) infinite}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+ <style>
+.a-g0{transform-box:view-box;transform-origin:110px 162px;animation:a-g0 10s ease-in-out infinite}@keyframes a-g0{0%,8%{transform:scale(.12)}28%,100%{transform:scale(1)}}
+.a-g1{transform-box:view-box;transform-origin:160px 162px;animation:a-g1 10s ease-in-out infinite}@keyframes a-g1{0%,18%{transform:scale(.12)}38%,100%{transform:scale(1)}}
+.a-g2{transform-box:view-box;transform-origin:212px 162px;animation:a-g2 10s ease-in-out infinite}@keyframes a-g2{0%,29%{transform:scale(.12)}49%,100%{transform:scale(1)}}
+.a-g3{transform-box:view-box;transform-origin:263px 162px;animation:a-g3 10s ease-in-out infinite}@keyframes a-g3{0%,40%{transform:scale(.12)}60%,100%{transform:scale(1)}}
+.a-g4{transform-box:view-box;transform-origin:330px 162px;animation:a-g4 10s ease-in-out infinite}@keyframes a-g4{0%,50%{transform:scale(.12)}70%,100%{transform:scale(1)}}
+.a-now{animation:a-now 10s linear infinite}@keyframes a-now{0%{transform:translateX(0)}70%,100%{transform:translateX(300px)}}
+</style>
+ <g class="all">
+  <path class="q i0" d="M26,162 H374" pathLength="1" />
+  <path class="w i0" d="M26,162 H374 V192 C300,188 200,176 120,168 C80,165 50,163 26,162 Z" />
+  <path class="f i0" d="M374,192 C300,188 200,176 120,168 C80,165 50,163 26,162" pathLength="1" />
+  <path class="w i1" d="M30,162 C32,150 44,146 54,148 C66,150 72,156 74,162 Z" />
+  <path class="s i1" d="M30,162 C32,150 44,146 54,148 C66,150 72,156 74,162 Z" pathLength="1" />
+  <path class="pq i2" d="M40,154 a2,2 0 1 0 4,0 a2,2 0 1 0 -4,0 M50.4,152 a1.6,1.6 0 1 0 3.2,0 a1.6,1.6 0 1 0 -3.2,0 M59.8,156 a2.2,2.2 0 1 0 4.4,0 a2.2,2.2 0 1 0 -4.4,0 M46.7,158 a1.3,1.3 0 1 0 2.6,0 a1.3,1.3 0 1 0 -2.6,0" />
+  <g class="a-g0">
+   <path class="s i2" d="M92,162 C91.0,155.0 90.0,150.8 87,148 M94,162 C93.8,152.0 93.6,146.0 93,142 M96,162 C96.8,154.0 97.6,149.2 100,146 M108,162 C107.2,153.0 106.4,147.6 104,144 M110,162 C110.2,150.0 110.4,142.8 111,138 M112,162 C113.2,153.5 114.4,148.4 118,145 M124,162 C123.4,154.5 122.8,150.0 121,147 M126,162 C126.4,151.5 126.8,145.2 128,141" pathLength="1" />
+  </g>
+  <g class="a-g1">
+   <path class="s i2" d="M146,162 C145,150.0 147,141.0 146,132 M146,148.5 C151,145.5 153,147.0 154,144.0" pathLength="1" />
+   <circle class="w i3" cx="146" cy="128" r="4.5" />
+   <circle class="s i3" cx="146" cy="128" r="4.5" pathLength="1" />
+   <circle class="p i4" cx="146" cy="128" r="1.4" />
+   <path class="s i4" d="M162,162 C161,146.8 163,135.4 162,124 M162,144.9 C167,141.1 169,143.0 170,139.2" pathLength="1" />
+   <circle class="w i5" cx="162" cy="120" r="4.5" />
+   <circle class="s i5" cx="162" cy="120" r="4.5" pathLength="1" />
+   <circle class="p i5" cx="162" cy="120" r="1.4" />
+   <path class="s i6" d="M176,162 C175,150.8 177,142.4 176,134 M176,149.4 C181,146.6 183,148.0 184,145.2" pathLength="1" />
+   <circle class="w i6" cx="176" cy="130" r="4.5" />
+   <circle class="s i7" cx="176" cy="130" r="4.5" pathLength="1" />
+   <circle class="p i7" cx="176" cy="130" r="1.4" />
+  </g>
+  <g class="a-g2">
+   <path class="s i8" d="M208,162 L210,150 M216,162 L214,150" pathLength="1" />
+   <path class="w i8" d="M212.3,118.4 A10.8,10.8 0 0 1 227.4,124.6 A10.5,10.5 0 0 1 233,139.6 A9.3,9.3 0 0 1 226.9,152.3 A11.5,11.5 0 0 1 210.9,159.3 A9.9,9.9 0 0 1 197.9,151.8 A9.1,9.1 0 0 1 192.6,139.1 A10.1,10.1 0 0 1 197.8,124.7 A10.4,10.4 0 0 1 212.3,118.4 Z" />
+   <path class="s i8" d="M212.3,118.4 A10.8,10.8 0 0 1 227.4,124.6 A10.5,10.5 0 0 1 233,139.6 A9.3,9.3 0 0 1 226.9,152.3 A11.5,11.5 0 0 1 210.9,159.3 A9.9,9.9 0 0 1 197.9,151.8 A9.1,9.1 0 0 1 192.6,139.1 A10.1,10.1 0 0 1 197.8,124.7 A10.4,10.4 0 0 1 212.3,118.4 Z" pathLength="1" />
+  </g>
+  <g class="a-g3">
+   <path class="s i9" d="M250.4,162 L251.2,124.0 M253.6,162 L252.8,124.0" pathLength="1" />
+   <path class="w i9" d="M252.7,86.7 A6.4,6.4 0 0 1 259.4,93.8 A10.6,10.6 0 0 1 265.2,108.7 A10.3,10.3 0 0 1 262.9,124.1 A8.3,8.3 0 0 1 256.3,134.9 A5.8,5.8 0 0 1 247.6,133.6 A7.7,7.7 0 0 1 240.9,124 A11.4,11.4 0 0 1 238.5,106.9 A10.1,10.1 0 0 1 244.2,92.7 A6.9,6.9 0 0 1 252.7,86.7 Z" />
+   <path class="s i10" d="M252.7,86.7 A6.4,6.4 0 0 1 259.4,93.8 A10.6,10.6 0 0 1 265.2,108.7 A10.3,10.3 0 0 1 262.9,124.1 A8.3,8.3 0 0 1 256.3,134.9 A5.8,5.8 0 0 1 247.6,133.6 A7.7,7.7 0 0 1 240.9,124 A11.4,11.4 0 0 1 238.5,106.9 A10.1,10.1 0 0 1 244.2,92.7 A6.9,6.9 0 0 1 252.7,86.7 Z" pathLength="1" />
+   <path class="q hair i10" d="M250.5,148 h2 M252,136 h1.6 M250.8,124 h2" pathLength="1" />
+   <path class="s i10" d="M272.4,162 L273.2,115.0 M275.6,162 L274.8,115.0" pathLength="1" />
+   <path class="w i11" d="M273.7,71.3 A8,8 0 0 1 283.3,78.5 A11.4,11.4 0 0 1 288.5,95 A12.3,12.3 0 0 1 287.4,113.6 A10.3,10.3 0 0 1 279.9,127.4 A6.6,6.6 0 0 1 269.8,127.3 A9.7,9.7 0 0 1 260.6,115.8 A12.9,12.9 0 0 1 259.6,96.3 A14,14 0 0 1 264,75.5 A7,7 0 0 1 273.7,71.3 Z" />
+   <path class="s i11" d="M273.7,71.3 A8,8 0 0 1 283.3,78.5 A11.4,11.4 0 0 1 288.5,95 A12.3,12.3 0 0 1 287.4,113.6 A10.3,10.3 0 0 1 279.9,127.4 A6.6,6.6 0 0 1 269.8,127.3 A9.7,9.7 0 0 1 260.6,115.8 A12.9,12.9 0 0 1 259.6,96.3 A14,14 0 0 1 264,75.5 A7,7 0 0 1 273.7,71.3 Z" pathLength="1" />
+   <path class="q hair i12" d="M272.5,148 h2 M274,136 h1.6 M272.8,124 h2" pathLength="1" />
+  </g>
+  <g class="a-g4">
+   <path class="s i12" d="M323,162 C326.5,152 326.15,124.2 326.85,106.4 M337,162 C333.5,152 333.85,124.2 333.15,106.4" pathLength="1" />
+   <path class="w i13" d="M328.9,38.1 A11.3,11.3 0 0 1 346.5,42.4 A10.7,10.7 0 0 1 359.8,53.5 A15.6,15.6 0 0 1 369.3,76.8 A12.6,12.6 0 0 1 363.9,96.3 A11.5,11.5 0 0 1 354.4,112.2 A10.2,10.2 0 0 1 340,120.3 A11.7,11.7 0 0 1 321.8,125.3 A14.1,14.1 0 0 1 302.7,112.9 A12.8,12.8 0 0 1 295.3,93.6 A11.4,11.4 0 0 1 291.6,75.6 A14.6,14.6 0 0 1 298,52.9 A12.3,12.3 0 0 1 314.7,42.1 A9.1,9.1 0 0 1 328.9,38.1 Z" />
+   <path class="s i13" d="M328.9,38.1 A11.3,11.3 0 0 1 346.5,42.4 A10.7,10.7 0 0 1 359.8,53.5 A15.6,15.6 0 0 1 369.3,76.8 A12.6,12.6 0 0 1 363.9,96.3 A11.5,11.5 0 0 1 354.4,112.2 A10.2,10.2 0 0 1 340,120.3 A11.7,11.7 0 0 1 321.8,125.3 A14.1,14.1 0 0 1 302.7,112.9 A12.8,12.8 0 0 1 295.3,93.6 A11.4,11.4 0 0 1 291.6,75.6 A14.6,14.6 0 0 1 298,52.9 A12.3,12.3 0 0 1 314.7,42.1 A9.1,9.1 0 0 1 328.9,38.1 Z" pathLength="1" />
+  </g>
+  <path class="f i13" d="M30,202 H366 M364.7,204.9 L370,202 L364.7,199.1" pathLength="1" />
+  <g class="a-now">
+   <circle class="p i14" cx="52" cy="202" r="3.2" />
+  </g>
+  <text class="t i14" x="52" y="136" text-anchor="middle">bare rock</text>
+  <text class="t i15" x="316" y="183" text-anchor="middle">soil deepens</text>
+  <text class="t i15" x="200" y="219" text-anchor="middle">centuries</text>
+ </g>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="biology--pollination" data-discipline="biology" data-tags="pollination,bee,flower,pollen,mutualism,reproduction,pollinator">
+<title>Pollination</title>
+<desc>A bee carries pollen from one flower to another as it feeds, fertilising the blooms along the way; the dotted arc is its route.</desc>
+<style>
+.a-bee{transform:translate(200.5px,72px) scale(1.6,1.6);animation:a-bee 10s linear infinite}@keyframes a-bee{0%{transform:translate(116px,118px) scale(1.6,1.6)}3%{transform:translate(118.4px,115.8px) scale(1.6,1.6)}6%{transform:translate(125.3px,109.8px) scale(1.6,1.6)}9%{transform:translate(135.9px,101.4px) scale(1.6,1.6)}12%{transform:translate(149.4px,92.1px) scale(1.6,1.6)}15%{transform:translate(165.1px,83.4px) scale(1.6,1.6)}18%{transform:translate(182.4px,76.4px) scale(1.6,1.6)}21%{transform:translate(200.5px,72px) scale(1.6,1.6)}24%{transform:translate(218.6px,70.5px) scale(1.6,1.6)}27%{transform:translate(236px,71.7px) scale(1.6,1.6)}30%{transform:translate(252px,75.2px) scale(1.6,1.6)}33%{transform:translate(265.7px,80px) scale(1.6,1.6)}36%{transform:translate(276.5px,84.9px) scale(1.6,1.6)}39%{transform:translate(283.5px,88.6px) scale(1.6,1.6)}42%{transform:translate(286px,90px) scale(1.6,1.6)}50%{transform:translate(286px,90px) scale(-1.6,1.6)}50%{transform:translate(286px,90px) scale(-1.6,1.6)}53%{transform:translate(283.5px,88.6px) scale(-1.6,1.6)}56%{transform:translate(276.5px,84.9px) scale(-1.6,1.6)}59%{transform:translate(265.7px,80px) scale(-1.6,1.6)}62%{transform:translate(252px,75.2px) scale(-1.6,1.6)}65%{transform:translate(236px,71.7px) scale(-1.6,1.6)}68%{transform:translate(218.6px,70.5px) scale(-1.6,1.6)}71%{transform:translate(200.5px,72px) scale(-1.6,1.6)}74%{transform:translate(182.4px,76.4px) scale(-1.6,1.6)}77%{transform:translate(165.1px,83.4px) scale(-1.6,1.6)}80%{transform:translate(149.4px,92.1px) scale(-1.6,1.6)}83%{transform:translate(135.9px,101.4px) scale(-1.6,1.6)}86%{transform:translate(125.3px,109.8px) scale(-1.6,1.6)}89%{transform:translate(118.4px,115.8px) scale(-1.6,1.6)}92%{transform:translate(116px,118px) scale(-1.6,1.6)}100%{transform:translate(116px,118px) scale(1.6,1.6)}}
+.a-flap{transform-box:fill-box;transform-origin:center bottom;animation:a-flap 1s ease-in-out infinite alternate}@keyframes a-flap{from{transform:scaleY(.35)}to{transform:scaleY(1)}}
+</style>
+<path class="f" d="M40,206 H360"/>
+<path class="s" d="M92,178 C92,190 90,198 90,206"/>
+<path class="s" d="M90,196 C100,188 108,190 112,184 C104,182 96,186 90,196"/>
+<path class="s" d="M308,146 C308,174 311,192 311,206"/>
+<path class="s" d="M311,192 C300,186 294,188 290,181 C300,180 306,184 311,192"/>
+<ellipse class="w" cx="92" cy="126.2" rx="13.4" ry="8.6" transform="rotate(-90 92 126.2)"/>
+<ellipse class="s" cx="92" cy="126.2" rx="13.4" ry="8.6" transform="rotate(-90 92 126.2)"/>
+<ellipse class="w" cx="109.2" cy="136.1" rx="13.4" ry="8.6" transform="rotate(-30 109.2 136.1)"/>
+<ellipse class="s" cx="109.2" cy="136.1" rx="13.4" ry="8.6" transform="rotate(-30 109.2 136.1)"/>
+<ellipse class="w" cx="109.2" cy="155.9" rx="13.4" ry="8.6" transform="rotate(30 109.2 155.9)"/>
+<ellipse class="s" cx="109.2" cy="155.9" rx="13.4" ry="8.6" transform="rotate(30 109.2 155.9)"/>
+<ellipse class="w" cx="92" cy="165.8" rx="13.4" ry="8.6" transform="rotate(90 92 165.8)"/>
+<ellipse class="s" cx="92" cy="165.8" rx="13.4" ry="8.6" transform="rotate(90 92 165.8)"/>
+<ellipse class="w" cx="74.8" cy="155.9" rx="13.4" ry="8.6" transform="rotate(150 74.8 155.9)"/>
+<ellipse class="s" cx="74.8" cy="155.9" rx="13.4" ry="8.6" transform="rotate(150 74.8 155.9)"/>
+<ellipse class="w" cx="74.8" cy="136.1" rx="13.4" ry="8.6" transform="rotate(210 74.8 136.1)"/>
+<ellipse class="s" cx="74.8" cy="136.1" rx="13.4" ry="8.6" transform="rotate(210 74.8 136.1)"/>
+<circle class="p" cx="92" cy="146" r="6"/>
+<ellipse class="w" cx="308" cy="100.6" rx="11.8" ry="7.6" transform="rotate(-90 308 100.6)"/>
+<ellipse class="s" cx="308" cy="100.6" rx="11.8" ry="7.6" transform="rotate(-90 308 100.6)"/>
+<ellipse class="w" cx="323" cy="109.3" rx="11.8" ry="7.6" transform="rotate(-30 323 109.3)"/>
+<ellipse class="s" cx="323" cy="109.3" rx="11.8" ry="7.6" transform="rotate(-30 323 109.3)"/>
+<ellipse class="w" cx="323" cy="126.7" rx="11.8" ry="7.6" transform="rotate(30 323 126.7)"/>
+<ellipse class="s" cx="323" cy="126.7" rx="11.8" ry="7.6" transform="rotate(30 323 126.7)"/>
+<ellipse class="w" cx="308" cy="135.4" rx="11.8" ry="7.6" transform="rotate(90 308 135.4)"/>
+<ellipse class="s" cx="308" cy="135.4" rx="11.8" ry="7.6" transform="rotate(90 308 135.4)"/>
+<ellipse class="w" cx="293" cy="126.7" rx="11.8" ry="7.6" transform="rotate(150 293 126.7)"/>
+<ellipse class="s" cx="293" cy="126.7" rx="11.8" ry="7.6" transform="rotate(150 293 126.7)"/>
+<ellipse class="w" cx="293" cy="109.3" rx="11.8" ry="7.6" transform="rotate(210 293 109.3)"/>
+<ellipse class="s" cx="293" cy="109.3" rx="11.8" ry="7.6" transform="rotate(210 293 109.3)"/>
+<circle class="p" cx="308" cy="118" r="5.5"/>
+<path class="k f" d="M118,112 Q200,26 280,80"/>
+<text class="t" x="52" y="100" text-anchor="middle">pollen</text>
+<path class="q hair" d="M60,106 L84,140"/>
+<g class="a-bee">
+<g class="a-flap">
+<ellipse class="w" cx="-3" cy="-8" rx="6" ry="3.4" transform="rotate(-35 -3 -8)"/>
+<ellipse class="s" cx="-3" cy="-8" rx="6" ry="3.4" transform="rotate(-35 -3 -8)"/>
+<ellipse class="w" cx="2" cy="-8.5" rx="6" ry="3.4" transform="rotate(25 2 -8.5)"/>
+<ellipse class="s" cx="2" cy="-8.5" rx="6" ry="3.4" transform="rotate(25 2 -8.5)"/>
+</g>
+<ellipse class="w" cx="0" cy="0" rx="8" ry="5"/>
+<ellipse class="s" cx="0" cy="0" rx="8" ry="5"/>
+<path class="s hair" d="M-2,-4.6 V4.6 M2.5,-4.2 V4.2"/>
+<circle class="p" cx="9" cy="-1" r="2.2"/>
+<circle class="p" cx="-3" cy="6.8" r="1.1"/>
+<circle class="p" cx="2" cy="7" r="1.1"/>
+</g>
+</svg>

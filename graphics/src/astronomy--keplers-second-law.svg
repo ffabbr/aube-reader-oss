@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="astronomy--keplers-second-law" data-discipline="astronomy" data-tags="kepler,orbit,ellipse,equal-areas,orbital-speed,perihelion">
+<title>Kepler's second law of equal areas</title>
+<desc>A planet on an elliptical orbit sweeps out equal areas in equal times, so it races past the Sun and lingers far away.</desc>
+<style>
+@keyframes a-spin{to{transform:rotate(360deg)}}
+@keyframes a-spinr{to{transform:rotate(-360deg)}}
+@keyframes a-lap{to{offset-distance:100%}}
+@keyframes a-kep{0%{offset-distance:0.00%}4.2%{offset-distance:12.63%}8.3%{offset-distance:20.17%}12.5%{offset-distance:25.86%}16.7%{offset-distance:30.43%}20.8%{offset-distance:34.26%}25%{offset-distance:37.52%}29.2%{offset-distance:40.31%}33.3%{offset-distance:42.71%}37.5%{offset-distance:44.82%}41.7%{offset-distance:46.69%}45.8%{offset-distance:48.39%}50%{offset-distance:50.00%}54.2%{offset-distance:51.61%}58.3%{offset-distance:53.31%}62.5%{offset-distance:55.18%}66.7%{offset-distance:57.29%}70.8%{offset-distance:59.70%}75%{offset-distance:62.49%}79.2%{offset-distance:65.75%}83.3%{offset-distance:69.59%}87.5%{offset-distance:74.16%}91.7%{offset-distance:79.84%}95.8%{offset-distance:87.38%}100%{offset-distance:100.00%}}
+.a-kep{offset-path:path("M350,120A150,84 0 1 0 50,120A150,84 0 1 0 350,120");offset-rotate:0deg;animation:a-kep 10s linear infinite}
+</style>
+<path class="q" d="M350,120A150,84 0 1 0 50,120A150,84 0 1 0 350,120Z"/>
+<path class="w" d="M324.3,120L277.2,192L295.2,184.9L311.2,176.4L324.7,166.7L335.6,155.9L343.5,144.4L348.4,132.3L350,120L348.4,107.7L343.5,95.6L335.6,84.1L324.7,73.3L311.2,63.6L295.2,55.1L277.2,48Z"/>
+<path class="q hair" d="M324.3,120L277.2,192L295.2,184.9L311.2,176.4L324.7,166.7L335.6,155.9L343.5,144.4L348.4,132.3L350,120L348.4,107.7L343.5,95.6L335.6,84.1L324.7,73.3L311.2,63.6L295.2,55.1L277.2,48L324.3,120"/>
+<path class="w" d="M324.3,120L52.3,105.3L51.7,107.4L51.2,109.5L50.8,111.6L50.4,113.7L50.2,115.8L50,117.9L50,120L50,122.1L50.2,124.2L50.4,126.3L50.8,128.4L51.2,130.5L51.7,132.6L52.3,134.7Z"/>
+<path class="q hair" d="M324.3,120L52.3,105.3L51.7,107.4L51.2,109.5L50.8,111.6L50.4,113.7L50.2,115.8L50,117.9L50,120L50,122.1L50.2,124.2L50.4,126.3L50.8,128.4L51.2,130.5L51.7,132.6L52.3,134.7L324.3,120"/>
+<circle class="w" cx="324.3" cy="120" r="13"/>
+<circle class="p" cx="324.3" cy="120" r="6"/>
+<g class="a-kep">
+<circle class="w" cx="0" cy="0" r="7"/>
+<circle class="s" cx="0" cy="0" r="7"/>
+</g>
+<text class="t" x="170" y="92" text-anchor="middle">equal areas, equal times</text>
+</svg>

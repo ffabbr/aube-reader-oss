@@ -1,0 +1,58 @@
+# XcodeGen spec: `xcodegen generate` writes AubeReader.xcodeproj from this file.
+name: AubeReader
+options:
+  deploymentTarget:
+    iOS: "17.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    MARKETING_VERSION: "1.0"
+    CURRENT_PROJECT_VERSION: "1"
+targets:
+  AubeReader:
+    type: application
+    platform: iOS
+    sources:
+      - AubeReader
+      # The library of animated drawings a topic's icons are chosen from.
+      - path: graphics/svg
+        type: folder
+        buildPhase: resources
+      - path: graphics/index.json
+        buildPhase: resources
+    # Bundle identifier, signing team and API key come from here (see Config.xcconfig).
+    configFiles:
+      Debug: Config.xcconfig
+      Release: Config.xcconfig
+    settings:
+      base:
+        TARGETED_DEVICE_FAMILY: "2"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        CODE_SIGN_STYLE: Automatic
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: Aube Reader
+        INFOPLIST_KEY_UIStatusBarHidden: NO
+        INFOPLIST_KEY_UIRequiresFullScreen: NO
+        INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad: "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight"
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+    info:
+      path: AubeReader/Info.plist
+      properties:
+        UILaunchScreen: {}
+        OpenAIKey: $(OPENAI_API_KEY)
+        # Documents other apps can send here: "Open in Aube Reader".
+        LSSupportsOpeningDocumentsInPlace: false
+        CFBundleDocumentTypes:
+          - CFBundleTypeName: PDF Document
+            LSHandlerRank: Alternate
+            LSItemContentTypes: [com.adobe.pdf]
+          - CFBundleTypeName: Text Document
+            LSHandlerRank: Alternate
+            LSItemContentTypes: [public.plain-text, public.rtf]
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+          UISceneConfigurations:
+            UIWindowSceneSessionRoleApplication:
+              - UISceneConfigurationName: Default
+                UISceneDelegateClassName: $(PRODUCT_MODULE_NAME).SceneDelegate

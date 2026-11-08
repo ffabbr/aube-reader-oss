@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="physics--carnot-cycle" data-discipline="physics" data-tags="carnot,heat-engine,thermodynamics,pv-diagram,isotherm,adiabatic,efficiency">
+<title>Carnot cycle</title>
+<desc>On a pressure-volume diagram the ideal heat engine traces a loop of two isotherms and two adiabats; the enclosed area is the work it delivers each cycle.</desc>
+<style>
+.a-cy{offset-path:path("M100,52 C150,50 210,64 250,92 C275,112 300,140 318,172 C280,176 230,170 190,150 C160,122 124,86 100,52 Z");offset-rotate:0deg;animation:a-cy 10s linear infinite}
+@keyframes a-cy{from{offset-distance:0%}to{offset-distance:100%}}
+</style>
+<path class="f" d="M62,205 L352,205 M344.8,201.5 L352,205 M344.8,208.5 L352,205 M62,205 L62,28 M58.5,35.2 L62,28 M65.5,35.2 L62,28"/>
+<path class="w" d="M100,52 C150,50 210,64 250,92 C275,112 300,140 318,172 C280,176 230,170 190,150 C160,122 124,86 100,52 Z"/>
+<path class="s" d="M100,52 C150,50 210,64 250,92"/>
+<path class="q" d="M250,92 C275,112 300,140 318,172"/>
+<path class="s" d="M318,172 C280,176 230,170 190,150"/>
+<path class="q" d="M190,150 C160,122 124,86 100,52"/>
+<path class="s" d="M172.4,59.2 L185,62.4 M178.9,57.3 L185,62.4 M177.2,64 L185,62.4 M260.1,170.8 L249.4,169.1 M256,173.7 L249.4,169.1 M257.1,166.8 L249.4,169.1"/>
+<path class="q" d="M283.8,124.3 L289.4,130.8 M287.4,123 L289.4,130.8 M282,127.6 L289.4,130.8 M146.5,107.3 L139,99.2 M141.4,106.9 L139,99.2 M146.5,102.1 L139,99.2"/>
+<g class="a-cy"><circle class="p" cx="0" cy="0" r="5"/></g>
+<text class="t" x="176" y="43" text-anchor="middle">hot</text>
+<text class="t" x="254" y="196" text-anchor="middle">cold</text>
+<text class="t" x="208" y="124" text-anchor="middle">work</text>
+</svg>

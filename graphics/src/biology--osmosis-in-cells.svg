@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="biology--osmosis-in-cells" data-discipline="biology" data-tags="osmosis,tonicity,water,diffusion,membrane,hypotonic,hypertonic">
+<title>Osmosis in cells</title>
+<desc>Water crosses the membrane toward the saltier side: a cell in dilute water swells, while one in salty water loses water and shrinks.</desc>
+<style>
+.a-swell{transform-box:view-box;transform-origin:105px 112px;animation:a-swell 10s ease-in-out infinite}
+.a-shrink{transform-box:view-box;transform-origin:295px 112px;animation:a-shrink 10s ease-in-out infinite}
+@keyframes a-swell{0%,5%{transform:scale(.86)}85%,100%{transform:scale(1.16)}}
+@keyframes a-shrink{0%,5%{transform:scale(1.14)}85%,100%{transform:scale(.84)}}
+.a-w0{animation:a-wf0 5s linear infinite;animation-delay:0s}
+@keyframes a-wf0{0%{transform:translate(0,0);opacity:0}15%{opacity:1}85%{opacity:1}100%{transform:translate(26.3px,9.6px);opacity:0}}
+.a-w1{animation:a-wf1 5s linear infinite;animation-delay:-1.7s}
+@keyframes a-wf1{0%{transform:translate(0,0);opacity:0}15%{opacity:1}85%{opacity:1}100%{transform:translate(-21.4px,18px);opacity:0}}
+.a-w2{animation:a-wf2 5s linear infinite;animation-delay:-3.3s}
+@keyframes a-wf2{0%{transform:translate(0,0);opacity:0}15%{opacity:1}85%{opacity:1}100%{transform:translate(-9.6px,-26.3px);opacity:0}}
+.a-w3{animation:a-wf3 5s linear infinite;animation-delay:0s}
+@keyframes a-wf3{0%{transform:translate(0,0);opacity:0}15%{opacity:1}85%{opacity:1}100%{transform:translate(-34.6px,20px);opacity:0}}
+.a-w4{animation:a-wf4 5s linear infinite;animation-delay:-1.7s}
+@keyframes a-wf4{0%{transform:translate(0,0);opacity:0}15%{opacity:1}85%{opacity:1}100%{transform:translate(-6.9px,-39.4px);opacity:0}}
+.a-w5{animation:a-wf5 5s linear infinite;animation-delay:-3.3s}
+@keyframes a-wf5{0%{transform:translate(0,0);opacity:0}15%{opacity:1}85%{opacity:1}100%{transform:translate(37.6px,13.7px);opacity:0}}
+</style>
+<rect class="f" x="25" y="30" width="160" height="160" rx="12"/>
+<rect class="f" x="215" y="30" width="160" height="160" rx="12"/>
+<path class="k f" d="M69,112a36,36 0 1 0 72,0a36,36 0 1 0 -72,0"/>
+<path class="k f" d="M259,112a36,36 0 1 0 72,0a36,36 0 1 0 -72,0"/>
+<g class="a-swell">
+<circle class="w" cx="105" cy="112" r="36"/>
+<circle class="s" cx="105" cy="112" r="36"/>
+<circle class="f hair" cx="105" cy="112" r="13"/>
+<path class="pq" d="M89.1,100a1.9,1.9 0 1 0 3.8,0a1.9,1.9 0 1 0 -3.8,0M111.1,94a1.9,1.9 0 1 0 3.8,0a1.9,1.9 0 1 0 -3.8,0M81.1,116a1.9,1.9 0 1 0 3.8,0a1.9,1.9 0 1 0 -3.8,0M119.1,114a1.9,1.9 0 1 0 3.8,0a1.9,1.9 0 1 0 -3.8,0M99.1,124a1.9,1.9 0 1 0 3.8,0a1.9,1.9 0 1 0 -3.8,0M123.1,98a1.9,1.9 0 1 0 3.8,0a1.9,1.9 0 1 0 -3.8,0M91.1,134a1.9,1.9 0 1 0 3.8,0a1.9,1.9 0 1 0 -3.8,0M111.1,134a1.9,1.9 0 1 0 3.8,0a1.9,1.9 0 1 0 -3.8,0M79.1,104a1.9,1.9 0 1 0 3.8,0a1.9,1.9 0 1 0 -3.8,0M105.1,108a1.9,1.9 0 1 0 3.8,0a1.9,1.9 0 1 0 -3.8,0"/>
+</g>
+<g class="a-shrink">
+<circle class="w" cx="295" cy="112" r="36"/>
+<circle class="s" cx="295" cy="112" r="36"/>
+<circle class="f hair" cx="295" cy="112" r="13"/>
+<path class="pq" d="M285.1,106a1.9,1.9 0 1 0 3.8,0a1.9,1.9 0 1 0 -3.8,0M303.1,120a1.9,1.9 0 1 0 3.8,0a1.9,1.9 0 1 0 -3.8,0"/>
+</g>
+<path class="pq" d="M51.1,64a1.9,1.9 0 1 0 3.8,0a1.9,1.9 0 1 0 -3.8,0M163.1,82a1.9,1.9 0 1 0 3.8,0a1.9,1.9 0 1 0 -3.8,0M43.1,162a1.9,1.9 0 1 0 3.8,0a1.9,1.9 0 1 0 -3.8,0M159.1,168a1.9,1.9 0 1 0 3.8,0a1.9,1.9 0 1 0 -3.8,0M231.1,72a1.9,1.9 0 1 0 3.8,0a1.9,1.9 0 1 0 -3.8,0M245.1,100a1.9,1.9 0 1 0 3.8,0a1.9,1.9 0 1 0 -3.8,0M227.1,134a1.9,1.9 0 1 0 3.8,0a1.9,1.9 0 1 0 -3.8,0M253.1,164a1.9,1.9 0 1 0 3.8,0a1.9,1.9 0 1 0 -3.8,0M275.1,54a1.9,1.9 0 1 0 3.8,0a1.9,1.9 0 1 0 -3.8,0M307.1,50a1.9,1.9 0 1 0 3.8,0a1.9,1.9 0 1 0 -3.8,0M341.1,60a1.9,1.9 0 1 0 3.8,0a1.9,1.9 0 1 0 -3.8,0M357.1,94a1.9,1.9 0 1 0 3.8,0a1.9,1.9 0 1 0 -3.8,0M351.1,134a1.9,1.9 0 1 0 3.8,0a1.9,1.9 0 1 0 -3.8,0M333.1,170a1.9,1.9 0 1 0 3.8,0a1.9,1.9 0 1 0 -3.8,0M293.1,176a1.9,1.9 0 1 0 3.8,0a1.9,1.9 0 1 0 -3.8,0M267.1,152a1.9,1.9 0 1 0 3.8,0a1.9,1.9 0 1 0 -3.8,0M323.1,72a1.9,1.9 0 1 0 3.8,0a1.9,1.9 0 1 0 -3.8,0"/>
+<g class="a-w0"><circle class="w" cx="46.7" cy="90.8" r="3.2"/><circle class="s hair" cx="46.7" cy="90.8" r="3.2"/></g>
+<g class="a-w1"><circle class="w" cx="152.5" cy="72.1" r="3.2"/><circle class="s hair" cx="152.5" cy="72.1" r="3.2"/></g>
+<g class="a-w2"><circle class="w" cx="126.2" cy="170.3" r="3.2"/><circle class="s hair" cx="126.2" cy="170.3" r="3.2"/></g>
+<g class="a-w3"><circle class="w" cx="277.7" cy="122" r="3.2"/><circle class="s hair" cx="277.7" cy="122" r="3.2"/></g>
+<g class="a-w4"><circle class="w" cx="291.5" cy="92.3" r="3.2"/><circle class="s hair" cx="291.5" cy="92.3" r="3.2"/></g>
+<g class="a-w5"><circle class="w" cx="313.8" cy="118.8" r="3.2"/><circle class="s hair" cx="313.8" cy="118.8" r="3.2"/></g>
+<text class="t" x="105" y="214" text-anchor="middle">dilute outside: swells</text>
+<text class="t" x="295" y="214" text-anchor="middle">salty outside: shrinks</text>
+</svg>

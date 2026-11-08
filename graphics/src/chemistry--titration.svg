@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="chemistry--titration" data-discipline="chemistry" data-tags="titration,acid-base,equivalence-point,burette,ph,neutralisation">
+<title>Acid–base titration</title>
+<desc>Base drips from a burette into acid in a flask while the pH curve climbs slowly, then leaps at the equivalence point where the two exactly cancel.</desc>
+<style>
+.a-drop{animation:a-drop 2s ease-in infinite}
+@keyframes a-drop{0%{transform:translateY(-4px);opacity:0}12%{opacity:1}85%{transform:translateY(42px);opacity:1}100%{transform:translateY(46px);opacity:0}}
+.a-dot{offset-path:path("M196,180 C235,178 268,172 282,150 C288,140 291,100 294,80 C298,64 320,56 372,54");offset-rotate:0deg;animation:a-trav 10s linear infinite}
+@keyframes a-trav{0%{offset-distance:0%;opacity:0}6%{opacity:1}88%{opacity:1}95%,100%{offset-distance:100%;opacity:0}}
+</style>
+<path class="f" d="M190,30 V206 H376"/>
+<path class="w" d="M93,70 H107 V122 H93Z"/>
+<path class="s" d="M92,26 V122 L100,140 L108,122 V26"/>
+<path class="f hair" d="M92,40 h5 M92,52 h5 M92,64 h5 M92,76 h5 M92,88 h5 M92,100 h5"/>
+<path class="s" d="M88,26 H112"/>
+<path class="w" d="M76,190 H124 L137,206 H63Z"/>
+<path class="s" d="M90,152 V172 L62,206 Q60,212 67,212 H133 Q140,212 138,206 L110,172 V152 M86,152 H114"/>
+<path class="s" d="M76,190 H124"/>
+<g class="a-drop"><circle class="p" cx="100" cy="146" r="2.6"/></g>
+<path class="k f" d="M287,206 V118 H190"/>
+<path class="s" d="M196,180 C235,178 268,172 282,150 C288,140 291,100 294,80 C298,64 320,56 372,54"/>
+<g class="a-dot"><circle class="p" cx="0" cy="0" r="4"/></g>
+<text class="t" x="276" y="104" text-anchor="end">equivalence</text>
+<text class="t" x="206" y="40" text-anchor="start">pH</text>
+<text class="t" x="283" y="226" text-anchor="middle">base added</text>
+</svg>

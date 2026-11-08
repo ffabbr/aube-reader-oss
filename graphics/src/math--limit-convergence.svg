@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="math--limit-convergence" data-discipline="math" data-tags="limit,convergence,sequence,epsilon,calculus,infinity">
+<title>Sequence converging to a limit</title>
+<desc>Terms of a sequence zigzag in toward a dashed limit L; as the epsilon band around L narrows, all later terms still fall inside it.</desc>
+<style>
+.a-epsw{transform-box:view-box;transform-origin:0px 120px;animation:a-epsw 5s ease-in-out infinite alternate;}
+@keyframes a-epsw{from{transform:scaleY(1)}to{transform:scaleY(0.43)}}
+.a-ephi{transform-box:view-box;transform-origin:0px 0px;animation:a-ephi 5s ease-in-out infinite alternate;}
+@keyframes a-ephi{from{transform:translateY(0px)}to{transform:translateY(8px)}}
+.a-eplo{transform-box:view-box;transform-origin:0px 0px;animation:a-eplo 5s ease-in-out infinite alternate;}
+@keyframes a-eplo{from{transform:translateY(0px)}to{transform:translateY(-8px)}}
+</style>
+<g class="a-epsw"><rect class="w" x="40" y="106" width="320" height="28"/></g>
+<g class="a-ephi"><path class="k f" d="M40,106 H360"/></g>
+<g class="a-eplo"><path class="k f" d="M40,134 H360"/></g>
+<path class="k s" d="M40,120 H360"/>
+<path class="q hair" d="M62,40 L84,177.6 L106,78.5 L128,149.9 L150,98.5 L172,135.5 L194,108.9 L216,128 L238,114.2 L260,124.2 L282,117 L304,122.2 L326,118.4 L348,121.1"/>
+<circle class="p" cx="62" cy="40" r="3.6"/>
+<circle class="p" cx="84" cy="177.6" r="3.6"/>
+<circle class="p" cx="106" cy="78.5" r="3.6"/>
+<circle class="p" cx="128" cy="149.9" r="3.6"/>
+<circle class="p" cx="150" cy="98.5" r="3.6"/>
+<circle class="p" cx="172" cy="135.5" r="3.6"/>
+<circle class="p" cx="194" cy="108.9" r="3.6"/>
+<circle class="p" cx="216" cy="128" r="3.6"/>
+<circle class="p" cx="238" cy="114.2" r="3.6"/>
+<circle class="p" cx="260" cy="124.2" r="3.6"/>
+<circle class="p" cx="282" cy="117" r="3.6"/>
+<circle class="p" cx="304" cy="122.2" r="3.6"/>
+<circle class="p" cx="326" cy="118.4" r="3.6"/>
+<circle class="p" cx="348" cy="121.1" r="3.6"/>
+<text class="t" x="368" y="125">L</text>
+<text class="t" x="368" y="102">ε</text>
+<text class="t" x="348" y="214" text-anchor="end">n → ∞</text>
+</svg>

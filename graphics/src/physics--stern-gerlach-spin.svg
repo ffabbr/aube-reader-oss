@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="physics--stern-gerlach-spin" data-discipline="physics" data-tags="quantum,spin,stern-gerlach,magnetic-field,quantisation">
+<title>Stern-Gerlach spin experiment</title>
+<desc>Silver atoms pass through an uneven magnetic field and land in just two spots, not a smear: spin along an axis is quantised into up and down.</desc>
+<style>
+.a-atom1{offset-path:path("M54,120 H128 C170,120 190,104 222,96 L300,76");animation:a-atom 5s linear infinite}
+.a-atom2{offset-path:path("M54,120 H128 C170,120 190,136 222,144 L300,164");animation:a-atom 5s linear infinite}
+.a-atom2{animation-delay:-2.5s}
+@keyframes a-atom{0%{offset-distance:0%;opacity:0}6%{opacity:1}94%{opacity:1}100%{offset-distance:100%;opacity:0}}
+</style>
+<rect class="w" x="26" y="104" width="28" height="32"/>
+<rect class="q" x="26" y="104" width="28" height="32"/>
+<path class="s bold" d="M128,28 V66 L175,96 L222,66 V28 Z"/>
+<path class="s bold" d="M128,212 V150 Q175,186 222,150 V212 Z"/>
+<path class="f" d="M300,40 V200"/>
+<path class="k f" d="M222,120 H300"/>
+<path class="s" d="M54,120 H128 C170,120 190,104 222,96 L300,76"/>
+<path class="s" d="M54,120 H128 C170,120 190,136 222,144 L300,164"/>
+<circle class="p" cx="300" cy="76" r="4.5"/>
+<circle class="p" cx="300" cy="164" r="4.5"/>
+<g class="a-atom1"><circle class="pq" cx="0" cy="0" r="3.4"/></g>
+<g class="a-atom2"><circle class="pq" cx="0" cy="0" r="3.4"/></g>
+<text class="t" x="175" y="54" text-anchor="middle">N</text>
+<text class="t" x="175" y="196" text-anchor="middle">S</text>
+<text class="t" x="374" y="124" text-anchor="end">two spots</text>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="technology--transistor-switch" data-discipline="technology" data-tags="transistor,mosfet,switch,semiconductor,gate,channel,electronics,logic">
+<title>Transistor as a Switch</title>
+<desc>A MOSFET in cross-section: charge on the gate draws a conducting channel between source and drain so electrons flow; remove it and the channel closes, the on and off of every chip.</desc>
+<style>
+.a-on{animation:a-on 5s ease-in-out infinite}
+@keyframes a-on{0%,12%{opacity:0}22%,68%{opacity:1}78%,100%{opacity:0}}
+.a-gate{animation:a-gate 5s ease-in-out infinite}
+@keyframes a-gate{0%,12%{transform:translateY(0)}22%,68%{transform:translateY(-3px)}78%,100%{transform:translateY(0)}}
+.a-el{offset-path:path("M100,46 V106 H300 V46");offset-rotate:0deg;animation:a-el 2.5s linear infinite}
+.a-el1{animation-delay:-.5s}.a-el2{animation-delay:-1s}.a-el3{animation-delay:-1.5s}.a-el4{animation-delay:-2s}
+@keyframes a-el{from{offset-distance:0%}to{offset-distance:100%}}
+</style>
+<rect class="w" x="40" y="100" width="320" height="100"/>
+<path class="s" d="M40,100 H150 M250,100 H360 M360,100 V200 H40 V100"/>
+<path class="w" d="M60,100 V122 Q60,140 78,140 H132 Q150,140 150,122 V100 Z"/>
+<path class="w" d="M250,100 V122 Q250,140 268,140 H322 Q340,140 340,122 V100 Z"/>
+<path class="q" d="M60,100 V122 Q60,140 78,140 H132 Q150,140 150,122 V100 Z"/>
+<path class="q" d="M250,100 V122 Q250,140 268,140 H322 Q340,140 340,122 V100 Z"/>
+<path class="f" d="M92.6,170 a2.6,2.6 0 1 0 -5.2,0 a2.6,2.6 0 1 0 5.2,0Z M152.6,182 a2.6,2.6 0 1 0 -5.2,0 a2.6,2.6 0 1 0 5.2,0Z M207.6,166 a2.6,2.6 0 1 0 -5.2,0 a2.6,2.6 0 1 0 5.2,0Z M257.6,184 a2.6,2.6 0 1 0 -5.2,0 a2.6,2.6 0 1 0 5.2,0Z M317.6,168 a2.6,2.6 0 1 0 -5.2,0 a2.6,2.6 0 1 0 5.2,0Z M122.6,158 a2.6,2.6 0 1 0 -5.2,0 a2.6,2.6 0 1 0 5.2,0Z"/>
+<rect class="q" x="142" y="93" width="116" height="7"/>
+<path class="s" d="M100,40 V100 M300,40 V100"/>
+<path class="s bold" d="M82,100 H118 M282,100 H318"/>
+<g class="a-gate">
+<rect class="w" x="150" y="66" width="100" height="24"/><rect class="s" x="150" y="66" width="100" height="24"/>
+<path class="s" d="M200,40 V66"/>
+<g class="a-on"><path class="s" d="M170,78 h10 M175,73 v10 M195,78 h10 M200,73 v10 M220,78 h10 M225,73 v10"/></g>
+</g>
+<g class="a-on">
+<path class="k s" d="M150,112 H250"/>
+<g class="a-el"><circle class="p" r="3"/></g><g class="a-el a-el1"><circle class="p" r="3"/></g><g class="a-el a-el2"><circle class="p" r="3"/></g><g class="a-el a-el3"><circle class="p" r="3"/></g><g class="a-el a-el4"><circle class="p" r="3"/></g>
+</g>
+<text class="t" x="100" y="32" text-anchor="middle">source</text>
+<text class="t" x="200" y="32" text-anchor="middle">gate</text>
+<text class="t" x="300" y="32" text-anchor="middle">drain</text>
+</svg>

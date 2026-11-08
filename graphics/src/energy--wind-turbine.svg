@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="energy--wind-turbine" data-discipline="energy" data-tags="wind,turbine,rotor,renewable,power,kinetic-energy,generator">
+<title>Wind Turbine</title>
+<desc>Moving air turns a three-bladed rotor on a tower; the power captured grows with the swept area and with the cube of the wind speed.</desc>
+<style>
+.a-rotor{transform-box:view-box;transform-origin:200px 78px;animation:a-rot 5s linear infinite}
+@keyframes a-rot{to{transform:rotate(120deg)}}
+.a-wind{animation:a-wind 2.5s linear infinite;opacity:0}
+.a-wind2{animation:a-wind 2.5s linear infinite;animation-delay:-1.25s;opacity:0}
+@keyframes a-wind{0%{opacity:0;transform:translateX(-10px)}30%,60%{opacity:1}100%{opacity:0;transform:translateX(30px)}}
+</style>
+<path class="f" d="M30,206 Q120,198 200,206 T370,206"/>
+<path class="k f" d="M135,78 a65,65 0 1 0 130,0 a65,65 0 1 0 -130,0Z"/>
+<path class="w" d="M196,86 L204,86 L208,206 L192,206 Z"/>
+<path class="s" d="M196,86 L192,206 M204,86 L208,206"/>
+<path class="q" d="M184,206 H216"/>
+<g class="a-rotor">
+<path class="w" d="M197,72 C193.5,60 195,47 199,16 L201.2,16 C203.2,43.9 203.6,64 203,72 Z"/>
+<path class="s" d="M197,72 C193.5,60 195,47 199,16 L201.2,16 C203.2,43.9 203.6,64 203,72 Z"/>
+<path class="w" d="M206.7,78.4 C218.8,81.4 229.3,89.2 254.2,108.1 L253.1,110 C227.9,97.8 210.3,88.1 203.7,83.6 Z"/>
+<path class="s" d="M206.7,78.4 C218.8,81.4 229.3,89.2 254.2,108.1 L253.1,110 C227.9,97.8 210.3,88.1 203.7,83.6 Z"/>
+<path class="w" d="M196.3,83.6 C187.7,92.6 175.7,97.8 146.8,109.9 L145.7,108 C168.9,92.3 186.1,81.9 193.3,78.4 Z"/>
+<path class="s" d="M196.3,83.6 C187.7,92.6 175.7,97.8 146.8,109.9 L145.7,108 C168.9,92.3 186.1,81.9 193.3,78.4 Z"/>
+</g>
+<circle class="w" cx="200" cy="78" r="8"/>
+<circle class="s" cx="200" cy="78" r="8"/>
+<circle class="p" cx="200" cy="78" r="2.6"/>
+<g class="a-wind">
+<path class="f" d="M40,52 H84 M52,78 H100 M36,104 H76"/>
+</g>
+<g class="a-wind2">
+<path class="f" d="M60,66 H98 M44,92 H92 M58,120 H100"/>
+</g>
+<text class="t" x="296" y="122" text-anchor="start">P ∝ v³</text>
+<text class="t" x="296" y="140" text-anchor="start">swept area A</text>
+</svg>

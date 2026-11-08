@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="earth--water-cycle" data-discipline="earth" data-tags="water-cycle,evaporation,condensation,precipitation,runoff,hydrology,climate">
+<title>The water cycle</title>
+<desc>Sun-warmed sea water evaporates, condenses into clouds, falls as rain on the mountains and runs back to the sea in rivers: water in an endless loop.</desc>
+<style>
+.a-vap{animation:a-vap 2s linear infinite}
+@keyframes a-vap{0%{transform:translateY(8px);opacity:0}30%{opacity:1}100%{transform:translateY(-14px);opacity:0}}
+.a-d1{animation-delay:-.7s}.a-d2{animation-delay:-1.4s}
+.a-rain{animation:a-rain 1s linear infinite}
+@keyframes a-rain{0%{transform:translate(0,0);opacity:0}25%{opacity:1}100%{transform:translate(-4px,14px);opacity:0}}
+.a-d3{animation-delay:-.5s}
+</style>
+<path class="w" d="M20,170 H190 V204 H20 Z"/>
+<path class="w" d="M190,170 C218,168 238,150 262,132 L296,112 L322,134 C340,150 360,166 380,170 V204 H190 Z"/>
+<path class="s" d="M20,170 q9,-3 18,0 t18,0 t18,0 t18,0 t18,0 t18,0 t18,0 t18,0 t18,0 "/>
+<path class="s" d="M190,170 C218,168 238,150 262,132 L296,112 L322,134 C340,150 360,166 380,170"/>
+<path class="q" d="M284,122 C272,134 262,140 250,148 C236,158 222,162 206,166 L192,168"/>
+<circle class="w" cx="56" cy="52" r="14"/>
+<circle class="s" cx="56" cy="52" r="14"/>
+<path class="q" d="M56,28 v6 M56,70 v6 M32,52 h6 M74,52 h6 M39,35 l4,4 M73,35 l-4,4 M39,69 l4,-4 M73,69 l-4,-4"/>
+<path class="w" d="M224,84 C208,84 206,62 224,60 C224,40 254,38 262,54 C270,40 300,42 302,60 C318,58 326,84 308,84 Z"/>
+<path class="s" d="M224,84 C208,84 206,62 224,60 C224,40 254,38 262,54 C270,40 300,42 302,60 C318,58 326,84 308,84 Z"/>
+<g class="a-vap"><path class="k q" d="M80,164 q-5,-7 0,-14 t0,-14 t0,-14"/></g>
+<g class="a-vap a-d1"><path class="k q" d="M112,164 q-5,-7 0,-14 t0,-14 t0,-14"/></g>
+<g class="a-vap a-d2"><path class="k q" d="M144,164 q-5,-7 0,-14 t0,-14 t0,-14"/></g>
+<path class="k q" d="M158,112 C180,106 198,94 208,82"/><path class="q" d="M209.2,86.5 L210,79.5 L203.7,82.6"/>
+<g class="a-rain"><path class="q" d="M240,92 l-2.5,9 M262,92 l-2.5,9 M284,92 l-2.5,9 M306,92 l-2.5,9"/></g>
+<g class="a-rain a-d3"><path class="q" d="M251,92 l-2.5,9 M273,92 l-2.5,9 M295,92 l-2.5,9 M317,92 l-2.5,9"/></g>
+<text class="t" x="108" y="100" text-anchor="middle">evaporation</text>
+<text class="t" x="262" y="26" text-anchor="middle">precipitation</text>
+<text class="t" x="228" y="192" text-anchor="middle">runoff</text>
+</svg>

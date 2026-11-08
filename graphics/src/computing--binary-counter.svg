@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="computing--binary-counter" data-discipline="computing" data-tags="binary,counting,bits,base-2,digital">
+<title>Binary counter</title>
+<desc>Four columns of dots worth 8, 4, 2 and 1 light up as a counter climbs from 0 to 15; each bit flips half as often as the one beside it.</desc>
+<style>
+.a-bit3{animation:a-bit3 10s ease-in-out infinite;opacity:0}
+@keyframes a-bit3{0%{opacity:0}48%{opacity:0}48.8%{opacity:1}100%{opacity:1}}
+.a-bit2{animation:a-bit2 10s ease-in-out infinite;opacity:0}
+@keyframes a-bit2{0%{opacity:0}25.6%{opacity:0}26.4%{opacity:1}48%{opacity:1}48.8%{opacity:0}70.4%{opacity:0}71.2%{opacity:1}100%{opacity:1}}
+.a-bit1{animation:a-bit1 10s ease-in-out infinite;opacity:0}
+@keyframes a-bit1{0%{opacity:0}14.4%{opacity:0}15.2%{opacity:1}25.6%{opacity:1}26.4%{opacity:0}36.8%{opacity:0}37.6%{opacity:1}48%{opacity:1}48.8%{opacity:0}59.2%{opacity:0}60%{opacity:1}70.4%{opacity:1}71.2%{opacity:0}81.6%{opacity:0}82.4%{opacity:1}100%{opacity:1}}
+.a-bit0{animation:a-bit0 10s ease-in-out infinite;opacity:0}
+@keyframes a-bit0{0%{opacity:0}8.8%{opacity:0}9.6%{opacity:1}14.4%{opacity:1}15.2%{opacity:0}20%{opacity:0}20.8%{opacity:1}25.6%{opacity:1}26.4%{opacity:0}31.2%{opacity:0}32%{opacity:1}36.8%{opacity:1}37.6%{opacity:0}42.4%{opacity:0}43.2%{opacity:1}48%{opacity:1}48.8%{opacity:0}53.6%{opacity:0}54.4%{opacity:1}59.2%{opacity:1}60%{opacity:0}64.8%{opacity:0}65.6%{opacity:1}70.4%{opacity:1}71.2%{opacity:0}76%{opacity:0}76.8%{opacity:1}81.6%{opacity:1}82.4%{opacity:0}87.2%{opacity:0}88%{opacity:1}100%{opacity:1}}
+</style>
+<path class="f" d="M70,194 H330"/>
+<path class="q" d="M103,176 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0 M103,158 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0 M103,140 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0 M103,122 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0 M103,104 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0 M103,86 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0 M103,68 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0 M103,50 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0 M163,176 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0 M163,158 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0 M163,140 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0 M163,122 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0 M223,176 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0 M223,158 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0 M283,176 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0"/>
+<g class="a-bit a-bit3"><path class="p" d="M103,176 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0  M103,158 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0  M103,140 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0  M103,122 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0  M103,104 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0  M103,86 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0  M103,68 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0  M103,50 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0"/></g>
+<g class="a-bit a-bit2"><path class="p" d="M163,176 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0  M163,158 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0  M163,140 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0  M163,122 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0"/></g>
+<g class="a-bit a-bit1"><path class="p" d="M223,176 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0  M223,158 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0"/></g>
+<g class="a-bit a-bit0"><path class="p" d="M283,176 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0"/></g>
+<text class="t" x="200" y="216" text-anchor="middle">each bit is worth twice the last</text>
+</svg>

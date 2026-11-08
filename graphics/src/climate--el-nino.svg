@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="climate--el-nino" data-discipline="climate" data-tags="el-nino,enso,pacific-ocean,thermocline,trade-winds,warm-pool,ocean-atmosphere">
+<title>El Niño</title>
+<desc>A slice across the Pacific: the trade winds hold warm water and its rain clouds in the west; when they slacken, the warm pool sloshes east and the thermocline goes flat.</desc>
+<style>
+.a-pool{transform:translateX(106px);animation:a-pool 10s ease-in-out infinite}
+@keyframes a-pool{0%,44%{transform:translateX(0)}76%,100%{transform:translateX(106px)}}
+.a-tilt{transform-box:view-box;transform-origin:200px 158px;transform:rotate(11.4deg);animation:a-tilt 10s ease-in-out infinite}
+@keyframes a-tilt{0%,44%{transform:rotate(0)}76%,100%{transform:rotate(11.4deg)}}
+.a-wind{opacity:.0;animation:a-wind 10s ease-in-out infinite}
+@keyframes a-wind{0%,40%{opacity:1}64%,100%{opacity:0}}
+.a-label{opacity:1;animation:a-label 10s ease-in-out infinite}
+@keyframes a-label{0%,58%{opacity:0}78%,100%{opacity:1}}
+.a-blow{animation:a-blow 2s ease-in-out infinite alternate}
+@keyframes a-blow{from{transform:translateX(5px)}to{transform:translateX(-5px)}}
+.a-rain{animation:a-rain 1s linear infinite}
+@keyframes a-rain{from{transform:translateY(0)}to{transform:translateY(10px)}}
+</style>
+<path class="w" d="M20,98 C34,92 48,98 60,112 C63,150 68,190 84,214 H20 Z"/>
+<path class="w" d="M340,112 L362,62 L380,80 V214 H324 C332,186 338,150 340,112 Z"/>
+<path class="f" d="M84,214 H324"/>
+<path class="s" d="M20,98 C34,92 48,98 60,112 C63,150 68,190 84,214"/>
+<path class="s" d="M380,80 L362,62 L340,112 C338,150 332,186 324,214"/>
+<path class="q" d="M60,112 H340"/>
+<g class="a-pool">
+<path class="w" d="M62,113 H216 C186,140 150,156 116,156 C92,156 72,140 62,113 Z"/>
+<path class="q hair" d="M62,113 C72,140 92,156 116,156 C150,156 186,140 216,113"/>
+</g>
+<g class="a-tilt"><path class="k s" d="M72,184 C150,168 250,148 328,132"/></g>
+<g class="a-pool">
+<path class="w" d="M104,78 c-11,0 -13,-14 -2,-16 c0,-12 16,-17 25,-9 c7,-9 23,-6 25,6 c10,0 12,19 1,19 Z"/>
+<path class="s" d="M104,78 c-11,0 -13,-14 -2,-16 c0,-12 16,-17 25,-9 c7,-9 23,-6 25,6 c10,0 12,19 1,19 Z"/>
+<g class="a-rain">
+<path class="k q" d="M112,82 V96 M128,82 V96 M144,82 V96"/>
+</g>
+<text class="t" x="132" y="134" text-anchor="middle">warm pool</text>
+</g>
+<g class="a-wind">
+<g class="a-blow">
+<path class="s" d="M322,96 H238"/>
+<path class="s" d="M243.7,99.1 L238,96 L243.7,92.9"/>
+</g>
+<g class="a-blow">
+<path class="s" d="M322,74 H254"/>
+<path class="s" d="M259.7,77.1 L254,74 L259.7,70.9"/>
+</g>
+<text class="t" x="288" y="60" text-anchor="middle">trade winds</text>
+</g>
+<g class="a-label"><text class="t" x="200" y="34" text-anchor="middle">El Niño</text></g>
+</svg>

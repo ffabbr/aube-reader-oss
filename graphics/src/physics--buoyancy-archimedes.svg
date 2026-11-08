@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="physics--buoyancy-archimedes" data-discipline="physics" data-tags="buoyancy,archimedes,fluid,density,displacement,floating,forces">
+<title>Buoyancy and Archimedes' principle</title>
+<desc>A block floats in water: the upward buoyant force equals the weight of the water the submerged part pushes aside, balancing the block's own weight.</desc>
+<style>
+.a-bob{animation:a-bob 2.5s cubic-bezier(.37,0,.63,1) infinite alternate;transform:translateY(-5px)}
+@keyframes a-bob{from{transform:translateY(-5px)}to{transform:translateY(5px)}}
+.a-rip{transform-box:view-box;transform-origin:170px 112px;animation:a-rip 5s linear infinite}
+.a-late{animation-delay:-2.5s}
+@keyframes a-rip{0%{transform:scale(.8);opacity:.9}100%{transform:scale(1.75);opacity:0}}
+</style>
+<rect class="w" x="70" y="112" width="200" height="92"/>
+<path class="q" d="M70,66 V204 H270 V66"/>
+<path class="q hair" d="M70,112 H270"/>
+<g class="a-rip"><ellipse class="f" cx="170" cy="112" rx="44" ry="3"/></g>
+<g class="a-rip a-late"><ellipse class="f" cx="170" cy="112" rx="44" ry="3"/></g>
+<g class="a-bob">
+<rect class="s" x="134" y="88" width="72" height="56" rx="3"/>
+<path class="s" d="M170,116 L170,60 M166.5,67.2 L170,60 M173.5,67.2 L170,60"/>
+<path class="s" d="M170,116 L170,174 M173.5,166.8 L170,174 M166.5,166.8 L170,174"/>
+<text class="t" x="183" y="68">Fb</text>
+<text class="t" x="183" y="172">W</text>
+</g>
+<text class="t" x="288" y="150">Fb = ρgV</text>
+</svg>

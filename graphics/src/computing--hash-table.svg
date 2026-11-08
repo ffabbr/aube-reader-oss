@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="computing--hash-table" data-discipline="computing" data-tags="data-structure,hashing,lookup,buckets,key-value">
+<title>Hash table</title>
+<desc>Keys pass through a hash function that scatters each one to a bucket in an array; the dots follow their key to its slot, giving constant-time lookup.</desc>
+<style>
+.a-d0{animation:a-d0 10s ease-in-out infinite;opacity:0}
+@keyframes a-d0{0%{opacity:0;transform:translate(0px,0px)}39.9%{opacity:0;transform:translate(0px,0px)}40%{opacity:1;transform:translate(0px,0px)}45%{opacity:1;transform:translate(99px,44px)}46.5%{opacity:1;transform:translate(99px,44px)}52%{opacity:1;transform:translate(224px,80px)}100%{opacity:1;transform:translate(224px,80px)}}
+.a-d1{animation:a-d1 10s ease-in-out infinite;opacity:0}
+@keyframes a-d1{0%{opacity:0;transform:translate(0px,0px)}53.9%{opacity:0;transform:translate(0px,0px)}54%{opacity:1;transform:translate(0px,0px)}59%{opacity:1;transform:translate(99px,0px)}60.5%{opacity:1;transform:translate(99px,0px)}66%{opacity:1;transform:translate(224px,-36px)}100%{opacity:1;transform:translate(224px,-36px)}}
+.a-d2{animation:a-d2 10s ease-in-out infinite;opacity:0}
+@keyframes a-d2{0%{opacity:0;transform:translate(0px,0px)}67.9%{opacity:0;transform:translate(0px,0px)}68%{opacity:1;transform:translate(0px,0px)}73%{opacity:1;transform:translate(99px,-44px)}74.5%{opacity:1;transform:translate(99px,-44px)}80%{opacity:1;transform:translate(224px,16px)}100%{opacity:1;transform:translate(224px,16px)}}
+</style>
+<path class="w" d="M290,48 h60 v144 h-60 z"/>
+<path class="q" d="M290,48 h60 v144 h-60 z M290,72 h60 M290,96 h60 M290,120 h60 M290,144 h60 M290,168 h60"/>
+<rect class="w" x="40" y="63" width="56" height="26" rx="6"/>
+<rect class="w" x="40" y="107" width="56" height="26" rx="6"/>
+<rect class="w" x="40" y="151" width="56" height="26" rx="6"/>
+<rect class="s" x="40" y="63" width="56" height="26" rx="6"/>
+<rect class="s" x="40" y="107" width="56" height="26" rx="6"/>
+<rect class="s" x="40" y="151" width="56" height="26" rx="6"/>
+<path class="f" d="M96,76 L173.07,110.25 M96,120 L171,120 M96,164 L173.07,129.75 M215.29,107.18 L290,60 M217.44,111.5 L290,84 M218.81,116.99 L290,108 M218.81,123.01 L290,132 M217.44,128.5 L290,156 M215.29,132.82 L290,180"/>
+<circle class="w" cx="195" cy="120" r="24"/><circle class="s" cx="195" cy="120" r="24"/>
+<path class="s hair" d="M185,128 l7,-16 M196,128 l7,-16 M183,119 h26 M181,124 h26"/>
+<g class="a-dot a-d0"><circle class="p" cx="96" cy="76" r="5"/></g>
+<g class="a-dot a-d1"><circle class="p" cx="96" cy="120" r="5"/></g>
+<g class="a-dot a-d2"><circle class="p" cx="96" cy="164" r="5"/></g>
+<text class="t" x="68" y="214" text-anchor="middle">keys</text>
+<text class="t" x="195" y="214" text-anchor="middle">hash</text>
+<text class="t" x="320" y="214" text-anchor="middle">buckets</text>
+</svg>

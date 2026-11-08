@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="medicine--ecg-heartbeat" data-discipline="medicine" data-tags="ecg,electrocardiogram,heartbeat,qrs,cardiology,depolarisation">
+<title>ECG heartbeat</title>
+<desc>An electrocardiogram trace: the small P wave, the sharp QRS spike and the rounded T wave repeat with every beat as the heart depolarises and recovers.</desc>
+<style>
+.a-sweep{offset-path:path("M28,142L38,142Q50,120 62,142L69,142L72,149L77,50L82,166L86,142L94,141C102,139 106,123 112,123C118,123 121,141 130,142L142,142L152,142Q164,120 176,142L183,142L186,149L191,50L196,166L200,142L208,141C216,139 220,123 226,123C232,123 235,141 244,142L256,142L266,142Q278,120 290,142L297,142L300,149L305,50L310,166L314,142L322,141C330,139 334,123 340,123C346,123 349,141 358,142L370,142");offset-rotate:0deg;animation:a-along 5s linear infinite;}
+@keyframes a-along{0%{offset-distance:0%;opacity:0}8%{opacity:1}92%{opacity:1}100%{offset-distance:100%;opacity:0}}
+</style>
+<path class="k f hair" d="M48,44V204M105,44V204M162,44V204M219,44V204M276,44V204M333,44V204M28,64H372M28,104H372M28,184H372"/>
+<path class="s" d="M28,142L38,142Q50,120 62,142L69,142L72,149L77,50L82,166L86,142L94,141C102,139 106,123 112,123C118,123 121,141 130,142L142,142L152,142Q164,120 176,142L183,142L186,149L191,50L196,166L200,142L208,141C216,139 220,123 226,123C232,123 235,141 244,142L256,142L266,142Q278,120 290,142L297,142L300,149L305,50L310,166L314,142L322,141C330,139 334,123 340,123C346,123 349,141 358,142L370,142"/>
+<g class="a-sweep"><circle class="q" r="8"/><circle class="p" r="3.2"/></g>
+<text class="t" x="164" y="120" text-anchor="middle">P</text>
+<text class="t" x="191" y="40" text-anchor="middle">QRS</text>
+<text class="t" x="226" y="115" text-anchor="middle">T</text>
+</svg>

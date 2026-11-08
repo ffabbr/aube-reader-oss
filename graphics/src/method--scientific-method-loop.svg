@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="method--scientific-method-loop" data-discipline="method" data-tags="scientific-method,hypothesis,experiment,observation,iteration">
+<title>Scientific method loop</title>
+<desc>The scientific method as a closed loop: observe with the eye, guess with a dashed idea, test in the flask, then back to looking again, a token walking round and never arriving.</desc>
+<style>
+.a-tok{offset-path:path("M200,48 A118,74 0 1 1 200,196 A118,74 0 1 1 200,48");offset-rotate:0deg;animation:a-tok 5s linear infinite}
+@keyframes a-tok{from{offset-distance:0%}to{offset-distance:100%}}
+.a-look{animation:a-look 2.5s ease-in-out infinite alternate}
+@keyframes a-look{from{transform:translateX(-5px)}to{transform:translateX(5px)}}
+.a-bub{animation:a-bub 2s ease-out infinite}
+.a-bd1{animation-delay:-1s}
+@keyframes a-bub{0%{transform:translateY(0);opacity:0}15%{opacity:1}70%{opacity:1}100%{transform:translateY(-13px);opacity:0}}
+</style>
+<path class="q" d="M248,54.4 A118,74 0 0 1 316.2,134.8"/>
+<path class="q" d="M314.7,128 L316.2,134.8 L320.6,129.4"/>
+<path class="q" d="M275.8,178.7 A118,74 0 0 1 124.2,178.7"/>
+<path class="q" d="M131.2,178.8 L124.2,178.7 L128.4,184.2"/>
+<path class="q" d="M83.8,134.8 A118,74 0 0 1 152,54.4"/>
+<path class="q" d="M146.8,59.1 L152,54.4 L145.1,53.3"/>
+<path class="w" d="M177.0,48.0 Q200.0,29.0 223.0,48.0 Q200.0,67.0 177.0,48.0 Z"/>
+<path class="s" d="M177.0,48.0 Q200.0,29.0 223.0,48.0 Q200.0,67.0 177.0,48.0 Z"/>
+<g class="a-look"><circle class="s" cx="200.0" cy="48.0" r="7"/><circle class="p" cx="200.0" cy="48.0" r="3"/></g>
+<path class="w" d="M290.7,164 L283.2,177 Q282.2,180 286.2,180 H318.2 Q322.2,180 321.2,177 L313.7,164 Z"/>
+<path class="q hair" d="M290.7,164 H313.7"/>
+<path class="s" d="M297.2,137 V151 L283.2,177 Q282.2,180 286.2,180 H318.2 Q322.2,180 321.2,177 L307.2,151 V137"/>
+<path class="s" d="M294.2,137 H310.2"/>
+<g class="a-bub a-bd0"><circle class="q hair" cx="297.2" cy="175" r="2"/></g>
+<g class="a-bub a-bd1"><circle class="q hair" cx="306.2" cy="173" r="2"/></g>
+<path class="w" d="M90.8,172 C89.8,164 81.8,160 81.8,150 C81.8,141 89.8,135 97.8,135 C105.8,135 113.8,141 113.8,150 C113.8,160 105.8,164 104.8,172 Z"/>
+<path class="k s" d="M90.8,172 C89.8,164 81.8,160 81.8,150 C81.8,141 89.8,135 97.8,135 C105.8,135 113.8,141 113.8,150 C113.8,160 105.8,164 104.8,172"/>
+<path class="s" d="M90.8,172 H104.8 M91.8,176 H103.8 M94.8,180 H100.8"/>
+<g class="a-tok"><circle class="p" cx="0" cy="0" r="4"/></g>
+<text class="t" x="234" y="52" text-anchor="start">observe</text>
+<text class="t" x="302.2" y="197" text-anchor="middle">test</text>
+<text class="t" x="97.8" y="197" text-anchor="middle">guess</text>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="neuroscience--retina-vision" data-discipline="neuroscience" data-tags="retina,eye,lens,optics,vision,image-formation,photoreceptors">
+<title>Eye and retina</title>
+<desc>Light from an object is focused by the lens onto the retina, forming a small inverted image that photoreceptors turn into nerve signals.</desc>
+<style>
+.a-pa{offset-path:path("M45,90L193,98L339,151");offset-rotate:0deg;animation:a-along 2.5s linear infinite;}
+.a-pb{offset-path:path("M45,90L193,142L339,151");offset-rotate:0deg;animation:a-along 2.5s linear infinite;animation-delay:-1.25s;}
+.a-pn{offset-path:path("M349,134C358,140 366,148 378,152");offset-rotate:0deg;animation:a-along 1s linear infinite;}
+@keyframes a-along{0%{offset-distance:0%;opacity:0}8%{opacity:1}92%{opacity:1}100%{offset-distance:100%;opacity:0}}
+.a-glow{transform-box:view-box;transform-origin:339px 151px;animation:a-glow 2.5s ease-in-out infinite}
+@keyframes a-glow{0%,100%{transform:scale(.6);opacity:.2}50%{transform:scale(1.2);opacity:1}}
+</style>
+<path class="k f" d="M28,120H346"/>
+<path class="w" d="M183.3,76.4A90,90 0 1 1 183.3,163.6C157.3,149.6 157.3,90.4 183.3,76.4Z"/>
+<path class="s" d="M183.3,76.4A90,90 0 1 1 183.3,163.6C157.3,149.6 157.3,90.4 183.3,76.4Z"/>
+<path class="s" d="M352,128C360,134 368,142 380,146M345,141C353,147 362,155 378,160"/>
+<path class="q bold" d="M301.9,44.9A85,85 0 0 1 301.9,195.1"/>
+<path class="q" d="M186,62C190,74 192,82 193,92M186,178C190,166 192,158 193,148"/>
+<ellipse class="w" cx="193" cy="120" rx="9" ry="28"/>
+<ellipse class="s" cx="193" cy="120" rx="9" ry="28"/>
+<path class="s" d="M45,120V96"/>
+<polygon class="p" points="45,88 39.5,100 50.5,100"/>
+<path class="q hair" d="M45,90L193,98L339,151"/>
+<path class="q hair" d="M45,90L193,142L339,151"/>
+<path class="q hair" d="M45,90L339,151"/>
+<path class="s" d="M342,120L340,144"/>
+<polygon class="p" points="339,152 334,141 345,141.8"/>
+<g class="a-glow"><circle class="q" cx="339" cy="151" r="9"/></g>
+<g class="a-pa"><circle class="p" r="2.8"/></g>
+<g class="a-pb"><circle class="p" r="2.8"/></g>
+<g class="a-pn"><circle class="pq" r="2.2"/></g>
+<text class="t" x="222" y="84" text-anchor="middle">lens</text>
+<text class="t" x="300" y="66" text-anchor="middle">retina</text>
+<text class="t" x="322" y="226" text-anchor="middle">inverted image</text>
+</svg>
