@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="medicine--lung-gas-exchange" data-discipline="medicine" data-tags="lung,alveolus,gas-exchange,oxygen,carbon-dioxide,capillary,red-blood-cell">
+<title>Gas exchange in the lung</title>
+<desc>An air sac of the lung wrapped by a capillary: oxygen crosses the thin wall into passing red cells, which darken as they load, while carbon dioxide leaves.</desc>
+<style>
+.a-breath{transform-box:view-box;transform-origin:200px 20px;animation:a-breath 2.5s ease-in-out infinite alternate}
+@keyframes a-breath{from{transform:scale(.97)}to{transform:scale(1.015)}}
+.a-rbc{offset-path:path("M30,140C70,140 118.7,128.7 134.7,134.7A74.0,74.0 0 0 0 265.3,134.7C281.3,128.7 330,140 370,140");offset-rotate:auto;animation:a-rbc 5s linear infinite}
+.a-b2{animation-delay:-1.67s}.a-b3{animation-delay:-3.33s}
+@keyframes a-rbc{0%{offset-distance:0%;opacity:0}6%{opacity:1}94%{opacity:1}100%{offset-distance:100%;opacity:0}}
+.a-load{animation:a-load 5s linear infinite}.a-b2 .a-load{animation-delay:-1.67s}.a-b3 .a-load{animation-delay:-3.33s}
+@keyframes a-load{0%,42%{opacity:0}58%,100%{opacity:1}}
+.a-o{animation:a-o 2.5s ease-in infinite}.a-o2{animation-delay:-.8s}.a-o3{animation-delay:-1.6s}
+@keyframes a-o{0%{transform:translateY(0);opacity:0}20%{opacity:1}80%{opacity:1}100%{transform:translateY(34px);opacity:0}}
+.a-c{animation:a-c 2.5s ease-out infinite}.a-c2{animation-delay:-1.25s}
+@keyframes a-c{0%{transform:translateY(0);opacity:0}20%{opacity:1}80%{opacity:1}100%{transform:translateY(-36px);opacity:0}}
+</style>
+<path class="w" d="M30,152C70,152 110.7,133 126.7,139A83,83 0 0 0 273.3,139C289.3,133 330,152 370,152L370,128C330,128 273.4,124.5 257.4,130.5A65,65 0 0 1 142.6,130.5C126.6,124.5 70,128 30,128Z"/>
+<path class="q" d="M30,152C70,152 110.7,133 126.7,139A83,83 0 0 0 273.3,139C289.3,133 330,152 370,152"/>
+<path class="q" d="M30,128C70,128 126.6,124.5 142.6,130.5A65,65 0 0 0 257.4,130.5C273.4,124.5 330,128 370,128"/>
+<g class="a-breath"><path class="w" d="M191,20V46A17,17 0 0 0 160,48A22,22 0 0 0 145.4,88A56,56 0 0 0 254.6,88A22,22 0 0 0 240,48A17,17 0 0 0 209,46V20Z"/><path class="s" d="M191,20V46A17,17 0 0 0 160,48A22,22 0 0 0 145.4,88A56,56 0 0 0 254.6,88A22,22 0 0 0 240,48A17,17 0 0 0 209,46V20"/></g>
+<g class="a-rbc "><ellipse class="w" rx="9" ry="6"/><ellipse class="q" rx="9" ry="6"/><g class="a-load"><ellipse class="pq" rx="9" ry="6"/></g></g>
+<g class="a-rbc a-b2"><ellipse class="w" rx="9" ry="6"/><ellipse class="q" rx="9" ry="6"/><g class="a-load"><ellipse class="pq" rx="9" ry="6"/></g></g>
+<g class="a-rbc a-b3"><ellipse class="w" rx="9" ry="6"/><ellipse class="q" rx="9" ry="6"/><g class="a-load"><ellipse class="pq" rx="9" ry="6"/></g></g>
+<g class="a-o"><circle class="p" cx="196" cy="128" r="2.6"/></g>
+<g class="a-o a-o2"><circle class="p" cx="180" cy="124" r="2.6"/></g>
+<g class="a-o a-o3"><circle class="p" cx="212" cy="127" r="2.6"/></g>
+<g class="a-c"><circle class="s" cx="232" cy="164" r="3"/></g>
+<g class="a-c a-c2"><circle class="s" cx="164" cy="166" r="3"/></g>
+<text class="t" x="186" y="92" text-anchor="middle">O₂</text>
+<text class="t" x="226" y="106" text-anchor="middle">CO₂</text>
+<text class="t" x="44" y="170" text-anchor="start">capillary</text>
+</svg>

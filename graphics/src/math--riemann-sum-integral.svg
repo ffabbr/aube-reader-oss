@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="math--riemann-sum-integral" data-discipline="math" data-tags="integral,riemann-sum,area,calculus,approximation,limit">
+<title>Riemann sum approaching an integral</title>
+<desc>Rectangles under a curve are refined from 4 to 8 to 16 strips; their summed area closes in on the exact area, the definite integral of f.</desc>
+<style>
+.a-r1{animation:a-r1 10s linear infinite}
+.a-r2{animation:a-r2 10s linear infinite}
+.a-r3{animation:a-r3 10s linear infinite}
+.a-l1{animation:a-l1 10s linear infinite}
+.a-l2{animation:a-l2 10s linear infinite}
+.a-l3{animation:a-l3 10s linear infinite}
+@keyframes a-r1{0%,42%{opacity:1}47%,100%{opacity:0}}
+@keyframes a-r2{0%,42%{opacity:0}47%,64%{opacity:1}69%,100%{opacity:0}}
+@keyframes a-r3{0%,64%{opacity:0}69%,100%{opacity:1}}
+@keyframes a-l1{0%,41%{opacity:1}43%,100%{opacity:0}}
+@keyframes a-l2{0%,45%{opacity:0}47%,63%{opacity:1}65%,100%{opacity:0}}
+@keyframes a-l3{0%,67%{opacity:0}69%,100%{opacity:1}}
+</style>
+<path class="f" d="M40,192 H360"/>
+<path class="k f" d="M56,192 V158 M344,192 V158"/>
+<g class="a-r1"><path class="w" d="M56,192 V158 H128 V192 Z M128,192 V88.3 H200 V192 Z M200,192 V66 H272 V192 Z M272,192 V88.3 H344 V192 Z"/><path class="q hair" d="M56,192 V158 H128 V192 Z M128,192 V88.3 H200 V192 Z M200,192 V66 H272 V192 Z M272,192 V88.3 H344 V192 Z"/></g>
+<g class="a-r2"><path class="w" d="M56,192 V158 H92 V192 Z M92,192 V115.3 H128 V192 Z M128,192 V88.3 H164 V192 Z M164,192 V71.6 H200 V192 Z M200,192 V66 H236 V192 Z M236,192 V71.6 H272 V192 Z M272,192 V88.3 H308 V192 Z M308,192 V115.3 H344 V192 Z"/><path class="q hair" d="M56,192 V158 H92 V192 Z M92,192 V115.3 H128 V192 Z M128,192 V88.3 H164 V192 Z M164,192 V71.6 H200 V192 Z M200,192 V66 H236 V192 Z M236,192 V71.6 H272 V192 Z M272,192 V88.3 H308 V192 Z M308,192 V115.3 H344 V192 Z"/></g>
+<g class="a-r3"><path class="w" d="M56,192 V158 H74 V192 Z M74,192 V133.1 H92 V192 Z M92,192 V115.3 H110 V192 Z M110,192 V100.5 H128 V192 Z M128,192 V88.3 H146 V192 Z M146,192 V78.6 H164 V192 Z M164,192 V71.6 H182 V192 Z M182,192 V67.4 H200 V192 Z M200,192 V66 H218 V192 Z M218,192 V67.4 H236 V192 Z M236,192 V71.6 H254 V192 Z M254,192 V78.6 H272 V192 Z M272,192 V88.3 H290 V192 Z M290,192 V100.5 H308 V192 Z M308,192 V115.3 H326 V192 Z M326,192 V133.1 H344 V192 Z"/><path class="q hair" d="M56,192 V158 H74 V192 Z M74,192 V133.1 H92 V192 Z M92,192 V115.3 H110 V192 Z M110,192 V100.5 H128 V192 Z M128,192 V88.3 H146 V192 Z M146,192 V78.6 H164 V192 Z M164,192 V71.6 H182 V192 Z M182,192 V67.4 H200 V192 Z M200,192 V66 H218 V192 Z M218,192 V67.4 H236 V192 Z M236,192 V71.6 H254 V192 Z M254,192 V78.6 H272 V192 Z M272,192 V88.3 H290 V192 Z M290,192 V100.5 H308 V192 Z M308,192 V115.3 H326 V192 Z M326,192 V133.1 H344 V192 Z"/></g>
+<path class="s" d="M56,158 L60,150.5 L64,144.9 L68,140 L72,135.3 L76,131 L80,126.8 L84,122.8 L88,119 L92,115.3 L96,111.8 L100,108.4 L104,105.2 L108,102 L112,99 L116,96.1 L120,93.4 L124,90.8 L128,88.3 L132,85.9 L136,83.7 L140,81.6 L144,79.6 L148,77.7 L152,76 L156,74.4 L160,73 L164,71.6 L168,70.5 L172,69.4 L176,68.5 L180,67.7 L184,67.1 L188,66.6 L192,66.3 L196,66.1 L200,66 L204,66.1 L208,66.3 L212,66.6 L216,67.1 L220,67.7 L224,68.5 L228,69.4 L232,70.5 L236,71.6 L240,73 L244,74.4 L248,76 L252,77.7 L256,79.6 L260,81.6 L264,83.7 L268,85.9 L272,88.3 L276,90.8 L280,93.4 L284,96.1 L288,99 L292,102 L296,105.2 L300,108.4 L304,111.8 L308,115.3 L312,119 L316,122.8 L320,126.8 L324,131 L328,135.3 L332,140 L336,144.9 L340,150.5 L344,158"/>
+<g class="a-l1"><text class="t" x="200" y="218" text-anchor="middle">Σ f(xᵢ) Δx  ,  n = 4</text></g>
+<g class="a-l2"><text class="t" x="200" y="218" text-anchor="middle">n = 8</text></g>
+<g class="a-l3"><text class="t" x="200" y="218" text-anchor="middle">n = 16  →  ∫ f(x) dx</text></g>
+</svg>

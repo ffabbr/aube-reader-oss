@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="genetics--dna-replication" data-discipline="genetics" data-tags="dna,replication,replication-fork,helicase,polymerase,semi-conservative">
+<title>DNA replication fork</title>
+<desc>The parent duplex unzips at a fork; helicase opens it and polymerases build a new strand against each old template, so one duplex becomes two.</desc>
+<style>
+.a-poly-u{animation:a-pu 5s ease-in-out infinite alternate}
+.a-poly-d{animation:a-pd 5s ease-in-out infinite alternate}
+.a-ring{transform-box:view-box;transform-origin:180px 120px;animation:a-beat 2s ease-in-out infinite alternate}
+@keyframes a-pu{from{transform:translate(-4px,2px)}to{transform:translate(14px,-6px)}}
+@keyframes a-pd{from{transform:translate(-4px,-2px)}to{transform:translate(14px,6px)}}
+@keyframes a-beat{from{transform:scale(1)}to{transform:scale(2.2)}}
+</style>
+<path class="s" d="M40,111 H180"/>
+<path class="s" d="M40,129 H180"/>
+<path class="f hair" d="M50,111 V129 M63,111 V129 M76,111 V129 M89,111 V129 M102,111 V129 M115,111 V129 M128,111 V129 M141,111 V129 M154,111 V129 M167,111 V129"/>
+<path class="s" d="M180,111 C230,111 270,68 350,56"/>
+<path class="s" d="M180,129 C230,129 270,172 350,184"/>
+<path class="q" d="M252.6,101.8 C253.8,101.2 257.2,99.6 259.6,98.5 C262,97.4 264.4,96.3 266.8,95.2 C269.2,94.1 271.6,93 274.1,91.9 C276.5,90.8 279,89.7 281.5,88.6 C284.1,87.5 286.6,86.4 289.2,85.4 C291.9,84.3 294.5,83.3 297.2,82.3 C299.9,81.3 302.6,80.3 305.4,79.3 C308.2,78.4 311,77.4 313.9,76.5 C316.8,75.6 319.8,74.8 322.8,74 C325.8,73.1 328.9,72.4 332,71.6 C335.2,70.9 338.4,70.2 341.7,69.6 C345,69 350.1,68.1 351.8,67.9"/>
+<path class="q" d="M252.6,138.2 C253.8,138.8 257.2,140.4 259.6,141.5 C262,142.6 264.4,143.7 266.8,144.8 C269.2,145.9 271.6,147 274.1,148.1 C276.5,149.2 279,150.3 281.5,151.4 C284.1,152.5 286.6,153.6 289.2,154.6 C291.9,155.7 294.5,156.7 297.2,157.7 C299.9,158.7 302.6,159.7 305.4,160.7 C308.2,161.6 311,162.6 313.9,163.5 C316.8,164.4 319.8,165.2 322.8,166 C325.8,166.9 328.9,167.6 332,168.4 C335.2,169.1 338.4,169.8 341.7,170.4 C345,171 350.1,171.9 351.8,172.1"/>
+<path class="f hair" d="M254.5,87.6 L259.6,98.5 M254.5,152.4 L259.6,141.5 M269.2,80.9 L274.1,91.9 M269.2,159.1 L274.1,148.1 M284.7,74.3 L289.2,85.4 M284.7,165.7 L289.2,154.6 M301.5,68 L305.4,79.3 M301.5,172 L305.4,160.7 M319.7,62.4 L322.8,74 M319.7,177.6 L322.8,166 M339.4,57.8 L341.7,69.6 M339.4,182.2 L341.7,170.4"/>
+<path class="k q" d="M234.2,110.1 L235.7,109.4 L237.2,108.7 L238.7,108.1 L240.3,107.4 L241.8,106.7 L243.3,106"/>
+<path class="k q" d="M234.2,129.9 L235.7,130.6 L237.2,131.3 L238.7,131.9 L240.3,132.6 L241.8,133.3 L243.3,134"/>
+<circle class="w" cx="180" cy="120" r="10"/>
+<circle class="s" cx="180" cy="120" r="10"/>
+<g class="a-poly-u">
+<circle class="w" cx="246.6" cy="103.8" r="9"/>
+<circle class="s" cx="246.6" cy="103.8" r="9"/>
+</g>
+<g class="a-poly-d">
+<circle class="w" cx="246.6" cy="136.2" r="9"/>
+<circle class="s" cx="246.6" cy="136.2" r="9"/>
+</g>
+<g class="a-ring">
+<circle class="p" cx="180" cy="120" r="2.6"/>
+</g>
+<text class="t" x="60" y="154" text-anchor="start">parent DNA</text>
+<text class="t" x="296" y="36" text-anchor="end">new strand</text>
+<path class="f hair" d="M284,44 L301,75"/>
+<text class="t" x="180" y="160" text-anchor="middle">helicase</text>
+</svg>

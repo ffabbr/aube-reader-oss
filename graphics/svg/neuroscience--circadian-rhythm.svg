@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="neuroscience--circadian-rhythm" data-discipline="neuroscience" data-tags="circadian-rhythm,body-clock,sleep,melatonin,day-night,suprachiasmatic" role="img">
+ <title>Circadian rhythm</title>
+ <desc>A 24-hour clock of the body: the hand sweeps through day and night while core temperature, drawn as a dashed ring, swells by evening and sinks before dawn.</desc>
+ <style>
+:root{--ink:#110f0c;--quiet:#555350;--faint:#b8b6b2;--wash:#f5f3ef}
+@media (prefers-color-scheme:dark){:root{--ink:#e7e5e2;--quiet:#a3a19e;--faint:#524f4c;--wash:#252321}}
+svg{overflow:visible}
+.s,.q,.f{fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1;stroke-dashoffset:0}
+.s{stroke:var(--ink);stroke-width:1.5}
+.q{stroke:var(--quiet);stroke-width:1.3}
+.f{stroke:var(--faint);stroke-width:1.1}
+.hair{stroke-width:1!important}
+.bold{stroke-width:2.2!important}
+.k{fill:none;stroke-dasharray:5 5!important;stroke-linecap:round}
+.p{fill:var(--ink);stroke:none}
+.pq{fill:var(--quiet);stroke:none}
+.w{fill:var(--wash);stroke:none}
+.t{fill:var(--quiet);stroke:none;font:italic 13px ui-serif,"New York",Georgia,serif}
+.all{animation:out 10s linear infinite}
+@keyframes out{0%,90%{opacity:1}97%,99.9%{opacity:0}100%{opacity:1}}
+@keyframes dr0{0%,0.0%{stroke-dashoffset:1;opacity:0}0.1%{stroke-dashoffset:1;opacity:1}9%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd0{0%,0.0%{opacity:0}7%,100%{opacity:1}}
+@keyframes dr1{0%,2.2%{stroke-dashoffset:1;opacity:0}2.3%{stroke-dashoffset:1;opacity:1}11.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd1{0%,2.2%{opacity:0}9.2%,100%{opacity:1}}
+@keyframes dr2{0%,4.4%{stroke-dashoffset:1;opacity:0}4.5%{stroke-dashoffset:1;opacity:1}13.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd2{0%,4.4%{opacity:0}11.4%,100%{opacity:1}}
+@keyframes dr3{0%,6.6%{stroke-dashoffset:1;opacity:0}6.7%{stroke-dashoffset:1;opacity:1}15.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd3{0%,6.6%{opacity:0}13.6%,100%{opacity:1}}
+@keyframes dr4{0%,8.8%{stroke-dashoffset:1;opacity:0}8.9%{stroke-dashoffset:1;opacity:1}17.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd4{0%,8.8%{opacity:0}15.8%,100%{opacity:1}}
+@keyframes dr5{0%,11.0%{stroke-dashoffset:1;opacity:0}11.1%{stroke-dashoffset:1;opacity:1}20%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd5{0%,11.0%{opacity:0}18%,100%{opacity:1}}
+@keyframes dr6{0%,13.2%{stroke-dashoffset:1;opacity:0}13.3%{stroke-dashoffset:1;opacity:1}22.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd6{0%,13.2%{opacity:0}20.2%,100%{opacity:1}}
+@keyframes dr7{0%,15.4%{stroke-dashoffset:1;opacity:0}15.5%{stroke-dashoffset:1;opacity:1}24.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd7{0%,15.4%{opacity:0}22.4%,100%{opacity:1}}
+@keyframes dr8{0%,17.6%{stroke-dashoffset:1;opacity:0}17.7%{stroke-dashoffset:1;opacity:1}26.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd8{0%,17.6%{opacity:0}24.6%,100%{opacity:1}}
+@keyframes dr9{0%,19.8%{stroke-dashoffset:1;opacity:0}19.9%{stroke-dashoffset:1;opacity:1}28.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd9{0%,19.8%{opacity:0}26.8%,100%{opacity:1}}
+@keyframes dr10{0%,22.0%{stroke-dashoffset:1;opacity:0}22.1%{stroke-dashoffset:1;opacity:1}31%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd10{0%,22.0%{opacity:0}29%,100%{opacity:1}}
+@keyframes dr11{0%,24.2%{stroke-dashoffset:1;opacity:0}24.3%{stroke-dashoffset:1;opacity:1}33.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd11{0%,24.2%{opacity:0}31.2%,100%{opacity:1}}
+@keyframes dr12{0%,26.4%{stroke-dashoffset:1;opacity:0}26.5%{stroke-dashoffset:1;opacity:1}35.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd12{0%,26.4%{opacity:0}33.4%,100%{opacity:1}}
+@keyframes dr13{0%,28.6%{stroke-dashoffset:1;opacity:0}28.7%{stroke-dashoffset:1;opacity:1}37.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd13{0%,28.6%{opacity:0}35.6%,100%{opacity:1}}
+@keyframes dr14{0%,30.8%{stroke-dashoffset:1;opacity:0}30.9%{stroke-dashoffset:1;opacity:1}39.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd14{0%,30.8%{opacity:0}37.8%,100%{opacity:1}}
+@keyframes dr15{0%,33.0%{stroke-dashoffset:1;opacity:0}33.1%{stroke-dashoffset:1;opacity:1}42%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd15{0%,33.0%{opacity:0}40%,100%{opacity:1}}
+.s.i0,.q.i0,.f.i0{animation:dr0 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i1,.q.i1,.f.i1{animation:dr1 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i2,.q.i2,.f.i2{animation:dr2 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i3,.q.i3,.f.i3{animation:dr3 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i4,.q.i4,.f.i4{animation:dr4 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i5,.q.i5,.f.i5{animation:dr5 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i6,.q.i6,.f.i6{animation:dr6 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i7,.q.i7,.f.i7{animation:dr7 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i8,.q.i8,.f.i8{animation:dr8 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i9,.q.i9,.f.i9{animation:dr9 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i10,.q.i10,.f.i10{animation:dr10 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i11,.q.i11,.f.i11{animation:dr11 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i12,.q.i12,.f.i12{animation:dr12 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i13,.q.i13,.f.i13{animation:dr13 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i14,.q.i14,.f.i14{animation:dr14 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i15,.q.i15,.f.i15{animation:dr15 10s cubic-bezier(.55,.05,.25,1) infinite}
+.p.i0,.w.i0,.pq.i0,.t.i0,.k.i0{animation:fd0 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i1,.w.i1,.pq.i1,.t.i1,.k.i1{animation:fd1 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i2,.w.i2,.pq.i2,.t.i2,.k.i2{animation:fd2 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i3,.w.i3,.pq.i3,.t.i3,.k.i3{animation:fd3 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i4,.w.i4,.pq.i4,.t.i4,.k.i4{animation:fd4 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i5,.w.i5,.pq.i5,.t.i5,.k.i5{animation:fd5 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i6,.w.i6,.pq.i6,.t.i6,.k.i6{animation:fd6 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i7,.w.i7,.pq.i7,.t.i7,.k.i7{animation:fd7 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i8,.w.i8,.pq.i8,.t.i8,.k.i8{animation:fd8 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i9,.w.i9,.pq.i9,.t.i9,.k.i9{animation:fd9 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i10,.w.i10,.pq.i10,.t.i10,.k.i10{animation:fd10 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i11,.w.i11,.pq.i11,.t.i11,.k.i11{animation:fd11 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i12,.w.i12,.pq.i12,.t.i12,.k.i12{animation:fd12 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i13,.w.i13,.pq.i13,.t.i13,.k.i13{animation:fd13 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i14,.w.i14,.pq.i14,.t.i14,.k.i14{animation:fd14 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i15,.w.i15,.pq.i15,.t.i15,.k.i15{animation:fd15 10s cubic-bezier(.2,.7,.3,1) infinite}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+ <style>
+.a-hand{transform-box:view-box;transform-origin:200px 120px;animation:a-hand 10s linear infinite}
+@keyframes a-hand{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
+</style>
+ <g class="all">
+  <path class="w i0" d="M200,120L266,120A66,66 0 0 1 134,120Z" />
+  <circle class="s i1" cx="200" cy="120" r="66" pathLength="1" />
+  <path class="q i2" d="M200,186L200,179M182.9,183.8L183.8,180.4M167,177.2L168.8,174.1M153.3,166.7L155.8,164.2M142.8,153L145.9,151.3M136.2,137.1L139.6,136.2M134,120L141,120M136.2,102.9L139.6,103.8M142.8,87L145.9,88.8M153.3,73.3L155.8,75.8M167,62.8L168.7,65.9M182.9,56.2L183.8,59.6M200,54L200,61M217.1,56.2L216.2,59.6M233,62.8L231.2,65.9M246.7,73.3L244.2,75.8M257.2,87L254.1,88.8M263.8,102.9L260.4,103.8M266,120L259,120M263.8,137.1L260.4,136.2M257.2,153L254.1,151.2M246.7,166.7L244.2,164.2M233,177.2L231.2,174.1M217.1,183.8L216.2,180.4" pathLength="1" />
+  <path class="k q i3" d="M200,197C196.6,196.7 193.3,196.1 190.1,195.3C186.9,194.5 183.7,193.5 180.6,192.4C177.5,191.2 174.6,189.8 171.7,188.3C168.9,186.8 166.1,185.1 163.5,183.2C160.9,181.4 158.4,179.4 156.1,177.2C153.8,175.1 151.6,172.8 149.6,170.4C147.5,168.1 145.7,165.6 143.9,163C142.2,160.4 140.7,157.8 139.3,155C137.9,152.3 136.7,149.5 135.7,146.6C134.7,143.8 133.8,140.9 133.1,137.9C132.4,135 131.9,132 131.5,129C131.2,126 131,123 131,120C131,117 131.2,114 131.5,111C131.9,108 132.4,105 133.1,102.1C133.8,99.1 134.7,96.2 135.7,93.4C136.7,90.5 137.9,87.7 139.3,85C140.7,82.2 142.2,79.6 143.9,77C145.7,74.4 147.5,71.9 149.6,69.6C151.6,67.2 153.8,64.9 156.1,62.8C158.4,60.6 160.9,58.6 163.5,56.8C166.1,54.9 168.9,53.2 171.7,51.7C174.6,50.2 177.5,48.8 180.6,47.6C183.7,46.5 186.9,45.5 190.1,44.7C193.3,43.9 196.6,43.3 200,43C203.4,42.7 206.8,42.5 210.2,42.6C213.6,42.7 217.1,43.1 220.5,43.6C223.9,44.2 227.3,45 230.6,46C234,47.1 237.3,48.3 240.5,49.9C243.7,51.4 246.8,53.1 249.8,55C252.8,57 255.7,59.2 258.4,61.6C261.2,63.9 263.8,66.5 266.1,69.3C268.5,72 270.7,75 272.7,78C274.7,81.1 276.4,84.4 278,87.7C279.5,91 280.8,94.5 281.8,98.1C282.9,101.6 283.7,105.3 284.2,108.9C284.7,112.6 285,116.3 285,120C285,123.7 284.7,127.4 284.2,131.1C283.7,134.7 282.9,138.4 281.8,141.9C280.8,145.5 279.5,149 278,152.3C276.4,155.6 274.7,158.9 272.7,162C270.7,165 268.5,168 266.1,170.7C263.8,173.5 261.2,176.1 258.4,178.4C255.7,180.8 252.8,183 249.8,185C246.8,186.9 243.7,188.6 240.5,190.1C237.3,191.7 234,192.9 230.6,194C227.3,195 223.9,195.8 220.5,196.4C217.1,196.9 213.6,197.3 210.2,197.4C206.8,197.5 203.4,197.3 200,197Z" />
+  <circle class="q i4" cx="200" cy="86" r="7" pathLength="1" />
+  <path class="q i5" d="M211,86L215,86M207.8,93.8L210.6,96.6M200,97L200,101M192.2,93.8L189.4,96.6M189,86L185,86M192.2,78.2L189.4,75.4M200,75L200,71M207.8,78.2L210.6,75.4" pathLength="1" />
+  <path class="p i6" d="M204,149A10,10 0 1 0 204,167A12,12 0 0 1 204,149Z" />
+  <g class="a-hand">
+   <path class="s i7" d="M200,120V174" pathLength="1" />
+   <circle class="p i8" cx="200" cy="174" r="3" />
+  </g>
+  <circle class="p i9" cx="200" cy="120" r="3" />
+  <text class="t i10" x="106" y="124" text-anchor="end">6 am</text>
+  <text class="t i11" x="294" y="124" text-anchor="start">6 pm</text>
+  <text class="t i12" x="300" y="36" text-anchor="middle">body temperature</text>
+ </g>
+</svg>

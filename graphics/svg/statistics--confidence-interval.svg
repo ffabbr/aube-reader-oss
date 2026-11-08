@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="statistics--confidence-interval" data-discipline="statistics" data-tags="confidence,sampling,uncertainty,estimation,coverage" role="img">
+ <title>Confidence interval</title>
+ <desc>Ten repeated samples each give an interval around their own estimate; most straddle the dashed true value, and the odd one misses it, which is what 95 percent confidence means.</desc>
+ <style>
+:root{--ink:#110f0c;--quiet:#555350;--faint:#b8b6b2;--wash:#f5f3ef}
+@media (prefers-color-scheme:dark){:root{--ink:#e7e5e2;--quiet:#a3a19e;--faint:#524f4c;--wash:#252321}}
+svg{overflow:visible}
+.s,.q,.f{fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1;stroke-dashoffset:0}
+.s{stroke:var(--ink);stroke-width:1.5}
+.q{stroke:var(--quiet);stroke-width:1.3}
+.f{stroke:var(--faint);stroke-width:1.1}
+.hair{stroke-width:1!important}
+.bold{stroke-width:2.2!important}
+.k{fill:none;stroke-dasharray:5 5!important;stroke-linecap:round}
+.p{fill:var(--ink);stroke:none}
+.pq{fill:var(--quiet);stroke:none}
+.w{fill:var(--wash);stroke:none}
+.t{fill:var(--quiet);stroke:none;font:italic 13px ui-serif,"New York",Georgia,serif}
+.all{animation:out 10s linear infinite}
+@keyframes out{0%,90%{opacity:1}97%,99.9%{opacity:0}100%{opacity:1}}
+@keyframes dr0{0%,0.0%{stroke-dashoffset:1;opacity:0}0.1%{stroke-dashoffset:1;opacity:1}9%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd0{0%,0.0%{opacity:0}7%,100%{opacity:1}}
+@keyframes dr1{0%,2.2%{stroke-dashoffset:1;opacity:0}2.3%{stroke-dashoffset:1;opacity:1}11.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd1{0%,2.2%{opacity:0}9.2%,100%{opacity:1}}
+@keyframes dr2{0%,4.4%{stroke-dashoffset:1;opacity:0}4.5%{stroke-dashoffset:1;opacity:1}13.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd2{0%,4.4%{opacity:0}11.4%,100%{opacity:1}}
+@keyframes dr3{0%,6.6%{stroke-dashoffset:1;opacity:0}6.7%{stroke-dashoffset:1;opacity:1}15.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd3{0%,6.6%{opacity:0}13.6%,100%{opacity:1}}
+@keyframes dr4{0%,8.8%{stroke-dashoffset:1;opacity:0}8.9%{stroke-dashoffset:1;opacity:1}17.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd4{0%,8.8%{opacity:0}15.8%,100%{opacity:1}}
+@keyframes dr5{0%,11.0%{stroke-dashoffset:1;opacity:0}11.1%{stroke-dashoffset:1;opacity:1}20%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd5{0%,11.0%{opacity:0}18%,100%{opacity:1}}
+@keyframes dr6{0%,13.2%{stroke-dashoffset:1;opacity:0}13.3%{stroke-dashoffset:1;opacity:1}22.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd6{0%,13.2%{opacity:0}20.2%,100%{opacity:1}}
+@keyframes dr7{0%,15.4%{stroke-dashoffset:1;opacity:0}15.5%{stroke-dashoffset:1;opacity:1}24.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd7{0%,15.4%{opacity:0}22.4%,100%{opacity:1}}
+@keyframes dr8{0%,17.6%{stroke-dashoffset:1;opacity:0}17.7%{stroke-dashoffset:1;opacity:1}26.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd8{0%,17.6%{opacity:0}24.6%,100%{opacity:1}}
+@keyframes dr9{0%,19.8%{stroke-dashoffset:1;opacity:0}19.9%{stroke-dashoffset:1;opacity:1}28.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd9{0%,19.8%{opacity:0}26.8%,100%{opacity:1}}
+@keyframes dr10{0%,22.0%{stroke-dashoffset:1;opacity:0}22.1%{stroke-dashoffset:1;opacity:1}31%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd10{0%,22.0%{opacity:0}29%,100%{opacity:1}}
+@keyframes dr11{0%,24.2%{stroke-dashoffset:1;opacity:0}24.3%{stroke-dashoffset:1;opacity:1}33.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd11{0%,24.2%{opacity:0}31.2%,100%{opacity:1}}
+@keyframes dr12{0%,26.4%{stroke-dashoffset:1;opacity:0}26.5%{stroke-dashoffset:1;opacity:1}35.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd12{0%,26.4%{opacity:0}33.4%,100%{opacity:1}}
+@keyframes dr13{0%,28.6%{stroke-dashoffset:1;opacity:0}28.7%{stroke-dashoffset:1;opacity:1}37.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd13{0%,28.6%{opacity:0}35.6%,100%{opacity:1}}
+@keyframes dr14{0%,30.8%{stroke-dashoffset:1;opacity:0}30.9%{stroke-dashoffset:1;opacity:1}39.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd14{0%,30.8%{opacity:0}37.8%,100%{opacity:1}}
+@keyframes dr15{0%,33.0%{stroke-dashoffset:1;opacity:0}33.1%{stroke-dashoffset:1;opacity:1}42%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd15{0%,33.0%{opacity:0}40%,100%{opacity:1}}
+.s.i0,.q.i0,.f.i0{animation:dr0 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i1,.q.i1,.f.i1{animation:dr1 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i2,.q.i2,.f.i2{animation:dr2 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i3,.q.i3,.f.i3{animation:dr3 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i4,.q.i4,.f.i4{animation:dr4 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i5,.q.i5,.f.i5{animation:dr5 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i6,.q.i6,.f.i6{animation:dr6 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i7,.q.i7,.f.i7{animation:dr7 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i8,.q.i8,.f.i8{animation:dr8 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i9,.q.i9,.f.i9{animation:dr9 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i10,.q.i10,.f.i10{animation:dr10 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i11,.q.i11,.f.i11{animation:dr11 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i12,.q.i12,.f.i12{animation:dr12 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i13,.q.i13,.f.i13{animation:dr13 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i14,.q.i14,.f.i14{animation:dr14 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i15,.q.i15,.f.i15{animation:dr15 10s cubic-bezier(.55,.05,.25,1) infinite}
+.p.i0,.w.i0,.pq.i0,.t.i0,.k.i0{animation:fd0 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i1,.w.i1,.pq.i1,.t.i1,.k.i1{animation:fd1 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i2,.w.i2,.pq.i2,.t.i2,.k.i2{animation:fd2 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i3,.w.i3,.pq.i3,.t.i3,.k.i3{animation:fd3 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i4,.w.i4,.pq.i4,.t.i4,.k.i4{animation:fd4 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i5,.w.i5,.pq.i5,.t.i5,.k.i5{animation:fd5 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i6,.w.i6,.pq.i6,.t.i6,.k.i6{animation:fd6 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i7,.w.i7,.pq.i7,.t.i7,.k.i7{animation:fd7 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i8,.w.i8,.pq.i8,.t.i8,.k.i8{animation:fd8 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i9,.w.i9,.pq.i9,.t.i9,.k.i9{animation:fd9 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i10,.w.i10,.pq.i10,.t.i10,.k.i10{animation:fd10 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i11,.w.i11,.pq.i11,.t.i11,.k.i11{animation:fd11 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i12,.w.i12,.pq.i12,.t.i12,.k.i12{animation:fd12 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i13,.w.i13,.pq.i13,.t.i13,.k.i13{animation:fd13 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i14,.w.i14,.pq.i14,.t.i14,.k.i14{animation:fd14 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i15,.w.i15,.pq.i15,.t.i15,.k.i15{animation:fd15 10s cubic-bezier(.2,.7,.3,1) infinite}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+ <style>
+@keyframes a-sw{0%{transform:translate(-10px,0px);}100%{transform:translate(10px,0px);}}
+.a-sw0{animation:a-sw 5s ease-in-out infinite alternate;animation-delay:0s}
+.a-sw1{animation:a-sw 5s ease-in-out infinite alternate;animation-delay:-2s}
+.a-sw2{animation:a-sw 2.5s ease-in-out infinite alternate;animation-delay:-1s}
+</style>
+ <g class="all">
+  <path class="k q i0" d="M200,40 V206" />
+  <g class="a-sw0">
+   <path class="q i0" d="M156,56 H272 M156,52.5 v7 M272,52.5 v7" pathLength="1" />
+   <circle class="p i1" cx="214" cy="56" r="2.5" />
+  </g>
+  <g class="a-sw1">
+   <path class="q i2" d="M110,72 H238 M110,68.5 v7 M238,68.5 v7" pathLength="1" />
+   <circle class="p i2" cx="174" cy="72" r="2.5" />
+  </g>
+  <g class="a-sw2">
+   <path class="q i3" d="M176,88 H284 M176,84.5 v7 M284,84.5 v7" pathLength="1" />
+   <circle class="p i4" cx="230" cy="88" r="2.5" />
+  </g>
+  <g class="a-sw0">
+   <path class="q i4" d="M130,104 H250 M130,100.5 v7 M250,100.5 v7" pathLength="1" />
+   <circle class="p i5" cx="190" cy="104" r="2.5" />
+  </g>
+  <g class="a-sw1">
+   <path class="q i6" d="M162,120 H278 M162,116.5 v7 M278,116.5 v7" pathLength="1" />
+   <circle class="p i6" cx="220" cy="120" r="2.5" />
+  </g>
+  <g class="a-sw2">
+   <path class="s i7" d="M236,136 H348 M236,132.5 v7 M348,132.5 v7" pathLength="1" />
+   <circle class="p i8" cx="292" cy="136" r="2.5" />
+  </g>
+  <g class="a-sw0">
+   <path class="q i9" d="M116,152 H240 M116,148.5 v7 M240,148.5 v7" pathLength="1" />
+   <circle class="p i9" cx="178" cy="152" r="2.5" />
+  </g>
+  <g class="a-sw1">
+   <path class="q i10" d="M174,168 H282 M174,164.5 v7 M282,164.5 v7" pathLength="1" />
+   <circle class="p i11" cx="228" cy="168" r="2.5" />
+  </g>
+  <g class="a-sw2">
+   <path class="q i11" d="M128,184 H256 M128,180.5 v7 M256,180.5 v7" pathLength="1" />
+   <circle class="p i12" cx="192" cy="184" r="2.5" />
+  </g>
+  <g class="a-sw0">
+   <path class="q i13" d="M158,200 H274 M158,196.5 v7 M274,196.5 v7" pathLength="1" />
+   <circle class="p i13" cx="216" cy="200" r="2.5" />
+  </g>
+  <text class="t i14" x="200" y="28" text-anchor="middle">true mean</text>
+  <text class="t i15" x="300" y="123" text-anchor="start">1 in 20 misses</text>
+ </g>
+</svg>

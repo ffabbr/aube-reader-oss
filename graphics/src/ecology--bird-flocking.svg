@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="ecology--bird-flocking" data-discipline="ecology" data-tags="flocking,starlings,murmuration,emergence,collective-behaviour,self-organisation,boids">
+<title>Bird Flocking</title>
+<desc>A murmuration of starlings wheels as one while a turn ripples through it; each bird tracks only its seven nearest neighbours, and the flock emerges with no leader.</desc>
+<style>
+.a-flock{transform-box:view-box;transform-origin:200px 110px;animation:a-flock 5s ease-in-out infinite alternate}@keyframes a-flock{from{transform:translate(-12px,6px) rotate(-3deg)}to{transform:translate(12px,-6px) rotate(3deg)}}
+.a-turn{transform-box:view-box;transform-origin:0 0;animation:a-turn 5s ease-in-out infinite}@keyframes a-turn{0%,25%{transform:rotate(0)}42%{transform:rotate(-48deg) scale(1,.75)}60%{transform:rotate(16deg)}78%,100%{transform:rotate(0)}}
+.a-d0{animation-delay:-5.0s}
+.a-d1{animation-delay:-4.7s}
+.a-d2{animation-delay:-4.4s}
+.a-d3{animation-delay:-4.1s}
+.a-d4{animation-delay:-3.8s}
+.a-d5{animation-delay:-3.5s}
+.a-d6{animation-delay:-3.2s}
+.a-d7{animation-delay:-2.9s}
+.a-d8{animation-delay:-2.6s}
+.a-d9{animation-delay:-2.3s}
+</style>
+<path class="f" d="M30,216 C60,214 90,215 120,213 S190,215 230,213 S330,215 370,213"/>
+<g class="a-flock">
+<g transform="translate(108.4,59.3) rotate(-31.3) scale(0.84)"><g class="a-turn a-d2"><path class="s" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5"/></g></g>
+<g transform="translate(140.9,84.1) rotate(-24.1) scale(0.75)"><g class="a-turn a-d3"><path class="s" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5"/></g></g>
+<g transform="translate(84.5,118.7) rotate(-30) scale(0.99)"><g class="a-turn a-d1"><path class="s" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5"/></g></g>
+<g transform="translate(296.6,110.8) rotate(4.6) scale(0.78)"><g class="a-turn a-d7"><path class="s" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5"/></g></g>
+<g transform="translate(93.8,143.6) rotate(-26.9) scale(0.87)"><g class="a-turn a-d1"><path class="s" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5"/></g></g>
+<g transform="translate(228.1,75.5) rotate(-8.9) scale(0.84)"><g class="a-turn a-d5"><path class="s" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5"/></g></g>
+<g transform="translate(64,149.9) rotate(-30.8) scale(0.78)"><g class="a-turn a-d0"><path class="s" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5"/></g></g>
+<g transform="translate(114.8,124.3) rotate(-30.8) scale(0.79)"><g class="a-turn a-d2"><path class="s" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5"/></g></g>
+<g transform="translate(123.2,110) rotate(-24.4) scale(0.80)"><g class="a-turn a-d2"><path class="s" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5"/></g></g>
+<g transform="translate(177.2,53.6) rotate(-15.2) scale(0.98)"><g class="a-turn a-d4"><path class="s" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5"/></g></g>
+<g transform="translate(348.2,137.3) rotate(9.5) scale(0.94)"><g class="a-turn a-d9"><path class="s" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5"/></g></g>
+<g transform="translate(248.9,108.8) rotate(-3.2) scale(0.93)"><g class="a-turn a-d6"><path class="s" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5"/></g></g>
+<g transform="translate(186.6,123.2) rotate(-19.3) scale(0.98)"><g class="a-turn a-d4"><path class="s" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5"/></g></g>
+<g transform="translate(192.6,65.1) rotate(-12.4) scale(0.98)"><g class="a-turn a-d4"><path class="s" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5"/></g></g>
+<g transform="translate(326.6,129.5) rotate(10.3) scale(0.79)"><g class="a-turn a-d8"><path class="s" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5"/></g></g>
+<g transform="translate(141.3,104.2) rotate(-20.9) scale(0.92)"><g class="a-turn a-d3"><path class="s" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5"/></g></g>
+<g transform="translate(240.6,61.7) rotate(-9.1) scale(0.98)"><g class="a-turn a-d6"><path class="s" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5"/></g></g>
+<g transform="translate(110.9,142.7) rotate(-31.4) scale(0.75)"><g class="a-turn a-d2"><path class="s" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5"/></g></g>
+<g transform="translate(265.7,107.5) rotate(0.2) scale(0.92)"><g class="a-turn a-d6"><path class="s" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5"/></g></g>
+<g transform="translate(113.2,170) rotate(-32.7) scale(0.80)"><g class="a-turn a-d2"><path class="s" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5"/></g></g>
+<g transform="translate(268.9,140.4) rotate(-3.6) scale(0.99)"><g class="a-turn a-d7"><path class="s" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5"/></g></g>
+<g transform="translate(79.3,133.2) rotate(-30.8) scale(0.84)"><g class="a-turn a-d1"><path class="s" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5"/></g></g>
+<g transform="translate(316.4,112.9) rotate(1.5) scale(0.84)"><g class="a-turn a-d8"><path class="s" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5"/></g></g>
+<g transform="translate(111.1,75.5) rotate(-29.8) scale(0.83)"><g class="a-turn a-d2"><path class="s" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5"/></g></g>
+<g transform="translate(158.2,106.3) rotate(-25.6) scale(0.78)"><g class="a-turn a-d3"><path class="s" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5"/></g></g>
+<g transform="translate(254,140.5) rotate(-2.3) scale(0.91)"><g class="a-turn a-d6"><path class="s" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5"/></g></g>
+<g transform="translate(279.4,100.2) rotate(-1.1) scale(0.83)"><g class="a-turn a-d7"><path class="s" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5"/></g></g>
+<g transform="translate(246.9,47.3) rotate(-8.4) scale(0.77)"><g class="a-turn a-d6"><path class="s" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5"/></g></g>
+<g transform="translate(261.5,89.4) rotate(-3) scale(0.87)"><g class="a-turn a-d6"><path class="s" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5"/></g></g>
+<g transform="translate(304.3,133.8) rotate(5.7) scale(0.81)"><g class="a-turn a-d8"><path class="s" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5"/></g></g>
+<g transform="translate(299.4,81) rotate(6.5) scale(0.98)"><g class="a-turn a-d7"><path class="s" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5"/></g></g>
+<g transform="translate(201.9,137.5) rotate(-17) scale(0.94)"><g class="a-turn a-d5"><path class="s" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5"/></g></g>
+<g transform="translate(135.6,34.7) rotate(-25.8) scale(0.90)"><g class="a-turn a-d3"><path class="s" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5"/></g></g>
+<g transform="translate(280.6,85.1) rotate(-1.6) scale(0.82)"><g class="a-turn a-d7"><path class="s" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5"/></g></g>
+<g transform="translate(169.6,144.3) rotate(-15.7) scale(0.89)"><g class="a-turn a-d4"><path class="s" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5"/></g></g>
+<g transform="translate(133.5,123) rotate(-22.6) scale(0.92)"><g class="a-turn a-d3"><path class="s" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5"/></g></g>
+<g transform="translate(144.5,62.9) rotate(-25.3) scale(0.96)"><g class="a-turn a-d3"><path class="s" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5"/></g></g>
+<g transform="translate(304.9,94.3) rotate(0.8) scale(0.84)"><g class="a-turn a-d8"><path class="s" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5"/></g></g>
+<g transform="translate(172.7,81.9) rotate(-20.6) scale(0.97)"><g class="a-turn a-d4"><path class="s" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5"/></g></g>
+<g transform="translate(218.8,45.6) rotate(-12.8) scale(0.83)"><g class="a-turn a-d5"><path class="s" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5"/></g></g>
+<g transform="translate(233.9,122.8) rotate(-3.3) scale(0.75)"><g class="a-turn a-d5"><path class="s" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5"/></g></g>
+<g transform="translate(255,70.2) rotate(-4.3) scale(0.92)"><g class="a-turn a-d6"><path class="s" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5"/></g></g>
+<g transform="translate(116.5,95.9) rotate(-27.1) scale(0.92)"><g class="a-turn a-d2"><path class="s" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5"/></g></g>
+<g transform="translate(141.5,137.1) rotate(-28.7) scale(0.99)"><g class="a-turn a-d3"><path class="s" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5"/></g></g>
+<g transform="translate(209.2,56.9) rotate(-9.8) scale(0.96)"><g class="a-turn a-d5"><path class="s" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5"/></g></g>
+<g transform="translate(324.2,156.4) rotate(2.8) scale(1.00)"><g class="a-turn a-d8"><path class="s" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5"/></g></g>
+<g transform="translate(262.6,121.2) rotate(-4.3) scale(0.79)"><g class="a-turn a-d6"><path class="s" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5"/></g></g>
+<g transform="translate(124,154) rotate(-27.9) scale(0.75)"><g class="a-turn a-d2"><path class="s" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5"/></g></g>
+<g transform="translate(271.3,65.7) rotate(4.1) scale(0.92)"><g class="a-turn a-d7"><path class="s" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5"/></g></g>
+<g transform="translate(81.2,155.5) rotate(-35.5) scale(0.84)"><g class="a-turn a-d1"><path class="s" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5"/></g></g>
+<circle class="k f" cx="204" cy="100" r="35.1"/>
+<path class="f hair" d="M204,100 L200.8,113.1 M204,100 L219.6,93.8 M204,100 L183.5,105.8 M204,100 L213.5,120.4 M204,100 L183,91.5 M204,100 L193.8,79.8 M204,100 L207.7,72.1"/>
+<g transform="translate(200.8,113.1) rotate(-16.1) scale(0.88)"><g class="a-turn a-d5"><path class="s" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5"/></g></g>
+<g transform="translate(219.6,93.8) rotate(-6.8) scale(0.86)"><g class="a-turn a-d5"><path class="s" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5"/></g></g>
+<g transform="translate(183.5,105.8) rotate(-14.7) scale(0.99)"><g class="a-turn a-d4"><path class="s" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5"/></g></g>
+<g transform="translate(213.5,120.4) rotate(-14.7) scale(1.06)"><g class="a-turn a-d5"><path class="s" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5"/></g></g>
+<g transform="translate(183,91.5) rotate(-18.2) scale(0.81)"><g class="a-turn a-d4"><path class="s" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5"/></g></g>
+<g transform="translate(193.8,79.8) rotate(-12.4) scale(1.05)"><g class="a-turn a-d4"><path class="s" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5"/></g></g>
+<g transform="translate(207.7,72.1) rotate(-11.7) scale(0.94)"><g class="a-turn a-d5"><path class="s" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5"/></g></g>
+<g transform="translate(204,100) rotate(-11.2) scale(1.13)"><g class="a-turn a-d5"><path class="s bold" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5"/></g></g>
+</g>
+<text class="t" x="365" y="204" text-anchor="end">each watches seven</text>
+</svg>

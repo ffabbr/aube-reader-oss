@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="engineering--pulley-system" data-discipline="engineering" data-tags="pulley,block-and-tackle,mechanical-advantage,force,rope,work,simple-machine">
+<title>Pulley System</title>
+<desc>A rope runs from a beam under a moving pulley and over a fixed one: pull the free end down by 2d and the load rises only d, so two rope runs share the weight and the force is halved.</desc>
+<style>
+.a-load{animation:a-load 2.5s ease-in-out infinite alternate}
+@keyframes a-load{from{transform:translateY(0)}to{transform:translateY(-20px)}}
+.a-ra{transform-box:view-box;transform-origin:152px 26px;animation:a-ra 2.5s ease-in-out infinite alternate}
+@keyframes a-ra{from{transform:scaleY(1)}to{transform:scaleY(0.804)}}
+.a-rb{transform-box:view-box;transform-origin:200px 50px;animation:a-rb 2.5s ease-in-out infinite alternate}
+@keyframes a-rb{from{transform:scaleY(1)}to{transform:scaleY(0.744)}}
+.a-rc{transform-box:view-box;transform-origin:248px 50px;animation:a-rc 2.5s ease-in-out infinite alternate}
+@keyframes a-rc{from{transform:scaleY(1)}to{transform:scaleY(1.417)}}
+.a-end{animation:a-end 2.5s ease-in-out infinite alternate}
+@keyframes a-end{from{transform:translateY(0)}to{transform:translateY(40px)}}
+.a-wf{transform-box:view-box;transform-origin:224px 50px;animation:a-wf 2.5s ease-in-out infinite alternate}
+@keyframes a-wf{from{transform:rotate(0deg)}to{transform:rotate(95.5deg)}}
+.a-wm{transform-box:view-box;transform-origin:176px 128px;animation:a-wm 2.5s ease-in-out infinite alternate}
+@keyframes a-wm{from{transform:rotate(0deg)}to{transform:rotate(-47.7deg)}}
+</style>
+<path class="q" d="M108,26 H300"/>
+<path class="f hair" d="M116,26 l-8,-6 M132,26 l-8,-6 M148,26 l-8,-6 M164,26 l-8,-6 M180,26 l-8,-6 M196,26 l-8,-6 M212,26 l-8,-6 M228,26 l-8,-6 M244,26 l-8,-6 M260,26 l-8,-6 M276,26 l-8,-6 M292,26 l-8,-6"/>
+<path class="q" d="M224,26 V50"/>
+<circle class="w" cx="224" cy="50" r="24"/>
+<g class="a-wf"><circle class="q" cx="224" cy="50" r="24"/><path class="q" d="M200,50 H248 M224,26 V74"/></g>
+<circle class="p" cx="224" cy="50" r="3"/>
+<path class="s" d="M200,50 A24,24 0 0 1 248,50"/>
+<g class="a-ra"><path class="s" d="M152,26 V128"/></g>
+<g class="a-rb"><path class="s" d="M200,50 V128"/></g>
+<g class="a-rc"><path class="s" d="M248,50 V146"/></g>
+<g class="a-load">
+<circle class="w" cx="176" cy="128" r="24"/>
+<g class="a-wm"><circle class="q" cx="176" cy="128" r="24"/><path class="q" d="M152,128 H200 M176,104 V152"/></g>
+<circle class="p" cx="176" cy="128" r="3"/>
+<path class="s" d="M152,128 A24,24 0 0 0 200,128"/>
+<path class="q" d="M176,128 V164"/>
+<path class="w" d="M148,204 L154,164 H198 L204,204 Z"/><path class="s" d="M148,204 L154,164 H198 L204,204 Z"/>
+</g>
+<g class="a-end"><path class="s" d="M242,146 H254 M248,146 V162 M244,155 L248,162 L252,155"/></g>
+<path class="f" d="M122,184 H130 M122,204 H130 M126,184 V204"/>
+<path class="f" d="M270,146 H278 M270,186 H278 M274,146 V186"/>
+<text class="t" x="114" y="199" text-anchor="end">d</text>
+<text class="t" x="286" y="171" text-anchor="start">2d</text>
+<text class="t" x="248" y="219" text-anchor="middle">F = W/2</text>
+</svg>

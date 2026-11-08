@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="biology--mitochondrion" data-discipline="biology" data-tags="mitochondrion,cristae,atp,organelle,cellular-respiration,inner-membrane">
+<title>Mitochondrion</title>
+<desc>A mitochondrion has a smooth outer membrane and a deeply folded inner membrane; the cristae enlarge the surface where ATP is made and released.</desc>
+<style>
+.a-breathe{transform-box:view-box;transform-origin:200px 120px;animation:a-br 5s ease-in-out infinite alternate}
+@keyframes a-br{from{transform:scale(.985)}to{transform:scale(1.02)}}
+.a-atp{animation:a-at 5s linear infinite}
+.a-atp2{animation:a-at 5s linear infinite;animation-delay:-1.7s}
+.a-atp3{animation:a-at 5s linear infinite;animation-delay:-3.3s}
+@keyframes a-at{0%{transform:translate(0,0);opacity:0}15%{opacity:1}85%{opacity:1}100%{transform:translate(70px,-24px);opacity:0}}
+</style>
+<g class="a-breathe">
+<path class="w" d="M70,120C70,70 130,50 200,50C270,50 330,70 330,120C330,170 270,190 200,190C130,190 70,170 70,120Z"/>
+<path class="s" d="M70,120C70,70 130,50 200,50C270,50 330,70 330,120C330,170 270,190 200,190C130,190 70,170 70,120Z"/>
+<ellipse class="q" cx="200" cy="120" rx="130" ry="58"/>
+<path class="q" d="M105.5,78.1V118.1a4.5,4.5 0 0 0 9,0V78.1M155.5,64.8V104.8a4.5,4.5 0 0 0 9,0V64.8M205.5,62.2V102.2a4.5,4.5 0 0 0 9,0V62.2M255.5,68.5V108.5a4.5,4.5 0 0 0 9,0V68.5M130.5,170.2V130.2a4.5,4.5 0 0 1 9,0V170.2M180.5,177.6V137.6a4.5,4.5 0 0 1 9,0V177.6M230.5,175.9V135.9a4.5,4.5 0 0 1 9,0V175.9M280.5,163.9V123.9a4.5,4.5 0 0 1 9,0V163.9"/>
+</g>
+<g class="a-atp"><circle class="p" cx="286" cy="120" r="3"/></g>
+<g class="a-atp2"><circle class="p" cx="270" cy="104" r="3"/></g>
+<g class="a-atp3"><circle class="p" cx="276" cy="140" r="3"/></g>
+<path class="f" d="M100,44L110,66"/>
+<text class="t" x="40" y="40">outer membrane</text>
+<path class="f" d="M160,208L160,172"/>
+<text class="t" x="160" y="222" text-anchor="middle">cristae</text>
+<text class="t" x="350" y="82" text-anchor="middle">ATP</text>
+</svg>

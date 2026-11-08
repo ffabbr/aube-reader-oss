@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="physics--light-cone" data-discipline="physics" data-tags="relativity,spacetime,causality,speed-of-light,worldline">
+<title>Light cone</title>
+<desc>A spacetime diagram: light rays from one event bound a future and a past cone; a traveller's worldline stays inside, and regions outside are out of causal reach.</desc>
+<style>
+.a-out-l{animation:a-out-l 2.5s linear infinite}
+.a-out-r{animation:a-out-r 2.5s linear infinite}
+.a-in-l{animation:a-in-l 2.5s linear infinite}
+.a-in-r{animation:a-in-r 2.5s linear infinite}
+@keyframes a-out-l{0%{transform:translate(0,0);opacity:1}100%{transform:translate(-90px,-90px);opacity:0}}
+@keyframes a-out-r{0%{transform:translate(0,0);opacity:1}100%{transform:translate(90px,-90px);opacity:0}}
+@keyframes a-in-l{0%{transform:translate(-90px,90px);opacity:0}100%{transform:translate(0,0);opacity:1}}
+@keyframes a-in-r{0%{transform:translate(90px,90px);opacity:0}100%{transform:translate(0,0);opacity:1}}
+.a-trav{offset-path:path("M176,218 C190,170 188,148 200,125 C214,98 222,70 212,34");animation:a-trav 5s linear infinite}
+@keyframes a-trav{0%{offset-distance:0%;opacity:0}10%{opacity:1}90%{opacity:1}100%{offset-distance:100%;opacity:0}}
+</style>
+<polygon class="w" points="200,125 105,30 295,30"/>
+<polygon class="w" points="200,125 105,220 295,220"/>
+<path class="f" d="M40,125 H360"/>
+<path class="f" d="M200,222 V28"/>
+<path class="s" d="M105,30 L295,220 M295,30 L105,220"/>
+<path class="q" d="M176,218 C190,170 188,148 200,125 C214,98 222,70 212,34"/>
+<circle class="p" cx="200" cy="125" r="3.4"/>
+<g class="a-out-l"><circle class="pq" cx="200" cy="125" r="2.6"/></g>
+<g class="a-out-r"><circle class="pq" cx="200" cy="125" r="2.6"/></g>
+<g class="a-in-l"><circle class="pq" cx="200" cy="125" r="2.6"/></g>
+<g class="a-in-r"><circle class="pq" cx="200" cy="125" r="2.6"/></g>
+<g class="a-trav"><circle class="p" cx="0" cy="0" r="4"/></g>
+<text class="t" x="160" y="62" text-anchor="middle">future</text>
+<text class="t" x="240" y="196" text-anchor="middle">past</text>
+<text class="t" x="68" y="116" text-anchor="middle">elsewhere</text>
+</svg>

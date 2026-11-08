@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="chemistry--chemical-equilibrium" data-discipline="chemistry" data-tags="equilibrium,reversible-reaction,concentration,dynamic,rate,reactants-products">
+<title>Chemical equilibrium</title>
+<desc>Reactant and product concentrations change until they level off; the arrows keep trading both ways at equal rates, a balance that is dynamic.</desc>
+<style>
+.a-dot-a,.a-dot-b{offset-rotate:0deg;animation:a-trav 10s linear infinite}
+.a-dot-a{offset-path:path("M50,45 C85,90 115,108 170,110 S270,111 350,111")}
+.a-dot-b{offset-path:path("M50,196 C85,172 115,161 170,160 S270,160 350,160")}
+@keyframes a-trav{0%{offset-distance:0%;opacity:0}6%{opacity:1}88%{opacity:1}95%,100%{offset-distance:100%;opacity:0}}
+.a-slide-r{animation:a-sr 2s ease-in-out infinite alternate}
+.a-slide-l{animation:a-sl 2s ease-in-out infinite alternate}
+@keyframes a-sr{from{transform:translateX(-5px)}to{transform:translateX(5px)}}
+@keyframes a-sl{from{transform:translateX(5px)}to{transform:translateX(-5px)}}
+</style>
+<path class="f" d="M50,30 V206 H360"/>
+<path class="k f" d="M188,38 V206"/>
+<path class="s" d="M50,45 C85,90 115,108 170,110 S270,111 350,111"/>
+<path class="s" d="M50,196 C85,172 115,161 170,160 S270,160 350,160"/>
+<g class="a-slide-r"><path class="q" d="M270,128 h34 M298,123 l6,5 l-6,5"/></g>
+<g class="a-slide-l"><path class="q" d="M304,141 h-34 M276,136 l-6,5 l6,5"/></g>
+<g class="a-dot-a"><circle class="p" cx="0" cy="0" r="4.2"/></g>
+<g class="a-dot-b"><circle class="p" cx="0" cy="0" r="4.2"/></g>
+<text class="t" x="344" y="98" text-anchor="end">reactants</text>
+<text class="t" x="344" y="182" text-anchor="end">products</text>
+<text class="t" x="196" y="34" text-anchor="start">equilibrium</text>
+</svg>

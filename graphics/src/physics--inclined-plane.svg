@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="physics--inclined-plane" data-discipline="physics" data-tags="incline,forces,vector-components,gravity,slope,mechanics">
+<title>Inclined plane</title>
+<desc>A block slides down a ramp while its weight splits into a part along the slope, which pulls it down, and a part into the slope, which the surface carries.</desc>
+<style>
+.a-slide{animation:a-slide 5s infinite}
+@keyframes a-slide{0%{transform:translate(0,0);opacity:0;animation-timing-function:ease-in}10%{opacity:1}85%{opacity:1}100%{transform:translate(127.9px,61.6px);opacity:0}}
+</style>
+<path class="f" d="M30,200 H370"/>
+<polygon class="w" points="60,200 330,200 60,70"/>
+<path class="s" d="M60,70 L330,200 L60,200 Z"/>
+<polygon class="k f" points="204.2,139.4 258.2,165.4 275.6,129.4 221.5,103.4" />
+<path class="f" d="M294,200 A36,36 0 0 1 297.6,184.4"/>
+<g class="a-slide">
+<polygon class="w" points="76.2,77.8 130.3,103.8 147.6,67.8 93.6,41.8"/>
+<polygon class="s" points="76.2,77.8 130.3,103.8 147.6,67.8 93.6,41.8" />
+<path class="s" d="M111.9,72.8 L111.9,130.8 M115,124.5 L111.9,130.8 M108.9,124.5 L111.9,130.8"/>
+<path class="q" d="M111.9,72.8 L134.6,83.7 M130.9,79 L134.6,83.7 M128.6,83.7 L134.6,83.7"/>
+<path class="q" d="M111.9,72.8 L89.3,119.9 M94,116.2 L89.3,119.9 M89.2,113.9 L89.3,119.9"/>
+<text class="t" x="119.9" y="134.8">mg</text>
+</g>
+<text class="t" x="280" y="195" text-anchor="end">θ</text>
+</svg>

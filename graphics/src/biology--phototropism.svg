@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="biology--phototropism" data-discipline="biology" data-tags="phototropism,auxin,plant-hormone,light,shoot,growth,tropism">
+<title>Phototropism</title>
+<desc>A seedling bends toward the light: auxin gathers on the shaded side of the stem, those cells elongate, and the shoot curves toward the sun.</desc>
+<style>
+.a-spin{transform-box:view-box;transform-origin:330px 48px;animation:a-spin 10s linear infinite}@keyframes a-spin{to{transform:rotate(30deg)}}
+.a-bend{transform-box:view-box;transform-origin:150px 206px;animation:a-bend 5s ease-in-out infinite alternate;transform:rotate(-1.5deg)}@keyframes a-bend{from{transform:rotate(-1.5deg)}to{transform:rotate(2deg)}}
+</style>
+<circle class="w" cx="330" cy="48" r="13"/>
+<circle class="s" cx="330" cy="48" r="13"/>
+<g class="a-spin">
+<path class="q" d="M350,48 L358,48 M347.3,58 L354.2,62 M340,65.3 L344,72.2 M330,68 L330,76 M320,65.3 L316,72.2 M312.7,58 L305.8,62 M310,48 L302,48 M312.7,38 L305.8,34 M320,30.7 L316,23.8 M330,28 L330,20 M340,30.7 L344,23.8 M347.3,38 L354.2,34 "/>
+</g>
+<path class="f" d="M70,206 H250"/>
+<path class="k f" d="M150,206 V92"/>
+<path class="k q hair" d="M300,64 L214,92"/>
+<path class="k q hair" d="M304,78 L222,116"/>
+<path class="k q hair" d="M298,52 L212,70"/>
+<text class="t" x="262" y="36" text-anchor="middle">light</text>
+<g class="a-bend">
+<path class="s bold" d="M150,206 C150,160 156,124 196,98"/>
+<path class="w" d="M152,172 C130,172 114,160 110,146 C128,146 146,156 152,172 Z"/>
+<path class="s" d="M152,172 C130,172 114,160 110,146 C128,146 146,156 152,172 Z"/>
+<path class="w" d="M154,152 C176,148 190,136 194,122 C176,122 160,134 154,152 Z"/>
+<path class="s" d="M154,152 C176,148 190,136 194,122 C176,122 160,134 154,152 Z"/>
+<path class="w" d="M196,98 C188,82 198,72 214,76 C216,90 208,98 196,98 Z"/>
+<path class="s" d="M196,98 C188,82 198,72 214,76 C216,90 208,98 196,98 Z"/>
+<path class="pq" d="M144,179 m-1.6,0 a1.6,1.6 0 1,0 3.2,0 a1.6,1.6 0 1,0 -3.2,0 M139,178.6 m-1.6,0 a1.6,1.6 0 1,0 3.2,0 a1.6,1.6 0 1,0 -3.2,0 M145.9,163.7 m-1.6,0 a1.6,1.6 0 1,0 3.2,0 a1.6,1.6 0 1,0 -3.2,0 M140.9,162.9 m-1.6,0 a1.6,1.6 0 1,0 3.2,0 a1.6,1.6 0 1,0 -3.2,0 M149.2,149.1 m-1.6,0 a1.6,1.6 0 1,0 3.2,0 a1.6,1.6 0 1,0 -3.2,0 M144.4,147.7 m-1.6,0 a1.6,1.6 0 1,0 3.2,0 a1.6,1.6 0 1,0 -3.2,0 M154.2,135.2 m-1.6,0 a1.6,1.6 0 1,0 3.2,0 a1.6,1.6 0 1,0 -3.2,0 M149.6,133.2 m-1.6,0 a1.6,1.6 0 1,0 3.2,0 a1.6,1.6 0 1,0 -3.2,0 M161.3,122.2 m-1.6,0 a1.6,1.6 0 1,0 3.2,0 a1.6,1.6 0 1,0 -3.2,0 M157.1,119.4 m-1.6,0 a1.6,1.6 0 1,0 3.2,0 a1.6,1.6 0 1,0 -3.2,0 M170.7,110 m-1.6,0 a1.6,1.6 0 1,0 3.2,0 a1.6,1.6 0 1,0 -3.2,0 M167.1,106.6 m-1.6,0 a1.6,1.6 0 1,0 3.2,0 a1.6,1.6 0 1,0 -3.2,0 "/>
+</g>
+<text class="t" x="78" y="128" text-anchor="middle">auxin</text>
+<path class="q hair" d="M92,134 L136,150"/>
+</svg>

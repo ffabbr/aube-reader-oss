@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="biology--echolocating-bat" data-discipline="biology" data-tags="echolocation,bat,sonar,ultrasound,hunting,echo,moth,hearing">
+<title>Echolocating Bat</title>
+<desc>A bat in flight sends out rings of ultrasound; they strike a moth and dashed echoes ripple back, and the delay tells the bat how far away its prey is flying.</desc>
+<style>
+.a-call{transform-box:view-box;transform-origin:142px 122px;animation:a-call 2.5s linear infinite}@keyframes a-call{0%{transform:scale(.08);opacity:0}6%{opacity:1}85%{opacity:1}100%{transform:scale(1);opacity:.1}}
+.a-echo{transform-box:view-box;transform-origin:340px 114px;animation:a-echo 2.5s linear infinite}@keyframes a-echo{0%{transform:scale(.08);opacity:0}6%{opacity:1}85%{opacity:1}100%{transform:scale(1);opacity:.1}}
+.a-t0{animation-delay:0s}
+.a-t1{animation-delay:-0.833s}
+.a-t2{animation-delay:-1.667s}
+.a-wing{transform-box:view-box;transform-origin:112px 112px;animation:a-wing 1s ease-in-out infinite alternate}@keyframes a-wing{from{transform:rotate(8deg)}to{transform:rotate(-12deg)}}
+.a-fwing{transform-box:view-box;transform-origin:118px 108px;animation:a-fwing 1s ease-in-out infinite alternate}@keyframes a-fwing{from{transform:rotate(-6deg)}to{transform:rotate(9deg)}}
+.a-moth{transform-box:view-box;transform-origin:0 0;animation:a-moth 1s ease-in-out infinite alternate}@keyframes a-moth{from{transform:scaleX(1)}to{transform:scaleX(.55)}}
+</style>
+<path class="f hair" d="M148,122 L326,114"/>
+<g transform="translate(0,12)">
+<g class="a-fwing"><path class="w" d="M118,108 L134,66 C138,52 142,40 148,26 C150,44 152,56 156,66 C148,70 142,78 140,88 C134,88 128,96 124,108 Z"/><path class="q" d="M118,108 L134,66 C138,52 142,40 148,26 C150,44 152,56 156,66 C148,70 142,78 140,88 C134,88 128,96 124,108 Z"/><path class="q hair" d="M134,66 L156,66 M134,66 L140,88"/></g>
+<g class="a-wing">
+<path class="w" d="M112,112 C106,94 100,78 94,62 C78,46 56,34 30,28 C40,44 40,60 26,76 C42,76 54,90 48,112 C60,108 72,114 72,130 C82,126 92,126 100,128 Z"/><path class="s" d="M112,112 C106,94 100,78 94,62 C78,46 56,34 30,28 C40,44 40,60 26,76 C42,76 54,90 48,112 C60,108 72,114 72,130 C82,126 92,126 100,128 Z"/>
+<path class="q hair" d="M94,62 L26,76 M94,62 L48,112 M94,62 L72,130"/>
+<path class="s bold" d="M112,112 L94,62 M94,62 L90,54"/></g>
+<path class="p" d="M124,104 C116,100 104,104 96,114 C90,122 84,130 78,136 C84,136 90,136 94,134 C106,132 118,126 124,116 C126,112 126,108 124,104 Z"/>
+<path class="s hair" d="M82,134 L68,142 M90,134 L78,146 M68,142 C72,146 74,146 78,146"/>
+<path class="p" d="M118,106 L115,84 L124,96 C126,95 128,95 130,96 L137,86 L136,102 C140,104 142,106 141,109 L134,110 L139,113 C134,117 126,118 122,115 C118,112 117,109 118,106 Z"/>
+</g>
+<g class="a-call a-t0"><path class="s" d="M315.5,44.5 A190,190 0 0 1 315.5,199.5"/></g>
+<g class="a-call a-t1"><path class="s" d="M315.5,44.5 A190,190 0 0 1 315.5,199.5"/></g>
+<g class="a-call a-t2"><path class="s" d="M315.5,44.5 A190,190 0 0 1 315.5,199.5"/></g>
+<g class="a-echo a-t0"><path class="k q" d="M171.9,166 A176,176 0 0 1 171.9,62"/></g>
+<g class="a-echo a-t1"><path class="k q" d="M171.9,166 A176,176 0 0 1 171.9,62"/></g>
+<g class="a-echo a-t2"><path class="k q" d="M171.9,166 A176,176 0 0 1 171.9,62"/></g>
+<g transform="translate(340,114) rotate(-16) scale(1.25)"><g class="a-moth"><path class="w" d="M1,-2 C8,-14 18,-16 22,-12 C22,-4 14,2 1,3 Z"/><path class="s" d="M1,-2 C8,-14 18,-16 22,-12 C22,-4 14,2 1,3 Z"/><path class="w" d="M1,3 C8,3 14,6 13,12 C8,16 3,10 1,6 Z"/><path class="s" d="M1,3 C8,3 14,6 13,12 C8,16 3,10 1,6 Z"/></g><g transform="scale(-1,1)"><g class="a-moth"><path class="w" d="M1,-2 C8,-14 18,-16 22,-12 C22,-4 14,2 1,3 Z"/><path class="s" d="M1,-2 C8,-14 18,-16 22,-12 C22,-4 14,2 1,3 Z"/><path class="w" d="M1,3 C8,3 14,6 13,12 C8,16 3,10 1,6 Z"/><path class="s" d="M1,3 C8,3 14,6 13,12 C8,16 3,10 1,6 Z"/></g></g><path class="s bold" d="M0,-4 V10"/><path class="s hair" d="M0,-4 C-2,-9 -5,-11 -8,-11 M0,-4 C2,-9 5,-11 8,-11"/></g>
+<text class="t" x="222" y="60" text-anchor="middle">call</text>
+<text class="t" x="262" y="196" text-anchor="middle">echo</text>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="economics--prisoners-dilemma" data-discipline="economics" data-tags="game-theory,nash-equilibrium,cooperation,payoff-matrix,incentives">
+<title>Prisoner's dilemma</title>
+<desc>A two-by-two payoff grid where each player does better by defecting whatever the other does, so a marker of best replies slides to mutual defection even though cooperating pays both more.</desc>
+<style>
+.a-mark{animation:a-mark 10s ease-in-out infinite}
+@keyframes a-mark{0%{transform:translate(0px,0px);}32%{transform:translate(0px,0px);}46%{transform:translate(0px,62px);}60%{transform:translate(0px,62px);}72%{transform:translate(92px,62px);}100%{transform:translate(92px,62px);}}
+</style>
+<rect class="w" x="182" y="128" width="88" height="58" rx="4"/>
+<path class="f" d="M88,64 H272 M88,126 H272 M88,188 H272 M88,64 V188 M180,64 V188 M272,64 V188"/>
+<circle class="s" cx="134" cy="50" r="5"/>
+<circle class="p" cx="226" cy="50" r="5"/>
+<circle class="s" cx="68" cy="95" r="5"/>
+<circle class="p" cx="68" cy="157" r="5"/>
+<circle class="pq" cx="118" cy="116" r="2.8"/>
+<circle class="pq" cx="118" cy="107.8" r="2.8"/>
+<circle class="pq" cx="118" cy="99.6" r="2.8"/>
+<circle class="p" cx="150" cy="116" r="2.8"/>
+<circle class="p" cx="150" cy="107.8" r="2.8"/>
+<circle class="p" cx="150" cy="99.6" r="2.8"/>
+<circle class="p" cx="242" cy="116" r="2.8"/>
+<circle class="p" cx="242" cy="107.8" r="2.8"/>
+<circle class="p" cx="242" cy="99.6" r="2.8"/>
+<circle class="p" cx="242" cy="91.4" r="2.8"/>
+<circle class="p" cx="242" cy="83.2" r="2.8"/>
+<circle class="pq" cx="118" cy="178" r="2.8"/>
+<circle class="pq" cx="118" cy="169.8" r="2.8"/>
+<circle class="pq" cx="118" cy="161.6" r="2.8"/>
+<circle class="pq" cx="118" cy="153.4" r="2.8"/>
+<circle class="pq" cx="118" cy="145.2" r="2.8"/>
+<circle class="pq" cx="210" cy="178" r="2.8"/>
+<circle class="p" cx="242" cy="178" r="2.8"/>
+<g class="a-mark"><rect class="s" x="93" y="69" width="82" height="52" rx="6"/></g>
+<circle class="s" cx="118" cy="216" r="4.5"/>
+<text class="t" x="128" y="220" text-anchor="start">cooperate</text>
+<circle class="p" cx="206" cy="216" r="4.5"/>
+<text class="t" x="216" y="220" text-anchor="start">defect</text>
+<text class="t" x="282" y="161" text-anchor="start">equilibrium</text>
+</svg>

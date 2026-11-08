@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="chemistry--covalent-bond" data-discipline="chemistry" data-tags="covalent-bond,shared-electrons,hydrogen,molecule,orbital-overlap,sharing">
+<title>Covalent bond in a hydrogen molecule</title>
+<desc>Two hydrogen atoms overlap their orbitals so that a pair of electrons circles both nuclei: the bond is a shared pair.</desc>
+<style>
+.a-orb1,.a-orb2{offset-path:path("M200,120 C215,84 262,84 262,120 C262,156 215,156 200,120 C185,84 138,84 138,120 C138,156 185,156 200,120Z");offset-rotate:0deg;animation:a-orb 5s linear infinite}
+.a-orb2{animation-delay:-2.5s}
+@keyframes a-orb{from{offset-distance:0%}to{offset-distance:100%}}
+</style>
+<circle class="f" cx="160" cy="120" r="52"/>
+<circle class="f" cx="240" cy="120" r="52"/>
+<path class="w" d="M200,86.8 A52,52 0 0 1 200,153.2 A52,52 0 0 1 200,86.8Z"/>
+<path class="q" d="M200,86.8 A52,52 0 0 1 200,153.2 A52,52 0 0 1 200,86.8Z"/>
+<path class="k f" d="M200,153 V188"/>
+<circle class="p" cx="160" cy="120" r="5"/>
+<circle class="p" cx="240" cy="120" r="5"/>
+<g class="a-orb1"><circle class="p" cx="0" cy="0" r="3.8"/></g>
+<g class="a-orb2"><circle class="p" cx="0" cy="0" r="3.8"/></g>
+<text class="t" x="160" y="56" text-anchor="middle">H</text>
+<text class="t" x="240" y="56" text-anchor="middle">H</text>
+<text class="t" x="200" y="208" text-anchor="middle">shared pair</text>
+</svg>

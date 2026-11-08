@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="method--falsification" data-discipline="method" data-tags="popper,falsifiability,black-swan,induction,hypothesis,philosophy-of-science">
+<title>Falsification</title>
+<desc>A row of white swans supports the claim that all swans are white, but no number of them proves it: one black swan gliding in strikes the sentence out. Popper's falsifiability.</desc>
+<style>
+.a-bob{animation:a-bob 2.5s ease-in-out infinite alternate}
+@keyframes a-bob{from{transform:translateY(-1.2px) rotate(-1deg)}to{transform:translateY(1.2px) rotate(1deg)}}
+.a-d1{animation-delay:-.7s}.a-d2{animation-delay:-1.6s}.a-d3{animation-delay:-.3s}.a-d4{animation-delay:-1.1s}
+.a-glide{animation:a-glide 5s ease-in-out infinite alternate}
+@keyframes a-glide{from{transform:translateX(3px)}to{transform:translateX(-14px)}}
+.a-rip{animation:a-glide 5s ease-in-out infinite alternate}
+@media (prefers-color-scheme:dark){.a-wht .w{fill:var(--ink)}.a-wht .q{stroke:var(--wash)}.a-blk .p{fill:var(--wash);stroke:var(--quiet);stroke-width:1.3}}
+</style>
+<path class="f" d="M24,184 H376"/>
+<g transform="translate(56,184) scale(.92)" class="a-wht"><g class="a-bob a-d0"><path class="w" d="M-24,-9 C-18,1 10,2 22,-2 C28,-5 33,-10 38,-18 C29,-15 15,-25 2,-24 C-3,-24 -6,-22 -8,-20 C-17,-32 -2,-46 -8,-60 C-11,-67 -19,-68 -23,-63 L-34,-58 C-28,-57 -23,-58 -19,-59 C-14,-59 -13,-58 -13,-56 C-9,-46 -22,-32 -19,-20 C-18,-16 -22,-13 -24,-9 Z"/><path class="s" d="M-24,-9 C-18,1 10,2 22,-2 C28,-5 33,-10 38,-18 C29,-15 15,-25 2,-24 C-3,-24 -6,-22 -8,-20 C-17,-32 -2,-46 -8,-60 C-11,-67 -19,-68 -23,-63 L-34,-58 C-28,-57 -23,-58 -19,-59 C-14,-59 -13,-58 -13,-56 C-9,-46 -22,-32 -19,-20 C-18,-16 -22,-13 -24,-9 Z"/><path class="q hair" d="M-7,-13 C2,-6 15,-7 26,-11"/></g></g>
+<g transform="translate(122,184) scale(.92)" class="a-wht"><g class="a-bob a-d1"><path class="w" d="M-24,-9 C-18,1 10,2 22,-2 C28,-5 33,-10 38,-18 C29,-15 15,-25 2,-24 C-3,-24 -6,-22 -8,-20 C-17,-32 -2,-46 -8,-60 C-11,-67 -19,-68 -23,-63 L-34,-58 C-28,-57 -23,-58 -19,-59 C-14,-59 -13,-58 -13,-56 C-9,-46 -22,-32 -19,-20 C-18,-16 -22,-13 -24,-9 Z"/><path class="s" d="M-24,-9 C-18,1 10,2 22,-2 C28,-5 33,-10 38,-18 C29,-15 15,-25 2,-24 C-3,-24 -6,-22 -8,-20 C-17,-32 -2,-46 -8,-60 C-11,-67 -19,-68 -23,-63 L-34,-58 C-28,-57 -23,-58 -19,-59 C-14,-59 -13,-58 -13,-56 C-9,-46 -22,-32 -19,-20 C-18,-16 -22,-13 -24,-9 Z"/><path class="q hair" d="M-7,-13 C2,-6 15,-7 26,-11"/></g></g>
+<g transform="translate(188,184) scale(.92)" class="a-wht"><g class="a-bob a-d2"><path class="w" d="M-24,-9 C-18,1 10,2 22,-2 C28,-5 33,-10 38,-18 C29,-15 15,-25 2,-24 C-3,-24 -6,-22 -8,-20 C-17,-32 -2,-46 -8,-60 C-11,-67 -19,-68 -23,-63 L-34,-58 C-28,-57 -23,-58 -19,-59 C-14,-59 -13,-58 -13,-56 C-9,-46 -22,-32 -19,-20 C-18,-16 -22,-13 -24,-9 Z"/><path class="s" d="M-24,-9 C-18,1 10,2 22,-2 C28,-5 33,-10 38,-18 C29,-15 15,-25 2,-24 C-3,-24 -6,-22 -8,-20 C-17,-32 -2,-46 -8,-60 C-11,-67 -19,-68 -23,-63 L-34,-58 C-28,-57 -23,-58 -19,-59 C-14,-59 -13,-58 -13,-56 C-9,-46 -22,-32 -19,-20 C-18,-16 -22,-13 -24,-9 Z"/><path class="q hair" d="M-7,-13 C2,-6 15,-7 26,-11"/></g></g>
+<g transform="translate(254,184) scale(.92)" class="a-wht"><g class="a-bob a-d3"><path class="w" d="M-24,-9 C-18,1 10,2 22,-2 C28,-5 33,-10 38,-18 C29,-15 15,-25 2,-24 C-3,-24 -6,-22 -8,-20 C-17,-32 -2,-46 -8,-60 C-11,-67 -19,-68 -23,-63 L-34,-58 C-28,-57 -23,-58 -19,-59 C-14,-59 -13,-58 -13,-56 C-9,-46 -22,-32 -19,-20 C-18,-16 -22,-13 -24,-9 Z"/><path class="s" d="M-24,-9 C-18,1 10,2 22,-2 C28,-5 33,-10 38,-18 C29,-15 15,-25 2,-24 C-3,-24 -6,-22 -8,-20 C-17,-32 -2,-46 -8,-60 C-11,-67 -19,-68 -23,-63 L-34,-58 C-28,-57 -23,-58 -19,-59 C-14,-59 -13,-58 -13,-56 C-9,-46 -22,-32 -19,-20 C-18,-16 -22,-13 -24,-9 Z"/><path class="q hair" d="M-7,-13 C2,-6 15,-7 26,-11"/></g></g>
+<text class="t" x="155" y="82" text-anchor="middle">all swans are white</text>
+<g transform="translate(334,184) scale(.92)" class="a-blk"><g class="a-glide"><g class="a-bob a-d4"><path class="p" d="M-24,-9 C-18,1 10,2 22,-2 C28,-5 33,-10 38,-18 C29,-15 15,-25 2,-24 C-3,-24 -6,-22 -8,-20 C-17,-32 -2,-46 -8,-60 C-11,-67 -19,-68 -23,-63 L-34,-58 C-28,-57 -23,-58 -19,-59 C-14,-59 -13,-58 -13,-56 C-9,-46 -22,-32 -19,-20 C-18,-16 -22,-13 -24,-9 Z"/></g></g></g>
+<g class="a-rip"><path class="f hair" d="M300,192 H364 M314,199 H352"/></g>
+<path class="s" d="M93,77.5 C130,74 180,80 217,76"/>
+</svg>

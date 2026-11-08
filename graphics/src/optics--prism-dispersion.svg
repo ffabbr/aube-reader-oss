@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="optics--prism-dispersion" data-discipline="optics" data-tags="dispersion,prism,spectrum,refraction,white-light,wavelength,optics">
+<title>Prism Dispersion</title>
+<desc>White light enters a glass prism and fans into a spectrum: each wavelength bends by a slightly different angle, so one beam leaves as many.</desc>
+<style>
+.a-ph{animation:a-ph 5s linear infinite;offset-rotate:0deg}
+@keyframes a-ph{0%{offset-distance:0%;opacity:0}6%{opacity:1}92%{opacity:1}100%{offset-distance:100%;opacity:0}}
+.a-p0{offset-path:path("M29.89,161.16 L152.3,123.74 L247.71,123.76 L372,161.84")}
+.a-p1{offset-path:path("M29.89,161.16 L152.3,123.74 L248.73,125.55 L372,173.67")}
+.a-p2{offset-path:path("M29.89,161.16 L152.3,123.74 L249.7,127.25 L372,186.9")}
+.a-p3{offset-path:path("M29.89,161.16 L152.3,123.74 L250.62,128.87 L372,202.59")}
+.a-p4{offset-path:path("M29.89,161.16 L152.3,123.74 L251.67,130.71 L349.52,210")}
+.a-late{animation-delay:-2.5s}
+</style>
+<polygon class="w" points="200,40 290,198 110,198"/>
+<polygon class="s" points="200,40 290,198 110,198"/>
+<line class="s bold" x1="29.89" y1="161.16" x2="152.3" y2="123.74"/>
+<line class="f" x1="152.3" y1="123.74" x2="247.71" y2="123.76"/>
+<line class="q hair" x1="152.3" y1="123.74" x2="248.73" y2="125.55"/>
+<line class="q" x1="152.3" y1="123.74" x2="249.7" y2="127.25"/>
+<line class="s hair" x1="152.3" y1="123.74" x2="250.62" y2="128.87"/>
+<line class="s" x1="152.3" y1="123.74" x2="251.67" y2="130.71"/>
+<line class="f" x1="247.71" y1="123.76" x2="372" y2="161.84"/>
+<line class="q hair" x1="248.73" y1="125.55" x2="372" y2="173.67"/>
+<line class="q" x1="249.7" y1="127.25" x2="372" y2="186.9"/>
+<line class="s hair" x1="250.62" y1="128.87" x2="372" y2="202.59"/>
+<line class="s" x1="251.67" y1="130.71" x2="349.52" y2="210"/>
+<g class="a-ph a-p0"><circle class="p" cx="0" cy="0" r="2"/></g>
+<g class="a-ph a-p0 a-late"><circle class="p" cx="0" cy="0" r="2"/></g>
+<g class="a-ph a-p1"><circle class="p" cx="0" cy="0" r="2"/></g>
+<g class="a-ph a-p1 a-late"><circle class="p" cx="0" cy="0" r="2"/></g>
+<g class="a-ph a-p2"><circle class="p" cx="0" cy="0" r="2"/></g>
+<g class="a-ph a-p2 a-late"><circle class="p" cx="0" cy="0" r="2"/></g>
+<g class="a-ph a-p3"><circle class="p" cx="0" cy="0" r="2"/></g>
+<g class="a-ph a-p3 a-late"><circle class="p" cx="0" cy="0" r="2"/></g>
+<g class="a-ph a-p4"><circle class="p" cx="0" cy="0" r="2"/></g>
+<g class="a-ph a-p4 a-late"><circle class="p" cx="0" cy="0" r="2"/></g>
+<text class="t" x="58" y="130" text-anchor="middle">white</text>
+<text class="t" x="352" y="146" text-anchor="middle">red</text>
+<text class="t" x="308" y="214" text-anchor="middle">violet</text>
+</svg>

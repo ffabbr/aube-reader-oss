@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="climate--milankovitch-cycles" data-discipline="climate" data-tags="milankovitch-cycles,eccentricity,obliquity,precession,orbit,ice-ages,axial-tilt">
+<title>Milankovitch cycles</title>
+<desc>Three slow rhythms of Earth's orbit that pace the ice ages: its ellipse stretches, its tilt nods, its axis wobbles, each beating at its own period.</desc>
+<style>
+.a-ecc{transform-box:view-box;transform-origin:84px 104px;animation:a-ecc 5s ease-in-out infinite alternate}
+@keyframes a-ecc{from{transform:scaleY(1)}to{transform:scaleY(.68)}}
+.a-round{transform-box:view-box;transform-origin:0 0;animation:a-round 5s ease-in-out infinite alternate}
+@keyframes a-round{from{transform:scaleY(1)}to{transform:scaleY(1.47)}}
+.a-sun{animation:a-sun 5s ease-in-out infinite alternate}
+@keyframes a-sun{from{transform:translateX(0)}to{transform:translateX(-39px)}}
+.a-orbit{offset-path:path("M138,104 A54,54 0 1 1 30,104 A54,54 0 1 1 138,104");offset-rotate:0deg;animation:a-orbit 2.5s linear infinite}
+@keyframes a-orbit{from{offset-distance:0%}to{offset-distance:100%}}
+.a-nod{transform-box:view-box;transform-origin:209px 104px;animation:a-nod 2.5s ease-in-out infinite alternate}
+@keyframes a-nod{from{transform:rotate(11deg)}to{transform:rotate(27deg)}}
+.a-skew{transform-box:view-box;transform-origin:334px 104px;animation:a-skew 2.5s ease-in-out infinite}
+@keyframes a-skew{0%,100%{transform:skewX(-23deg)}50%{transform:skewX(23deg)}}
+.a-lift{transform-box:view-box;transform-origin:334px 104px;animation:a-lift 2.5s ease-in-out infinite;animation-delay:-.625s}
+@keyframes a-lift{0%,100%{transform:scaleY(.9)}50%{transform:scaleY(1.1)}}
+</style>
+<g class="a-ecc">
+<ellipse class="q" cx="84" cy="104" rx="54" ry="54"/>
+<g class="a-orbit"><g class="a-round"><circle class="p" cx="0" cy="0" r="3.8"/></g></g>
+</g>
+<g class="a-sun">
+<circle class="w" cx="84" cy="104" r="9"/>
+<circle class="s" cx="84" cy="104" r="9"/>
+</g>
+<circle class="w" cx="209" cy="104" r="36"/>
+<circle class="s" cx="209" cy="104" r="36"/>
+<path class="k f" d="M209,36 V172"/>
+<g class="a-nod">
+<path class="q" d="M173,104 H245"/>
+<path class="s bold" d="M209,42 V166"/>
+</g>
+<circle class="w" cx="334" cy="104" r="36"/>
+<circle class="s" cx="334" cy="104" r="36"/>
+<path class="k f" d="M334,36 V172"/>
+<ellipse class="k q" cx="334" cy="42" rx="26" ry="7"/>
+<ellipse class="k q" cx="334" cy="166" rx="26" ry="7"/>
+<g class="a-lift"><g class="a-skew">
+<path class="s bold" d="M334,42 V166"/>
+<circle class="p" cx="334" cy="42" r="3.4"/>
+</g></g>
+<text class="t" x="84" y="208" text-anchor="middle">eccentricity</text>
+<text class="t" x="209" y="208" text-anchor="middle">obliquity</text>
+<text class="t" x="334" y="208" text-anchor="middle">precession</text>
+</svg>

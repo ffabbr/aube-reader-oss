@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="physics--uncertainty-principle" data-discipline="physics" data-tags="quantum,uncertainty,heisenberg,momentum,position">
+<title>Uncertainty principle</title>
+<desc>A sharp position peak needs a broad spread of momentum, and vice versa: as one bell curve narrows the other widens, so their widths can never both shrink.</desc>
+<style>
+.a-ux{transform-box:view-box;transform-origin:110px 180px;animation:a-ux 5s ease-in-out infinite alternate}
+.a-up2{transform-box:view-box;transform-origin:290px 180px;animation:a-up2 5s ease-in-out infinite alternate}
+@keyframes a-ux{from{transform:scaleX(.55)}to{transform:scaleX(1.6)}}
+@keyframes a-up2{from{transform:scaleX(1.6)}to{transform:scaleX(.55)}}
+</style>
+<path class="f" d="M32,180 H188 M212,180 H368"/>
+<path class="k f" d="M200,70 V190"/>
+<g class="a-ux">
+<path class="w" d="M62,180 L62,178.9 L64,178.4 L66,177.7 L68,176.8 L70,175.6 L72,174 L74,172 L76,169.5 L78,166.5 L80,162.8 L82,158.4 L84,153.3 L86,147.5 L88,141.1 L90,134.2 L92,126.9 L94,119.3 L96,111.8 L98,104.5 L100,97.7 L102,91.8 L104,86.8 L106,83.1 L108,80.8 L110,80 L112,80.8 L114,83.1 L116,86.8 L118,91.8 L120,97.7 L122,104.5 L124,111.8 L126,119.3 L128,126.9 L130,134.2 L132,141.1 L134,147.5 L136,153.3 L138,158.4 L140,162.8 L142,166.5 L144,169.5 L146,172 L148,174 L150,175.6 L152,176.8 L154,177.7 L156,178.4 L158,178.9 L158,180 Z"/>
+<path class="s" d="M62,178.9 L64,178.4 L66,177.7 L68,176.8 L70,175.6 L72,174 L74,172 L76,169.5 L78,166.5 L80,162.8 L82,158.4 L84,153.3 L86,147.5 L88,141.1 L90,134.2 L92,126.9 L94,119.3 L96,111.8 L98,104.5 L100,97.7 L102,91.8 L104,86.8 L106,83.1 L108,80.8 L110,80 L112,80.8 L114,83.1 L116,86.8 L118,91.8 L120,97.7 L122,104.5 L124,111.8 L126,119.3 L128,126.9 L130,134.2 L132,141.1 L134,147.5 L136,153.3 L138,158.4 L140,162.8 L142,166.5 L144,169.5 L146,172 L148,174 L150,175.6 L152,176.8 L154,177.7 L156,178.4 L158,178.9"/>
+<path class="k q" d="M94,120 H126"/>
+</g>
+<g class="a-up2">
+<path class="w" d="M242,180 L242,178.9 L244,178.4 L246,177.7 L248,176.8 L250,175.6 L252,174 L254,172 L256,169.5 L258,166.5 L260,162.8 L262,158.4 L264,153.3 L266,147.5 L268,141.1 L270,134.2 L272,126.9 L274,119.3 L276,111.8 L278,104.5 L280,97.7 L282,91.8 L284,86.8 L286,83.1 L288,80.8 L290,80 L292,80.8 L294,83.1 L296,86.8 L298,91.8 L300,97.7 L302,104.5 L304,111.8 L306,119.3 L308,126.9 L310,134.2 L312,141.1 L314,147.5 L316,153.3 L318,158.4 L320,162.8 L322,166.5 L324,169.5 L326,172 L328,174 L330,175.6 L332,176.8 L334,177.7 L336,178.4 L338,178.9 L338,180 Z"/>
+<path class="s" d="M242,178.9 L244,178.4 L246,177.7 L248,176.8 L250,175.6 L252,174 L254,172 L256,169.5 L258,166.5 L260,162.8 L262,158.4 L264,153.3 L266,147.5 L268,141.1 L270,134.2 L272,126.9 L274,119.3 L276,111.8 L278,104.5 L280,97.7 L282,91.8 L284,86.8 L286,83.1 L288,80.8 L290,80 L292,80.8 L294,83.1 L296,86.8 L298,91.8 L300,97.7 L302,104.5 L304,111.8 L306,119.3 L308,126.9 L310,134.2 L312,141.1 L314,147.5 L316,153.3 L318,158.4 L320,162.8 L322,166.5 L324,169.5 L326,172 L328,174 L330,175.6 L332,176.8 L334,177.7 L336,178.4 L338,178.9"/>
+<path class="k q" d="M274,120 H306"/>
+</g>
+
+<text class="t" x="110" y="206" text-anchor="middle">position x</text>
+<text class="t" x="290" y="206" text-anchor="middle">momentum p</text>
+<text class="t" x="200" y="42" text-anchor="middle">Δx · Δp ≥ ħ/2</text>
+</svg>

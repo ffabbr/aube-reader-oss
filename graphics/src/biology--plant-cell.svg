@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="biology--plant-cell" data-discipline="biology" data-tags="plant-cell,cell-wall,vacuole,chloroplast,cytoplasmic-streaming,organelle">
+<title>Plant cell</title>
+<desc>A plant cell: rigid wall, a great central vacuole and a nucleus at the edge, with chloroplasts carried around the vacuole by the streaming cytoplasm.</desc>
+<style>
+.a-c{offset-path:path("M132,46H240A40,40 0 0 1 280,86V154A40,40 0 0 1 240,194H158A66,66 0 0 1 92,128V86A40,40 0 0 1 132,46Z");offset-rotate:auto;animation:a-c 10s linear infinite}
+@keyframes a-c{from{offset-distance:0%}to{offset-distance:100%}}
+.a-c0{animation-delay:-0s}
+.a-c1{animation-delay:-1.25s}
+.a-c2{animation-delay:-2.5s}
+.a-c3{animation-delay:-3.75s}
+.a-c4{animation-delay:-5s}
+.a-c5{animation-delay:-6.25s}
+.a-c6{animation-delay:-7.5s}
+.a-c7{animation-delay:-8.75s}
+</style>
+<rect class="w" x="72" y="26" width="228" height="188" rx="10"/>
+<rect class="s" x="72" y="26" width="228" height="188" rx="10"/>
+<rect class="q hair" x="78" y="32" width="216" height="176" rx="6"/>
+<path class="q" d="M132,58H240A28,28 0 0 1 268,86V154A28,28 0 0 1 240,182H158A54,54 0 0 1 104,128V86A28,28 0 0 1 132,58Z"/>
+<circle class="w" cx="96" cy="190" r="13"/>
+<circle class="s" cx="96" cy="190" r="13"/>
+<circle class="p" cx="98" cy="188" r="4"/>
+<g class="a-c a-c0">
+<ellipse class="w" cx="0" cy="0" rx="11" ry="5.4"/>
+<ellipse class="s" cx="0" cy="0" rx="11" ry="5.4"/>
+<path class="q hair" d="M-6,-1.6H6M-6,1.6H6"/>
+</g>
+<g class="a-c a-c1">
+<ellipse class="w" cx="0" cy="0" rx="11" ry="5.4"/>
+<ellipse class="s" cx="0" cy="0" rx="11" ry="5.4"/>
+<path class="q hair" d="M-6,-1.6H6M-6,1.6H6"/>
+</g>
+<g class="a-c a-c2">
+<ellipse class="w" cx="0" cy="0" rx="11" ry="5.4"/>
+<ellipse class="s" cx="0" cy="0" rx="11" ry="5.4"/>
+<path class="q hair" d="M-6,-1.6H6M-6,1.6H6"/>
+</g>
+<g class="a-c a-c3">
+<ellipse class="w" cx="0" cy="0" rx="11" ry="5.4"/>
+<ellipse class="s" cx="0" cy="0" rx="11" ry="5.4"/>
+<path class="q hair" d="M-6,-1.6H6M-6,1.6H6"/>
+</g>
+<g class="a-c a-c4">
+<ellipse class="w" cx="0" cy="0" rx="11" ry="5.4"/>
+<ellipse class="s" cx="0" cy="0" rx="11" ry="5.4"/>
+<path class="q hair" d="M-6,-1.6H6M-6,1.6H6"/>
+</g>
+<g class="a-c a-c5">
+<ellipse class="w" cx="0" cy="0" rx="11" ry="5.4"/>
+<ellipse class="s" cx="0" cy="0" rx="11" ry="5.4"/>
+<path class="q hair" d="M-6,-1.6H6M-6,1.6H6"/>
+</g>
+<g class="a-c a-c6">
+<ellipse class="w" cx="0" cy="0" rx="11" ry="5.4"/>
+<ellipse class="s" cx="0" cy="0" rx="11" ry="5.4"/>
+<path class="q hair" d="M-6,-1.6H6M-6,1.6H6"/>
+</g>
+<g class="a-c a-c7">
+<ellipse class="w" cx="0" cy="0" rx="11" ry="5.4"/>
+<ellipse class="s" cx="0" cy="0" rx="11" ry="5.4"/>
+<path class="q hair" d="M-6,-1.6H6M-6,1.6H6"/>
+</g>
+<text class="t" x="186" y="124" text-anchor="middle">vacuole</text>
+<path class="f" d="M58,62H72"/>
+<text class="t" x="54" y="66" text-anchor="end">wall</text>
+<path class="f" d="M283,92L308,92"/>
+<text class="t" x="312" y="96">chloroplast</text>
+</svg>

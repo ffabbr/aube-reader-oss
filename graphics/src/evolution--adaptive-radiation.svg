@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="evolution--adaptive-radiation" data-discipline="evolution" data-tags="adaptive-radiation,finches,beak-shape,niches,diversification,galapagos,speciation">
+<title>Adaptive radiation of finch beaks</title>
+<desc>From one ancestral bird, lineages fan out into new niches; each descendant's beak is shaped for a different food, so one form radiates into many.</desc>
+<style>
+.a-fl0{offset-path:path("M200,168 Q176,120 92,128");offset-rotate:0deg;animation:a-out 5s linear infinite;animation-delay:-0s}
+.a-nod0{transform-box:view-box;transform-origin:0 0;animation:a-nod 5s ease-in-out infinite;animation-delay:-0s}
+.a-fl1{offset-path:path("M200,168 Q186,110 134,78");offset-rotate:0deg;animation:a-out 5s linear infinite;animation-delay:-1s}
+.a-nod1{transform-box:view-box;transform-origin:0 0;animation:a-nod 5s ease-in-out infinite;animation-delay:-1s}
+.a-fl2{offset-path:path("M200,168 Q200,110 200,56");offset-rotate:0deg;animation:a-out 5s linear infinite;animation-delay:-2s}
+.a-nod2{transform-box:view-box;transform-origin:0 0;animation:a-nod 5s ease-in-out infinite;animation-delay:-2s}
+.a-fl3{offset-path:path("M200,168 Q214,110 266,78");offset-rotate:0deg;animation:a-out 5s linear infinite;animation-delay:-3s}
+.a-nod3{transform-box:view-box;transform-origin:0 0;animation:a-nod 5s ease-in-out infinite;animation-delay:-3s}
+.a-fl4{offset-path:path("M200,168 Q224,120 308,128");offset-rotate:0deg;animation:a-out 5s linear infinite;animation-delay:-4s}
+.a-nod4{transform-box:view-box;transform-origin:0 0;animation:a-nod 5s ease-in-out infinite;animation-delay:-4s}
+@keyframes a-out{0%,8%{offset-distance:0%;opacity:0}16%{opacity:1}52%{opacity:1}60%,100%{offset-distance:100%;opacity:0}}
+@keyframes a-nod{0%,54%{transform:translateY(0)}62%{transform:translateY(-4px)}70%,100%{transform:translateY(0)}}
+</style>
+<path class="q" d="M200,168 Q176,120 92,128"/>
+<path class="q" d="M200,168 Q186,110 134,78"/>
+<path class="q" d="M200,168 Q200,110 200,56"/>
+<path class="q" d="M200,168 Q214,110 266,78"/>
+<path class="q" d="M200,168 Q224,120 308,128"/>
+<g transform="translate(200 182)">
+<path class="w" d="M9,-9 C6,-14 -3,-14 -6,-8 C-9,-3 -16,0 -25,5 L-21,9 C-13,8 -8,11 -2,11 C6,11 11,4 10,-3 Z"/>
+<path class="w" d="M9,-9 L17,-6 L10,-3 Z"/>
+<path class="s" d="M9,-9 C6,-14 -3,-14 -6,-8 C-9,-3 -16,0 -25,5 L-21,9 C-13,8 -8,11 -2,11 C6,11 11,4 10,-3"/>
+<path class="s" d="M9,-9 L17,-6 L10,-3"/>
+<circle class="p" cx="3" cy="-7" r="1.6"/>
+</g>
+<g transform="translate(62 118) scale(-1 1)">
+<g class="a-nod0">
+<path class="w" d="M9,-9 C6,-14 -3,-14 -6,-8 C-9,-3 -16,0 -25,5 L-21,9 C-13,8 -8,11 -2,11 C6,11 11,4 10,-3 Z"/>
+<path class="w" d="M7.5,-11 Q18,-10 19,-4 Q15,-1 10,-1 Z"/>
+<path class="s" d="M9,-9 C6,-14 -3,-14 -6,-8 C-9,-3 -16,0 -25,5 L-21,9 C-13,8 -8,11 -2,11 C6,11 11,4 10,-3"/>
+<path class="s" d="M7.5,-11 Q18,-10 19,-4 Q15,-1 10,-1"/>
+<circle class="p" cx="3" cy="-7" r="1.6"/>
+</g>
+</g>
+<g transform="translate(112 62) scale(-1 1)">
+<g class="a-nod1">
+<path class="w" d="M9,-9 C6,-14 -3,-14 -6,-8 C-9,-3 -16,0 -25,5 L-21,9 C-13,8 -8,11 -2,11 C6,11 11,4 10,-3 Z"/>
+<path class="w" d="M9,-9 L30,-5.5 L10,-4.5 Z"/>
+<path class="s" d="M9,-9 C6,-14 -3,-14 -6,-8 C-9,-3 -16,0 -25,5 L-21,9 C-13,8 -8,11 -2,11 C6,11 11,4 10,-3"/>
+<path class="s" d="M9,-9 L30,-5.5 L10,-4.5"/>
+<circle class="p" cx="3" cy="-7" r="1.6"/>
+</g>
+</g>
+<g transform="translate(200 38)">
+<g class="a-nod2">
+<path class="w" d="M9,-9 C6,-14 -3,-14 -6,-8 C-9,-3 -16,0 -25,5 L-21,9 C-13,8 -8,11 -2,11 C6,11 11,4 10,-3 Z"/>
+<path class="w" d="M9,-10 Q21,-11 21,1 Q16,-5 10,-3 Z"/>
+<path class="s" d="M9,-9 C6,-14 -3,-14 -6,-8 C-9,-3 -16,0 -25,5 L-21,9 C-13,8 -8,11 -2,11 C6,11 11,4 10,-3"/>
+<path class="s" d="M9,-10 Q21,-11 21,1 Q16,-5 10,-3"/>
+<circle class="p" cx="3" cy="-7" r="1.6"/>
+</g>
+</g>
+<g transform="translate(288 62)">
+<g class="a-nod3">
+<path class="w" d="M9,-9 C6,-14 -3,-14 -6,-8 C-9,-3 -16,0 -25,5 L-21,9 C-13,8 -8,11 -2,11 C6,11 11,4 10,-3 Z"/>
+<path class="w" d="M9,-9 Q22,-10 28,-1 Q20,-5 10,-4 Z"/>
+<path class="s" d="M9,-9 C6,-14 -3,-14 -6,-8 C-9,-3 -16,0 -25,5 L-21,9 C-13,8 -8,11 -2,11 C6,11 11,4 10,-3"/>
+<path class="s" d="M9,-9 Q22,-10 28,-1 Q20,-5 10,-4"/>
+<circle class="p" cx="3" cy="-7" r="1.6"/>
+</g>
+</g>
+<g transform="translate(338 118)">
+<g class="a-nod4">
+<path class="w" d="M9,-9 C6,-14 -3,-14 -6,-8 C-9,-3 -16,0 -25,5 L-21,9 C-13,8 -8,11 -2,11 C6,11 11,4 10,-3 Z"/>
+<path class="w" d="M9,-9 L20,-6.5 L10,-5 Z"/>
+<path class="s" d="M9,-9 C6,-14 -3,-14 -6,-8 C-9,-3 -16,0 -25,5 L-21,9 C-13,8 -8,11 -2,11 C6,11 11,4 10,-3"/>
+<path class="s" d="M9,-9 L20,-6.5 L10,-5"/>
+<circle class="p" cx="3" cy="-7" r="1.6"/>
+</g>
+</g>
+<g class="a-fl0"><circle class="p" cx="0" cy="0" r="2.4"/></g>
+<g class="a-fl1"><circle class="p" cx="0" cy="0" r="2.4"/></g>
+<g class="a-fl2"><circle class="p" cx="0" cy="0" r="2.4"/></g>
+<g class="a-fl3"><circle class="p" cx="0" cy="0" r="2.4"/></g>
+<g class="a-fl4"><circle class="p" cx="0" cy="0" r="2.4"/></g>
+<text class="t" x="200" y="216" text-anchor="middle">common ancestor</text>
+</svg>

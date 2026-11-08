@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="energy--solar-cell-pn-junction" data-discipline="energy" data-tags="solar-cell,photovoltaic,pn-junction,semiconductor,photon,electron-hole,renewable">
+<title>Solar Cell p–n Junction</title>
+<desc>A photon strikes the junction between n-type and p-type silicon, freeing an electron and a hole that are driven apart, so electrons flow through the external load.</desc>
+<style>
+.a-photon{animation:a-photon 5s linear infinite}
+@keyframes a-photon{0%{opacity:0;transform:translate(-11.6px,-13.8px)}10%{opacity:1}38%{opacity:1;transform:translate(0,0)}40%,100%{opacity:0;transform:translate(0,0)}}
+.a-pair-e{animation:a-pe 5s ease-out infinite;opacity:0}
+@keyframes a-pe{0%,38%{opacity:0;transform:translate(0,0)}42%{opacity:1}80%{opacity:1;transform:translate(-24px,-24px)}90%,100%{opacity:0;transform:translate(-24px,-24px)}}
+.a-pair-h{animation:a-ph 5s ease-out infinite;opacity:0}
+@keyframes a-ph{0%,38%{opacity:0;transform:translate(0,0)}42%{opacity:1}80%{opacity:1;transform:translate(14px,26px)}90%,100%{opacity:0;transform:translate(14px,26px)}}
+.a-e1,.a-e2,.a-e3{offset-path:path("M264,104 H346 V120 M346,150 V167 H270");animation:a-flow 5s linear infinite}
+.a-e2{animation-delay:-1.67s}
+.a-e3{animation-delay:-3.33s}
+@keyframes a-flow{from{offset-distance:0%}to{offset-distance:100%}}
+</style>
+<rect class="w" x="90" y="90" width="180" height="32"/>
+<rect class="w" x="90" y="122" width="180" height="40"/>
+<rect class="s" x="90" y="90" width="180" height="72"/>
+<path class="k q" d="M90,114 H270 M90,130 H270"/>
+<path class="s bold" d="M90,167 H270"/>
+<path class="pq" d="M109.4,100 a2.6,2.6 0 1 0 5.2,0 a2.6,2.6 0 1 0 -5.2,0ZM147.4,112 a2.6,2.6 0 1 0 5.2,0 a2.6,2.6 0 1 0 -5.2,0ZM193.4,99 a2.6,2.6 0 1 0 5.2,0 a2.6,2.6 0 1 0 -5.2,0ZM237.4,110 a2.6,2.6 0 1 0 5.2,0 a2.6,2.6 0 1 0 -5.2,0ZM125.4,115 a2.6,2.6 0 1 0 5.2,0 a2.6,2.6 0 1 0 -5.2,0ZM255.4,100 a2.6,2.6 0 1 0 5.2,0 a2.6,2.6 0 1 0 -5.2,0Z"/>
+<path class="q" d="M113,148 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0ZM157,142 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0ZM203,152 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0ZM245,144 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0ZM133,156 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0ZM227,156 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0Z"/>
+<path class="s" d="M270,104 H346 V120 M346,150 V167 H270"/>
+<circle class="w" cx="346" cy="135" r="15"/>
+<circle class="s" cx="346" cy="135" r="15"/>
+<path class="q" d="M338,143 Q343,126 346,135 Q349,144 354,127"/>
+<g class="a-photon">
+<path class="s" d="M128.1,74.5 L126.8,77.5 L128.2,78.1 L131.7,77 L134.2,76.7 L133.6,79 L131.9,82.3 L132.1,83.9 L135.2,83.2 L138.5,82.3 L139,83.7 L137.2,87 L136.5,89.4 L138.8,89.4 L142.3,88.2 L144,88.6 L142.8,91.5 L141.3,94.6 L142.5,95.4 L146,94.3 L148.6,93.9 L148.2,96 L146.4,99.4 L146.5,101.2 L149.4,100.5 L152.8,99.5 L153.5,100.8 L151.8,104 L150.9,106.6 L153,106.7 L156.6,105.5 L158.4,105.7 L157.4,108.5 L155.8,111.6 L156.7,112.7 L160.2,111.6 L163,111.1 L162.8,113 L161,116.4 L160.8,118.4 L163.6,117.8"/>
+</g>
+<g class="a-pair-e"><circle class="p" cx="168" cy="122" r="3.2"/></g>
+<g class="a-pair-h"><circle class="s" cx="168" cy="122" r="3.4"/></g>
+<g class="a-e1"><circle class="p" r="2.8"/></g><g class="a-e2"><circle class="p" r="2.8"/></g><g class="a-e3"><circle class="p" r="2.8"/></g>
+<text class="t" x="80" y="115" text-anchor="end">n</text>
+<text class="t" x="80" y="152" text-anchor="end">p</text>
+<text class="t" x="122.14716819943456" y="76.50524452662336" text-anchor="end">light</text>
+</svg>

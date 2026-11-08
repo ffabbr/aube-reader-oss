@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="medicine--peristalsis" data-discipline="medicine" data-tags="peristalsis,digestion,smooth-muscle,gut,oesophagus,bolus">
+<title>Peristalsis</title>
+<desc>Rings of muscle along the gut relax ahead of a bolus and squeeze behind it, so a travelling wave of contraction pushes the food forward along the tube.</desc>
+<style>
+.a-ring{transform-box:view-box;animation:a-ring 5s linear infinite}
+@keyframes a-ring{0%,30%{transform:scaleY(1)}40%{transform:scaleY(1.34)}52%{transform:scaleY(1.34)}62%{transform:scaleY(.46)}76%{transform:scaleY(.46)}90%{transform:scaleY(1)}100%{transform:scaleY(1)}}
+.a-r0{transform-origin:52px 106px;animation-delay:-5.000s}
+.a-r1{transform-origin:69px 106px;animation-delay:-4.722s}
+.a-r2{transform-origin:86px 106px;animation-delay:-4.444s}
+.a-r3{transform-origin:103px 106px;animation-delay:-4.167s}
+.a-r4{transform-origin:120px 106px;animation-delay:-3.889s}
+.a-r5{transform-origin:137px 106px;animation-delay:-3.611s}
+.a-r6{transform-origin:154px 106px;animation-delay:-3.333s}
+.a-r7{transform-origin:171px 106px;animation-delay:-3.056s}
+.a-r8{transform-origin:188px 106px;animation-delay:-2.778s}
+.a-r9{transform-origin:205px 106px;animation-delay:-2.500s}
+.a-r10{transform-origin:222px 106px;animation-delay:-2.222s}
+.a-r11{transform-origin:239px 106px;animation-delay:-1.944s}
+.a-r12{transform-origin:256px 106px;animation-delay:-1.667s}
+.a-r13{transform-origin:273px 106px;animation-delay:-1.389s}
+.a-r14{transform-origin:290px 106px;animation-delay:-1.111s}
+.a-r15{transform-origin:307px 106px;animation-delay:-0.833s}
+.a-r16{transform-origin:324px 106px;animation-delay:-0.556s}
+.a-r17{transform-origin:341px 106px;animation-delay:-0.278s}
+.a-bolus{animation:a-bolus 5s linear infinite}
+@keyframes a-bolus{0%{transform:translateX(165.2px);opacity:1}36.0%{opacity:1}46.00%{transform:translateX(306.0px);opacity:0}46.01%{transform:translateX(0);opacity:0}54.00%{opacity:1}100%{transform:translateX(165.2px);opacity:1}}
+</style>
+<g class="a-ring a-r0"><ellipse class="s" cx="52" cy="106" rx="7" ry="32"/></g>
+<g class="a-ring a-r1"><ellipse class="q" cx="69" cy="106" rx="7" ry="32"/></g>
+<g class="a-ring a-r2"><ellipse class="q" cx="86" cy="106" rx="7" ry="32"/></g>
+<g class="a-ring a-r3"><ellipse class="s" cx="103" cy="106" rx="7" ry="32"/></g>
+<g class="a-ring a-r4"><ellipse class="q" cx="120" cy="106" rx="7" ry="32"/></g>
+<g class="a-ring a-r5"><ellipse class="q" cx="137" cy="106" rx="7" ry="32"/></g>
+<g class="a-ring a-r6"><ellipse class="s" cx="154" cy="106" rx="7" ry="32"/></g>
+<g class="a-ring a-r7"><ellipse class="q" cx="171" cy="106" rx="7" ry="32"/></g>
+<g class="a-ring a-r8"><ellipse class="q" cx="188" cy="106" rx="7" ry="32"/></g>
+<g class="a-ring a-r9"><ellipse class="s" cx="205" cy="106" rx="7" ry="32"/></g>
+<g class="a-ring a-r10"><ellipse class="q" cx="222" cy="106" rx="7" ry="32"/></g>
+<g class="a-ring a-r11"><ellipse class="q" cx="239" cy="106" rx="7" ry="32"/></g>
+<g class="a-ring a-r12"><ellipse class="s" cx="256" cy="106" rx="7" ry="32"/></g>
+<g class="a-ring a-r13"><ellipse class="q" cx="273" cy="106" rx="7" ry="32"/></g>
+<g class="a-ring a-r14"><ellipse class="q" cx="290" cy="106" rx="7" ry="32"/></g>
+<g class="a-ring a-r15"><ellipse class="s" cx="307" cy="106" rx="7" ry="32"/></g>
+<g class="a-ring a-r16"><ellipse class="q" cx="324" cy="106" rx="7" ry="32"/></g>
+<g class="a-ring a-r17"><ellipse class="q" cx="341" cy="106" rx="7" ry="32"/></g>
+<g class="a-bolus"><ellipse class="w" cx="52" cy="106" rx="19" ry="33"/><ellipse class="pq" cx="52" cy="106" rx="11" ry="19"/><text class="t" x="52" y="54" text-anchor="middle">bolus</text></g>
+<path class="k f" d="M52,172H340"/>
+<path class="f" d="M332,166l10,6l-10,6"/>
+<text class="t" x="196" y="196" text-anchor="middle">wave of contraction</text>
+</svg>

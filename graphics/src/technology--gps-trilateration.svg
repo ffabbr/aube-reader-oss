@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="technology--gps-trilateration" data-discipline="technology" data-tags="gps,trilateration,satellite,navigation,positioning,signal,distance">
+<title>GPS Trilateration</title>
+<desc>Three satellites send timed signals; each travel time gives a distance, an arc around that satellite, and the three arcs cross at one point on the ground: the receiver.</desc>
+<style>
+.a-p0{transform-box:view-box;transform-origin:72px 62px;animation:a-p0 2.5s linear infinite;opacity:0}
+@keyframes a-p0{0%{transform:scale(.08);opacity:0}6%{opacity:1}78.0%{transform:scale(1);opacity:1}88.0%,100%{transform:scale(1);opacity:0}}
+.a-p1{transform-box:view-box;transform-origin:200px 36px;animation:a-p1 2.5s linear infinite;opacity:0}
+@keyframes a-p1{0%{transform:scale(.08);opacity:0}6%{opacity:1}62.4%{transform:scale(1);opacity:1}72.4%,100%{transform:scale(1);opacity:0}}
+.a-p2{transform-box:view-box;transform-origin:328px 62px;animation:a-p2 2.5s linear infinite;opacity:0}
+@keyframes a-p2{0%{transform:scale(.08);opacity:0}6%{opacity:1}78.0%{transform:scale(1);opacity:1}88.0%,100%{transform:scale(1);opacity:0}}
+.a-ping{transform-box:view-box;transform-origin:200px 170px;animation:a-ping 2.5s ease-out infinite;opacity:0}
+@keyframes a-ping{0%,78%{transform:scale(.4);opacity:0}80%{transform:scale(.4);opacity:1}100%{transform:scale(1.5);opacity:0}}
+</style>
+<path class="w" d="M20,210.5 A420,420 0 0 1 380,210.5 V220 H20 Z"/>
+<path class="q" d="M20,210.5 A420,420 0 0 1 380,210.5"/>
+<path class="k f" d="M72,62 L200,170"/>
+<path class="k f" d="M200,36 L200,170"/>
+<path class="k f" d="M328,62 L200,170"/>
+<path class="k q" d="M221,138.4 A167.5,167.5 0 0 1 172.4,196"/>
+<path class="k q" d="M230.1,166.6 A134,134 0 0 1 169.9,166.6"/>
+<path class="k q" d="M227.6,196 A167.5,167.5 0 0 1 179,138.4"/>
+<rect class="w" x="66" y="57" width="12" height="10"/><rect class="s" x="66" y="57" width="12" height="10"/>
+<path class="s" d="M66,62 H62 M78,62 H82"/>
+<rect class="q" x="46" y="58" width="16" height="8"/><rect class="q" x="82" y="58" width="16" height="8"/>
+<rect class="w" x="194" y="31" width="12" height="10"/><rect class="s" x="194" y="31" width="12" height="10"/>
+<path class="s" d="M194,36 H190 M206,36 H210"/>
+<rect class="q" x="174" y="32" width="16" height="8"/><rect class="q" x="210" y="32" width="16" height="8"/>
+<rect class="w" x="322" y="57" width="12" height="10"/><rect class="s" x="322" y="57" width="12" height="10"/>
+<path class="s" d="M322,62 H318 M334,62 H338"/>
+<rect class="q" x="302" y="58" width="16" height="8"/><rect class="q" x="338" y="58" width="16" height="8"/>
+<g class="a-p0"><path class="s" d="M221,138.4 A167.5,167.5 0 0 1 172.4,196"/></g>
+<g class="a-p1"><path class="s" d="M230.1,166.6 A134,134 0 0 1 169.9,166.6"/></g>
+<g class="a-p2"><path class="s" d="M227.6,196 A167.5,167.5 0 0 1 179,138.4"/></g>
+<g class="a-ping"><circle class="s" cx="200" cy="170" r="11"/></g>
+<circle class="p" cx="200" cy="170" r="4"/>
+<text class="t" x="200" y="214" text-anchor="middle">three distances, one place</text>
+</svg>

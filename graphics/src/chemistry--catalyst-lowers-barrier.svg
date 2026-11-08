@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="chemistry--catalyst-lowers-barrier" data-discipline="chemistry" data-tags="catalyst,activation-energy,reaction-rate,energy-barrier,reaction-pathway,kinetics">
+<title>A catalyst lowers the energy barrier</title>
+<desc>Two routes from reactants to products: the dashed hill is the uncatalysed climb, the lower solid one is the catalysed route, so more molecules get over.</desc>
+<style>
+.a-ball{offset-path:path("M50,150 H100 C130,150 148,106 200,106 C250,106 262,185 300,185 H350");offset-rotate:0deg;animation:a-ball 5s ease-in-out infinite}
+@keyframes a-ball{0%{offset-distance:0%;opacity:0}8%{opacity:1}84%{opacity:1}95%,100%{offset-distance:100%;opacity:0}}
+</style>
+<path class="f" d="M50,30 V206 H360"/>
+<path class="k q" d="M50,150 H100 C140,150 150,50 200,50 C250,50 260,185 300,185 H350"/>
+<path class="s" d="M50,150 H100 C130,150 148,106 200,106 C250,106 262,185 300,185 H350"/>
+<path class="q" d="M200,58 V98 M195,91 l5,8 l5,-8"/>
+<g class="a-ball"><circle class="w" cx="0" cy="-7" r="7"/><circle class="s" cx="0" cy="-7" r="7"/></g>
+<text class="t" x="244" y="50" text-anchor="start">uncatalysed</text>
+<text class="t" x="205" y="150" text-anchor="middle">catalysed</text>
+<text class="t" x="205" y="224" text-anchor="middle">reaction progress</text>
+</svg>

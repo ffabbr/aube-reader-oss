@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="computing--breadth-first-search" data-discipline="computing" data-tags="graph,traversal,search,queue,shortest-path">
+<title>Breadth-first search</title>
+<desc>A dashed frontier sweeps outward from the start node of a graph, visiting every node one step away, then two steps, then three: breadth-first traversal.</desc>
+<style>
+.a-lv0{animation:a-lv0 10s ease-out infinite}
+@keyframes a-lv0{0%{opacity:0}39%{opacity:0}43%{opacity:1}100%{opacity:1}}
+.a-lv1{animation:a-lv1 10s ease-out infinite}
+@keyframes a-lv1{0%{opacity:0}50.5%{opacity:0}54.5%{opacity:1}100%{opacity:1}}
+.a-lv2{animation:a-lv2 10s ease-out infinite}
+@keyframes a-lv2{0%{opacity:0}62.5%{opacity:0}66.5%{opacity:1}100%{opacity:1}}
+.a-lv3{animation:a-lv3 10s ease-out infinite}
+@keyframes a-lv3{0%{opacity:0}74.5%{opacity:0}78.5%{opacity:1}100%{opacity:1}}
+.a-front{animation:a-front 10s linear infinite}
+@keyframes a-front{0%{opacity:0;transform:translateX(0)}39%{opacity:0;transform:translateX(0)}40%{opacity:1;transform:translateX(0)}76%{opacity:1;transform:translateX(255px)}79%{opacity:0;transform:translateX(255px)}100%{opacity:0}}
+</style>
+<path class="f" d="M75,120 L160,60 M75,120 L160,120 M75,120 L160,180 M160,60 L245,42 M160,60 L245,94 M160,120 L245,146 M160,180 L245,198 M245,42 L330,68 M245,146 L330,124 M245,198 L330,176 M160,120 L245,94 M245,94 L330,68 M245,146 L330,176"/>
+<path class="w" d="M66,120 a9,9 0 1,0 18,0 a9,9 0 1,0 -18,0 M151,60 a9,9 0 1,0 18,0 a9,9 0 1,0 -18,0 M151,120 a9,9 0 1,0 18,0 a9,9 0 1,0 -18,0 M151,180 a9,9 0 1,0 18,0 a9,9 0 1,0 -18,0 M236,42 a9,9 0 1,0 18,0 a9,9 0 1,0 -18,0 M236,94 a9,9 0 1,0 18,0 a9,9 0 1,0 -18,0 M236,146 a9,9 0 1,0 18,0 a9,9 0 1,0 -18,0 M236,198 a9,9 0 1,0 18,0 a9,9 0 1,0 -18,0 M321,68 a9,9 0 1,0 18,0 a9,9 0 1,0 -18,0 M321,124 a9,9 0 1,0 18,0 a9,9 0 1,0 -18,0 M321,176 a9,9 0 1,0 18,0 a9,9 0 1,0 -18,0"/>
+<path class="q" d="M66,120 a9,9 0 1,0 18,0 a9,9 0 1,0 -18,0 M151,60 a9,9 0 1,0 18,0 a9,9 0 1,0 -18,0 M151,120 a9,9 0 1,0 18,0 a9,9 0 1,0 -18,0 M151,180 a9,9 0 1,0 18,0 a9,9 0 1,0 -18,0 M236,42 a9,9 0 1,0 18,0 a9,9 0 1,0 -18,0 M236,94 a9,9 0 1,0 18,0 a9,9 0 1,0 -18,0 M236,146 a9,9 0 1,0 18,0 a9,9 0 1,0 -18,0 M236,198 a9,9 0 1,0 18,0 a9,9 0 1,0 -18,0 M321,68 a9,9 0 1,0 18,0 a9,9 0 1,0 -18,0 M321,124 a9,9 0 1,0 18,0 a9,9 0 1,0 -18,0 M321,176 a9,9 0 1,0 18,0 a9,9 0 1,0 -18,0"/>
+<g class="a-lv a-lv0"><path class="p" d="M66,120 a9,9 0 1,0 18,0 a9,9 0 1,0 -18,0"/></g>
+<g class="a-lv a-lv1"><path class="s" d="M75,120 L160,60 M75,120 L160,120 M75,120 L160,180"/><path class="p" d="M151,60 a9,9 0 1,0 18,0 a9,9 0 1,0 -18,0 M151,120 a9,9 0 1,0 18,0 a9,9 0 1,0 -18,0 M151,180 a9,9 0 1,0 18,0 a9,9 0 1,0 -18,0"/></g>
+<g class="a-lv a-lv2"><path class="s" d="M160,60 L245,42 M160,60 L245,94 M160,120 L245,146 M160,180 L245,198"/><path class="p" d="M236,42 a9,9 0 1,0 18,0 a9,9 0 1,0 -18,0 M236,94 a9,9 0 1,0 18,0 a9,9 0 1,0 -18,0 M236,146 a9,9 0 1,0 18,0 a9,9 0 1,0 -18,0 M236,198 a9,9 0 1,0 18,0 a9,9 0 1,0 -18,0"/></g>
+<g class="a-lv a-lv3"><path class="s" d="M245,42 L330,68 M245,146 L330,124 M245,198 L330,176"/><path class="p" d="M321,68 a9,9 0 1,0 18,0 a9,9 0 1,0 -18,0 M321,124 a9,9 0 1,0 18,0 a9,9 0 1,0 -18,0 M321,176 a9,9 0 1,0 18,0 a9,9 0 1,0 -18,0"/></g>
+<g class="a-front"><path class="k q" d="M75,28 V208"/></g>
+<text class="t" x="61" y="124" text-anchor="end">start</text>
+<text class="t" x="205" y="222" text-anchor="middle">nearest first</text>
+</svg>

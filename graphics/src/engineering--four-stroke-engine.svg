@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="engineering--four-stroke-engine" data-discipline="engineering" data-tags="engine,piston,crankshaft,internal-combustion,thermodynamics,valves,cycle">
+<title>Four-Stroke Engine</title>
+<desc>A piston, connecting rod and crank cycle through intake, compression, power and exhaust strokes while the valves open in turn and a spark ignites the charge.</desc>
+<style>
+.a-piston{animation:a-piston 5s linear infinite}
+@keyframes a-piston{0%{transform:translateY(0.00px)}4.2%{transform:translateY(0.88px)}8.3%{transform:translateY(3.42px)}12.5%{transform:translateY(7.34px)}16.7%{transform:translateY(12.24px)}20.8%{transform:translateY(17.63px)}25%{transform:translateY(23.01px)}29.2%{transform:translateY(27.98px)}33.3%{transform:translateY(32.24px)}37.5%{transform:translateY(35.63px)}41.7%{transform:translateY(38.06px)}45.8%{transform:translateY(39.52px)}50%{transform:translateY(40.00px)}54.2%{transform:translateY(39.52px)}58.3%{transform:translateY(38.06px)}62.5%{transform:translateY(35.63px)}66.7%{transform:translateY(32.24px)}70.8%{transform:translateY(27.98px)}75%{transform:translateY(23.01px)}79.2%{transform:translateY(17.63px)}83.3%{transform:translateY(12.24px)}87.5%{transform:translateY(7.34px)}91.7%{transform:translateY(3.42px)}95.8%{transform:translateY(0.88px)}100%{transform:translateY(0.00px)}}
+.a-rod{transform-box:view-box;transform-origin:130px 104px;animation:a-rodswing 5s linear infinite}
+@keyframes a-rodswing{0%{transform:rotate(-0.00deg)}4.2%{transform:rotate(-4.37deg)}8.3%{transform:rotate(-8.46deg)}12.5%{transform:rotate(-12.00deg)}16.7%{transform:rotate(-14.76deg)}20.8%{transform:rotate(-16.50deg)}25%{transform:rotate(-17.10deg)}29.2%{transform:rotate(-16.50deg)}33.3%{transform:rotate(-14.76deg)}37.5%{transform:rotate(-12.00deg)}41.7%{transform:rotate(-8.46deg)}45.8%{transform:rotate(-4.37deg)}50%{transform:rotate(-0.00deg)}54.2%{transform:rotate(4.37deg)}58.3%{transform:rotate(8.46deg)}62.5%{transform:rotate(12.00deg)}66.7%{transform:rotate(14.76deg)}70.8%{transform:rotate(16.50deg)}75%{transform:rotate(17.10deg)}79.2%{transform:rotate(16.50deg)}83.3%{transform:rotate(14.76deg)}87.5%{transform:rotate(12.00deg)}91.7%{transform:rotate(8.46deg)}95.8%{transform:rotate(4.37deg)}100%{transform:rotate(0.00deg)}}
+.a-crank{transform-box:view-box;transform-origin:130px 192px;animation:a-crank 5s linear infinite}
+@keyframes a-crank{to{transform:rotate(360deg)}}
+.a-hand{transform-box:view-box;transform-origin:300px 112px;animation:a-crank 10s linear infinite}
+.a-valve-in{animation:a-vin 10s ease-in-out infinite}
+@keyframes a-vin{0%,2%{transform:translateY(0)}8%,22%{transform:translateY(5px)}28%,100%{transform:translateY(0)}}
+.a-valve-ex{animation:a-vex 10s ease-in-out infinite}
+@keyframes a-vex{0%,72%{transform:translateY(0)}78%,92%{transform:translateY(5px)}98%,100%{transform:translateY(0)}}
+.a-spark{animation:a-spark 10s linear infinite;opacity:0}
+@keyframes a-spark{0%,49%{opacity:0}50%,54%{opacity:1}58%,100%{opacity:0}}
+</style>
+<rect class="w" x="94" y="40" width="72" height="24"/>
+<path class="s" d="M94,158 V40 H166 V158"/>
+<path class="s" d="M94,64 H166"/>
+<g class="a-valve-in">
+<path class="s" d="M112,28 V65 M104,65 H120"/>
+</g>
+<g class="a-valve-ex">
+<path class="s" d="M148,28 V65 M140,65 H156"/>
+</g>
+<path class="q" d="M130,28 V62"/>
+<g class="a-spark">
+<path class="s" d="M125,72 L131,77 L127,78 L134,85 M138,70 L142,66 M121,74 L117,70"/>
+</g>
+<g class="a-piston">
+<rect class="w" x="97" y="90" width="66" height="24" rx="2"/>
+<rect class="s" x="97" y="90" width="66" height="24" rx="2"/>
+<path class="q" d="M97,95 H163 M97,99 H163"/>
+<g class="a-rod">
+<path class="s" d="M130,104 V172"/>
+<circle class="w" cx="130" cy="172" r="6"/>
+<circle class="s" cx="130" cy="172" r="6"/>
+</g>
+<circle class="p" cx="130" cy="104" r="2.4"/>
+</g>
+<g class="a-crank">
+<circle class="w" cx="130" cy="192" r="27"/>
+<circle class="s" cx="130" cy="192" r="27"/>
+<path class="q" d="M130,192 V172"/>
+<circle class="p" cx="130" cy="172" r="3"/>
+</g>
+<circle class="p" cx="130" cy="192" r="3"/>
+<circle class="q" cx="300" cy="112" r="46"/>
+<path class="q" d="M339,112 L351,112 M300,151 L300,163 M261,112 L249,112 M300,73 L300,61 "/>
+<path class="f" d="M317.7,87.3 L317.7,101.3 M315.6,97.3 L317.7,101.3 M319.8,97.3 L317.7,101.3M317.7,136.7 L317.7,122.7 M319.8,126.7 L317.7,122.7 M315.6,126.7 L317.7,122.7M282.3,122.7 L282.3,136.7 M280.2,132.7 L282.3,136.7 M284.4,132.7 L282.3,136.7M282.3,101.3 L282.3,87.3 M284.4,91.3 L282.3,87.3 M280.2,91.3 L282.3,87.3"/>
+<g class="a-hand">
+<path class="s" d="M300,112 L300,75"/>
+</g>
+<circle class="p" cx="300" cy="112" r="3"/>
+<text class="t" x="86" y="44" text-anchor="end">intake</text>
+<text class="t" x="174" y="44" text-anchor="start">exhaust</text>
+<text class="t" x="300" y="190" text-anchor="middle">4 strokes, 2 turns</text>
+</svg>

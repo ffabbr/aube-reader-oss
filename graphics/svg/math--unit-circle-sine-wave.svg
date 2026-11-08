@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="math--unit-circle-sine-wave" data-discipline="math" data-tags="trigonometry,sine,unit-circle,periodic,angle,waves" role="img">
+ <title>Unit circle and sine wave</title>
+ <desc>A radius turns round the unit circle while its height is unrolled into a sine wave: sin θ is the vertical shadow of a point in circular motion.</desc>
+ <style>
+:root{--ink:#110f0c;--quiet:#555350;--faint:#b8b6b2;--wash:#f5f3ef}
+@media (prefers-color-scheme:dark){:root{--ink:#e7e5e2;--quiet:#a3a19e;--faint:#524f4c;--wash:#252321}}
+svg{overflow:visible}
+.s,.q,.f{fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1;stroke-dashoffset:0}
+.s{stroke:var(--ink);stroke-width:1.5}
+.q{stroke:var(--quiet);stroke-width:1.3}
+.f{stroke:var(--faint);stroke-width:1.1}
+.hair{stroke-width:1!important}
+.bold{stroke-width:2.2!important}
+.k{fill:none;stroke-dasharray:5 5!important;stroke-linecap:round}
+.p{fill:var(--ink);stroke:none}
+.pq{fill:var(--quiet);stroke:none}
+.w{fill:var(--wash);stroke:none}
+.t{fill:var(--quiet);stroke:none;font:italic 13px ui-serif,"New York",Georgia,serif}
+.all{animation:out 10s linear infinite}
+@keyframes out{0%,90%{opacity:1}97%,99.9%{opacity:0}100%{opacity:1}}
+@keyframes dr0{0%,0.0%{stroke-dashoffset:1;opacity:0}0.1%{stroke-dashoffset:1;opacity:1}9%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd0{0%,0.0%{opacity:0}7%,100%{opacity:1}}
+@keyframes dr1{0%,2.2%{stroke-dashoffset:1;opacity:0}2.3%{stroke-dashoffset:1;opacity:1}11.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd1{0%,2.2%{opacity:0}9.2%,100%{opacity:1}}
+@keyframes dr2{0%,4.4%{stroke-dashoffset:1;opacity:0}4.5%{stroke-dashoffset:1;opacity:1}13.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd2{0%,4.4%{opacity:0}11.4%,100%{opacity:1}}
+@keyframes dr3{0%,6.6%{stroke-dashoffset:1;opacity:0}6.7%{stroke-dashoffset:1;opacity:1}15.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd3{0%,6.6%{opacity:0}13.6%,100%{opacity:1}}
+@keyframes dr4{0%,8.8%{stroke-dashoffset:1;opacity:0}8.9%{stroke-dashoffset:1;opacity:1}17.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd4{0%,8.8%{opacity:0}15.8%,100%{opacity:1}}
+@keyframes dr5{0%,11.0%{stroke-dashoffset:1;opacity:0}11.1%{stroke-dashoffset:1;opacity:1}20%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd5{0%,11.0%{opacity:0}18%,100%{opacity:1}}
+@keyframes dr6{0%,13.2%{stroke-dashoffset:1;opacity:0}13.3%{stroke-dashoffset:1;opacity:1}22.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd6{0%,13.2%{opacity:0}20.2%,100%{opacity:1}}
+@keyframes dr7{0%,15.4%{stroke-dashoffset:1;opacity:0}15.5%{stroke-dashoffset:1;opacity:1}24.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd7{0%,15.4%{opacity:0}22.4%,100%{opacity:1}}
+@keyframes dr8{0%,17.6%{stroke-dashoffset:1;opacity:0}17.7%{stroke-dashoffset:1;opacity:1}26.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd8{0%,17.6%{opacity:0}24.6%,100%{opacity:1}}
+@keyframes dr9{0%,19.8%{stroke-dashoffset:1;opacity:0}19.9%{stroke-dashoffset:1;opacity:1}28.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd9{0%,19.8%{opacity:0}26.8%,100%{opacity:1}}
+@keyframes dr10{0%,22.0%{stroke-dashoffset:1;opacity:0}22.1%{stroke-dashoffset:1;opacity:1}31%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd10{0%,22.0%{opacity:0}29%,100%{opacity:1}}
+@keyframes dr11{0%,24.2%{stroke-dashoffset:1;opacity:0}24.3%{stroke-dashoffset:1;opacity:1}33.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd11{0%,24.2%{opacity:0}31.2%,100%{opacity:1}}
+@keyframes dr12{0%,26.4%{stroke-dashoffset:1;opacity:0}26.5%{stroke-dashoffset:1;opacity:1}35.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd12{0%,26.4%{opacity:0}33.4%,100%{opacity:1}}
+@keyframes dr13{0%,28.6%{stroke-dashoffset:1;opacity:0}28.7%{stroke-dashoffset:1;opacity:1}37.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd13{0%,28.6%{opacity:0}35.6%,100%{opacity:1}}
+@keyframes dr14{0%,30.8%{stroke-dashoffset:1;opacity:0}30.9%{stroke-dashoffset:1;opacity:1}39.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd14{0%,30.8%{opacity:0}37.8%,100%{opacity:1}}
+@keyframes dr15{0%,33.0%{stroke-dashoffset:1;opacity:0}33.1%{stroke-dashoffset:1;opacity:1}42%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd15{0%,33.0%{opacity:0}40%,100%{opacity:1}}
+.s.i0,.q.i0,.f.i0{animation:dr0 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i1,.q.i1,.f.i1{animation:dr1 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i2,.q.i2,.f.i2{animation:dr2 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i3,.q.i3,.f.i3{animation:dr3 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i4,.q.i4,.f.i4{animation:dr4 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i5,.q.i5,.f.i5{animation:dr5 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i6,.q.i6,.f.i6{animation:dr6 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i7,.q.i7,.f.i7{animation:dr7 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i8,.q.i8,.f.i8{animation:dr8 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i9,.q.i9,.f.i9{animation:dr9 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i10,.q.i10,.f.i10{animation:dr10 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i11,.q.i11,.f.i11{animation:dr11 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i12,.q.i12,.f.i12{animation:dr12 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i13,.q.i13,.f.i13{animation:dr13 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i14,.q.i14,.f.i14{animation:dr14 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i15,.q.i15,.f.i15{animation:dr15 10s cubic-bezier(.55,.05,.25,1) infinite}
+.p.i0,.w.i0,.pq.i0,.t.i0,.k.i0{animation:fd0 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i1,.w.i1,.pq.i1,.t.i1,.k.i1{animation:fd1 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i2,.w.i2,.pq.i2,.t.i2,.k.i2{animation:fd2 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i3,.w.i3,.pq.i3,.t.i3,.k.i3{animation:fd3 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i4,.w.i4,.pq.i4,.t.i4,.k.i4{animation:fd4 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i5,.w.i5,.pq.i5,.t.i5,.k.i5{animation:fd5 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i6,.w.i6,.pq.i6,.t.i6,.k.i6{animation:fd6 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i7,.w.i7,.pq.i7,.t.i7,.k.i7{animation:fd7 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i8,.w.i8,.pq.i8,.t.i8,.k.i8{animation:fd8 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i9,.w.i9,.pq.i9,.t.i9,.k.i9{animation:fd9 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i10,.w.i10,.pq.i10,.t.i10,.k.i10{animation:fd10 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i11,.w.i11,.pq.i11,.t.i11,.k.i11{animation:fd11 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i12,.w.i12,.pq.i12,.t.i12,.k.i12{animation:fd12 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i13,.w.i13,.pq.i13,.t.i13,.k.i13{animation:fd13 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i14,.w.i14,.pq.i14,.t.i14,.k.i14{animation:fd14 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i15,.w.i15,.pq.i15,.t.i15,.k.i15{animation:fd15 10s cubic-bezier(.2,.7,.3,1) infinite}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+ <style>
+.a-spin{transform-box:view-box;transform-origin:105px 122px;animation:a-spin 5s linear infinite;}
+@keyframes a-spin{to{transform:rotate(-360deg)}}
+.a-trace{transform-box:view-box;transform-origin:0px 0px;animation:a-trace 5s linear infinite;}
+@keyframes a-trace{0%{transform:translate(0px,0px)}2.08%{transform:translate(3.6px,-8.4px)}4.17%{transform:translate(7.3px,-16.6px)}6.25%{transform:translate(10.9px,-24.5px)}8.33%{transform:translate(14.6px,-32px)}10.42%{transform:translate(18.2px,-39px)}12.5%{transform:translate(21.9px,-45.3px)}14.58%{transform:translate(25.5px,-50.8px)}16.67%{transform:translate(29.2px,-55.4px)}18.75%{transform:translate(32.8px,-59.1px)}20.83%{transform:translate(36.5px,-61.8px)}22.92%{transform:translate(40.1px,-63.5px)}25%{transform:translate(43.8px,-64px)}27.08%{transform:translate(47.4px,-63.5px)}29.17%{transform:translate(51px,-61.8px)}31.25%{transform:translate(54.7px,-59.1px)}33.33%{transform:translate(58.3px,-55.4px)}35.42%{transform:translate(62px,-50.8px)}37.5%{transform:translate(65.6px,-45.3px)}39.58%{transform:translate(69.3px,-39px)}41.67%{transform:translate(72.9px,-32px)}43.75%{transform:translate(76.6px,-24.5px)}45.83%{transform:translate(80.2px,-16.6px)}47.92%{transform:translate(83.9px,-8.4px)}50%{transform:translate(87.5px,0px)}52.08%{transform:translate(91.1px,8.4px)}54.17%{transform:translate(94.8px,16.6px)}56.25%{transform:translate(98.4px,24.5px)}58.33%{transform:translate(102.1px,32px)}60.42%{transform:translate(105.7px,39px)}62.5%{transform:translate(109.4px,45.3px)}64.58%{transform:translate(113px,50.8px)}66.67%{transform:translate(116.7px,55.4px)}68.75%{transform:translate(120.3px,59.1px)}70.83%{transform:translate(124px,61.8px)}72.92%{transform:translate(127.6px,63.5px)}75%{transform:translate(131.2px,64px)}77.08%{transform:translate(134.9px,63.5px)}79.17%{transform:translate(138.5px,61.8px)}81.25%{transform:translate(142.2px,59.1px)}83.33%{transform:translate(145.8px,55.4px)}85.42%{transform:translate(149.5px,50.8px)}87.5%{transform:translate(153.1px,45.3px)}89.58%{transform:translate(156.8px,39px)}91.67%{transform:translate(160.4px,32px)}93.75%{transform:translate(164.1px,24.5px)}95.83%{transform:translate(167.7px,16.6px)}97.92%{transform:translate(171.4px,8.4px)}100%{transform:translate(175px,0px)}}
+.a-bridge{transform-box:view-box;transform-origin:169px 122px;animation:a-bridge 5s linear infinite;}
+@keyframes a-bridge{0%{transform:translate(0px,0px) rotate(0.0deg) scaleX(0.36)}1.67%{transform:translate(-0.4px,-6.7px) rotate(0.0deg) scaleX(0.3927)}3.33%{transform:translate(-1.4px,-13.3px) rotate(0.0deg) scaleX(0.4323)}5%{transform:translate(-3.1px,-19.8px) rotate(0.0deg) scaleX(0.4788)}6.67%{transform:translate(-5.5px,-26px) rotate(0.0deg) scaleX(0.532)}8.33%{transform:translate(-8.6px,-32px) rotate(0.0deg) scaleX(0.5916)}10%{transform:translate(-12.2px,-37.6px) rotate(0.0deg) scaleX(0.6572)}11.67%{transform:translate(-16.4px,-42.8px) rotate(0.0deg) scaleX(0.7286)}13.33%{transform:translate(-21.2px,-47.6px) rotate(0.0deg) scaleX(0.8051)}15%{transform:translate(-26.4px,-51.8px) rotate(0.0deg) scaleX(0.8863)}16.67%{transform:translate(-32px,-55.4px) rotate(0.0deg) scaleX(0.9717)}18.33%{transform:translate(-38px,-58.5px) rotate(0.0deg) scaleX(1.0605)}20%{transform:translate(-44.2px,-60.9px) rotate(0.0deg) scaleX(1.1522)}21.67%{transform:translate(-50.7px,-62.6px) rotate(0.0deg) scaleX(1.2461)}23.33%{transform:translate(-57.3px,-63.6px) rotate(0.0deg) scaleX(1.3414)}25%{transform:translate(-64px,-64px) rotate(0.0deg) scaleX(1.4375)}26.67%{transform:translate(-70.7px,-63.6px) rotate(0.0deg) scaleX(1.5336)}28.33%{transform:translate(-77.3px,-62.6px) rotate(0.0deg) scaleX(1.6289)}30%{transform:translate(-83.8px,-60.9px) rotate(0.0deg) scaleX(1.7228)}31.67%{transform:translate(-90px,-58.5px) rotate(0.0deg) scaleX(1.8145)}33.33%{transform:translate(-96px,-55.4px) rotate(0.0deg) scaleX(1.9033)}35%{transform:translate(-101.6px,-51.8px) rotate(0.0deg) scaleX(1.9887)}36.67%{transform:translate(-106.8px,-47.6px) rotate(0.0deg) scaleX(2.0699)}38.33%{transform:translate(-111.6px,-42.8px) rotate(0.0deg) scaleX(2.1464)}40%{transform:translate(-115.8px,-37.6px) rotate(0.0deg) scaleX(2.2178)}41.67%{transform:translate(-119.4px,-32px) rotate(0.0deg) scaleX(2.2834)}43.33%{transform:translate(-122.5px,-26px) rotate(0.0deg) scaleX(2.343)}45%{transform:translate(-124.9px,-19.8px) rotate(0.0deg) scaleX(2.3962)}46.67%{transform:translate(-126.6px,-13.3px) rotate(0.0deg) scaleX(2.4427)}48.33%{transform:translate(-127.6px,-6.7px) rotate(0.0deg) scaleX(2.4823)}50%{transform:translate(-128px,0px) rotate(0.0deg) scaleX(2.515)}51.67%{transform:translate(-127.6px,6.7px) rotate(0.0deg) scaleX(2.5407)}53.33%{transform:translate(-126.6px,13.3px) rotate(0.0deg) scaleX(2.5593)}55.0%{transform:translate(-124.9px,19.8px) rotate(0.0deg) scaleX(2.5712)}56.67%{transform:translate(-122.5px,26px) rotate(0.0deg) scaleX(2.5763)}58.33%{transform:translate(-119.4px,32px) rotate(0.0deg) scaleX(2.5751)}60%{transform:translate(-115.8px,37.6px) rotate(0.0deg) scaleX(2.5678)}61.67%{transform:translate(-111.6px,42.8px) rotate(0.0deg) scaleX(2.5548)}63.33%{transform:translate(-106.8px,47.6px) rotate(0.0deg) scaleX(2.5366)}65%{transform:translate(-101.6px,51.8px) rotate(0.0deg) scaleX(2.5137)}66.67%{transform:translate(-96px,55.4px) rotate(0.0deg) scaleX(2.4867)}68.33%{transform:translate(-90px,58.5px) rotate(0.0deg) scaleX(2.4561)}70%{transform:translate(-83.8px,60.9px) rotate(0.0deg) scaleX(2.4228)}71.67%{transform:translate(-77.3px,62.6px) rotate(0.0deg) scaleX(2.3872)}73.33%{transform:translate(-70.7px,63.6px) rotate(0.0deg) scaleX(2.3502)}75%{transform:translate(-64px,64px) rotate(0.0deg) scaleX(2.3125)}76.67%{transform:translate(-57.3px,63.6px) rotate(0.0deg) scaleX(2.2748)}78.33%{transform:translate(-50.7px,62.6px) rotate(0.0deg) scaleX(2.2378)}80%{transform:translate(-44.2px,60.9px) rotate(0.0deg) scaleX(2.2022)}81.67%{transform:translate(-38px,58.5px) rotate(0.0deg) scaleX(2.1689)}83.33%{transform:translate(-32px,55.4px) rotate(0.0deg) scaleX(2.1383)}85%{transform:translate(-26.4px,51.8px) rotate(0.0deg) scaleX(2.1113)}86.67%{transform:translate(-21.2px,47.6px) rotate(0.0deg) scaleX(2.0884)}88.33%{transform:translate(-16.4px,42.8px) rotate(0.0deg) scaleX(2.0702)}90%{transform:translate(-12.2px,37.6px) rotate(0.0deg) scaleX(2.0572)}91.67%{transform:translate(-8.6px,32px) rotate(0.0deg) scaleX(2.0499)}93.33%{transform:translate(-5.5px,26px) rotate(0.0deg) scaleX(2.0487)}95%{transform:translate(-3.1px,19.8px) rotate(0.0deg) scaleX(2.0538)}96.67%{transform:translate(-1.4px,13.3px) rotate(0.0deg) scaleX(2.0657)}98.33%{transform:translate(-0.4px,6.7px) rotate(0.0deg) scaleX(2.0843)}100%{transform:translate(0px,0px) rotate(0.0deg) scaleX(2.11)}}
+</style>
+ <g class="all">
+  <path class="f i0" d="M40,122 H385 M105,50 V194" pathLength="1" />
+  <circle class="w i1" cx="105" cy="122" r="64" />
+  <circle class="q i2" cx="105" cy="122" r="64" pathLength="1" />
+  <path class="s i3" d="M205,122 L206.9,117.5 L208.9,113.1 L210.8,108.7 L212.8,104.4 L214.7,100.1 L216.7,96 L218.6,92 L220.6,88.1 L222.5,84.4 L224.4,80.9 L226.4,77.5 L228.3,74.4 L230.3,71.6 L232.2,68.9 L234.2,66.6 L236.1,64.5 L238.1,62.7 L240,61.1 L241.9,59.9 L243.9,59 L245.8,58.4 L247.8,58 L249.7,58 L251.7,58.4 L253.6,59 L255.6,59.9 L257.5,61.1 L259.4,62.7 L261.4,64.5 L263.3,66.6 L265.3,68.9 L267.2,71.6 L269.2,74.4 L271.1,77.5 L273.1,80.9 L275,84.4 L276.9,88.1 L278.9,92 L280.8,96 L282.8,100.1 L284.7,104.4 L286.7,108.7 L288.6,113.1 L290.6,117.5 L292.5,122 L294.4,126.5 L296.4,130.9 L298.3,135.3 L300.3,139.6 L302.2,143.9 L304.2,148 L306.1,152 L308.1,155.9 L310,159.6 L311.9,163.1 L313.9,166.5 L315.8,169.6 L317.8,172.4 L319.7,175.1 L321.7,177.4 L323.6,179.5 L325.6,181.3 L327.5,182.9 L329.4,184.1 L331.4,185 L333.3,185.6 L335.3,186 L337.2,186 L339.2,185.6 L341.1,185 L343.1,184.1 L345,182.9 L346.9,181.3 L348.9,179.5 L350.8,177.4 L352.8,175.1 L354.7,172.4 L356.7,169.6 L358.6,166.5 L360.6,163.1 L362.5,159.6 L364.4,155.9 L366.4,152 L368.3,148 L370.3,143.9 L372.2,139.6 L374.2,135.3 L376.1,130.9 L378.1,126.5 L380,122" pathLength="1" />
+  <g class="a-bridge">
+   <path class="f hair i4" d="M169,122 H269" pathLength="1" />
+  </g>
+  <g class="a-spin">
+   <path class="s i5" d="M105,122 H169" pathLength="1" />
+   <circle class="p i6" cx="169" cy="122" r="3.5" />
+  </g>
+  <g class="a-trace">
+   <circle class="p i7" cx="205" cy="122" r="3.5" />
+  </g>
+  <text class="t i8" x="105" y="214" text-anchor="middle">unit circle</text>
+  <text class="t i9" x="292.5" y="214" text-anchor="middle">y = sin θ</text>
+ </g>
+</svg>

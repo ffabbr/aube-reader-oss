@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="biology--translation-ribosome" data-discipline="biology" data-tags="translation,ribosome,mrna,trna,polypeptide,protein-synthesis">
+<title>Translation on the ribosome</title>
+<desc>A ribosome slides along messenger RNA, matching tRNA anticodons to codons and linking amino acids into a growing polypeptide chain.</desc>
+<style>
+.a-slide{animation:a-slide 10s ease-in-out infinite}
+@keyframes a-slide{0%,5%{transform:translateX(0)}85%,100%{transform:translateX(48px)}}
+.a-trna{animation:a-trna 10s ease-in-out infinite}
+@keyframes a-trna{0%{transform:translate(50px,-56px);opacity:0}30%,100%{transform:translate(0,0);opacity:1}}
+.a-p1{animation:a-p1 10s linear infinite}
+@keyframes a-p1{0%,15%{opacity:0}21%,100%{opacity:1}}
+.a-p2{animation:a-p2 10s linear infinite}
+@keyframes a-p2{0%,30%{opacity:0}36%,100%{opacity:1}}
+.a-p3{animation:a-p3 10s linear infinite}
+@keyframes a-p3{0%,45%{opacity:0}51%,100%{opacity:1}}
+.a-p4{animation:a-p4 10s linear infinite}
+@keyframes a-p4{0%,60%{opacity:0}66%,100%{opacity:1}}
+.a-p5{animation:a-p5 10s linear infinite}
+@keyframes a-p5{0%,75%{opacity:0}81%,100%{opacity:1}}
+</style>
+<path class="s" d="M30,176H370"/>
+<path class="f hair" d="M36,171V181M48,171V181M60,171V181M72,171V181M84,171V181M96,171V181M108,171V181M120,171V181M132,171V181M144,171V181M156,171V181M168,171V181M180,171V181M192,171V181M204,171V181M216,171V181M228,171V181M240,171V181M252,171V181M264,171V181M276,171V181M288,171V181M300,171V181M312,171V181M324,171V181M336,171V181M348,171V181M360,171V181"/>
+<g class="a-slide">
+<path class="w" d="M109.1,170.2C109.1,91.9 230.9,91.9 230.9,170.2Z"/>
+<path class="s" d="M109.1,170.2C109.1,91.9 230.9,91.9 230.9,170.2Z"/>
+<path class="w" d="M114.9,181.8C126.5,207.9 213.5,207.9 225.1,181.8Z"/>
+<path class="s" d="M114.9,181.8C126.5,207.9 213.5,207.9 225.1,181.8Z"/>
+<path class="q" d="M148.2,168.8V133.9"/><circle class="w" cx="148.2" cy="126.7" r="6.5"/><circle class="s" cx="148.2" cy="126.7" r="6.5"/>
+<path class="q" d="M148.2,126.7L141,97.7"/><circle class="w" cx="141" cy="97.7" r="6.5"/><circle class="s" cx="141" cy="97.7" r="6.5"/>
+<g class="a-p1"><path class="q" d="M141,97.7L149.7,74.5"/><circle class="w" cx="149.7" cy="74.5" r="6.5"/><circle class="s" cx="149.7" cy="74.5" r="6.5"/></g>
+<g class="a-p2"><path class="q" d="M149.7,74.5L167.1,60"/><circle class="w" cx="167.1" cy="60" r="6.5"/><circle class="s" cx="167.1" cy="60" r="6.5"/></g>
+<g class="a-p3"><path class="q" d="M167.1,60L188.8,55.7"/><circle class="w" cx="188.8" cy="55.7" r="6.5"/><circle class="s" cx="188.8" cy="55.7" r="6.5"/></g>
+<g class="a-p4"><path class="q" d="M188.8,55.7L209.2,62.9"/><circle class="w" cx="209.2" cy="62.9" r="6.5"/><circle class="s" cx="209.2" cy="62.9" r="6.5"/></g>
+<g class="a-p5"><path class="q" d="M209.2,62.9L223.7,80.3"/><circle class="w" cx="223.7" cy="80.3" r="6.5"/><circle class="s" cx="223.7" cy="80.3" r="6.5"/></g>
+
+<g class="a-trna"><path class="q" d="M191.8,168.8V133.9"/><circle class="w" cx="191.8" cy="126.7" r="6.5"/><circle class="s" cx="191.8" cy="126.7" r="6.5"/></g>
+</g>
+<text class="t" x="34" y="212">mRNA</text>
+<text class="t" x="296" y="150">ribosome</text>
+<text class="t" x="290" y="62">polypeptide</text>
+</svg>

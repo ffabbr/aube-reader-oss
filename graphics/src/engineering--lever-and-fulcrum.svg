@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="engineering--lever-and-fulcrum" data-discipline="engineering" data-tags="lever,fulcrum,mechanical-advantage,torque,simple-machine,moment">
+<title>Lever and Fulcrum</title>
+<desc>A plank pivots on a fulcrum; a small push on the long arm balances a heavy load on the short arm, because load times its distance equals effort times its distance.</desc>
+<style>
+.a-rock{transform-box:view-box;transform-origin:140px 136px;animation:a-rock 2.5s ease-in-out infinite alternate;transform:rotate(-4deg)}
+@keyframes a-rock{from{transform:rotate(-4deg)}to{transform:rotate(4deg)}}
+</style>
+<path class="f" d="M40,176 H360"/>
+<polygon class="w" points="140,136 120,176 160,176"/>
+<path class="s" d="M120,176 L140,136 L160,176"/>
+<g class="a-rock">
+<rect class="w" x="50" y="130" width="300" height="12" rx="2"/>
+<rect class="s" x="50" y="130" width="300" height="12" rx="2"/>
+<rect class="w" x="62" y="92" width="40" height="38"/>
+<rect class="s" x="62" y="92" width="40" height="38"/>
+<path class="s" d="M338,82 L338,128 M334.7,121.8 L338,128 M341.3,121.8 L338,128"/>
+</g>
+<circle class="p" cx="140" cy="136" r="3"/>
+<path class="f" d="M82,56 V70 M140,56 V70 M338,56 V70 M82,63 H140 M140,63 H338"/>
+<text class="t" x="111" y="52" text-anchor="middle">a</text>
+<text class="t" x="239" y="52" text-anchor="middle">b</text>
+<text class="t" x="200" y="216" text-anchor="middle">load × a = effort × b</text>
+</svg>

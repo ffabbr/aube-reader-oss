@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="networks--packet-routing" data-discipline="networks" data-tags="internet,packets,routers,packet-switching,hops,tcp-ip">
+<title>Packet routing</title>
+<desc>A message is cut into three packets that hop from router to router by different paths, arrive out of order, and fall back into sequence at the receiver: packet switching.</desc>
+<style>
+.a-pk0{animation:a-pk0 10s ease-in-out infinite;transform:translate(292px,0px)}
+@keyframes a-pk0{0%{transform:translate(0px,0px)}42%{transform:translate(0px,0px)}50%{transform:translate(96px,-44px)}53%{transform:translate(96px,-44px)}61%{transform:translate(168px,-74px)}64%{transform:translate(168px,-74px)}72%{transform:translate(240px,-44px)}75%{transform:translate(240px,-44px)}83%{transform:translate(292px,0px)}100%{transform:translate(292px,0px)}}
+.a-pk1{animation:a-pk1 10s ease-in-out infinite;transform:translate(292px,0px)}
+@keyframes a-pk1{0%{transform:translate(0px,0px)}47%{transform:translate(0px,0px)}52%{transform:translate(74px,-44px)}54%{transform:translate(74px,-44px)}59%{transform:translate(146px,0px)}61%{transform:translate(146px,0px)}66%{transform:translate(218px,44px)}68%{transform:translate(218px,44px)}73%{transform:translate(292px,0px)}100%{transform:translate(292px,0px)}}
+.a-pk2{animation:a-pk2 10s ease-in-out infinite;transform:translate(292px,0px)}
+@keyframes a-pk2{0%{transform:translate(0px,0px)}52%{transform:translate(0px,0px)}57%{transform:translate(52px,44px)}59%{transform:translate(52px,44px)}64%{transform:translate(124px,74px)}66%{transform:translate(124px,74px)}71%{transform:translate(196px,44px)}73%{transform:translate(196px,44px)}78%{transform:translate(292px,0px)}100%{transform:translate(292px,0px)}}
+</style>
+<path class="q" d="M139.1,59.4 L188.9,38.6 M138.2,70.3 L189.8,101.7 M138.2,145.7 L189.8,114.3 M139.1,156.6 L188.9,177.4 M211.1,38.6 L260.9,59.4 M210.2,101.7 L261.8,70.3 M210.2,114.3 L261.8,145.7 M211.1,177.4 L260.9,156.6 M128,76 L128,140 M272,76 L272,140  M82,102 L118.7,71.6 M82,114 L118.7,144.4 M281.3,71.6 L318,102 M281.3,144.4 L318,114"/>
+<path class="w" d="M26,89 h56 a3,3 0 0 1 3,3 v32 a3,3 0 0 1 -3,3 h-56 a3,3 0 0 1 -3,-3 v-32 a3,3 0 0 1 3,-3 z"/>
+<path class="s" d="M26,89 h56 a3,3 0 0 1 3,3 v32 a3,3 0 0 1 -3,3 h-56 a3,3 0 0 1 -3,-3 v-32 a3,3 0 0 1 3,-3 z"/>
+<path class="s" d="M54,127 v9 M41,136 h26"/>
+<path class="w" d="M318,89 h56 a3,3 0 0 1 3,3 v32 a3,3 0 0 1 -3,3 h-56 a3,3 0 0 1 -3,-3 v-32 a3,3 0 0 1 3,-3 z"/>
+<path class="s" d="M318,89 h56 a3,3 0 0 1 3,3 v32 a3,3 0 0 1 -3,3 h-56 a3,3 0 0 1 -3,-3 v-32 a3,3 0 0 1 3,-3 z"/>
+<path class="s" d="M346,127 v9 M333,136 h26"/>
+<circle class="w" cx="128" cy="64" r="12"/>
+<circle class="s" cx="128" cy="64" r="12"/>
+<path class="q hair" d="M122,61 h12 m-3,-2.5 l3,2.5 l-3,2.5 M134,67 h-12 m3,-2.5 l-3,2.5 l3,2.5"/>
+<circle class="w" cx="128" cy="152" r="12"/>
+<circle class="s" cx="128" cy="152" r="12"/>
+<path class="q hair" d="M122,149 h12 m-3,-2.5 l3,2.5 l-3,2.5 M134,155 h-12 m3,-2.5 l-3,2.5 l3,2.5"/>
+<circle class="w" cx="200" cy="34" r="12"/>
+<circle class="s" cx="200" cy="34" r="12"/>
+<path class="q hair" d="M194,31 h12 m-3,-2.5 l3,2.5 l-3,2.5 M206,37 h-12 m3,-2.5 l-3,2.5 l3,2.5"/>
+<circle class="w" cx="200" cy="108" r="12"/>
+<circle class="s" cx="200" cy="108" r="12"/>
+<path class="q hair" d="M194,105 h12 m-3,-2.5 l3,2.5 l-3,2.5 M206,111 h-12 m3,-2.5 l-3,2.5 l3,2.5"/>
+<circle class="w" cx="200" cy="182" r="12"/>
+<circle class="s" cx="200" cy="182" r="12"/>
+<path class="q hair" d="M194,179 h12 m-3,-2.5 l3,2.5 l-3,2.5 M206,185 h-12 m3,-2.5 l-3,2.5 l3,2.5"/>
+<circle class="w" cx="272" cy="64" r="12"/>
+<circle class="s" cx="272" cy="64" r="12"/>
+<path class="q hair" d="M266,61 h12 m-3,-2.5 l3,2.5 l-3,2.5 M278,67 h-12 m3,-2.5 l-3,2.5 l3,2.5"/>
+<circle class="w" cx="272" cy="152" r="12"/>
+<circle class="s" cx="272" cy="152" r="12"/>
+<path class="q hair" d="M266,149 h12 m-3,-2.5 l3,2.5 l-3,2.5 M278,155 h-12 m3,-2.5 l-3,2.5 l3,2.5"/>
+<rect class="f hair" x="316" y="102" width="16" height="12" rx="2"/>
+<rect class="f hair" x="338" y="102" width="16" height="12" rx="2"/>
+<rect class="f hair" x="360" y="102" width="16" height="12" rx="2"/>
+<g class="a-pk0"><rect class="p" x="24" y="102" width="16" height="12" rx="2"/></g>
+<g class="a-pk1"><rect class="pq" x="46" y="102" width="16" height="12" rx="2"/></g>
+<g class="a-pk2"><rect class="w" x="68" y="102" width="16" height="12" rx="2"/><rect class="s" x="68" y="102" width="16" height="12" rx="2"/></g>
+<text class="t" x="54" y="158" text-anchor="middle">sender</text>
+<text class="t" x="346" y="158" text-anchor="middle">receiver</text>
+<text class="t" x="200" y="217" text-anchor="middle">each packet finds its own way</text>
+</svg>

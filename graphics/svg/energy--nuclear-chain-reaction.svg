@@ -1,0 +1,296 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="energy--nuclear-chain-reaction" data-discipline="energy" data-tags="nuclear,fission,chain-reaction,uranium,neutron,reactor,energy" role="img">
+ <title>Nuclear Chain Reaction</title>
+ <desc>A neutron splits a uranium nucleus into two fragments and frees more neutrons; each splits another nucleus in turn, so one fission becomes two, then four: a self-sustaining chain reaction.</desc>
+ <style>
+:root{--ink:#110f0c;--quiet:#555350;--faint:#b8b6b2;--wash:#f5f3ef}
+@media (prefers-color-scheme:dark){:root{--ink:#e7e5e2;--quiet:#a3a19e;--faint:#524f4c;--wash:#252321}}
+svg{overflow:visible}
+.s,.q,.f{fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1;stroke-dashoffset:0}
+.s{stroke:var(--ink);stroke-width:1.5}
+.q{stroke:var(--quiet);stroke-width:1.3}
+.f{stroke:var(--faint);stroke-width:1.1}
+.hair{stroke-width:1!important}
+.bold{stroke-width:2.2!important}
+.k{fill:none;stroke-dasharray:5 5!important;stroke-linecap:round}
+.p{fill:var(--ink);stroke:none}
+.pq{fill:var(--quiet);stroke:none}
+.w{fill:var(--wash);stroke:none}
+.t{fill:var(--quiet);stroke:none;font:italic 13px ui-serif,"New York",Georgia,serif}
+.all{animation:out 10s linear infinite}
+@keyframes out{0%,90%{opacity:1}97%,99.9%{opacity:0}100%{opacity:1}}
+@keyframes dr0{0%,0.0%{stroke-dashoffset:1;opacity:0}0.1%{stroke-dashoffset:1;opacity:1}9%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd0{0%,0.0%{opacity:0}7%,100%{opacity:1}}
+@keyframes dr1{0%,2.2%{stroke-dashoffset:1;opacity:0}2.3%{stroke-dashoffset:1;opacity:1}11.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd1{0%,2.2%{opacity:0}9.2%,100%{opacity:1}}
+@keyframes dr2{0%,4.4%{stroke-dashoffset:1;opacity:0}4.5%{stroke-dashoffset:1;opacity:1}13.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd2{0%,4.4%{opacity:0}11.4%,100%{opacity:1}}
+@keyframes dr3{0%,6.6%{stroke-dashoffset:1;opacity:0}6.7%{stroke-dashoffset:1;opacity:1}15.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd3{0%,6.6%{opacity:0}13.6%,100%{opacity:1}}
+@keyframes dr4{0%,8.8%{stroke-dashoffset:1;opacity:0}8.9%{stroke-dashoffset:1;opacity:1}17.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd4{0%,8.8%{opacity:0}15.8%,100%{opacity:1}}
+@keyframes dr5{0%,11.0%{stroke-dashoffset:1;opacity:0}11.1%{stroke-dashoffset:1;opacity:1}20%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd5{0%,11.0%{opacity:0}18%,100%{opacity:1}}
+@keyframes dr6{0%,13.2%{stroke-dashoffset:1;opacity:0}13.3%{stroke-dashoffset:1;opacity:1}22.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd6{0%,13.2%{opacity:0}20.2%,100%{opacity:1}}
+@keyframes dr7{0%,15.4%{stroke-dashoffset:1;opacity:0}15.5%{stroke-dashoffset:1;opacity:1}24.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd7{0%,15.4%{opacity:0}22.4%,100%{opacity:1}}
+@keyframes dr8{0%,17.6%{stroke-dashoffset:1;opacity:0}17.7%{stroke-dashoffset:1;opacity:1}26.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd8{0%,17.6%{opacity:0}24.6%,100%{opacity:1}}
+@keyframes dr9{0%,19.8%{stroke-dashoffset:1;opacity:0}19.9%{stroke-dashoffset:1;opacity:1}28.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd9{0%,19.8%{opacity:0}26.8%,100%{opacity:1}}
+@keyframes dr10{0%,22.0%{stroke-dashoffset:1;opacity:0}22.1%{stroke-dashoffset:1;opacity:1}31%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd10{0%,22.0%{opacity:0}29%,100%{opacity:1}}
+@keyframes dr11{0%,24.2%{stroke-dashoffset:1;opacity:0}24.3%{stroke-dashoffset:1;opacity:1}33.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd11{0%,24.2%{opacity:0}31.2%,100%{opacity:1}}
+@keyframes dr12{0%,26.4%{stroke-dashoffset:1;opacity:0}26.5%{stroke-dashoffset:1;opacity:1}35.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd12{0%,26.4%{opacity:0}33.4%,100%{opacity:1}}
+@keyframes dr13{0%,28.6%{stroke-dashoffset:1;opacity:0}28.7%{stroke-dashoffset:1;opacity:1}37.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd13{0%,28.6%{opacity:0}35.6%,100%{opacity:1}}
+@keyframes dr14{0%,30.8%{stroke-dashoffset:1;opacity:0}30.9%{stroke-dashoffset:1;opacity:1}39.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd14{0%,30.8%{opacity:0}37.8%,100%{opacity:1}}
+@keyframes dr15{0%,33.0%{stroke-dashoffset:1;opacity:0}33.1%{stroke-dashoffset:1;opacity:1}42%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd15{0%,33.0%{opacity:0}40%,100%{opacity:1}}
+.s.i0,.q.i0,.f.i0{animation:dr0 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i1,.q.i1,.f.i1{animation:dr1 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i2,.q.i2,.f.i2{animation:dr2 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i3,.q.i3,.f.i3{animation:dr3 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i4,.q.i4,.f.i4{animation:dr4 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i5,.q.i5,.f.i5{animation:dr5 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i6,.q.i6,.f.i6{animation:dr6 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i7,.q.i7,.f.i7{animation:dr7 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i8,.q.i8,.f.i8{animation:dr8 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i9,.q.i9,.f.i9{animation:dr9 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i10,.q.i10,.f.i10{animation:dr10 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i11,.q.i11,.f.i11{animation:dr11 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i12,.q.i12,.f.i12{animation:dr12 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i13,.q.i13,.f.i13{animation:dr13 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i14,.q.i14,.f.i14{animation:dr14 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i15,.q.i15,.f.i15{animation:dr15 10s cubic-bezier(.55,.05,.25,1) infinite}
+.p.i0,.w.i0,.pq.i0,.t.i0,.k.i0{animation:fd0 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i1,.w.i1,.pq.i1,.t.i1,.k.i1{animation:fd1 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i2,.w.i2,.pq.i2,.t.i2,.k.i2{animation:fd2 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i3,.w.i3,.pq.i3,.t.i3,.k.i3{animation:fd3 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i4,.w.i4,.pq.i4,.t.i4,.k.i4{animation:fd4 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i5,.w.i5,.pq.i5,.t.i5,.k.i5{animation:fd5 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i6,.w.i6,.pq.i6,.t.i6,.k.i6{animation:fd6 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i7,.w.i7,.pq.i7,.t.i7,.k.i7{animation:fd7 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i8,.w.i8,.pq.i8,.t.i8,.k.i8{animation:fd8 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i9,.w.i9,.pq.i9,.t.i9,.k.i9{animation:fd9 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i10,.w.i10,.pq.i10,.t.i10,.k.i10{animation:fd10 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i11,.w.i11,.pq.i11,.t.i11,.k.i11{animation:fd11 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i12,.w.i12,.pq.i12,.t.i12,.k.i12{animation:fd12 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i13,.w.i13,.pq.i13,.t.i13,.k.i13{animation:fd13 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i14,.w.i14,.pq.i14,.t.i14,.k.i14{animation:fd14 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i15,.w.i15,.pq.i15,.t.i15,.k.i15{animation:fd15 10s cubic-bezier(.2,.7,.3,1) infinite}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+ <style>
+.a-n0{animation:a-n0 5s linear infinite}
+@keyframes a-n0{0%,18%{opacity:1}20%,90%{opacity:0}98%,100%{opacity:1}}
+.a-f0u{animation:a-f0u 5s ease-out infinite;opacity:0}
+@keyframes a-f0u{0%,18%{opacity:0;transform:translate(0,0)}20%{opacity:1}32%{transform:translate(-6px,-28px)}86%{opacity:1;transform:translate(-6px,-28px)}93%,100%{opacity:0;transform:translate(-6px,-28px)}}
+.a-f0d{animation:a-f0d 5s ease-out infinite;opacity:0}
+@keyframes a-f0d{0%,18%{opacity:0;transform:translate(0,0)}20%{opacity:1}32%{transform:translate(-6px,28px)}86%{opacity:1;transform:translate(-6px,28px)}93%,100%{opacity:0;transform:translate(-6px,28px)}}
+.a-n1{animation:a-n1 5s linear infinite}
+@keyframes a-n1{0%,42%{opacity:1}44%,90%{opacity:0}98%,100%{opacity:1}}
+.a-f1u{animation:a-f1u 5s ease-out infinite;opacity:0}
+@keyframes a-f1u{0%,42%{opacity:0;transform:translate(0,0)}44%{opacity:1}56%{transform:translate(-8px,-20px)}86%{opacity:1;transform:translate(-8px,-20px)}93%,100%{opacity:0;transform:translate(-8px,-20px)}}
+.a-f1d{animation:a-f1d 5s ease-out infinite;opacity:0}
+@keyframes a-f1d{0%,42%{opacity:0;transform:translate(0,0)}44%{opacity:1}56%{transform:translate(-8px,20px)}86%{opacity:1;transform:translate(-8px,20px)}93%,100%{opacity:0;transform:translate(-8px,20px)}}
+.a-n2{animation:a-n2 5s linear infinite}
+@keyframes a-n2{0%,42%{opacity:1}44%,90%{opacity:0}98%,100%{opacity:1}}
+.a-f2u{animation:a-f2u 5s ease-out infinite;opacity:0}
+@keyframes a-f2u{0%,42%{opacity:0;transform:translate(0,0)}44%{opacity:1}56%{transform:translate(-8px,-20px)}86%{opacity:1;transform:translate(-8px,-20px)}93%,100%{opacity:0;transform:translate(-8px,-20px)}}
+.a-f2d{animation:a-f2d 5s ease-out infinite;opacity:0}
+@keyframes a-f2d{0%,42%{opacity:0;transform:translate(0,0)}44%{opacity:1}56%{transform:translate(-8px,20px)}86%{opacity:1;transform:translate(-8px,20px)}93%,100%{opacity:0;transform:translate(-8px,20px)}}
+.a-n3{animation:a-n3 5s linear infinite}
+@keyframes a-n3{0%,66%{opacity:1}68%,90%{opacity:0}98%,100%{opacity:1}}
+.a-f3u{animation:a-f3u 5s ease-out infinite;opacity:0}
+@keyframes a-f3u{0%,66%{opacity:0;transform:translate(0,0)}68%{opacity:1}80%{transform:translate(-10px,-8px)}86%{opacity:1;transform:translate(-10px,-8px)}93%,100%{opacity:0;transform:translate(-10px,-8px)}}
+.a-f3d{animation:a-f3d 5s ease-out infinite;opacity:0}
+@keyframes a-f3d{0%,66%{opacity:0;transform:translate(0,0)}68%{opacity:1}80%{transform:translate(-10px,8px)}86%{opacity:1;transform:translate(-10px,8px)}93%,100%{opacity:0;transform:translate(-10px,8px)}}
+.a-n4{animation:a-n4 5s linear infinite}
+@keyframes a-n4{0%,66%{opacity:1}68%,90%{opacity:0}98%,100%{opacity:1}}
+.a-f4u{animation:a-f4u 5s ease-out infinite;opacity:0}
+@keyframes a-f4u{0%,66%{opacity:0;transform:translate(0,0)}68%{opacity:1}80%{transform:translate(-10px,-8px)}86%{opacity:1;transform:translate(-10px,-8px)}93%,100%{opacity:0;transform:translate(-10px,-8px)}}
+.a-f4d{animation:a-f4d 5s ease-out infinite;opacity:0}
+@keyframes a-f4d{0%,66%{opacity:0;transform:translate(0,0)}68%{opacity:1}80%{transform:translate(-10px,8px)}86%{opacity:1;transform:translate(-10px,8px)}93%,100%{opacity:0;transform:translate(-10px,8px)}}
+.a-n5{animation:a-n5 5s linear infinite}
+@keyframes a-n5{0%,66%{opacity:1}68%,90%{opacity:0}98%,100%{opacity:1}}
+.a-f5u{animation:a-f5u 5s ease-out infinite;opacity:0}
+@keyframes a-f5u{0%,66%{opacity:0;transform:translate(0,0)}68%{opacity:1}80%{transform:translate(-10px,-8px)}86%{opacity:1;transform:translate(-10px,-8px)}93%,100%{opacity:0;transform:translate(-10px,-8px)}}
+.a-f5d{animation:a-f5d 5s ease-out infinite;opacity:0}
+@keyframes a-f5d{0%,66%{opacity:0;transform:translate(0,0)}68%{opacity:1}80%{transform:translate(-10px,8px)}86%{opacity:1;transform:translate(-10px,8px)}93%,100%{opacity:0;transform:translate(-10px,8px)}}
+.a-n6{animation:a-n6 5s linear infinite}
+@keyframes a-n6{0%,66%{opacity:1}68%,90%{opacity:0}98%,100%{opacity:1}}
+.a-f6u{animation:a-f6u 5s ease-out infinite;opacity:0}
+@keyframes a-f6u{0%,66%{opacity:0;transform:translate(0,0)}68%{opacity:1}80%{transform:translate(-10px,-8px)}86%{opacity:1;transform:translate(-10px,-8px)}93%,100%{opacity:0;transform:translate(-10px,-8px)}}
+.a-f6d{animation:a-f6d 5s ease-out infinite;opacity:0}
+@keyframes a-f6d{0%,66%{opacity:0;transform:translate(0,0)}68%{opacity:1}80%{transform:translate(-10px,8px)}86%{opacity:1;transform:translate(-10px,8px)}93%,100%{opacity:0;transform:translate(-10px,8px)}}
+.a-m0{animation:a-m0 5s linear infinite;opacity:0}
+@keyframes a-m0{0%{opacity:0;transform:translate(32px,120px)}2%{opacity:1}18%{opacity:1;transform:translate(100px,120px)}18.1%,100%{opacity:0;transform:translate(100px,120px)}}
+.a-m1{animation:a-m1 5s linear infinite;opacity:0}
+@keyframes a-m1{0%,18%{opacity:0;transform:translate(100px,120px)}18.5%{opacity:1}42%{opacity:1;transform:translate(195px,72px)}42.1%,100%{opacity:0;transform:translate(195px,72px)}}
+.a-m2{animation:a-m2 5s linear infinite;opacity:0}
+@keyframes a-m2{0%,18%{opacity:0;transform:translate(100px,120px)}18.5%{opacity:1}42%{opacity:1;transform:translate(195px,168px)}42.1%,100%{opacity:0;transform:translate(195px,168px)}}
+.a-m3{animation:a-m3 5s linear infinite;opacity:0}
+@keyframes a-m3{0%,42%{opacity:0;transform:translate(195px,72px)}42.5%{opacity:1}66%{opacity:1;transform:translate(300px,40px)}66.1%,100%{opacity:0;transform:translate(300px,40px)}}
+.a-m4{animation:a-m4 5s linear infinite;opacity:0}
+@keyframes a-m4{0%,42%{opacity:0;transform:translate(195px,72px)}42.5%{opacity:1}66%{opacity:1;transform:translate(300px,98px)}66.1%,100%{opacity:0;transform:translate(300px,98px)}}
+.a-m5{animation:a-m5 5s linear infinite;opacity:0}
+@keyframes a-m5{0%,42%{opacity:0;transform:translate(195px,168px)}42.5%{opacity:1}66%{opacity:1;transform:translate(300px,142px)}66.1%,100%{opacity:0;transform:translate(300px,142px)}}
+.a-m6{animation:a-m6 5s linear infinite;opacity:0}
+@keyframes a-m6{0%,42%{opacity:0;transform:translate(195px,168px)}42.5%{opacity:1}66%{opacity:1;transform:translate(300px,200px)}66.1%,100%{opacity:0;transform:translate(300px,200px)}}
+.a-m10{animation:a-m10 5s linear infinite;opacity:0}
+@keyframes a-m10{0%,66%{opacity:0;transform:translate(300px,40px)}66.5%{opacity:1}84%{opacity:0;transform:translate(364px,25px)}84.1%,100%{opacity:0;transform:translate(364px,25px)}}
+.a-m11{animation:a-m11 5s linear infinite;opacity:0}
+@keyframes a-m11{0%,66%{opacity:0;transform:translate(300px,40px)}66.5%{opacity:1}84%{opacity:0;transform:translate(364px,55px)}84.1%,100%{opacity:0;transform:translate(364px,55px)}}
+.a-m12{animation:a-m12 5s linear infinite;opacity:0}
+@keyframes a-m12{0%,66%{opacity:0;transform:translate(300px,98px)}66.5%{opacity:1}84%{opacity:0;transform:translate(364px,83px)}84.1%,100%{opacity:0;transform:translate(364px,83px)}}
+.a-m13{animation:a-m13 5s linear infinite;opacity:0}
+@keyframes a-m13{0%,66%{opacity:0;transform:translate(300px,98px)}66.5%{opacity:1}84%{opacity:0;transform:translate(364px,113px)}84.1%,100%{opacity:0;transform:translate(364px,113px)}}
+.a-m14{animation:a-m14 5s linear infinite;opacity:0}
+@keyframes a-m14{0%,66%{opacity:0;transform:translate(300px,142px)}66.5%{opacity:1}84%{opacity:0;transform:translate(364px,127px)}84.1%,100%{opacity:0;transform:translate(364px,127px)}}
+.a-m15{animation:a-m15 5s linear infinite;opacity:0}
+@keyframes a-m15{0%,66%{opacity:0;transform:translate(300px,142px)}66.5%{opacity:1}84%{opacity:0;transform:translate(364px,157px)}84.1%,100%{opacity:0;transform:translate(364px,157px)}}
+.a-m16{animation:a-m16 5s linear infinite;opacity:0}
+@keyframes a-m16{0%,66%{opacity:0;transform:translate(300px,200px)}66.5%{opacity:1}84%{opacity:0;transform:translate(364px,185px)}84.1%,100%{opacity:0;transform:translate(364px,185px)}}
+.a-m17{animation:a-m17 5s linear infinite;opacity:0}
+@keyframes a-m17{0%,66%{opacity:0;transform:translate(300px,200px)}66.5%{opacity:1}84%{opacity:0;transform:translate(364px,215px)}84.1%,100%{opacity:0;transform:translate(364px,215px)}}
+</style>
+ <g class="all">
+  <path class="k f i0" d="M32,120 H100" />
+  <path class="k f i0" d="M100,120 L195,72" />
+  <path class="k f i0" d="M100,120 L195,168" />
+  <path class="k f i0" d="M195,72 L300,40" />
+  <path class="k f i1" d="M195,72 L300,98" />
+  <path class="k f i1" d="M195,168 L300,142" />
+  <path class="k f i1" d="M195,168 L300,200" />
+  <path class="k f i1" d="M300,40 L364,25" />
+  <path class="k f i2" d="M300,40 L364,55" />
+  <path class="k f i2" d="M300,98 L364,83" />
+  <path class="k f i2" d="M300,98 L364,113" />
+  <path class="k f i2" d="M300,142 L364,127" />
+  <path class="k f i3" d="M300,142 L364,157" />
+  <path class="k f i3" d="M300,200 L364,185" />
+  <path class="k f i3" d="M300,200 L364,215" />
+  <g class="a-n0">
+   <circle class="w i3" cx="100" cy="120" r="17" />
+   <circle class="s i4" cx="100" cy="120" r="17" pathLength="1" />
+  </g>
+  <g class="a-f0u">
+   <circle class="pq i4" cx="100" cy="114.9" r="9.9" />
+  </g>
+  <g class="a-f0d">
+   <circle class="pq i4" cx="100" cy="125.1" r="9.9" />
+  </g>
+  <g class="a-n1">
+   <circle class="w i4" cx="195" cy="72" r="14" />
+   <circle class="s i5" cx="195" cy="72" r="14" pathLength="1" />
+  </g>
+  <g class="a-f1u">
+   <circle class="pq i5" cx="195" cy="67.8" r="8.1" />
+  </g>
+  <g class="a-f1d">
+   <circle class="pq i5" cx="195" cy="76.2" r="8.1" />
+  </g>
+  <g class="a-n2">
+   <circle class="w i6" cx="195" cy="168" r="14" />
+   <circle class="s i6" cx="195" cy="168" r="14" pathLength="1" />
+  </g>
+  <g class="a-f2u">
+   <circle class="pq i6" cx="195" cy="163.8" r="8.1" />
+  </g>
+  <g class="a-f2d">
+   <circle class="pq i6" cx="195" cy="172.2" r="8.1" />
+  </g>
+  <g class="a-n3">
+   <circle class="w i7" cx="300" cy="40" r="12" />
+   <circle class="s i7" cx="300" cy="40" r="12" pathLength="1" />
+  </g>
+  <g class="a-f3u">
+   <circle class="pq i7" cx="300" cy="36.4" r="7.0" />
+  </g>
+  <g class="a-f3d">
+   <circle class="pq i7" cx="300" cy="43.6" r="7.0" />
+  </g>
+  <g class="a-n4">
+   <circle class="w i8" cx="300" cy="98" r="12" />
+   <circle class="s i8" cx="300" cy="98" r="12" pathLength="1" />
+  </g>
+  <g class="a-f4u">
+   <circle class="pq i8" cx="300" cy="94.4" r="7.0" />
+  </g>
+  <g class="a-f4d">
+   <circle class="pq i8" cx="300" cy="101.6" r="7.0" />
+  </g>
+  <g class="a-n5">
+   <circle class="w i9" cx="300" cy="142" r="12" />
+   <circle class="s i9" cx="300" cy="142" r="12" pathLength="1" />
+  </g>
+  <g class="a-f5u">
+   <circle class="pq i9" cx="300" cy="138.4" r="7.0" />
+  </g>
+  <g class="a-f5d">
+   <circle class="pq i9" cx="300" cy="145.6" r="7.0" />
+  </g>
+  <g class="a-n6">
+   <circle class="w i10" cx="300" cy="200" r="12" />
+   <circle class="s i10" cx="300" cy="200" r="12" pathLength="1" />
+  </g>
+  <g class="a-f6u">
+   <circle class="pq i10" cx="300" cy="196.4" r="7.0" />
+  </g>
+  <g class="a-f6d">
+   <circle class="pq i11" cx="300" cy="203.6" r="7.0" />
+  </g>
+  <g class="a-m0">
+   <circle class="p i11" r="3" />
+  </g>
+  <g class="a-m1">
+   <circle class="p i11" r="3" />
+  </g>
+  <g class="a-m2">
+   <circle class="p i11" r="3" />
+  </g>
+  <g class="a-m3">
+   <circle class="p i12" r="3" />
+  </g>
+  <g class="a-m4">
+   <circle class="p i12" r="3" />
+  </g>
+  <g class="a-m5">
+   <circle class="p i12" r="3" />
+  </g>
+  <g class="a-m6">
+   <circle class="p i12" r="3" />
+  </g>
+  <g class="a-m10">
+   <circle class="p i13" r="3" />
+  </g>
+  <g class="a-m11">
+   <circle class="p i13" r="3" />
+  </g>
+  <g class="a-m12">
+   <circle class="p i13" r="3" />
+  </g>
+  <g class="a-m13">
+   <circle class="p i13" r="3" />
+  </g>
+  <g class="a-m14">
+   <circle class="p i14" r="3" />
+  </g>
+  <g class="a-m15">
+   <circle class="p i14" r="3" />
+  </g>
+  <g class="a-m16">
+   <circle class="p i14" r="3" />
+  </g>
+  <g class="a-m17">
+   <circle class="p i14" r="3" />
+  </g>
+  <text class="t i15" x="28" y="108" text-anchor="start">neutron</text>
+  <text class="t i15" x="100" y="72" text-anchor="middle">uranium-235</text>
+  <text class="t i15" x="28" y="212" text-anchor="start">each split frees more</text>
+ </g>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="astronomy--stellar-life-cycle" data-discipline="astronomy" data-tags="stars,stellar-evolution,red-giant,white-dwarf,nebula,life-cycle">
+<title>Stellar life cycle</title>
+<desc>A sun-like star's life in order: a gas nebula, a steady star, a swollen red giant that sheds a shell, and a fading white dwarf.</desc>
+<style>
+@keyframes a-breathe{from{transform:scale(.93)}to{transform:scale(1.08)}}
+.a-b1{transform-box:view-box;transform-origin:200px 96px;animation:a-breathe 2.5s ease-in-out infinite alternate}
+.a-b2{transform-box:view-box;transform-origin:274px 96px;animation:a-breathe 5s ease-in-out infinite alternate}
+@keyframes a-run{from{transform:translateX(0)}to{transform:translateX(340px)}}
+.a-run{animation:a-run 10s linear infinite}
+</style>
+<path class="w" d="M32,102C26,88 42,76 54,82C62,72 80,82 74,94C84,102 74,116 62,112C54,120 38,116 40,106C34,108 32,104 32,102Z"/>
+<path class="q" d="M32,102C26,88 42,76 54,82C62,72 80,82 74,94C84,102 74,116 62,112C54,120 38,116 40,106C34,108 32,104 32,102Z"/>
+<circle class="pq" cx="48" cy="95" r="1.8"/>
+<circle class="pq" cx="60" cy="100" r="1.8"/>
+<circle class="pq" cx="55" cy="89" r="1.8"/>
+<path class="f" d="M86,96h22m-5,-4l5,4l-5,4"/>
+<circle class="p" cx="126" cy="96" r="6"/>
+<path class="q" d="M136,96L141,96M133.1,88.9L136.6,85.4M126,86L126,81M118.9,88.9L115.4,85.4M116,96L111,96M118.9,103.1L115.4,106.6M126,106L126,111M133.1,103.1L136.6,106.6"/>
+<path class="f" d="M150,96h22m-5,-4l5,4l-5,4"/>
+<g class="a-b1">
+<circle class="w" cx="200" cy="96" r="22"/>
+<circle class="s" cx="200" cy="96" r="22"/>
+<circle class="p" cx="200" cy="96" r="4"/>
+</g>
+<path class="f" d="M228,96h14m-5,-4l5,4l-5,4"/>
+<g class="a-b2">
+<circle class="q" cx="274" cy="96" r="15"/>
+<circle class="k f" cx="274" cy="96" r="23"/>
+<circle class="p" cx="274" cy="96" r="3"/>
+</g>
+<path class="f" d="M306,96h22m-5,-4l5,4l-5,4"/>
+<circle class="p" cx="350" cy="96" r="4.5"/>
+<circle class="f" cx="350" cy="96" r="9"/>
+<text class="t" x="52" y="142" text-anchor="middle">nebula</text>
+<text class="t" x="200" y="142" text-anchor="middle">red giant</text>
+<text class="t" x="350" y="142" text-anchor="middle">white dwarf</text>
+<path class="f" d="M30,172H370m-6,-4l6,4l-6,4"/>
+<g class="a-run">
+<circle class="p" cx="30" cy="172" r="3.5"/>
+</g>
+</svg>

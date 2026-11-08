@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="earth--hotspot-island-chain" data-discipline="earth" data-tags="hotspot,island-chain,mantle-plume,plate-motion,volcanic-islands,hawaii,geology">
+<title>Hotspot island chain</title>
+<desc>A fixed mantle plume feeds one active volcano while the plate drifts over it, leaving a chain of ever older, lower and more eroded islands behind.</desc>
+<style>
+.a-up{animation:a-up 5s linear infinite}
+@keyframes a-up{0%{transform:translateY(0);opacity:0}12%{opacity:1}88%{opacity:1}100%{transform:translateY(-130px);opacity:0}}
+.a-d1{animation-delay:-1.7s}.a-d2{animation-delay:-3.4s}
+.a-slide{animation:a-slide 10s linear infinite}
+@keyframes a-slide{0%{transform:translateX(0);opacity:0}8%{opacity:1}92%{opacity:1}100%{transform:translateX(-120px);opacity:0}}
+.e1{animation-delay:-3.3s}.e2{animation-delay:-6.6s}
+.a-puff{transform-box:fill-box;transform-origin:center;animation:a-puff 5s linear infinite}
+@keyframes a-puff{0%{transform:translate(0,0) scale(.5);opacity:0}25%{opacity:1}100%{transform:translate(6px,-16px) scale(1.6);opacity:0}}
+</style>
+<path class="w" d="M20,92 H380 V112 H20 Z"/>
+<path class="f" d="M20,92 q9,-3 18,0 t18,0 t18,0 t18,0 t18,0 t18,0 t18,0 t18,0 t18,0 t18,0 t18,0 t18,0 t18,0 t18,0 t18,0 t18,0 t18,0 t18,0 t18,0 t18,0"/>
+<path class="w" d="M20,112 H380 V136 H20 Z"/>
+<path class="w" d="M254,112 L276,74 Q289,80 302,74 L326,112 Z"/>
+<path class="w" d="M184,112 L205,86 Q215,84 225,86 L246,112 Z"/>
+<path class="w" d="M126,112 L138,94 Q145,90 152,94 L164,112 Z"/>
+<path class="s" d="M20,112 H254 L276,74 Q289,80 302,74 L326,112 H380 M20,136 H380 M20,112 V136 M380,112 V136"/>
+<path class="s" d="M184,112 L205,86 Q215,84 225,86 L246,112"/>
+<path class="s" d="M126,112 L138,94 Q145,90 152,94 L164,112"/>
+<path class="k q" d="M56,112 L70,100 H88 L102,112"/>
+<path class="w" d="M278,218 C282,190 274,172 282,158 C252,152 242,144 248,136 H332 C338,144 328,152 298,158 C306,172 298,190 302,218 Z"/>
+<path class="q" d="M278,218 C282,190 274,172 282,158 C252,152 242,144 248,136 M332,136 C338,144 328,152 298,158 C306,172 298,190 302,218"/>
+<path class="k s" d="M290,136 V84"/>
+<path class="s" d="M228,124 H150 M150,124 l7,-4 M150,124 l7,4"/>
+<g class="a-up"><circle class="p" cx="290" cy="212" r="2.4"/></g>
+<g class="a-up a-d1"><circle class="p" cx="290" cy="212" r="2.4"/></g>
+<g class="a-up a-d2"><circle class="p" cx="290" cy="212" r="2.4"/></g>
+<g class="a-slide"><circle class="p" cx="350" cy="124" r="2.2"/></g>
+<g class="a-slide a-e1"><circle class="p" cx="350" cy="124" r="2.2"/></g>
+<g class="a-slide a-e2"><circle class="p" cx="350" cy="124" r="2.2"/></g>
+<g class="a-puff"><circle class="q" cx="289" cy="66" r="5"/></g>
+<g class="a-puff a-d2"><circle class="q" cx="289" cy="66" r="5"/></g>
+<text class="t" x="106" y="78" text-anchor="middle">older</text>
+<text class="t" x="289" y="50" text-anchor="middle">active</text>
+<text class="t" x="326" y="196" text-anchor="start">plume</text>
+</svg>

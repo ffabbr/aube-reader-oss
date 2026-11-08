@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="physics--gyroscope-precession" data-discipline="physics" data-tags="gyroscope,precession,angular-momentum,torque,rotation,mechanics" role="img">
+ <title>Gyroscope precession</title>
+ <desc>A spinning wheel held at one end of its axle does not fall: gravity's torque instead turns the axle slowly around the post, the precession of angular momentum.</desc>
+ <style>
+:root{--ink:#110f0c;--quiet:#555350;--faint:#b8b6b2;--wash:#f5f3ef}
+@media (prefers-color-scheme:dark){:root{--ink:#e7e5e2;--quiet:#a3a19e;--faint:#524f4c;--wash:#252321}}
+svg{overflow:visible}
+.s,.q,.f{fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1;stroke-dashoffset:0}
+.s{stroke:var(--ink);stroke-width:1.5}
+.q{stroke:var(--quiet);stroke-width:1.3}
+.f{stroke:var(--faint);stroke-width:1.1}
+.hair{stroke-width:1!important}
+.bold{stroke-width:2.2!important}
+.k{fill:none;stroke-dasharray:5 5!important;stroke-linecap:round}
+.p{fill:var(--ink);stroke:none}
+.pq{fill:var(--quiet);stroke:none}
+.w{fill:var(--wash);stroke:none}
+.t{fill:var(--quiet);stroke:none;font:italic 13px ui-serif,"New York",Georgia,serif}
+.all{animation:out 10s linear infinite}
+@keyframes out{0%,90%{opacity:1}97%,99.9%{opacity:0}100%{opacity:1}}
+@keyframes dr0{0%,0.0%{stroke-dashoffset:1;opacity:0}0.1%{stroke-dashoffset:1;opacity:1}9%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd0{0%,0.0%{opacity:0}7%,100%{opacity:1}}
+@keyframes dr1{0%,2.2%{stroke-dashoffset:1;opacity:0}2.3%{stroke-dashoffset:1;opacity:1}11.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd1{0%,2.2%{opacity:0}9.2%,100%{opacity:1}}
+@keyframes dr2{0%,4.4%{stroke-dashoffset:1;opacity:0}4.5%{stroke-dashoffset:1;opacity:1}13.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd2{0%,4.4%{opacity:0}11.4%,100%{opacity:1}}
+@keyframes dr3{0%,6.6%{stroke-dashoffset:1;opacity:0}6.7%{stroke-dashoffset:1;opacity:1}15.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd3{0%,6.6%{opacity:0}13.6%,100%{opacity:1}}
+@keyframes dr4{0%,8.8%{stroke-dashoffset:1;opacity:0}8.9%{stroke-dashoffset:1;opacity:1}17.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd4{0%,8.8%{opacity:0}15.8%,100%{opacity:1}}
+@keyframes dr5{0%,11.0%{stroke-dashoffset:1;opacity:0}11.1%{stroke-dashoffset:1;opacity:1}20%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd5{0%,11.0%{opacity:0}18%,100%{opacity:1}}
+@keyframes dr6{0%,13.2%{stroke-dashoffset:1;opacity:0}13.3%{stroke-dashoffset:1;opacity:1}22.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd6{0%,13.2%{opacity:0}20.2%,100%{opacity:1}}
+@keyframes dr7{0%,15.4%{stroke-dashoffset:1;opacity:0}15.5%{stroke-dashoffset:1;opacity:1}24.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd7{0%,15.4%{opacity:0}22.4%,100%{opacity:1}}
+@keyframes dr8{0%,17.6%{stroke-dashoffset:1;opacity:0}17.7%{stroke-dashoffset:1;opacity:1}26.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd8{0%,17.6%{opacity:0}24.6%,100%{opacity:1}}
+@keyframes dr9{0%,19.8%{stroke-dashoffset:1;opacity:0}19.9%{stroke-dashoffset:1;opacity:1}28.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd9{0%,19.8%{opacity:0}26.8%,100%{opacity:1}}
+@keyframes dr10{0%,22.0%{stroke-dashoffset:1;opacity:0}22.1%{stroke-dashoffset:1;opacity:1}31%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd10{0%,22.0%{opacity:0}29%,100%{opacity:1}}
+@keyframes dr11{0%,24.2%{stroke-dashoffset:1;opacity:0}24.3%{stroke-dashoffset:1;opacity:1}33.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd11{0%,24.2%{opacity:0}31.2%,100%{opacity:1}}
+@keyframes dr12{0%,26.4%{stroke-dashoffset:1;opacity:0}26.5%{stroke-dashoffset:1;opacity:1}35.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd12{0%,26.4%{opacity:0}33.4%,100%{opacity:1}}
+@keyframes dr13{0%,28.6%{stroke-dashoffset:1;opacity:0}28.7%{stroke-dashoffset:1;opacity:1}37.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd13{0%,28.6%{opacity:0}35.6%,100%{opacity:1}}
+@keyframes dr14{0%,30.8%{stroke-dashoffset:1;opacity:0}30.9%{stroke-dashoffset:1;opacity:1}39.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd14{0%,30.8%{opacity:0}37.8%,100%{opacity:1}}
+@keyframes dr15{0%,33.0%{stroke-dashoffset:1;opacity:0}33.1%{stroke-dashoffset:1;opacity:1}42%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd15{0%,33.0%{opacity:0}40%,100%{opacity:1}}
+.s.i0,.q.i0,.f.i0{animation:dr0 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i1,.q.i1,.f.i1{animation:dr1 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i2,.q.i2,.f.i2{animation:dr2 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i3,.q.i3,.f.i3{animation:dr3 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i4,.q.i4,.f.i4{animation:dr4 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i5,.q.i5,.f.i5{animation:dr5 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i6,.q.i6,.f.i6{animation:dr6 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i7,.q.i7,.f.i7{animation:dr7 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i8,.q.i8,.f.i8{animation:dr8 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i9,.q.i9,.f.i9{animation:dr9 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i10,.q.i10,.f.i10{animation:dr10 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i11,.q.i11,.f.i11{animation:dr11 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i12,.q.i12,.f.i12{animation:dr12 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i13,.q.i13,.f.i13{animation:dr13 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i14,.q.i14,.f.i14{animation:dr14 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i15,.q.i15,.f.i15{animation:dr15 10s cubic-bezier(.55,.05,.25,1) infinite}
+.p.i0,.w.i0,.pq.i0,.t.i0,.k.i0{animation:fd0 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i1,.w.i1,.pq.i1,.t.i1,.k.i1{animation:fd1 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i2,.w.i2,.pq.i2,.t.i2,.k.i2{animation:fd2 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i3,.w.i3,.pq.i3,.t.i3,.k.i3{animation:fd3 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i4,.w.i4,.pq.i4,.t.i4,.k.i4{animation:fd4 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i5,.w.i5,.pq.i5,.t.i5,.k.i5{animation:fd5 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i6,.w.i6,.pq.i6,.t.i6,.k.i6{animation:fd6 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i7,.w.i7,.pq.i7,.t.i7,.k.i7{animation:fd7 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i8,.w.i8,.pq.i8,.t.i8,.k.i8{animation:fd8 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i9,.w.i9,.pq.i9,.t.i9,.k.i9{animation:fd9 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i10,.w.i10,.pq.i10,.t.i10,.k.i10{animation:fd10 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i11,.w.i11,.pq.i11,.t.i11,.k.i11{animation:fd11 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i12,.w.i12,.pq.i12,.t.i12,.k.i12{animation:fd12 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i13,.w.i13,.pq.i13,.t.i13,.k.i13{animation:fd13 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i14,.w.i14,.pq.i14,.t.i14,.k.i14{animation:fd14 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i15,.w.i15,.pq.i15,.t.i15,.k.i15{animation:fd15 10s cubic-bezier(.2,.7,.3,1) infinite}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+ <style>
+circle.a-solid,line.a-solid,path.a-solid{stroke-dasharray:none!important;vector-effect:non-scaling-stroke}
+.a-wheel{transform-box:view-box;transform-origin:0 0;animation:a-wheel 10s linear infinite;animation-delay:-1s;transform:translate(275.36px,70.82px) rotate(-102.84deg) scale(1,-0.5423) rotate(-292.8deg)}@keyframes a-wheel{0%{transform:translate(292px,88px) rotate(-90deg) scale(1,0.012) rotate(-289deg)}1.39%{transform:translate(291.65px,85.39px) rotate(-91.63deg) scale(1,-0.0824) rotate(-289.07deg)}2.78%{transform:translate(290.6px,82.8px) rotate(-93.29deg) scale(1,-0.1642) rotate(-289.27deg)}4.17%{transform:translate(288.87px,80.25px) rotate(-94.99deg) scale(1,-0.2447) rotate(-289.62deg)}5.56%{transform:translate(286.45px,77.76px) rotate(-96.76deg) scale(1,-0.3234) rotate(-290.12deg)}6.94%{transform:translate(283.38px,75.34px) rotate(-98.63deg) scale(1,-0.3996) rotate(-290.8deg)}8.33%{transform:translate(279.67px,73.02px) rotate(-100.65deg) scale(1,-0.4728) rotate(-291.68deg)}9.72%{transform:translate(275.36px,70.82px) rotate(-102.84deg) scale(1,-0.5423) rotate(-292.8deg)}11.11%{transform:translate(270.48px,68.75px) rotate(-105.28deg) scale(1,-0.6078) rotate(-294.2deg)}12.5%{transform:translate(265.05px,66.82px) rotate(-108.03deg) scale(1,-0.6686) rotate(-295.96deg)}13.89%{transform:translate(259.14px,65.06px) rotate(-111.21deg) scale(1,-0.7243) rotate(-298.18deg)}15.28%{transform:translate(252.77px,63.46px) rotate(-114.94deg) scale(1,-0.7745) rotate(-300.98deg)}16.67%{transform:translate(246px,62.06px) rotate(-119.42deg) scale(1,-0.8188) rotate(-304.55deg)}18.06%{transform:translate(238.88px,60.85px) rotate(-124.92deg) scale(1,-0.8569) rotate(-309.17deg)}19.44%{transform:translate(231.47px,59.85px) rotate(-131.81deg) scale(1,-0.8885) rotate(-315.19deg)}20.83%{transform:translate(223.81px,59.07px) rotate(-140.54deg) scale(1,-0.9133) rotate(-323.07deg)}22.22%{transform:translate(215.98px,58.5px) rotate(-151.56deg) scale(1,-0.9312) rotate(-333.24deg)}23.61%{transform:translate(208.02px,58.16px) rotate(-164.96deg) scale(1,-0.9419) rotate(-345.8deg)}25%{transform:translate(200px,58.05px) rotate(-180deg) scale(1,-0.9455) rotate(-360deg)}26.39%{transform:translate(191.98px,58.16px) rotate(-195.04deg) scale(1,-0.9419) rotate(-374.2deg)}27.78%{transform:translate(184.02px,58.5px) rotate(-208.44deg) scale(1,-0.9312) rotate(-386.76deg)}29.17%{transform:translate(176.19px,59.07px) rotate(-219.46deg) scale(1,-0.9133) rotate(-396.93deg)}30.56%{transform:translate(168.53px,59.85px) rotate(-228.19deg) scale(1,-0.8885) rotate(-404.81deg)}31.94%{transform:translate(161.12px,60.85px) rotate(-235.08deg) scale(1,-0.8569) rotate(-410.83deg)}33.33%{transform:translate(154px,62.06px) rotate(-240.58deg) scale(1,-0.8188) rotate(-415.45deg)}34.72%{transform:translate(147.23px,63.46px) rotate(-245.06deg) scale(1,-0.7745) rotate(-419.02deg)}36.11%{transform:translate(140.86px,65.06px) rotate(-248.79deg) scale(1,-0.7243) rotate(-421.82deg)}37.5%{transform:translate(134.95px,66.82px) rotate(-251.97deg) scale(1,-0.6686) rotate(-424.04deg)}38.89%{transform:translate(129.52px,68.75px) rotate(-254.72deg) scale(1,-0.6078) rotate(-425.8deg)}40.28%{transform:translate(124.64px,70.82px) rotate(-257.16deg) scale(1,-0.5423) rotate(-427.2deg)}41.67%{transform:translate(120.33px,73.02px) rotate(-259.35deg) scale(1,-0.4728) rotate(-428.32deg)}43.06%{transform:translate(116.62px,75.34px) rotate(-261.37deg) scale(1,-0.3996) rotate(-429.2deg)}44.44%{transform:translate(113.55px,77.76px) rotate(-263.24deg) scale(1,-0.3234) rotate(-429.88deg)}45.83%{transform:translate(111.13px,80.25px) rotate(-265.01deg) scale(1,-0.2447) rotate(-430.38deg)}47.22%{transform:translate(109.4px,82.8px) rotate(-266.71deg) scale(1,-0.1642) rotate(-430.73deg)}48.61%{transform:translate(108.35px,85.39px) rotate(-268.37deg) scale(1,-0.0824) rotate(-430.93deg)}50%{transform:translate(108px,88px) rotate(-270deg) scale(1,-0.012) rotate(-431deg)}51.39%{transform:translate(108.35px,90.61px) rotate(-271.63deg) scale(1,0.0824) rotate(-430.93deg)}52.78%{transform:translate(109.4px,93.2px) rotate(-273.29deg) scale(1,0.1642) rotate(-430.73deg)}54.17%{transform:translate(111.13px,95.75px) rotate(-274.99deg) scale(1,0.2447) rotate(-430.38deg)}55.56%{transform:translate(113.55px,98.24px) rotate(-276.76deg) scale(1,0.3234) rotate(-429.88deg)}56.94%{transform:translate(116.62px,100.66px) rotate(-278.63deg) scale(1,0.3996) rotate(-429.2deg)}58.33%{transform:translate(120.33px,102.98px) rotate(-280.65deg) scale(1,0.4728) rotate(-428.32deg)}59.72%{transform:translate(124.64px,105.18px) rotate(-282.84deg) scale(1,0.5423) rotate(-427.2deg)}61.11%{transform:translate(129.52px,107.25px) rotate(-285.28deg) scale(1,0.6078) rotate(-425.8deg)}62.5%{transform:translate(134.95px,109.18px) rotate(-288.03deg) scale(1,0.6686) rotate(-424.04deg)}63.89%{transform:translate(140.86px,110.94px) rotate(-291.21deg) scale(1,0.7243) rotate(-421.82deg)}65.28%{transform:translate(147.23px,112.54px) rotate(-294.94deg) scale(1,0.7745) rotate(-419.02deg)}66.67%{transform:translate(154px,113.94px) rotate(-299.42deg) scale(1,0.8188) rotate(-415.45deg)}68.06%{transform:translate(161.12px,115.15px) rotate(-304.92deg) scale(1,0.8569) rotate(-410.83deg)}69.44%{transform:translate(168.53px,116.15px) rotate(-311.81deg) scale(1,0.8885) rotate(-404.81deg)}70.83%{transform:translate(176.19px,116.93px) rotate(-320.54deg) scale(1,0.9133) rotate(-396.93deg)}72.22%{transform:translate(184.02px,117.5px) rotate(-331.56deg) scale(1,0.9312) rotate(-386.76deg)}73.61%{transform:translate(191.98px,117.84px) rotate(-344.96deg) scale(1,0.9419) rotate(-374.2deg)}75%{transform:translate(200px,117.95px) rotate(-360deg) scale(1,0.9455) rotate(-360deg)}76.39%{transform:translate(208.02px,117.84px) rotate(-375.04deg) scale(1,0.9419) rotate(-345.8deg)}77.78%{transform:translate(215.98px,117.5px) rotate(-388.44deg) scale(1,0.9312) rotate(-333.24deg)}79.17%{transform:translate(223.81px,116.93px) rotate(-399.46deg) scale(1,0.9133) rotate(-323.07deg)}80.56%{transform:translate(231.47px,116.15px) rotate(-408.19deg) scale(1,0.8885) rotate(-315.19deg)}81.94%{transform:translate(238.88px,115.15px) rotate(-415.08deg) scale(1,0.8569) rotate(-309.17deg)}83.33%{transform:translate(246px,113.94px) rotate(-420.58deg) scale(1,0.8188) rotate(-304.55deg)}84.72%{transform:translate(252.77px,112.54px) rotate(-425.06deg) scale(1,0.7745) rotate(-300.98deg)}86.11%{transform:translate(259.14px,110.94px) rotate(-428.79deg) scale(1,0.7243) rotate(-298.18deg)}87.5%{transform:translate(265.05px,109.18px) rotate(-431.97deg) scale(1,0.6686) rotate(-295.96deg)}88.89%{transform:translate(270.48px,107.25px) rotate(-434.72deg) scale(1,0.6078) rotate(-294.2deg)}90.28%{transform:translate(275.36px,105.18px) rotate(-437.16deg) scale(1,0.5423) rotate(-292.8deg)}91.67%{transform:translate(279.67px,102.98px) rotate(-439.35deg) scale(1,0.4728) rotate(-291.68deg)}93.06%{transform:translate(283.38px,100.66px) rotate(-441.37deg) scale(1,0.3996) rotate(-290.8deg)}94.44%{transform:translate(286.45px,98.24px) rotate(-443.24deg) scale(1,0.3234) rotate(-290.12deg)}95.83%{transform:translate(288.87px,95.75px) rotate(-445.01deg) scale(1,0.2447) rotate(-289.62deg)}97.22%{transform:translate(290.6px,93.2px) rotate(-446.71deg) scale(1,0.1642) rotate(-289.27deg)}98.61%{transform:translate(291.65px,90.61px) rotate(-448.37deg) scale(1,0.0824) rotate(-289.07deg)}100%{transform:translate(292px,88px) rotate(-450deg) scale(1,0.012) rotate(-289deg)}}
+.a-axle{transform-box:view-box;transform-origin:0 0;animation:a-axle 10s linear infinite;animation-delay:-1s;transform:matrix(0.8192,-0.1867,0.5736,0.8192,200,88)}@keyframes a-axle{0%{transform:matrix(1,0,0,1,200,88)}1.39%{transform:matrix(0.9962,-0.0284,0.0872,0.9962,200,88)}2.78%{transform:matrix(0.9848,-0.0565,0.1736,0.9848,200,88)}4.17%{transform:matrix(0.9659,-0.0843,0.2588,0.9659,200,88)}5.56%{transform:matrix(0.9397,-0.1114,0.342,0.9397,200,88)}6.94%{transform:matrix(0.9063,-0.1376,0.4226,0.9063,200,88)}8.33%{transform:matrix(0.866,-0.1628,0.5,0.866,200,88)}9.72%{transform:matrix(0.8192,-0.1867,0.5736,0.8192,200,88)}11.11%{transform:matrix(0.766,-0.2093,0.6428,0.766,200,88)}12.5%{transform:matrix(0.7071,-0.2302,0.7071,0.7071,200,88)}13.89%{transform:matrix(0.6428,-0.2494,0.766,0.6428,200,88)}15.28%{transform:matrix(0.5736,-0.2667,0.8192,0.5736,200,88)}16.67%{transform:matrix(0.5,-0.282,0.866,0.5,200,88)}18.06%{transform:matrix(0.4226,-0.2951,0.9063,0.4226,200,88)}19.44%{transform:matrix(0.342,-0.3059,0.9397,0.342,200,88)}20.83%{transform:matrix(0.2588,-0.3145,0.9659,0.2588,200,88)}22.22%{transform:matrix(0.1736,-0.3206,0.9848,0.1736,200,88)}23.61%{transform:matrix(0.0872,-0.3243,0.9962,0.0872,200,88)}25%{transform:matrix(0,-0.3256,1,0,200,88)}26.39%{transform:matrix(-0.0872,-0.3243,0.9962,-0.0872,200,88)}27.78%{transform:matrix(-0.1736,-0.3206,0.9848,-0.1736,200,88)}29.17%{transform:matrix(-0.2588,-0.3145,0.9659,-0.2588,200,88)}30.56%{transform:matrix(-0.342,-0.3059,0.9397,-0.342,200,88)}31.94%{transform:matrix(-0.4226,-0.2951,0.9063,-0.4226,200,88)}33.33%{transform:matrix(-0.5,-0.282,0.866,-0.5,200,88)}34.72%{transform:matrix(-0.5736,-0.2667,0.8192,-0.5736,200,88)}36.11%{transform:matrix(-0.6428,-0.2494,0.766,-0.6428,200,88)}37.5%{transform:matrix(-0.7071,-0.2302,0.7071,-0.7071,200,88)}38.89%{transform:matrix(-0.766,-0.2093,0.6428,-0.766,200,88)}40.28%{transform:matrix(-0.8192,-0.1867,0.5736,-0.8192,200,88)}41.67%{transform:matrix(-0.866,-0.1628,0.5,-0.866,200,88)}43.06%{transform:matrix(-0.9063,-0.1376,0.4226,-0.9063,200,88)}44.44%{transform:matrix(-0.9397,-0.1114,0.342,-0.9397,200,88)}45.83%{transform:matrix(-0.9659,-0.0843,0.2588,-0.9659,200,88)}47.22%{transform:matrix(-0.9848,-0.0565,0.1736,-0.9848,200,88)}48.61%{transform:matrix(-0.9962,-0.0284,0.0872,-0.9962,200,88)}50%{transform:matrix(-1,0,0,-1,200,88)}51.39%{transform:matrix(-0.9962,0.0284,-0.0872,-0.9962,200,88)}52.78%{transform:matrix(-0.9848,0.0565,-0.1736,-0.9848,200,88)}54.17%{transform:matrix(-0.9659,0.0843,-0.2588,-0.9659,200,88)}55.56%{transform:matrix(-0.9397,0.1114,-0.342,-0.9397,200,88)}56.94%{transform:matrix(-0.9063,0.1376,-0.4226,-0.9063,200,88)}58.33%{transform:matrix(-0.866,0.1628,-0.5,-0.866,200,88)}59.72%{transform:matrix(-0.8192,0.1867,-0.5736,-0.8192,200,88)}61.11%{transform:matrix(-0.766,0.2093,-0.6428,-0.766,200,88)}62.5%{transform:matrix(-0.7071,0.2302,-0.7071,-0.7071,200,88)}63.89%{transform:matrix(-0.6428,0.2494,-0.766,-0.6428,200,88)}65.28%{transform:matrix(-0.5736,0.2667,-0.8192,-0.5736,200,88)}66.67%{transform:matrix(-0.5,0.282,-0.866,-0.5,200,88)}68.06%{transform:matrix(-0.4226,0.2951,-0.9063,-0.4226,200,88)}69.44%{transform:matrix(-0.342,0.3059,-0.9397,-0.342,200,88)}70.83%{transform:matrix(-0.2588,0.3145,-0.9659,-0.2588,200,88)}72.22%{transform:matrix(-0.1736,0.3206,-0.9848,-0.1736,200,88)}73.61%{transform:matrix(-0.0872,0.3243,-0.9962,-0.0872,200,88)}75%{transform:matrix(0,0.3256,-1,0,200,88)}76.39%{transform:matrix(0.0872,0.3243,-0.9962,0.0872,200,88)}77.78%{transform:matrix(0.1736,0.3206,-0.9848,0.1736,200,88)}79.17%{transform:matrix(0.2588,0.3145,-0.9659,0.2588,200,88)}80.56%{transform:matrix(0.342,0.3059,-0.9397,0.342,200,88)}81.94%{transform:matrix(0.4226,0.2951,-0.9063,0.4226,200,88)}83.33%{transform:matrix(0.5,0.282,-0.866,0.5,200,88)}84.72%{transform:matrix(0.5736,0.2667,-0.8192,0.5736,200,88)}86.11%{transform:matrix(0.6428,0.2494,-0.766,0.6428,200,88)}87.5%{transform:matrix(0.7071,0.2302,-0.7071,0.7071,200,88)}88.89%{transform:matrix(0.766,0.2093,-0.6428,0.766,200,88)}90.28%{transform:matrix(0.8192,0.1867,-0.5736,0.8192,200,88)}91.67%{transform:matrix(0.866,0.1628,-0.5,0.866,200,88)}93.06%{transform:matrix(0.9063,0.1376,-0.4226,0.9063,200,88)}94.44%{transform:matrix(0.9397,0.1114,-0.342,0.9397,200,88)}95.83%{transform:matrix(0.9659,0.0843,-0.2588,0.9659,200,88)}97.22%{transform:matrix(0.9848,0.0565,-0.1736,0.9848,200,88)}98.61%{transform:matrix(0.9962,0.0284,-0.0872,0.9962,200,88)}100%{transform:matrix(1,0,0,1,200,88)}}
+.a-spin{transform-box:view-box;transform-origin:0 0;animation:a-spin 1s linear infinite}@keyframes a-spin{to{transform:rotate(360deg)}}
+.a-hub{animation:a-hub 10s linear infinite;animation-delay:-1s;transform:translate(275.36px,70.82px)}@keyframes a-hub{0%{transform:translate(292px,88px)}2.78%{transform:translate(290.6px,82.8px)}5.56%{transform:translate(286.45px,77.76px)}8.33%{transform:translate(279.67px,73.02px)}11.11%{transform:translate(270.48px,68.75px)}13.89%{transform:translate(259.14px,65.06px)}16.67%{transform:translate(246px,62.06px)}19.44%{transform:translate(231.47px,59.85px)}22.22%{transform:translate(215.98px,58.5px)}25%{transform:translate(200px,58.05px)}27.78%{transform:translate(184.02px,58.5px)}30.56%{transform:translate(168.53px,59.85px)}33.33%{transform:translate(154px,62.06px)}36.11%{transform:translate(140.86px,65.06px)}38.89%{transform:translate(129.52px,68.75px)}41.67%{transform:translate(120.33px,73.02px)}44.44%{transform:translate(113.55px,77.76px)}47.22%{transform:translate(109.4px,82.8px)}50%{transform:translate(108px,88px)}52.78%{transform:translate(109.4px,93.2px)}55.56%{transform:translate(113.55px,98.24px)}58.33%{transform:translate(120.33px,102.98px)}61.11%{transform:translate(129.52px,107.25px)}63.89%{transform:translate(140.86px,110.94px)}66.67%{transform:translate(154px,113.94px)}69.44%{transform:translate(168.53px,116.15px)}72.22%{transform:translate(184.02px,117.5px)}75%{transform:translate(200px,117.95px)}77.78%{transform:translate(215.98px,117.5px)}80.56%{transform:translate(231.47px,116.15px)}83.33%{transform:translate(246px,113.94px)}86.11%{transform:translate(259.14px,110.94px)}88.89%{transform:translate(270.48px,107.25px)}91.67%{transform:translate(279.67px,102.98px)}94.44%{transform:translate(286.45px,98.24px)}97.22%{transform:translate(290.6px,93.2px)}100%{transform:translate(292px,88px)}}
+.a-far{animation:a-far 10s linear infinite;animation-delay:-1s}@keyframes a-far{0%,49.99%{opacity:1}50%,100%{opacity:0}}
+.a-near{animation:a-near 10s linear infinite;animation-delay:-1s;opacity:0}@keyframes a-near{0%,49.99%{opacity:0}50%,100%{opacity:1}}
+</style>
+ <g class="all">
+  <ellipse class="w i0" cx="200" cy="192" rx="44" ry="9" />
+  <ellipse class="q i1" cx="200" cy="192" rx="44" ry="9" pathLength="1" />
+  <path class="s i2" d="M200,88 V192" pathLength="1" />
+  <ellipse class="k f i3" cx="200" cy="88" rx="92" ry="29.95" />
+  <path class="q i4" d="M247.72,117.39 L252.77,112.54 L246.12,110.35" pathLength="1" />
+  <g class="a-axle">
+   <line class="k s a-solid i5" x1="0" y1="0" x2="92" y2="0" />
+   <line class="k s a-solid i6" x1="92" y1="0" x2="105" y2="0" />
+  </g>
+  <g class="a-wheel">
+   <circle class="w i7" cx="0" cy="0" r="34" />
+   <circle class="k s a-solid i8" cx="0" cy="0" r="34" />
+   <circle class="k q a-solid i9" cx="0" cy="0" r="30" />
+   <g class="a-spin">
+    <path class="k q a-solid i10" d="M5,0 L32,0 M-2.5,4.33 L-16,27.71 M-2.5,-4.33 L-16,-27.71" />
+   </g>
+  </g>
+  <g class="a-far">
+   <g class="a-axle">
+    <line class="k s a-solid i11" x1="0" y1="0" x2="92" y2="0" />
+   </g>
+  </g>
+  <g class="a-near">
+   <g class="a-axle">
+    <line class="k s a-solid i12" x1="92" y1="0" x2="105" y2="0" />
+   </g>
+  </g>
+  <g class="a-hub">
+   <circle class="p i13" cx="0" cy="0" r="3" />
+  </g>
+  <circle class="p i14" cx="200" cy="88" r="3.2" />
+  <text class="t i15" x="200" y="220" text-anchor="middle">Ω = mgr / Iω</text>
+ </g>
+</svg>

@@ -1,0 +1,3588 @@
+[
+ {
+  "id": "acoustics--beating-frequencies",
+  "discipline": "acoustics",
+  "title": "Beating Frequencies",
+  "description": "Two tones of nearly equal frequency add up to a swelling and fading wave; the loudness pulses at the difference of the two frequencies.",
+  "tags": [
+   "beats",
+   "superposition",
+   "frequency-difference",
+   "interference",
+   "sound",
+   "envelope"
+  ]
+ },
+ {
+  "id": "acoustics--doppler-effect",
+  "discipline": "acoustics",
+  "title": "Doppler Effect",
+  "description": "A moving source drops sound wavefronts at successive positions; they bunch up ahead, raising the pitch, and spread out behind, lowering it.",
+  "tags": [
+   "doppler",
+   "frequency-shift",
+   "wavefronts",
+   "moving-source",
+   "pitch",
+   "sound"
+  ]
+ },
+ {
+  "id": "acoustics--harmonic-overtones",
+  "discipline": "acoustics",
+  "title": "Harmonic Overtones",
+  "description": "The same string vibrates as one loop, two loops, three loops: each overtone adds a node and doubles or triples the fundamental frequency.",
+  "tags": [
+   "harmonics",
+   "overtones",
+   "string",
+   "fundamental-frequency",
+   "timbre",
+   "standing-wave",
+   "music"
+  ]
+ },
+ {
+  "id": "acoustics--sound-wave-compression",
+  "discipline": "acoustics",
+  "title": "Sound Wave as Compression",
+  "description": "A speaker cone pushes layers of air together and apart; bands of compression and rarefaction travel outward while the air itself only jiggles back and forth.",
+  "tags": [
+   "sound",
+   "longitudinal-wave",
+   "compression",
+   "rarefaction",
+   "pressure-wave",
+   "speaker"
+  ]
+ },
+ {
+  "id": "acoustics--standing-wave",
+  "discipline": "acoustics",
+  "title": "Standing Wave",
+  "description": "A string fixed at both ends vibrates in three loops: nodes stay still, antinodes swing, and one wavelength spans two loops.",
+  "tags": [
+   "standing-wave",
+   "nodes",
+   "antinodes",
+   "resonance",
+   "string",
+   "harmonic",
+   "wavelength"
+  ]
+ },
+ {
+  "id": "astronomy--binary-star-orbit",
+  "discipline": "astronomy",
+  "title": "Binary star orbit",
+  "description": "Two stars of unequal mass circle a point between them; the lighter star travels the wider path, the heavier the smaller one.",
+  "tags": [
+   "binary-star",
+   "orbit",
+   "center-of-mass",
+   "gravity",
+   "stars",
+   "barycenter"
+  ]
+ },
+ {
+  "id": "astronomy--comet-tail",
+  "discipline": "astronomy",
+  "title": "Comet tail",
+  "description": "A comet swings round the Sun on a long ellipse. Its tail grows near the Sun and always points away from it, blown by sunlight and the solar wind, so it leads the comet outbound.",
+  "tags": [
+   "comet",
+   "tail",
+   "solar-wind",
+   "orbit",
+   "ellipse",
+   "kepler",
+   "sun"
+  ]
+ },
+ {
+  "id": "astronomy--exoplanet-transit",
+  "discipline": "astronomy",
+  "title": "Exoplanet transit light curve",
+  "description": "A dark planet crosses the face of its star while the star's measured brightness dips; the dip betrays the planet.",
+  "tags": [
+   "exoplanet",
+   "transit",
+   "light-curve",
+   "star",
+   "planet-detection",
+   "brightness"
+  ]
+ },
+ {
+  "id": "astronomy--expanding-universe",
+  "discipline": "astronomy",
+  "title": "Expanding universe",
+  "description": "A slice of space sweeps forward in time from the big bang, widening as it goes. The galaxies stay at their places in space, yet the distances between them all grow.",
+  "tags": [
+   "cosmology",
+   "big-bang",
+   "expansion",
+   "hubble",
+   "space",
+   "galaxies",
+   "time"
+  ]
+ },
+ {
+  "id": "astronomy--hr-diagram",
+  "discipline": "astronomy",
+  "title": "Hertzsprung-Russell diagram",
+  "description": "Stars plotted by temperature and brightness fall into families: a diagonal main sequence, bright giants above, faint white dwarfs below.",
+  "tags": [
+   "hr-diagram",
+   "stars",
+   "luminosity",
+   "temperature",
+   "main-sequence",
+   "stellar-evolution"
+  ]
+ },
+ {
+  "id": "astronomy--keplers-second-law",
+  "discipline": "astronomy",
+  "title": "Kepler's second law of equal areas",
+  "description": "A planet on an elliptical orbit sweeps out equal areas in equal times, so it races past the Sun and lingers far away.",
+  "tags": [
+   "kepler",
+   "orbit",
+   "ellipse",
+   "equal-areas",
+   "orbital-speed",
+   "perihelion"
+  ]
+ },
+ {
+  "id": "astronomy--lunar-eclipse",
+  "discipline": "astronomy",
+  "title": "Lunar eclipse",
+  "description": "The Moon drifts through the long shadow cast by Earth and darkens; sunlight is blocked when Sun, Earth and Moon line up.",
+  "tags": [
+   "eclipse",
+   "moon",
+   "earth",
+   "shadow",
+   "umbra",
+   "orbit"
+  ]
+ },
+ {
+  "id": "astronomy--moon-phases",
+  "discipline": "astronomy",
+  "title": "Moon phases",
+  "description": "The Moon at eight points on its orbit: half of it is always lit by the Sun, but from Earth we see more or less of that lit half.",
+  "tags": [
+   "moon",
+   "phases",
+   "orbit",
+   "sunlight",
+   "earth",
+   "lunar-cycle"
+  ]
+ },
+ {
+  "id": "astronomy--ocean-tides-moon",
+  "discipline": "astronomy",
+  "title": "Ocean tides from the Moon",
+  "description": "The Moon's pull raises two ocean bulges on opposite sides of Earth; as the planet turns beneath them, a shore passes through high and low tides.",
+  "tags": [
+   "tides",
+   "moon",
+   "gravity",
+   "ocean",
+   "earth-rotation",
+   "bulge"
+  ]
+ },
+ {
+  "id": "astronomy--planetary-retrograde-motion",
+  "discipline": "astronomy",
+  "title": "Planetary retrograde motion",
+  "description": "Earth on its inner orbit overtakes Mars; the line of sight through Mars sweeps backward, so against the stars Mars seems to stop, reverse and loop.",
+  "tags": [
+   "retrograde",
+   "planets",
+   "mars",
+   "orbit",
+   "apparent-motion",
+   "line-of-sight",
+   "kepler"
+  ]
+ },
+ {
+  "id": "astronomy--pulsar-lighthouse",
+  "discipline": "astronomy",
+  "title": "Pulsar lighthouse",
+  "description": "A spinning neutron star's magnetic axis is tilted off its spin axis, so its two beams sweep the sky like a lighthouse, and an observer they cross records a regular train of pulses.",
+  "tags": [
+   "pulsar",
+   "neutron-star",
+   "magnetic-field",
+   "beam",
+   "lighthouse",
+   "radio-pulses",
+   "rotation"
+  ]
+ },
+ {
+  "id": "astronomy--seasons-axial-tilt",
+  "discipline": "astronomy",
+  "title": "Seasons from axial tilt",
+  "description": "Earth keeps its axis tilted 23.5 degrees in the same direction all year, so each hemisphere leans toward or away from the Sun as it orbits.",
+  "tags": [
+   "seasons",
+   "axial-tilt",
+   "earth",
+   "orbit",
+   "sun",
+   "solstice"
+  ]
+ },
+ {
+  "id": "astronomy--solar-eclipse",
+  "discipline": "astronomy",
+  "title": "Solar eclipse",
+  "description": "The Moon steps between Sun and Earth; its small dark shadow sweeps across the Earth's surface and briefly hides the Sun.",
+  "tags": [
+   "eclipse",
+   "sun",
+   "moon",
+   "shadow",
+   "umbra",
+   "penumbra"
+  ]
+ },
+ {
+  "id": "astronomy--solar-system-orbits",
+  "discipline": "astronomy",
+  "title": "Solar system orbits",
+  "description": "Four planets circle the Sun on concentric paths; the nearer a planet is to the Sun, the faster it completes its orbit.",
+  "tags": [
+   "planets",
+   "orbits",
+   "sun",
+   "solar-system",
+   "orbital-period",
+   "kepler"
+  ]
+ },
+ {
+  "id": "astronomy--spiral-galaxy",
+  "discipline": "astronomy",
+  "title": "Spiral galaxy",
+  "description": "Two arms wind out of a bright bulge across a tilted disc. Inner stars lap faster than the arms, which turn as a slow wave of density that stars pass through.",
+  "tags": [
+   "galaxy",
+   "spiral-arms",
+   "density-wave",
+   "milky-way",
+   "stars",
+   "rotation",
+   "differential-rotation"
+  ]
+ },
+ {
+  "id": "astronomy--stellar-life-cycle",
+  "discipline": "astronomy",
+  "title": "Stellar life cycle",
+  "description": "A sun-like star's life in order: a gas nebula, a steady star, a swollen red giant that sheds a shell, and a fading white dwarf.",
+  "tags": [
+   "stars",
+   "stellar-evolution",
+   "red-giant",
+   "white-dwarf",
+   "nebula",
+   "life-cycle"
+  ]
+ },
+ {
+  "id": "astronomy--stellar-parallax",
+  "discipline": "astronomy",
+  "title": "Stellar parallax",
+  "description": "As Earth circles the Sun, the line of sight through a near star sweeps across the distant stars. The star seems to trace a small yearly ellipse, and its width gives the distance.",
+  "tags": [
+   "parallax",
+   "distance",
+   "star",
+   "earth-orbit",
+   "line-of-sight",
+   "triangulation",
+   "cosmic-distance-ladder"
+  ]
+ },
+ {
+  "id": "astronomy--supernova-explosion",
+  "discipline": "astronomy",
+  "title": "Supernova explosion",
+  "description": "A star's core collapses to a bright remnant while shock fronts and streaks of gas race outward, seeding space with the elements the star made.",
+  "tags": [
+   "supernova",
+   "shock-wave",
+   "core-collapse",
+   "neutron-star",
+   "ejecta",
+   "stellar-death",
+   "remnant"
+  ]
+ },
+ {
+  "id": "biology--atp-synthase",
+  "discipline": "biology",
+  "title": "ATP synthase",
+  "description": "Protons flowing down their gradient through ATP synthase spin its rotor and shaft; the turning head squeezes ADP and phosphate together into ATP.",
+  "tags": [
+   "atp-synthase",
+   "proton-gradient",
+   "rotor",
+   "atp",
+   "mitochondrion",
+   "chemiosmosis",
+   "enzyme"
+  ]
+ },
+ {
+  "id": "biology--bacteriophage-injection",
+  "discipline": "biology",
+  "title": "Bacteriophage injecting DNA",
+  "description": "A T4-like phage stands on a bacterium on its tail fibres; the sheath contracts, driving the tube through the cell wall, and viral DNA runs from capsid into the cell.",
+  "tags": [
+   "bacteriophage",
+   "virus",
+   "dna-injection",
+   "capsid",
+   "tail-sheath",
+   "infection",
+   "bacteria"
+  ]
+ },
+ {
+  "id": "biology--bee-waggle-dance",
+  "discipline": "biology",
+  "title": "Bee waggle dance",
+  "description": "On the comb a bee traces a figure-eight; the angle of its straight waggle run from vertical tells the hive the direction of food relative to the sun.",
+  "tags": [
+   "waggle-dance",
+   "honeybee",
+   "communication",
+   "navigation",
+   "sun-compass",
+   "foraging",
+   "figure-eight"
+  ]
+ },
+ {
+  "id": "biology--binary-fission",
+  "discipline": "biology",
+  "title": "Binary fission",
+  "description": "A rod-shaped bacterium that has copied its DNA lays down a septum across its middle, then the two halves round off their new poles and part as identical daughters.",
+  "tags": [
+   "binary-fission",
+   "bacteria",
+   "cell-division",
+   "septum",
+   "asexual-reproduction",
+   "prokaryote"
+  ]
+ },
+ {
+  "id": "biology--butterfly-metamorphosis",
+  "discipline": "biology",
+  "title": "Butterfly Metamorphosis",
+  "description": "Eggs on a leaf, a caterpillar inching along a twig, a chrysalis swaying beneath it and a butterfly beating its wings: one animal rebuilt in four stages.",
+  "tags": [
+   "metamorphosis",
+   "butterfly",
+   "caterpillar",
+   "chrysalis",
+   "life-cycle",
+   "insect",
+   "larva"
+  ]
+ },
+ {
+  "id": "biology--cell-membrane",
+  "discipline": "biology",
+  "title": "Cell membrane",
+  "description": "A bilayer of phospholipids, heads out and tails in, studded with a channel protein through which an ion passes down its gradient.",
+  "tags": [
+   "membrane",
+   "phospholipid",
+   "bilayer",
+   "channel",
+   "ion",
+   "transport"
+  ]
+ },
+ {
+  "id": "biology--chloroplast",
+  "discipline": "biology",
+  "title": "Chloroplast",
+  "description": "Inside a chloroplast's double envelope, stacks of thylakoid discs catch incoming light in their grana while sugars built in the stroma drift out.",
+  "tags": [
+   "chloroplast",
+   "thylakoid",
+   "granum",
+   "stroma",
+   "photosynthesis",
+   "organelle"
+  ]
+ },
+ {
+  "id": "biology--echolocating-bat",
+  "discipline": "biology",
+  "title": "Echolocating Bat",
+  "description": "A bat in flight sends out rings of ultrasound; they strike a moth and dashed echoes ripple back, and the delay tells the bat how far away its prey is flying.",
+  "tags": [
+   "echolocation",
+   "bat",
+   "sonar",
+   "ultrasound",
+   "hunting",
+   "echo",
+   "moth",
+   "hearing"
+  ]
+ },
+ {
+  "id": "biology--endocytosis",
+  "discipline": "biology",
+  "title": "Endocytosis",
+  "description": "Reading left to right, the cell membrane dimples under bound cargo, deepens into a coated pit, nearly closes at the neck, and a sealed vesicle drifts into the cell.",
+  "tags": [
+   "endocytosis",
+   "vesicle",
+   "clathrin",
+   "membrane",
+   "cargo",
+   "receptor",
+   "coated-pit"
+  ]
+ },
+ {
+  "id": "biology--enzyme-lock-and-key",
+  "discipline": "biology",
+  "title": "Enzyme lock and key",
+  "description": "A substrate whose shape matches the enzyme's active site slots in, is converted, and is released as two products, leaving the enzyme unchanged.",
+  "tags": [
+   "enzyme",
+   "active-site",
+   "substrate",
+   "lock-and-key",
+   "catalysis",
+   "specificity"
+  ]
+ },
+ {
+  "id": "biology--flagellum-motor",
+  "discipline": "biology",
+  "title": "Bacterial flagellum motor",
+  "description": "A rotary motor set in a bacterial envelope: protons passing through fixed stators spin the rings and rod, and the helical filament corkscrews out behind.",
+  "tags": [
+   "flagellum",
+   "rotary-motor",
+   "bacteria",
+   "proton-motive-force",
+   "stator",
+   "molecular-machine"
+  ]
+ },
+ {
+  "id": "biology--golgi-secretion",
+  "discipline": "biology",
+  "title": "Golgi apparatus and secretion",
+  "description": "Vesicles from the ER join the stacked sacs of the Golgi at one face; finished cargo buds off the other and crosses the cell to spill out through the membrane.",
+  "tags": [
+   "golgi-apparatus",
+   "secretion",
+   "vesicle",
+   "exocytosis",
+   "endoplasmic-reticulum",
+   "organelle"
+  ]
+ },
+ {
+  "id": "biology--krebs-cycle",
+  "discipline": "biology",
+  "title": "Krebs cycle",
+  "description": "The citric acid cycle as a wheel of carbon skeletons: a two-carbon acetyl joins four to make six, then two carbons leave as CO₂ and the four-carbon carrier returns.",
+  "tags": [
+   "krebs-cycle",
+   "citric-acid-cycle",
+   "metabolism",
+   "cellular-respiration",
+   "acetyl-coa",
+   "carbon-dioxide"
+  ]
+ },
+ {
+  "id": "biology--leaf-stomata",
+  "discipline": "biology",
+  "title": "Leaf Stomata",
+  "description": "A leaf pore seen under the microscope: two guard cells swell and part, letting carbon dioxide in and water vapour out, then slacken and close. Every breath costs water.",
+  "tags": [
+   "stomata",
+   "stoma",
+   "guard-cells",
+   "leaf",
+   "gas-exchange",
+   "transpiration",
+   "photosynthesis"
+  ]
+ },
+ {
+  "id": "biology--mitochondrion",
+  "discipline": "biology",
+  "title": "Mitochondrion",
+  "description": "A mitochondrion has a smooth outer membrane and a deeply folded inner membrane; the cristae enlarge the surface where ATP is made and released.",
+  "tags": [
+   "mitochondrion",
+   "cristae",
+   "atp",
+   "organelle",
+   "cellular-respiration",
+   "inner-membrane"
+  ]
+ },
+ {
+  "id": "biology--mitosis",
+  "discipline": "biology",
+  "title": "Mitosis (anaphase)",
+  "description": "In anaphase the spindle fibres shorten and pull the separated sister chromatids toward opposite poles, so each daughter cell gets one full copy.",
+  "tags": [
+   "mitosis",
+   "anaphase",
+   "chromosome",
+   "spindle",
+   "cell-division",
+   "chromatid"
+  ]
+ },
+ {
+  "id": "biology--osmosis-in-cells",
+  "discipline": "biology",
+  "title": "Osmosis in cells",
+  "description": "Water crosses the membrane toward the saltier side: a cell in dilute water swells, while one in salty water loses water and shrinks.",
+  "tags": [
+   "osmosis",
+   "tonicity",
+   "water",
+   "diffusion",
+   "membrane",
+   "hypotonic",
+   "hypertonic"
+  ]
+ },
+ {
+  "id": "biology--photosynthesis",
+  "discipline": "biology",
+  "title": "Photosynthesis",
+  "description": "A leaf turns sunlight, water from the roots and carbon dioxide from the air into sugar, and releases oxygen.",
+  "tags": [
+   "photosynthesis",
+   "leaf",
+   "sunlight",
+   "carbon-dioxide",
+   "oxygen",
+   "water",
+   "chlorophyll",
+   "plants"
+  ]
+ },
+ {
+  "id": "biology--phototropism",
+  "discipline": "biology",
+  "title": "Phototropism",
+  "description": "A seedling bends toward the light: auxin gathers on the shaded side of the stem, those cells elongate, and the shoot curves toward the sun.",
+  "tags": [
+   "phototropism",
+   "auxin",
+   "plant-hormone",
+   "light",
+   "shoot",
+   "growth",
+   "tropism"
+  ]
+ },
+ {
+  "id": "biology--plant-cell",
+  "discipline": "biology",
+  "title": "Plant cell",
+  "description": "A plant cell: rigid wall, a great central vacuole and a nucleus at the edge, with chloroplasts carried around the vacuole by the streaming cytoplasm.",
+  "tags": [
+   "plant-cell",
+   "cell-wall",
+   "vacuole",
+   "chloroplast",
+   "cytoplasmic-streaming",
+   "organelle"
+  ]
+ },
+ {
+  "id": "biology--pollination",
+  "discipline": "biology",
+  "title": "Pollination",
+  "description": "A bee carries pollen from one flower to another as it feeds, fertilising the blooms along the way; the dotted arc is its route.",
+  "tags": [
+   "pollination",
+   "bee",
+   "flower",
+   "pollen",
+   "mutualism",
+   "reproduction",
+   "pollinator"
+  ]
+ },
+ {
+  "id": "biology--protein-folding",
+  "discipline": "biology",
+  "title": "Protein folding",
+  "description": "A loose chain of residues collapses on itself: water-shy beads (filled) bury into a hydrophobic core while polar beads (open) stay on the outside.",
+  "tags": [
+   "protein-folding",
+   "hydrophobic-core",
+   "amino-acids",
+   "native-state",
+   "tertiary-structure",
+   "polypeptide"
+  ]
+ },
+ {
+  "id": "biology--seed-dispersal",
+  "discipline": "biology",
+  "title": "Seed dispersal by wind",
+  "description": "A dandelion head releases parachute seeds that drift away on the wind while a maple key spins down: plants send seeds far from the parent.",
+  "tags": [
+   "seed-dispersal",
+   "wind",
+   "dandelion",
+   "maple-samara",
+   "plants",
+   "reproduction",
+   "pappus"
+  ]
+ },
+ {
+  "id": "biology--sodium-potassium-pump",
+  "discipline": "biology",
+  "title": "Sodium-potassium pump",
+  "description": "Powered by ATP, a membrane pump carries three sodium ions out of the cell and two potassium ions in, against their concentration gradients.",
+  "tags": [
+   "sodium-potassium-pump",
+   "active-transport",
+   "atp",
+   "ion",
+   "membrane",
+   "gradient"
+  ]
+ },
+ {
+  "id": "biology--transcription-rna-polymerase",
+  "discipline": "biology",
+  "title": "Transcription by RNA polymerase",
+  "description": "RNA polymerase slides along DNA, opening a small bubble and copying one strand into a growing messenger RNA that peels away behind it.",
+  "tags": [
+   "transcription",
+   "rna-polymerase",
+   "mrna",
+   "dna",
+   "gene-expression",
+   "central-dogma"
+  ]
+ },
+ {
+  "id": "biology--translation-ribosome",
+  "discipline": "biology",
+  "title": "Translation on the ribosome",
+  "description": "A ribosome slides along messenger RNA, matching tRNA anticodons to codons and linking amino acids into a growing polypeptide chain.",
+  "tags": [
+   "translation",
+   "ribosome",
+   "mrna",
+   "trna",
+   "polypeptide",
+   "protein-synthesis"
+  ]
+ },
+ {
+  "id": "biology--tree-rings",
+  "discipline": "biology",
+  "title": "Tree Rings",
+  "description": "A trunk in cross-section lays down one ring a year, wide when wet and narrow in drought; as the newest ring spreads outward, the same years are read off as a bar chart.",
+  "tags": [
+   "tree-rings",
+   "dendrochronology",
+   "wood",
+   "growth",
+   "climate-record",
+   "cambium",
+   "drought"
+  ]
+ },
+ {
+  "id": "chemistry--atomic-orbitals",
+  "discipline": "chemistry",
+  "title": "Atomic orbitals s, p and d",
+  "description": "The s orbital is a sphere, p a pair of lobes along an axis, d a four-leaf clover: the shapes of the regions where an electron is likely to be found.",
+  "tags": [
+   "orbital",
+   "s-orbital",
+   "p-orbital",
+   "d-orbital",
+   "electron-density",
+   "quantum"
+  ]
+ },
+ {
+  "id": "chemistry--benzene-ring",
+  "discipline": "chemistry",
+  "title": "Benzene ring with delocalised electrons",
+  "description": "Six carbons form a flat hexagon; the electrons of its double bonds are not fixed but spread as a ring of charge circling the whole molecule.",
+  "tags": [
+   "benzene",
+   "aromatic",
+   "delocalisation",
+   "pi-electrons",
+   "resonance",
+   "hexagon"
+  ]
+ },
+ {
+  "id": "chemistry--bohr-atom-model",
+  "discipline": "chemistry",
+  "title": "Bohr atom model",
+  "description": "Electrons circle a nucleus on fixed orbits; when one falls to a lower orbit it emits a photon, so atomic energy comes in discrete steps.",
+  "tags": [
+   "atom",
+   "electron",
+   "orbit",
+   "quantised-energy",
+   "photon",
+   "hydrogen"
+  ]
+ },
+ {
+  "id": "chemistry--catalyst-lowers-barrier",
+  "discipline": "chemistry",
+  "title": "A catalyst lowers the energy barrier",
+  "description": "Two routes from reactants to products: the dashed hill is the uncatalysed climb, the lower solid one is the catalysed route, so more molecules get over.",
+  "tags": [
+   "catalyst",
+   "activation-energy",
+   "reaction-rate",
+   "energy-barrier",
+   "reaction-pathway",
+   "kinetics"
+  ]
+ },
+ {
+  "id": "chemistry--chemical-equilibrium",
+  "discipline": "chemistry",
+  "title": "Chemical equilibrium",
+  "description": "Reactant and product concentrations change until they level off; the arrows keep trading both ways at equal rates, a balance that is dynamic.",
+  "tags": [
+   "equilibrium",
+   "reversible-reaction",
+   "concentration",
+   "dynamic",
+   "rate",
+   "reactants-products"
+  ]
+ },
+ {
+  "id": "chemistry--chromatography",
+  "discipline": "chemistry",
+  "title": "Paper chromatography",
+  "description": "A solvent creeps up a plate and carries a mixture with it; each component rises at its own speed, so the mixture separates into distinct spots.",
+  "tags": [
+   "chromatography",
+   "separation",
+   "mixture",
+   "solvent-front",
+   "capillary-action",
+   "affinity"
+  ]
+ },
+ {
+  "id": "chemistry--covalent-bond",
+  "discipline": "chemistry",
+  "title": "Covalent bond in a hydrogen molecule",
+  "description": "Two hydrogen atoms overlap their orbitals so that a pair of electrons circles both nuclei: the bond is a shared pair.",
+  "tags": [
+   "covalent-bond",
+   "shared-electrons",
+   "hydrogen",
+   "molecule",
+   "orbital-overlap",
+   "sharing"
+  ]
+ },
+ {
+  "id": "chemistry--crystal-lattice",
+  "discipline": "chemistry",
+  "title": "Ionic crystal lattice",
+  "description": "Sodium and chloride ions alternate in a regular grid, each held by its neighbours; heat only makes them tremble about fixed positions.",
+  "tags": [
+   "crystal",
+   "lattice",
+   "ionic-solid",
+   "sodium-chloride",
+   "unit-cell",
+   "vibration"
+  ]
+ },
+ {
+  "id": "chemistry--electrolysis",
+  "discipline": "chemistry",
+  "title": "Electrolysis of water",
+  "description": "A battery drives current through two electrodes in water, splitting it: oxygen bubbles form at one electrode and twice as much hydrogen at the other.",
+  "tags": [
+   "electrolysis",
+   "electrode",
+   "anode",
+   "cathode",
+   "decomposition",
+   "gas-evolution",
+   "ions"
+  ]
+ },
+ {
+  "id": "chemistry--fractional-distillation",
+  "discipline": "chemistry",
+  "title": "Fractional distillation column",
+  "description": "Heated crude oil enters a tall column; vapours rise and condense on trays at different heights, so light fractions leave at the top and heavy ones low down.",
+  "tags": [
+   "distillation",
+   "crude-oil",
+   "boiling-point",
+   "separation",
+   "fractions",
+   "column"
+  ]
+ },
+ {
+  "id": "chemistry--galvanic-cell",
+  "discipline": "chemistry",
+  "title": "Galvanic cell",
+  "description": "Zinc dissolves as ions and sends electrons through the wire to a copper electrode, where copper ions take them up; a salt bridge completes the circuit.",
+  "tags": [
+   "galvanic-cell",
+   "redox",
+   "electrochemistry",
+   "electrode",
+   "salt-bridge",
+   "voltaic",
+   "battery"
+  ]
+ },
+ {
+  "id": "chemistry--hydrogen-bonding",
+  "discipline": "chemistry",
+  "title": "Hydrogen bonding between water molecules",
+  "description": "Water molecules jostle while dashed hydrogen bonds link a hydrogen on one molecule to the oxygen of its neighbour, flickering as they form and break.",
+  "tags": [
+   "hydrogen-bond",
+   "water",
+   "intermolecular-force",
+   "polarity",
+   "dipole",
+   "molecules"
+  ]
+ },
+ {
+  "id": "chemistry--ionic-bond",
+  "discipline": "chemistry",
+  "title": "Ionic bond: sodium gives an electron to chlorine",
+  "description": "Sodium hands its single outer electron to chlorine; the resulting positive and negative ions are held together by electrostatic attraction.",
+  "tags": [
+   "ionic-bond",
+   "ion",
+   "electron-transfer",
+   "sodium-chloride",
+   "electrostatic",
+   "valence"
+  ]
+ },
+ {
+  "id": "chemistry--ph-scale",
+  "discipline": "chemistry",
+  "title": "The pH scale from acid to base",
+  "description": "A scale from 0 to 14: many hydrogen ions (filled dots) at the acid end, many hydroxide ions (open rings) at the basic end, and a balance at neutral 7.",
+  "tags": [
+   "ph",
+   "acid",
+   "base",
+   "hydrogen-ions",
+   "hydroxide",
+   "neutral",
+   "scale"
+  ]
+ },
+ {
+  "id": "chemistry--reaction-energy-profile",
+  "discipline": "chemistry",
+  "title": "Reaction energy profile",
+  "description": "A ball climbs the activation-energy hill between reactants and products, then rolls down to a lower level; the drop is the energy released.",
+  "tags": [
+   "activation-energy",
+   "enthalpy",
+   "exothermic",
+   "transition-state",
+   "reaction-coordinate",
+   "energy-barrier"
+  ]
+ },
+ {
+  "id": "chemistry--titration",
+  "discipline": "chemistry",
+  "title": "Acid–base titration",
+  "description": "Base drips from a burette into acid in a flask while the pH curve climbs slowly, then leaps at the equivalence point where the two exactly cancel.",
+  "tags": [
+   "titration",
+   "acid-base",
+   "equivalence-point",
+   "burette",
+   "ph",
+   "neutralisation"
+  ]
+ },
+ {
+  "id": "chemistry--vsepr-tetrahedral-geometry",
+  "discipline": "chemistry",
+  "title": "Tetrahedral molecular geometry of methane",
+  "description": "Four bonding pairs repel one another as far apart as possible, so methane takes a tetrahedral shape with bond angles of 109.5 degrees; wedges point toward you.",
+  "tags": [
+   "vsepr",
+   "molecular-geometry",
+   "methane",
+   "tetrahedral",
+   "bond-angle",
+   "electron-repulsion"
+  ]
+ },
+ {
+  "id": "chemistry--water-polarity",
+  "discipline": "chemistry",
+  "title": "Water is a polar molecule",
+  "description": "A bent water molecule has partial negative charge on oxygen and partial positive on its hydrogens; between charged plates it turns to line up.",
+  "tags": [
+   "water",
+   "polar-molecule",
+   "dipole",
+   "partial-charge",
+   "electronegativity",
+   "electric-field"
+  ]
+ },
+ {
+  "id": "climate--carbon-cycle",
+  "discipline": "climate",
+  "title": "The carbon cycle",
+  "description": "Carbon dioxide moves between atmosphere, plants, ocean and buried fossil carbon: plants and seas draw it down, while respiration and burning fuel return it to the air.",
+  "tags": [
+   "carbon-cycle",
+   "carbon-dioxide",
+   "photosynthesis",
+   "respiration",
+   "fossil-fuels",
+   "ocean",
+   "atmosphere"
+  ]
+ },
+ {
+  "id": "climate--cold-front",
+  "discipline": "climate",
+  "title": "Cold front",
+  "description": "A wedge of dense cold air ploughs under warm air like a snowplough, forcing it upward until it condenses into a towering storm cloud and rain.",
+  "tags": [
+   "cold-front",
+   "weather-front",
+   "air-mass",
+   "cumulonimbus",
+   "storm",
+   "meteorology"
+  ]
+ },
+ {
+  "id": "climate--coriolis-effect",
+  "discipline": "climate",
+  "title": "Coriolis effect",
+  "description": "On the turning Earth the equator moves faster than the high latitudes, so air heading for it falls behind: winds bend right in the north, left in the south.",
+  "tags": [
+   "coriolis-effect",
+   "earth-rotation",
+   "wind",
+   "deflection",
+   "trade-winds",
+   "atmosphere"
+  ]
+ },
+ {
+  "id": "climate--el-nino",
+  "discipline": "climate",
+  "title": "El Niño",
+  "description": "A slice across the Pacific: the trade winds hold warm water and its rain clouds in the west; when they slacken, the warm pool sloshes east and the thermocline goes flat.",
+  "tags": [
+   "el-nino",
+   "enso",
+   "pacific-ocean",
+   "thermocline",
+   "trade-winds",
+   "warm-pool",
+   "ocean-atmosphere"
+  ]
+ },
+ {
+  "id": "climate--greenhouse-effect",
+  "discipline": "climate",
+  "title": "Greenhouse effect",
+  "description": "Sunlight warms the surface, which radiates infrared; greenhouse gas molecules in the atmosphere absorb some and send it back down, trapping heat.",
+  "tags": [
+   "greenhouse-effect",
+   "global-warming",
+   "infrared",
+   "carbon-dioxide",
+   "atmosphere",
+   "radiation",
+   "climate-change"
+  ]
+ },
+ {
+  "id": "climate--hurricane-structure",
+  "discipline": "climate",
+  "title": "Hurricane structure",
+  "description": "A hurricane seen from above: spiral rain bands wind counterclockwise around a ring of towering storm clouds, the eyewall, that encloses a calm clear eye.",
+  "tags": [
+   "hurricane",
+   "cyclone",
+   "eye",
+   "eyewall",
+   "rain-bands",
+   "storm",
+   "tropical-weather"
+  ]
+ },
+ {
+  "id": "climate--milankovitch-cycles",
+  "discipline": "climate",
+  "title": "Milankovitch cycles",
+  "description": "Three slow rhythms of Earth's orbit that pace the ice ages: its ellipse stretches, its tilt nods, its axis wobbles, each beating at its own period.",
+  "tags": [
+   "milankovitch-cycles",
+   "eccentricity",
+   "obliquity",
+   "precession",
+   "orbit",
+   "ice-ages",
+   "axial-tilt"
+  ]
+ },
+ {
+  "id": "climate--thermohaline-circulation",
+  "discipline": "climate",
+  "title": "Thermohaline circulation",
+  "description": "The ocean conveyor: warm surface water flows to the poles, cools and sinks, and returns as cold deep water, driven by differences in temperature and salt.",
+  "tags": [
+   "ocean-circulation",
+   "thermohaline",
+   "conveyor-belt",
+   "deep-water",
+   "density",
+   "salinity",
+   "climate"
+  ]
+ },
+ {
+  "id": "computing--attention-mechanism",
+  "discipline": "computing",
+  "title": "Attention mechanism",
+  "description": "To read the word it, a model weighs every earlier word: even arcs and bars gather into a peak on animal, and meaning flows along that arc. Attention, the heart of a transformer.",
+  "tags": [
+   "machine-learning",
+   "attention",
+   "transformer",
+   "language-model",
+   "weights",
+   "context"
+  ]
+ },
+ {
+  "id": "computing--binary-counter",
+  "discipline": "computing",
+  "title": "Binary counter",
+  "description": "Four columns of dots worth 8, 4, 2 and 1 light up as a counter climbs from 0 to 15; each bit flips half as often as the one beside it.",
+  "tags": [
+   "binary",
+   "counting",
+   "bits",
+   "base-2",
+   "digital"
+  ]
+ },
+ {
+  "id": "computing--binary-search",
+  "discipline": "computing",
+  "title": "Binary search",
+  "description": "A pointer jumps to the middle of a sorted row of bars, discards the half that cannot hold the target, and repeats until it lands on it: logarithmic search.",
+  "tags": [
+   "algorithm",
+   "search",
+   "sorted-array",
+   "divide-and-conquer",
+   "logarithmic"
+  ]
+ },
+ {
+  "id": "computing--breadth-first-search",
+  "discipline": "computing",
+  "title": "Breadth-first search",
+  "description": "A dashed frontier sweeps outward from the start node of a graph, visiting every node one step away, then two steps, then three: breadth-first traversal.",
+  "tags": [
+   "graph",
+   "traversal",
+   "search",
+   "queue",
+   "shortest-path"
+  ]
+ },
+ {
+  "id": "computing--bubble-sort",
+  "discipline": "computing",
+  "title": "Bubble sort",
+  "description": "Five bars of different heights are sorted by repeatedly comparing neighbours and swapping those out of order, so the tallest bar bubbles to the right.",
+  "tags": [
+   "algorithm",
+   "sorting",
+   "comparison",
+   "swap",
+   "array"
+  ]
+ },
+ {
+  "id": "computing--cellular-automaton-rule-30",
+  "discipline": "computing",
+  "title": "Rule 30 cellular automaton",
+  "description": "A single black cell grows into a chaotic triangle, each new row set by a simple rule applied to three cells above; the moving frame shows one such update.",
+  "tags": [
+   "cellular-automaton",
+   "emergence",
+   "chaos",
+   "rule-30",
+   "simple-rules"
+  ]
+ },
+ {
+  "id": "computing--game-of-life-glider",
+  "discipline": "computing",
+  "title": "Game of Life glider",
+  "description": "On the Game of Life grid a five-cell glider cycles through four shapes while crawling one cell diagonally every four generations, motion born of simple rules.",
+  "tags": [
+   "cellular-automaton",
+   "game-of-life",
+   "glider",
+   "emergence",
+   "grid"
+  ]
+ },
+ {
+  "id": "computing--gradient-descent",
+  "discipline": "computing",
+  "title": "Gradient descent",
+  "description": "A ball steps downhill across the contour lines of a loss surface, zigzagging with shrinking steps toward the minimum, as an optimiser follows the negative gradient.",
+  "tags": [
+   "optimization",
+   "machine-learning",
+   "loss",
+   "gradient",
+   "convergence"
+  ]
+ },
+ {
+  "id": "computing--hash-table",
+  "discipline": "computing",
+  "title": "Hash table",
+  "description": "Keys pass through a hash function that scatters each one to a bucket in an array; the dots follow their key to its slot, giving constant-time lookup.",
+  "tags": [
+   "data-structure",
+   "hashing",
+   "lookup",
+   "buckets",
+   "key-value"
+  ]
+ },
+ {
+  "id": "computing--k-means-clustering",
+  "discipline": "computing",
+  "title": "K-means clustering",
+  "description": "Three centroids start in the wrong places; each point joins its nearest, each centroid steps to the mean of its points, and after a few rounds the three natural clusters emerge.",
+  "tags": [
+   "machine-learning",
+   "clustering",
+   "unsupervised",
+   "centroids",
+   "lloyds-algorithm",
+   "data"
+  ]
+ },
+ {
+  "id": "computing--logic-gates",
+  "discipline": "computing",
+  "title": "Logic gate (AND)",
+  "description": "An AND gate with two input wires and one output: signals light up the wires in turn, and the output only glows when both inputs are on.",
+  "tags": [
+   "logic",
+   "boolean",
+   "gate",
+   "digital-circuit",
+   "and"
+  ]
+ },
+ {
+  "id": "computing--neural-network-forward-pass",
+  "discipline": "computing",
+  "title": "Neural network forward pass",
+  "description": "Activations flow left to right through layers of a small neural network; each wave of light is a layer's outputs feeding the next layer's inputs.",
+  "tags": [
+   "neural-network",
+   "deep-learning",
+   "activation",
+   "layers",
+   "inference"
+  ]
+ },
+ {
+  "id": "computing--public-key-cryptography",
+  "discipline": "computing",
+  "title": "Public-key cryptography",
+  "description": "A padlock with two keys: the public key can only snap it shut, scrambling the message inside, and only the matching private key can open it again. Asymmetric encryption.",
+  "tags": [
+   "encryption",
+   "cryptography",
+   "rsa",
+   "asymmetric",
+   "security",
+   "keys"
+  ]
+ },
+ {
+  "id": "computing--recursion-call-stack",
+  "discipline": "computing",
+  "title": "Recursion and the call stack",
+  "description": "Each recursive call stacks a new frame on the last until the base case is reached, then the answer travels back down as the frames are popped off one by one.",
+  "tags": [
+   "recursion",
+   "call-stack",
+   "function",
+   "base-case",
+   "stack"
+  ]
+ },
+ {
+  "id": "computing--turing-machine",
+  "discipline": "computing",
+  "title": "Turing machine",
+  "description": "A head with a state reads a cell of an endless tape, writes a new symbol, and steps one cell along; this rule-following is all that computation needs.",
+  "tags": [
+   "computation",
+   "automaton",
+   "tape",
+   "state-machine",
+   "turing"
+  ]
+ },
+ {
+  "id": "earth--earth-interior-layers",
+  "discipline": "earth",
+  "title": "Layers of the Earth",
+  "description": "Concentric layers of the Earth: a thin crust, the thick mantle, a liquid outer core and a solid inner core, with slow circulation in the mantle and core.",
+  "tags": [
+   "earth-interior",
+   "crust",
+   "mantle",
+   "outer-core",
+   "inner-core",
+   "convection",
+   "structure-of-earth"
+  ]
+ },
+ {
+  "id": "earth--fossil-strata",
+  "discipline": "earth",
+  "title": "Fossils in rock strata",
+  "description": "Sediment settles in layers, burying creatures as fossils: the deepest layers and fossils are the oldest, the shallowest the youngest.",
+  "tags": [
+   "fossils",
+   "strata",
+   "sedimentary-layers",
+   "superposition",
+   "deposition",
+   "paleontology",
+   "geologic-time"
+  ]
+ },
+ {
+  "id": "earth--hotspot-island-chain",
+  "discipline": "earth",
+  "title": "Hotspot island chain",
+  "description": "A fixed mantle plume feeds one active volcano while the plate drifts over it, leaving a chain of ever older, lower and more eroded islands behind.",
+  "tags": [
+   "hotspot",
+   "island-chain",
+   "mantle-plume",
+   "plate-motion",
+   "volcanic-islands",
+   "hawaii",
+   "geology"
+  ]
+ },
+ {
+  "id": "earth--plate-subduction",
+  "discipline": "earth",
+  "title": "Plate subduction",
+  "description": "A dense oceanic plate slides beneath a continental plate at a trench and sinks into the mantle, melting as it descends and feeding a volcano above.",
+  "tags": [
+   "plate-tectonics",
+   "subduction",
+   "trench",
+   "volcano",
+   "convergent-boundary",
+   "mantle"
+  ]
+ },
+ {
+  "id": "earth--river-meander",
+  "discipline": "earth",
+  "title": "River meander",
+  "description": "Seen from above, a river swings in loops, eroding the outer bank and dropping sediment on the inner bend; a cut-off loop is left behind as an oxbow lake.",
+  "tags": [
+   "river",
+   "meander",
+   "erosion",
+   "deposition",
+   "oxbow-lake",
+   "fluvial",
+   "geomorphology"
+  ]
+ },
+ {
+  "id": "earth--rock-cycle",
+  "discipline": "earth",
+  "title": "The rock cycle",
+  "description": "Magma cools to igneous rock, weathering turns it to sedimentary rock, heat and pressure make metamorphic rock, and melting returns it to magma: rock as an endless loop.",
+  "tags": [
+   "rock-cycle",
+   "igneous",
+   "sedimentary",
+   "metamorphic",
+   "magma",
+   "weathering",
+   "geology"
+  ]
+ },
+ {
+  "id": "earth--seismic-waves",
+  "discipline": "earth",
+  "title": "Seismic waves from an earthquake",
+  "description": "Rings spread from an earthquake's epicentre to a station, where the seismograph records the fast P wave first, then the larger S wave and surface waves.",
+  "tags": [
+   "earthquake",
+   "seismic-waves",
+   "p-wave",
+   "s-wave",
+   "seismograph",
+   "epicentre"
+  ]
+ },
+ {
+  "id": "earth--tsunami-wave",
+  "discipline": "earth",
+  "title": "Tsunami wave",
+  "description": "A seafloor earthquake lifts the water; the long, low wave races across the ocean, then slows, shortens and grows tall as the seabed shoals toward the coast.",
+  "tags": [
+   "tsunami",
+   "wave",
+   "earthquake",
+   "shoaling",
+   "run-up",
+   "ocean",
+   "seafloor"
+  ]
+ },
+ {
+  "id": "earth--volcano-eruption",
+  "discipline": "earth",
+  "title": "Volcanic eruption",
+  "description": "Cross-section of a volcano: magma rises from its chamber through the conduit and erupts as lava, ash and flying bombs.",
+  "tags": [
+   "volcano",
+   "eruption",
+   "magma",
+   "ash",
+   "lava",
+   "magma-chamber",
+   "geology"
+  ]
+ },
+ {
+  "id": "earth--water-cycle",
+  "discipline": "earth",
+  "title": "The water cycle",
+  "description": "Sun-warmed sea water evaporates, condenses into clouds, falls as rain on the mountains and runs back to the sea in rivers: water in an endless loop.",
+  "tags": [
+   "water-cycle",
+   "evaporation",
+   "condensation",
+   "precipitation",
+   "runoff",
+   "hydrology",
+   "climate"
+  ]
+ },
+ {
+  "id": "ecology--ant-trail-pheromones",
+  "discipline": "ecology",
+  "title": "Ant Trail Pheromones",
+  "description": "Ants carry food along the shorter way round a stone: more trips lay more scent, more scent draws more ants, while the long route evaporates. No ant knows the map.",
+  "tags": [
+   "ants",
+   "pheromones",
+   "stigmergy",
+   "foraging",
+   "self-organisation",
+   "shortest-path",
+   "superorganism"
+  ]
+ },
+ {
+  "id": "ecology--bird-flocking",
+  "discipline": "ecology",
+  "title": "Bird Flocking",
+  "description": "A murmuration of starlings wheels as one while a turn ripples through it; each bird tracks only its seven nearest neighbours, and the flock emerges with no leader.",
+  "tags": [
+   "flocking",
+   "starlings",
+   "murmuration",
+   "emergence",
+   "collective-behaviour",
+   "self-organisation",
+   "boids"
+  ]
+ },
+ {
+  "id": "ecology--ecological-succession",
+  "discipline": "ecology",
+  "title": "Ecological Succession",
+  "description": "Lichen on bare rock gives way to grass, flowers, shrubs, birch and finally oak, each stage growing in turn and building the deeper soil that the next one needs.",
+  "tags": [
+   "succession",
+   "pioneer-species",
+   "climax-community",
+   "soil",
+   "forest",
+   "ecosystem-development",
+   "time"
+  ]
+ },
+ {
+  "id": "ecology--food-web",
+  "discipline": "ecology",
+  "title": "Food web",
+  "description": "A small food web: arrows run from the eaten to the eater, so energy from grass and berries passes to herbivores, carnivores and a top predator.",
+  "tags": [
+   "food-web",
+   "trophic-levels",
+   "energy-flow",
+   "herbivore",
+   "carnivore",
+   "producer",
+   "consumer"
+  ]
+ },
+ {
+  "id": "ecology--logistic-population-growth",
+  "discipline": "ecology",
+  "title": "Logistic population growth",
+  "description": "A population grows slowly, then fast, then levels off at the carrying capacity K where resources run out: the S-shaped logistic curve.",
+  "tags": [
+   "logistic-growth",
+   "carrying-capacity",
+   "population",
+   "s-curve",
+   "resource-limits",
+   "growth-rate"
+  ]
+ },
+ {
+  "id": "ecology--mycorrhizal-network",
+  "discipline": "ecology",
+  "title": "Mycorrhizal Network",
+  "description": "Beneath a forest floor, threads of fungus link the roots of separate trees; sugars travel from a big tree in the light through the hyphae to a seedling in its shade.",
+  "tags": [
+   "mycorrhiza",
+   "fungi",
+   "hyphae",
+   "wood-wide-web",
+   "symbiosis",
+   "forest",
+   "roots",
+   "soil"
+  ]
+ },
+ {
+  "id": "ecology--nitrogen-cycle",
+  "discipline": "ecology",
+  "title": "Nitrogen Cycle",
+  "description": "Air nitrogen is fixed in the root nodules of a legume, turned by soil bacteria to ammonium and nitrate, drunk by plants, returned by decay and finally released as gas.",
+  "tags": [
+   "nitrogen-cycle",
+   "nitrogen-fixation",
+   "root-nodules",
+   "legume",
+   "nitrification",
+   "denitrification",
+   "soil-bacteria",
+   "biogeochemistry"
+  ]
+ },
+ {
+  "id": "ecology--predator-prey-cycle",
+  "discipline": "ecology",
+  "title": "Predator-prey cycle",
+  "description": "Prey and predator numbers rise and fall in lagged waves: more prey feeds more predators, who then cut the prey back, and the cycle repeats.",
+  "tags": [
+   "predator-prey",
+   "population-cycle",
+   "lotka-volterra",
+   "oscillation",
+   "feedback",
+   "food-chain"
+  ]
+ },
+ {
+  "id": "ecology--trophic-pyramid",
+  "discipline": "ecology",
+  "title": "Trophic pyramid",
+  "description": "Energy pyramid: each feeding level holds roughly a tenth of the energy of the one below, so producers are many and top predators few.",
+  "tags": [
+   "trophic-levels",
+   "energy-pyramid",
+   "ten-percent-rule",
+   "producers",
+   "predators",
+   "food-chain",
+   "biomass"
+  ]
+ },
+ {
+  "id": "economics--compound-interest",
+  "discipline": "economics",
+  "title": "Compound interest",
+  "description": "Two savers start together: one earns interest only on the original sum, the other on interest too, so the exponential curve and its growing dot pull away from the straight line.",
+  "tags": [
+   "exponential-growth",
+   "interest",
+   "savings",
+   "finance",
+   "growth-rate"
+  ]
+ },
+ {
+  "id": "economics--prisoners-dilemma",
+  "discipline": "economics",
+  "title": "Prisoner's dilemma",
+  "description": "A two-by-two payoff grid where each player does better by defecting whatever the other does, so a marker of best replies slides to mutual defection even though cooperating pays both more.",
+  "tags": [
+   "game-theory",
+   "nash-equilibrium",
+   "cooperation",
+   "payoff-matrix",
+   "incentives"
+  ]
+ },
+ {
+  "id": "economics--supply-and-demand",
+  "discipline": "economics",
+  "title": "Supply and demand",
+  "description": "A rising supply curve and a falling demand curve cross at the market price; when demand shifts, the crossing point slides along the supply curve to a new price and quantity.",
+  "tags": [
+   "market",
+   "equilibrium",
+   "price",
+   "supply",
+   "demand",
+   "microeconomics"
+  ]
+ },
+ {
+  "id": "energy--hydroelectric-dam",
+  "discipline": "energy",
+  "title": "Hydroelectric Dam",
+  "description": "Water held high behind a dam falls through a penstock to spin a turbine, turning stored gravitational energy into electricity sent out along the grid.",
+  "tags": [
+   "dam",
+   "hydropower",
+   "turbine",
+   "potential-energy",
+   "penstock",
+   "reservoir",
+   "renewable"
+  ]
+ },
+ {
+  "id": "energy--nuclear-chain-reaction",
+  "discipline": "energy",
+  "title": "Nuclear Chain Reaction",
+  "description": "A neutron splits a uranium nucleus into two fragments and frees more neutrons; each splits another nucleus in turn, so one fission becomes two, then four: a self-sustaining chain reaction.",
+  "tags": [
+   "nuclear",
+   "fission",
+   "chain-reaction",
+   "uranium",
+   "neutron",
+   "reactor",
+   "energy"
+  ]
+ },
+ {
+  "id": "energy--solar-cell-pn-junction",
+  "discipline": "energy",
+  "title": "Solar Cell p–n Junction",
+  "description": "A photon strikes the junction between n-type and p-type silicon, freeing an electron and a hole that are driven apart, so electrons flow through the external load.",
+  "tags": [
+   "solar-cell",
+   "photovoltaic",
+   "pn-junction",
+   "semiconductor",
+   "photon",
+   "electron-hole",
+   "renewable"
+  ]
+ },
+ {
+  "id": "energy--wind-turbine",
+  "discipline": "energy",
+  "title": "Wind Turbine",
+  "description": "Moving air turns a three-bladed rotor on a tower; the power captured grows with the swept area and with the cube of the wind speed.",
+  "tags": [
+   "wind",
+   "turbine",
+   "rotor",
+   "renewable",
+   "power",
+   "kinetic-energy",
+   "generator"
+  ]
+ },
+ {
+  "id": "engineering--feedback-control-loop",
+  "discipline": "engineering",
+  "title": "Feedback Control Loop",
+  "description": "A controller compares a measured output with the set-point and drives the process to shrink the error; the sensor closes the loop and the response settles on target.",
+  "tags": [
+   "control",
+   "feedback",
+   "controller",
+   "setpoint",
+   "error",
+   "stability",
+   "system"
+  ]
+ },
+ {
+  "id": "engineering--four-stroke-engine",
+  "discipline": "engineering",
+  "title": "Four-Stroke Engine",
+  "description": "A piston, connecting rod and crank cycle through intake, compression, power and exhaust strokes while the valves open in turn and a spark ignites the charge.",
+  "tags": [
+   "engine",
+   "piston",
+   "crankshaft",
+   "internal-combustion",
+   "thermodynamics",
+   "valves",
+   "cycle"
+  ]
+ },
+ {
+  "id": "engineering--gear-train",
+  "discipline": "engineering",
+  "title": "Gear Train",
+  "description": "Three meshing gears turn in alternating directions; the smaller the gear, the faster it spins, so speed and torque trade off in proportion to the tooth counts.",
+  "tags": [
+   "gears",
+   "gear-ratio",
+   "torque",
+   "rotation",
+   "meshing",
+   "transmission",
+   "mechanism"
+  ]
+ },
+ {
+  "id": "engineering--hydraulic-press",
+  "discipline": "engineering",
+  "title": "Hydraulic Press",
+  "description": "A small piston pushing on an enclosed fluid raises a much larger piston: pressure is shared, so force scales with piston area while the distance moved shrinks.",
+  "tags": [
+   "hydraulic",
+   "pascal-principle",
+   "pressure",
+   "force-multiplication",
+   "piston",
+   "fluid"
+  ]
+ },
+ {
+  "id": "engineering--lever-and-fulcrum",
+  "discipline": "engineering",
+  "title": "Lever and Fulcrum",
+  "description": "A plank pivots on a fulcrum; a small push on the long arm balances a heavy load on the short arm, because load times its distance equals effort times its distance.",
+  "tags": [
+   "lever",
+   "fulcrum",
+   "mechanical-advantage",
+   "torque",
+   "simple-machine",
+   "moment"
+  ]
+ },
+ {
+  "id": "engineering--pulley-system",
+  "discipline": "engineering",
+  "title": "Pulley System",
+  "description": "A rope runs from a beam under a moving pulley and over a fixed one: pull the free end down by 2d and the load rises only d, so two rope runs share the weight and the force is halved.",
+  "tags": [
+   "pulley",
+   "block-and-tackle",
+   "mechanical-advantage",
+   "force",
+   "rope",
+   "work",
+   "simple-machine"
+  ]
+ },
+ {
+  "id": "engineering--truss-bridge",
+  "discipline": "engineering",
+  "title": "Truss Bridge",
+  "description": "A road deck rides on a triangulated truss: a vehicle's weight is carried as compression along the top chord and tension along the bottom chord and diagonals.",
+  "tags": [
+   "truss",
+   "bridge",
+   "tension",
+   "compression",
+   "structure",
+   "load-path",
+   "statics"
+  ]
+ },
+ {
+  "id": "evolution--adaptive-radiation",
+  "discipline": "evolution",
+  "title": "Adaptive radiation of finch beaks",
+  "description": "From one ancestral bird, lineages fan out into new niches; each descendant's beak is shaped for a different food, so one form radiates into many.",
+  "tags": [
+   "adaptive-radiation",
+   "finches",
+   "beak-shape",
+   "niches",
+   "diversification",
+   "galapagos",
+   "speciation"
+  ]
+ },
+ {
+  "id": "evolution--convergent-evolution",
+  "discipline": "evolution",
+  "title": "Convergent evolution: shark and dolphin",
+  "description": "A fish and a mammal, only distantly related, evolved the same streamlined body for fast swimming: similar form shaped by the same pressure, not by shared descent.",
+  "tags": [
+   "convergent-evolution",
+   "analogous-traits",
+   "shark",
+   "dolphin",
+   "streamlined",
+   "natural-selection",
+   "ancestry"
+  ]
+ },
+ {
+  "id": "evolution--fossil-strata-transition",
+  "discipline": "evolution",
+  "title": "Fossils changing through rock strata",
+  "description": "Rock layers stack oldest at the bottom; shells found in successive layers grow larger and more coiled, a record of one lineage changing gradually through time.",
+  "tags": [
+   "fossils",
+   "strata",
+   "fossil-record",
+   "transitional-forms",
+   "gradual-change",
+   "deep-time",
+   "paleontology"
+  ]
+ },
+ {
+  "id": "evolution--genetic-drift",
+  "discipline": "evolution",
+  "title": "Genetic drift in a small population",
+  "description": "Allele frequencies wander by chance each generation; in a small population some lines drift all the way to loss or fixation without any selection.",
+  "tags": [
+   "genetic-drift",
+   "allele-frequency",
+   "random-sampling",
+   "population-size",
+   "fixation",
+   "neutral-evolution"
+  ]
+ },
+ {
+  "id": "evolution--horizontal-gene-transfer",
+  "discipline": "evolution",
+  "title": "Horizontal gene transfer between bacteria",
+  "description": "One bacterium passes a loop of DNA, a plasmid, through a thin bridge into another cell, so genes move sideways between unrelated lineages rather than parent to child.",
+  "tags": [
+   "horizontal-gene-transfer",
+   "bacteria",
+   "plasmid",
+   "conjugation",
+   "antibiotic-resistance",
+   "gene-flow"
+  ]
+ },
+ {
+  "id": "evolution--natural-selection",
+  "discipline": "evolution",
+  "title": "Natural selection shifting a trait",
+  "description": "Individuals with a favoured trait leave more offspring, so over generations the whole distribution of that trait slides toward the advantaged end.",
+  "tags": [
+   "natural-selection",
+   "trait-distribution",
+   "fitness",
+   "adaptation",
+   "generations",
+   "heritable-variation"
+  ]
+ },
+ {
+  "id": "evolution--peppered-moth",
+  "discipline": "evolution",
+  "title": "Peppered moth and industrial melanism",
+  "description": "On pale birch bark pale moths hide and dark ones get eaten; once soot darkens the trunks the odds reverse, and dark moths come to dominate.",
+  "tags": [
+   "peppered-moth",
+   "industrial-melanism",
+   "camouflage",
+   "predation",
+   "natural-selection",
+   "adaptation",
+   "pollution"
+  ]
+ },
+ {
+  "id": "evolution--phylogenetic-tree",
+  "discipline": "evolution",
+  "title": "Phylogenetic tree of descent",
+  "description": "A branching tree traces how six species descend from shared ancestors; each fork is a common ancestor, and branch order records how recently lineages split.",
+  "tags": [
+   "phylogeny",
+   "common-ancestor",
+   "tree-of-life",
+   "speciation",
+   "cladogram",
+   "descent",
+   "lineages"
+  ]
+ },
+ {
+  "id": "genetics--chromosome-structure",
+  "discipline": "genetics",
+  "title": "Chromosome structure and chromatin packing",
+  "description": "A chromosome zoomed in is chromatin: DNA wrapped around histone spools, the nucleosomes, like beads on a string, packed ever tighter to fit a cell.",
+  "tags": [
+   "chromosome",
+   "chromatin",
+   "nucleosome",
+   "histone",
+   "dna-packaging",
+   "centromere",
+   "chromatid"
+  ]
+ },
+ {
+  "id": "genetics--crispr-cas9",
+  "discipline": "genetics",
+  "title": "CRISPR-Cas9 gene editing",
+  "description": "A guide RNA leads the Cas9 enzyme to a matching stretch of DNA, where it makes a clean cut across both strands so the gene can be changed.",
+  "tags": [
+   "crispr",
+   "cas9",
+   "guide-rna",
+   "gene-editing",
+   "dna-cut",
+   "genome-engineering"
+  ]
+ },
+ {
+  "id": "genetics--dna-double-helix",
+  "discipline": "genetics",
+  "title": "DNA double helix",
+  "description": "Two backbones twist around one axis with base-pair rungs between them; as the helix turns, rungs lengthen and shorten and the beads swing front to back.",
+  "tags": [
+   "dna",
+   "double-helix",
+   "base-pairs",
+   "nucleotides",
+   "molecular-biology",
+   "structure"
+  ]
+ },
+ {
+  "id": "genetics--dna-replication",
+  "discipline": "genetics",
+  "title": "DNA replication fork",
+  "description": "The parent duplex unzips at a fork; helicase opens it and polymerases build a new strand against each old template, so one duplex becomes two.",
+  "tags": [
+   "dna",
+   "replication",
+   "replication-fork",
+   "helicase",
+   "polymerase",
+   "semi-conservative"
+  ]
+ },
+ {
+  "id": "genetics--gel-electrophoresis",
+  "discipline": "genetics",
+  "title": "Gel electrophoresis of DNA fragments",
+  "description": "An electric field pulls DNA fragments through a gel; shorter pieces slip through faster and travel farther, sorting a mixture into bands by size.",
+  "tags": [
+   "gel-electrophoresis",
+   "dna-fragments",
+   "size-separation",
+   "lab-technique",
+   "electric-field",
+   "bands"
+  ]
+ },
+ {
+  "id": "genetics--gene-expression",
+  "discipline": "genetics",
+  "title": "Gene expression: DNA to mRNA to protein",
+  "description": "RNA polymerase copies a gene from DNA into messenger RNA, which carries the message to a ribosome that translates it into a chain of amino acids.",
+  "tags": [
+   "gene-expression",
+   "transcription",
+   "translation",
+   "mrna",
+   "ribosome",
+   "central-dogma",
+   "protein-synthesis"
+  ]
+ },
+ {
+  "id": "genetics--hardy-weinberg",
+  "discipline": "genetics",
+  "title": "Hardy-Weinberg equilibrium",
+  "description": "A unit square split by allele frequency p and q: its areas p², 2pq and q² are the genotype shares, and they stay fixed when nothing acts on the population.",
+  "tags": [
+   "hardy-weinberg",
+   "allele-frequency",
+   "genotype-frequency",
+   "population-genetics",
+   "equilibrium",
+   "p-squared"
+  ]
+ },
+ {
+  "id": "genetics--pcr-amplification",
+  "discipline": "genetics",
+  "title": "PCR: amplifying DNA by thermal cycling",
+  "description": "Repeated cycles of heating, cooling and copying double the DNA each round: one molecule becomes two, four, eight, a billion, as temperature rises and falls.",
+  "tags": [
+   "pcr",
+   "amplification",
+   "thermal-cycling",
+   "exponential-growth",
+   "dna-copying",
+   "polymerase"
+  ]
+ },
+ {
+  "id": "genetics--point-mutation",
+  "discipline": "genetics",
+  "title": "Point mutation",
+  "description": "A single base in a gene is swapped; because codons are read in threes, that one change can alter a single amino acid in the protein built from it.",
+  "tags": [
+   "mutation",
+   "point-mutation",
+   "substitution",
+   "codon",
+   "amino-acid",
+   "dna"
+  ]
+ },
+ {
+  "id": "genetics--punnett-square",
+  "discipline": "genetics",
+  "title": "Punnett square",
+  "description": "Two Aa parents each give one allele; the four boxes list every combination, showing offspring in a 1 : 2 : 1 ratio of AA, Aa and aa.",
+  "tags": [
+   "punnett-square",
+   "alleles",
+   "inheritance",
+   "mendel",
+   "dominant-recessive",
+   "probability"
+  ]
+ },
+ {
+  "id": "geometry--bezier-curve",
+  "discipline": "geometry",
+  "title": "Bézier curve by de Casteljau's construction",
+  "description": "Four control points, and points sliding along the lines between them, again and again: the last one left traces the smooth cubic Bézier curve.",
+  "tags": [
+   "bezier",
+   "curve",
+   "de-casteljau",
+   "interpolation",
+   "control-points",
+   "spline"
+  ]
+ },
+ {
+  "id": "geometry--cycloid",
+  "discipline": "geometry",
+  "title": "Cycloid traced by a rolling wheel",
+  "description": "A wheel rolls along a line without slipping while one point on its rim traces a cycloid: a row of arches, touching the ground in cusps.",
+  "tags": [
+   "cycloid",
+   "rolling",
+   "curve",
+   "wheel",
+   "parametric",
+   "brachistochrone"
+  ]
+ },
+ {
+  "id": "geometry--golden-spiral",
+  "discipline": "geometry",
+  "title": "Golden spiral",
+  "description": "A golden rectangle breaks into ever smaller squares, and quarter-circle arcs through them wind into a spiral that grows by the golden ratio every quarter turn.",
+  "tags": [
+   "golden-ratio",
+   "spiral",
+   "fibonacci",
+   "proportion",
+   "self-similarity",
+   "phi"
+  ]
+ },
+ {
+  "id": "geometry--inscribed-angle",
+  "discipline": "geometry",
+  "title": "Inscribed angle theorem",
+  "description": "A point glides around a circle while its rays stay pinned to a chord's ends: the angle it sees never changes, and is always half the angle at the centre.",
+  "tags": [
+   "circle",
+   "inscribed-angle",
+   "central-angle",
+   "chord",
+   "theorem",
+   "euclid"
+  ]
+ },
+ {
+  "id": "geometry--koch-snowflake",
+  "discipline": "geometry",
+  "title": "Koch snowflake",
+  "description": "Every side is replaced by four sides a third as long, again and again: the outline grows without bound while the snowflake's area stays finite.",
+  "tags": [
+   "fractal",
+   "koch",
+   "snowflake",
+   "recursion",
+   "infinite-perimeter",
+   "self-similarity"
+  ]
+ },
+ {
+  "id": "geometry--mobius-strip",
+  "discipline": "geometry",
+  "title": "Möbius strip",
+  "description": "A strip with a half twist: a walker on it goes round twice, solid on the near face and hollow beneath, and returns home having crossed no edge. It has one side.",
+  "tags": [
+   "mobius-strip",
+   "topology",
+   "surface",
+   "non-orientable",
+   "one-sided",
+   "twist"
+  ]
+ },
+ {
+  "id": "geometry--pi-unrolled-circle",
+  "discipline": "geometry",
+  "title": "Pi as an unrolled circle",
+  "description": "A circle rolls through one turn along a line and lays down its circumference, which spans three diameters and a little more: that ratio is pi.",
+  "tags": [
+   "pi",
+   "circle",
+   "circumference",
+   "diameter",
+   "ratio",
+   "rolling"
+  ]
+ },
+ {
+  "id": "geometry--pythagorean-theorem",
+  "discipline": "geometry",
+  "title": "Pythagorean theorem",
+  "description": "Squares drawn on the sides of a 3-4-5 right triangle: the unit cells of the two small squares move across to exactly fill the square on the hypotenuse.",
+  "tags": [
+   "pythagoras",
+   "right-triangle",
+   "area",
+   "proof",
+   "squares",
+   "hypotenuse"
+  ]
+ },
+ {
+  "id": "geometry--sierpinski-triangle",
+  "discipline": "geometry",
+  "title": "Sierpinski triangle",
+  "description": "A triangle with its middle removed, again and again in every remaining corner; a dot hopping halfway to random corners lands only on this self-similar fractal.",
+  "tags": [
+   "fractal",
+   "sierpinski",
+   "self-similarity",
+   "recursion",
+   "chaos-game",
+   "triangle"
+  ]
+ },
+ {
+  "id": "history--copernican-model",
+  "discipline": "history",
+  "title": "Copernican model",
+  "description": "Two cosmos side by side: Ptolemy's Earth-centred sky needs a planet looping on an epicycle, while Copernicus puts the Sun in the middle and the loops give way to plain circles.",
+  "tags": [
+   "copernicus",
+   "ptolemy",
+   "heliocentric",
+   "geocentric",
+   "epicycle",
+   "history-of-science"
+  ]
+ },
+ {
+  "id": "history--galileo-inclined-plane",
+  "discipline": "history",
+  "title": "Galileo's inclined plane",
+  "description": "A ball rolls down Galileo's ramp past frets set so it reaches one at each equal beat: the distances run 1, 3, 5, 7, the times-squared law of falling bodies.",
+  "tags": [
+   "galileo",
+   "inclined-plane",
+   "acceleration",
+   "experiment",
+   "times-squared",
+   "history-of-science"
+  ]
+ },
+ {
+  "id": "linguistics--language-family-tree",
+  "discipline": "linguistics",
+  "title": "Language family tree",
+  "description": "A reconstructed proto-word, dashed where nothing was written down, branches into daughter languages; dots carry it down the tree until it arrives as father in one and padre in another.",
+  "tags": [
+   "historical-linguistics",
+   "proto-language",
+   "cognates",
+   "divergence",
+   "descent",
+   "indo-european"
+  ]
+ },
+ {
+  "id": "linguistics--syntax-tree",
+  "discipline": "linguistics",
+  "title": "Syntax tree",
+  "description": "The sentence the cat saw a bird parsed as a tree: a clause splits into noun phrase and verb phrase, down to the words, while a ring walks the tree node by node as a parser would.",
+  "tags": [
+   "grammar",
+   "phrase-structure",
+   "parsing",
+   "sentence",
+   "syntax"
+  ]
+ },
+ {
+  "id": "materials--crystal-dislocation",
+  "discipline": "materials",
+  "title": "Crystal Dislocation",
+  "description": "An edge dislocation, the end of an extra half-plane of atoms, glides along the slip plane under shear; when it leaves, the upper crystal has slipped one atom over, which is why metals bend.",
+  "tags": [
+   "dislocation",
+   "crystal",
+   "slip",
+   "plasticity",
+   "shear",
+   "metal",
+   "defect",
+   "lattice"
+  ]
+ },
+ {
+  "id": "materials--graphene-lattice",
+  "discipline": "materials",
+  "title": "Graphene Lattice",
+  "description": "A honeycomb of carbon atoms seen from above, with electrons running freely across the mesh; below, the same sheet edge-on ripples as a single line, just one atom thick.",
+  "tags": [
+   "graphene",
+   "carbon",
+   "honeycomb",
+   "2d-material",
+   "hexagonal",
+   "electron-mobility",
+   "sheet"
+  ]
+ },
+ {
+  "id": "materials--stress-strain-curve",
+  "discipline": "materials",
+  "title": "Stress–Strain Curve",
+  "description": "A steel test piece is pulled while a point climbs its stress–strain curve: straight elastic rise, yield, strain hardening, then necking to fracture, where the piece parts.",
+  "tags": [
+   "stress",
+   "strain",
+   "tensile-test",
+   "yield",
+   "elastic",
+   "plastic",
+   "necking",
+   "fracture"
+  ]
+ },
+ {
+  "id": "math--derivative-tangent-line",
+  "discipline": "math",
+  "title": "Derivative as the slope of a tangent line",
+  "description": "A tangent line slides along a curve; its rise over run is the derivative, the curve's instantaneous slope, steep on the flanks and flat at the peaks.",
+  "tags": [
+   "derivative",
+   "tangent",
+   "slope",
+   "calculus",
+   "rate-of-change",
+   "limit"
+  ]
+ },
+ {
+  "id": "math--eigenvector",
+  "discipline": "math",
+  "title": "Eigenvectors of a linear transformation",
+  "description": "A matrix stretches and shears the plane: most vectors are knocked off their line, but the two eigenvectors stay on theirs, only scaled by their eigenvalues.",
+  "tags": [
+   "eigenvector",
+   "eigenvalue",
+   "matrix",
+   "linear-algebra",
+   "transformation",
+   "scaling"
+  ]
+ },
+ {
+  "id": "math--fibonacci-sequence",
+  "discipline": "math",
+  "title": "Fibonacci sequence as growing generations",
+  "description": "Each filled dot spawns itself and a hollow one, each hollow dot turns filled: the rows hold 1, 2, 3, 5, 8, 13 dots, every count the sum of the two before.",
+  "tags": [
+   "fibonacci",
+   "sequence",
+   "recursion",
+   "growth",
+   "rabbits",
+   "generations",
+   "sum"
+  ]
+ },
+ {
+  "id": "math--fourier-series",
+  "discipline": "math",
+  "title": "Fourier series of a square wave",
+  "description": "Three nested rotating circles, each three and five times faster and smaller, add up to trace a near-square wave: any periodic shape is a sum of sines.",
+  "tags": [
+   "fourier",
+   "harmonics",
+   "sine-waves",
+   "epicycles",
+   "square-wave",
+   "signal",
+   "periodic"
+  ]
+ },
+ {
+  "id": "math--konigsberg-bridges",
+  "discipline": "math",
+  "title": "The seven bridges of Königsberg",
+  "description": "A walker crosses the seven bridges of Königsberg, each only once; the bridges used go dim, and he is stranded with one left: Euler's proof that no such walk exists.",
+  "tags": [
+   "graph-theory",
+   "euler",
+   "konigsberg",
+   "bridges",
+   "topology",
+   "path"
+  ]
+ },
+ {
+  "id": "math--limit-convergence",
+  "discipline": "math",
+  "title": "Sequence converging to a limit",
+  "description": "Terms of a sequence zigzag in toward a dashed limit L; as the epsilon band around L narrows, all later terms still fall inside it.",
+  "tags": [
+   "limit",
+   "convergence",
+   "sequence",
+   "epsilon",
+   "calculus",
+   "infinity"
+  ]
+ },
+ {
+  "id": "math--prime-sieve",
+  "discipline": "math",
+  "title": "Sieve of Eratosthenes finding the primes",
+  "description": "The numbers 1 to 90 in a grid: take 2, 3, 5 and 7 in turn and strike out their multiples, and only the prime numbers are left standing.",
+  "tags": [
+   "primes",
+   "sieve",
+   "eratosthenes",
+   "number-theory",
+   "algorithm",
+   "multiples"
+  ]
+ },
+ {
+  "id": "math--riemann-sum-integral",
+  "discipline": "math",
+  "title": "Riemann sum approaching an integral",
+  "description": "Rectangles under a curve are refined from 4 to 8 to 16 strips; their summed area closes in on the exact area, the definite integral of f.",
+  "tags": [
+   "integral",
+   "riemann-sum",
+   "area",
+   "calculus",
+   "approximation",
+   "limit"
+  ]
+ },
+ {
+  "id": "math--unit-circle-sine-wave",
+  "discipline": "math",
+  "title": "Unit circle and sine wave",
+  "description": "A radius turns round the unit circle while its height is unrolled into a sine wave: sin θ is the vertical shadow of a point in circular motion.",
+  "tags": [
+   "trigonometry",
+   "sine",
+   "unit-circle",
+   "periodic",
+   "angle",
+   "waves"
+  ]
+ },
+ {
+  "id": "medicine--antibody-antigen",
+  "discipline": "medicine",
+  "title": "Antibody and antigen",
+  "description": "A Y-shaped antibody, built from paired protein domains, reaches down and clasps two matching antigens on a pathogen surface with the tips of its arms.",
+  "tags": [
+   "antibody",
+   "antigen",
+   "immune-system",
+   "immunoglobulin",
+   "binding",
+   "pathogen"
+  ]
+ },
+ {
+  "id": "medicine--ecg-heartbeat",
+  "discipline": "medicine",
+  "title": "ECG heartbeat",
+  "description": "An electrocardiogram trace: the small P wave, the sharp QRS spike and the rounded T wave repeat with every beat as the heart depolarises and recovers.",
+  "tags": [
+   "ecg",
+   "electrocardiogram",
+   "heartbeat",
+   "qrs",
+   "cardiology",
+   "depolarisation"
+  ]
+ },
+ {
+  "id": "medicine--epidemic-sir-curve",
+  "discipline": "medicine",
+  "title": "Epidemic SIR curves",
+  "description": "The SIR model of an epidemic: susceptible people fall as recovered people rise, while the infected curve swells to a peak and dies away as hosts run out.",
+  "tags": [
+   "epidemic",
+   "sir-model",
+   "infection",
+   "herd-immunity",
+   "epidemiology",
+   "r0"
+  ]
+ },
+ {
+  "id": "medicine--heart-circulation",
+  "discipline": "medicine",
+  "title": "Heart and double circulation",
+  "description": "The heart pumps twice in one circuit: spent blood from the body goes through the right heart to the lungs, then returns oxygenated to the left heart and out to the body.",
+  "tags": [
+   "heart",
+   "circulation",
+   "blood",
+   "pulmonary",
+   "aorta",
+   "oxygen",
+   "cardiology"
+  ]
+ },
+ {
+  "id": "medicine--kidney-nephron",
+  "discipline": "medicine",
+  "title": "Kidney nephron",
+  "description": "One nephron of the kidney: blood is filtered at the glomerulus, and the filtrate runs through the tubule and loop of Henle, water reclaimed, into the collecting duct.",
+  "tags": [
+   "kidney",
+   "nephron",
+   "glomerulus",
+   "loop-of-henle",
+   "filtration",
+   "reabsorption",
+   "urine"
+  ]
+ },
+ {
+  "id": "medicine--lung-gas-exchange",
+  "discipline": "medicine",
+  "title": "Gas exchange in the lung",
+  "description": "An air sac of the lung wrapped by a capillary: oxygen crosses the thin wall into passing red cells, which darken as they load, while carbon dioxide leaves.",
+  "tags": [
+   "lung",
+   "alveolus",
+   "gas-exchange",
+   "oxygen",
+   "carbon-dioxide",
+   "capillary",
+   "red-blood-cell"
+  ]
+ },
+ {
+  "id": "medicine--muscle-sarcomere",
+  "discipline": "medicine",
+  "title": "Muscle sarcomere",
+  "description": "A sarcomere, the unit of muscle: myosin heads ratchet along thin actin filaments, drawing the Z lines inward so the whole band shortens while no filament does.",
+  "tags": [
+   "muscle",
+   "sarcomere",
+   "actin",
+   "myosin",
+   "sliding-filament",
+   "contraction"
+  ]
+ },
+ {
+  "id": "medicine--peristalsis",
+  "discipline": "medicine",
+  "title": "Peristalsis",
+  "description": "Rings of muscle along the gut relax ahead of a bolus and squeeze behind it, so a travelling wave of contraction pushes the food forward along the tube.",
+  "tags": [
+   "peristalsis",
+   "digestion",
+   "smooth-muscle",
+   "gut",
+   "oesophagus",
+   "bolus"
+  ]
+ },
+ {
+  "id": "method--controlled-experiment",
+  "discipline": "method",
+  "title": "Controlled experiment",
+  "description": "Two identical pots on one bench measured by one ruler: only the treated plant gets the drops and it grows taller, while the untouched control shows what would have happened anyway.",
+  "tags": [
+   "control-group",
+   "treatment",
+   "variable",
+   "experiment-design",
+   "causation"
+  ]
+ },
+ {
+  "id": "method--falsification",
+  "discipline": "method",
+  "title": "Falsification",
+  "description": "A row of white swans supports the claim that all swans are white, but no number of them proves it: one black swan gliding in strikes the sentence out. Popper's falsifiability.",
+  "tags": [
+   "popper",
+   "falsifiability",
+   "black-swan",
+   "induction",
+   "hypothesis",
+   "philosophy-of-science"
+  ]
+ },
+ {
+  "id": "method--scientific-method-loop",
+  "discipline": "method",
+  "title": "Scientific method loop",
+  "description": "The scientific method as a closed loop: observe with the eye, guess with a dashed idea, test in the flask, then back to looking again, a token walking round and never arriving.",
+  "tags": [
+   "scientific-method",
+   "hypothesis",
+   "experiment",
+   "observation",
+   "iteration"
+  ]
+ },
+ {
+  "id": "networks--packet-routing",
+  "discipline": "networks",
+  "title": "Packet routing",
+  "description": "A message is cut into three packets that hop from router to router by different paths, arrive out of order, and fall back into sequence at the receiver: packet switching.",
+  "tags": [
+   "internet",
+   "packets",
+   "routers",
+   "packet-switching",
+   "hops",
+   "tcp-ip"
+  ]
+ },
+ {
+  "id": "networks--scale-free-network",
+  "discipline": "networks",
+  "title": "Scale-free network",
+  "description": "A few large hubs hold most of the links while most nodes hold one; each newcomer attaches to a hub, which grows larger: preferential attachment, the rich get richer.",
+  "tags": [
+   "graph",
+   "hubs",
+   "power-law",
+   "preferential-attachment",
+   "barabasi-albert",
+   "degree"
+  ]
+ },
+ {
+  "id": "networks--small-world-network",
+  "discipline": "networks",
+  "title": "Small-world network",
+  "description": "A ring of neighbours crossed by a few long chords; one signal walks round the ring while another takes a shortcut and arrives in three hops, why any two people are so few steps apart.",
+  "tags": [
+   "graph",
+   "small-world",
+   "shortcuts",
+   "six-degrees",
+   "watts-strogatz",
+   "path-length"
+  ]
+ },
+ {
+  "id": "neuroscience--action-potential",
+  "discipline": "neuroscience",
+  "title": "Action potential",
+  "description": "Membrane voltage rests, crosses a threshold, spikes sharply, overshoots below rest and recovers: the all-or-none electrical spike of a neuron.",
+  "tags": [
+   "action-potential",
+   "spike",
+   "membrane-voltage",
+   "depolarization",
+   "threshold",
+   "neuron"
+  ]
+ },
+ {
+  "id": "neuroscience--brain-lobes",
+  "discipline": "neuroscience",
+  "title": "Lobes of the brain",
+  "description": "The brain in side view, divided by its sulci into frontal, parietal, occipital and temporal lobes, with the cerebellum and brainstem beneath.",
+  "tags": [
+   "brain",
+   "cerebral-cortex",
+   "frontal-lobe",
+   "parietal-lobe",
+   "temporal-lobe",
+   "occipital-lobe",
+   "anatomy"
+  ]
+ },
+ {
+  "id": "neuroscience--circadian-rhythm",
+  "discipline": "neuroscience",
+  "title": "Circadian rhythm",
+  "description": "A 24-hour clock of the body: the hand sweeps through day and night while core temperature, drawn as a dashed ring, swells by evening and sinks before dawn.",
+  "tags": [
+   "circadian-rhythm",
+   "body-clock",
+   "sleep",
+   "melatonin",
+   "day-night",
+   "suprachiasmatic"
+  ]
+ },
+ {
+  "id": "neuroscience--cochlea-hearing",
+  "discipline": "neuroscience",
+  "title": "Cochlea and hearing",
+  "description": "The cochlea, shown coiled and then unrolled: sound sends a wave along the basilar membrane that peaks at one place, high notes near the base and low near the tip.",
+  "tags": [
+   "cochlea",
+   "hearing",
+   "basilar-membrane",
+   "sound",
+   "tonotopy",
+   "hair-cells",
+   "ear"
+  ]
+ },
+ {
+  "id": "neuroscience--hebbian-learning",
+  "discipline": "neuroscience",
+  "title": "Hebbian learning",
+  "description": "Two neurons fire in step, a spike running from one to the other, and the synapse between them slowly grows: cells that fire together wire together.",
+  "tags": [
+   "hebbian-learning",
+   "synaptic-plasticity",
+   "synapse",
+   "memory",
+   "neurons",
+   "long-term-potentiation"
+  ]
+ },
+ {
+  "id": "neuroscience--neuron-structure",
+  "discipline": "neuroscience",
+  "title": "Neuron structure",
+  "description": "A neuron: dendrites gather signals into the cell body, and an impulse leaps from gap to gap along the myelinated axon to its branching terminals.",
+  "tags": [
+   "neuron",
+   "dendrites",
+   "axon",
+   "myelin",
+   "soma",
+   "nervous-system",
+   "anatomy"
+  ]
+ },
+ {
+  "id": "neuroscience--reflex-arc",
+  "discipline": "neuroscience",
+  "title": "Reflex arc",
+  "description": "A sensory neuron carries a painful stimulus into the spinal cord, which answers through a motor neuron, so the muscle withdraws before the brain is involved.",
+  "tags": [
+   "reflex",
+   "spinal-cord",
+   "sensory-neuron",
+   "motor-neuron",
+   "withdrawal",
+   "nervous-system"
+  ]
+ },
+ {
+  "id": "neuroscience--retina-vision",
+  "discipline": "neuroscience",
+  "title": "Eye and retina",
+  "description": "Light from an object is focused by the lens onto the retina, forming a small inverted image that photoreceptors turn into nerve signals.",
+  "tags": [
+   "retina",
+   "eye",
+   "lens",
+   "optics",
+   "vision",
+   "image-formation",
+   "photoreceptors"
+  ]
+ },
+ {
+  "id": "neuroscience--sleep-cycle",
+  "discipline": "neuroscience",
+  "title": "Sleep cycles",
+  "description": "A hypnogram of one night: sleep descends into deep stages and climbs back about every ninety minutes, deep sleep fading as dreaming REM spells lengthen.",
+  "tags": [
+   "sleep",
+   "hypnogram",
+   "rem",
+   "deep-sleep",
+   "sleep-stages",
+   "brain"
+  ]
+ },
+ {
+  "id": "neuroscience--synapse-neurotransmitters",
+  "discipline": "neuroscience",
+  "title": "Synapse and neurotransmitters",
+  "description": "Vesicles in the presynaptic terminal release transmitter molecules that cross the cleft and bind receptors on the next cell, passing the signal on.",
+  "tags": [
+   "synapse",
+   "neurotransmitter",
+   "vesicle",
+   "receptor",
+   "synaptic-cleft",
+   "neuron",
+   "signalling"
+  ]
+ },
+ {
+  "id": "optics--converging-lens",
+  "discipline": "optics",
+  "title": "Converging Lens",
+  "description": "Three rays leave the tip of an arrow, pass a convex lens and meet again at one point, forming an inverted real image beyond the focal point.",
+  "tags": [
+   "lens",
+   "converging-lens",
+   "focal-point",
+   "real-image",
+   "ray-diagram",
+   "optics"
+  ]
+ },
+ {
+  "id": "optics--double-slit-interference",
+  "discipline": "optics",
+  "title": "Double-Slit Interference",
+  "description": "Light passes through two close slits; the two spreading wavefronts overlap and add up to a pattern of bright and dark fringes on the screen.",
+  "tags": [
+   "interference",
+   "double-slit",
+   "young",
+   "fringes",
+   "wave-optics",
+   "light",
+   "superposition"
+  ]
+ },
+ {
+  "id": "optics--polarization",
+  "discipline": "optics",
+  "title": "Polarization of Light",
+  "description": "Light vibrating in every direction meets a polarizing filter and leaves vibrating in one plane; a second filter, crossed with the first, stops it entirely.",
+  "tags": [
+   "polarization",
+   "polarizer",
+   "transverse-wave",
+   "crossed-filters",
+   "light",
+   "optics"
+  ]
+ },
+ {
+  "id": "optics--prism-dispersion",
+  "discipline": "optics",
+  "title": "Prism Dispersion",
+  "description": "White light enters a glass prism and fans into a spectrum: each wavelength bends by a slightly different angle, so one beam leaves as many.",
+  "tags": [
+   "dispersion",
+   "prism",
+   "spectrum",
+   "refraction",
+   "white-light",
+   "wavelength",
+   "optics"
+  ]
+ },
+ {
+  "id": "optics--single-slit-diffraction",
+  "discipline": "optics",
+  "title": "Single-Slit Diffraction",
+  "description": "Plane waves squeeze through a narrow slit and spread as circular wavefronts, painting a bright central band with fainter side lobes on the screen.",
+  "tags": [
+   "diffraction",
+   "single-slit",
+   "wave-optics",
+   "wavefronts",
+   "intensity-pattern",
+   "light"
+  ]
+ },
+ {
+  "id": "optics--snells-law-refraction",
+  "discipline": "optics",
+  "title": "Snell's Law of Refraction",
+  "description": "A ray bends toward the normal as it enters glass; its wavefronts bunch up as they slow, and the change of speed is what turns the ray.",
+  "tags": [
+   "refraction",
+   "snells-law",
+   "wavefront",
+   "index-of-refraction",
+   "light",
+   "optics"
+  ]
+ },
+ {
+  "id": "optics--total-internal-reflection",
+  "discipline": "optics",
+  "title": "Total Internal Reflection",
+  "description": "A beam sweeps up under a water surface: past the critical angle the escaping ray flattens along the surface and vanishes, and all the light reflects back.",
+  "tags": [
+   "total-internal-reflection",
+   "critical-angle",
+   "refraction",
+   "fiber-optics",
+   "light",
+   "optics"
+  ]
+ },
+ {
+  "id": "physics--bernoulli-principle",
+  "discipline": "physics",
+  "title": "Bernoulli's principle",
+  "description": "Fluid speeds up through a narrow neck of a pipe and the pressure there drops: the liquid column over the constriction stands lower than over the wide parts.",
+  "tags": [
+   "bernoulli",
+   "fluid-dynamics",
+   "pressure",
+   "flow-speed",
+   "continuity",
+   "venturi"
+  ]
+ },
+ {
+  "id": "physics--blackbody-radiation",
+  "discipline": "physics",
+  "title": "Blackbody radiation",
+  "description": "Hotter bodies glow brighter and bluer: Planck's spectra peak at shorter wavelengths as temperature rises, while the classical curve (dashed) wrongly diverges.",
+  "tags": [
+   "quantum",
+   "planck",
+   "blackbody",
+   "thermal-radiation",
+   "wien-law",
+   "ultraviolet-catastrophe"
+  ]
+ },
+ {
+  "id": "physics--brownian-motion",
+  "discipline": "physics",
+  "title": "Brownian motion",
+  "description": "A pollen grain wanders along a jagged random walk, knocked this way and that by the unseen molecules of the fluid: the visible trace of thermal motion.",
+  "tags": [
+   "brownian-motion",
+   "diffusion",
+   "random-walk",
+   "molecules",
+   "kinetic-theory",
+   "statistical-mechanics"
+  ]
+ },
+ {
+  "id": "physics--buoyancy-archimedes",
+  "discipline": "physics",
+  "title": "Buoyancy and Archimedes' principle",
+  "description": "A block floats in water: the upward buoyant force equals the weight of the water the submerged part pushes aside, balancing the block's own weight.",
+  "tags": [
+   "buoyancy",
+   "archimedes",
+   "fluid",
+   "density",
+   "displacement",
+   "floating",
+   "forces"
+  ]
+ },
+ {
+  "id": "physics--capacitor-charging",
+  "discipline": "physics",
+  "title": "Capacitor Charging",
+  "description": "Current rushes through a resistor onto two parallel plates, then slows as charge piles up, so the voltage across them climbs along an exponential curve.",
+  "tags": [
+   "capacitor",
+   "rc-circuit",
+   "charging",
+   "exponential",
+   "time-constant",
+   "voltage",
+   "current"
+  ]
+ },
+ {
+  "id": "physics--carnot-cycle",
+  "discipline": "physics",
+  "title": "Carnot cycle",
+  "description": "On a pressure-volume diagram the ideal heat engine traces a loop of two isotherms and two adiabats; the enclosed area is the work it delivers each cycle.",
+  "tags": [
+   "carnot",
+   "heat-engine",
+   "thermodynamics",
+   "pv-diagram",
+   "isotherm",
+   "adiabatic",
+   "efficiency"
+  ]
+ },
+ {
+  "id": "physics--centripetal-force",
+  "discipline": "physics",
+  "title": "Centripetal force",
+  "description": "A ball circles a centre. Its velocity points along the tangent, and an inward force along the string keeps bending its path into the circle.",
+  "tags": [
+   "circular-motion",
+   "centripetal",
+   "force",
+   "velocity",
+   "tangent",
+   "rotation"
+  ]
+ },
+ {
+  "id": "physics--convection-cells",
+  "discipline": "physics",
+  "title": "Convection cells",
+  "description": "Fluid between a hot plate and a cold one organises into counter-rotating rolls: parcels warm at the bottom, rise, cool along the top and sink again.",
+  "tags": [
+   "convection",
+   "rayleigh-benard",
+   "heat-transfer",
+   "buoyancy",
+   "fluid-dynamics",
+   "thermodynamics"
+  ]
+ },
+ {
+  "id": "physics--coupled-pendulums",
+  "discipline": "physics",
+  "title": "Coupled pendulums",
+  "description": "Two pendulums joined by a soft spring: the swing passes wholly from one to the other and back, and the bars below show their energy trading places.",
+  "tags": [
+   "coupled-oscillators",
+   "pendulum",
+   "resonance",
+   "normal-modes",
+   "energy-transfer",
+   "beats"
+  ]
+ },
+ {
+  "id": "physics--double-slit-experiment",
+  "discipline": "physics",
+  "title": "Double-slit experiment",
+  "description": "Electrons sent one at a time through two slits land as single dots, yet build up interference fringes: matter behaves as both particle and wave.",
+  "tags": [
+   "quantum",
+   "wave-particle-duality",
+   "interference",
+   "double-slit",
+   "electrons"
+  ]
+ },
+ {
+  "id": "physics--electromagnetic-induction",
+  "discipline": "physics",
+  "title": "Electromagnetic Induction",
+  "description": "A magnet slides in and out of a coil and a meter needle swings: current flows only while the field through the coil is changing, and stops when the magnet pauses.",
+  "tags": [
+   "induction",
+   "faraday",
+   "coil",
+   "magnet",
+   "electric-current",
+   "generator"
+  ]
+ },
+ {
+  "id": "physics--electromagnetic-wave",
+  "discipline": "physics",
+  "title": "Electromagnetic Wave",
+  "description": "An electric field and a magnetic field oscillate at right angles and in step, each regenerating the other, and travel together as light at speed c.",
+  "tags": [
+   "electromagnetic-wave",
+   "light",
+   "electric-field",
+   "magnetic-field",
+   "maxwell",
+   "propagation"
+  ]
+ },
+ {
+  "id": "physics--entropy-diffusion",
+  "discipline": "physics",
+  "title": "Entropy and diffusion",
+  "description": "Gas particles, all packed into the left half of a box, spread out through the removed partition until they fill it evenly: disorder grows, entropy rises.",
+  "tags": [
+   "entropy",
+   "diffusion",
+   "second-law",
+   "disorder",
+   "thermodynamics",
+   "gas",
+   "irreversibility"
+  ]
+ },
+ {
+  "id": "physics--feynman-diagram",
+  "discipline": "physics",
+  "title": "Feynman diagram",
+  "description": "Two electrons approach, trade a virtual photon along a wavy line, and recoil apart. A slice of the present sweeps along the time axis, reading the diagram as a story of one force.",
+  "tags": [
+   "quantum-field-theory",
+   "feynman-diagram",
+   "electron",
+   "photon",
+   "scattering",
+   "qed"
+  ]
+ },
+ {
+  "id": "physics--gravitational-lensing",
+  "discipline": "physics",
+  "title": "Gravitational lensing",
+  "description": "A massive lens bends the light of a distant source around it, so the observer sees the source displaced to two apparent images along the dashed lines of sight.",
+  "tags": [
+   "relativity",
+   "gravity",
+   "light-bending",
+   "lens",
+   "astronomy"
+  ]
+ },
+ {
+  "id": "physics--gravitational-waves",
+  "discipline": "physics",
+  "title": "Gravitational waves",
+  "description": "Two compact masses orbit one another and spin out a spiral of ripples in spacetime that travel outward and fade, the gravitational waves of a merging binary.",
+  "tags": [
+   "relativity",
+   "gravitational-waves",
+   "binary-system",
+   "spacetime",
+   "ligo"
+  ]
+ },
+ {
+  "id": "physics--gyroscope-precession",
+  "discipline": "physics",
+  "title": "Gyroscope precession",
+  "description": "A spinning wheel held at one end of its axle does not fall: gravity's torque instead turns the axle slowly around the post, the precession of angular momentum.",
+  "tags": [
+   "gyroscope",
+   "precession",
+   "angular-momentum",
+   "torque",
+   "rotation",
+   "mechanics"
+  ]
+ },
+ {
+  "id": "physics--heat-conduction",
+  "discipline": "physics",
+  "title": "Heat conduction",
+  "description": "Heat flows along a metal rod from a flame to ice as atoms vibrate hardest at the hot end and pass the jostling on, so temperature falls steadily along it.",
+  "tags": [
+   "heat-transfer",
+   "conduction",
+   "temperature",
+   "thermal-gradient",
+   "atoms",
+   "fourier"
+  ]
+ },
+ {
+  "id": "physics--ideal-gas-piston",
+  "discipline": "physics",
+  "title": "Ideal gas in a piston",
+  "description": "Heated from below, gas molecules in a cylinder speed up and push a weighted piston higher: at constant pressure, volume grows with temperature, PV = nRT.",
+  "tags": [
+   "ideal-gas",
+   "pressure",
+   "volume",
+   "temperature",
+   "thermodynamics",
+   "kinetic-theory",
+   "gas-law"
+  ]
+ },
+ {
+  "id": "physics--inclined-plane",
+  "discipline": "physics",
+  "title": "Inclined plane",
+  "description": "A block slides down a ramp while its weight splits into a part along the slope, which pulls it down, and a part into the slope, which the surface carries.",
+  "tags": [
+   "incline",
+   "forces",
+   "vector-components",
+   "gravity",
+   "slope",
+   "mechanics"
+  ]
+ },
+ {
+  "id": "physics--laminar-vs-turbulent-flow",
+  "discipline": "physics",
+  "title": "Laminar versus turbulent flow",
+  "description": "Two channels: in laminar flow, parallel layers glide smoothly, quickest in the middle; in turbulent flow, the stream breaks into swirling, tangled eddies.",
+  "tags": [
+   "fluid-dynamics",
+   "laminar",
+   "turbulence",
+   "flow",
+   "eddies",
+   "reynolds-number",
+   "viscosity"
+  ]
+ },
+ {
+  "id": "physics--light-cone",
+  "discipline": "physics",
+  "title": "Light cone",
+  "description": "A spacetime diagram: light rays from one event bound a future and a past cone; a traveller's worldline stays inside, and regions outside are out of causal reach.",
+  "tags": [
+   "relativity",
+   "spacetime",
+   "causality",
+   "speed-of-light",
+   "worldline"
+  ]
+ },
+ {
+  "id": "physics--magnetic-field-lines",
+  "discipline": "physics",
+  "title": "Magnetic Field Lines",
+  "description": "Field lines loop from the north pole of a bar magnet around to the south; small compass needles drift along them, always turning to follow the line.",
+  "tags": [
+   "magnetism",
+   "magnetic-field",
+   "bar-magnet",
+   "field-lines",
+   "compass",
+   "dipole"
+  ]
+ },
+ {
+  "id": "physics--meissner-effect",
+  "discipline": "physics",
+  "title": "Meissner effect",
+  "description": "Above its critical temperature a metal lets magnetic field lines run straight through; cooled into a superconductor it expels them, and the lines bend around an empty interior.",
+  "tags": [
+   "superconductivity",
+   "meissner-effect",
+   "magnetic-field",
+   "diamagnetism",
+   "critical-temperature"
+  ]
+ },
+ {
+  "id": "physics--newtons-cradle",
+  "discipline": "physics",
+  "title": "Newton's cradle",
+  "description": "Five hanging balls: one swings in and strikes the row, and one ball swings out the far side. Momentum and energy pass straight through, conserved.",
+  "tags": [
+   "momentum",
+   "collision",
+   "conservation",
+   "energy",
+   "pendulum",
+   "newtons-cradle"
+  ]
+ },
+ {
+  "id": "physics--nuclear-fission",
+  "discipline": "physics",
+  "title": "Nuclear fission",
+  "description": "A neutron strikes a heavy uranium nucleus, which tears into two unequal fragments, barium and krypton, and throws out three more neutrons: the seed of a chain reaction.",
+  "tags": [
+   "nuclear",
+   "fission",
+   "uranium",
+   "neutron",
+   "chain-reaction",
+   "energy"
+  ]
+ },
+ {
+  "id": "physics--pair-production",
+  "discipline": "physics",
+  "title": "Pair production",
+  "description": "A photon passing a nucleus turns into an electron and a positron. In a magnetic field their tracks curl in opposite senses and tighten as they slow: energy made into matter.",
+  "tags": [
+   "particle-physics",
+   "pair-production",
+   "positron",
+   "antimatter",
+   "bubble-chamber",
+   "mass-energy"
+  ]
+ },
+ {
+  "id": "physics--particle-in-a-box",
+  "discipline": "physics",
+  "title": "Particle in a box",
+  "description": "An electron trapped between two walls can only hold standing waves with whole half-wavelengths; the first three allowed states and their rising energies are shown.",
+  "tags": [
+   "quantum",
+   "standing-wave",
+   "energy-levels",
+   "wavefunction",
+   "confinement"
+  ]
+ },
+ {
+  "id": "physics--pendulum",
+  "discipline": "physics",
+  "title": "Pendulum",
+  "description": "A bob swings on a string beneath a pivot; the faint arc is the path it keeps retracing, the rhythm of simple harmonic motion.",
+  "tags": [
+   "oscillation",
+   "gravity",
+   "period",
+   "harmonic-motion",
+   "mechanics"
+  ]
+ },
+ {
+  "id": "physics--photoelectric-effect",
+  "discipline": "physics",
+  "title": "Photoelectric effect",
+  "description": "Light hitting a metal frees electrons only if each photon carries enough energy: low-frequency light, however it is drawn on, ejects nothing; high-frequency light does.",
+  "tags": [
+   "quantum",
+   "photon",
+   "photoelectric",
+   "threshold-frequency",
+   "einstein"
+  ]
+ },
+ {
+  "id": "physics--projectile-motion",
+  "discipline": "physics",
+  "title": "Projectile motion",
+  "description": "A ball launched at an angle traces a parabola: steady sideways drift, gravity bending the vertical speed. Faint copies mark equal time steps.",
+  "tags": [
+   "projectile",
+   "parabola",
+   "gravity",
+   "trajectory",
+   "kinematics",
+   "launch-angle"
+  ]
+ },
+ {
+  "id": "physics--quantum-entanglement",
+  "discipline": "physics",
+  "title": "Quantum entanglement",
+  "description": "A source emits two particles with linked spins: whichever way one dial points, the far one points the opposite way, however far apart they have travelled.",
+  "tags": [
+   "quantum",
+   "entanglement",
+   "spin",
+   "correlation",
+   "bell"
+  ]
+ },
+ {
+  "id": "physics--quantum-tunneling",
+  "discipline": "physics",
+  "title": "Quantum tunneling",
+  "description": "A wave packet meets an energy barrier: most of it is reflected, but a small, weaker part leaks through to the far side though classically it could not.",
+  "tags": [
+   "quantum",
+   "tunneling",
+   "wave-packet",
+   "potential-barrier",
+   "wavefunction"
+  ]
+ },
+ {
+  "id": "physics--radioactive-half-life",
+  "discipline": "physics",
+  "title": "Radioactive half-life",
+  "description": "An exponential decay curve falls by half in each equal interval of time, while a sample of sixteen unstable atoms decays in step: eight left, then four, two, one.",
+  "tags": [
+   "radioactivity",
+   "half-life",
+   "decay",
+   "exponential",
+   "nuclear",
+   "probability"
+  ]
+ },
+ {
+  "id": "physics--resonance",
+  "discipline": "physics",
+  "title": "Resonance",
+  "description": "A heavy pendulum drives a row of lighter ones from the same bar: only the one of equal length, sharing its natural frequency, builds up a wide swing.",
+  "tags": [
+   "resonance",
+   "natural-frequency",
+   "driven-oscillator",
+   "bartons-pendulums",
+   "amplitude",
+   "energy-transfer"
+  ]
+ },
+ {
+  "id": "physics--spacetime-curvature",
+  "discipline": "physics",
+  "title": "Spacetime curvature",
+  "description": "A mass dents the grid of spacetime into a well, and a planet circling on the slope follows the straightest path it can: gravity as geometry, not as a force.",
+  "tags": [
+   "general-relativity",
+   "spacetime",
+   "gravity",
+   "curvature",
+   "geometry",
+   "einstein"
+  ]
+ },
+ {
+  "id": "physics--spring-oscillator",
+  "discipline": "physics",
+  "title": "Spring oscillator",
+  "description": "A mass on a spring bobs up and down about its rest line; traced against time, its height becomes a sine wave, the signature of harmonic motion.",
+  "tags": [
+   "spring",
+   "oscillation",
+   "hookes-law",
+   "harmonic-motion",
+   "sine-wave",
+   "restoring-force"
+  ]
+ },
+ {
+  "id": "physics--stern-gerlach-spin",
+  "discipline": "physics",
+  "title": "Stern-Gerlach spin experiment",
+  "description": "Silver atoms pass through an uneven magnetic field and land in just two spots, not a smear: spin along an axis is quantised into up and down.",
+  "tags": [
+   "quantum",
+   "spin",
+   "stern-gerlach",
+   "magnetic-field",
+   "quantisation"
+  ]
+ },
+ {
+  "id": "physics--time-dilation",
+  "discipline": "physics",
+  "title": "Time dilation",
+  "description": "Two light clocks: the photon in the moving clock must travel a longer diagonal path, so its tick takes longer. Moving clocks run slow, here by a factor of 1.25.",
+  "tags": [
+   "relativity",
+   "time-dilation",
+   "light-clock",
+   "lorentz-factor",
+   "special-relativity"
+  ]
+ },
+ {
+  "id": "physics--torque-and-lever",
+  "discipline": "physics",
+  "title": "Torque and lever",
+  "description": "A beam balances on a fulcrum: a heavy weight close in and a light one far out carry equal torque, force times distance from the pivot.",
+  "tags": [
+   "torque",
+   "lever",
+   "equilibrium",
+   "fulcrum",
+   "moment",
+   "balance"
+  ]
+ },
+ {
+  "id": "physics--uncertainty-principle",
+  "discipline": "physics",
+  "title": "Uncertainty principle",
+  "description": "A sharp position peak needs a broad spread of momentum, and vice versa: as one bell curve narrows the other widens, so their widths can never both shrink.",
+  "tags": [
+   "quantum",
+   "uncertainty",
+   "heisenberg",
+   "momentum",
+   "position"
+  ]
+ },
+ {
+  "id": "physics--wave-interference",
+  "discipline": "physics",
+  "title": "Wave Interference",
+  "description": "Ripples from two synchronised sources overlap: where crests meet they reinforce, and along the dashed nodal lines crest meets trough and the water stays calm.",
+  "tags": [
+   "interference",
+   "superposition",
+   "ripples",
+   "coherent-sources",
+   "nodal-lines",
+   "waves"
+  ]
+ },
+ {
+  "id": "psychology--anchoring-bias",
+  "discipline": "psychology",
+  "title": "Anchoring bias",
+  "description": "Estimates cluster around the true value on a number line, but an arbitrary anchor placed further along drags them toward itself; the cluster slides toward the anchor and back.",
+  "tags": [
+   "cognitive-bias",
+   "anchor",
+   "estimation",
+   "judgement",
+   "decision-making"
+  ]
+ },
+ {
+  "id": "psychology--forgetting-curve",
+  "discipline": "psychology",
+  "title": "Forgetting curve",
+  "description": "Memory fades along an exponential curve, but each review lifts retention back to the top and slows the next decline, so spaced repetition keeps the memory alive.",
+  "tags": [
+   "memory",
+   "ebbinghaus",
+   "spaced-repetition",
+   "decay",
+   "learning"
+  ]
+ },
+ {
+  "id": "statistics--bayes-theorem",
+  "discipline": "statistics",
+  "title": "Bayes theorem",
+  "description": "A broad dashed prior belief meets the likelihood of new evidence; their product is a sharper posterior that narrows further as more evidence accumulates.",
+  "tags": [
+   "bayesian",
+   "prior",
+   "posterior",
+   "evidence",
+   "belief-update",
+   "probability"
+  ]
+ },
+ {
+  "id": "statistics--central-limit-theorem",
+  "discipline": "statistics",
+  "title": "Central limit theorem",
+  "description": "Averages drawn from a lopsided population drop one by one into a pile that settles into a symmetric bell curve, whatever the shape of the original distribution.",
+  "tags": [
+   "sampling",
+   "normal-distribution",
+   "sample-mean",
+   "convergence",
+   "probability"
+  ]
+ },
+ {
+  "id": "statistics--confidence-interval",
+  "discipline": "statistics",
+  "title": "Confidence interval",
+  "description": "Ten repeated samples each give an interval around their own estimate; most straddle the dashed true value, and the odd one misses it, which is what 95 percent confidence means.",
+  "tags": [
+   "confidence",
+   "sampling",
+   "uncertainty",
+   "estimation",
+   "coverage"
+  ]
+ },
+ {
+  "id": "statistics--linear-regression",
+  "discipline": "statistics",
+  "title": "Linear regression",
+  "description": "A line swings and settles through a cloud of points, ending where the dashed vertical residuals are smallest overall: the least-squares fit.",
+  "tags": [
+   "regression",
+   "least-squares",
+   "residuals",
+   "trend-line",
+   "scatter"
+  ]
+ },
+ {
+  "id": "statistics--normal-distribution",
+  "discipline": "statistics",
+  "title": "Normal distribution",
+  "description": "A bell curve centred on its mean; the shaded band within one standard deviation holds about 68 percent, and the dashed ghost curve breathes wider and narrower as σ changes.",
+  "tags": [
+   "bell-curve",
+   "gaussian",
+   "standard-deviation",
+   "mean",
+   "probability"
+  ]
+ },
+ {
+  "id": "statistics--simpsons-paradox",
+  "discipline": "statistics",
+  "title": "Simpson's paradox",
+  "description": "Three clusters each trend upward, yet pooled together the dashed trend falls; the view fades between the within-group lines and the misleading overall line.",
+  "tags": [
+   "paradox",
+   "confounding",
+   "trend-reversal",
+   "aggregation",
+   "correlation"
+  ]
+ },
+ {
+  "id": "technology--gps-trilateration",
+  "discipline": "technology",
+  "title": "GPS Trilateration",
+  "description": "Three satellites send timed signals; each travel time gives a distance, an arc around that satellite, and the three arcs cross at one point on the ground: the receiver.",
+  "tags": [
+   "gps",
+   "trilateration",
+   "satellite",
+   "navigation",
+   "positioning",
+   "signal",
+   "distance"
+  ]
+ },
+ {
+  "id": "technology--laser-stimulated-emission",
+  "discipline": "technology",
+  "title": "Laser: Stimulated Emission",
+  "description": "One photon crossing a cavity makes each excited atom it passes emit an identical photon in step with it, so a coherent beam builds and leaves through the part-silvered mirror.",
+  "tags": [
+   "laser",
+   "stimulated-emission",
+   "photon",
+   "coherent",
+   "cavity",
+   "excited-atom",
+   "optics",
+   "light"
+  ]
+ },
+ {
+  "id": "technology--optical-fibre",
+  "discipline": "technology",
+  "title": "Optical Fibre",
+  "description": "Pulses of light zigzag down a curving glass core, reflected at the cladding by total internal reflection so they follow the bend; an end-on view shows the core inside its cladding.",
+  "tags": [
+   "optical-fibre",
+   "total-internal-reflection",
+   "light",
+   "core",
+   "cladding",
+   "telecommunications",
+   "data"
+  ]
+ },
+ {
+  "id": "technology--transistor-switch",
+  "discipline": "technology",
+  "title": "Transistor as a Switch",
+  "description": "A MOSFET in cross-section: charge on the gate draws a conducting channel between source and drain so electrons flow; remove it and the channel closes, the on and off of every chip.",
+  "tags": [
+   "transistor",
+   "mosfet",
+   "switch",
+   "semiconductor",
+   "gate",
+   "channel",
+   "electronics",
+   "logic"
+  ]
+ }
+]

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="biology--chloroplast" data-discipline="biology" data-tags="chloroplast,thylakoid,granum,stroma,photosynthesis,organelle">
+<title>Chloroplast</title>
+<desc>Inside a chloroplast's double envelope, stacks of thylakoid discs catch incoming light in their grana while sugars built in the stroma drift out.</desc>
+<style>
+.a-ph{animation:a-ph 2.5s linear infinite}
+@keyframes a-ph{0%{transform:translate(-26px,-46px);opacity:0}15%{opacity:1}80%{opacity:1}100%{transform:translate(0,0);opacity:0}}
+.a-ph1{animation-delay:-.8s}.a-ph2{animation-delay:-1.6s}
+.a-su{animation:a-su 5s ease-in infinite}
+.a-su1{animation-delay:-2.5s}
+@keyframes a-su{0%,10%{transform:translate(0,0);opacity:0}25%{opacity:1}75%{opacity:1}100%{transform:translate(54px,20px);opacity:0}}
+</style>
+<ellipse class="w" cx="200" cy="142" rx="164" ry="76"/>
+<ellipse class="s" cx="200" cy="142" rx="164" ry="76"/>
+<ellipse class="q hair" cx="200" cy="142" rx="157" ry="69"/>
+<path class="q hair" d="M50,150C60,150 70,146 83,146M129,136C135,136 137,124 141,124M187,152C195,152 199,160 205,160M251,132C258,132 263,146 269,146M315,142C326,142 338,136 349,134"/>
+<rect class="q" x="83" y="119.5" width="46" height="8" rx="3.5"/>
+<rect class="q" x="83" y="130.5" width="46" height="8" rx="3.5"/>
+<rect class="q" x="83" y="141.5" width="46" height="8" rx="3.5"/>
+<rect class="q" x="83" y="152.5" width="46" height="8" rx="3.5"/>
+<rect class="q" x="141" y="108.5" width="46" height="8" rx="3.5"/>
+<rect class="q" x="141" y="119.5" width="46" height="8" rx="3.5"/>
+<rect class="q" x="141" y="130.5" width="46" height="8" rx="3.5"/>
+<rect class="q" x="141" y="141.5" width="46" height="8" rx="3.5"/>
+<rect class="q" x="141" y="152.5" width="46" height="8" rx="3.5"/>
+<rect class="q" x="141" y="163.5" width="46" height="8" rx="3.5"/>
+<rect class="q" x="205" y="114" width="46" height="8" rx="3.5"/>
+<rect class="q" x="205" y="125" width="46" height="8" rx="3.5"/>
+<rect class="q" x="205" y="136" width="46" height="8" rx="3.5"/>
+<rect class="q" x="205" y="147" width="46" height="8" rx="3.5"/>
+<rect class="q" x="205" y="158" width="46" height="8" rx="3.5"/>
+<rect class="q" x="269" y="119.5" width="46" height="8" rx="3.5"/>
+<rect class="q" x="269" y="130.5" width="46" height="8" rx="3.5"/>
+<rect class="q" x="269" y="141.5" width="46" height="8" rx="3.5"/>
+<rect class="q" x="269" y="152.5" width="46" height="8" rx="3.5"/>
+<g class="a-ph a-ph0">
+<path class="s" d="M150,104c-7,-1 -1,-9 -6,-11c-6,-1 0,-9 -6,-11c-6,-1 0,-9 -6,-11"/>
+</g>
+<g class="a-ph a-ph1">
+<path class="s" d="M216,104c-7,-1 -1,-9 -6,-11c-6,-1 0,-9 -6,-11c-6,-1 0,-9 -6,-11"/>
+</g>
+<g class="a-ph a-ph2">
+<path class="s" d="M286,108c-7,-1 -1,-9 -6,-11c-6,-1 0,-9 -6,-11c-6,-1 0,-9 -6,-11"/>
+</g>
+<g class="a-su a-su0">
+<polygon class="pq" points="291,178 293.5,173.7 298.5,173.7 301,178 298.5,182.3 293.5,182.3"/>
+</g>
+<g class="a-su a-su1">
+<polygon class="pq" points="249,186 251.5,181.7 256.5,181.7 259,186 256.5,190.3 251.5,190.3"/>
+</g>
+<text class="t" x="96" y="46" text-anchor="middle">light</text>
+<text class="t" x="60" y="224" text-anchor="middle">granum</text>
+<path class="f" d="M84,221H106V172" />
+<text class="t" x="196" y="198" text-anchor="middle">stroma</text>
+</svg>

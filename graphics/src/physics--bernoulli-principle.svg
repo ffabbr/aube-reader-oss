@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="physics--bernoulli-principle" data-discipline="physics" data-tags="bernoulli,fluid-dynamics,pressure,flow-speed,continuity,venturi">
+<title>Bernoulli's principle</title>
+<desc>Fluid speeds up through a narrow neck of a pipe and the pressure there drops: the liquid column over the constriction stands lower than over the wide parts.</desc>
+<style>
+.a-bn{animation:a-bn 10s linear infinite}
+@keyframes a-bn{0%{transform:translateX(0);opacity:0}3%{opacity:1}3.92%{transform:translateX(10px)}7.84%{transform:translateX(20px)}11.76%{transform:translateX(30px)}15.69%{transform:translateX(40px)}19.61%{transform:translateX(50px)}23.53%{transform:translateX(60px)}27.45%{transform:translateX(70px)}31.37%{transform:translateX(80px)}35.22%{transform:translateX(90px)}38.82%{transform:translateX(100px)}41.99%{transform:translateX(110px)}44.70%{transform:translateX(120px)}46.99%{transform:translateX(130px)}49.02%{transform:translateX(140px)}50.98%{transform:translateX(150px)}52.94%{transform:translateX(160px)}54.90%{transform:translateX(170px)}56.94%{transform:translateX(180px)}59.22%{transform:translateX(190px)}61.93%{transform:translateX(200px)}65.11%{transform:translateX(210px)}68.70%{transform:translateX(220px)}72.55%{transform:translateX(230px)}76.47%{transform:translateX(240px)}80.39%{transform:translateX(250px)}84.31%{transform:translateX(260px)}88.24%{transform:translateX(270px)}92.16%{transform:translateX(280px)}96.08%{transform:translateX(290px)}97%{opacity:1}100%{transform:translateX(300px);opacity:0}}
+.a-d1{animation-delay:-2.5s}.a-d2{animation-delay:-5s}.a-d3{animation-delay:-7.5s}.a-d4{animation-delay:-1.2s}.a-d5{animation-delay:-6.2s}
+</style>
+<path class="w" d="M40,94 H130 C160,94 160,112 190,112 H220 C250,112 250,94 280,94 H360 V166 H280 C250,166 250,148 220,148 H190 C160,148 160,166 130,166 H40 Z"/>
+<rect class="w" x="84" y="58" width="12" height="36"/>
+<rect class="w" x="199" y="84" width="12" height="28"/>
+<path class="s" d="M40,94 H84 M96,94 H130 C160,94 160,112 190,112 H199 M211,112 H220 C250,112 250,94 280,94 H360"/>
+<path class="s" d="M40,166 H130 C160,166 160,148 190,148 H220 C250,148 250,166 280,166 H360"/>
+<path class="q" d="M84,94 V44 M96,94 V44 M199,112 V44 M211,112 V44"/>
+<path class="q hair" d="M84,58 H96 M199,84 H211"/>
+<g class="a-bn a-d0"><circle class="p" cx="50" cy="118" r="3.2"/></g>
+<g class="a-bn a-d2"><circle class="p" cx="50" cy="118" r="3.2"/></g>
+<g class="a-bn a-d1"><circle class="p" cx="50" cy="130" r="3.2"/></g>
+<g class="a-bn a-d3"><circle class="p" cx="50" cy="130" r="3.2"/></g>
+<g class="a-bn a-d4"><circle class="p" cx="50" cy="142" r="3.2"/></g>
+<g class="a-bn a-d5"><circle class="p" cx="50" cy="142" r="3.2"/></g>
+<text class="t" x="90" y="34" text-anchor="middle">p₁</text>
+<text class="t" x="205" y="34" text-anchor="middle">p₂</text>
+<text class="t" x="205" y="204" text-anchor="middle">p + ½ρv² = const</text>
+</svg>

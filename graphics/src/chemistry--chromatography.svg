@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="chemistry--chromatography" data-discipline="chemistry" data-tags="chromatography,separation,mixture,solvent-front,capillary-action,affinity">
+<title>Paper chromatography</title>
+<desc>A solvent creeps up a plate and carries a mixture with it; each component rises at its own speed, so the mixture separates into distinct spots.</desc>
+<style>
+.a-d26,.a-d52,.a-d70,.a-d110,.a-d120{animation:a-climb 10s infinite}
+.a-d26{--d:26px}.a-d52{--d:52px}.a-d70{--d:70px}.a-d110{--d:110px}.a-d120{--d:120px}
+@keyframes a-climb{0%{transform:translateY(var(--d));animation-timing-function:ease-in-out}88%,100%{transform:translateY(0)}}
+.a-wet{transform-box:view-box;transform-origin:0 205px;animation:a-wet 10s infinite}
+@keyframes a-wet{0%{transform:scaleY(.195);animation-timing-function:ease-in-out}88%,100%{transform:scaleY(1)}}
+</style>
+<rect class="w" x="140" y="28" width="120" height="178"/>
+<rect class="s" x="140" y="28" width="120" height="178"/>
+<g class="a-wet"><rect class="w" x="141" y="56" width="118" height="149"/></g>
+<path class="f" d="M140,176 H260"/>
+<circle class="p" cx="165" cy="176" r="2.2"/><circle class="p" cx="200" cy="176" r="2.2"/><circle class="p" cx="235" cy="176" r="2.2"/>
+<g class="a-d120"><path class="k s" d="M141,56 H259"/></g>
+<g class="a-d52"><ellipse class="pq" cx="165" cy="124" rx="11" ry="7"/></g><g class="a-d26"><ellipse class="pq" cx="200" cy="150" rx="10" ry="6"/></g><g class="a-d70"><ellipse class="pq" cx="200" cy="106" rx="11" ry="7"/></g><g class="a-d110"><ellipse class="pq" cx="200" cy="66" rx="8" ry="5"/></g><g class="a-d70"><ellipse class="pq" cx="235" cy="106" rx="11" ry="7"/></g>
+<text class="t" x="270" y="60" text-anchor="start">solvent front</text>
+<text class="t" x="270" y="180" text-anchor="start">origin</text>
+<text class="t" x="200" y="221" text-anchor="middle">mixture</text>
+</svg>

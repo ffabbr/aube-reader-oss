@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="physics--electromagnetic-induction" data-discipline="physics" data-tags="induction,faraday,coil,magnet,electric-current,generator" role="img">
+ <title>Electromagnetic Induction</title>
+ <desc>A magnet slides in and out of a coil and a meter needle swings: current flows only while the field through the coil is changing, and stops when the magnet pauses.</desc>
+ <style>
+:root{--ink:#110f0c;--quiet:#555350;--faint:#b8b6b2;--wash:#f5f3ef}
+@media (prefers-color-scheme:dark){:root{--ink:#e7e5e2;--quiet:#a3a19e;--faint:#524f4c;--wash:#252321}}
+svg{overflow:visible}
+.s,.q,.f{fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1;stroke-dashoffset:0}
+.s{stroke:var(--ink);stroke-width:1.5}
+.q{stroke:var(--quiet);stroke-width:1.3}
+.f{stroke:var(--faint);stroke-width:1.1}
+.hair{stroke-width:1!important}
+.bold{stroke-width:2.2!important}
+.k{fill:none;stroke-dasharray:5 5!important;stroke-linecap:round}
+.p{fill:var(--ink);stroke:none}
+.pq{fill:var(--quiet);stroke:none}
+.w{fill:var(--wash);stroke:none}
+.t{fill:var(--quiet);stroke:none;font:italic 13px ui-serif,"New York",Georgia,serif}
+.all{animation:out 10s linear infinite}
+@keyframes out{0%,90%{opacity:1}97%,99.9%{opacity:0}100%{opacity:1}}
+@keyframes dr0{0%,0.0%{stroke-dashoffset:1;opacity:0}0.1%{stroke-dashoffset:1;opacity:1}9%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd0{0%,0.0%{opacity:0}7%,100%{opacity:1}}
+@keyframes dr1{0%,2.2%{stroke-dashoffset:1;opacity:0}2.3%{stroke-dashoffset:1;opacity:1}11.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd1{0%,2.2%{opacity:0}9.2%,100%{opacity:1}}
+@keyframes dr2{0%,4.4%{stroke-dashoffset:1;opacity:0}4.5%{stroke-dashoffset:1;opacity:1}13.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd2{0%,4.4%{opacity:0}11.4%,100%{opacity:1}}
+@keyframes dr3{0%,6.6%{stroke-dashoffset:1;opacity:0}6.7%{stroke-dashoffset:1;opacity:1}15.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd3{0%,6.6%{opacity:0}13.6%,100%{opacity:1}}
+@keyframes dr4{0%,8.8%{stroke-dashoffset:1;opacity:0}8.9%{stroke-dashoffset:1;opacity:1}17.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd4{0%,8.8%{opacity:0}15.8%,100%{opacity:1}}
+@keyframes dr5{0%,11.0%{stroke-dashoffset:1;opacity:0}11.1%{stroke-dashoffset:1;opacity:1}20%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd5{0%,11.0%{opacity:0}18%,100%{opacity:1}}
+@keyframes dr6{0%,13.2%{stroke-dashoffset:1;opacity:0}13.3%{stroke-dashoffset:1;opacity:1}22.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd6{0%,13.2%{opacity:0}20.2%,100%{opacity:1}}
+@keyframes dr7{0%,15.4%{stroke-dashoffset:1;opacity:0}15.5%{stroke-dashoffset:1;opacity:1}24.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd7{0%,15.4%{opacity:0}22.4%,100%{opacity:1}}
+@keyframes dr8{0%,17.6%{stroke-dashoffset:1;opacity:0}17.7%{stroke-dashoffset:1;opacity:1}26.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd8{0%,17.6%{opacity:0}24.6%,100%{opacity:1}}
+@keyframes dr9{0%,19.8%{stroke-dashoffset:1;opacity:0}19.9%{stroke-dashoffset:1;opacity:1}28.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd9{0%,19.8%{opacity:0}26.8%,100%{opacity:1}}
+@keyframes dr10{0%,22.0%{stroke-dashoffset:1;opacity:0}22.1%{stroke-dashoffset:1;opacity:1}31%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd10{0%,22.0%{opacity:0}29%,100%{opacity:1}}
+@keyframes dr11{0%,24.2%{stroke-dashoffset:1;opacity:0}24.3%{stroke-dashoffset:1;opacity:1}33.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd11{0%,24.2%{opacity:0}31.2%,100%{opacity:1}}
+@keyframes dr12{0%,26.4%{stroke-dashoffset:1;opacity:0}26.5%{stroke-dashoffset:1;opacity:1}35.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd12{0%,26.4%{opacity:0}33.4%,100%{opacity:1}}
+@keyframes dr13{0%,28.6%{stroke-dashoffset:1;opacity:0}28.7%{stroke-dashoffset:1;opacity:1}37.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd13{0%,28.6%{opacity:0}35.6%,100%{opacity:1}}
+@keyframes dr14{0%,30.8%{stroke-dashoffset:1;opacity:0}30.9%{stroke-dashoffset:1;opacity:1}39.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd14{0%,30.8%{opacity:0}37.8%,100%{opacity:1}}
+@keyframes dr15{0%,33.0%{stroke-dashoffset:1;opacity:0}33.1%{stroke-dashoffset:1;opacity:1}42%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd15{0%,33.0%{opacity:0}40%,100%{opacity:1}}
+.s.i0,.q.i0,.f.i0{animation:dr0 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i1,.q.i1,.f.i1{animation:dr1 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i2,.q.i2,.f.i2{animation:dr2 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i3,.q.i3,.f.i3{animation:dr3 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i4,.q.i4,.f.i4{animation:dr4 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i5,.q.i5,.f.i5{animation:dr5 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i6,.q.i6,.f.i6{animation:dr6 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i7,.q.i7,.f.i7{animation:dr7 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i8,.q.i8,.f.i8{animation:dr8 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i9,.q.i9,.f.i9{animation:dr9 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i10,.q.i10,.f.i10{animation:dr10 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i11,.q.i11,.f.i11{animation:dr11 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i12,.q.i12,.f.i12{animation:dr12 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i13,.q.i13,.f.i13{animation:dr13 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i14,.q.i14,.f.i14{animation:dr14 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i15,.q.i15,.f.i15{animation:dr15 10s cubic-bezier(.55,.05,.25,1) infinite}
+.p.i0,.w.i0,.pq.i0,.t.i0,.k.i0{animation:fd0 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i1,.w.i1,.pq.i1,.t.i1,.k.i1{animation:fd1 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i2,.w.i2,.pq.i2,.t.i2,.k.i2{animation:fd2 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i3,.w.i3,.pq.i3,.t.i3,.k.i3{animation:fd3 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i4,.w.i4,.pq.i4,.t.i4,.k.i4{animation:fd4 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i5,.w.i5,.pq.i5,.t.i5,.k.i5{animation:fd5 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i6,.w.i6,.pq.i6,.t.i6,.k.i6{animation:fd6 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i7,.w.i7,.pq.i7,.t.i7,.k.i7{animation:fd7 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i8,.w.i8,.pq.i8,.t.i8,.k.i8{animation:fd8 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i9,.w.i9,.pq.i9,.t.i9,.k.i9{animation:fd9 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i10,.w.i10,.pq.i10,.t.i10,.k.i10{animation:fd10 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i11,.w.i11,.pq.i11,.t.i11,.k.i11{animation:fd11 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i12,.w.i12,.pq.i12,.t.i12,.k.i12{animation:fd12 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i13,.w.i13,.pq.i13,.t.i13,.k.i13{animation:fd13 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i14,.w.i14,.pq.i14,.t.i14,.k.i14{animation:fd14 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i15,.w.i15,.pq.i15,.t.i15,.k.i15{animation:fd15 10s cubic-bezier(.2,.7,.3,1) infinite}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+ <style>
+.a-mag{animation:a-mag 5s linear infinite}
+@keyframes a-mag{0%{transform:translateX(0px)}4.17%{transform:translateX(14.24px)}8.33%{transform:translateX(27.5px)}12.5%{transform:translateX(38.89px)}16.67%{transform:translateX(47.63px)}20.83%{transform:translateX(53.13px)}25%{transform:translateX(55px)}29.17%{transform:translateX(53.13px)}33.33%{transform:translateX(47.63px)}37.5%{transform:translateX(38.89px)}41.67%{transform:translateX(27.5px)}45.83%{transform:translateX(14.24px)}50%{transform:translateX(0px)}54.17%{transform:translateX(-14.24px)}58.33%{transform:translateX(-27.5px)}62.5%{transform:translateX(-38.89px)}66.67%{transform:translateX(-47.63px)}70.83%{transform:translateX(-53.13px)}75%{transform:translateX(-55px)}79.17%{transform:translateX(-53.13px)}83.33%{transform:translateX(-47.63px)}87.5%{transform:translateX(-38.89px)}91.67%{transform:translateX(-27.5px)}95.83%{transform:translateX(-14.24px)}100%{transform:translateX(0px)}}
+.a-ned{transform-box:view-box;transform-origin:275px 212px;animation:a-ned 5s linear infinite}
+@keyframes a-ned{0%{transform:rotate(34deg)}4.17%{transform:rotate(32.84deg)}8.33%{transform:rotate(29.44deg)}12.5%{transform:rotate(24.04deg)}16.67%{transform:rotate(17deg)}20.83%{transform:rotate(8.8deg)}25%{transform:rotate(0deg)}29.17%{transform:rotate(-8.8deg)}33.33%{transform:rotate(-17deg)}37.5%{transform:rotate(-24.04deg)}41.67%{transform:rotate(-29.44deg)}45.83%{transform:rotate(-32.84deg)}50%{transform:rotate(-34deg)}54.17%{transform:rotate(-32.84deg)}58.33%{transform:rotate(-29.44deg)}62.5%{transform:rotate(-24.04deg)}66.67%{transform:rotate(-17deg)}70.83%{transform:rotate(-8.8deg)}75%{transform:rotate(0deg)}79.17%{transform:rotate(8.8deg)}83.33%{transform:rotate(17deg)}87.5%{transform:rotate(24.04deg)}91.67%{transform:rotate(29.44deg)}95.83%{transform:rotate(32.84deg)}100%{transform:rotate(34deg)}}
+</style>
+ <g class="all">
+  <path class="q i0" d="M219,126 V198 H229" pathLength="1" />
+  <path class="q i0" d="M331,126 V198 H321" pathLength="1" />
+  <rect class="w i1" x="229" y="168" width="92" height="50" />
+  <rect class="q i1" x="229" y="168" width="92" height="50" pathLength="1" />
+  <path class="f i2" d="M252.25,186.73 A34,34 0 0 1 297.75,186.73" pathLength="1" />
+  <path class="f hair i2" d="M255.99,183.81 L258.78,187.96 M265.06,179.49 L266.52,184.27 M275,178 L275,183 M284.94,179.49 L283.48,184.27 M294.01,183.81 L291.22,187.96" pathLength="1" />
+  <path class="q i3" d="M219,126 A9,34 0 0 1 227,58" pathLength="1" />
+  <path class="q i4" d="M235,126 A9,34 0 0 1 243,58" pathLength="1" />
+  <path class="q i4" d="M251,126 A9,34 0 0 1 259,58" pathLength="1" />
+  <path class="q i5" d="M267,126 A9,34 0 0 1 275,58" pathLength="1" />
+  <path class="q i5" d="M283,126 A9,34 0 0 1 291,58" pathLength="1" />
+  <path class="q i6" d="M299,126 A9,34 0 0 1 307,58" pathLength="1" />
+  <path class="q i6" d="M315,126 A9,34 0 0 1 323,58" pathLength="1" />
+  <g class="a-mag">
+   <rect class="w i7" x="110" y="79" width="96" height="26" />
+   <rect class="s i8" x="110" y="79" width="96" height="26" pathLength="1" />
+   <line class="s i8" x1="158" y1="79" x2="158" y2="105" pathLength="1" />
+   <text class="t i9" x="134" y="97" text-anchor="middle">S</text>
+   <text class="t i9" x="182" y="97" text-anchor="middle">N</text>
+  </g>
+  <path class="s i10" d="M227,58 A9,34 0 0 1 235,126" pathLength="1" />
+  <path class="s i10" d="M243,58 A9,34 0 0 1 251,126" pathLength="1" />
+  <path class="s i11" d="M259,58 A9,34 0 0 1 267,126" pathLength="1" />
+  <path class="s i12" d="M275,58 A9,34 0 0 1 283,126" pathLength="1" />
+  <path class="s i12" d="M291,58 A9,34 0 0 1 299,126" pathLength="1" />
+  <path class="s i13" d="M307,58 A9,34 0 0 1 315,126" pathLength="1" />
+  <path class="s i13" d="M323,58 A9,34 0 0 1 331,126" pathLength="1" />
+  <g class="a-ned">
+   <line class="s i14" x1="275" y1="212" x2="275" y2="182" pathLength="1" />
+  </g>
+  <circle class="p i14" cx="275" cy="212" r="2.6" />
+  <text class="t i15" x="335" y="196" text-anchor="start">I</text>
+ </g>
+</svg>

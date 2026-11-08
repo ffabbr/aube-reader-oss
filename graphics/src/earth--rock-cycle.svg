@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="earth--rock-cycle" data-discipline="earth" data-tags="rock-cycle,igneous,sedimentary,metamorphic,magma,weathering,geology">
+<title>The rock cycle</title>
+<desc>Magma cools to igneous rock, weathering turns it to sedimentary rock, heat and pressure make metamorphic rock, and melting returns it to magma: rock as an endless loop.</desc>
+<style>
+.a-d1{offset-path:path("M140,80 H260")}.a-d2{offset-path:path("M300,106 V144")}.a-d3{offset-path:path("M260,170 H140")}.a-d4{offset-path:path("M100,144 V106")}
+.a-hop{offset-rotate:0deg;animation:a-hop 10s linear infinite}
+@keyframes a-hop{0%{offset-distance:0%;opacity:0}3%{opacity:1}22%{opacity:1}25%{offset-distance:100%;opacity:0}100%{offset-distance:100%;opacity:0}}
+.a-h1{animation-delay:-7.5s}.a-h2{animation-delay:-5s}.a-h3{animation-delay:-2.5s}
+.a-bub{animation:a-bub 2.5s linear infinite}
+@keyframes a-bub{0%{transform:translateY(0);opacity:0}30%{opacity:1}100%{transform:translateY(-14px);opacity:0}}
+.a-u1{animation-delay:-1.2s}
+</style>
+<path class="w" d="M70,60 H130 V100 H70 Z"/>
+<path class="w" d="M270,60 H330 V100 H270 Z"/>
+<path class="w" d="M270,150 H330 V190 H270 Z"/>
+<path class="w" d="M70,172 C70,152 95,150 105,156 C118,150 134,158 130,176 C128,192 76,194 70,172 Z"/>
+<path class="s" d="M70,60 H130 V100 H70 Z"/>
+<path class="s" d="M270,60 H330 V100 H270 Z"/>
+<path class="s" d="M270,150 H330 V190 H270 Z"/>
+<path class="s" d="M70,172 C70,152 95,150 105,156 C118,150 134,158 130,176 C128,192 76,194 70,172 Z"/>
+<path class="q" d="M70,80 L90,72 L96,60 M90,72 L104,86 L130,76 M104,86 L98,100 M90,72 L84,92 L70,96"/>
+<path class="q" d="M270,70 H330 M270,80 H330 M270,90 H330"/>
+<path class="q" d="M270,160 q15,-8 30,0 t30,0 M270,170 q15,-8 30,0 t30,0 M270,180 q15,-8 30,0 t30,0"/>
+<path class="s" d="M140,80 L260,80 M253.9,83.4 L260,80 L253.9,76.6"/>
+<path class="s" d="M300,106 L300,144 M296.6,137.9 L300,144 L303.4,137.9"/>
+<path class="k s" d="M260,170 H146"/><path class="s" d="M146.1,166.6 L140,170 L146.1,173.4"/>
+<path class="s" d="M100,144 L100,106 M103.4,112.1 L100,106 L96.6,112.1"/>
+<path class="k f" d="M134,102 L266,148"/><path class="f" d="M261.1,149.8 L268,148.7 L263.3,143.5"/>
+<path class="k f" d="M266,102 L134,148"/><path class="f" d="M136.7,143.5 L132,148.7 L138.9,149.8"/>
+<g class="a-bub"><circle class="q" cx="92" cy="176" r="2.5"/></g>
+<g class="a-bub a-u1"><circle class="q" cx="112" cy="178" r="2"/></g>
+<g class="a-hop a-d1"><circle class="p" cx="0" cy="0" r="3"/></g>
+<g class="a-hop a-d2 a-h1"><circle class="p" cx="0" cy="0" r="3"/></g>
+<g class="a-hop a-d3 a-h2"><circle class="p" cx="0" cy="0" r="3"/></g>
+<g class="a-hop a-d4 a-h3"><circle class="p" cx="0" cy="0" r="3"/></g>
+<text class="t" x="100" y="46" text-anchor="middle">igneous</text>
+<text class="t" x="300" y="46" text-anchor="middle">sedimentary</text>
+<text class="t" x="300" y="210" text-anchor="middle">metamorphic</text>
+</svg>

@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="geometry--pythagorean-theorem" data-discipline="geometry" data-tags="pythagoras,right-triangle,area,proof,squares,hypotenuse">
+<title>Pythagorean theorem</title>
+<desc>Squares drawn on the sides of a 3-4-5 right triangle: the unit cells of the two small squares move across to exactly fill the square on the hypotenuse.</desc>
+<style>
+@keyframes a-fly{0%,45%{transform:translate(0px,0px)}60%,100%{transform:translate(var(--dx),var(--dy))}}
+.a-fly{animation:a-fly 10s ease-in-out infinite}
+.a-d0{--dx:75.6px;--dy:-7.2px}
+.a-d1{--dx:86.4px;--dy:-10.8px}
+.a-d2{--dx:90px;--dy:-54px}
+.a-d3{--dx:97.2px;--dy:-32.4px}
+.a-d4{--dx:82.8px;--dy:-3.6px}
+.a-d5{--dx:86.4px;--dy:-46.8px}
+.a-d6{--dx:90px;--dy:0px}
+.a-d7{--dx:93.6px;--dy:-43.2px}
+.a-d8{--dx:79.2px;--dy:-14.4px}
+.a-d9{--dx:82.8px;--dy:-57.6px}
+.a-d10{--dx:82.8px;--dy:14.4px}
+.a-d11{--dx:86.4px;--dy:-28.8px}
+.a-d12{--dx:72px;--dy:0px}
+.a-d13{--dx:75.6px;--dy:-43.2px}
+.a-d14{--dx:79.2px;--dy:-86.4px}
+.a-d15{--dx:79.2px;--dy:-14.4px}
+.a-d16{--dx:64.8px;--dy:-57.6px}
+.a-d17{--dx:68.4px;--dy:-100.8px}
+.a-d18{--dx:72px;--dy:-144px}
+.a-d19{--dx:57.6px;--dy:-43.2px}
+.a-d20{--dx:61.2px;--dy:-86.4px}
+.a-d21{--dx:64.8px;--dy:-129.6px}
+.a-d22{--dx:54px;--dy:-54px}
+.a-d23{--dx:57.6px;--dy:-97.2px}
+.a-d24{--dx:68.4px;--dy:-100.8px}
+</style>
+<polygon class="w" points="173,156 227,156 227,210 173,210"/>
+<polygon class="w" points="101,84 173,84 173,156 101,156"/>
+<polygon class="w" points="227,156 173,84 245,30 299,102"/>
+<path class="f hair" d="M191,156 v54 M209,156 v54 M173,174 h54 M173,192 h54 M119,84 v72 M137,84 v72 M155,84 v72 M101,102 h72 M101,120 h72 M101,138 h72 M216.2,141.6 l72,-54 M241.4,145.2 l-54,-72 M205.4,127.2 l72,-54 M255.8,134.4 l-54,-72 M194.6,112.8 l72,-54 M270.2,123.6 l-54,-72 M183.8,98.4 l72,-54 M284.6,112.8 l-54,-72"/>
+<polygon class="q" points="173,156 227,156 227,210 173,210"/>
+<polygon class="q" points="101,84 173,84 173,156 101,156"/>
+<polygon class="q" points="227,156 173,84 245,30 299,102"/>
+<path class="s" d="M173,156 L227,156 L173,84 Z"/>
+<path class="s hair" d="M183,156 v-10 h-10"/>
+<g class="a-fly a-d0"><circle class="pq" cx="110" cy="93" r="3"/></g>
+<g class="a-fly a-d1"><circle class="pq" cx="110" cy="111" r="3"/></g>
+<g class="a-fly a-d2"><circle class="pq" cx="110" cy="129" r="3"/></g>
+<g class="a-fly a-d3"><circle class="pq" cx="110" cy="147" r="3"/></g>
+<g class="a-fly a-d4"><circle class="pq" cx="128" cy="93" r="3"/></g>
+<g class="a-fly a-d5"><circle class="pq" cx="128" cy="111" r="3"/></g>
+<g class="a-fly a-d6"><circle class="pq" cx="128" cy="129" r="3"/></g>
+<g class="a-fly a-d7"><circle class="pq" cx="128" cy="147" r="3"/></g>
+<g class="a-fly a-d8"><circle class="pq" cx="146" cy="93" r="3"/></g>
+<g class="a-fly a-d9"><circle class="pq" cx="146" cy="111" r="3"/></g>
+<g class="a-fly a-d10"><circle class="pq" cx="146" cy="129" r="3"/></g>
+<g class="a-fly a-d11"><circle class="pq" cx="146" cy="147" r="3"/></g>
+<g class="a-fly a-d12"><circle class="pq" cx="164" cy="93" r="3"/></g>
+<g class="a-fly a-d13"><circle class="pq" cx="164" cy="111" r="3"/></g>
+<g class="a-fly a-d14"><circle class="pq" cx="164" cy="129" r="3"/></g>
+<g class="a-fly a-d15"><circle class="pq" cx="164" cy="147" r="3"/></g>
+<g class="a-fly a-d16"><circle class="pq" cx="182" cy="165" r="3"/></g>
+<g class="a-fly a-d17"><circle class="pq" cx="182" cy="183" r="3"/></g>
+<g class="a-fly a-d18"><circle class="pq" cx="182" cy="201" r="3"/></g>
+<g class="a-fly a-d19"><circle class="pq" cx="200" cy="165" r="3"/></g>
+<g class="a-fly a-d20"><circle class="pq" cx="200" cy="183" r="3"/></g>
+<g class="a-fly a-d21"><circle class="pq" cx="200" cy="201" r="3"/></g>
+<g class="a-fly a-d22"><circle class="pq" cx="218" cy="165" r="3"/></g>
+<g class="a-fly a-d23"><circle class="pq" cx="218" cy="183" r="3"/></g>
+<g class="a-fly a-d24"><circle class="pq" cx="218" cy="201" r="3"/></g>
+<text class="t" x="380" y="204" text-anchor="end">a² + b² = c²</text>
+</svg>

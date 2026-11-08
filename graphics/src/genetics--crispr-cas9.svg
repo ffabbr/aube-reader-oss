@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="genetics--crispr-cas9" data-discipline="genetics" data-tags="crispr,cas9,guide-rna,gene-editing,dna-cut,genome-engineering">
+<title>CRISPR-Cas9 gene editing</title>
+<desc>A guide RNA leads the Cas9 enzyme to a matching stretch of DNA, where it makes a clean cut across both strands so the gene can be changed.</desc>
+<style>
+.a-left{animation:a-lt 5s ease-in-out infinite alternate}
+.a-right{animation:a-rt 5s ease-in-out infinite alternate}
+@keyframes a-lt{from{transform:translate(0,0)}to{transform:translate(-5px,-2px)}}
+@keyframes a-rt{from{transform:translate(0,0)}to{transform:translate(5px,2px)}}
+</style>
+<path class="w" d="M150,150 C128,106 140,62 200,58 C260,62 272,106 250,150 C240,196 160,196 150,150 Z"/>
+<g class="a-left">
+<path class="s" d="M36,156 H198"/>
+<path class="s" d="M36,174 H198"/>
+<path class="f hair" d="M46,156 V174 M58,156 V174 M70,156 V174 M82,156 V174 M94,156 V174 M106,156 V174 M118,156 V174 M130,156 V174 M142,156 V174 M154,156 V174 M166,156 V174 M178,156 V174 M190,156 V174"/>
+</g><g class="a-right">
+<path class="s" d="M202,156 H364"/>
+<path class="s" d="M202,174 H364"/>
+<path class="f hair" d="M210,156 V174 M222,156 V174 M234,156 V174 M246,156 V174 M258,156 V174 M270,156 V174 M282,156 V174 M294,156 V174 M306,156 V174 M318,156 V174 M330,156 V174 M342,156 V174 M354,156 V174"/>
+</g>
+<path class="q" d="M150,150 C128,106 140,62 200,58 C260,62 272,106 250,150 C240,196 160,196 150,150 Z"/>
+<path class="s bold" d="M226,84 C214,86 214,98 226,100 C238,102 236,112 224,114 C212,116 208,126 206,138 L172,138"/>
+<path class="f hair" d="M176,138 V156 M182,138 V156 M188,138 V156 M194,138 V156"/>
+<path class="k s" d="M200,126 V188"/>
+<text class="t" x="200" y="40" text-anchor="middle">Cas9</text>
+<text class="t" x="100" y="108" text-anchor="middle">guide RNA</text>
+<path class="f hair" d="M130,114 L170,134"/>
+<text class="t" x="300" y="140" text-anchor="start">cut</text>
+<path class="f hair" d="M296,136 L204,152"/>
+</svg>

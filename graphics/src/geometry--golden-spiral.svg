@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="geometry--golden-spiral" data-discipline="geometry" data-tags="golden-ratio,spiral,fibonacci,proportion,self-similarity,phi">
+<title>Golden spiral</title>
+<desc>A golden rectangle breaks into ever smaller squares, and quarter-circle arcs through them wind into a spiral that grows by the golden ratio every quarter turn.</desc>
+<style>
+.a-run{offset-path:path('M70,192 A160,160 0 0 1 230,32 A100,100 0 0 1 330,132 A60,60 0 0 1 270,192 A40,40 0 0 1 230,152 A20,20 0 0 1 250,132 A20,20 0 0 1 270,152');offset-rotate:0deg;animation:a-run 10s linear infinite}
+@keyframes a-run{from{offset-distance:0%}to{offset-distance:100%}}
+</style>
+<rect class="w" x="70" y="32" width="260" height="160"/>
+<path class="f" d="M70,32 h160 v160 h-160 z M230,32 h100 v100 h-100 z M270,132 h60 v60 h-60 z M230,152 h40 v40 h-40 z M230,132 h20 v20 h-20 z M250,132 h20 v20 h-20 z"/>
+<rect class="q" x="70" y="32" width="260" height="160"/>
+<path class="s bold" d="M70,192 A160,160 0 0 1 230,32 A100,100 0 0 1 330,132 A60,60 0 0 1 270,192 A40,40 0 0 1 230,152 A20,20 0 0 1 250,132 A20,20 0 0 1 270,152"/>
+<g class="a-run"><circle class="p" cx="0" cy="0" r="3.5"/></g>
+<text class="t" x="200" y="218" text-anchor="middle">φ = 1.618…</text>
+</svg>

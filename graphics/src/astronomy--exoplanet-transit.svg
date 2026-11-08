@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="astronomy--exoplanet-transit" data-discipline="astronomy" data-tags="exoplanet,transit,light-curve,star,planet-detection,brightness">
+<title>Exoplanet transit light curve</title>
+<desc>A dark planet crosses the face of its star while the star's measured brightness dips; the dip betrays the planet.</desc>
+<style>
+@keyframes a-cross{from{transform:translate(70px,70px)}to{transform:translate(330px,70px)}}
+.a-cross{animation:a-cross 10s linear infinite;transform:translate(70px,70px)}
+@keyframes a-trace{0%{transform:translate(70px,158px)}33.5%{transform:translate(157px,158px)}40.4%{transform:translate(175px,180px)}59.6%{transform:translate(225px,180px)}66.5%{transform:translate(243px,158px)}100%{transform:translate(330px,158px)}}
+.a-trace{animation:a-trace 10s linear infinite;transform:translate(70px,158px)}
+</style>
+<circle class="w" cx="200" cy="70" r="34"/>
+<circle class="s" cx="200" cy="70" r="34"/>
+<path class="f" d="M70,158H330"/>
+<path class="q" d="M70,158H157L175,180H225L243,158H330"/>
+<g class="a-cross">
+<circle class="p" cx="0" cy="0" r="9"/>
+</g>
+<g class="a-trace">
+<circle class="w" cx="0" cy="0" r="4.5"/>
+<circle class="s" cx="0" cy="0" r="4.5"/>
+</g>
+<text class="t" x="200" y="208" text-anchor="middle">starlight dips as the planet crosses</text>
+</svg>

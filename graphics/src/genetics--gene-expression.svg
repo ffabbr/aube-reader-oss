@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="genetics--gene-expression" data-discipline="genetics" data-tags="gene-expression,transcription,translation,mrna,ribosome,central-dogma,protein-synthesis">
+<title>Gene expression: DNA to mRNA to protein</title>
+<desc>RNA polymerase copies a gene from DNA into messenger RNA, which carries the message to a ribosome that translates it into a chain of amino acids.</desc>
+<style>
+
+.a-msg1,.a-msg2{offset-path:path("M116,60 C176,72 176,112 200,132 C214,144 228,156 250,160");offset-rotate:0deg;animation:a-trav 5s linear infinite}
+.a-msg2{animation-delay:-2.5s}
+@keyframes a-trav{from{offset-distance:0%;opacity:0}12%{opacity:1}88%{opacity:1}to{offset-distance:100%;opacity:0}}
+</style>
+<g transform="translate(0,16)">
+<path class="s" d="M34,48 H176"/>
+<path class="s" d="M34,64 H176"/>
+<path class="f hair" d="M42,48 V64 M54,48 V64 M66,48 V64 M78,48 V64 M90,48 V64 M102,48 V64 M114,48 V64 M126,48 V64 M138,48 V64 M150,48 V64 M162,48 V64"/>
+<ellipse class="w" cx="104" cy="56" rx="24" ry="16"/>
+<ellipse class="q" cx="104" cy="56" rx="24" ry="16"/>
+<circle class="w" cx="106" cy="56" r="8"/>
+<circle class="s" cx="106" cy="56" r="8"/>
+<ellipse class="w" cx="254" cy="148" rx="40" ry="22"/>
+<path class="s" d="M116,60 C176,72 176,112 200,132 C214,144 228,156 250,160 H320"/>
+<ellipse class="q" cx="254" cy="148" rx="40" ry="22"/>
+<path class="q" d="M272,124 C273.8,122.5 279,119.1 282.5,114.8 C286,110.6 289.5,104.6 293,98.6 C296.5,92.5 300,84.4 303.5,78.6 C307,72.7 310.5,67.5 314,63.6 C317.5,59.7 322.8,56.5 324.5,55.1"/>
+<circle class="w" cx="272" cy="124" r="4.6"/>
+<circle class="s" cx="272" cy="124" r="4.6"/>
+<circle class="w" cx="282.5" cy="114.8" r="4.6"/>
+<circle class="s" cx="282.5" cy="114.8" r="4.6"/>
+<circle class="w" cx="293" cy="98.6" r="4.6"/>
+<circle class="s" cx="293" cy="98.6" r="4.6"/>
+<circle class="w" cx="303.5" cy="78.6" r="4.6"/>
+<circle class="s" cx="303.5" cy="78.6" r="4.6"/>
+<circle class="w" cx="314" cy="63.6" r="4.6"/>
+<circle class="s" cx="314" cy="63.6" r="4.6"/>
+<circle class="w" cx="324.5" cy="55.1" r="4.6"/>
+<circle class="s" cx="324.5" cy="55.1" r="4.6"/>
+<g class="a-msg1"><circle class="pq" cx="0" cy="0" r="3.2"/></g>
+<g class="a-msg2"><circle class="pq" cx="0" cy="0" r="3.2"/></g>
+<text class="t" x="70" y="92" text-anchor="middle">DNA</text>
+<text class="t" x="168" y="118" text-anchor="end">mRNA</text>
+<text class="t" x="334" y="58" text-anchor="start">protein</text>
+</g>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="computing--binary-search" data-discipline="computing" data-tags="algorithm,search,sorted-array,divide-and-conquer,logarithmic">
+<title>Binary search</title>
+<desc>A pointer jumps to the middle of a sorted row of bars, discards the half that cannot hold the target, and repeats until it lands on it: logarithmic search.</desc>
+<style>
+.a-vl{opacity:.82;transform-box:view-box}
+.a-vll{transform-origin:40px 0;animation:a-vl-l 10s ease-in-out infinite}
+.a-vlr{transform-origin:360px 0;animation:a-vl-r 10s ease-in-out infinite}
+.a-mid{animation:a-mid 10s ease-in-out infinite}
+@keyframes a-vl-l{0%{transform:scaleX(0)}50%{transform:scaleX(0)}53%{transform:scaleX(.8)}73%{transform:scaleX(.8)}76%{transform:scaleX(1)}100%{transform:scaleX(1)}}
+@keyframes a-vl-r{0%{transform:scaleX(0)}62%{transform:scaleX(0)}65%{transform:scaleX(1)}100%{transform:scaleX(1)}}
+@keyframes a-mid{0%{transform:translateX(0px)}54%{transform:translateX(0px)}57%{transform:translateX(80px)}66%{transform:translateX(80px)}69%{transform:translateX(40px)}77%{transform:translateX(40px)}80%{transform:translateX(60px)}100%{transform:translateX(60px)}}
+</style>
+<path class="f" d="M34,170 H366"/>
+<path class="q" d="M45,140 h12 v30 h-12 z M65,134 h12 v36 h-12 z M85,128 h12 v42 h-12 z M105,122 h12 v48 h-12 z M125,116 h12 v54 h-12 z M145,110 h12 v60 h-12 z M165,104 h12 v66 h-12 z M185,98 h12 v72 h-12 z M205,92 h12 v78 h-12 z M225,86 h12 v84 h-12 z M265,74 h12 v96 h-12 z M285,68 h12 v102 h-12 z M305,62 h12 v108 h-12 z M325,56 h12 v114 h-12 z M345,50 h12 v120 h-12 z"/>
+<path class="p" d="M245,80 h12 v90 h-12 z"/>
+<g class="a-vl a-vll"><path class="w" d="M40,48 h200 v124 h-200 z"/></g>
+<g class="a-vl a-vlr"><path class="w" d="M260,48 h100 v124 h-100 z"/></g>
+<text class="t" x="251" y="70" text-anchor="middle">target</text>
+<g class="a-mid"><path class="p" d="M191,176 l-6,10 h12 z"/><text class="t" x="191" y="200" text-anchor="middle">mid</text></g>
+<text class="t" x="200" y="218" text-anchor="middle">halve the range, look again</text>
+</svg>

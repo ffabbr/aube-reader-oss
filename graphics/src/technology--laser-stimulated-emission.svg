@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="technology--laser-stimulated-emission" data-discipline="technology" data-tags="laser,stimulated-emission,photon,coherent,cavity,excited-atom,optics,light">
+<title>Laser: Stimulated Emission</title>
+<desc>One photon crossing a cavity makes each excited atom it passes emit an identical photon in step with it, so a coherent beam builds and leaves through the part-silvered mirror.</desc>
+<style>
+.a-run{animation:a-run 5s linear infinite;transform:translateX(62px)}
+@keyframes a-run{0%{transform:translateX(62px)}92%,100%{transform:translateX(358px)}}
+.a-x0{animation:a-x0 5s linear infinite}
+@keyframes a-x0{0%,21.8%{opacity:1}24.8%,92%{opacity:0}98%,100%{opacity:1}}
+.a-x1{animation:a-x1 5s linear infinite}
+@keyframes a-x1{0%,39.8%{opacity:1}42.8%,92%{opacity:0}98%,100%{opacity:1}}
+.a-x2{animation:a-x2 5s linear infinite}
+@keyframes a-x2{0%,56.6%{opacity:1}59.6%,92%{opacity:0}98%,100%{opacity:1}}
+.a-v0{animation:a-v0 5s linear infinite;opacity:1}
+@keyframes a-v0{0%{opacity:0}3%,86%{opacity:1}92%,100%{opacity:0}}
+.a-v1{animation:a-v1 5s linear infinite;opacity:0}
+@keyframes a-v1{0%,21.8%{opacity:0}24.8%,86%{opacity:1}92%,100%{opacity:0}}
+.a-v2{animation:a-v2 5s linear infinite;opacity:0}
+@keyframes a-v2{0%,39.8%{opacity:0}42.8%,86%{opacity:1}92%,100%{opacity:0}}
+.a-v3{animation:a-v3 5s linear infinite;opacity:0}
+@keyframes a-v3{0%,56.6%{opacity:0}59.6%,86%{opacity:1}92%,100%{opacity:0}}
+</style>
+<rect class="w" x="72" y="62" width="226" height="116"/>
+<rect class="q" x="72" y="62" width="226" height="116"/>
+<path class="s bold" d="M58,56 Q50,120 58,184"/>
+<path class="k s" d="M312,56 Q304,120 312,184"/>
+<path class="k f" d="M326,90 H380 M326,110 H380 M326,130 H380 M326,150 H380"/>
+<path class="pq" d="M97.6,84 a2.4,2.4 0 1 0 4.8,0 a2.4,2.4 0 1 0 -4.8,0ZM93.6,158 a2.4,2.4 0 1 0 4.8,0 a2.4,2.4 0 1 0 -4.8,0ZM157.6,74 a2.4,2.4 0 1 0 4.8,0 a2.4,2.4 0 1 0 -4.8,0ZM163.6,126 a2.4,2.4 0 1 0 4.8,0 a2.4,2.4 0 1 0 -4.8,0ZM215.6,166 a2.4,2.4 0 1 0 4.8,0 a2.4,2.4 0 1 0 -4.8,0ZM213.6,116 a2.4,2.4 0 1 0 4.8,0 a2.4,2.4 0 1 0 -4.8,0ZM269.6,136 a2.4,2.4 0 1 0 4.8,0 a2.4,2.4 0 1 0 -4.8,0ZM269.6,74 a2.4,2.4 0 1 0 4.8,0 a2.4,2.4 0 1 0 -4.8,0Z"/>
+<circle class="p" cx="132" cy="110" r="3"/>
+<g class="a-x0"><circle class="s" cx="132" cy="110" r="8"/></g>
+<circle class="p" cx="190" cy="150" r="3"/>
+<g class="a-x1"><circle class="s" cx="190" cy="150" r="8"/></g>
+<circle class="p" cx="244" cy="90" r="3"/>
+<g class="a-x2"><circle class="s" cx="244" cy="90" r="8"/></g>
+<g class="a-v0"><g class="a-run"><path class="s bold" d="M-20,130 q3.33,-15 6.67,0 t6.67,0 t6.67,0 t6.67,0 t6.67,0 t6.67,0"/></g></g>
+<g class="a-v1"><g class="a-run"><path class="s bold" d="M-20,110 q3.33,-15 6.67,0 t6.67,0 t6.67,0 t6.67,0 t6.67,0 t6.67,0"/></g></g>
+<g class="a-v2"><g class="a-run"><path class="s bold" d="M-20,150 q3.33,-15 6.67,0 t6.67,0 t6.67,0 t6.67,0 t6.67,0 t6.67,0"/></g></g>
+<g class="a-v3"><g class="a-run"><path class="s bold" d="M-20,90 q3.33,-15 6.67,0 t6.67,0 t6.67,0 t6.67,0 t6.67,0 t6.67,0"/></g></g>
+<text class="t" x="56" y="204" text-anchor="middle">mirror</text>
+<text class="t" x="185" y="204" text-anchor="middle">excited atoms</text>
+<text class="t" x="312" y="204" text-anchor="middle">part mirror</text>
+</svg>

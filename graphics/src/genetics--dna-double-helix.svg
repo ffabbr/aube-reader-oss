@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="genetics--dna-double-helix" data-discipline="genetics" data-tags="dna,double-helix,base-pairs,nucleotides,molecular-biology,structure">
+<title>DNA double helix</title>
+<desc>Two backbones twist around one axis with base-pair rungs between them; as the helix turns, rungs lengthen and shorten and the beads swing front to back.</desc>
+<style>
+.a-b0{animation:a-sway 5s ease-in-out infinite alternate;animation-delay:-2.5s}
+.a-r0{transform-box:fill-box;transform-origin:center;animation:a-rung 5s ease-in-out infinite alternate;animation-delay:-2.5s}
+.a-d0{transform-box:fill-box;transform-origin:center;animation:a-depth 5s ease-in-out infinite alternate;animation-delay:-5.0s}
+.a-b1{animation:a-sway 5s ease-in-out infinite alternate;animation-delay:-3.75s}
+.a-r1{transform-box:fill-box;transform-origin:center;animation:a-rung 5s ease-in-out infinite alternate;animation-delay:-3.75s}
+.a-d1{transform-box:fill-box;transform-origin:center;animation:a-depth 5s ease-in-out infinite alternate;animation-delay:-6.25s}
+.a-b2{animation:a-sway 5s ease-in-out infinite alternate;animation-delay:-5.0s}
+.a-r2{transform-box:fill-box;transform-origin:center;animation:a-rung 5s ease-in-out infinite alternate;animation-delay:-5.0s}
+.a-d2{transform-box:fill-box;transform-origin:center;animation:a-depth 5s ease-in-out infinite alternate;animation-delay:-7.5s}
+.a-b3{animation:a-sway 5s ease-in-out infinite alternate;animation-delay:-6.25s}
+.a-r3{transform-box:fill-box;transform-origin:center;animation:a-rung 5s ease-in-out infinite alternate;animation-delay:-6.25s}
+.a-d3{transform-box:fill-box;transform-origin:center;animation:a-depth 5s ease-in-out infinite alternate;animation-delay:-8.75s}
+.a-b4{animation:a-sway 5s ease-in-out infinite alternate;animation-delay:-7.5s}
+.a-r4{transform-box:fill-box;transform-origin:center;animation:a-rung 5s ease-in-out infinite alternate;animation-delay:-7.5s}
+.a-d4{transform-box:fill-box;transform-origin:center;animation:a-depth 5s ease-in-out infinite alternate;animation-delay:-10.0s}
+.a-b5{animation:a-sway 5s ease-in-out infinite alternate;animation-delay:-8.75s}
+.a-r5{transform-box:fill-box;transform-origin:center;animation:a-rung 5s ease-in-out infinite alternate;animation-delay:-8.75s}
+.a-d5{transform-box:fill-box;transform-origin:center;animation:a-depth 5s ease-in-out infinite alternate;animation-delay:-11.25s}
+.a-b6{animation:a-sway 5s ease-in-out infinite alternate;animation-delay:-10.0s}
+.a-r6{transform-box:fill-box;transform-origin:center;animation:a-rung 5s ease-in-out infinite alternate;animation-delay:-10.0s}
+.a-d6{transform-box:fill-box;transform-origin:center;animation:a-depth 5s ease-in-out infinite alternate;animation-delay:-12.5s}
+.a-b7{animation:a-sway 5s ease-in-out infinite alternate;animation-delay:-11.25s}
+.a-r7{transform-box:fill-box;transform-origin:center;animation:a-rung 5s ease-in-out infinite alternate;animation-delay:-11.25s}
+.a-d7{transform-box:fill-box;transform-origin:center;animation:a-depth 5s ease-in-out infinite alternate;animation-delay:-13.75s}
+@keyframes a-sway{from{transform:translateX(-48px)}to{transform:translateX(48px)}}
+@keyframes a-rung{from{transform:scaleX(-1)}to{transform:scaleX(1)}}
+@keyframes a-depth{from{transform:scale(.7)}to{transform:scale(1.25)}}
+</style>
+<path class="k f" d="M190,22 V216.6"/>
+<g class="a-r0"><line class="q hair" x1="142" y1="30" x2="238" y2="30"/></g>
+<g class="a-b0"><g class="a-d0"><circle class="p" cx="190" cy="30" r="4.6"/></g></g>
+<g class="a-b4"><g class="a-d4"><circle class="pq" cx="190" cy="30" r="4.6"/></g></g>
+<g class="a-r1"><line class="q hair" x1="142" y1="39.4" x2="238" y2="39.4"/></g>
+<g class="a-b1"><g class="a-d1"><circle class="p" cx="190" cy="39.4" r="4.6"/></g></g>
+<g class="a-b5"><g class="a-d5"><circle class="pq" cx="190" cy="39.4" r="4.6"/></g></g>
+<g class="a-r2"><line class="q hair" x1="142" y1="48.8" x2="238" y2="48.8"/></g>
+<g class="a-b2"><g class="a-d2"><circle class="p" cx="190" cy="48.8" r="4.6"/></g></g>
+<g class="a-b6"><g class="a-d6"><circle class="pq" cx="190" cy="48.8" r="4.6"/></g></g>
+<g class="a-r3"><line class="q hair" x1="142" y1="58.2" x2="238" y2="58.2"/></g>
+<g class="a-b3"><g class="a-d3"><circle class="p" cx="190" cy="58.2" r="4.6"/></g></g>
+<g class="a-b7"><g class="a-d7"><circle class="pq" cx="190" cy="58.2" r="4.6"/></g></g>
+<g class="a-r4"><line class="q hair" x1="142" y1="67.6" x2="238" y2="67.6"/></g>
+<g class="a-b4"><g class="a-d4"><circle class="p" cx="190" cy="67.6" r="4.6"/></g></g>
+<g class="a-b0"><g class="a-d0"><circle class="pq" cx="190" cy="67.6" r="4.6"/></g></g>
+<g class="a-r5"><line class="q hair" x1="142" y1="77" x2="238" y2="77"/></g>
+<g class="a-b5"><g class="a-d5"><circle class="p" cx="190" cy="77" r="4.6"/></g></g>
+<g class="a-b1"><g class="a-d1"><circle class="pq" cx="190" cy="77" r="4.6"/></g></g>
+<g class="a-r6"><line class="q hair" x1="142" y1="86.4" x2="238" y2="86.4"/></g>
+<g class="a-b6"><g class="a-d6"><circle class="p" cx="190" cy="86.4" r="4.6"/></g></g>
+<g class="a-b2"><g class="a-d2"><circle class="pq" cx="190" cy="86.4" r="4.6"/></g></g>
+<g class="a-r7"><line class="q hair" x1="142" y1="95.8" x2="238" y2="95.8"/></g>
+<g class="a-b7"><g class="a-d7"><circle class="p" cx="190" cy="95.8" r="4.6"/></g></g>
+<g class="a-b3"><g class="a-d3"><circle class="pq" cx="190" cy="95.8" r="4.6"/></g></g>
+<g class="a-r0"><line class="q hair" x1="142" y1="105.2" x2="238" y2="105.2"/></g>
+<g class="a-b0"><g class="a-d0"><circle class="p" cx="190" cy="105.2" r="4.6"/></g></g>
+<g class="a-b4"><g class="a-d4"><circle class="pq" cx="190" cy="105.2" r="4.6"/></g></g>
+<g class="a-r1"><line class="q hair" x1="142" y1="114.6" x2="238" y2="114.6"/></g>
+<g class="a-b1"><g class="a-d1"><circle class="p" cx="190" cy="114.6" r="4.6"/></g></g>
+<g class="a-b5"><g class="a-d5"><circle class="pq" cx="190" cy="114.6" r="4.6"/></g></g>
+<g class="a-r2"><line class="q hair" x1="142" y1="124" x2="238" y2="124"/></g>
+<g class="a-b2"><g class="a-d2"><circle class="p" cx="190" cy="124" r="4.6"/></g></g>
+<g class="a-b6"><g class="a-d6"><circle class="pq" cx="190" cy="124" r="4.6"/></g></g>
+<g class="a-r3"><line class="q hair" x1="142" y1="133.4" x2="238" y2="133.4"/></g>
+<g class="a-b3"><g class="a-d3"><circle class="p" cx="190" cy="133.4" r="4.6"/></g></g>
+<g class="a-b7"><g class="a-d7"><circle class="pq" cx="190" cy="133.4" r="4.6"/></g></g>
+<g class="a-r4"><line class="q hair" x1="142" y1="142.8" x2="238" y2="142.8"/></g>
+<g class="a-b4"><g class="a-d4"><circle class="p" cx="190" cy="142.8" r="4.6"/></g></g>
+<g class="a-b0"><g class="a-d0"><circle class="pq" cx="190" cy="142.8" r="4.6"/></g></g>
+<g class="a-r5"><line class="q hair" x1="142" y1="152.2" x2="238" y2="152.2"/></g>
+<g class="a-b5"><g class="a-d5"><circle class="p" cx="190" cy="152.2" r="4.6"/></g></g>
+<g class="a-b1"><g class="a-d1"><circle class="pq" cx="190" cy="152.2" r="4.6"/></g></g>
+<g class="a-r6"><line class="q hair" x1="142" y1="161.6" x2="238" y2="161.6"/></g>
+<g class="a-b6"><g class="a-d6"><circle class="p" cx="190" cy="161.6" r="4.6"/></g></g>
+<g class="a-b2"><g class="a-d2"><circle class="pq" cx="190" cy="161.6" r="4.6"/></g></g>
+<g class="a-r7"><line class="q hair" x1="142" y1="171" x2="238" y2="171"/></g>
+<g class="a-b7"><g class="a-d7"><circle class="p" cx="190" cy="171" r="4.6"/></g></g>
+<g class="a-b3"><g class="a-d3"><circle class="pq" cx="190" cy="171" r="4.6"/></g></g>
+<g class="a-r0"><line class="q hair" x1="142" y1="180.4" x2="238" y2="180.4"/></g>
+<g class="a-b0"><g class="a-d0"><circle class="p" cx="190" cy="180.4" r="4.6"/></g></g>
+<g class="a-b4"><g class="a-d4"><circle class="pq" cx="190" cy="180.4" r="4.6"/></g></g>
+<g class="a-r1"><line class="q hair" x1="142" y1="189.8" x2="238" y2="189.8"/></g>
+<g class="a-b1"><g class="a-d1"><circle class="p" cx="190" cy="189.8" r="4.6"/></g></g>
+<g class="a-b5"><g class="a-d5"><circle class="pq" cx="190" cy="189.8" r="4.6"/></g></g>
+<g class="a-r2"><line class="q hair" x1="142" y1="199.2" x2="238" y2="199.2"/></g>
+<g class="a-b2"><g class="a-d2"><circle class="p" cx="190" cy="199.2" r="4.6"/></g></g>
+<g class="a-b6"><g class="a-d6"><circle class="pq" cx="190" cy="199.2" r="4.6"/></g></g>
+<g class="a-r3"><line class="q hair" x1="142" y1="208.6" x2="238" y2="208.6"/></g>
+<g class="a-b3"><g class="a-d3"><circle class="p" cx="190" cy="208.6" r="4.6"/></g></g>
+<g class="a-b7"><g class="a-d7"><circle class="pq" cx="190" cy="208.6" r="4.6"/></g></g>
+<path class="f" d="M260,30 h6 V105.2 h-6"/>
+<text class="t" x="276" y="71.6" text-anchor="start">one turn</text>
+<path class="f hair" d="M124,142.8 h-10"/>
+<text class="t" x="108" y="146.8" text-anchor="end">base pair</text>
+</svg>

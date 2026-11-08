@@ -1,0 +1,399 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="ecology--bird-flocking" data-discipline="ecology" data-tags="flocking,starlings,murmuration,emergence,collective-behaviour,self-organisation,boids" role="img">
+ <title>Bird Flocking</title>
+ <desc>A murmuration of starlings wheels as one while a turn ripples through it; each bird tracks only its seven nearest neighbours, and the flock emerges with no leader.</desc>
+ <style>
+:root{--ink:#110f0c;--quiet:#555350;--faint:#b8b6b2;--wash:#f5f3ef}
+@media (prefers-color-scheme:dark){:root{--ink:#e7e5e2;--quiet:#a3a19e;--faint:#524f4c;--wash:#252321}}
+svg{overflow:visible}
+.s,.q,.f{fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1;stroke-dashoffset:0}
+.s{stroke:var(--ink);stroke-width:1.5}
+.q{stroke:var(--quiet);stroke-width:1.3}
+.f{stroke:var(--faint);stroke-width:1.1}
+.hair{stroke-width:1!important}
+.bold{stroke-width:2.2!important}
+.k{fill:none;stroke-dasharray:5 5!important;stroke-linecap:round}
+.p{fill:var(--ink);stroke:none}
+.pq{fill:var(--quiet);stroke:none}
+.w{fill:var(--wash);stroke:none}
+.t{fill:var(--quiet);stroke:none;font:italic 13px ui-serif,"New York",Georgia,serif}
+.all{animation:out 10s linear infinite}
+@keyframes out{0%,90%{opacity:1}97%,99.9%{opacity:0}100%{opacity:1}}
+@keyframes dr0{0%,0.0%{stroke-dashoffset:1;opacity:0}0.1%{stroke-dashoffset:1;opacity:1}9%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd0{0%,0.0%{opacity:0}7%,100%{opacity:1}}
+@keyframes dr1{0%,2.2%{stroke-dashoffset:1;opacity:0}2.3%{stroke-dashoffset:1;opacity:1}11.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd1{0%,2.2%{opacity:0}9.2%,100%{opacity:1}}
+@keyframes dr2{0%,4.4%{stroke-dashoffset:1;opacity:0}4.5%{stroke-dashoffset:1;opacity:1}13.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd2{0%,4.4%{opacity:0}11.4%,100%{opacity:1}}
+@keyframes dr3{0%,6.6%{stroke-dashoffset:1;opacity:0}6.7%{stroke-dashoffset:1;opacity:1}15.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd3{0%,6.6%{opacity:0}13.6%,100%{opacity:1}}
+@keyframes dr4{0%,8.8%{stroke-dashoffset:1;opacity:0}8.9%{stroke-dashoffset:1;opacity:1}17.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd4{0%,8.8%{opacity:0}15.8%,100%{opacity:1}}
+@keyframes dr5{0%,11.0%{stroke-dashoffset:1;opacity:0}11.1%{stroke-dashoffset:1;opacity:1}20%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd5{0%,11.0%{opacity:0}18%,100%{opacity:1}}
+@keyframes dr6{0%,13.2%{stroke-dashoffset:1;opacity:0}13.3%{stroke-dashoffset:1;opacity:1}22.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd6{0%,13.2%{opacity:0}20.2%,100%{opacity:1}}
+@keyframes dr7{0%,15.4%{stroke-dashoffset:1;opacity:0}15.5%{stroke-dashoffset:1;opacity:1}24.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd7{0%,15.4%{opacity:0}22.4%,100%{opacity:1}}
+@keyframes dr8{0%,17.6%{stroke-dashoffset:1;opacity:0}17.7%{stroke-dashoffset:1;opacity:1}26.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd8{0%,17.6%{opacity:0}24.6%,100%{opacity:1}}
+@keyframes dr9{0%,19.8%{stroke-dashoffset:1;opacity:0}19.9%{stroke-dashoffset:1;opacity:1}28.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd9{0%,19.8%{opacity:0}26.8%,100%{opacity:1}}
+@keyframes dr10{0%,22.0%{stroke-dashoffset:1;opacity:0}22.1%{stroke-dashoffset:1;opacity:1}31%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd10{0%,22.0%{opacity:0}29%,100%{opacity:1}}
+@keyframes dr11{0%,24.2%{stroke-dashoffset:1;opacity:0}24.3%{stroke-dashoffset:1;opacity:1}33.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd11{0%,24.2%{opacity:0}31.2%,100%{opacity:1}}
+@keyframes dr12{0%,26.4%{stroke-dashoffset:1;opacity:0}26.5%{stroke-dashoffset:1;opacity:1}35.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd12{0%,26.4%{opacity:0}33.4%,100%{opacity:1}}
+@keyframes dr13{0%,28.6%{stroke-dashoffset:1;opacity:0}28.7%{stroke-dashoffset:1;opacity:1}37.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd13{0%,28.6%{opacity:0}35.6%,100%{opacity:1}}
+@keyframes dr14{0%,30.8%{stroke-dashoffset:1;opacity:0}30.9%{stroke-dashoffset:1;opacity:1}39.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd14{0%,30.8%{opacity:0}37.8%,100%{opacity:1}}
+@keyframes dr15{0%,33.0%{stroke-dashoffset:1;opacity:0}33.1%{stroke-dashoffset:1;opacity:1}42%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd15{0%,33.0%{opacity:0}40%,100%{opacity:1}}
+.s.i0,.q.i0,.f.i0{animation:dr0 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i1,.q.i1,.f.i1{animation:dr1 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i2,.q.i2,.f.i2{animation:dr2 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i3,.q.i3,.f.i3{animation:dr3 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i4,.q.i4,.f.i4{animation:dr4 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i5,.q.i5,.f.i5{animation:dr5 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i6,.q.i6,.f.i6{animation:dr6 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i7,.q.i7,.f.i7{animation:dr7 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i8,.q.i8,.f.i8{animation:dr8 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i9,.q.i9,.f.i9{animation:dr9 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i10,.q.i10,.f.i10{animation:dr10 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i11,.q.i11,.f.i11{animation:dr11 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i12,.q.i12,.f.i12{animation:dr12 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i13,.q.i13,.f.i13{animation:dr13 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i14,.q.i14,.f.i14{animation:dr14 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i15,.q.i15,.f.i15{animation:dr15 10s cubic-bezier(.55,.05,.25,1) infinite}
+.p.i0,.w.i0,.pq.i0,.t.i0,.k.i0{animation:fd0 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i1,.w.i1,.pq.i1,.t.i1,.k.i1{animation:fd1 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i2,.w.i2,.pq.i2,.t.i2,.k.i2{animation:fd2 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i3,.w.i3,.pq.i3,.t.i3,.k.i3{animation:fd3 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i4,.w.i4,.pq.i4,.t.i4,.k.i4{animation:fd4 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i5,.w.i5,.pq.i5,.t.i5,.k.i5{animation:fd5 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i6,.w.i6,.pq.i6,.t.i6,.k.i6{animation:fd6 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i7,.w.i7,.pq.i7,.t.i7,.k.i7{animation:fd7 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i8,.w.i8,.pq.i8,.t.i8,.k.i8{animation:fd8 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i9,.w.i9,.pq.i9,.t.i9,.k.i9{animation:fd9 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i10,.w.i10,.pq.i10,.t.i10,.k.i10{animation:fd10 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i11,.w.i11,.pq.i11,.t.i11,.k.i11{animation:fd11 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i12,.w.i12,.pq.i12,.t.i12,.k.i12{animation:fd12 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i13,.w.i13,.pq.i13,.t.i13,.k.i13{animation:fd13 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i14,.w.i14,.pq.i14,.t.i14,.k.i14{animation:fd14 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i15,.w.i15,.pq.i15,.t.i15,.k.i15{animation:fd15 10s cubic-bezier(.2,.7,.3,1) infinite}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+ <style>
+.a-flock{transform-box:view-box;transform-origin:200px 110px;animation:a-flock 5s ease-in-out infinite alternate}@keyframes a-flock{from{transform:translate(-12px,6px) rotate(-3deg)}to{transform:translate(12px,-6px) rotate(3deg)}}
+.a-turn{transform-box:view-box;transform-origin:0 0;animation:a-turn 5s ease-in-out infinite}@keyframes a-turn{0%,25%{transform:rotate(0)}42%{transform:rotate(-48deg) scale(1,.75)}60%{transform:rotate(16deg)}78%,100%{transform:rotate(0)}}
+.a-d0{animation-delay:-5.0s}
+.a-d1{animation-delay:-4.7s}
+.a-d2{animation-delay:-4.4s}
+.a-d3{animation-delay:-4.1s}
+.a-d4{animation-delay:-3.8s}
+.a-d5{animation-delay:-3.5s}
+.a-d6{animation-delay:-3.2s}
+.a-d7{animation-delay:-2.9s}
+.a-d8{animation-delay:-2.6s}
+.a-d9{animation-delay:-2.3s}
+</style>
+ <g class="all">
+  <path class="f i0" d="M30,216 C60,214 90,215 120,213 S190,215 230,213 S330,215 370,213" pathLength="1" />
+  <g class="a-flock">
+   <g transform="translate(108.4,59.3) rotate(-31.3) scale(0.84)">
+    <g class="a-turn a-d2">
+     <path class="s i0" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5" pathLength="1" />
+    </g>
+   </g>
+   <g transform="translate(140.9,84.1) rotate(-24.1) scale(0.75)">
+    <g class="a-turn a-d3">
+     <path class="s i0" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5" pathLength="1" />
+    </g>
+   </g>
+   <g transform="translate(84.5,118.7) rotate(-30) scale(0.99)">
+    <g class="a-turn a-d1">
+     <path class="s i0" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5" pathLength="1" />
+    </g>
+   </g>
+   <g transform="translate(296.6,110.8) rotate(4.6) scale(0.78)">
+    <g class="a-turn a-d7">
+     <path class="s i1" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5" pathLength="1" />
+    </g>
+   </g>
+   <g transform="translate(93.8,143.6) rotate(-26.9) scale(0.87)">
+    <g class="a-turn a-d1">
+     <path class="s i1" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5" pathLength="1" />
+    </g>
+   </g>
+   <g transform="translate(228.1,75.5) rotate(-8.9) scale(0.84)">
+    <g class="a-turn a-d5">
+     <path class="s i1" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5" pathLength="1" />
+    </g>
+   </g>
+   <g transform="translate(64,149.9) rotate(-30.8) scale(0.78)">
+    <g class="a-turn a-d0">
+     <path class="s i1" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5" pathLength="1" />
+    </g>
+   </g>
+   <g transform="translate(114.8,124.3) rotate(-30.8) scale(0.79)">
+    <g class="a-turn a-d2">
+     <path class="s i2" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5" pathLength="1" />
+    </g>
+   </g>
+   <g transform="translate(123.2,110) rotate(-24.4) scale(0.80)">
+    <g class="a-turn a-d2">
+     <path class="s i2" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5" pathLength="1" />
+    </g>
+   </g>
+   <g transform="translate(177.2,53.6) rotate(-15.2) scale(0.98)">
+    <g class="a-turn a-d4">
+     <path class="s i2" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5" pathLength="1" />
+    </g>
+   </g>
+   <g transform="translate(348.2,137.3) rotate(9.5) scale(0.94)">
+    <g class="a-turn a-d9">
+     <path class="s i2" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5" pathLength="1" />
+    </g>
+   </g>
+   <g transform="translate(248.9,108.8) rotate(-3.2) scale(0.93)">
+    <g class="a-turn a-d6">
+     <path class="s i3" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5" pathLength="1" />
+    </g>
+   </g>
+   <g transform="translate(186.6,123.2) rotate(-19.3) scale(0.98)">
+    <g class="a-turn a-d4">
+     <path class="s i3" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5" pathLength="1" />
+    </g>
+   </g>
+   <g transform="translate(192.6,65.1) rotate(-12.4) scale(0.98)">
+    <g class="a-turn a-d4">
+     <path class="s i3" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5" pathLength="1" />
+    </g>
+   </g>
+   <g transform="translate(326.6,129.5) rotate(10.3) scale(0.79)">
+    <g class="a-turn a-d8">
+     <path class="s i3" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5" pathLength="1" />
+    </g>
+   </g>
+   <g transform="translate(141.3,104.2) rotate(-20.9) scale(0.92)">
+    <g class="a-turn a-d3">
+     <path class="s i4" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5" pathLength="1" />
+    </g>
+   </g>
+   <g transform="translate(240.6,61.7) rotate(-9.1) scale(0.98)">
+    <g class="a-turn a-d6">
+     <path class="s i4" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5" pathLength="1" />
+    </g>
+   </g>
+   <g transform="translate(110.9,142.7) rotate(-31.4) scale(0.75)">
+    <g class="a-turn a-d2">
+     <path class="s i4" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5" pathLength="1" />
+    </g>
+   </g>
+   <g transform="translate(265.7,107.5) rotate(0.2) scale(0.92)">
+    <g class="a-turn a-d6">
+     <path class="s i4" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5" pathLength="1" />
+    </g>
+   </g>
+   <g transform="translate(113.2,170) rotate(-32.7) scale(0.80)">
+    <g class="a-turn a-d2">
+     <path class="s i5" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5" pathLength="1" />
+    </g>
+   </g>
+   <g transform="translate(268.9,140.4) rotate(-3.6) scale(0.99)">
+    <g class="a-turn a-d7">
+     <path class="s i5" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5" pathLength="1" />
+    </g>
+   </g>
+   <g transform="translate(79.3,133.2) rotate(-30.8) scale(0.84)">
+    <g class="a-turn a-d1">
+     <path class="s i5" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5" pathLength="1" />
+    </g>
+   </g>
+   <g transform="translate(316.4,112.9) rotate(1.5) scale(0.84)">
+    <g class="a-turn a-d8">
+     <path class="s i5" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5" pathLength="1" />
+    </g>
+   </g>
+   <g transform="translate(111.1,75.5) rotate(-29.8) scale(0.83)">
+    <g class="a-turn a-d2">
+     <path class="s i6" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5" pathLength="1" />
+    </g>
+   </g>
+   <g transform="translate(158.2,106.3) rotate(-25.6) scale(0.78)">
+    <g class="a-turn a-d3">
+     <path class="s i6" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5" pathLength="1" />
+    </g>
+   </g>
+   <g transform="translate(254,140.5) rotate(-2.3) scale(0.91)">
+    <g class="a-turn a-d6">
+     <path class="s i6" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5" pathLength="1" />
+    </g>
+   </g>
+   <g transform="translate(279.4,100.2) rotate(-1.1) scale(0.83)">
+    <g class="a-turn a-d7">
+     <path class="s i6" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5" pathLength="1" />
+    </g>
+   </g>
+   <g transform="translate(246.9,47.3) rotate(-8.4) scale(0.77)">
+    <g class="a-turn a-d6">
+     <path class="s i7" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5" pathLength="1" />
+    </g>
+   </g>
+   <g transform="translate(261.5,89.4) rotate(-3) scale(0.87)">
+    <g class="a-turn a-d6">
+     <path class="s i7" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5" pathLength="1" />
+    </g>
+   </g>
+   <g transform="translate(304.3,133.8) rotate(5.7) scale(0.81)">
+    <g class="a-turn a-d8">
+     <path class="s i7" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5" pathLength="1" />
+    </g>
+   </g>
+   <g transform="translate(299.4,81) rotate(6.5) scale(0.98)">
+    <g class="a-turn a-d7">
+     <path class="s i8" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5" pathLength="1" />
+    </g>
+   </g>
+   <g transform="translate(201.9,137.5) rotate(-17) scale(0.94)">
+    <g class="a-turn a-d5">
+     <path class="s i8" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5" pathLength="1" />
+    </g>
+   </g>
+   <g transform="translate(135.6,34.7) rotate(-25.8) scale(0.90)">
+    <g class="a-turn a-d3">
+     <path class="s i8" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5" pathLength="1" />
+    </g>
+   </g>
+   <g transform="translate(280.6,85.1) rotate(-1.6) scale(0.82)">
+    <g class="a-turn a-d7">
+     <path class="s i8" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5" pathLength="1" />
+    </g>
+   </g>
+   <g transform="translate(169.6,144.3) rotate(-15.7) scale(0.89)">
+    <g class="a-turn a-d4">
+     <path class="s i9" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5" pathLength="1" />
+    </g>
+   </g>
+   <g transform="translate(133.5,123) rotate(-22.6) scale(0.92)">
+    <g class="a-turn a-d3">
+     <path class="s i9" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5" pathLength="1" />
+    </g>
+   </g>
+   <g transform="translate(144.5,62.9) rotate(-25.3) scale(0.96)">
+    <g class="a-turn a-d3">
+     <path class="s i9" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5" pathLength="1" />
+    </g>
+   </g>
+   <g transform="translate(304.9,94.3) rotate(0.8) scale(0.84)">
+    <g class="a-turn a-d8">
+     <path class="s i9" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5" pathLength="1" />
+    </g>
+   </g>
+   <g transform="translate(172.7,81.9) rotate(-20.6) scale(0.97)">
+    <g class="a-turn a-d4">
+     <path class="s i10" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5" pathLength="1" />
+    </g>
+   </g>
+   <g transform="translate(218.8,45.6) rotate(-12.8) scale(0.83)">
+    <g class="a-turn a-d5">
+     <path class="s i10" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5" pathLength="1" />
+    </g>
+   </g>
+   <g transform="translate(233.9,122.8) rotate(-3.3) scale(0.75)">
+    <g class="a-turn a-d5">
+     <path class="s i10" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5" pathLength="1" />
+    </g>
+   </g>
+   <g transform="translate(255,70.2) rotate(-4.3) scale(0.92)">
+    <g class="a-turn a-d6">
+     <path class="s i10" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5" pathLength="1" />
+    </g>
+   </g>
+   <g transform="translate(116.5,95.9) rotate(-27.1) scale(0.92)">
+    <g class="a-turn a-d2">
+     <path class="s i11" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5" pathLength="1" />
+    </g>
+   </g>
+   <g transform="translate(141.5,137.1) rotate(-28.7) scale(0.99)">
+    <g class="a-turn a-d3">
+     <path class="s i11" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5" pathLength="1" />
+    </g>
+   </g>
+   <g transform="translate(209.2,56.9) rotate(-9.8) scale(0.96)">
+    <g class="a-turn a-d5">
+     <path class="s i11" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5" pathLength="1" />
+    </g>
+   </g>
+   <g transform="translate(324.2,156.4) rotate(2.8) scale(1.00)">
+    <g class="a-turn a-d8">
+     <path class="s i11" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5" pathLength="1" />
+    </g>
+   </g>
+   <g transform="translate(262.6,121.2) rotate(-4.3) scale(0.79)">
+    <g class="a-turn a-d6">
+     <path class="s i12" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5" pathLength="1" />
+    </g>
+   </g>
+   <g transform="translate(124,154) rotate(-27.9) scale(0.75)">
+    <g class="a-turn a-d2">
+     <path class="s i12" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5" pathLength="1" />
+    </g>
+   </g>
+   <g transform="translate(271.3,65.7) rotate(4.1) scale(0.92)">
+    <g class="a-turn a-d7">
+     <path class="s i12" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5" pathLength="1" />
+    </g>
+   </g>
+   <g transform="translate(81.2,155.5) rotate(-35.5) scale(0.84)">
+    <g class="a-turn a-d1">
+     <path class="s i12" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5" pathLength="1" />
+    </g>
+   </g>
+   <circle class="k f i13" cx="204" cy="100" r="35.1" />
+   <path class="f hair i13" d="M204,100 L200.8,113.1 M204,100 L219.6,93.8 M204,100 L183.5,105.8 M204,100 L213.5,120.4 M204,100 L183,91.5 M204,100 L193.8,79.8 M204,100 L207.7,72.1" pathLength="1" />
+   <g transform="translate(200.8,113.1) rotate(-16.1) scale(0.88)">
+    <g class="a-turn a-d5">
+     <path class="s i13" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5" pathLength="1" />
+    </g>
+   </g>
+   <g transform="translate(219.6,93.8) rotate(-6.8) scale(0.86)">
+    <g class="a-turn a-d5">
+     <path class="s i13" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5" pathLength="1" />
+    </g>
+   </g>
+   <g transform="translate(183.5,105.8) rotate(-14.7) scale(0.99)">
+    <g class="a-turn a-d4">
+     <path class="s i14" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5" pathLength="1" />
+    </g>
+   </g>
+   <g transform="translate(213.5,120.4) rotate(-14.7) scale(1.06)">
+    <g class="a-turn a-d5">
+     <path class="s i14" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5" pathLength="1" />
+    </g>
+   </g>
+   <g transform="translate(183,91.5) rotate(-18.2) scale(0.81)">
+    <g class="a-turn a-d4">
+     <path class="s i14" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5" pathLength="1" />
+    </g>
+   </g>
+   <g transform="translate(193.8,79.8) rotate(-12.4) scale(1.05)">
+    <g class="a-turn a-d4">
+     <path class="s i14" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5" pathLength="1" />
+    </g>
+   </g>
+   <g transform="translate(207.7,72.1) rotate(-11.7) scale(0.94)">
+    <g class="a-turn a-d5">
+     <path class="s i15" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5" pathLength="1" />
+    </g>
+   </g>
+   <g transform="translate(204,100) rotate(-11.2) scale(1.13)">
+    <g class="a-turn a-d5">
+     <path class="s bold i15" d="M-9,-1.5 Q-4.5,-5.5 0,0 Q4.5,-5.5 9,-1.5" pathLength="1" />
+    </g>
+   </g>
+  </g>
+  <text class="t i15" x="365" y="204" text-anchor="end">each watches seven</text>
+ </g>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="chemistry--electrolysis" data-discipline="chemistry" data-tags="electrolysis,electrode,anode,cathode,decomposition,gas-evolution,ions">
+<title>Electrolysis of water</title>
+<desc>A battery drives current through two electrodes in water, splitting it: oxygen bubbles form at one electrode and twice as much hydrogen at the other.</desc>
+<style>
+.a-b{animation:a-rise 2s linear infinite}
+.a-b2{animation-delay:-1s}
+.a-b3{animation-duration:2.5s;animation-delay:-.6s}
+.a-b4{animation-duration:2.5s;animation-delay:-1.8s}
+@keyframes a-rise{0%{transform:translateY(0);opacity:0}15%{opacity:1}85%{opacity:1}100%{transform:translateY(-56px);opacity:0}}
+.a-dr{animation:a-dr 5s ease-in-out infinite alternate}
+.a-dl{animation:a-dl 5s ease-in-out infinite alternate}
+@keyframes a-dr{from{transform:translateX(-14px)}to{transform:translateX(30px)}}
+@keyframes a-dl{from{transform:translateX(14px)}to{transform:translateX(-30px)}}
+</style>
+<path class="w" d="M90,108 H310 V198 Q310,204 304,204 H96 Q90,204 90,198Z"/>
+<path class="s" d="M90,80 V198 Q90,204 96,204 H304 Q310,204 310,198 V80"/>
+<path class="f" d="M90,108 H310"/>
+<rect class="w" x="142" y="56" width="16" height="116"/>
+<rect class="w" x="242" y="56" width="16" height="116"/>
+<rect class="s" x="142" y="56" width="16" height="116"/>
+<rect class="s" x="242" y="56" width="16" height="116"/>
+<path class="s" d="M150,56 V36 H193 M207,36 H250 V56"/>
+<path class="s" d="M193,24 V48"/>
+<path class="s bold" d="M207,30 V42"/>
+<g class="a-b a-b1"><circle class="q" cx="128" cy="170" r="3.4"/></g><g class="a-b a-b2"><circle class="q" cx="172" cy="170" r="3.4"/></g>
+<g class="a-b a-b1"><circle class="q" cx="228" cy="170" r="3.4"/></g><g class="a-b a-b2"><circle class="q" cx="272" cy="170" r="3.4"/></g><g class="a-b a-b3"><circle class="q" cx="236" cy="170" r="3.4"/></g><g class="a-b a-b4"><circle class="q" cx="264" cy="170" r="3.4"/></g>
+<g class="a-dr"><path class="q" d="M190,190 h6 M193,187 v6"/><path class="q" d="M214,184 h6 M217,181 v6"/></g>
+<g class="a-dl"><path class="q" d="M204,196 h6"/><path class="q" d="M180,176 h6"/></g>
+<text class="t" x="150" y="224" text-anchor="middle">O₂</text>
+<text class="t" x="250" y="224" text-anchor="middle">H₂</text>
+</svg>

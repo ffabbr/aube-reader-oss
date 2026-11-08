@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="energy--nuclear-chain-reaction" data-discipline="energy" data-tags="nuclear,fission,chain-reaction,uranium,neutron,reactor,energy">
+<title>Nuclear Chain Reaction</title>
+<desc>A neutron splits a uranium nucleus into two fragments and frees more neutrons; each splits another nucleus in turn, so one fission becomes two, then four: a self-sustaining chain reaction.</desc>
+<style>
+.a-n0{animation:a-n0 5s linear infinite}
+@keyframes a-n0{0%,18%{opacity:1}20%,90%{opacity:0}98%,100%{opacity:1}}
+.a-f0u{animation:a-f0u 5s ease-out infinite;opacity:0}
+@keyframes a-f0u{0%,18%{opacity:0;transform:translate(0,0)}20%{opacity:1}32%{transform:translate(-6px,-28px)}86%{opacity:1;transform:translate(-6px,-28px)}93%,100%{opacity:0;transform:translate(-6px,-28px)}}
+.a-f0d{animation:a-f0d 5s ease-out infinite;opacity:0}
+@keyframes a-f0d{0%,18%{opacity:0;transform:translate(0,0)}20%{opacity:1}32%{transform:translate(-6px,28px)}86%{opacity:1;transform:translate(-6px,28px)}93%,100%{opacity:0;transform:translate(-6px,28px)}}
+.a-n1{animation:a-n1 5s linear infinite}
+@keyframes a-n1{0%,42%{opacity:1}44%,90%{opacity:0}98%,100%{opacity:1}}
+.a-f1u{animation:a-f1u 5s ease-out infinite;opacity:0}
+@keyframes a-f1u{0%,42%{opacity:0;transform:translate(0,0)}44%{opacity:1}56%{transform:translate(-8px,-20px)}86%{opacity:1;transform:translate(-8px,-20px)}93%,100%{opacity:0;transform:translate(-8px,-20px)}}
+.a-f1d{animation:a-f1d 5s ease-out infinite;opacity:0}
+@keyframes a-f1d{0%,42%{opacity:0;transform:translate(0,0)}44%{opacity:1}56%{transform:translate(-8px,20px)}86%{opacity:1;transform:translate(-8px,20px)}93%,100%{opacity:0;transform:translate(-8px,20px)}}
+.a-n2{animation:a-n2 5s linear infinite}
+@keyframes a-n2{0%,42%{opacity:1}44%,90%{opacity:0}98%,100%{opacity:1}}
+.a-f2u{animation:a-f2u 5s ease-out infinite;opacity:0}
+@keyframes a-f2u{0%,42%{opacity:0;transform:translate(0,0)}44%{opacity:1}56%{transform:translate(-8px,-20px)}86%{opacity:1;transform:translate(-8px,-20px)}93%,100%{opacity:0;transform:translate(-8px,-20px)}}
+.a-f2d{animation:a-f2d 5s ease-out infinite;opacity:0}
+@keyframes a-f2d{0%,42%{opacity:0;transform:translate(0,0)}44%{opacity:1}56%{transform:translate(-8px,20px)}86%{opacity:1;transform:translate(-8px,20px)}93%,100%{opacity:0;transform:translate(-8px,20px)}}
+.a-n3{animation:a-n3 5s linear infinite}
+@keyframes a-n3{0%,66%{opacity:1}68%,90%{opacity:0}98%,100%{opacity:1}}
+.a-f3u{animation:a-f3u 5s ease-out infinite;opacity:0}
+@keyframes a-f3u{0%,66%{opacity:0;transform:translate(0,0)}68%{opacity:1}80%{transform:translate(-10px,-8px)}86%{opacity:1;transform:translate(-10px,-8px)}93%,100%{opacity:0;transform:translate(-10px,-8px)}}
+.a-f3d{animation:a-f3d 5s ease-out infinite;opacity:0}
+@keyframes a-f3d{0%,66%{opacity:0;transform:translate(0,0)}68%{opacity:1}80%{transform:translate(-10px,8px)}86%{opacity:1;transform:translate(-10px,8px)}93%,100%{opacity:0;transform:translate(-10px,8px)}}
+.a-n4{animation:a-n4 5s linear infinite}
+@keyframes a-n4{0%,66%{opacity:1}68%,90%{opacity:0}98%,100%{opacity:1}}
+.a-f4u{animation:a-f4u 5s ease-out infinite;opacity:0}
+@keyframes a-f4u{0%,66%{opacity:0;transform:translate(0,0)}68%{opacity:1}80%{transform:translate(-10px,-8px)}86%{opacity:1;transform:translate(-10px,-8px)}93%,100%{opacity:0;transform:translate(-10px,-8px)}}
+.a-f4d{animation:a-f4d 5s ease-out infinite;opacity:0}
+@keyframes a-f4d{0%,66%{opacity:0;transform:translate(0,0)}68%{opacity:1}80%{transform:translate(-10px,8px)}86%{opacity:1;transform:translate(-10px,8px)}93%,100%{opacity:0;transform:translate(-10px,8px)}}
+.a-n5{animation:a-n5 5s linear infinite}
+@keyframes a-n5{0%,66%{opacity:1}68%,90%{opacity:0}98%,100%{opacity:1}}
+.a-f5u{animation:a-f5u 5s ease-out infinite;opacity:0}
+@keyframes a-f5u{0%,66%{opacity:0;transform:translate(0,0)}68%{opacity:1}80%{transform:translate(-10px,-8px)}86%{opacity:1;transform:translate(-10px,-8px)}93%,100%{opacity:0;transform:translate(-10px,-8px)}}
+.a-f5d{animation:a-f5d 5s ease-out infinite;opacity:0}
+@keyframes a-f5d{0%,66%{opacity:0;transform:translate(0,0)}68%{opacity:1}80%{transform:translate(-10px,8px)}86%{opacity:1;transform:translate(-10px,8px)}93%,100%{opacity:0;transform:translate(-10px,8px)}}
+.a-n6{animation:a-n6 5s linear infinite}
+@keyframes a-n6{0%,66%{opacity:1}68%,90%{opacity:0}98%,100%{opacity:1}}
+.a-f6u{animation:a-f6u 5s ease-out infinite;opacity:0}
+@keyframes a-f6u{0%,66%{opacity:0;transform:translate(0,0)}68%{opacity:1}80%{transform:translate(-10px,-8px)}86%{opacity:1;transform:translate(-10px,-8px)}93%,100%{opacity:0;transform:translate(-10px,-8px)}}
+.a-f6d{animation:a-f6d 5s ease-out infinite;opacity:0}
+@keyframes a-f6d{0%,66%{opacity:0;transform:translate(0,0)}68%{opacity:1}80%{transform:translate(-10px,8px)}86%{opacity:1;transform:translate(-10px,8px)}93%,100%{opacity:0;transform:translate(-10px,8px)}}
+.a-m0{animation:a-m0 5s linear infinite;opacity:0}
+@keyframes a-m0{0%{opacity:0;transform:translate(32px,120px)}2%{opacity:1}18%{opacity:1;transform:translate(100px,120px)}18.1%,100%{opacity:0;transform:translate(100px,120px)}}
+.a-m1{animation:a-m1 5s linear infinite;opacity:0}
+@keyframes a-m1{0%,18%{opacity:0;transform:translate(100px,120px)}18.5%{opacity:1}42%{opacity:1;transform:translate(195px,72px)}42.1%,100%{opacity:0;transform:translate(195px,72px)}}
+.a-m2{animation:a-m2 5s linear infinite;opacity:0}
+@keyframes a-m2{0%,18%{opacity:0;transform:translate(100px,120px)}18.5%{opacity:1}42%{opacity:1;transform:translate(195px,168px)}42.1%,100%{opacity:0;transform:translate(195px,168px)}}
+.a-m3{animation:a-m3 5s linear infinite;opacity:0}
+@keyframes a-m3{0%,42%{opacity:0;transform:translate(195px,72px)}42.5%{opacity:1}66%{opacity:1;transform:translate(300px,40px)}66.1%,100%{opacity:0;transform:translate(300px,40px)}}
+.a-m4{animation:a-m4 5s linear infinite;opacity:0}
+@keyframes a-m4{0%,42%{opacity:0;transform:translate(195px,72px)}42.5%{opacity:1}66%{opacity:1;transform:translate(300px,98px)}66.1%,100%{opacity:0;transform:translate(300px,98px)}}
+.a-m5{animation:a-m5 5s linear infinite;opacity:0}
+@keyframes a-m5{0%,42%{opacity:0;transform:translate(195px,168px)}42.5%{opacity:1}66%{opacity:1;transform:translate(300px,142px)}66.1%,100%{opacity:0;transform:translate(300px,142px)}}
+.a-m6{animation:a-m6 5s linear infinite;opacity:0}
+@keyframes a-m6{0%,42%{opacity:0;transform:translate(195px,168px)}42.5%{opacity:1}66%{opacity:1;transform:translate(300px,200px)}66.1%,100%{opacity:0;transform:translate(300px,200px)}}
+.a-m10{animation:a-m10 5s linear infinite;opacity:0}
+@keyframes a-m10{0%,66%{opacity:0;transform:translate(300px,40px)}66.5%{opacity:1}84%{opacity:0;transform:translate(364px,25px)}84.1%,100%{opacity:0;transform:translate(364px,25px)}}
+.a-m11{animation:a-m11 5s linear infinite;opacity:0}
+@keyframes a-m11{0%,66%{opacity:0;transform:translate(300px,40px)}66.5%{opacity:1}84%{opacity:0;transform:translate(364px,55px)}84.1%,100%{opacity:0;transform:translate(364px,55px)}}
+.a-m12{animation:a-m12 5s linear infinite;opacity:0}
+@keyframes a-m12{0%,66%{opacity:0;transform:translate(300px,98px)}66.5%{opacity:1}84%{opacity:0;transform:translate(364px,83px)}84.1%,100%{opacity:0;transform:translate(364px,83px)}}
+.a-m13{animation:a-m13 5s linear infinite;opacity:0}
+@keyframes a-m13{0%,66%{opacity:0;transform:translate(300px,98px)}66.5%{opacity:1}84%{opacity:0;transform:translate(364px,113px)}84.1%,100%{opacity:0;transform:translate(364px,113px)}}
+.a-m14{animation:a-m14 5s linear infinite;opacity:0}
+@keyframes a-m14{0%,66%{opacity:0;transform:translate(300px,142px)}66.5%{opacity:1}84%{opacity:0;transform:translate(364px,127px)}84.1%,100%{opacity:0;transform:translate(364px,127px)}}
+.a-m15{animation:a-m15 5s linear infinite;opacity:0}
+@keyframes a-m15{0%,66%{opacity:0;transform:translate(300px,142px)}66.5%{opacity:1}84%{opacity:0;transform:translate(364px,157px)}84.1%,100%{opacity:0;transform:translate(364px,157px)}}
+.a-m16{animation:a-m16 5s linear infinite;opacity:0}
+@keyframes a-m16{0%,66%{opacity:0;transform:translate(300px,200px)}66.5%{opacity:1}84%{opacity:0;transform:translate(364px,185px)}84.1%,100%{opacity:0;transform:translate(364px,185px)}}
+.a-m17{animation:a-m17 5s linear infinite;opacity:0}
+@keyframes a-m17{0%,66%{opacity:0;transform:translate(300px,200px)}66.5%{opacity:1}84%{opacity:0;transform:translate(364px,215px)}84.1%,100%{opacity:0;transform:translate(364px,215px)}}
+</style>
+<path class="k f" d="M32,120 H100"/>
+<path class="k f" d="M100,120 L195,72"/>
+<path class="k f" d="M100,120 L195,168"/>
+<path class="k f" d="M195,72 L300,40"/>
+<path class="k f" d="M195,72 L300,98"/>
+<path class="k f" d="M195,168 L300,142"/>
+<path class="k f" d="M195,168 L300,200"/>
+<path class="k f" d="M300,40 L364,25"/>
+<path class="k f" d="M300,40 L364,55"/>
+<path class="k f" d="M300,98 L364,83"/>
+<path class="k f" d="M300,98 L364,113"/>
+<path class="k f" d="M300,142 L364,127"/>
+<path class="k f" d="M300,142 L364,157"/>
+<path class="k f" d="M300,200 L364,185"/>
+<path class="k f" d="M300,200 L364,215"/>
+<g class="a-n0"><circle class="w" cx="100" cy="120" r="17"/><circle class="s" cx="100" cy="120" r="17"/></g>
+<g class="a-f0u"><circle class="pq" cx="100" cy="114.9" r="9.9"/></g>
+<g class="a-f0d"><circle class="pq" cx="100" cy="125.1" r="9.9"/></g>
+<g class="a-n1"><circle class="w" cx="195" cy="72" r="14"/><circle class="s" cx="195" cy="72" r="14"/></g>
+<g class="a-f1u"><circle class="pq" cx="195" cy="67.8" r="8.1"/></g>
+<g class="a-f1d"><circle class="pq" cx="195" cy="76.2" r="8.1"/></g>
+<g class="a-n2"><circle class="w" cx="195" cy="168" r="14"/><circle class="s" cx="195" cy="168" r="14"/></g>
+<g class="a-f2u"><circle class="pq" cx="195" cy="163.8" r="8.1"/></g>
+<g class="a-f2d"><circle class="pq" cx="195" cy="172.2" r="8.1"/></g>
+<g class="a-n3"><circle class="w" cx="300" cy="40" r="12"/><circle class="s" cx="300" cy="40" r="12"/></g>
+<g class="a-f3u"><circle class="pq" cx="300" cy="36.4" r="7.0"/></g>
+<g class="a-f3d"><circle class="pq" cx="300" cy="43.6" r="7.0"/></g>
+<g class="a-n4"><circle class="w" cx="300" cy="98" r="12"/><circle class="s" cx="300" cy="98" r="12"/></g>
+<g class="a-f4u"><circle class="pq" cx="300" cy="94.4" r="7.0"/></g>
+<g class="a-f4d"><circle class="pq" cx="300" cy="101.6" r="7.0"/></g>
+<g class="a-n5"><circle class="w" cx="300" cy="142" r="12"/><circle class="s" cx="300" cy="142" r="12"/></g>
+<g class="a-f5u"><circle class="pq" cx="300" cy="138.4" r="7.0"/></g>
+<g class="a-f5d"><circle class="pq" cx="300" cy="145.6" r="7.0"/></g>
+<g class="a-n6"><circle class="w" cx="300" cy="200" r="12"/><circle class="s" cx="300" cy="200" r="12"/></g>
+<g class="a-f6u"><circle class="pq" cx="300" cy="196.4" r="7.0"/></g>
+<g class="a-f6d"><circle class="pq" cx="300" cy="203.6" r="7.0"/></g>
+<g class="a-m0"><circle class="p" r="3"/></g>
+<g class="a-m1"><circle class="p" r="3"/></g>
+<g class="a-m2"><circle class="p" r="3"/></g>
+<g class="a-m3"><circle class="p" r="3"/></g>
+<g class="a-m4"><circle class="p" r="3"/></g>
+<g class="a-m5"><circle class="p" r="3"/></g>
+<g class="a-m6"><circle class="p" r="3"/></g>
+<g class="a-m10"><circle class="p" r="3"/></g>
+<g class="a-m11"><circle class="p" r="3"/></g>
+<g class="a-m12"><circle class="p" r="3"/></g>
+<g class="a-m13"><circle class="p" r="3"/></g>
+<g class="a-m14"><circle class="p" r="3"/></g>
+<g class="a-m15"><circle class="p" r="3"/></g>
+<g class="a-m16"><circle class="p" r="3"/></g>
+<g class="a-m17"><circle class="p" r="3"/></g>
+<text class="t" x="28" y="108" text-anchor="start">neutron</text>
+<text class="t" x="100" y="72" text-anchor="middle">uranium-235</text>
+<text class="t" x="28" y="212" text-anchor="start">each split frees more</text>
+</svg>

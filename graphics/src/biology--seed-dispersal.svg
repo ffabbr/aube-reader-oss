@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="biology--seed-dispersal" data-discipline="biology" data-tags="seed-dispersal,wind,dandelion,maple-samara,plants,reproduction,pappus">
+<title>Seed dispersal by wind</title>
+<desc>A dandelion head releases parachute seeds that drift away on the wind while a maple key spins down: plants send seeds far from the parent.</desc>
+<style>
+.a-m1{transform:translate(228.8px,72.8px);opacity:0;animation:a-m1 10s linear infinite;animation-delay:0s}@keyframes a-m1{0%{transform:translate(160px,84px);opacity:0}8.14%{transform:translate(170.2px,75.1px)}15.26%{transform:translate(180.9px,69.8px)}22.07%{transform:translate(192px,67.6px)}29.07%{transform:translate(203.7px,67.8px)}36.49%{transform:translate(215.9px,69.7px)}44.39%{transform:translate(228.8px,72.8px)}52.71%{transform:translate(242.2px,76.2px)}61.39%{transform:translate(256.3px,79.6px)}70.38%{transform:translate(271.1px,82px)}79.71%{transform:translate(286.6px,83px)}89.49%{transform:translate(302.9px,81.9px)}100%{transform:translate(320px,78px);opacity:0}15%{opacity:1}85%{opacity:1}}
+.a-m2{transform:translate(231.8px,104.5px);opacity:0;animation:a-m2 10s linear infinite;animation-delay:-5s}@keyframes a-m2{0%{transform:translate(158px,104px);opacity:0}8.83%{transform:translate(170.8px,110.9px)}16.63%{transform:translate(183.2px,114.1px)}24.03%{transform:translate(195.3px,114.4px)}31.47%{transform:translate(207.4px,112.4px)}39.14%{transform:translate(219.5px,108.8px)}47.04%{transform:translate(231.8px,104.5px)}55.13%{transform:translate(244.3px,100.1px)}63.35%{transform:translate(257.3px,96.3px)}71.71%{transform:translate(270.8px,93.9px)}80.35%{transform:translate(285px,93.5px)}89.62%{transform:translate(300px,96px)}100%{transform:translate(316px,102px);opacity:0}15%{opacity:1}85%{opacity:1}}
+.a-m3{transform:translate(358px,130px);opacity:0;animation:a-m3 5s linear infinite;animation-delay:-1s}@keyframes a-m3{0%{transform:translate(346px,40px);opacity:0}19.41%{transform:translate(354px,70px)}38.81%{transform:translate(346px,100px)}59.01%{transform:translate(358px,130px)}78.42%{transform:translate(350px,160px)}100%{transform:translate(356px,194px);opacity:0}15%{opacity:1}85%{opacity:1}}
+.a-twirl{transform-box:view-box;transform-origin:0px 0px;animation:a-twirl 1s linear infinite}@keyframes a-twirl{to{transform:rotate(360deg)}}
+</style>
+<path class="f" d="M50,206 H232"/>
+<path class="s bold" d="M118,136 C112,174 122,190 116,206"/>
+<path class="s" d="M116,206 C104,196 88,190 78,176 C96,186 106,196 116,206"/>
+<path class="q hair" d="M118.5,91 L121.6,60.2 M121.6,60.2 L117.7,52.1 M121.6,60.2 L122.5,51.2 M121.6,60.2 L127,53"/>
+<path class="q hair" d="M120.4,91.6 L135,64.3 M135,64.3 L134.5,55.3 M135,64.3 L139.3,56.4 M135,64.3 L142.8,59.7"/>
+<path class="q hair" d="M121.9,92.8 L145.9,73.2 M145.9,73.2 L148.8,64.7 M145.9,73.2 L152.8,67.5 M145.9,73.2 L154.8,72"/>
+<path class="q hair" d="M121.2,99.9 L140.8,123.9 M140.8,123.9 L149.3,126.8 M140.8,123.9 L146.5,130.8 M140.8,123.9 L142,132.8"/>
+<path class="q hair" d="M119.4,100.8 L128.4,130.5 M128.4,130.5 L135.1,136.5 M128.4,130.5 L131,139.1 M128.4,130.5 L126.1,139.2"/>
+<path class="q hair" d="M117.5,101 L114.4,131.8 M114.4,131.8 L118.3,139.9 M114.4,131.8 L113.5,140.8 M114.4,131.8 L109,139"/>
+<path class="q hair" d="M115.6,100.4 L101,127.7 M101,127.7 L101.5,136.7 M101,127.7 L96.7,135.6 M101,127.7 L93.2,132.3"/>
+<path class="q hair" d="M114.1,99.2 L90.1,118.8 M90.1,118.8 L87.2,127.3 M90.1,118.8 L83.2,124.5 M90.1,118.8 L81.2,120"/>
+<path class="q hair" d="M113.2,97.4 L83.5,106.4 M83.5,106.4 L77.5,113.1 M83.5,106.4 L74.9,109 M83.5,106.4 L74.8,104.1"/>
+<path class="q hair" d="M113,95.5 L82.2,92.4 M82.2,92.4 L74.1,96.3 M82.2,92.4 L73.2,91.5 M82.2,92.4 L75,87"/>
+<path class="q hair" d="M113.6,93.6 L86.3,79 M86.3,79 L77.3,79.5 M86.3,79 L78.4,74.7 M86.3,79 L81.7,71.2"/>
+<path class="q hair" d="M114.8,92.1 L95.2,68.1 M95.2,68.1 L86.7,65.2 M95.2,68.1 L89.5,61.2 M95.2,68.1 L94,59.2"/>
+<path class="q hair" d="M116.6,91.2 L107.6,61.5 M107.6,61.5 L100.9,55.5 M107.6,61.5 L105,52.9 M107.6,61.5 L109.9,52.8"/>
+<circle class="p" cx="118" cy="96" r="3.2"/>
+<circle class="pq" cx="122.8" cy="94.6" r="1.3"/>
+<circle class="pq" cx="123" cy="96.5" r="1.3"/>
+<circle class="pq" cx="122.4" cy="98.4" r="1.3"/>
+<path class="f" d="M196,86 C230,70 262,98 296,80 C310,72 322,74 332,68"/>
+<path class="f" d="M190,122 C224,110 254,134 288,122 C304,116 316,118 326,112"/>
+<text class="t" x="226" y="66" text-anchor="middle">wind</text>
+<g class="a-m1">
+<path class="q hair" d="M0,0 L0,9 M0,0 L-6,-6 M0,0 L-2,-8 M0,0 L2,-8 M0,0 L6,-6"/>
+<circle class="p" cx="0" cy="10" r="1.8"/>
+</g>
+<g class="a-m2">
+<path class="q hair" d="M0,0 L0,9 M0,0 L-6,-6 M0,0 L-2,-8 M0,0 L2,-8 M0,0 L6,-6"/>
+<circle class="p" cx="0" cy="10" r="1.8"/>
+</g>
+<g class="a-m3"><g class="a-twirl">
+<ellipse class="w" cx="9" cy="0" rx="10" ry="3.6"/>
+<ellipse class="s" cx="9" cy="0" rx="10" ry="3.6"/>
+<circle class="p" cx="0" cy="0" r="2.8"/>
+</g></g>
+<text class="t" x="330" y="150" text-anchor="end">maple key</text>
+<path class="f" d="M240,206 H372"/>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="computing--logic-gates" data-discipline="computing" data-tags="logic,boolean,gate,digital-circuit,and">
+<title>Logic gate (AND)</title>
+<desc>An AND gate with two input wires and one output: signals light up the wires in turn, and the output only glows when both inputs are on.</desc>
+<style>
+.a-sig{opacity:0}
+.a-sa{animation:a-sa 10s ease-in-out infinite}
+@keyframes a-sa{0%{opacity:0}22%{opacity:0}25%{opacity:1}47%{opacity:1}50%{opacity:0}72%{opacity:0}75%{opacity:1}100%{opacity:1}}
+.a-sb{animation:a-sb 10s ease-in-out infinite}
+@keyframes a-sb{0%{opacity:0}47%{opacity:0}50%{opacity:1}100%{opacity:1}}
+.a-so{animation:a-so 10s ease-in-out infinite}
+@keyframes a-so{0%{opacity:0}72%{opacity:0}75%{opacity:1}100%{opacity:1}}
+</style>
+<path class="w" d="M150,80 H188 A40,40 0 0 1 188,160 H150 Z"/>
+<path class="s" d="M150,80 H188 A40,40 0 0 1 188,160 H150 Z"/>
+<path class="q" d="M78,100 H150 M78,140 H150 M228,120 H322"/>
+<path class="w" d="M72,100 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 M72,140 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 M316,120 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0"/>
+<path class="q" d="M72,100 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 M72,140 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 M316,120 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0"/>
+<g class="a-sig a-sa"><path class="s bold" d="M78,100 H150"/><path class="p" d="M72,100 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0"/></g>
+<g class="a-sig a-sb"><path class="s bold" d="M78,140 H150"/><path class="p" d="M72,140 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0"/></g>
+<g class="a-sig a-so"><path class="s bold" d="M228,120 H322"/><path class="p" d="M316,120 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0"/></g>
+<text class="t" x="64" y="105" text-anchor="end">A</text>
+<text class="t" x="64" y="145" text-anchor="end">B</text>
+<text class="t" x="188" y="125" text-anchor="middle">AND</text>
+</svg>

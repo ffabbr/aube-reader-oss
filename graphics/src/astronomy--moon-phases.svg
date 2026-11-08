@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="astronomy--moon-phases" data-discipline="astronomy" data-tags="moon,phases,orbit,sunlight,earth,lunar-cycle">
+<title>Moon phases</title>
+<desc>The Moon at eight points on its orbit: half of it is always lit by the Sun, but from Earth we see more or less of that lit half.</desc>
+<style>
+@keyframes a-spin{to{transform:rotate(360deg)}}
+@keyframes a-spinr{to{transform:rotate(-360deg)}}
+@keyframes a-lap{to{offset-distance:100%}}
+.a-pt{transform-box:view-box;transform-origin:232px 120px;animation:a-spinr 10s linear infinite;}
+</style>
+<circle class="f" cx="232" cy="120" r="80"/>
+<path class="q" d="M24,94H118m-6,-4l6,4l-6,4"/>
+<path class="q" d="M24,120H118m-6,-4l6,4l-6,4"/>
+<path class="q" d="M24,146H118m-6,-4l6,4l-6,4"/>
+<circle class="w" cx="232" cy="120" r="11"/>
+<circle class="s" cx="232" cy="120" r="11"/>
+<path class="pq" d="M232,109A11,11 0 0 1 232,131Z"/>
+<circle class="w" cx="152" cy="120" r="9"/>
+<path class="pq" d="M152,111A9,9 0 0 1 152,129Z"/>
+<circle class="s" cx="152" cy="120" r="9"/>
+<circle class="w" cx="175.4" cy="176.6" r="9"/>
+<path class="pq" d="M175.4,167.6A9,9 0 0 1 175.4,185.6Z"/>
+<circle class="s" cx="175.4" cy="176.6" r="9"/>
+<circle class="w" cx="232" cy="200" r="9"/>
+<path class="pq" d="M232,191A9,9 0 0 1 232,209Z"/>
+<circle class="s" cx="232" cy="200" r="9"/>
+<circle class="w" cx="288.6" cy="176.6" r="9"/>
+<path class="pq" d="M288.6,167.6A9,9 0 0 1 288.6,185.6Z"/>
+<circle class="s" cx="288.6" cy="176.6" r="9"/>
+<circle class="w" cx="312" cy="120" r="9"/>
+<path class="pq" d="M312,111A9,9 0 0 1 312,129Z"/>
+<circle class="s" cx="312" cy="120" r="9"/>
+<circle class="w" cx="288.6" cy="63.4" r="9"/>
+<path class="pq" d="M288.6,54.4A9,9 0 0 1 288.6,72.4Z"/>
+<circle class="s" cx="288.6" cy="63.4" r="9"/>
+<circle class="w" cx="232" cy="40" r="9"/>
+<path class="pq" d="M232,31A9,9 0 0 1 232,49Z"/>
+<circle class="s" cx="232" cy="40" r="9"/>
+<circle class="w" cx="175.4" cy="63.4" r="9"/>
+<path class="pq" d="M175.4,54.4A9,9 0 0 1 175.4,72.4Z"/>
+<circle class="s" cx="175.4" cy="63.4" r="9"/>
+<g class="a-pt">
+<circle class="q" cx="152" cy="120" r="15"/>
+</g>
+<text class="t" x="66" y="80" text-anchor="middle">sunlight</text>
+<text class="t" x="152" y="152" text-anchor="middle">new</text>
+<text class="t" x="312" y="152" text-anchor="middle">full</text>
+</svg>

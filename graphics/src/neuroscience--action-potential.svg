@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="neuroscience--action-potential" data-discipline="neuroscience" data-tags="action-potential,spike,membrane-voltage,depolarization,threshold,neuron">
+<title>Action potential</title>
+<desc>Membrane voltage rests, crosses a threshold, spikes sharply, overshoots below rest and recovers: the all-or-none electrical spike of a neuron.</desc>
+<style>
+.a-run{offset-path:path("M55,162C62.3,162 89,162.8 99,162C109,161.2 110.7,160.3 115,157C119.3,153.7 122,150.8 125,142C128,133.2 130,117.3 133,104C136,90.7 139.7,67 143,62C146.3,57 149.7,64.3 153,74C156.3,83.7 159.7,104.3 163,120C166.3,135.7 169.3,157.2 173,168C176.7,178.8 180.3,182.3 185,185C189.7,187.7 195.3,186.2 201,184C206.7,181.8 212.7,175.3 219,172C225.3,168.7 231.7,165.7 239,164C246.3,162.3 246.3,162.3 263,162C279.7,161.7 326.3,162 339,162");offset-rotate:0deg;animation:a-run 5s linear infinite;}
+@keyframes a-run{0%{offset-distance:0%;opacity:0}6%{opacity:1}94%{opacity:1}100%{offset-distance:100%;opacity:0}}
+</style>
+<path class="f" d="M55,38V202M55,202H345"/>
+<path class="k f" d="M55,142H339"/>
+<path class="k f" d="M55,162H339"/>
+<path class="s bold" d="M55,162C62.3,162 89,162.8 99,162C109,161.2 110.7,160.3 115,157C119.3,153.7 122,150.8 125,142C128,133.2 130,117.3 133,104C136,90.7 139.7,67 143,62C146.3,57 149.7,64.3 153,74C156.3,83.7 159.7,104.3 163,120C166.3,135.7 169.3,157.2 173,168C176.7,178.8 180.3,182.3 185,185C189.7,187.7 195.3,186.2 201,184C206.7,181.8 212.7,175.3 219,172C225.3,168.7 231.7,165.7 239,164C246.3,162.3 246.3,162.3 263,162C279.7,161.7 326.3,162 339,162"/>
+<g class="a-run"><circle class="q" cx="-5" cy="4" r="8"/><circle class="p" cx="-5" cy="4" r="3.5"/></g>
+<text class="t" x="313" y="134" text-anchor="middle">threshold</text>
+<text class="t" x="313" y="182" text-anchor="middle">rest</text>
+<text class="t" x="325" y="222" text-anchor="middle">time</text>
+</svg>

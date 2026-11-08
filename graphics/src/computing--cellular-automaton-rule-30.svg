@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="computing--cellular-automaton-rule-30" data-discipline="computing" data-tags="cellular-automaton,emergence,chaos,rule-30,simple-rules">
+<title>Rule 30 cellular automaton</title>
+<desc>A single black cell grows into a chaotic triangle, each new row set by a simple rule applied to three cells above; the moving frame shows one such update.</desc>
+<style>
+.a-scan{animation:a-scan 5s ease-in-out infinite alternate}
+@keyframes a-scan{0%{transform:translateX(0)}100%{transform:translateX(110px)}}
+</style>
+<path class="p" d="M195.5,25 h9 v9 h-9 z"/>
+<path class="p" d="M184.5,36 h9 v9 h-9 z M195.5,36 h9 v9 h-9 z M206.5,36 h9 v9 h-9 z"/>
+<path class="p" d="M173.5,47 h9 v9 h-9 z M184.5,47 h9 v9 h-9 z M217.5,47 h9 v9 h-9 z"/>
+<path class="p" d="M162.5,58 h9 v9 h-9 z M173.5,58 h9 v9 h-9 z M195.5,58 h9 v9 h-9 z M206.5,58 h9 v9 h-9 z M217.5,58 h9 v9 h-9 z M228.5,58 h9 v9 h-9 z"/>
+<path class="p" d="M151.5,69 h9 v9 h-9 z M162.5,69 h9 v9 h-9 z M195.5,69 h9 v9 h-9 z M239.5,69 h9 v9 h-9 z"/>
+<path class="p" d="M140.5,80 h9 v9 h-9 z M151.5,80 h9 v9 h-9 z M173.5,80 h9 v9 h-9 z M184.5,80 h9 v9 h-9 z M195.5,80 h9 v9 h-9 z M206.5,80 h9 v9 h-9 z M228.5,80 h9 v9 h-9 z M239.5,80 h9 v9 h-9 z M250.5,80 h9 v9 h-9 z"/>
+<path class="p" d="M129.5,91 h9 v9 h-9 z M140.5,91 h9 v9 h-9 z M173.5,91 h9 v9 h-9 z M228.5,91 h9 v9 h-9 z M261.5,91 h9 v9 h-9 z"/>
+<path class="p" d="M118.5,102 h9 v9 h-9 z M129.5,102 h9 v9 h-9 z M151.5,102 h9 v9 h-9 z M162.5,102 h9 v9 h-9 z M173.5,102 h9 v9 h-9 z M184.5,102 h9 v9 h-9 z M217.5,102 h9 v9 h-9 z M228.5,102 h9 v9 h-9 z M239.5,102 h9 v9 h-9 z M250.5,102 h9 v9 h-9 z M261.5,102 h9 v9 h-9 z M272.5,102 h9 v9 h-9 z"/>
+<path class="p" d="M107.5,113 h9 v9 h-9 z M118.5,113 h9 v9 h-9 z M151.5,113 h9 v9 h-9 z M195.5,113 h9 v9 h-9 z M206.5,113 h9 v9 h-9 z M217.5,113 h9 v9 h-9 z M283.5,113 h9 v9 h-9 z"/>
+<path class="p" d="M96.5,124 h9 v9 h-9 z M107.5,124 h9 v9 h-9 z M129.5,124 h9 v9 h-9 z M140.5,124 h9 v9 h-9 z M151.5,124 h9 v9 h-9 z M162.5,124 h9 v9 h-9 z M184.5,124 h9 v9 h-9 z M195.5,124 h9 v9 h-9 z M228.5,124 h9 v9 h-9 z M272.5,124 h9 v9 h-9 z M283.5,124 h9 v9 h-9 z M294.5,124 h9 v9 h-9 z"/>
+<path class="p" d="M85.5,135 h9 v9 h-9 z M96.5,135 h9 v9 h-9 z M129.5,135 h9 v9 h-9 z M184.5,135 h9 v9 h-9 z M206.5,135 h9 v9 h-9 z M217.5,135 h9 v9 h-9 z M228.5,135 h9 v9 h-9 z M239.5,135 h9 v9 h-9 z M261.5,135 h9 v9 h-9 z M272.5,135 h9 v9 h-9 z M305.5,135 h9 v9 h-9 z"/>
+<path class="p" d="M74.5,146 h9 v9 h-9 z M85.5,146 h9 v9 h-9 z M107.5,146 h9 v9 h-9 z M118.5,146 h9 v9 h-9 z M129.5,146 h9 v9 h-9 z M140.5,146 h9 v9 h-9 z M173.5,146 h9 v9 h-9 z M184.5,146 h9 v9 h-9 z M206.5,146 h9 v9 h-9 z M261.5,146 h9 v9 h-9 z M283.5,146 h9 v9 h-9 z M294.5,146 h9 v9 h-9 z M305.5,146 h9 v9 h-9 z M316.5,146 h9 v9 h-9 z"/>
+<path class="p" d="M63.5,157 h9 v9 h-9 z M74.5,157 h9 v9 h-9 z M107.5,157 h9 v9 h-9 z M151.5,157 h9 v9 h-9 z M162.5,157 h9 v9 h-9 z M173.5,157 h9 v9 h-9 z M206.5,157 h9 v9 h-9 z M217.5,157 h9 v9 h-9 z M250.5,157 h9 v9 h-9 z M261.5,157 h9 v9 h-9 z M283.5,157 h9 v9 h-9 z M327.5,157 h9 v9 h-9 z"/>
+<path class="p" d="M52.5,168 h9 v9 h-9 z M63.5,168 h9 v9 h-9 z M85.5,168 h9 v9 h-9 z M96.5,168 h9 v9 h-9 z M107.5,168 h9 v9 h-9 z M118.5,168 h9 v9 h-9 z M140.5,168 h9 v9 h-9 z M151.5,168 h9 v9 h-9 z M184.5,168 h9 v9 h-9 z M195.5,168 h9 v9 h-9 z M206.5,168 h9 v9 h-9 z M228.5,168 h9 v9 h-9 z M239.5,168 h9 v9 h-9 z M250.5,168 h9 v9 h-9 z M283.5,168 h9 v9 h-9 z M294.5,168 h9 v9 h-9 z M316.5,168 h9 v9 h-9 z M327.5,168 h9 v9 h-9 z M338.5,168 h9 v9 h-9 z"/>
+<path class="p" d="M41.5,179 h9 v9 h-9 z M52.5,179 h9 v9 h-9 z M85.5,179 h9 v9 h-9 z M140.5,179 h9 v9 h-9 z M162.5,179 h9 v9 h-9 z M173.5,179 h9 v9 h-9 z M184.5,179 h9 v9 h-9 z M228.5,179 h9 v9 h-9 z M261.5,179 h9 v9 h-9 z M272.5,179 h9 v9 h-9 z M283.5,179 h9 v9 h-9 z M316.5,179 h9 v9 h-9 z M349.5,179 h9 v9 h-9 z"/>
+<g class="a-scan"><rect class="s" x="128.8" y="90.3" width="32.4" height="10.4" rx="2"/><rect class="s" x="139.8" y="101.3" width="10.4" height="10.4" rx="2"/></g>
+<text class="t" x="200" y="214" text-anchor="middle">rule 30: each cell looks at three above</text>
+</svg>

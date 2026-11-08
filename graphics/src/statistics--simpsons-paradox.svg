@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="statistics--simpsons-paradox" data-discipline="statistics" data-tags="paradox,confounding,trend-reversal,aggregation,correlation">
+<title>Simpson's paradox</title>
+<desc>Three clusters each trend upward, yet pooled together the dashed trend falls; the view fades between the within-group lines and the misleading overall line.</desc>
+<style>
+@keyframes a-grp{0%{opacity:1;}45%{opacity:1;}55%{opacity:0.12;}95%{opacity:0.12;}100%{opacity:1;}}
+@keyframes a-all{0%{opacity:0.12;}45%{opacity:0.12;}55%{opacity:1;}95%{opacity:1;}100%{opacity:0.12;}}
+.a-grp{animation:a-grp 10s ease-in-out infinite}
+.a-all{animation:a-all 10s ease-in-out infinite}
+</style>
+<path class="f" d="M50,40 V200 H350"/>
+<circle class="p" cx="77.4" cy="106.8" r="3.2"/>
+<circle class="p" cx="89.4" cy="100.5" r="3.2"/>
+<circle class="p" cx="102.6" cy="83.5" r="3.2"/>
+<circle class="p" cx="107.1" cy="90.1" r="3.2"/>
+<circle class="p" cx="120.3" cy="71.9" r="3.2"/>
+<circle class="p" cx="138.3" cy="68.8" r="3.2"/>
+<circle class="p" cx="147.4" cy="61.6" r="3.2"/>
+<circle class="pq" cx="169.4" cy="135.7" r="3.2"/>
+<circle class="pq" cx="180" cy="141.3" r="3.2"/>
+<circle class="pq" cx="189.6" cy="131.7" r="3.2"/>
+<circle class="pq" cx="201.7" cy="112.2" r="3.2"/>
+<circle class="pq" cx="213.2" cy="114.3" r="3.2"/>
+<circle class="pq" cx="219.3" cy="96.9" r="3.2"/>
+<circle class="pq" cx="235.7" cy="97.5" r="3.2"/>
+<circle class="s" cx="258.2" cy="184.8" r="3.1"/>
+<circle class="s" cx="268.8" cy="178.2" r="3.1"/>
+<circle class="s" cx="276.3" cy="168.7" r="3.1"/>
+<circle class="s" cx="287.4" cy="163.8" r="3.1"/>
+<circle class="s" cx="302.5" cy="141.4" r="3.1"/>
+<circle class="s" cx="305.7" cy="136.2" r="3.1"/>
+<circle class="s" cx="324.7" cy="132.9" r="3.1"/>
+<g class="a-grp"><path class="s" d="M72,111 L152,57"/>
+<path class="s" d="M160,147 L240,93"/>
+<path class="s" d="M248,183 L328,129"/></g>
+<g class="a-all"><path class="k s" d="M64,66 L336,180"/></g>
+<text class="t" x="120" y="46" text-anchor="middle">each group rises</text>
+<text class="t" x="330" y="212" text-anchor="end">pooled, it falls</text>
+</svg>

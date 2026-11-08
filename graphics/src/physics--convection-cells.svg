@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="physics--convection-cells" data-discipline="physics" data-tags="convection,rayleigh-benard,heat-transfer,buoyancy,fluid-dynamics,thermodynamics">
+<title>Convection cells</title>
+<desc>Fluid between a hot plate and a cold one organises into counter-rotating rolls: parcels warm at the bottom, rise, cool along the top and sink again.</desc>
+<style>
+@keyframes a-lap{to{offset-distance:100%}}
+.a-hot{animation:a-hot 5s linear infinite;opacity:0}@keyframes a-hot{0%,44%{opacity:0}62%,86%{opacity:1}100%{opacity:0}}
+.a-c0{offset-path:path("M100,61 C132.4,61 145,77.52000000000001 145,120 C145,162.48 132.4,179 100,179 C67.6,179 55,162.48 55,120 C55,77.52000000000001 67.6,61 100,61Z");offset-rotate:0deg;animation:a-lap 5s linear infinite}
+.a-d00{animation-delay:-0s;offset-distance:0%}
+.a-d01{animation-delay:-1.67s;offset-distance:33.3%}
+.a-d02{animation-delay:-3.33s;offset-distance:66.7%}
+.a-c1{offset-path:path("M200,61 C167.6,61 155,77.52000000000001 155,120 C155,162.48 167.6,179 200,179 C232.4,179 245,162.48 245,120 C245,77.52000000000001 232.4,61 200,61Z");offset-rotate:0deg;animation:a-lap 5s linear infinite}
+.a-d10{animation-delay:-0.5s;offset-distance:10%}
+.a-d11{animation-delay:-2.17s;offset-distance:43.3%}
+.a-d12{animation-delay:-3.83s;offset-distance:76.7%}
+.a-c2{offset-path:path("M300,61 C332.4,61 345,77.52000000000001 345,120 C345,162.48 332.4,179 300,179 C267.6,179 255,162.48 255,120 C255,77.52000000000001 267.6,61 300,61Z");offset-rotate:0deg;animation:a-lap 5s linear infinite}
+.a-d20{animation-delay:-1s;offset-distance:20%}
+.a-d21{animation-delay:-2.67s;offset-distance:53.3%}
+.a-d22{animation-delay:-4.33s;offset-distance:86.7%}
+</style>
+<path class="q" d="M46,52 H354"/>
+<path class="s bold" d="M46,188 H354"/>
+<path class="f hair" d="M56,188 l-8,8 M76,188 l-8,8 M96,188 l-8,8 M116,188 l-8,8 M136,188 l-8,8 M156,188 l-8,8 M176,188 l-8,8 M196,188 l-8,8 M216,188 l-8,8 M236,188 l-8,8 M256,188 l-8,8 M276,188 l-8,8 M296,188 l-8,8 M316,188 l-8,8 M336,188 l-8,8"/>
+<path class="f hair" d="M56,52 l-8,-8 M76,52 l-8,-8 M96,52 l-8,-8 M116,52 l-8,-8 M136,52 l-8,-8 M156,52 l-8,-8 M176,52 l-8,-8 M196,52 l-8,-8 M216,52 l-8,-8 M236,52 l-8,-8 M256,52 l-8,-8 M276,52 l-8,-8 M296,52 l-8,-8 M316,52 l-8,-8 M336,52 l-8,-8"/>
+<path class="q" d="M100,61 C132.4,61 145,77.52000000000001 145,120 C145,162.48 132.4,179 100,179 C67.6,179 55,162.48 55,120 C55,77.52000000000001 67.6,61 100,61Z"/>
+<path class="q" d="M200,61 C167.6,61 155,77.52000000000001 155,120 C155,162.48 167.6,179 200,179 C232.4,179 245,162.48 245,120 C245,77.52000000000001 232.4,61 200,61Z"/>
+<path class="q" d="M300,61 C332.4,61 345,77.52000000000001 345,120 C345,162.48 332.4,179 300,179 C267.6,179 255,162.48 255,120 C255,77.52000000000001 267.6,61 300,61Z"/>
+<path class="f" d="M100,89 C116.56,89 123,97.68 123,120 C123,142.32 116.56,151 100,151 C83.44,151 77,142.32 77,120 C77,97.68 83.44,89 100,89Z"/>
+<path class="f" d="M200,89 C183.44,89 177,97.68 177,120 C177,142.32 183.44,151 200,151 C216.56,151 223,142.32 223,120 C223,97.68 216.56,89 200,89Z"/>
+<path class="f" d="M300,89 C316.56,89 323,97.68 323,120 C323,142.32 316.56,151 300,151 C283.44,151 277,142.32 277,120 C277,97.68 283.44,89 300,89Z"/>
+<path class="q" d="M141,117 L145,123 L149,117 M51,123 L55,117 L59,123 M151,117 L155,123 L159,117 M241,123 L245,117 L249,123 M341,117 L345,123 L349,117 M251,123 L255,117 L259,123"/>
+<g class="a-c0 a-d00"><circle class="w" cx="0" cy="0" r="3.4"/><circle class="s" cx="0" cy="0" r="3.4"/><g class="a-hot a-d00"><circle class="p" cx="0" cy="0" r="3.8"/></g></g>
+<g class="a-c0 a-d01"><circle class="w" cx="0" cy="0" r="3.4"/><circle class="s" cx="0" cy="0" r="3.4"/><g class="a-hot a-d01"><circle class="p" cx="0" cy="0" r="3.8"/></g></g>
+<g class="a-c0 a-d02"><circle class="w" cx="0" cy="0" r="3.4"/><circle class="s" cx="0" cy="0" r="3.4"/><g class="a-hot a-d02"><circle class="p" cx="0" cy="0" r="3.8"/></g></g>
+<g class="a-c1 a-d10"><circle class="w" cx="0" cy="0" r="3.4"/><circle class="s" cx="0" cy="0" r="3.4"/><g class="a-hot a-d10"><circle class="p" cx="0" cy="0" r="3.8"/></g></g>
+<g class="a-c1 a-d11"><circle class="w" cx="0" cy="0" r="3.4"/><circle class="s" cx="0" cy="0" r="3.4"/><g class="a-hot a-d11"><circle class="p" cx="0" cy="0" r="3.8"/></g></g>
+<g class="a-c1 a-d12"><circle class="w" cx="0" cy="0" r="3.4"/><circle class="s" cx="0" cy="0" r="3.4"/><g class="a-hot a-d12"><circle class="p" cx="0" cy="0" r="3.8"/></g></g>
+<g class="a-c2 a-d20"><circle class="w" cx="0" cy="0" r="3.4"/><circle class="s" cx="0" cy="0" r="3.4"/><g class="a-hot a-d20"><circle class="p" cx="0" cy="0" r="3.8"/></g></g>
+<g class="a-c2 a-d21"><circle class="w" cx="0" cy="0" r="3.4"/><circle class="s" cx="0" cy="0" r="3.4"/><g class="a-hot a-d21"><circle class="p" cx="0" cy="0" r="3.8"/></g></g>
+<g class="a-c2 a-d22"><circle class="w" cx="0" cy="0" r="3.4"/><circle class="s" cx="0" cy="0" r="3.4"/><g class="a-hot a-d22"><circle class="p" cx="0" cy="0" r="3.8"/></g></g>
+<text class="t" x="200" y="36" text-anchor="middle">cold</text>
+<text class="t" x="200" y="214" text-anchor="middle">hot</text>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="computing--recursion-call-stack" data-discipline="computing" data-tags="recursion,call-stack,function,base-case,stack">
+<title>Recursion and the call stack</title>
+<desc>Each recursive call stacks a new frame on the last until the base case is reached, then the answer travels back down as the frames are popped off one by one.</desc>
+<style>
+.a-fr0{animation:a-fr0 10s ease-in-out infinite}
+@keyframes a-fr0{0%{opacity:0;transform:translateY(-14px)}21%{opacity:0;transform:translateY(-14px)}24%{opacity:1;transform:translateY(0)}70%{opacity:1;transform:translateY(0)}73%{opacity:0;transform:translateY(-14px)}100%{opacity:0;transform:translateY(-14px)}}
+.a-fr1{animation:a-fr1 10s ease-in-out infinite}
+@keyframes a-fr1{0%{opacity:0;transform:translateY(-14px)}32%{opacity:0;transform:translateY(-14px)}35%{opacity:1;transform:translateY(0)}78%{opacity:1;transform:translateY(0)}81%{opacity:0;transform:translateY(-14px)}100%{opacity:0;transform:translateY(-14px)}}
+.a-fr2{animation:a-fr2 10s ease-in-out infinite}
+@keyframes a-fr2{0%{opacity:0;transform:translateY(-14px)}43%{opacity:0;transform:translateY(-14px)}46%{opacity:1;transform:translateY(0)}86%{opacity:1;transform:translateY(0)}89%{opacity:0;transform:translateY(-14px)}100%{opacity:0;transform:translateY(-14px)}}
+.a-ret{opacity:0;animation:a-ret 10s ease-in-out infinite}
+@keyframes a-ret{0%{opacity:0;transform:translateY(0)}66%{opacity:0;transform:translateY(0)}69%{opacity:1;transform:translateY(0)}78%{opacity:1;transform:translateY(42px)}86%{opacity:1;transform:translateY(84px)}92%{opacity:1;transform:translateY(98px)}95%{opacity:0;transform:translateY(98px)}100%{opacity:0}}
+</style>
+<path class="f" d="M95,202 H305"/>
+<path class="k q" d="M92,192 V90"/><path class="q" d="M86,98 L92,88 L98,98"/>
+<path class="s" d="M308,90 V192"/><path class="s" d="M302,184 L308,194 L314,184"/>
+<g class="a-fr a-fr0"><path class="w" d="M125,160 h150 v38 h-150 z"/><path class="s" d="M125,160 h150 v38 h-150 z"/><path class="q" d="M142,179 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0 M160,179 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0"/><path class="f" d="M205,179 h48"/></g>
+<g class="a-fr a-fr1"><path class="w" d="M125,118 h150 v38 h-150 z"/><path class="s" d="M125,118 h150 v38 h-150 z"/><path class="q" d="M142,137 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0"/><path class="f" d="M205,137 h48"/></g>
+<g class="a-fr a-fr2"><path class="w" d="M125,76 h150 v38 h-150 z"/><path class="s" d="M125,76 h150 v38 h-150 z"/><path class="p" d="M142,95 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0"/><path class="f" d="M205,95 h36"/></g>
+<g class="a-ret"><circle class="p" cx="308" cy="95" r="4.5"/></g>
+<text class="t" x="84" y="150" text-anchor="end">call</text>
+<text class="t" x="316" y="150" text-anchor="start">return</text>
+<text class="t" x="200" y="64" text-anchor="middle">base case</text>
+</svg>

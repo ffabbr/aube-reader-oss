@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="chemistry--hydrogen-bonding" data-discipline="chemistry" data-tags="hydrogen-bond,water,intermolecular-force,polarity,dipole,molecules">
+<title>Hydrogen bonding between water molecules</title>
+<desc>Water molecules jostle while dashed hydrogen bonds link a hydrogen on one molecule to the oxygen of its neighbour, flickering as they form and break.</desc>
+<style>
+.a-r1{transform-box:view-box;transform-origin:84px 152px;animation:a-rock 5s ease-in-out infinite alternate}
+.a-r2{transform-box:view-box;transform-origin:196px 98px;animation:a-rock 5s ease-in-out infinite alternate-reverse}
+.a-r3{transform-box:view-box;transform-origin:314px 148px;animation:a-rock 5s ease-in-out infinite alternate}
+@keyframes a-rock{from{transform:rotate(-7deg)}to{transform:rotate(7deg)}}
+.a-pulse{animation:a-pulse 2.5s ease-in-out infinite alternate}
+.a-pulse2{animation:a-pulse 2.5s ease-in-out infinite alternate-reverse}
+@keyframes a-pulse{from{opacity:.3}to{opacity:1}}
+</style>
+<g class="a-r1"><path class="s" d="M84,152 L116.4,136.4 M84,152 L91,187.3"/><circle class="w" cx="84" cy="152" r="16"/><circle class="w" cx="116.4" cy="136.4" r="9"/><circle class="w" cx="91" cy="187.3" r="9"/><circle class="s" cx="84" cy="152" r="16"/><circle class="s" cx="116.4" cy="136.4" r="9"/><circle class="s" cx="91" cy="187.3" r="9"/></g><g class="a-r2"><path class="s" d="M196,98 L229.1,112 M196,98 L174.1,126.6"/><circle class="w" cx="196" cy="98" r="16"/><circle class="w" cx="229.1" cy="112" r="9"/><circle class="w" cx="174.1" cy="126.6" r="9"/><circle class="s" cx="196" cy="98" r="16"/><circle class="s" cx="229.1" cy="112" r="9"/><circle class="s" cx="174.1" cy="126.6" r="9"/></g><g class="a-r3"><path class="s" d="M314,148 L349.5,154.1 M314,148 L299.2,180.8"/><circle class="w" cx="314" cy="148" r="16"/><circle class="w" cx="349.5" cy="154.1" r="9"/><circle class="w" cx="299.2" cy="180.8" r="9"/><circle class="s" cx="314" cy="148" r="16"/><circle class="s" cx="349.5" cy="154.1" r="9"/><circle class="s" cx="299.2" cy="180.8" r="9"/></g>
+<g class="a-pulse"><path class="k q" d="M128.1,130.7 L177.1,107.1"/></g>
+<g class="a-pulse2"><path class="k q" d="M241.1,117.1 L294.7,139.8"/></g>
+<path class="k f" d="M277.6,192 L277.6,138"/>
+<text class="t" x="277.6" y="208" text-anchor="middle">hydrogen bond</text>
+</svg>

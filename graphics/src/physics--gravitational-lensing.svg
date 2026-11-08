@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="physics--gravitational-lensing" data-discipline="physics" data-tags="relativity,gravity,light-bending,lens,astronomy">
+<title>Gravitational lensing</title>
+<desc>A massive lens bends the light of a distant source around it, so the observer sees the source displaced to two apparent images along the dashed lines of sight.</desc>
+<style>
+.a-ray1{offset-path:path("M333,120 L255,96 Q200,78 145,96 L72,120");animation:a-ray 5s linear infinite}
+.a-ray2{offset-path:path("M333,120 L255,144 Q200,162 145,144 L72,120");animation:a-ray 5s linear infinite}
+@keyframes a-ray{0%{offset-distance:0%;opacity:0}8%{opacity:1}92%{opacity:1}100%{offset-distance:100%;opacity:0}}
+</style>
+<circle class="w" cx="200" cy="120" r="26"/>
+<circle class="q" cx="200" cy="120" r="26"/>
+<circle class="pq" cx="200" cy="120" r="3.5"/>
+<path class="k f" d="M145,96 L333,34 M145,144 L333,206"/>
+<circle class="k f" cx="333" cy="34" r="6"/>
+<circle class="k f" cx="333" cy="206" r="6"/>
+<path class="s" d="M333,120 L255,96 Q200,78 145,96 L72,120"/>
+<path class="s" d="M333,120 L255,144 Q200,162 145,144 L72,120"/>
+<circle class="p" cx="333" cy="120" r="5"/>
+<ellipse class="w" cx="46" cy="120" rx="15" ry="9"/>
+<ellipse class="s" cx="46" cy="120" rx="15" ry="9"/>
+<circle class="p" cx="46" cy="120" r="3.5"/>
+<g class="a-ray1"><circle class="p" cx="0" cy="0" r="3"/></g>
+<g class="a-ray2"><circle class="p" cx="0" cy="0" r="3"/></g>
+<text class="t" x="46" y="150" text-anchor="middle">observer</text>
+<text class="t" x="200" y="184" text-anchor="middle">lens</text>
+<text class="t" x="333" y="146" text-anchor="middle">source</text>
+</svg>

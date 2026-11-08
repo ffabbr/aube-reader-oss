@@ -1,0 +1,176 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="biology--flagellum-motor" data-discipline="biology" data-tags="flagellum,rotary-motor,bacteria,proton-motive-force,stator,molecular-machine">
+<title>Bacterial flagellum motor</title>
+<desc>A rotary motor set in a bacterial envelope: protons passing through fixed stators spin the rings and rod, and the helical filament corkscrews out behind.</desc>
+<style>
+.a-r0{offset-path:path("M62,70A9,50 0 0 1 62,170A9,50 0 0 1 62,70");offset-rotate:0deg;animation:a-r 2s linear infinite}
+.a-r1{offset-path:path("M101,86A5,34 0 0 1 101,154A5,34 0 0 1 101,86");offset-rotate:0deg;animation:a-r 2s linear infinite}
+.a-r2{offset-path:path("M132,106A4,14 0 0 1 132,134A4,14 0 0 1 132,106");offset-rotate:0deg;animation:a-r 2s linear infinite}
+.a-r3{offset-path:path("M161,104A4,16 0 0 1 161,136A4,16 0 0 1 161,104");offset-rotate:0deg;animation:a-r 2s linear infinite}
+@keyframes a-r{from{offset-distance:0%}to{offset-distance:100%}}
+.a-d1{animation-delay:-1s}
+.a-h{animation:a-h 2.5s linear infinite}
+@keyframes a-h{0%{transform:translateX(0);opacity:0}15%{opacity:1}80%{opacity:1}100%{transform:translateX(-76px);opacity:0}}
+.a-h1{animation-delay:-1.25s}.a-hb{animation-delay:-.6s}.a-h1.a-hb{animation-delay:-1.85s}
+.a-w{animation:a-w 2s linear infinite}
+@keyframes a-w{0%{transform:translateY(calc(var(--a)*0.000px))}10%{transform:translateY(calc(var(--a)*0.588px))}20%{transform:translateY(calc(var(--a)*0.951px))}30%{transform:translateY(calc(var(--a)*0.951px))}40%{transform:translateY(calc(var(--a)*0.588px))}50%{transform:translateY(calc(var(--a)*0.000px))}60%{transform:translateY(calc(var(--a)*-0.588px))}70%{transform:translateY(calc(var(--a)*-0.951px))}80%{transform:translateY(calc(var(--a)*-0.951px))}90%{transform:translateY(calc(var(--a)*-0.588px))}100%{transform:translateY(calc(var(--a)*-0.000px))}}
+.a-w0{--a:2.0;animation-delay:-2.00s}
+.a-w1{--a:4.2;animation-delay:-1.88s}
+.a-w2{--a:6.4;animation-delay:-1.76s}
+.a-w3{--a:8.6;animation-delay:-1.64s}
+.a-w4{--a:10.8;animation-delay:-1.52s}
+.a-w5{--a:13.0;animation-delay:-1.40s}
+.a-w6{--a:15.2;animation-delay:-1.27s}
+.a-w7{--a:17.4;animation-delay:-1.15s}
+.a-w8{--a:19.6;animation-delay:-1.03s}
+.a-w9{--a:21.8;animation-delay:-0.91s}
+.a-w10{--a:24.0;animation-delay:-0.79s}
+.a-w11{--a:26.0;animation-delay:-0.67s}
+.a-w12{--a:26.0;animation-delay:-0.55s}
+.a-w13{--a:26.0;animation-delay:-0.43s}
+.a-w14{--a:26.0;animation-delay:-0.31s}
+.a-w15{--a:26.0;animation-delay:-0.19s}
+.a-w16{--a:26.0;animation-delay:-0.07s}
+.a-w17{--a:26.0;animation-delay:-1.95s}
+.a-w18{--a:26.0;animation-delay:-1.83s}
+.a-w19{--a:26.0;animation-delay:-1.70s}
+.a-w20{--a:26.0;animation-delay:-1.58s}
+.a-w21{--a:26.0;animation-delay:-1.46s}
+.a-w22{--a:26.0;animation-delay:-1.34s}
+.a-w23{--a:26.0;animation-delay:-1.22s}
+.a-w24{--a:26.0;animation-delay:-1.10s}
+</style>
+<path class="q" d="M96,26V86M96,154V214"/>
+<path class="q" d="M106,26V86M106,154V214"/>
+<path class="k f" d="M132,26V106M132,134V214"/>
+<path class="q" d="M156,26V104M156,136V214"/>
+<path class="q" d="M166,26V104M166,136V214"/>
+<ellipse class="w" cx="62" cy="120" rx="9" ry="50"/>
+<ellipse class="s" cx="62" cy="120" rx="9" ry="50"/>
+<ellipse class="w" cx="101" cy="120" rx="5" ry="34"/>
+<ellipse class="s" cx="101" cy="120" rx="5" ry="34"/>
+<ellipse class="w" cx="132" cy="120" rx="4" ry="14"/>
+<ellipse class="s" cx="132" cy="120" rx="4" ry="14"/>
+<ellipse class="w" cx="161" cy="120" rx="4" ry="16"/>
+<ellipse class="s" cx="161" cy="120" rx="4" ry="16"/>
+<path class="s" d="M62,117H176M62,123H176"/>
+<path class="s bold" d="M176,120C186,120 186,119 194,120"/>
+<rect class="w" x="88" y="41" width="26" height="22" rx="4"/>
+<rect class="s" x="88" y="41" width="26" height="22" rx="4"/>
+<rect class="w" x="88" y="177" width="26" height="22" rx="4"/>
+<rect class="s" x="88" y="177" width="26" height="22" rx="4"/>
+<g class="a-r0 a-d0">
+<circle class="p" cx="0" cy="0" r="2.6"/>
+</g>
+<g class="a-r0 a-d1">
+<circle class="p" cx="0" cy="0" r="2.6"/>
+</g>
+<g class="a-r1 a-d0">
+<circle class="p" cx="0" cy="0" r="2.6"/>
+</g>
+<g class="a-r1 a-d1">
+<circle class="p" cx="0" cy="0" r="2.6"/>
+</g>
+<g class="a-r2 a-d0">
+<circle class="p" cx="0" cy="0" r="2.6"/>
+</g>
+<g class="a-r2 a-d1">
+<circle class="p" cx="0" cy="0" r="2.6"/>
+</g>
+<g class="a-r3 a-d0">
+<circle class="p" cx="0" cy="0" r="2.6"/>
+</g>
+<g class="a-r3 a-d1">
+<circle class="p" cx="0" cy="0" r="2.6"/>
+</g>
+<g class="a-h a-h0">
+<circle class="pq" cx="150" cy="52" r="2.2"/>
+</g>
+<g class="a-h a-h1">
+<circle class="pq" cx="150" cy="52" r="2.2"/>
+</g>
+<g class="a-h a-h0 a-hb">
+<circle class="pq" cx="150" cy="188" r="2.2"/>
+</g>
+<g class="a-h a-h1 a-hb">
+<circle class="pq" cx="150" cy="188" r="2.2"/>
+</g>
+<g class="a-w a-w0">
+<circle class="p" cx="198" cy="120" r="3.3"/>
+</g>
+<g class="a-w a-w1">
+<circle class="p" cx="205.4" cy="120" r="3.3"/>
+</g>
+<g class="a-w a-w2">
+<circle class="p" cx="212.8" cy="120" r="3.3"/>
+</g>
+<g class="a-w a-w3">
+<circle class="p" cx="220.2" cy="120" r="3.3"/>
+</g>
+<g class="a-w a-w4">
+<circle class="p" cx="227.7" cy="120" r="3.3"/>
+</g>
+<g class="a-w a-w5">
+<circle class="p" cx="235.1" cy="120" r="3.3"/>
+</g>
+<g class="a-w a-w6">
+<circle class="p" cx="242.5" cy="120" r="3.3"/>
+</g>
+<g class="a-w a-w7">
+<circle class="p" cx="249.9" cy="120" r="3.3"/>
+</g>
+<g class="a-w a-w8">
+<circle class="p" cx="257.3" cy="120" r="3.3"/>
+</g>
+<g class="a-w a-w9">
+<circle class="p" cx="264.8" cy="120" r="3.3"/>
+</g>
+<g class="a-w a-w10">
+<circle class="p" cx="272.2" cy="120" r="3.3"/>
+</g>
+<g class="a-w a-w11">
+<circle class="p" cx="279.6" cy="120" r="3.3"/>
+</g>
+<g class="a-w a-w12">
+<circle class="p" cx="287" cy="120" r="3.3"/>
+</g>
+<g class="a-w a-w13">
+<circle class="p" cx="294.4" cy="120" r="3.3"/>
+</g>
+<g class="a-w a-w14">
+<circle class="p" cx="301.8" cy="120" r="3.3"/>
+</g>
+<g class="a-w a-w15">
+<circle class="p" cx="309.2" cy="120" r="3.3"/>
+</g>
+<g class="a-w a-w16">
+<circle class="p" cx="316.7" cy="120" r="3.3"/>
+</g>
+<g class="a-w a-w17">
+<circle class="p" cx="324.1" cy="120" r="3.3"/>
+</g>
+<g class="a-w a-w18">
+<circle class="p" cx="331.5" cy="120" r="3.3"/>
+</g>
+<g class="a-w a-w19">
+<circle class="p" cx="338.9" cy="120" r="3.3"/>
+</g>
+<g class="a-w a-w20">
+<circle class="p" cx="346.3" cy="120" r="3.3"/>
+</g>
+<g class="a-w a-w21">
+<circle class="p" cx="353.8" cy="120" r="3.3"/>
+</g>
+<g class="a-w a-w22">
+<circle class="p" cx="361.2" cy="120" r="3.3"/>
+</g>
+<g class="a-w a-w23">
+<circle class="p" cx="368.6" cy="120" r="3.3"/>
+</g>
+<g class="a-w a-w24">
+<circle class="p" cx="376" cy="120" r="3.3"/>
+</g>
+<text class="t" x="290" y="60" text-anchor="middle">filament</text>
+<text class="t" x="40" y="44" text-anchor="middle">rotor</text>
+<path class="f" d="M46,50L58,74"/>
+<text class="t" x="184" y="56">H⁺</text>
+</svg>

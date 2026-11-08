@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="economics--supply-and-demand" data-discipline="economics" data-tags="market,equilibrium,price,supply,demand,microeconomics">
+<title>Supply and demand</title>
+<desc>A rising supply curve and a falling demand curve cross at the market price; when demand shifts, the crossing point slides along the supply curve to a new price and quantity.</desc>
+<style>
+.a-dem{animation:a-dem 5s ease-in-out infinite alternate}
+@keyframes a-dem{0%{transform:translate(-24px,0px);}100%{transform:translate(24px,0px);}}
+.a-dot{animation:a-dot 5s ease-in-out infinite alternate}
+@keyframes a-dot{0%{transform:translate(-12px,5.5px);}100%{transform:translate(12px,-5.5px);}}
+.a-hg{transform-box:view-box;transform-origin:60px 120px;animation:a-hg 5s ease-in-out infinite alternate}
+@keyframes a-hg{0%{transform:translate(0,5.5px) scale(0.9,1);}100%{transform:translate(0,-5.5px) scale(1.1,1);}}
+.a-vg{transform-box:view-box;transform-origin:200px 200px;animation:a-vg 5s ease-in-out infinite alternate}
+@keyframes a-vg{0%{transform:translate(-12px,0) scale(1,0.9);}100%{transform:translate(12px,0) scale(1,1.1);}}
+</style>
+<path class="f" d="M60,40 V200 H350"/>
+<g class="a-vg"><path class="k f" d="M200,120 V200"/></g>
+<g class="a-hg"><path class="k f" d="M60,120 H200"/></g>
+<path class="s" d="M90,170 L310,70"/>
+<g class="a-dem"><path class="s" d="M90,70 L310,170"/></g>
+<g class="a-dot"><circle class="p" cx="200" cy="120" r="4.6"/></g>
+<text class="t" x="92" y="56" text-anchor="start">demand</text>
+<text class="t" x="318" y="64" text-anchor="start">supply</text>
+<text class="t" x="205" y="220" text-anchor="middle">price ↑   quantity →</text>
+</svg>

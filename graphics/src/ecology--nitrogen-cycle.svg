@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="ecology--nitrogen-cycle" data-discipline="ecology" data-tags="nitrogen-cycle,nitrogen-fixation,root-nodules,legume,nitrification,denitrification,soil-bacteria,biogeochemistry">
+<title>Nitrogen Cycle</title>
+<desc>Air nitrogen is fixed in the root nodules of a legume, turned by soil bacteria to ammonium and nitrate, drunk by plants, returned by decay and finally released as gas.</desc>
+<style>
+@keyframes a-trav{0%{offset-distance:0%;opacity:0}12%{opacity:1}88%{opacity:1}100%{offset-distance:100%;opacity:0}}
+.a-nod{transform-box:fill-box;transform-origin:center;animation:a-nod 2.5s ease-in-out infinite alternate}@keyframes a-nod{from{transform:scale(.88)}to{transform:scale(1.12)}}
+.a-f00{transform-box:view-box;transform-origin:0 0;offset-path:path("M158,40 C96,36 64,70 76,130 C78,138 82,142 88,146");offset-rotate:0deg;animation:a-trav 5s linear infinite;}
+.a-f01{transform-box:view-box;transform-origin:0 0;offset-path:path("M158,40 C96,36 64,70 76,130 C78,138 82,142 88,146");offset-rotate:0deg;animation:a-trav 5s linear infinite;animation-delay:-2.5s;}
+.a-f10{transform-box:view-box;transform-origin:0 0;offset-path:path("M112,172 C118,184 124,192 138,196");offset-rotate:0deg;animation:a-trav 2.5s linear infinite;animation-delay:-0.4s;}
+.a-f20{transform-box:view-box;transform-origin:0 0;offset-path:path("M196,196 H230");offset-rotate:0deg;animation:a-trav 2.5s linear infinite;animation-delay:-0.8s;}
+.a-f30{transform-box:view-box;transform-origin:0 0;offset-path:path("M262,184 V152");offset-rotate:0deg;animation:a-trav 2.5s linear infinite;animation-delay:-1.2s;}
+.a-f40{transform-box:view-box;transform-origin:0 0;offset-path:path("M292,194 C340,190 358,140 346,92 C336,58 288,40 244,40");offset-rotate:0deg;animation:a-trav 5s linear infinite;animation-delay:-1.6s;}
+.a-f41{transform-box:view-box;transform-origin:0 0;offset-path:path("M292,194 C340,190 358,140 346,92 C336,58 288,40 244,40");offset-rotate:0deg;animation:a-trav 5s linear infinite;animation-delay:-4.1s;}
+.a-f50{transform-box:view-box;transform-origin:0 0;offset-path:path("M210,120 C204,144 188,166 176,180");offset-rotate:0deg;animation:a-trav 2.5s linear infinite;animation-delay:-2s;}
+</style>
+<g transform="translate(0,7)">
+<path class="q" d="M24,114 H376"/>
+<path class="f hair" d="M44,128 l-5,5 M70,190 l-5,5 M36,172 l-5,5 M150,136 l-5,5 M196,160 l-5,5 M240,138 l-5,5 M330,134 l-5,5 M360,170 l-5,5 M350,204 l-5,5 M100,214 l-5,5 M228,214 l-5,5 M306,180 l-5,5"/>
+<path class="w" d="M201.6,21.2 A14.9,14.9 0 0 1 225.1,26.3 A11.6,11.6 0 0 1 241.8,34.5 A8.6,8.6 0 0 1 243.2,48.3 A11.7,11.7 0 0 1 227.3,58.5 A16.3,16.3 0 0 1 201.2,62.7 A17.5,17.5 0 0 1 173.4,57.7 A11.7,11.7 0 0 1 157.2,48.2 A7.3,7.3 0 0 1 157.4,36.5 A13.4,13.4 0 0 1 176.1,25.9 A16,16 0 0 1 201.6,21.2 Z"/><path class="q" d="M201.6,21.2 A14.9,14.9 0 0 1 225.1,26.3 A11.6,11.6 0 0 1 241.8,34.5 A8.6,8.6 0 0 1 243.2,48.3 A11.7,11.7 0 0 1 227.3,58.5 A16.3,16.3 0 0 1 201.2,62.7 A17.5,17.5 0 0 1 173.4,57.7 A11.7,11.7 0 0 1 157.2,48.2 A7.3,7.3 0 0 1 157.4,36.5 A13.4,13.4 0 0 1 176.1,25.9 A16,16 0 0 1 201.6,21.2 Z"/>
+<path class="s" d="M112,114 C110,94 115,80 112,60"/>
+<path class="w" d="M111,92 Q104.4,79.6 91,84 Q97.6,96.4 111,92 Z"/><path class="s" d="M111,92 Q104.4,79.6 91,84 Q97.6,96.4 111,92 Z"/>
+<path class="w" d="M113,84 Q127.2,87.4 133,74 Q118.8,70.6 113,84 Z"/><path class="s" d="M113,84 Q127.2,87.4 133,74 Q118.8,70.6 113,84 Z"/>
+<path class="w" d="M112,72 Q107.2,59.4 94,62 Q98.8,74.6 112,72 Z"/><path class="s" d="M112,72 Q107.2,59.4 94,62 Q98.8,74.6 112,72 Z"/>
+<path class="w" d="M112,68 Q125.9,67.7 128,54 Q114.1,54.3 112,68 Z"/><path class="s" d="M112,68 Q125.9,67.7 128,54 Q114.1,54.3 112,68 Z"/>
+<path class="w" d="M112,60 Q119.6,51 112,42 Q104.4,51 112,60 Z"/><path class="s" d="M112,60 Q119.6,51 112,42 Q104.4,51 112,60 Z"/>
+<path class="s" d="M112,114 C112,128 109,144 112,162 M111,128 C104,134 98,138 92,148 M112,134 C120,140 126,142 134,150 M111,148 C116,154 120,158 122,166"/>
+<g class="a-nod"><circle class="w" cx="99" cy="139" r="4.2"/><circle class="s" cx="99" cy="139" r="4.2"/><circle class="p" cx="99" cy="139" r="1.2"/></g>
+<g class="a-nod"><circle class="w" cx="92" cy="150" r="3.4"/><circle class="s" cx="92" cy="150" r="3.4"/><circle class="p" cx="92" cy="150" r="1.2"/></g>
+<g class="a-nod"><circle class="w" cx="125" cy="142" r="4.4"/><circle class="s" cx="125" cy="142" r="4.4"/><circle class="p" cx="125" cy="142" r="1.2"/></g>
+<g class="a-nod"><circle class="w" cx="114" cy="164" r="3.6"/><circle class="s" cx="114" cy="164" r="3.6"/><circle class="p" cx="114" cy="164" r="1.2"/></g>
+<g class="a-nod"><circle class="w" cx="122" cy="168" r="3"/><circle class="s" cx="122" cy="168" r="3"/><circle class="p" cx="122" cy="168" r="1.2"/></g>
+<path class="s" d="M262,114 C261,92 264,78 263,64 M262,106 C252,90 242,84 236,86 M262,100 C272,84 280,80 288,84 M263,84 C256,72 250,66 244,66"/>
+<path class="s" d="M262,114 C262,124 260,132 262,144 M262,122 C256,128 250,132 244,138 M262,124 C268,128 274,132 278,140"/>
+<path class="q" d="M200,112 Q210.7,117.6 218,108 Q207.3,102.4 200,112 Z"/>
+<path class="q" d="M158,40 C96,36 64,70 76,130 C78,138 82,142 88,146"/><path class="q" d="M83,146.4 L89,147 L86.3,141.7"/>
+<path class="q" d="M112,172 C118,184 124,192 138,196"/><path class="q" d="M134.5,198.8 L140,196.5 L135,193.1"/>
+<path class="q" d="M196,196 H230"/><path class="q" d="M226.7,198.9 L232,196 L226.7,193.1"/>
+<path class="q" d="M262,184 V152"/><path class="q" d="M264.9,154.3 L262,149 L259.1,154.3"/>
+<path class="q" d="M292,194 C340,190 358,140 346,92 C336,58 288,40 244,40"/><path class="q" d="M247.3,37.1 L242,40 L247.3,42.9"/>
+<path class="k q" d="M210,120 C204,144 188,166 176,180"/><path class="q" d="M175.4,176.2 L174,182 L179.7,180"/>
+<g class="a-f00"><circle class="p" cx="0" cy="0" r="2.8"/></g>
+<g class="a-f01"><circle class="p" cx="0" cy="0" r="2.8"/></g>
+<g class="a-f10"><circle class="p" cx="0" cy="0" r="2.8"/></g>
+<g class="a-f20"><circle class="p" cx="0" cy="0" r="2.8"/></g>
+<g class="a-f30"><circle class="p" cx="0" cy="0" r="2.8"/></g>
+<g class="a-f40"><circle class="p" cx="0" cy="0" r="2.8"/></g>
+<g class="a-f41"><circle class="p" cx="0" cy="0" r="2.8"/></g>
+<g class="a-f50"><circle class="p" cx="0" cy="0" r="2.8"/></g>
+<text class="t" x="200" y="47" text-anchor="middle">N₂</text>
+<text class="t" x="166" y="201" text-anchor="middle">NH₄⁺</text>
+<text class="t" x="262" y="201" text-anchor="middle">NO₃⁻</text>
+</g>
+</svg>

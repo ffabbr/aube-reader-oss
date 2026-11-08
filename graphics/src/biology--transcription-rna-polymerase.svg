@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="biology--transcription-rna-polymerase" data-discipline="biology" data-tags="transcription,rna-polymerase,mrna,dna,gene-expression,central-dogma">
+<title>Transcription by RNA polymerase</title>
+<desc>RNA polymerase slides along DNA, opening a small bubble and copying one strand into a growing messenger RNA that peels away behind it.</desc>
+<style>
+.a-move{animation:a-move 10s ease-in-out infinite}
+.a-wave{transform-box:view-box;transform-origin:60px 105px;animation:a-wave 10s ease-in-out infinite}
+@keyframes a-move{0%,5%{transform:translateX(0)}85%,100%{transform:translateX(60px)}}
+@keyframes a-wave{0%,5%{transform:scaleX(1)}85%,100%{transform:scaleX(1.556)}}
+</style>
+<path class="f hair" d="M34,153V167M44,153V167M54,153V167M64,153V167M74,153V167M84,153V167M94,153V167M104,153V167M114,153V167M124,153V167M134,153V167M144,153V167M154,153V167M164,153V167M174,153V167M184,153V167M194,153V167M204,153V167M214,153V167M224,153V167M234,153V167M244,153V167M254,153V167M264,153V167M274,153V167M284,153V167M294,153V167M304,153V167M314,153V167M324,153V167M334,153V167M344,153V167M354,153V167M364,153V167"/>
+<path class="s" d="M30,150H370M30,170H370"/>
+<g class="a-wave"><path class="q" d="M60,105q9,-7 18,0t18,0t18,0t18,0t18,0t18,0"/></g>
+<g class="a-move">
+<ellipse class="w" cx="170" cy="160" rx="38" ry="30"/>
+<ellipse class="s" cx="170" cy="160" rx="38" ry="30"/>
+<path class="s" d="M132,150H150C157,138 183,138 190,150H208M132,170H150C157,182 183,182 190,170H208"/>
+<path class="q" d="M168,105C171,120 170,135 170,160"/>
+<circle class="p" cx="170" cy="160" r="2.6"/>
+</g>
+<text class="t" x="60" y="90">mRNA</text>
+<text class="t" x="30" y="198">DNA</text>
+<text class="t" x="200" y="214" text-anchor="middle">RNA polymerase</text>
+</svg>

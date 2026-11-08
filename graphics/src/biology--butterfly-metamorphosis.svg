@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="biology--butterfly-metamorphosis" data-discipline="biology" data-tags="metamorphosis,butterfly,caterpillar,chrysalis,life-cycle,insect,larva">
+<title>Butterfly Metamorphosis</title>
+<desc>Eggs on a leaf, a caterpillar inching along a twig, a chrysalis swaying beneath it and a butterfly beating its wings: one animal rebuilt in four stages.</desc>
+<style>
+.a-crawl{transform-box:view-box;animation:a-crawl 5s ease-in-out infinite alternate}@keyframes a-crawl{from{transform:translate(-9px,1px)}to{transform:translate(11px,-1px)}}
+.a-seg{transform-box:view-box;animation:a-seg 1s ease-in-out infinite alternate}@keyframes a-seg{from{transform:translateY(0)}to{transform:translateY(-3.5px)}}
+.a-g0{animation-delay:0.00s}
+.a-g1{animation-delay:-0.28s}
+.a-g2{animation-delay:-0.56s}
+.a-g3{animation-delay:-0.84s}
+.a-g4{animation-delay:-1.12s}
+.a-g5{animation-delay:-1.40s}
+.a-g6{animation-delay:-1.68s}
+.a-hang{transform-box:view-box;transform-origin:226px 79px;animation:a-hang 2.5s ease-in-out infinite alternate}@keyframes a-hang{from{transform:rotate(-5deg)}to{transform:rotate(5deg)}}
+.a-flap{transform-box:view-box;transform-origin:0 0;animation:a-flap 1s ease-in-out infinite alternate}@keyframes a-flap{from{transform:scaleX(1)}to{transform:scaleX(.42)}}
+.a-flit{transform-box:view-box;animation:a-flit 2.5s ease-in-out infinite alternate}@keyframes a-flit{from{transform:translateY(-5px)}to{transform:translateY(6px)}}
+</style>
+<path class="q bold" d="M24,84 C70,74 120,86 170,80 C200,77 226,80 252,70"/>
+<path class="q" d="M252,70 C256,68 260,63 263,58 M196,78 C204,72 208,66 216,62"/>
+<path class="w" d="M56,80 C42,96 42,126 62,146 C80,126 80,96 56,80 Z"/><path class="s" d="M56,80 C42,96 42,126 62,146 C80,126 80,96 56,80 Z"/>
+<path class="q hair" d="M57,84 C60,104 61,124 62,142 M59,104 L50,98 M59,104 L70,96 M60,122 L50,114 M60,122 L72,114"/>
+<circle class="p" cx="56" cy="112" r="2.6"/>
+<circle class="p" cx="64" cy="110" r="2.6"/>
+<circle class="p" cx="60" cy="128" r="2.6"/>
+<g class="a-crawl">
+<g class="a-seg a-g0"><circle class="w" cx="100" cy="76.5" r="4.2"/><circle class="s" cx="100" cy="76.5" r="4.2"/></g>
+<g class="a-seg a-g1"><circle class="w" cx="108" cy="75.2" r="5"/><circle class="s" cx="108" cy="75.2" r="5"/></g>
+<g class="a-seg a-g2"><circle class="w" cx="116.5" cy="74.6" r="5.4"/><circle class="s" cx="116.5" cy="74.6" r="5.4"/></g>
+<g class="a-seg a-g3"><circle class="w" cx="125.5" cy="74.4" r="5.6"/><circle class="s" cx="125.5" cy="74.4" r="5.6"/></g>
+<g class="a-seg a-g4"><circle class="w" cx="134.5" cy="74.3" r="5.6"/><circle class="s" cx="134.5" cy="74.3" r="5.6"/></g>
+<g class="a-seg a-g5"><circle class="w" cx="143.5" cy="73.8" r="5.4"/><circle class="s" cx="143.5" cy="73.8" r="5.4"/></g>
+<g class="a-seg a-g6"><circle class="w" cx="152" cy="72.6" r="5"/><circle class="s" cx="152" cy="72.6" r="5"/></g>
+<g class="a-seg a-g6"><circle class="p" cx="154" cy="72.2" r="1.3"/><path class="s hair" d="M154,67.8 C155,63 158,62 160,61 M151,68 C151,63 153,61 155,59"/></g>
+</g>
+<g class="a-hang"><path class="q" d="M226,78 V86"/><path class="w" d="M226,86 C236,90 240,106 236,120 C233,132 229,138 226,142 C223,138 219,132 216,120 C212,106 216,90 226,86 Z"/><path class="s" d="M226,86 C236,90 240,106 236,120 C233,132 229,138 226,142 C223,138 219,132 216,120 C212,106 216,90 226,86 Z"/>
+<path class="q hair" d="M218,104 C222,108 230,108 234,104 M218,116 C222,120 230,120 234,116 M222,128 C224,130 228,130 230,128 M226,90 C222,100 222,110 226,120"/></g>
+<g class="a-flit"><g transform="translate(316,112) rotate(10) scale(.92)">
+<g class="a-flap"><path class="w" d="M1,-6 C10,-30 34,-52 58,-48 C66,-44 60,-20 46,-8 C32,0 14,0 1,0 Z"/><path class="s" d="M1,-6 C10,-30 34,-52 58,-48 C66,-44 60,-20 46,-8 C32,0 14,0 1,0 Z"/><path class="w" d="M1,0 C14,0 32,0 42,8 C50,20 42,40 28,42 C16,42 6,24 1,8 Z"/><path class="s" d="M1,0 C14,0 32,0 42,8 C50,20 42,40 28,42 C16,42 6,24 1,8 Z"/><path class="q hair" d="M4,-6 C16,-22 32,-38 50,-44 M4,-3 C20,-14 36,-20 52,-26 M4,3 C14,10 26,18 38,24 M3,6 C8,16 16,28 26,38"/><circle class="pq" cx="42" cy="-30" r="3.4"/><circle class="pq" cx="28" cy="22" r="2.4"/></g>
+<g transform="scale(-1,1)"><g class="a-flap"><path class="w" d="M1,-6 C10,-30 34,-52 58,-48 C66,-44 60,-20 46,-8 C32,0 14,0 1,0 Z"/><path class="s" d="M1,-6 C10,-30 34,-52 58,-48 C66,-44 60,-20 46,-8 C32,0 14,0 1,0 Z"/><path class="w" d="M1,0 C14,0 32,0 42,8 C50,20 42,40 28,42 C16,42 6,24 1,8 Z"/><path class="s" d="M1,0 C14,0 32,0 42,8 C50,20 42,40 28,42 C16,42 6,24 1,8 Z"/><path class="q hair" d="M4,-6 C16,-22 32,-38 50,-44 M4,-3 C20,-14 36,-20 52,-26 M4,3 C14,10 26,18 38,24 M3,6 C8,16 16,28 26,38"/><circle class="pq" cx="42" cy="-30" r="3.4"/><circle class="pq" cx="28" cy="22" r="2.4"/></g></g>
+<path class="s bold" d="M0,-12 C2,-4 2,14 0,24"/><circle class="p" cx="0" cy="-14" r="2.8"/><path class="s hair" d="M-1,-16 C-3,-24 -7,-28 -11,-30 M1,-16 C3,-24 7,-28 11,-30"/></g></g>
+<path class="k q" d="M296,172 C240,222 110,224 66,160"/><path class="q" d="M69.9,160.8 L64,157 L64,164"/>
+<text class="t" x="34" y="130" text-anchor="middle">egg</text>
+<text class="t" x="128" y="104" text-anchor="middle">larva</text>
+<text class="t" x="226" y="160" text-anchor="middle">pupa</text>
+</svg>

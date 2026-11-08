@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="chemistry--reaction-energy-profile" data-discipline="chemistry" data-tags="activation-energy,enthalpy,exothermic,transition-state,reaction-coordinate,energy-barrier">
+<title>Reaction energy profile</title>
+<desc>A ball climbs the activation-energy hill between reactants and products, then rolls down to a lower level; the drop is the energy released.</desc>
+<style>
+.a-ball{offset-path:path("M50,150 H100 C140,150 150,60 200,60 C250,60 260,185 300,185 H350");offset-rotate:0deg;animation:a-ball 10s ease-in-out infinite}
+@keyframes a-ball{0%{offset-distance:0%;opacity:0}6%{opacity:1}88%{opacity:1}95%,100%{offset-distance:100%;opacity:0}}
+</style>
+<path class="f" d="M50,30 V206 H360"/>
+<path class="k f" d="M50,150 H236 M200,185 H350"/>
+<path class="s" d="M50,150 H100 C140,150 150,60 200,60 C250,60 260,185 300,185 H350"/>
+<path class="q" d="M200,148 V66 M195,73 l5,-8 l5,8"/>
+<path class="q" d="M328,152 V183 M323,176 l5,8 l5,-8"/>
+<g class="a-ball"><circle class="w" cx="0" cy="-7" r="7"/><circle class="s" cx="0" cy="-7" r="7"/></g>
+<text class="t" x="210" y="112" text-anchor="start">Eₐ</text>
+<text class="t" x="338" y="172" text-anchor="start">ΔH</text>
+<text class="t" x="205" y="224" text-anchor="middle">reaction progress</text>
+</svg>

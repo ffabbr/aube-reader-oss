@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="ecology--predator-prey-cycle" data-discipline="ecology" data-tags="predator-prey,population-cycle,lotka-volterra,oscillation,feedback,food-chain" role="img">
+ <title>Predator-prey cycle</title>
+ <desc>Prey and predator numbers rise and fall in lagged waves: more prey feeds more predators, who then cut the prey back, and the cycle repeats.</desc>
+ <style>
+:root{--ink:#110f0c;--quiet:#555350;--faint:#b8b6b2;--wash:#f5f3ef}
+@media (prefers-color-scheme:dark){:root{--ink:#e7e5e2;--quiet:#a3a19e;--faint:#524f4c;--wash:#252321}}
+svg{overflow:visible}
+.s,.q,.f{fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1;stroke-dashoffset:0}
+.s{stroke:var(--ink);stroke-width:1.5}
+.q{stroke:var(--quiet);stroke-width:1.3}
+.f{stroke:var(--faint);stroke-width:1.1}
+.hair{stroke-width:1!important}
+.bold{stroke-width:2.2!important}
+.k{fill:none;stroke-dasharray:5 5!important;stroke-linecap:round}
+.p{fill:var(--ink);stroke:none}
+.pq{fill:var(--quiet);stroke:none}
+.w{fill:var(--wash);stroke:none}
+.t{fill:var(--quiet);stroke:none;font:italic 13px ui-serif,"New York",Georgia,serif}
+.all{animation:out 10s linear infinite}
+@keyframes out{0%,90%{opacity:1}97%,99.9%{opacity:0}100%{opacity:1}}
+@keyframes dr0{0%,0.0%{stroke-dashoffset:1;opacity:0}0.1%{stroke-dashoffset:1;opacity:1}9%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd0{0%,0.0%{opacity:0}7%,100%{opacity:1}}
+@keyframes dr1{0%,2.2%{stroke-dashoffset:1;opacity:0}2.3%{stroke-dashoffset:1;opacity:1}11.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd1{0%,2.2%{opacity:0}9.2%,100%{opacity:1}}
+@keyframes dr2{0%,4.4%{stroke-dashoffset:1;opacity:0}4.5%{stroke-dashoffset:1;opacity:1}13.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd2{0%,4.4%{opacity:0}11.4%,100%{opacity:1}}
+@keyframes dr3{0%,6.6%{stroke-dashoffset:1;opacity:0}6.7%{stroke-dashoffset:1;opacity:1}15.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd3{0%,6.6%{opacity:0}13.6%,100%{opacity:1}}
+@keyframes dr4{0%,8.8%{stroke-dashoffset:1;opacity:0}8.9%{stroke-dashoffset:1;opacity:1}17.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd4{0%,8.8%{opacity:0}15.8%,100%{opacity:1}}
+@keyframes dr5{0%,11.0%{stroke-dashoffset:1;opacity:0}11.1%{stroke-dashoffset:1;opacity:1}20%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd5{0%,11.0%{opacity:0}18%,100%{opacity:1}}
+@keyframes dr6{0%,13.2%{stroke-dashoffset:1;opacity:0}13.3%{stroke-dashoffset:1;opacity:1}22.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd6{0%,13.2%{opacity:0}20.2%,100%{opacity:1}}
+@keyframes dr7{0%,15.4%{stroke-dashoffset:1;opacity:0}15.5%{stroke-dashoffset:1;opacity:1}24.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd7{0%,15.4%{opacity:0}22.4%,100%{opacity:1}}
+@keyframes dr8{0%,17.6%{stroke-dashoffset:1;opacity:0}17.7%{stroke-dashoffset:1;opacity:1}26.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd8{0%,17.6%{opacity:0}24.6%,100%{opacity:1}}
+@keyframes dr9{0%,19.8%{stroke-dashoffset:1;opacity:0}19.9%{stroke-dashoffset:1;opacity:1}28.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd9{0%,19.8%{opacity:0}26.8%,100%{opacity:1}}
+@keyframes dr10{0%,22.0%{stroke-dashoffset:1;opacity:0}22.1%{stroke-dashoffset:1;opacity:1}31%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd10{0%,22.0%{opacity:0}29%,100%{opacity:1}}
+@keyframes dr11{0%,24.2%{stroke-dashoffset:1;opacity:0}24.3%{stroke-dashoffset:1;opacity:1}33.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd11{0%,24.2%{opacity:0}31.2%,100%{opacity:1}}
+@keyframes dr12{0%,26.4%{stroke-dashoffset:1;opacity:0}26.5%{stroke-dashoffset:1;opacity:1}35.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd12{0%,26.4%{opacity:0}33.4%,100%{opacity:1}}
+@keyframes dr13{0%,28.6%{stroke-dashoffset:1;opacity:0}28.7%{stroke-dashoffset:1;opacity:1}37.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd13{0%,28.6%{opacity:0}35.6%,100%{opacity:1}}
+@keyframes dr14{0%,30.8%{stroke-dashoffset:1;opacity:0}30.9%{stroke-dashoffset:1;opacity:1}39.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd14{0%,30.8%{opacity:0}37.8%,100%{opacity:1}}
+@keyframes dr15{0%,33.0%{stroke-dashoffset:1;opacity:0}33.1%{stroke-dashoffset:1;opacity:1}42%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd15{0%,33.0%{opacity:0}40%,100%{opacity:1}}
+.s.i0,.q.i0,.f.i0{animation:dr0 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i1,.q.i1,.f.i1{animation:dr1 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i2,.q.i2,.f.i2{animation:dr2 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i3,.q.i3,.f.i3{animation:dr3 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i4,.q.i4,.f.i4{animation:dr4 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i5,.q.i5,.f.i5{animation:dr5 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i6,.q.i6,.f.i6{animation:dr6 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i7,.q.i7,.f.i7{animation:dr7 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i8,.q.i8,.f.i8{animation:dr8 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i9,.q.i9,.f.i9{animation:dr9 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i10,.q.i10,.f.i10{animation:dr10 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i11,.q.i11,.f.i11{animation:dr11 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i12,.q.i12,.f.i12{animation:dr12 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i13,.q.i13,.f.i13{animation:dr13 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i14,.q.i14,.f.i14{animation:dr14 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i15,.q.i15,.f.i15{animation:dr15 10s cubic-bezier(.55,.05,.25,1) infinite}
+.p.i0,.w.i0,.pq.i0,.t.i0,.k.i0{animation:fd0 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i1,.w.i1,.pq.i1,.t.i1,.k.i1{animation:fd1 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i2,.w.i2,.pq.i2,.t.i2,.k.i2{animation:fd2 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i3,.w.i3,.pq.i3,.t.i3,.k.i3{animation:fd3 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i4,.w.i4,.pq.i4,.t.i4,.k.i4{animation:fd4 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i5,.w.i5,.pq.i5,.t.i5,.k.i5{animation:fd5 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i6,.w.i6,.pq.i6,.t.i6,.k.i6{animation:fd6 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i7,.w.i7,.pq.i7,.t.i7,.k.i7{animation:fd7 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i8,.w.i8,.pq.i8,.t.i8,.k.i8{animation:fd8 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i9,.w.i9,.pq.i9,.t.i9,.k.i9{animation:fd9 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i10,.w.i10,.pq.i10,.t.i10,.k.i10{animation:fd10 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i11,.w.i11,.pq.i11,.t.i11,.k.i11{animation:fd11 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i12,.w.i12,.pq.i12,.t.i12,.k.i12{animation:fd12 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i13,.w.i13,.pq.i13,.t.i13,.k.i13{animation:fd13 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i14,.w.i14,.pq.i14,.t.i14,.k.i14{animation:fd14 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i15,.w.i15,.pq.i15,.t.i15,.k.i15{animation:fd15 10s cubic-bezier(.2,.7,.3,1) infinite}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+ <style>
+.a-m1{transform:translate(177px,118px);animation:a-m1 10s linear infinite;animation-delay:0s}@keyframes a-m1{0%{transform:translate(52px,118px)}2.5%{transform:translate(58.2px,101.9px)}5%{transform:translate(64.5px,87.4px)}7.5%{transform:translate(70.8px,75.9px)}10%{transform:translate(77px,68.5px)}12.5%{transform:translate(83.2px,66px)}15%{transform:translate(89.5px,68.5px)}17.5%{transform:translate(95.8px,75.9px)}20%{transform:translate(102px,87.4px)}22.5%{transform:translate(108.2px,101.9px)}25%{transform:translate(114.5px,118px)}27.5%{transform:translate(120.8px,134.1px)}30%{transform:translate(127px,148.6px)}32.5%{transform:translate(133.2px,160.1px)}35%{transform:translate(139.5px,167.5px)}37.5%{transform:translate(145.8px,170px)}40%{transform:translate(152px,167.5px)}42.5%{transform:translate(158.2px,160.1px)}45%{transform:translate(164.5px,148.6px)}47.5%{transform:translate(170.8px,134.1px)}50%{transform:translate(177px,118px)}52.5%{transform:translate(183.2px,101.9px)}55%{transform:translate(189.5px,87.4px)}57.5%{transform:translate(195.8px,75.9px)}60%{transform:translate(202px,68.5px)}62.5%{transform:translate(208.2px,66px)}65%{transform:translate(214.5px,68.5px)}67.5%{transform:translate(220.8px,75.9px)}70%{transform:translate(227px,87.4px)}72.5%{transform:translate(233.2px,101.9px)}75%{transform:translate(239.5px,118px)}77.5%{transform:translate(245.8px,134.1px)}80%{transform:translate(252px,148.6px)}82.5%{transform:translate(258.2px,160.1px)}85%{transform:translate(264.5px,167.5px)}87.5%{transform:translate(270.8px,170px)}90%{transform:translate(277px,167.5px)}92.5%{transform:translate(283.2px,160.1px)}95%{transform:translate(289.5px,148.6px)}97.5%{transform:translate(295.8px,134.1px)}100%{transform:translate(302px,118px)}}
+.a-m2{transform:translate(177px,176px);animation:a-m2 10s linear infinite;animation-delay:0s}@keyframes a-m2{0%{transform:translate(52px,176px)}2.5%{transform:translate(58.2px,174.5px)}5%{transform:translate(64.5px,170.3px)}7.5%{transform:translate(70.8px,163.6px)}10%{transform:translate(77px,155.3px)}12.5%{transform:translate(83.2px,146px)}15%{transform:translate(89.5px,136.7px)}17.5%{transform:translate(95.8px,128.4px)}20%{transform:translate(102px,121.7px)}22.5%{transform:translate(108.2px,117.5px)}25%{transform:translate(114.5px,116px)}27.5%{transform:translate(120.8px,117.5px)}30%{transform:translate(127px,121.7px)}32.5%{transform:translate(133.2px,128.4px)}35%{transform:translate(139.5px,136.7px)}37.5%{transform:translate(145.8px,146px)}40%{transform:translate(152px,155.3px)}42.5%{transform:translate(158.2px,163.6px)}45%{transform:translate(164.5px,170.3px)}47.5%{transform:translate(170.8px,174.5px)}50%{transform:translate(177px,176px)}52.5%{transform:translate(183.2px,174.5px)}55%{transform:translate(189.5px,170.3px)}57.5%{transform:translate(195.8px,163.6px)}60%{transform:translate(202px,155.3px)}62.5%{transform:translate(208.2px,146px)}65%{transform:translate(214.5px,136.7px)}67.5%{transform:translate(220.8px,128.4px)}70%{transform:translate(227px,121.7px)}72.5%{transform:translate(233.2px,117.5px)}75%{transform:translate(239.5px,116px)}77.5%{transform:translate(245.8px,117.5px)}80%{transform:translate(252px,121.7px)}82.5%{transform:translate(258.2px,128.4px)}85%{transform:translate(264.5px,136.7px)}87.5%{transform:translate(270.8px,146px)}90%{transform:translate(277px,155.3px)}92.5%{transform:translate(283.2px,163.6px)}95%{transform:translate(289.5px,170.3px)}97.5%{transform:translate(295.8px,174.5px)}100%{transform:translate(302px,176px)}}
+.a-cur{transform:translate(125px,0);animation:a-cur 10s linear infinite}@keyframes a-cur{from{transform:translate(0,0)}to{transform:translate(250px,0)}}
+</style>
+ <g class="all">
+  <path class="f i0" d="M40,36 V200 H312" pathLength="1" />
+  <path class="k f hair i1" d="M40,118 L308,118" />
+  <path class="s i2" d="M52,118 C53,115.3 56.2,107 58.2,101.9 C60.3,96.8 62.4,91.8 64.5,87.4 C66.6,83.1 68.7,79.1 70.8,75.9 C72.8,72.8 74.9,70.2 77,68.5 C79.1,66.9 81.2,66 83.2,66 C85.3,66 87.4,66.9 89.5,68.5 C91.6,70.2 93.7,72.8 95.8,75.9 C97.8,79.1 99.9,83.1 102,87.4 C104.1,91.8 106.2,96.8 108.2,101.9 C110.3,107 112.4,112.6 114.5,118 C116.6,123.4 118.7,129 120.8,134.1 C122.8,139.2 124.9,144.2 127,148.6 C129.1,152.9 131.2,156.9 133.2,160.1 C135.3,163.2 137.4,165.8 139.5,167.5 C141.6,169.1 143.7,170 145.8,170 C147.8,170 149.9,169.1 152,167.5 C154.1,165.8 156.2,163.2 158.2,160.1 C160.3,156.9 162.4,152.9 164.5,148.6 C166.6,144.2 168.7,139.2 170.8,134.1 C172.8,129 174.9,123.4 177,118 C179.1,112.6 181.2,107 183.2,101.9 C185.3,96.8 187.4,91.8 189.5,87.4 C191.6,83.1 193.7,79.1 195.8,75.9 C197.8,72.8 199.9,70.2 202,68.5 C204.1,66.9 206.2,66 208.2,66 C210.3,66 212.4,66.9 214.5,68.5 C216.6,70.2 218.7,72.8 220.8,75.9 C222.8,79.1 224.9,83.1 227,87.4 C229.1,91.8 231.2,96.8 233.2,101.9 C235.3,107 237.4,112.6 239.5,118 C241.6,123.4 243.7,129 245.8,134.1 C247.8,139.2 249.9,144.2 252,148.6 C254.1,152.9 256.2,156.9 258.2,160.1 C260.3,163.2 262.4,165.8 264.5,167.5 C266.6,169.1 268.7,170 270.8,170 C272.8,170 274.9,169.1 277,167.5 C279.1,165.8 281.2,163.2 283.2,160.1 C285.3,156.9 287.4,152.9 289.5,148.6 C291.6,144.2 293.7,139.2 295.8,134.1 C297.8,129 301,120.7 302,118" pathLength="1" />
+  <path class="q i3" d="M52,176 C53,175.8 56.2,175.5 58.2,174.5 C60.3,173.6 62.4,172.1 64.5,170.3 C66.6,168.5 68.7,166.1 70.8,163.6 C72.8,161.1 74.9,158.2 77,155.3 C79.1,152.3 81.2,149.1 83.2,146 C85.3,142.9 87.4,139.7 89.5,136.7 C91.6,133.8 93.7,130.9 95.8,128.4 C97.8,125.9 99.9,123.5 102,121.7 C104.1,119.9 106.2,118.4 108.2,117.5 C110.3,116.5 112.4,116 114.5,116 C116.6,116 118.7,116.5 120.8,117.5 C122.8,118.4 124.9,119.9 127,121.7 C129.1,123.5 131.2,125.9 133.2,128.4 C135.3,130.9 137.4,133.8 139.5,136.7 C141.6,139.7 143.7,142.9 145.8,146 C147.8,149.1 149.9,152.3 152,155.3 C154.1,158.2 156.2,161.1 158.2,163.6 C160.3,166.1 162.4,168.5 164.5,170.3 C166.6,172.1 168.7,173.6 170.8,174.5 C172.8,175.5 174.9,176 177,176 C179.1,176 181.2,175.5 183.2,174.5 C185.3,173.6 187.4,172.1 189.5,170.3 C191.6,168.5 193.7,166.1 195.8,163.6 C197.8,161.1 199.9,158.2 202,155.3 C204.1,152.3 206.2,149.1 208.2,146 C210.3,142.9 212.4,139.7 214.5,136.7 C216.6,133.8 218.7,130.9 220.8,128.4 C222.8,125.9 224.9,123.5 227,121.7 C229.1,119.9 231.2,118.4 233.2,117.5 C235.3,116.5 237.4,116 239.5,116 C241.6,116 243.7,116.5 245.8,117.5 C247.8,118.4 249.9,119.9 252,121.7 C254.1,123.5 256.2,125.9 258.2,128.4 C260.3,130.9 262.4,133.8 264.5,136.7 C266.6,139.7 268.7,142.9 270.8,146 C272.8,149.1 274.9,152.3 277,155.3 C279.1,158.2 281.2,161.1 283.2,163.6 C285.3,166.1 287.4,168.5 289.5,170.3 C291.6,172.1 293.7,173.6 295.8,174.5 C297.8,175.5 301,175.8 302,176" pathLength="1" />
+  <text class="t i4" x="312" y="122" text-anchor="start">prey</text>
+  <text class="t i5" x="312" y="176" text-anchor="start">predators</text>
+  <text class="t i6" x="176" y="220" text-anchor="middle">time</text>
+  <g class="a-m1">
+   <circle class="p i7" cx="0" cy="0" r="3" />
+  </g>
+  <g class="a-m2">
+   <circle class="pq i8" cx="0" cy="0" r="3" />
+  </g>
+  <g class="a-cur">
+   <path class="k f hair i9" d="M52,46 V200" />
+  </g>
+ </g>
+</svg>

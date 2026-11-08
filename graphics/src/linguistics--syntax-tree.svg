@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="linguistics--syntax-tree" data-discipline="linguistics" data-tags="grammar,phrase-structure,parsing,sentence,syntax">
+<title>Syntax tree</title>
+<desc>The sentence the cat saw a bird parsed as a tree: a clause splits into noun phrase and verb phrase, down to the words, while a ring walks the tree node by node as a parser would.</desc>
+<style>
+.a-parse{animation:a-parse 10s linear infinite}
+@keyframes a-parse{0%,5%{transform:translate(182px,44px);animation-timing-function:ease-in-out}11%,15%{transform:translate(89.5px,112px);animation-timing-function:ease-in-out}21%,25%{transform:translate(53px,170px);animation-timing-function:ease-in-out}31%,35%{transform:translate(126px,170px);animation-timing-function:ease-in-out}41%,45%{transform:translate(258px,80px);animation-timing-function:ease-in-out}51%,55%{transform:translate(202px,170px);animation-timing-function:ease-in-out}61%,65%{transform:translate(308px,124px);animation-timing-function:ease-in-out}71%,75%{transform:translate(272px,170px);animation-timing-function:ease-in-out}81%,85%{transform:translate(344px,170px);animation-timing-function:ease-in-out}100%{transform:translate(344px,170px)}}
+</style>
+<path class="s" d="M182,44 L89.5,112"/>
+<path class="s" d="M182,44 L258,80"/>
+<path class="s" d="M89.5,112 L53,170"/>
+<path class="s" d="M89.5,112 L126,170"/>
+<path class="s" d="M258,80 L202,170"/>
+<path class="s" d="M258,80 L308,124"/>
+<path class="s" d="M308,124 L272,170"/>
+<path class="s" d="M308,124 L344,170"/>
+<path class="f" d="M53,174 V184"/>
+<path class="f" d="M126,174 V184"/>
+<path class="f" d="M202,174 V184"/>
+<path class="f" d="M272,174 V184"/>
+<path class="f" d="M344,174 V184"/>
+<circle class="p" cx="182" cy="44" r="3.6"/>
+<circle class="p" cx="89.5" cy="112" r="3.4"/>
+<circle class="p" cx="258" cy="80" r="3.4"/>
+<circle class="p" cx="308" cy="124" r="3.4"/>
+<circle class="pq" cx="53" cy="170" r="2.8"/>
+<circle class="pq" cx="126" cy="170" r="2.8"/>
+<circle class="pq" cx="202" cy="170" r="2.8"/>
+<circle class="pq" cx="272" cy="170" r="2.8"/>
+<circle class="pq" cx="344" cy="170" r="2.8"/>
+<g class="a-parse"><circle class="s" cx="0" cy="0" r="8"/></g>
+<text class="t" x="77.5" y="110" text-anchor="end">NP</text>
+<text class="t" x="270" y="78" text-anchor="start">VP</text>
+<text class="t" x="200" y="201" text-anchor="middle" word-spacing="52">the cat saw a bird</text>
+</svg>

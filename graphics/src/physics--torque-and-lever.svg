@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="physics--torque-and-lever" data-discipline="physics" data-tags="torque,lever,equilibrium,fulcrum,moment,balance">
+<title>Torque and lever</title>
+<desc>A beam balances on a fulcrum: a heavy weight close in and a light one far out carry equal torque, force times distance from the pivot.</desc>
+<style>
+.a-rock{transform-box:view-box;transform-origin:200px 130px;animation:a-rock 2.5s cubic-bezier(.37,0,.63,1) infinite alternate;transform:rotate(-3deg)}
+@keyframes a-rock{from{transform:rotate(-3deg)}to{transform:rotate(3deg)}}
+</style>
+<path class="f" d="M140,180 H260"/>
+<polygon class="w" points="200,130 172,180 228,180"/>
+<path class="s" d="M200,130 L172,180 H228 Z"/>
+<g class="a-rock">
+<rect class="w" x="113" y="96" width="34" height="34" rx="2"/>
+<rect class="s" x="113" y="96" width="34" height="34" rx="2"/>
+<rect class="w" x="328" y="106" width="24" height="24" rx="2"/>
+<rect class="s" x="328" y="106" width="24" height="24" rx="2"/>
+<path class="s bold" d="M40,130 H360"/>
+<path class="q" d="M130,134 L130,180 M133.1,173.7 L130,180 M126.9,173.7 L130,180"/>
+<path class="q" d="M340,134 L340,157 M343.1,150.7 L340,157 M336.9,150.7 L340,157"/>
+</g>
+<circle class="p" cx="200" cy="130" r="3.5"/>
+<path class="f" d="M130,194 H200 M200,194 H340 M130,189 V199 M200,189 V199 M340,189 V199"/>
+<text class="t" x="165" y="213" text-anchor="middle">r₁</text>
+<text class="t" x="270" y="213" text-anchor="middle">r₂</text>
+<text class="t" x="200" y="62" text-anchor="middle">r₁F₁ = r₂F₂</text>
+</svg>

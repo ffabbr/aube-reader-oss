@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="evolution--phylogenetic-tree" data-discipline="evolution" data-tags="phylogeny,common-ancestor,tree-of-life,speciation,cladogram,descent,lineages">
+<title>Phylogenetic tree of descent</title>
+<desc>A branching tree traces how six species descend from shared ancestors; each fork is a common ancestor, and branch order records how recently lineages split.</desc>
+<style>
+.a-now{animation:a-sweep 10s ease-in-out infinite}
+@keyframes a-sweep{0%,12%{transform:translateX(0)}85%,100%{transform:translateX(262px)}}
+</style>
+<path class="f" d="M42,121.0 H60"/>
+<path class="s" d="M60,79.0 V163.0 M60,79.0 H118 M60,163.0 H104"/>
+<path class="s" d="M118,58.0 V100 M118,58.0 H176 M118,100 H316"/>
+<path class="s" d="M104,142 V184.0 M104,142 H316 M104,184.0 H166"/>
+<path class="s" d="M176,44 V72 M176,44 H316 M176,72 H316"/>
+<path class="s" d="M166,170 V198 M166,170 H316 M166,198 H316"/>
+<circle class="p" cx="60" cy="121" r="3.4"/>
+<circle class="p" cx="118" cy="79" r="3.4"/>
+<circle class="p" cx="104" cy="163" r="3.4"/>
+<circle class="p" cx="176" cy="58" r="3.4"/>
+<circle class="p" cx="166" cy="184" r="3.4"/>
+<circle class="w" cx="322" cy="44" r="4.4"/>
+<circle class="s" cx="322" cy="44" r="4.4"/>
+<circle class="w" cx="322" cy="72" r="4.4"/>
+<circle class="s" cx="322" cy="72" r="4.4"/>
+<circle class="w" cx="322" cy="100" r="4.4"/>
+<circle class="s" cx="322" cy="100" r="4.4"/>
+<circle class="w" cx="322" cy="142" r="4.4"/>
+<circle class="s" cx="322" cy="142" r="4.4"/>
+<circle class="w" cx="322" cy="170" r="4.4"/>
+<circle class="s" cx="322" cy="170" r="4.4"/>
+<circle class="w" cx="322" cy="198" r="4.4"/>
+<circle class="s" cx="322" cy="198" r="4.4"/>
+<path class="f" d="M60,214 H322 m-6,-4 l6,4 l-6,4"/>
+<g class="a-now"><line class="k q" x1="60" y1="38" x2="60" y2="206"/></g>
+<text class="t" x="330" y="218" text-anchor="start">time</text>
+<path class="f hair" d="M184,50.0 L200,34.0"/>
+<text class="t" x="202" y="30" text-anchor="start">common ancestor</text>
+</svg>

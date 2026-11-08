@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="chemistry--water-polarity" data-discipline="chemistry" data-tags="water,polar-molecule,dipole,partial-charge,electronegativity,electric-field">
+<title>Water is a polar molecule</title>
+<desc>A bent water molecule has partial negative charge on oxygen and partial positive on its hydrogens; between charged plates it turns to line up.</desc>
+<style>
+.a-rock{transform-box:view-box;transform-origin:182px 120px;animation:a-rock 5s ease-in-out infinite alternate}
+@keyframes a-rock{from{transform:rotate(-9deg)}to{transform:rotate(9deg)}}
+</style>
+<path class="q bold" d="M52,46 V194"/>
+<path class="q bold" d="M348,46 V194"/>
+<path class="s" d="M36,70 h12 M42,64 v12 M36,170 h12 M42,164 v12"/>
+<path class="s" d="M352,70 h12 M352,170 h12"/>
+<path class="k f" d="M76,44 H322 M316,40 l6,4 l-6,4 M76,196 H322 M316,192 l6,4 l-6,4"/>
+<g class="a-rock">
+<path class="s" d="M182,120 L216.3,75.7 M182,120 L216.3,164.3"/>
+<circle class="w" cx="216.3" cy="75.7" r="14"/><circle class="w" cx="216.3" cy="164.3" r="14"/>
+<circle class="w" cx="182" cy="120" r="24"/>
+<circle class="s" cx="182" cy="120" r="24"/><circle class="s" cx="216.3" cy="75.7" r="14"/><circle class="s" cx="216.3" cy="164.3" r="14"/>
+<text class="t" x="150" y="125" text-anchor="end">δ⁻</text>
+<text class="t" x="236.3" y="77.7" text-anchor="start">δ⁺</text>
+<text class="t" x="236.3" y="166.3" text-anchor="start">δ⁺</text>
+</g>
+<path class="q" d="M262,120 H300 M294,116 l6,4 l-6,4"/>
+</svg>

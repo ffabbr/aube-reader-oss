@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="optics--converging-lens" data-discipline="optics" data-tags="lens,converging-lens,focal-point,real-image,ray-diagram,optics">
+<title>Converging Lens</title>
+<desc>Three rays leave the tip of an arrow, pass a convex lens and meet again at one point, forming an inverted real image beyond the focal point.</desc>
+<style>
+.a-ph{animation:a-ph 5s linear infinite;offset-rotate:0deg}
+@keyframes a-ph{0%{offset-distance:0%;opacity:0}6%{opacity:1}90%{opacity:1}100%{offset-distance:100%;opacity:0}}
+.a-r1{offset-path:path("M90,70 L200,70 L332,202")}
+.a-r2{offset-path:path("M90,70 L332,202")}
+.a-r3{offset-path:path("M90,70 L200,202 L332,202")}
+.a-late{animation-delay:-2.5s}
+</style>
+<line class="f" x1="30" y1="130" x2="370" y2="130"/>
+<path class="w" d="M200,46 Q224,130 200,214 Q176,130 200,46 Z"/>
+<path class="s" d="M200,46 Q224,130 200,214 Q176,130 200,46 Z"/>
+<circle class="pq" cx="140" cy="130" r="2.4"/>
+<circle class="pq" cx="260" cy="130" r="2.4"/>
+<path class="s" d="M90,130 V70 M84,80 L90,70 L96,80"/>
+<path class="q" d="M90,70 L200,70 L332,202"/>
+<path class="q" d="M90,70 L332,202"/>
+<path class="q" d="M90,70 L200,202 L332,202"/>
+<path class="s" d="M332,130 V202 M326,192 L332,202 L338,192"/>
+<g class="a-ph a-r1"><circle class="p" cx="0" cy="0" r="2.4"/></g>
+<g class="a-ph a-r1 a-late"><circle class="p" cx="0" cy="0" r="2.4"/></g>
+<g class="a-ph a-r2"><circle class="p" cx="0" cy="0" r="2.4"/></g>
+<g class="a-ph a-r2 a-late"><circle class="p" cx="0" cy="0" r="2.4"/></g>
+<g class="a-ph a-r3"><circle class="p" cx="0" cy="0" r="2.4"/></g>
+<g class="a-ph a-r3 a-late"><circle class="p" cx="0" cy="0" r="2.4"/></g>
+<text class="t" x="140" y="150" text-anchor="middle">F</text>
+<text class="t" x="260" y="120" text-anchor="middle">F</text>
+<text class="t" x="356" y="164" text-anchor="middle">image</text>
+</svg>

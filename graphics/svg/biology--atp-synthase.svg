@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="biology--atp-synthase" data-discipline="biology" data-tags="atp-synthase,proton-gradient,rotor,atp,mitochondrion,chemiosmosis,enzyme" role="img">
+ <title>ATP synthase</title>
+ <desc>Protons flowing down their gradient through ATP synthase spin its rotor and shaft; the turning head squeezes ADP and phosphate together into ATP.</desc>
+ <style>
+:root{--ink:#110f0c;--quiet:#555350;--faint:#b8b6b2;--wash:#f5f3ef}
+@media (prefers-color-scheme:dark){:root{--ink:#e7e5e2;--quiet:#a3a19e;--faint:#524f4c;--wash:#252321}}
+svg{overflow:visible}
+.s,.q,.f{fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1;stroke-dashoffset:0}
+.s{stroke:var(--ink);stroke-width:1.5}
+.q{stroke:var(--quiet);stroke-width:1.3}
+.f{stroke:var(--faint);stroke-width:1.1}
+.hair{stroke-width:1!important}
+.bold{stroke-width:2.2!important}
+.k{fill:none;stroke-dasharray:5 5!important;stroke-linecap:round}
+.p{fill:var(--ink);stroke:none}
+.pq{fill:var(--quiet);stroke:none}
+.w{fill:var(--wash);stroke:none}
+.t{fill:var(--quiet);stroke:none;font:italic 13px ui-serif,"New York",Georgia,serif}
+.all{animation:out 10s linear infinite}
+@keyframes out{0%,90%{opacity:1}97%,99.9%{opacity:0}100%{opacity:1}}
+@keyframes dr0{0%,0.0%{stroke-dashoffset:1;opacity:0}0.1%{stroke-dashoffset:1;opacity:1}9%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd0{0%,0.0%{opacity:0}7%,100%{opacity:1}}
+@keyframes dr1{0%,2.2%{stroke-dashoffset:1;opacity:0}2.3%{stroke-dashoffset:1;opacity:1}11.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd1{0%,2.2%{opacity:0}9.2%,100%{opacity:1}}
+@keyframes dr2{0%,4.4%{stroke-dashoffset:1;opacity:0}4.5%{stroke-dashoffset:1;opacity:1}13.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd2{0%,4.4%{opacity:0}11.4%,100%{opacity:1}}
+@keyframes dr3{0%,6.6%{stroke-dashoffset:1;opacity:0}6.7%{stroke-dashoffset:1;opacity:1}15.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd3{0%,6.6%{opacity:0}13.6%,100%{opacity:1}}
+@keyframes dr4{0%,8.8%{stroke-dashoffset:1;opacity:0}8.9%{stroke-dashoffset:1;opacity:1}17.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd4{0%,8.8%{opacity:0}15.8%,100%{opacity:1}}
+@keyframes dr5{0%,11.0%{stroke-dashoffset:1;opacity:0}11.1%{stroke-dashoffset:1;opacity:1}20%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd5{0%,11.0%{opacity:0}18%,100%{opacity:1}}
+@keyframes dr6{0%,13.2%{stroke-dashoffset:1;opacity:0}13.3%{stroke-dashoffset:1;opacity:1}22.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd6{0%,13.2%{opacity:0}20.2%,100%{opacity:1}}
+@keyframes dr7{0%,15.4%{stroke-dashoffset:1;opacity:0}15.5%{stroke-dashoffset:1;opacity:1}24.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd7{0%,15.4%{opacity:0}22.4%,100%{opacity:1}}
+@keyframes dr8{0%,17.6%{stroke-dashoffset:1;opacity:0}17.7%{stroke-dashoffset:1;opacity:1}26.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd8{0%,17.6%{opacity:0}24.6%,100%{opacity:1}}
+@keyframes dr9{0%,19.8%{stroke-dashoffset:1;opacity:0}19.9%{stroke-dashoffset:1;opacity:1}28.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd9{0%,19.8%{opacity:0}26.8%,100%{opacity:1}}
+@keyframes dr10{0%,22.0%{stroke-dashoffset:1;opacity:0}22.1%{stroke-dashoffset:1;opacity:1}31%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd10{0%,22.0%{opacity:0}29%,100%{opacity:1}}
+@keyframes dr11{0%,24.2%{stroke-dashoffset:1;opacity:0}24.3%{stroke-dashoffset:1;opacity:1}33.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd11{0%,24.2%{opacity:0}31.2%,100%{opacity:1}}
+@keyframes dr12{0%,26.4%{stroke-dashoffset:1;opacity:0}26.5%{stroke-dashoffset:1;opacity:1}35.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd12{0%,26.4%{opacity:0}33.4%,100%{opacity:1}}
+@keyframes dr13{0%,28.6%{stroke-dashoffset:1;opacity:0}28.7%{stroke-dashoffset:1;opacity:1}37.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd13{0%,28.6%{opacity:0}35.6%,100%{opacity:1}}
+@keyframes dr14{0%,30.8%{stroke-dashoffset:1;opacity:0}30.9%{stroke-dashoffset:1;opacity:1}39.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd14{0%,30.8%{opacity:0}37.8%,100%{opacity:1}}
+@keyframes dr15{0%,33.0%{stroke-dashoffset:1;opacity:0}33.1%{stroke-dashoffset:1;opacity:1}42%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd15{0%,33.0%{opacity:0}40%,100%{opacity:1}}
+.s.i0,.q.i0,.f.i0{animation:dr0 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i1,.q.i1,.f.i1{animation:dr1 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i2,.q.i2,.f.i2{animation:dr2 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i3,.q.i3,.f.i3{animation:dr3 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i4,.q.i4,.f.i4{animation:dr4 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i5,.q.i5,.f.i5{animation:dr5 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i6,.q.i6,.f.i6{animation:dr6 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i7,.q.i7,.f.i7{animation:dr7 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i8,.q.i8,.f.i8{animation:dr8 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i9,.q.i9,.f.i9{animation:dr9 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i10,.q.i10,.f.i10{animation:dr10 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i11,.q.i11,.f.i11{animation:dr11 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i12,.q.i12,.f.i12{animation:dr12 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i13,.q.i13,.f.i13{animation:dr13 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i14,.q.i14,.f.i14{animation:dr14 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i15,.q.i15,.f.i15{animation:dr15 10s cubic-bezier(.55,.05,.25,1) infinite}
+.p.i0,.w.i0,.pq.i0,.t.i0,.k.i0{animation:fd0 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i1,.w.i1,.pq.i1,.t.i1,.k.i1{animation:fd1 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i2,.w.i2,.pq.i2,.t.i2,.k.i2{animation:fd2 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i3,.w.i3,.pq.i3,.t.i3,.k.i3{animation:fd3 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i4,.w.i4,.pq.i4,.t.i4,.k.i4{animation:fd4 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i5,.w.i5,.pq.i5,.t.i5,.k.i5{animation:fd5 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i6,.w.i6,.pq.i6,.t.i6,.k.i6{animation:fd6 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i7,.w.i7,.pq.i7,.t.i7,.k.i7{animation:fd7 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i8,.w.i8,.pq.i8,.t.i8,.k.i8{animation:fd8 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i9,.w.i9,.pq.i9,.t.i9,.k.i9{animation:fd9 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i10,.w.i10,.pq.i10,.t.i10,.k.i10{animation:fd10 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i11,.w.i11,.pq.i11,.t.i11,.k.i11{animation:fd11 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i12,.w.i12,.pq.i12,.t.i12,.k.i12{animation:fd12 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i13,.w.i13,.pq.i13,.t.i13,.k.i13{animation:fd13 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i14,.w.i14,.pq.i14,.t.i14,.k.i14{animation:fd14 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i15,.w.i15,.pq.i15,.t.i15,.k.i15{animation:fd15 10s cubic-bezier(.2,.7,.3,1) infinite}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+ <style>
+.a-rot{animation:a-rot 2.5s ease-in-out infinite alternate}
+@keyframes a-rot{from{transform:translateX(-16px)}to{transform:translateX(16px)}}
+.a-spin{transform-box:view-box;transform-origin:310px 128px;animation:a-spin 5s linear infinite}
+@keyframes a-spin{to{transform:rotate(360deg)}}
+.a-h{animation:a-hf 5s linear infinite}
+.a-h2{animation:a-hf 5s linear infinite;animation-delay:-2.5s}
+@keyframes a-hf{0%{transform:translateY(0);opacity:0}12%{opacity:1}88%{opacity:1}100%{transform:translateY(96px);opacity:0}}
+</style>
+ <g class="all">
+  <path class="q i0" d="M22,99v10M26,99v10M32,99v10M36,99v10M42,99v10M46,99v10M52,99v10M56,99v10M62,99v10M66,99v10M72,99v10M76,99v10M82,99v10M86,99v10M92,99v10M96,99v10M182,99v10M186,99v10M192,99v10M196,99v10M202,99v10M206,99v10M212,99v10M216,99v10M222,99v10M226,99v10M232,99v10M236,99v10M242,99v10M246,99v10M22,121v-10M26,121v-10M32,121v-10M36,121v-10M42,121v-10M46,121v-10M52,121v-10M56,121v-10M62,121v-10M66,121v-10M72,121v-10M76,121v-10M82,121v-10M86,121v-10M92,121v-10M96,121v-10M182,121v-10M186,121v-10M192,121v-10M196,121v-10M202,121v-10M206,121v-10M212,121v-10M216,121v-10M222,121v-10M226,121v-10M232,121v-10M236,121v-10M242,121v-10M246,121v-10" pathLength="1" />
+  <path class="w i0" d="M20,95a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M30,95a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M40,95a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M50,95a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M60,95a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M70,95a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M80,95a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M90,95a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M180,95a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M190,95a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M200,95a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M210,95a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M220,95a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M230,95a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M240,95a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M20,125a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M30,125a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M40,125a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M50,125a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M60,125a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M70,125a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M80,125a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M90,125a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M180,125a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M190,125a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M200,125a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M210,125a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M220,125a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M230,125a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M240,125a4,4 0 1 0 8,0a4,4 0 1 0 -8,0" />
+  <path class="s i1" d="M20,95a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M30,95a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M40,95a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M50,95a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M60,95a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M70,95a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M80,95a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M90,95a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M180,95a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M190,95a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M200,95a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M210,95a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M220,95a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M230,95a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M240,95a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M20,125a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M30,125a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M40,125a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M50,125a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M60,125a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M70,125a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M80,125a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M90,125a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M180,125a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M190,125a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M200,125a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M210,125a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M220,125a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M230,125a4,4 0 1 0 8,0a4,4 0 1 0 -8,0M240,125a4,4 0 1 0 8,0a4,4 0 1 0 -8,0" pathLength="1" />
+  <rect class="w i1" x="104" y="86" width="44" height="46" rx="8" />
+  <rect class="s i2" x="104" y="86" width="44" height="46" rx="8" pathLength="1" />
+  <path class="f hair i2" d="M115,90V128M126,90V128M137,90V128" pathLength="1" />
+  <rect class="w i3" x="152" y="86" width="26" height="46" rx="6" />
+  <rect class="s i3" x="152" y="86" width="26" height="46" rx="6" pathLength="1" />
+  <path class="k f i4" d="M165,88V130" />
+  <path class="s bold i4" d="M126,132V160" pathLength="1" />
+  <ellipse class="w i5" cx="126" cy="182" rx="44" ry="26" />
+  <ellipse class="s i5" cx="126" cy="182" rx="44" ry="26" pathLength="1" />
+  <path class="q i6" d="M111,158C117,173 117,190 111,205M141,158C135,173 135,190 141,205" pathLength="1" />
+  <path class="q i6" d="M170,132C170,144 160,148 156,158" pathLength="1" />
+  <g class="a-rot">
+   <circle class="p i7" cx="126" cy="109" r="2.6" />
+  </g>
+  <g class="a-h">
+   <circle class="p i8" cx="165" cy="48" r="3" />
+  </g>
+  <g class="a-h2">
+   <circle class="p i8" cx="165" cy="48" r="3" />
+  </g>
+  <path class="k f i9" d="M178,176L262,150" />
+  <circle class="w i9" cx="310" cy="107" r="19" />
+  <circle class="w i10" cx="328.2" cy="138.5" r="19" />
+  <circle class="w i10" cx="291.8" cy="138.5" r="19" />
+  <circle class="s i11" cx="310" cy="107" r="19" pathLength="1" />
+  <circle class="s i11" cx="328.2" cy="138.5" r="19" pathLength="1" />
+  <circle class="s i12" cx="291.8" cy="138.5" r="19" pathLength="1" />
+  <g class="a-spin">
+   <path class="s bold i12" d="M310,128V114" pathLength="1" />
+   <circle class="p i13" cx="310" cy="114" r="3" />
+  </g>
+  <circle class="p i13" cx="310" cy="128" r="3.4" />
+  <text class="t i14" x="180" y="54">H⁺</text>
+  <text class="t i14" x="24" y="186">F₁ head</text>
+  <text class="t i15" x="310" y="190" text-anchor="middle">ADP + Pᵢ → ATP</text>
+ </g>
+</svg>

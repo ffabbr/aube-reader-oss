@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="astronomy--planetary-retrograde-motion" data-discipline="astronomy" data-tags="retrograde,planets,mars,orbit,apparent-motion,line-of-sight,kepler" role="img">
+ <title>Planetary retrograde motion</title>
+ <desc>Earth on its inner orbit overtakes Mars; the line of sight through Mars sweeps backward, so against the stars Mars seems to stop, reverse and loop.</desc>
+ <style>
+:root{--ink:#110f0c;--quiet:#555350;--faint:#b8b6b2;--wash:#f5f3ef}
+@media (prefers-color-scheme:dark){:root{--ink:#e7e5e2;--quiet:#a3a19e;--faint:#524f4c;--wash:#252321}}
+svg{overflow:visible}
+.s,.q,.f{fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1;stroke-dashoffset:0}
+.s{stroke:var(--ink);stroke-width:1.5}
+.q{stroke:var(--quiet);stroke-width:1.3}
+.f{stroke:var(--faint);stroke-width:1.1}
+.hair{stroke-width:1!important}
+.bold{stroke-width:2.2!important}
+.k{fill:none;stroke-dasharray:5 5!important;stroke-linecap:round}
+.p{fill:var(--ink);stroke:none}
+.pq{fill:var(--quiet);stroke:none}
+.w{fill:var(--wash);stroke:none}
+.t{fill:var(--quiet);stroke:none;font:italic 13px ui-serif,"New York",Georgia,serif}
+.all{animation:out 10s linear infinite}
+@keyframes out{0%,90%{opacity:1}97%,99.9%{opacity:0}100%{opacity:1}}
+@keyframes dr0{0%,0.0%{stroke-dashoffset:1;opacity:0}0.1%{stroke-dashoffset:1;opacity:1}9%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd0{0%,0.0%{opacity:0}7%,100%{opacity:1}}
+@keyframes dr1{0%,2.2%{stroke-dashoffset:1;opacity:0}2.3%{stroke-dashoffset:1;opacity:1}11.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd1{0%,2.2%{opacity:0}9.2%,100%{opacity:1}}
+@keyframes dr2{0%,4.4%{stroke-dashoffset:1;opacity:0}4.5%{stroke-dashoffset:1;opacity:1}13.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd2{0%,4.4%{opacity:0}11.4%,100%{opacity:1}}
+@keyframes dr3{0%,6.6%{stroke-dashoffset:1;opacity:0}6.7%{stroke-dashoffset:1;opacity:1}15.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd3{0%,6.6%{opacity:0}13.6%,100%{opacity:1}}
+@keyframes dr4{0%,8.8%{stroke-dashoffset:1;opacity:0}8.9%{stroke-dashoffset:1;opacity:1}17.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd4{0%,8.8%{opacity:0}15.8%,100%{opacity:1}}
+@keyframes dr5{0%,11.0%{stroke-dashoffset:1;opacity:0}11.1%{stroke-dashoffset:1;opacity:1}20%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd5{0%,11.0%{opacity:0}18%,100%{opacity:1}}
+@keyframes dr6{0%,13.2%{stroke-dashoffset:1;opacity:0}13.3%{stroke-dashoffset:1;opacity:1}22.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd6{0%,13.2%{opacity:0}20.2%,100%{opacity:1}}
+@keyframes dr7{0%,15.4%{stroke-dashoffset:1;opacity:0}15.5%{stroke-dashoffset:1;opacity:1}24.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd7{0%,15.4%{opacity:0}22.4%,100%{opacity:1}}
+@keyframes dr8{0%,17.6%{stroke-dashoffset:1;opacity:0}17.7%{stroke-dashoffset:1;opacity:1}26.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd8{0%,17.6%{opacity:0}24.6%,100%{opacity:1}}
+@keyframes dr9{0%,19.8%{stroke-dashoffset:1;opacity:0}19.9%{stroke-dashoffset:1;opacity:1}28.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd9{0%,19.8%{opacity:0}26.8%,100%{opacity:1}}
+@keyframes dr10{0%,22.0%{stroke-dashoffset:1;opacity:0}22.1%{stroke-dashoffset:1;opacity:1}31%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd10{0%,22.0%{opacity:0}29%,100%{opacity:1}}
+@keyframes dr11{0%,24.2%{stroke-dashoffset:1;opacity:0}24.3%{stroke-dashoffset:1;opacity:1}33.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd11{0%,24.2%{opacity:0}31.2%,100%{opacity:1}}
+@keyframes dr12{0%,26.4%{stroke-dashoffset:1;opacity:0}26.5%{stroke-dashoffset:1;opacity:1}35.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd12{0%,26.4%{opacity:0}33.4%,100%{opacity:1}}
+@keyframes dr13{0%,28.6%{stroke-dashoffset:1;opacity:0}28.7%{stroke-dashoffset:1;opacity:1}37.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd13{0%,28.6%{opacity:0}35.6%,100%{opacity:1}}
+@keyframes dr14{0%,30.8%{stroke-dashoffset:1;opacity:0}30.9%{stroke-dashoffset:1;opacity:1}39.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd14{0%,30.8%{opacity:0}37.8%,100%{opacity:1}}
+@keyframes dr15{0%,33.0%{stroke-dashoffset:1;opacity:0}33.1%{stroke-dashoffset:1;opacity:1}42%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd15{0%,33.0%{opacity:0}40%,100%{opacity:1}}
+.s.i0,.q.i0,.f.i0{animation:dr0 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i1,.q.i1,.f.i1{animation:dr1 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i2,.q.i2,.f.i2{animation:dr2 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i3,.q.i3,.f.i3{animation:dr3 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i4,.q.i4,.f.i4{animation:dr4 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i5,.q.i5,.f.i5{animation:dr5 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i6,.q.i6,.f.i6{animation:dr6 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i7,.q.i7,.f.i7{animation:dr7 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i8,.q.i8,.f.i8{animation:dr8 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i9,.q.i9,.f.i9{animation:dr9 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i10,.q.i10,.f.i10{animation:dr10 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i11,.q.i11,.f.i11{animation:dr11 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i12,.q.i12,.f.i12{animation:dr12 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i13,.q.i13,.f.i13{animation:dr13 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i14,.q.i14,.f.i14{animation:dr14 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i15,.q.i15,.f.i15{animation:dr15 10s cubic-bezier(.55,.05,.25,1) infinite}
+.p.i0,.w.i0,.pq.i0,.t.i0,.k.i0{animation:fd0 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i1,.w.i1,.pq.i1,.t.i1,.k.i1{animation:fd1 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i2,.w.i2,.pq.i2,.t.i2,.k.i2{animation:fd2 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i3,.w.i3,.pq.i3,.t.i3,.k.i3{animation:fd3 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i4,.w.i4,.pq.i4,.t.i4,.k.i4{animation:fd4 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i5,.w.i5,.pq.i5,.t.i5,.k.i5{animation:fd5 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i6,.w.i6,.pq.i6,.t.i6,.k.i6{animation:fd6 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i7,.w.i7,.pq.i7,.t.i7,.k.i7{animation:fd7 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i8,.w.i8,.pq.i8,.t.i8,.k.i8{animation:fd8 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i9,.w.i9,.pq.i9,.t.i9,.k.i9{animation:fd9 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i10,.w.i10,.pq.i10,.t.i10,.k.i10{animation:fd10 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i11,.w.i11,.pq.i11,.t.i11,.k.i11{animation:fd11 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i12,.w.i12,.pq.i12,.t.i12,.k.i12{animation:fd12 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i13,.w.i13,.pq.i13,.t.i13,.k.i13{animation:fd13 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i14,.w.i14,.pq.i14,.t.i14,.k.i14{animation:fd14 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i15,.w.i15,.pq.i15,.t.i15,.k.i15{animation:fd15 10s cubic-bezier(.2,.7,.3,1) infinite}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+ <style>
+@keyframes a-e{0%{transform:translate(72.35px,137.46px)}2%{transform:translate(72.35px,137.46px)}4%{transform:translate(72.35px,137.46px)}6%{transform:translate(72.35px,137.46px)}8%{transform:translate(72.35px,137.46px)}10%{transform:translate(72.35px,137.46px)}12%{transform:translate(72.35px,137.46px)}14%{transform:translate(72.35px,137.46px)}16%{transform:translate(72.35px,137.46px)}18%{transform:translate(72.35px,137.46px)}20%{transform:translate(72.35px,137.46px)}22%{transform:translate(74.95px,138.5px)}24%{transform:translate(77.64px,139.27px)}26%{transform:translate(80.39px,139.77px)}28%{transform:translate(83.18px,139.99px)}30%{transform:translate(85.98px,139.93px)}32%{transform:translate(88.76px,139.59px)}34%{transform:translate(91.49px,138.98px)}36%{transform:translate(94.15px,138.1px)}38%{transform:translate(96.7px,136.95px)}40%{transform:translate(99.13px,135.56px)}42%{transform:translate(101.41px,133.93px)}44%{transform:translate(103.51px,132.09px)}46%{transform:translate(105.42px,130.04px)}48%{transform:translate(107.11px,127.81px)}50%{transform:translate(108.57px,125.42px)}52%{transform:translate(109.79px,122.9px)}54%{transform:translate(110.75px,120.27px)}56%{transform:translate(111.44px,117.56px)}58%{transform:translate(111.86px,114.8px)}60%{transform:translate(112px,112px)}62%{transform:translate(111.86px,109.2px)}64%{transform:translate(111.44px,106.44px)}66%{transform:translate(110.75px,103.73px)}68%{transform:translate(109.79px,101.1px)}70%{transform:translate(108.57px,98.58px)}72%{transform:translate(107.11px,96.19px)}74%{transform:translate(105.42px,93.96px)}76%{transform:translate(103.51px,91.91px)}78%{transform:translate(101.41px,90.07px)}80%{transform:translate(99.13px,88.44px)}82%{transform:translate(96.7px,87.05px)}84%{transform:translate(94.15px,85.9px)}86%{transform:translate(91.49px,85.02px)}88%{transform:translate(88.76px,84.41px)}90%{transform:translate(85.98px,84.07px)}92%{transform:translate(83.18px,84.01px)}94%{transform:translate(80.39px,84.23px)}96%{transform:translate(77.64px,84.73px)}98%{transform:translate(74.95px,85.5px)}100%{transform:translate(72.35px,86.54px)}}
+@keyframes a-m{0%{transform:translate(126.57px,148.38px)}2%{transform:translate(126.57px,148.38px)}4%{transform:translate(126.57px,148.38px)}6%{transform:translate(126.57px,148.38px)}8%{transform:translate(126.57px,148.38px)}10%{transform:translate(126.57px,148.38px)}12%{transform:translate(126.57px,148.38px)}14%{transform:translate(126.57px,148.38px)}16%{transform:translate(126.57px,148.38px)}18%{transform:translate(126.57px,148.38px)}20%{transform:translate(126.57px,148.38px)}22%{transform:translate(127.83px,146.85px)}24%{transform:translate(129.04px,145.28px)}26%{transform:translate(130.19px,143.67px)}28%{transform:translate(131.28px,142.02px)}30%{transform:translate(132.31px,140.33px)}32%{transform:translate(133.28px,138.6px)}34%{transform:translate(134.19px,136.84px)}36%{transform:translate(135.04px,135.05px)}38%{transform:translate(135.82px,133.23px)}40%{transform:translate(136.54px,131.39px)}42%{transform:translate(137.19px,129.52px)}44%{transform:translate(137.77px,127.63px)}46%{transform:translate(138.29px,125.72px)}48%{transform:translate(138.74px,123.79px)}50%{transform:translate(139.13px,121.85px)}52%{transform:translate(139.44px,119.89px)}54%{transform:translate(139.69px,117.93px)}56%{transform:translate(139.86px,115.96px)}58%{transform:translate(139.97px,113.98px)}60%{transform:translate(140px,112px)}62%{transform:translate(139.97px,110.02px)}64%{transform:translate(139.86px,108.04px)}66%{transform:translate(139.69px,106.07px)}68%{transform:translate(139.44px,104.11px)}70%{transform:translate(139.13px,102.15px)}72%{transform:translate(138.74px,100.21px)}74%{transform:translate(138.29px,98.28px)}76%{transform:translate(137.77px,96.37px)}78%{transform:translate(137.19px,94.48px)}80%{transform:translate(136.54px,92.61px)}82%{transform:translate(135.82px,90.77px)}84%{transform:translate(135.04px,88.95px)}86%{transform:translate(134.19px,87.16px)}88%{transform:translate(133.28px,85.4px)}90%{transform:translate(132.31px,83.67px)}92%{transform:translate(131.28px,81.98px)}94%{transform:translate(130.19px,80.33px)}96%{transform:translate(129.04px,78.72px)}98%{transform:translate(127.83px,77.15px)}100%{transform:translate(126.57px,75.62px)}}
+@keyframes a-s{0%{transform:translate(345.91px,190.55px)}2%{transform:translate(345.91px,190.55px)}4%{transform:translate(345.91px,190.55px)}6%{transform:translate(345.91px,190.55px)}8%{transform:translate(345.91px,190.55px)}10%{transform:translate(345.91px,190.55px)}12%{transform:translate(345.91px,190.55px)}14%{transform:translate(345.91px,190.55px)}16%{transform:translate(345.91px,190.55px)}18%{transform:translate(345.91px,190.55px)}20%{transform:translate(345.91px,190.55px)}22%{transform:translate(349.98px,179.74px)}24%{transform:translate(353.25px,169.49px)}26%{transform:translate(355.79px,159.79px)}28%{transform:translate(357.66px,150.65px)}30%{transform:translate(358.91px,142.07px)}32%{transform:translate(359.56px,134.08px)}34%{transform:translate(359.65px,126.74px)}36%{transform:translate(359.19px,120.09px)}38%{transform:translate(358.21px,114.2px)}40%{transform:translate(356.74px,109.14px)}42%{transform:translate(354.82px,105px)}44%{transform:translate(352.53px,101.85px)}46%{transform:translate(349.98px,99.74px)}48%{transform:translate(347.3px,98.73px)}50%{transform:translate(344.63px,98.81px)}52%{transform:translate(342.15px,99.94px)}54%{transform:translate(340.02px,102.01px)}56%{transform:translate(338.38px,104.87px)}58%{transform:translate(337.35px,108.29px)}60%{transform:translate(337px,112px)}62%{transform:translate(337.35px,115.71px)}64%{transform:translate(338.38px,119.13px)}66%{transform:translate(340.02px,121.99px)}68%{transform:translate(342.15px,124.06px)}70%{transform:translate(344.63px,125.19px)}72%{transform:translate(347.3px,125.27px)}74%{transform:translate(349.98px,124.26px)}76%{transform:translate(352.53px,122.15px)}78%{transform:translate(354.82px,119px)}80%{transform:translate(356.74px,114.86px)}82%{transform:translate(358.21px,109.8px)}84%{transform:translate(359.19px,103.91px)}86%{transform:translate(359.65px,97.26px)}88%{transform:translate(359.56px,89.92px)}90%{transform:translate(358.91px,81.93px)}92%{transform:translate(357.66px,73.35px)}94%{transform:translate(355.79px,64.21px)}96%{transform:translate(353.25px,54.51px)}98%{transform:translate(349.98px,44.26px)}100%{transform:translate(345.91px,33.45px)}}
+@keyframes a-l{0%{transform:translate(72.35px,137.46px) rotate(10.98deg) scale(0.93,1)}2%{transform:translate(72.35px,137.46px) rotate(10.98deg) scale(0.93,1)}4%{transform:translate(72.35px,137.46px) rotate(10.98deg) scale(0.93,1)}6%{transform:translate(72.35px,137.46px) rotate(10.98deg) scale(0.93,1)}8%{transform:translate(72.35px,137.46px) rotate(10.98deg) scale(0.93,1)}10%{transform:translate(72.35px,137.46px) rotate(10.98deg) scale(0.93,1)}12%{transform:translate(72.35px,137.46px) rotate(10.98deg) scale(0.93,1)}14%{transform:translate(72.35px,137.46px) rotate(10.98deg) scale(0.93,1)}16%{transform:translate(72.35px,137.46px) rotate(10.98deg) scale(0.93,1)}18%{transform:translate(72.35px,137.46px) rotate(10.98deg) scale(0.93,1)}20%{transform:translate(72.35px,137.46px) rotate(10.98deg) scale(0.93,1)}22%{transform:translate(74.95px,138.5px) rotate(8.53deg) scale(0.93,1)}24%{transform:translate(77.64px,139.27px) rotate(6.26deg) scale(0.92,1)}26%{transform:translate(80.39px,139.77px) rotate(4.16deg) scale(0.92,1)}28%{transform:translate(83.18px,139.99px) rotate(2.22deg) scale(0.92,1)}30%{transform:translate(85.98px,139.93px) rotate(0.45deg) scale(0.91,1)}32%{transform:translate(88.76px,139.59px) rotate(-1.17deg) scale(0.9,1)}34%{transform:translate(91.49px,138.98px) rotate(-2.61deg) scale(0.89,1)}36%{transform:translate(94.15px,138.1px) rotate(-3.89deg) scale(0.89,1)}38%{transform:translate(96.7px,136.95px) rotate(-4.97deg) scale(0.88,1)}40%{transform:translate(99.13px,135.56px) rotate(-5.86deg) scale(0.86,1)}42%{transform:translate(101.41px,133.93px) rotate(-6.51deg) scale(0.85,1)}44%{transform:translate(103.51px,132.09px) rotate(-6.92deg) scale(0.84,1)}46%{transform:translate(105.42px,130.04px) rotate(-7.06deg) scale(0.82,1)}48%{transform:translate(107.11px,127.81px) rotate(-6.9deg) scale(0.81,1)}50%{transform:translate(108.57px,125.42px) rotate(-6.43deg) scale(0.79,1)}52%{transform:translate(109.79px,122.9px) rotate(-5.64deg) scale(0.78,1)}54%{transform:translate(110.75px,120.27px) rotate(-4.55deg) scale(0.77,1)}56%{transform:translate(111.44px,117.56px) rotate(-3.2deg) scale(0.76,1)}58%{transform:translate(111.86px,114.8px) rotate(-1.65deg) scale(0.75,1)}60%{transform:translate(112px,112px) rotate(0deg) scale(0.75,1)}62%{transform:translate(111.86px,109.2px) rotate(1.65deg) scale(0.75,1)}64%{transform:translate(111.44px,106.44px) rotate(3.2deg) scale(0.76,1)}66%{transform:translate(110.75px,103.73px) rotate(4.55deg) scale(0.77,1)}68%{transform:translate(109.79px,101.1px) rotate(5.64deg) scale(0.78,1)}70%{transform:translate(108.57px,98.58px) rotate(6.43deg) scale(0.79,1)}72%{transform:translate(107.11px,96.19px) rotate(6.9deg) scale(0.81,1)}74%{transform:translate(105.42px,93.96px) rotate(7.06deg) scale(0.82,1)}76%{transform:translate(103.51px,91.91px) rotate(6.92deg) scale(0.84,1)}78%{transform:translate(101.41px,90.07px) rotate(6.51deg) scale(0.85,1)}80%{transform:translate(99.13px,88.44px) rotate(5.86deg) scale(0.86,1)}82%{transform:translate(96.7px,87.05px) rotate(4.97deg) scale(0.88,1)}84%{transform:translate(94.15px,85.9px) rotate(3.89deg) scale(0.89,1)}86%{transform:translate(91.49px,85.02px) rotate(2.61deg) scale(0.89,1)}88%{transform:translate(88.76px,84.41px) rotate(1.17deg) scale(0.9,1)}90%{transform:translate(85.98px,84.07px) rotate(-0.45deg) scale(0.91,1)}92%{transform:translate(83.18px,84.01px) rotate(-2.22deg) scale(0.92,1)}94%{transform:translate(80.39px,84.23px) rotate(-4.16deg) scale(0.92,1)}96%{transform:translate(77.64px,84.73px) rotate(-6.26deg) scale(0.92,1)}98%{transform:translate(74.95px,85.5px) rotate(-8.53deg) scale(0.93,1)}100%{transform:translate(72.35px,86.54px) rotate(-10.98deg) scale(0.93,1)}}
+.a-e{animation:a-e 10s linear infinite}.a-m{animation:a-m 10s linear infinite}
+.a-s{animation:a-s 10s linear infinite}.a-l{transform-box:view-box;transform-origin:0 0;animation:a-l 10s linear infinite}
+</style>
+ <g class="all">
+  <circle class="pq i0" cx="292" cy="40" r="1.3" />
+  <circle class="pq i0" cx="318" cy="26" r="1.3" />
+  <circle class="pq i1" cx="376" cy="44" r="1.3" />
+  <circle class="pq i2" cx="300" cy="92" r="1.3" />
+  <circle class="pq i3" cx="278" cy="150" r="1.3" />
+  <circle class="pq i3" cx="306" cy="188" r="1.3" />
+  <circle class="pq i4" cx="378" cy="176" r="1.3" />
+  <circle class="pq i5" cx="284" cy="66" r="1.3" />
+  <circle class="pq i6" cx="374" cy="96" r="1.3" />
+  <circle class="f i6" cx="84" cy="112" r="56" pathLength="1" />
+  <circle class="f i7" cx="84" cy="112" r="28" pathLength="1" />
+  <circle class="p i8" cx="84" cy="112" r="5.5" />
+  <path class="s i9" d="M345.91,190.55 C346.38,189.34 347.84,185.66 348.72,183.28 C349.59,180.9 350.4,178.56 351.15,176.26 C351.91,173.97 352.6,171.71 353.25,169.49 C353.89,167.28 354.48,165.1 355.02,162.97 C355.56,160.83 356.04,158.74 356.48,156.68 C356.92,154.63 357.31,152.62 357.66,150.65 C358,148.68 358.3,146.75 358.56,144.86 C358.81,142.98 359.02,141.13 359.19,139.34 C359.36,137.54 359.48,135.79 359.56,134.08 C359.65,132.38 359.68,130.72 359.68,129.11 C359.68,127.51 359.64,125.95 359.56,124.44 C359.48,122.94 359.36,121.48 359.19,120.09 C359.03,118.69 358.83,117.35 358.6,116.07 C358.36,114.79 358.08,113.57 357.77,112.42 C357.46,111.26 357.12,110.17 356.74,109.14 C356.36,108.12 355.95,107.16 355.51,106.27 C355.06,105.39 354.59,104.57 354.1,103.84 C353.6,103.1 353.07,102.43 352.53,101.85 C351.99,101.26 351.43,100.75 350.86,100.32 C350.28,99.9 349.69,99.55 349.1,99.28 C348.5,99.02 347.9,98.83 347.3,98.73 C346.7,98.62 346.09,98.6 345.51,98.66 C344.92,98.72 344.34,98.86 343.78,99.07 C343.22,99.28 342.67,99.58 342.15,99.94 C341.64,100.3 341.14,100.73 340.68,101.22 C340.23,101.72 339.8,102.28 339.41,102.89 C339.03,103.5 338.68,104.17 338.38,104.87 C338.08,105.57 337.83,106.33 337.62,107.1 C337.42,107.88 337.26,108.69 337.16,109.51 C337.05,110.32 337,111.17 337,112 C337,112.83 337.05,113.68 337.16,114.49 C337.26,115.31 337.42,116.12 337.62,116.9 C337.83,117.67 338.08,118.43 338.38,119.13 C338.68,119.83 339.03,120.5 339.41,121.11 C339.8,121.72 340.23,122.28 340.68,122.78 C341.14,123.27 341.64,123.7 342.15,124.06 C342.67,124.42 343.22,124.72 343.78,124.93 C344.34,125.14 344.92,125.28 345.51,125.34 C346.09,125.4 346.7,125.38 347.3,125.27 C347.9,125.17 348.5,124.98 349.1,124.72 C349.69,124.45 350.28,124.1 350.86,123.68 C351.43,123.25 351.99,122.74 352.53,122.15 C353.07,121.57 353.6,120.9 354.1,120.16 C354.59,119.43 355.06,118.61 355.51,117.73 C355.95,116.84 356.36,115.88 356.74,114.86 C357.12,113.83 357.46,112.74 357.77,111.58 C358.08,110.43 358.36,109.21 358.6,107.93 C358.83,106.65 359.03,105.31 359.19,103.91 C359.36,102.52 359.48,101.06 359.56,99.56 C359.64,98.05 359.68,96.49 359.68,94.89 C359.68,93.28 359.65,91.62 359.56,89.92 C359.48,88.21 359.36,86.46 359.19,84.66 C359.02,82.87 358.81,81.02 358.56,79.14 C358.3,77.25 358,75.32 357.66,73.35 C357.31,71.38 356.92,69.37 356.48,67.32 C356.04,65.26 355.56,63.17 355.02,61.03 C354.48,58.9 353.89,56.72 353.25,54.51 C352.6,52.29 351.91,50.03 351.15,47.74 C350.4,45.44 349.59,43.1 348.72,40.72 C347.84,38.34 346.38,34.66 345.91,33.45" pathLength="1" />
+  <g class="a-l">
+   <path class="q hair i9" d="M0,0 H300" pathLength="1" />
+  </g>
+  <g class="a-m">
+   <circle class="w i10" r="5.5" />
+   <circle class="s i11" r="5.5" pathLength="1" />
+  </g>
+  <g class="a-e">
+   <circle class="p i12" r="3.6" />
+  </g>
+  <g class="a-s">
+   <circle class="w i12" r="4.5" />
+   <circle class="s i13" r="4.5" pathLength="1" />
+  </g>
+  <text class="t i14" x="24" y="222" text-anchor="start">Earth overtakes Mars</text>
+  <text class="t i15" x="380" y="222" text-anchor="end">Mars seems to turn back</text>
+ </g>
+</svg>

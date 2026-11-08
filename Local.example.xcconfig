@@ -1,0 +1,11 @@
+// Copy this file to Local.xcconfig (ignored by git) and fill in what you need.
+
+// A bundle identifier of your own, and your Apple developer team ID, to sign
+// builds for a device. Neither is needed for the simulator.
+// PRODUCT_BUNDLE_IDENTIFIER = com.yourname.aubereader
+// DEVELOPMENT_TEAM = ABCDE12345
+
+// The app itself takes no key here: it signs in with ChatGPT, or asks for a key
+// on its welcome screen. An OpenAI API key here is read only by the scripts in
+// tools/levels, which write the bundled documents' versions.
+// OPENAI_API_KEY = sk-...

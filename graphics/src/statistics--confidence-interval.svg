@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="statistics--confidence-interval" data-discipline="statistics" data-tags="confidence,sampling,uncertainty,estimation,coverage">
+<title>Confidence interval</title>
+<desc>Ten repeated samples each give an interval around their own estimate; most straddle the dashed true value, and the odd one misses it, which is what 95 percent confidence means.</desc>
+<style>
+@keyframes a-sw{0%{transform:translate(-10px,0px);}100%{transform:translate(10px,0px);}}
+.a-sw0{animation:a-sw 5s ease-in-out infinite alternate;animation-delay:0s}
+.a-sw1{animation:a-sw 5s ease-in-out infinite alternate;animation-delay:-2s}
+.a-sw2{animation:a-sw 2.5s ease-in-out infinite alternate;animation-delay:-1s}
+</style>
+<path class="k q" d="M200,40 V206"/>
+<g class="a-sw0"><path class="q" d="M156,56 H272 M156,52.5 v7 M272,52.5 v7"/>
+<circle class="p" cx="214" cy="56" r="2.5"/></g>
+<g class="a-sw1"><path class="q" d="M110,72 H238 M110,68.5 v7 M238,68.5 v7"/>
+<circle class="p" cx="174" cy="72" r="2.5"/></g>
+<g class="a-sw2"><path class="q" d="M176,88 H284 M176,84.5 v7 M284,84.5 v7"/>
+<circle class="p" cx="230" cy="88" r="2.5"/></g>
+<g class="a-sw0"><path class="q" d="M130,104 H250 M130,100.5 v7 M250,100.5 v7"/>
+<circle class="p" cx="190" cy="104" r="2.5"/></g>
+<g class="a-sw1"><path class="q" d="M162,120 H278 M162,116.5 v7 M278,116.5 v7"/>
+<circle class="p" cx="220" cy="120" r="2.5"/></g>
+<g class="a-sw2"><path class="s" d="M236,136 H348 M236,132.5 v7 M348,132.5 v7"/>
+<circle class="p" cx="292" cy="136" r="2.5"/></g>
+<g class="a-sw0"><path class="q" d="M116,152 H240 M116,148.5 v7 M240,148.5 v7"/>
+<circle class="p" cx="178" cy="152" r="2.5"/></g>
+<g class="a-sw1"><path class="q" d="M174,168 H282 M174,164.5 v7 M282,164.5 v7"/>
+<circle class="p" cx="228" cy="168" r="2.5"/></g>
+<g class="a-sw2"><path class="q" d="M128,184 H256 M128,180.5 v7 M256,180.5 v7"/>
+<circle class="p" cx="192" cy="184" r="2.5"/></g>
+<g class="a-sw0"><path class="q" d="M158,200 H274 M158,196.5 v7 M274,196.5 v7"/>
+<circle class="p" cx="216" cy="200" r="2.5"/></g>
+<text class="t" x="200" y="28" text-anchor="middle">true mean</text>
+<text class="t" x="300" y="123" text-anchor="start">1 in 20 misses</text>
+</svg>

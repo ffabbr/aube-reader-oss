@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="computing--gradient-descent" data-discipline="computing" data-tags="optimization,machine-learning,loss,gradient,convergence">
+<title>Gradient descent</title>
+<desc>A ball steps downhill across the contour lines of a loss surface, zigzagging with shrinking steps toward the minimum, as an optimiser follows the negative gradient.</desc>
+<style>
+.a-ball{animation:a-ball 10s ease-in-out infinite}
+@keyframes a-ball{0%{transform:translate(0,0)}26%{transform:translate(0,0)}32.5%{transform:translate(5.59px,-47.56px)}39%{transform:translate(33.39px,-24.81px)}45.5%{transform:translate(36.53px,-51.56px)}52%{transform:translate(52.17px,-38.77px)}58.5%{transform:translate(53.93px,-53.82px)}65%{transform:translate(62.73px,-46.62px)}71.5%{transform:translate(63.72px,-55.09px)}78%{transform:translate(68.67px,-51.04px)}100%{transform:translate(68.67px,-51.04px)}}
+</style>
+<ellipse class="w" cx="215" cy="118" rx="128" ry="64" transform="rotate(-22 215 118)"/>
+<ellipse class="f" cx="215" cy="118" rx="128" ry="64" transform="rotate(-22 215 118)"/>
+<ellipse class="f" cx="215" cy="118" rx="98" ry="49" transform="rotate(-22 215 118)"/>
+<ellipse class="f" cx="215" cy="118" rx="70" ry="35" transform="rotate(-22 215 118)"/>
+<ellipse class="q" cx="215" cy="118" rx="46" ry="23" transform="rotate(-22 215 118)"/>
+<ellipse class="q" cx="215" cy="118" rx="24" ry="12" transform="rotate(-22 215 118)"/>
+<path class="s" d="M215,118 m-4,0 h8 m-4,-4 v8"/>
+<path class="q" d="M138.69,174.72 L144.28,127.16 L172.08,149.9 L175.22,123.15 L190.85,135.95 L192.62,120.9 L201.42,128.09 L202.41,119.63 L207.36,123.68"/>
+<path class="pq" d="M141.98,127.16 a2.3,2.3 0 1,0 4.6,0 a2.3,2.3 0 1,0 -4.6,0 M169.78,149.9 a2.3,2.3 0 1,0 4.6,0 a2.3,2.3 0 1,0 -4.6,0 M172.92,123.15 a2.3,2.3 0 1,0 4.6,0 a2.3,2.3 0 1,0 -4.6,0 M188.55,135.95 a2.3,2.3 0 1,0 4.6,0 a2.3,2.3 0 1,0 -4.6,0 M190.32,120.9 a2.3,2.3 0 1,0 4.6,0 a2.3,2.3 0 1,0 -4.6,0 M199.12,128.09 a2.3,2.3 0 1,0 4.6,0 a2.3,2.3 0 1,0 -4.6,0 M200.11,119.63 a2.3,2.3 0 1,0 4.6,0 a2.3,2.3 0 1,0 -4.6,0 M205.06,123.68 a2.3,2.3 0 1,0 4.6,0 a2.3,2.3 0 1,0 -4.6,0"/>
+<g class="a-ball"><circle class="w" cx="138.69" cy="174.72" r="8"/><circle class="p" cx="138.69" cy="174.72" r="5"/></g>
+<text class="t" x="200" y="224" text-anchor="middle">θ ← θ − η ∇L</text>
+</svg>

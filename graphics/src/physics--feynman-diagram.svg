@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="physics--feynman-diagram" data-discipline="physics" data-tags="quantum-field-theory,feynman-diagram,electron,photon,scattering,qed">
+<title>Feynman diagram</title>
+<desc>Two electrons approach, trade a virtual photon along a wavy line, and recoil apart. A slice of the present sweeps along the time axis, reading the diagram as a story of one force.</desc>
+<style>
+.a-e1{transform:translate(178px,84px);animation:a-e1 5s linear infinite}
+@keyframes a-e1{0%{transform:translate(52px,44px);opacity:0}5%{transform:translate(52px,44px);opacity:1}39.1%{transform:translate(178px,84px)}85%{transform:translate(348px,44px);opacity:1}92%,100%{transform:translate(348px,44px);opacity:0}}
+.a-e2{transform:translate(222px,156px);animation:a-e2 5s linear infinite}
+@keyframes a-e2{0%{transform:translate(52px,196px);opacity:0}5%{transform:translate(52px,196px);opacity:1}50.9%{transform:translate(222px,156px)}85%{transform:translate(348px,196px);opacity:1}92%,100%{transform:translate(348px,196px);opacity:0}}
+.a-now{transform:translateX(200px);animation:a-now 5s linear infinite}
+@keyframes a-now{0%{transform:translateX(52px);opacity:0}5%{transform:translateX(52px);opacity:1}85%{transform:translateX(348px);opacity:1}92%,100%{transform:translateX(348px);opacity:0}}
+.a-ph{offset-path:path("M178,84 L177.3,85.8 L176.7,87.6 L176.2,89.2 L176,90.7 L176.1,92 L176.5,93.1 L177.3,94 L178.5,94.7 L179.9,95.2 L181.6,95.6 L183.4,95.8 L185.3,96 L187.3,96.2 L189.1,96.4 L190.8,96.8 L192.2,97.3 L193.3,98 L194.1,98.9 L194.6,100 L194.7,101.3 L194.5,102.8 L194,104.4 L193.4,106.2 L192.7,108 L192,109.8 L191.3,111.6 L190.9,113.2 L190.7,114.7 L190.8,116 L191.2,117.1 L192,118 L193.1,118.7 L194.5,119.2 L196.2,119.6 L198.1,119.8 L200,120 L201.9,120.2 L203.8,120.4 L205.5,120.8 L206.9,121.3 L208,122 L208.8,122.9 L209.2,124 L209.3,125.3 L209.1,126.8 L208.7,128.4 L208,130.2 L207.3,132 L206.6,133.8 L206,135.6 L205.5,137.2 L205.3,138.7 L205.4,140 L205.9,141.1 L206.7,142 L207.8,142.7 L209.2,143.2 L210.9,143.6 L212.7,143.8 L214.7,144 L216.6,144.2 L218.4,144.4 L220.1,144.8 L221.5,145.3 L222.7,146 L223.5,146.9 L223.9,148 L224,149.3 L223.8,150.8 L223.3,152.4 L222.7,154.2 L222,156");offset-rotate:0deg;offset-distance:50%;animation:a-ph 5s linear infinite}
+@keyframes a-ph{0%,39.0%{offset-distance:0%;opacity:0}39.1%{offset-distance:0%;opacity:1}50.9%{offset-distance:100%;opacity:1}51.0%,100%{offset-distance:100%;opacity:0}}
+</style>
+<path class="f" d="M150,222 H250 M244,218 L250,222 L244,226"/>
+<path class="s" d="M52,44 L178,84 L348,44"/>
+<path class="s" d="M52,196 L222,156 L348,196"/>
+<path class="s" d="M178,84 L177.3,85.8 L176.7,87.6 L176.2,89.2 L176,90.7 L176.1,92 L176.5,93.1 L177.3,94 L178.5,94.7 L179.9,95.2 L181.6,95.6 L183.4,95.8 L185.3,96 L187.3,96.2 L189.1,96.4 L190.8,96.8 L192.2,97.3 L193.3,98 L194.1,98.9 L194.6,100 L194.7,101.3 L194.5,102.8 L194,104.4 L193.4,106.2 L192.7,108 L192,109.8 L191.3,111.6 L190.9,113.2 L190.7,114.7 L190.8,116 L191.2,117.1 L192,118 L193.1,118.7 L194.5,119.2 L196.2,119.6 L198.1,119.8 L200,120 L201.9,120.2 L203.8,120.4 L205.5,120.8 L206.9,121.3 L208,122 L208.8,122.9 L209.2,124 L209.3,125.3 L209.1,126.8 L208.7,128.4 L208,130.2 L207.3,132 L206.6,133.8 L206,135.6 L205.5,137.2 L205.3,138.7 L205.4,140 L205.9,141.1 L206.7,142 L207.8,142.7 L209.2,143.2 L210.9,143.6 L212.7,143.8 L214.7,144 L216.6,144.2 L218.4,144.4 L220.1,144.8 L221.5,145.3 L222.7,146 L223.5,146.9 L223.9,148 L224,149.3 L223.8,150.8 L223.3,152.4 L222.7,154.2 L222,156"/>
+<polygon class="p" points="128,68.1 115.8,69.4 118.8,60.1"/>
+<polygon class="p" points="269.8,62.4 260,69.7 257.8,60.2"/>
+<polygon class="p" points="152.3,172.4 142.5,179.7 140.3,170.2"/>
+<polygon class="p" points="285.4,176.1 273.2,177.4 276.2,168.1"/>
+<circle class="p" cx="178" cy="84" r="3.4"/>
+<circle class="p" cx="222" cy="156" r="3.4"/>
+<g class="a-now"><path class="k f" d="M0,28 V208"/></g>
+<g class="a-ph"><circle class="pq" cx="0" cy="0" r="4"/></g>
+<g class="a-e1"><circle class="p" cx="0" cy="0" r="4.4"/></g>
+<g class="a-e2"><circle class="p" cx="0" cy="0" r="4.4"/></g>
+<text class="t" x="44" y="40" text-anchor="end">e⁻</text>
+<text class="t" x="44" y="206" text-anchor="end">e⁻</text>
+<text class="t" x="216" y="118" text-anchor="start">γ</text>
+</svg>

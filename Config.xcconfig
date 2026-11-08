@@ -1,0 +1,10 @@
+// Build settings shared by every configuration.
+//
+// To build for your own device, copy Local.example.xcconfig to Local.xcconfig
+// (ignored by git) and fill it in.
+// Anything set there overrides the defaults below.
+
+PRODUCT_BUNDLE_IDENTIFIER = aubereader-oss
+DEVELOPMENT_TEAM =
+
+#include? "Local.xcconfig"

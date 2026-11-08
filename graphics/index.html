@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Graphics</title>
+<style>
+:root{--bg:#fffdfa;--ink:#110f0c;--muted:#8f8c88}
+@media (prefers-color-scheme:dark){:root{--bg:#161513;--ink:#e7e5e2;--muted:#74726f}}
+body{margin:0;padding:40px 32px;background:var(--bg);color:var(--ink);font:14px/1.4 ui-serif,Georgia,serif}
+h1{margin:0 0 32px;font-weight:400;font-size:22px}
+main{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:36px 28px}
+figure{margin:0}
+img{display:block;width:100%;aspect-ratio:5/3}
+figcaption{margin-top:6px;color:var(--muted)}
+</style>
+</head>
+<body>
+<h1>Graphics</h1>
+<main id="grid"></main>
+<script src="index.js"></script>
+<script>
+// Click a drawing to play it again.
+const grid = document.getElementById("grid");
+grid.innerHTML = (window.GRAPHICS || []).map(g =>
+  `<figure><img loading="lazy" src="svg/${g.id}.svg" alt="${g.title}" title="${g.id}"><figcaption>${g.title}</figcaption></figure>`).join("");
+grid.addEventListener("click", e => {
+  if (e.target.tagName === "IMG") e.target.src = e.target.src.split("?")[0] + "?" + Date.now();
+});
+</script>
+</body>
+</html>

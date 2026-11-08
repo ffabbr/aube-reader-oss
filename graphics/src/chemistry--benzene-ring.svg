@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="chemistry--benzene-ring" data-discipline="chemistry" data-tags="benzene,aromatic,delocalisation,pi-electrons,resonance,hexagon">
+<title>Benzene ring with delocalised electrons</title>
+<desc>Six carbons form a flat hexagon; the electrons of its double bonds are not fixed but spread as a ring of charge circling the whole molecule.</desc>
+<style>
+.a-ring{transform-box:view-box;transform-origin:200px 118px;animation:a-spin 10s linear infinite}
+@keyframes a-spin{to{transform:rotate(360deg)}}
+</style>
+<path class="s" d="M200,56 L253.7,87 L253.7,149 L200,180 L146.3,149 L146.3,87Z"/>
+<path class="q" d="M200,56 L200,39 M253.7,87 L268.4,78.5 M253.7,149 L268.4,157.5 M200,180 L200,197 M146.3,149 L131.6,157.5 M146.3,87 L131.6,78.5 "/>
+<circle class="q" cx="200" cy="32" r="7"/><circle class="q" cx="274.5" cy="75" r="7"/><circle class="q" cx="274.5" cy="161" r="7"/><circle class="q" cx="200" cy="204" r="7"/><circle class="q" cx="125.5" cy="161" r="7"/><circle class="q" cx="125.5" cy="75" r="7"/>
+<g class="a-ring"><circle class="k q" cx="200" cy="118" r="38"/><circle class="p" cx="200" cy="80" r="3"/><circle class="p" cx="232.9" cy="137" r="3"/><circle class="p" cx="167.1" cy="137" r="3"/></g>
+<path class="f" d="M238,118 H262"/>
+<text class="t" x="268" y="123" text-anchor="start">π cloud</text>
+<text class="t" x="132" y="123" text-anchor="end">C₆H₆</text>
+</svg>

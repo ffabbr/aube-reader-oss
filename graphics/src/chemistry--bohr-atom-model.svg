@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="chemistry--bohr-atom-model" data-discipline="chemistry" data-tags="atom,electron,orbit,quantised-energy,photon,hydrogen">
+<title>Bohr atom model</title>
+<desc>Electrons circle a nucleus on fixed orbits; when one falls to a lower orbit it emits a photon, so atomic energy comes in discrete steps.</desc>
+<style>
+.a-e1,.a-e2,.a-e3{transform-box:view-box;transform-origin:200px 110px}
+.a-e1{animation:a-spin 5s linear infinite}
+.a-e2{animation:a-spin 10s linear infinite}
+.a-e3{animation:a-spin 10s linear infinite reverse}
+@keyframes a-spin{to{transform:rotate(360deg)}}
+.a-photon{animation:a-photon 2.5s linear infinite;opacity:0}
+@keyframes a-photon{0%{transform:translateX(0);opacity:0}15%{opacity:1}75%{opacity:1}100%{transform:translateX(42px);opacity:0}}
+</style>
+<circle class="f" cx="200" cy="110" r="28"/>
+<circle class="f" cx="200" cy="110" r="56"/>
+<circle class="f" cx="200" cy="110" r="84"/>
+<circle class="w" cx="200" cy="110" r="11"/>
+<circle class="p" cx="200" cy="110" r="7"/>
+<g class="a-e1"><circle class="p" cx="226.3" cy="119.6" r="3.4"/><circle class="p" cx="173.7" cy="100.4" r="3.4"/></g>
+<g class="a-e2"><circle class="p" cx="228" cy="158.5" r="3.4"/><circle class="p" cx="144" cy="110" r="3.4"/><circle class="p" cx="228" cy="61.5" r="3.4"/></g>
+<g class="a-e3"><circle class="p" cx="151.8" cy="41.2" r="3.4"/></g>
+<path class="k s" d="M278.9,81.3 L255,90 M255,90 l7,-0.5 M255,90 l4.5,-5.5"/>
+<g transform="translate(279 81) rotate(-20)"><g class="a-photon"><path class="s" d="M0,0 q3.5,-5 7,0 t7,0 t7,0 t7,0"/></g></g>
+<text class="t" x="318" y="52" text-anchor="middle">hν</text>
+<text class="t" x="200" y="216" text-anchor="middle">Eₙ = −13.6 eV / n²</text>
+</svg>

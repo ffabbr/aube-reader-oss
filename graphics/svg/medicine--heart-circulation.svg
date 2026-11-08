@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="medicine--heart-circulation" data-discipline="medicine" data-tags="heart,circulation,blood,pulmonary,aorta,oxygen,cardiology" role="img">
+ <title>Heart and double circulation</title>
+ <desc>The heart pumps twice in one circuit: spent blood from the body goes through the right heart to the lungs, then returns oxygenated to the left heart and out to the body.</desc>
+ <style>
+:root{--ink:#110f0c;--quiet:#555350;--faint:#b8b6b2;--wash:#f5f3ef}
+@media (prefers-color-scheme:dark){:root{--ink:#e7e5e2;--quiet:#a3a19e;--faint:#524f4c;--wash:#252321}}
+svg{overflow:visible}
+.s,.q,.f{fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1;stroke-dashoffset:0}
+.s{stroke:var(--ink);stroke-width:1.5}
+.q{stroke:var(--quiet);stroke-width:1.3}
+.f{stroke:var(--faint);stroke-width:1.1}
+.hair{stroke-width:1!important}
+.bold{stroke-width:2.2!important}
+.k{fill:none;stroke-dasharray:5 5!important;stroke-linecap:round}
+.p{fill:var(--ink);stroke:none}
+.pq{fill:var(--quiet);stroke:none}
+.w{fill:var(--wash);stroke:none}
+.t{fill:var(--quiet);stroke:none;font:italic 13px ui-serif,"New York",Georgia,serif}
+.all{animation:out 10s linear infinite}
+@keyframes out{0%,90%{opacity:1}97%,99.9%{opacity:0}100%{opacity:1}}
+@keyframes dr0{0%,0.0%{stroke-dashoffset:1;opacity:0}0.1%{stroke-dashoffset:1;opacity:1}9%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd0{0%,0.0%{opacity:0}7%,100%{opacity:1}}
+@keyframes dr1{0%,2.2%{stroke-dashoffset:1;opacity:0}2.3%{stroke-dashoffset:1;opacity:1}11.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd1{0%,2.2%{opacity:0}9.2%,100%{opacity:1}}
+@keyframes dr2{0%,4.4%{stroke-dashoffset:1;opacity:0}4.5%{stroke-dashoffset:1;opacity:1}13.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd2{0%,4.4%{opacity:0}11.4%,100%{opacity:1}}
+@keyframes dr3{0%,6.6%{stroke-dashoffset:1;opacity:0}6.7%{stroke-dashoffset:1;opacity:1}15.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd3{0%,6.6%{opacity:0}13.6%,100%{opacity:1}}
+@keyframes dr4{0%,8.8%{stroke-dashoffset:1;opacity:0}8.9%{stroke-dashoffset:1;opacity:1}17.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd4{0%,8.8%{opacity:0}15.8%,100%{opacity:1}}
+@keyframes dr5{0%,11.0%{stroke-dashoffset:1;opacity:0}11.1%{stroke-dashoffset:1;opacity:1}20%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd5{0%,11.0%{opacity:0}18%,100%{opacity:1}}
+@keyframes dr6{0%,13.2%{stroke-dashoffset:1;opacity:0}13.3%{stroke-dashoffset:1;opacity:1}22.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd6{0%,13.2%{opacity:0}20.2%,100%{opacity:1}}
+@keyframes dr7{0%,15.4%{stroke-dashoffset:1;opacity:0}15.5%{stroke-dashoffset:1;opacity:1}24.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd7{0%,15.4%{opacity:0}22.4%,100%{opacity:1}}
+@keyframes dr8{0%,17.6%{stroke-dashoffset:1;opacity:0}17.7%{stroke-dashoffset:1;opacity:1}26.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd8{0%,17.6%{opacity:0}24.6%,100%{opacity:1}}
+@keyframes dr9{0%,19.8%{stroke-dashoffset:1;opacity:0}19.9%{stroke-dashoffset:1;opacity:1}28.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd9{0%,19.8%{opacity:0}26.8%,100%{opacity:1}}
+@keyframes dr10{0%,22.0%{stroke-dashoffset:1;opacity:0}22.1%{stroke-dashoffset:1;opacity:1}31%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd10{0%,22.0%{opacity:0}29%,100%{opacity:1}}
+@keyframes dr11{0%,24.2%{stroke-dashoffset:1;opacity:0}24.3%{stroke-dashoffset:1;opacity:1}33.2%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd11{0%,24.2%{opacity:0}31.2%,100%{opacity:1}}
+@keyframes dr12{0%,26.4%{stroke-dashoffset:1;opacity:0}26.5%{stroke-dashoffset:1;opacity:1}35.4%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd12{0%,26.4%{opacity:0}33.4%,100%{opacity:1}}
+@keyframes dr13{0%,28.6%{stroke-dashoffset:1;opacity:0}28.7%{stroke-dashoffset:1;opacity:1}37.6%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd13{0%,28.6%{opacity:0}35.6%,100%{opacity:1}}
+@keyframes dr14{0%,30.8%{stroke-dashoffset:1;opacity:0}30.9%{stroke-dashoffset:1;opacity:1}39.8%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd14{0%,30.8%{opacity:0}37.8%,100%{opacity:1}}
+@keyframes dr15{0%,33.0%{stroke-dashoffset:1;opacity:0}33.1%{stroke-dashoffset:1;opacity:1}42%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes fd15{0%,33.0%{opacity:0}40%,100%{opacity:1}}
+.s.i0,.q.i0,.f.i0{animation:dr0 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i1,.q.i1,.f.i1{animation:dr1 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i2,.q.i2,.f.i2{animation:dr2 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i3,.q.i3,.f.i3{animation:dr3 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i4,.q.i4,.f.i4{animation:dr4 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i5,.q.i5,.f.i5{animation:dr5 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i6,.q.i6,.f.i6{animation:dr6 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i7,.q.i7,.f.i7{animation:dr7 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i8,.q.i8,.f.i8{animation:dr8 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i9,.q.i9,.f.i9{animation:dr9 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i10,.q.i10,.f.i10{animation:dr10 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i11,.q.i11,.f.i11{animation:dr11 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i12,.q.i12,.f.i12{animation:dr12 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i13,.q.i13,.f.i13{animation:dr13 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i14,.q.i14,.f.i14{animation:dr14 10s cubic-bezier(.55,.05,.25,1) infinite}
+.s.i15,.q.i15,.f.i15{animation:dr15 10s cubic-bezier(.55,.05,.25,1) infinite}
+.p.i0,.w.i0,.pq.i0,.t.i0,.k.i0{animation:fd0 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i1,.w.i1,.pq.i1,.t.i1,.k.i1{animation:fd1 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i2,.w.i2,.pq.i2,.t.i2,.k.i2{animation:fd2 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i3,.w.i3,.pq.i3,.t.i3,.k.i3{animation:fd3 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i4,.w.i4,.pq.i4,.t.i4,.k.i4{animation:fd4 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i5,.w.i5,.pq.i5,.t.i5,.k.i5{animation:fd5 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i6,.w.i6,.pq.i6,.t.i6,.k.i6{animation:fd6 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i7,.w.i7,.pq.i7,.t.i7,.k.i7{animation:fd7 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i8,.w.i8,.pq.i8,.t.i8,.k.i8{animation:fd8 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i9,.w.i9,.pq.i9,.t.i9,.k.i9{animation:fd9 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i10,.w.i10,.pq.i10,.t.i10,.k.i10{animation:fd10 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i11,.w.i11,.pq.i11,.t.i11,.k.i11{animation:fd11 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i12,.w.i12,.pq.i12,.t.i12,.k.i12{animation:fd12 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i13,.w.i13,.pq.i13,.t.i13,.k.i13{animation:fd13 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i14,.w.i14,.pq.i14,.t.i14,.k.i14{animation:fd14 10s cubic-bezier(.2,.7,.3,1) infinite}
+.p.i15,.w.i15,.pq.i15,.t.i15,.k.i15{animation:fd15 10s cubic-bezier(.2,.7,.3,1) infinite}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+ <style>
+.a-beat{transform-box:view-box;transform-origin:200px 125px;animation:a-beat 1s ease-in-out infinite}
+@keyframes a-beat{0%,60%,100%{transform:scale(1)}20%{transform:scale(1.05)}40%{transform:scale(.97)}}
+.a-d0{offset-path:path("M200,206H110C96,206 88,198 88,184V110C88,100 96,96 106,96H164C172,100 178,116 180,130C186,112 186,96 186,78C186,58 150,56 150,34H200");offset-rotate:0deg;animation:a-along 5s linear infinite;}
+.a-o0{offset-path:path("M200,34H250C250,56 232,60 230,92C228,108 222,122 216,130C210,110 208,92 210,76C212,58 232,52 262,52H296C306,52 314,60 314,70V188C314,198 306,206 296,206H200");offset-rotate:0deg;animation:a-along 5s linear infinite;}
+.a-d1{offset-path:path("M200,206H110C96,206 88,198 88,184V110C88,100 96,96 106,96H164C172,100 178,116 180,130C186,112 186,96 186,78C186,58 150,56 150,34H200");offset-rotate:0deg;animation:a-along 5s linear infinite;animation-delay:-1.67s;}
+.a-o1{offset-path:path("M200,34H250C250,56 232,60 230,92C228,108 222,122 216,130C210,110 208,92 210,76C212,58 232,52 262,52H296C306,52 314,60 314,70V188C314,198 306,206 296,206H200");offset-rotate:0deg;animation:a-along 5s linear infinite;animation-delay:-1.67s;}
+.a-d2{offset-path:path("M200,206H110C96,206 88,198 88,184V110C88,100 96,96 106,96H164C172,100 178,116 180,130C186,112 186,96 186,78C186,58 150,56 150,34H200");offset-rotate:0deg;animation:a-along 5s linear infinite;animation-delay:-3.33s;}
+.a-o2{offset-path:path("M200,34H250C250,56 232,60 230,92C228,108 222,122 216,130C210,110 208,92 210,76C212,58 232,52 262,52H296C306,52 314,60 314,70V188C314,198 306,206 296,206H200");offset-rotate:0deg;animation:a-along 5s linear infinite;animation-delay:-3.33s;}
+@keyframes a-along{0%{offset-distance:0%;opacity:0}8%{opacity:1}92%{opacity:1}100%{offset-distance:100%;opacity:0}}
+</style>
+ <g class="all">
+  <rect class="w i0" x="138" y="20" width="124" height="28" rx="14" />
+  <rect class="w i0" x="138" y="192" width="124" height="28" rx="14" />
+  <path class="q i1" d="M150,206H110C96,206 88,198 88,184V110C88,100 96,96 106,96H164" pathLength="1" />
+  <path class="q i2" d="M216,130C210,110 208,92 210,76C212,58 232,52 262,52H296C306,52 314,60 314,70V188C314,198 306,206 296,206H250" pathLength="1" />
+  <path class="q i2" d="M180,130C186,112 186,96 186,78C186,58 150,56 150,34" pathLength="1" />
+  <path class="q i3" d="M250,34C250,56 232,60 230,92" pathLength="1" />
+  <path class="q hair i4" d="M150,34Q153.5,44 157,34Q160.5,24 164,34Q167.5,44 171,34Q174.5,24 178,34M222,34Q225.5,44 229,34Q232.5,24 236,34Q239.5,44 243,34Q246.5,24 250,34" pathLength="1" />
+  <path class="q hair i4" d="M150,206Q153.5,216 157,206Q160.5,196 164,206Q167.5,216 171,206Q174.5,196 178,206M222,206Q225.5,216 229,206Q232.5,196 236,206Q239.5,216 243,206Q246.5,196 250,206" pathLength="1" />
+  <g class="a-beat">
+   <path class="w i5" d="M198,84C184,64 150,66 144,94C139,122 170,156 214,184C244,158 262,124 256,96C250,66 214,64 198,84Z" />
+   <path class="s i6" d="M198,84C184,64 150,66 144,94C139,122 170,156 214,184C244,158 262,124 256,96C250,66 214,64 198,84Z" pathLength="1" />
+   <path class="s i6" d="M198,84C192,112 198,150 214,184" pathLength="1" />
+   <path class="q i7" d="M142,112H168l6,7M186,119l6,-7H204l6,7M224,119l6,-7H259" pathLength="1" />
+  </g>
+  <g class="a-d0">
+   <circle class="w i8" r="3.2" />
+   <circle class="s i8" r="3.2" pathLength="1" />
+  </g>
+  <g class="a-o0">
+   <circle class="p i9" r="3.2" />
+  </g>
+  <g class="a-d1">
+   <circle class="w i10" r="3.2" />
+   <circle class="s i10" r="3.2" pathLength="1" />
+  </g>
+  <g class="a-o1">
+   <circle class="p i11" r="3.2" />
+  </g>
+  <g class="a-d2">
+   <circle class="w i12" r="3.2" />
+   <circle class="s i12" r="3.2" pathLength="1" />
+  </g>
+  <g class="a-o2">
+   <circle class="p i13" r="3.2" />
+  </g>
+  <text class="t i14" x="200" y="38" text-anchor="middle">lungs</text>
+  <text class="t i14" x="200" y="210" text-anchor="middle">body</text>
+  <text class="t i15" x="322" y="128" text-anchor="start">aorta</text>
+ </g>
+</svg>

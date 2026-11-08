@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" data-id="computing--bubble-sort" data-discipline="computing" data-tags="algorithm,sorting,comparison,swap,array">
+<title>Bubble sort</title>
+<desc>Five bars of different heights are sorted by repeatedly comparing neighbours and swapping those out of order, so the tallest bar bubbles to the right.</desc>
+<style>
+.a-b0{animation:a-b0 10s ease-in-out infinite}
+@keyframes a-b0{0%{transform:translateX(0px)}31.6%{transform:translateX(0px)}35%{transform:translateX(52px)}61.6%{transform:translateX(52px)}65%{transform:translateX(104px)}67.6%{transform:translateX(104px)}71%{transform:translateX(156px)}100%{transform:translateX(156px)}}
+.a-b1{animation:a-b1 10s ease-in-out infinite}
+@keyframes a-b1{0%{transform:translateX(0px)}31.6%{transform:translateX(0px)}35%{transform:translateX(-52px)}73.6%{transform:translateX(-52px)}77%{transform:translateX(0px)}100%{transform:translateX(0px)}}
+.a-b2{animation:a-b2 10s ease-in-out infinite}
+@keyframes a-b2{0%{transform:translateX(0px)}43.6%{transform:translateX(0px)}47%{transform:translateX(52px)}49.6%{transform:translateX(52px)}53%{transform:translateX(104px)}100%{transform:translateX(104px)}}
+.a-b3{animation:a-b3 10s ease-in-out infinite}
+@keyframes a-b3{0%{transform:translateX(0px)}43.6%{transform:translateX(0px)}47%{transform:translateX(-52px)}61.6%{transform:translateX(-52px)}65%{transform:translateX(-104px)}73.6%{transform:translateX(-104px)}77%{transform:translateX(-156px)}100%{transform:translateX(-156px)}}
+.a-b4{animation:a-b4 10s ease-in-out infinite}
+@keyframes a-b4{0%{transform:translateX(0px)}49.6%{transform:translateX(0px)}53%{transform:translateX(-52px)}67.6%{transform:translateX(-52px)}71%{transform:translateX(-104px)}100%{transform:translateX(-104px)}}
+.a-br{animation:a-br 10s ease-in-out infinite}
+@keyframes a-br{0%{transform:translateX(0px)}30%{transform:translateX(0px)}36%{transform:translateX(52px)}42%{transform:translateX(104px)}48%{transform:translateX(156px)}54%{transform:translateX(0px)}60%{transform:translateX(52px)}66%{transform:translateX(104px)}72%{transform:translateX(0px)}78%{transform:translateX(52px)}84%{transform:translateX(0px)}100%{transform:translateX(0px)}}
+</style>
+<path class="f" d="M58,176 H342"/>
+<g class="a-bar a-b0"><path class="w" d="M78,80 h36 v96 h-36 z"/><path class="s" d="M78,80 h36 v96 h-36 z"/></g>
+<g class="a-bar a-b1"><path class="w" d="M130,128 h36 v48 h-36 z"/><path class="s" d="M130,128 h36 v48 h-36 z"/></g>
+<g class="a-bar a-b2"><path class="w" d="M182,56 h36 v120 h-36 z"/><path class="s" d="M182,56 h36 v120 h-36 z"/></g>
+<g class="a-bar a-b3"><path class="w" d="M234,152 h36 v24 h-36 z"/><path class="s" d="M234,152 h36 v24 h-36 z"/></g>
+<g class="a-bar a-b4"><path class="w" d="M286,104 h36 v72 h-36 z"/><path class="s" d="M286,104 h36 v72 h-36 z"/></g>
+<g class="a-br"><path class="q" d="M78,186 v7 h88 v-7"/></g>
+<text class="t" x="200" y="214" text-anchor="middle">swap neighbours that are out of order</text>
+</svg>
